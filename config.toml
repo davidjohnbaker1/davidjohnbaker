@@ -1,4 +1,4 @@
-baseurl = "/" 
+baseurl = "https://davidjohnbaker.netlify.com/" 
 title = "David John Baker"
 copyright = "&copy; 2017 David John Baker"
 theme = "hugo-academic"
