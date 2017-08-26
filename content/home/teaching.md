@@ -1,0 +1,27 @@
++++
+# An example of using the custom widget to create your own homepage section.
+# To create more sections, duplicate this file and edit the values below as desired.
+
+date = "2016-04-20T00:00:00"
+draft = false
+
+title = "Teaching"
+subtitle = ""
+widget = "custom"
+
+# Order that this section will appear in.
+weight = 60
+
++++
+
+I have served as Instructor of Record for the following courses at Louisiana State University:
+
+- MUS1701, Foundations of Music Study
+- MUS3621, Aural Skills IV
+- MUS3622, Aural Skills III
+
+I have served as a graduate assistant for the following courses at Louisiana State University.
+
+- PSY 4111, Intermediate Statistics
+- MUS3622, Music Theory IV
+- MUS3621, Music Theory III

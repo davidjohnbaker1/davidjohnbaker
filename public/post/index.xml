@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on David John Baker</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on David John Baker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 David John Baker</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/post/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hello, World!</title>
+      <link>/post/2017-08-26-hello-world/</link>
+      <pubDate>Sat, 26 Aug 2017 13:09:13 -0600</pubDate>
+      
+      <guid>/post/2017-08-26-hello-world/</guid>
+      <description>&lt;p&gt;Hello, world!&lt;/p&gt;
+
+&lt;p&gt;This is my first blog post on my fresh, new website.
+I&amp;rsquo;ve been off the world of blogging for quite some time, but will hopefully be populating this site with all things music and science in the near future.
+I&amp;rsquo;d like to create content relevant to what it&amp;rsquo;s like to do research in music science and help anyone out that is interested in learning more about anything from graduate school life, to computational musicology, to music psychology.&lt;/p&gt;
+
+&lt;p&gt;Thanks again for visiting for now and hope to see you soon!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>David John Baker on David John Baker</title>
+    <link>/</link>
+    <description>Recent content in David John Baker on David John Baker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 David John Baker</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Modeling Performance on Aural Skills Examinations</title>
+      <link>/talk/example-talk/</link>
+      <pubDate>Mon, 11 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/example-talk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hello, World!</title>
+      <link>/post/2017-08-26-hello-world/</link>
+      <pubDate>Sat, 26 Aug 2017 13:09:13 -0600</pubDate>
+      
+      <guid>/post/2017-08-26-hello-world/</guid>
+      <description>&lt;p&gt;Hello, world!&lt;/p&gt;
+
+&lt;p&gt;This is my first blog post on my fresh, new website.
+I&amp;rsquo;ve been off the world of blogging for quite some time, but will hopefully be populating this site with all things music and science in the near future.
+I&amp;rsquo;d like to create content relevant to what it&amp;rsquo;s like to do research in music science and help anyone out that is interested in learning more about anything from graduate school life, to computational musicology, to music psychology.&lt;/p&gt;
+
+&lt;p&gt;Thanks again for visiting for now and hope to see you soon!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Perception of Leitmotives in Richard Wagner&#39;s Der Ring des Nibelungen</title>
+      <link>/publication/wagner-frontiers/</link>
+      <pubDate>Thu, 04 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/wagner-frontiers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
+      
+      <guid>/about/</guid>
+      <description>&lt;p&gt;This is a &amp;ldquo;hello world&amp;rdquo; example website for the &lt;a href=&#34;https://github.com/rstudio/blogdown&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;blogdown&lt;/strong&gt;&lt;/a&gt; package. The theme was forked from &lt;a href=&#34;https://github.com/jrutheiser/hugo-lithium-theme&#34; target=&#34;_blank&#34;&gt;@jrutheiser/hugo-lithium-theme&lt;/a&gt; and modified by &lt;a href=&#34;https://github.com/yihui/hugo-lithium-theme&#34; target=&#34;_blank&#34;&gt;Yihui Xie&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Computational Musicology</title>
+      <link>/project/music-and-memory/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/music-and-memory/</guid>
+      <description>&lt;p&gt;As a music researcher, most of my projects orbit around the idea of music and memory.&lt;/p&gt;
+
+&lt;p&gt;MORE CONTENT HERE. ALSO FIND NEW PICTURE.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Music Cognition and Computation Lab</title>
+      <link>/project/lsu-lab-external/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/lsu-lab-external/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Music and Memory</title>
+      <link>/project/computational-musicology/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/computational-musicology/</guid>
+      <description>&lt;p&gt;As a music researcher, most of my projects orbit around the idea of music and memory.&lt;/p&gt;
+
+&lt;p&gt;MORE CONTENT HERE. ALSO FIND NEW PICTURE.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Recognition of Leitmotives in Richard Wagner’s Music: An Item Response Theory Approach</title>
+      <link>/publication/wagner-irt/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/wagner-irt/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
