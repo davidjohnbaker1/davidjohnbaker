@@ -43,5 +43,5 @@ weight = 1
 
 David John Baker is a PhD student in Music Theory with a minor in Cognitive and Brain Sciences at Louisiana State University.
 He currently works in the Music Cogniton and Computation Lab with Dr. Daniel Shanahan and Dr. Emily Elliott investigating how musical perception can be influenced by both musical structures, as well as individual differences.
-His work has been funded by both the UK's Arts and Humanities Research Council, as well as by both the music and psychology departments at Louisiana State University.
+His work has been funded by the UK’s Arts and Humanities Research Council, and the Music and Psychology departments at Louisiana State University.
 
