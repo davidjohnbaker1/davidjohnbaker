@@ -3,13 +3,13 @@
 date = "2016-04-27"
 
 # Project title.
-title = "Music and Memory"
+title = "Computational Musicology"
 
 # Project summary to display on homepage.
-summary = "My main research interest is investigating what individual and musical factors contribute to how an someone learns and remembers a melody. Not only do findings in this area have relevance for music perception, but they also have major implications for how aural skills are taught at the conservatory level of music education."
+summary = "Computational Musicology involves using computers to digitize musical data and then using powerful software to search through massive amounts of data that would be unfeasible to do by hand. I am particularly interested in using symbolic data to extract information from melodies that can be used to predict how well melodies are remembered and creating new data sets that others can use."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "bubbles.jpg"
+image_preview = "bach-kern.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
@@ -23,7 +23,7 @@ math = false
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "headers/bubbles-wide.jpg"
+image = "bach-kern.png"
 caption = " "
 
 +++
