@@ -12,10 +12,10 @@
     
     <item>
       <title>Modeling Performance on Aural Skills Examinations</title>
-      <link>/talk/example-talk/</link>
+      <link>/talk/yboa-aural-2017/</link>
       <pubDate>Mon, 11 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/talk/example-talk/</guid>
+      <guid>/talk/yboa-aural-2017/</guid>
       <description></description>
     </item>
     
@@ -36,11 +36,68 @@ I&amp;rsquo;d like to create content relevant to what it&amp;rsquo;s like to do 
     </item>
     
     <item>
+      <title>The Modeling and Perception of Melodic Similarity in Jazz Improvisation</title>
+      <link>/talk/smpc-similarity-2017/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/smpc-similarity-2017/</guid>
+      <description>&lt;p&gt;Poster presented at the Society for Music Perception and Cognition, 2017&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Validating the Goldsmiths Musical Sophistication Index in a Sample of American Participants</title>
+      <link>/talk/smpc-gold-2017/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/smpc-gold-2017/</guid>
+      <description>&lt;p&gt;Poster presented at the Society for Music Perception and Cognition, 2017&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Relational Network Approach to Rock Music Syntax</title>
+      <link>/talk/smpc-rock-2017/</link>
+      <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/smpc-rock-2017/</guid>
+      <description>&lt;p&gt;Poster presented at the Society for Music Perception and Cognition, 2017&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Perception of Leitmotives in Richard Wagner&#39;s Der Ring des Nibelungen</title>
       <link>/publication/wagner-frontiers/</link>
       <pubDate>Thu, 04 May 2017 00:00:00 +0000</pubDate>
       
       <guid>/publication/wagner-frontiers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Matching Music to Brand Personality: A Semantic Differential Tool for Measuring Emotional Space</title>
+      <link>/publication/matching-music-to-brand/</link>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/matching-music-to-brand/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Music, animacy, and rubato: what makes music sound human?</title>
+      <link>/publication/animacy-proceedings/</link>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/animacy-proceedings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Role of Idiomaticism and Affordances in Bebop Improvisation</title>
+      <link>/publication/bebop-proceedings/</link>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/bebop-proceedings/</guid>
       <description></description>
     </item>
     
@@ -60,9 +117,12 @@ I&amp;rsquo;d like to create content relevant to what it&amp;rsquo;s like to do 
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/project/computational-musicology/</guid>
-      <description>&lt;p&gt;As a music researcher, most of my projects orbit around the idea of music and memory.&lt;/p&gt;
+      <description>&lt;p&gt;Computational Musicology involves using computers to digitize musical data and then using powerful software to search through massive amounts of data that would be unfeasible to do by hand. I am particularly interested in using symbolic data to extract information from melodies that can be used to predict how well melodies are remembered and creating new data sets that others can use.&lt;/p&gt;
 
-&lt;p&gt;MORE CONTENT HERE. ALSO FIND NEW PICTURE.&lt;/p&gt;
+&lt;p&gt;One project involving creating new datasets involves curating a dataset of improvised jazz solos.
+In its current state, the corpus is encoded in **kern and has solos from Charlie Parker (~70), Clifford Brown (~80), as well as Dizzy Gillespie (~10).
+We are in the process of including data from Miles Davis, John Coltrane, as well as other artists.
+Though not publicly availible yet, the dataset will have both melodic as well as harmonic information and be easily indexed using the &lt;a href=&#34;http://www.humdrum.org/&#34; target=&#34;_blank&#34;&gt;Humdrum&lt;/a&gt; tool kit.&lt;/p&gt;
 </description>
     </item>
     
@@ -93,6 +153,15 @@ I&amp;rsquo;d like to create content relevant to what it&amp;rsquo;s like to do 
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>/publication/wagner-irt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Music, Brands, &amp; Advertising: Testing What Works</title>
+      <link>/publication/aba-2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/aba-2015/</guid>
       <description></description>
     </item>
     

@@ -16,7 +16,6 @@ weight = 1
     "Computational Musicology",
     "Corpus Studies",
     "Aural Skills",
-    "Open and Reproducible Science",
     "R",
     "Music Industry"
   ]
