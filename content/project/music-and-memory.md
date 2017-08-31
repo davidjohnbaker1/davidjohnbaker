@@ -6,7 +6,7 @@ date = "2016-04-27"
 title = "Music and Memory"
 
 # Project summary to display on homepage.
-summary = "My main research interest is investigating what individual and musical factors contribute to how someone learns and remembers a melody. Not only do findings in this area have relevance for music perception, but they also have  implications for how aural skills are taught at the conservatory level of music education."
+summary = "How do we learn to hear melodies?"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "bubbles.jpg"
@@ -28,6 +28,4 @@ caption = " "
 
 +++
 
-As a music researcher, most of my projects orbit around the idea of music and memory.
-
-MORE CONTENT HERE. ALSO FIND NEW PICTURE. 
+My main research interest is investigating what individual and musical factors contribute to how someone learns and remembers a melody. Not only do findings in this area have relevance for music perception, but they also have  implications for how aural skills are taught at the conservatory level of music education.
