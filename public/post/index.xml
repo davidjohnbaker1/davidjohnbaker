@@ -11,6 +11,46 @@
     <atom:link href="/post/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Looking for Musicologists on Twitter</title>
+      <link>/post/2017-11-15-counting-amsmt-tweets/</link>
+      <pubDate>Wed, 15 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2017-11-15-counting-amsmt-tweets/</guid>
+      <description>&lt;p&gt;For the most part, Twitter is full of garbage.
+But I&amp;rsquo;m an optimist and a firm believer in &lt;a href=&#34;https://en.wikipedia.org/wiki/Sturgeon%27s_law&#34; target=&#34;_blank&#34;&gt;Sturgeon&amp;rsquo;s Law&lt;/a&gt; so by that logic there must be some good on it.
+That good is academic twitter.&lt;/p&gt;
+
+&lt;p&gt;While this is not a post meaning to talk about how great academic twitter is, I did want to write a quick post to
+1. see if I could write a blog post using blogdown&amp;rsquo;s markdown and
+2. share how I scraped twitter to find active users in the Musicology and Music Theory community&lt;/p&gt;
+
+&lt;p&gt;So here it goes&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;The first thing that you have to do is get some tweets.
+Luckily there are some great packages out there in the #rstats world that can help with this.
+For this project I used the &lt;a href=&#34;https://cran.r-project.org/web/packages/twitteR/twitteR.pdf&#34; target=&#34;_blank&#34;&gt;twitteR&lt;/a&gt; package which lets you log into Twitter&amp;rsquo;s API.
+There are already some great instructions on how to get started with it that you can find &lt;a href=&#34;https://davetang.org/muse/2013/04/06/using-the-r_twitter-package/&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;, so I won&amp;rsquo;t go into tons of detail about some of that code is doing.
+Also you can&amp;rsquo;t just copy and paste my code since it requires credentials from your own Twitter account.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Looking for Musicologists on Twitter</title>
+      <link>/post/looking-for-musicologists-on-twitter/</link>
+      <pubDate>Wed, 15 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/looking-for-musicologists-on-twitter/</guid>
+      <description>&lt;p&gt;For the most part, Twitter is full of garbage. But I’m an optimist and a firm believer in &lt;a href=&#34;https://en.wikipedia.org/wiki/Sturgeon%27s_law&#34;&gt;Sturgeon’s Law&lt;/a&gt; so by that logic there must be some good on it. That good is academic twitter.&lt;/p&gt;
+&lt;p&gt;While this is not a post meaning to talk about how great academic twitter is, I did want to write a quick post to 1. see if I could write a blog post using blogdown’s markdown and 2. share how I scraped twitter to find active users in the Musicology and Music Theory community&lt;/p&gt;
+&lt;p&gt;So here it goes…&lt;/p&gt;
+&lt;p&gt;The first thing that you have to do is get some tweets. Luckily there are some great packages out there in the #rstats world that can help with this. For this project I used the &lt;a href=&#34;https://cran.r-project.org/web/packages/twitteR/twitteR.pdf&#34;&gt;twitteR&lt;/a&gt; package which lets you log into Twitter’s API. There are already some great instructions on how to get started with it that you can find &lt;a href=&#34;https://davetang.org/muse/2013/04/06/using-the-r_twitter-package/&#34;&gt;here&lt;/a&gt;, so I won’t go into tons of detail about some of that code is doing. Also you can’t just copy and paste my code since it requires credentials from your own Twitter account.&lt;/p&gt;
+&lt;p&gt;Let’s first load the two packages we’ll need&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(data.table)
+library(twitteR)&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Hello, World!</title>
       <link>/post/2017-08-26-hello-world/</link>
       <pubDate>Sat, 26 Aug 2017 13:09:13 -0600</pubDate>
