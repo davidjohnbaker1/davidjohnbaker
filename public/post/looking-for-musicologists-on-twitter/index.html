@@ -39,11 +39,11 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="/post/2017-08-26-hello-world/">
+  <link rel="canonical" href="/post/looking-for-musicologists-on-twitter/">
 
   
 
-  <title>Hello, World! | David John Baker</title>
+  <title>Looking For Musicologists on Twitter | David John Baker</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -156,19 +156,25 @@
 
 
   <div class="article-container">
-    <h1 itemprop="name">Hello, World!</h1>
+    <h1 itemprop="name">Looking For Musicologists on Twitter</h1>
     
 
 <div class="article-metadata">
 
   <span class="article-date">
-    <time datetime="2017-08-26 13:09:13 -0600 -0600" itemprop="datePublished">
-      Sat, Aug 26, 2017
+    <time datetime="2017-11-16 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Thu, Nov 16, 2017
     </time>
   </span>
 
   
+  
+  
+  
 
+  
+  
+  
   
 
   
@@ -177,35 +183,35 @@
   <ul class="share">
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=%2fpost%2f2017-08-26-hello-world%2f"
+         href="https://www.facebook.com/sharer.php?u=%2fpost%2flooking-for-musicologists-on-twitter%2f"
          target="_blank">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Hello%2c%20World%21&amp;url=%2fpost%2f2017-08-26-hello-world%2f"
+         href="https://twitter.com/intent/tweet?text=Looking%20For%20Musicologists%20on%20Twitter&amp;url=%2fpost%2flooking-for-musicologists-on-twitter%2f"
          target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpost%2f2017-08-26-hello-world%2f&amp;title=Hello%2c%20World%21"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpost%2flooking-for-musicologists-on-twitter%2f&amp;title=Looking%20For%20Musicologists%20on%20Twitter"
          target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=%2fpost%2f2017-08-26-hello-world%2f&amp;title=Hello%2c%20World%21"
+         href="http://service.weibo.com/share/share.php?url=%2fpost%2flooking-for-musicologists-on-twitter%2f&amp;title=Looking%20For%20Musicologists%20on%20Twitter"
          target="_blank">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Hello%2c%20World%21&amp;body=%2fpost%2f2017-08-26-hello-world%2f">
+         href="mailto:?subject=Looking%20For%20Musicologists%20on%20Twitter&amp;body=%2fpost%2flooking-for-musicologists-on-twitter%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -218,13 +224,46 @@
 </div>
 
     <div class="article-style" itemprop="articleBody">
-      <p>Hello, world!</p>
+      <p>For the most part, Twitter is full of garbage. But I’m an optimist and a firm believer in <a href="https://en.wikipedia.org/wiki/Sturgeon%27s_law">Sturgeon’s Law</a> so by that logic there must be some good on it. That good is academic twitter.</p>
+<p>While this isn’t a post evangelizing for academic Twitter, I did want to<br />
+1. see if I could figure out if I could write a post with some R code in it and 2. share how I scraped Twitter to find active users in the Musicology and Music Theory community in case anyone else wants to try their hand at it.</p>
+<p>So here it goes…</p>
+<p>The first thing that you have to do is get some tweets. Luckily there are some packages out there in the #rstats world that can help with this. For this project I used the <a href="https://cran.r-project.org/web/packages/twitteR/twitteR.pdf">twitteR</a> package which lets you log into Twitter’s API and search Twitter with R. There are already some instructions on how to get started with it that you can find <a href="https://davetang.org/muse/2013/04/06/using-the-r_twitter-package/">here</a>, so I won’t go into tons of detail about setting it up. (Also just note you can’t just copy and paste my code verbatim since it requires credentials from <em>your</em> own Twitter account)</p>
+<p>Let’s first load the two packages we’ll need.</p>
+<pre class="r"><code>library(data.table)
+library(twitteR)</code></pre>
+<p>Next up, we need to access Twitter’s API by entering in the details from the link above. I find it’s easiest to copy and paste each of my keys and tokens into a nice little character string, assign those to an object, then call those objects in the last command in this block.</p>
+<pre class="r"><code>consumer_key &lt;- &#39;YOUR CONSUMER KEY HERE&#39;
+consumer_secret &lt;- &#39;COPY AND PASTE YOUR CONSUMER SECRET HERE&#39;
+access_token &lt;- &#39;THEN PUT YOUR ACCESS TOKEN HERE&#39;
+access_secret &lt;- &#39;AND YOUR ACCESS SECRET HERE&#39;
+setup_twitter_oauth(consumer_key, consumer_secret, access_token=NULL, access_secret=NULL)</code></pre>
+<p>Running that last line in the chunk should then direct you to your default browser where it will then log into your Twitter account and ask you if it’s OK for R to enter Twitter through the back door.</p>
+<p>The next bit of code won’t run the way I have it set up because Twitter doesn’t let you download tweets older than a week old. So if you want to play with tweets from a conference’s hashtag or some event, make sure to think ahead to download them!!</p>
+<pre class="r"><code>amsTwitter &lt;- twitteR::searchTwitter(&quot;#smt2017&quot;, n = 700)
+amsTwitter &lt;- twitteR::searchTwitter(&quot;#amsroc17&quot;, n = 1600)</code></pre>
+<p>This line above searches Twitter for anything matching the conference hashtags and saves the output of it in a list. You can also include an argument asking for a certain number of tweets, which I’ve also done. Luckily the twitteR package has a function that will take this list and convert it to a nice data frame.</p>
+<pre class="r"><code>amsTwitter.df &lt;- twListToDF(amsTwitter)
+smtTwitter.df &lt;- twListToDF(smtTwitter)</code></pre>
+<p>Now with two nice data frames, we’ll soon be able to join them together and count up some tweets! In order to use this we can take advantage of the powerful <a href="https://cran.r-project.org/web/packages/data.table/vignettes/datatable-intro.html">data.table</a> package to join our two tables together. Shout out to <a href="https://gormanalysis.com/">Gorm Analytics</a> for introducing me to data.table and helping me learn it!</p>
+<pre class="r"><code>amsTwitter.dt &lt;- data.table(amsTwitter.df)
+smtTwitter.dt &lt;- data.table(smtTwitter.df)
+amstweets &lt;- amsTwitter.dt[, .(amsTweets = .N), by=screenName][order(-amsTweets)]
+smttweets &lt;- smtTwitter.dt[, .(smtTweets = .N), by=screenName][order(-smtTweets)]
+totalTweets &lt;- merge(smttweets,amstweets, on =&quot;screenName&quot;, all = TRUE)</code></pre>
+<p>The first thing the above code does is swap our data frames over to data.tables. Once they are in the data.table format, we can count up the tweets by screen name, then list them from biggest to smallest all in the same line. From there we merge the two together via the shared column, making sure to grab every instance since not every Tweeter tweeted with both hashtags.</p>
+<p>We then need to clean up some of the NAs in our bigger dataset with R’s ifelse() function that basically works exactly like an if else statement would in Microsoft Excel. It looks over a column in your dataset, checks if a value is an NA, if it is then it gives it a 0, if not, it just puts in the value that was there in the first place. After replacing NAs, I then make a new variable that adds together both columns then run our final line that prints out our final dataset from top to bottom.</p>
+<pre class="r"><code>totalTweets$smtTweets &lt;- ifelse(test = is.na(totalTweets$smtTweets),
+                                yes = 0,
+                                no = totalTweets$smtTweets) 
+totalTweets$amsTweets &lt;- ifelse(test = is.na(totalTweets$amsTweets),
+                                yes = 0,
+                                no = totalTweets$amsTweets) 
 
-<p>This is my first blog post on my fresh, new website.
-I&rsquo;ve been off the world of blogging for quite some time, but will hopefully be populating this site with all things music and science in the near future.
-I&rsquo;d like to create content relevant to what it&rsquo;s like to do research in music science and help anyone out who is interested in learning more about anything from graduate school life, to computational musicology, to music psychology.</p>
-
-<p>Thanks again for visiting for now and hope to see you soon!</p>
+totalTweets[, TotalTweets := smtTweets + amsTweets]
+totalTweets[order(-TotalTweets)]</code></pre>
+<p>From here it was just a matter of using some online converter to turn it into an html file and then ssh’ing it up to our <a href="musiccog.lsu.edu/">Music Cognition at LSU</a> server!</p>
+<p>If anyone has any questions on this, please let me know!</p>
 
     </div>
   </div>
@@ -235,10 +274,10 @@ I&rsquo;d like to create content relevant to what it&rsquo;s like to do research
   <nav>
   <ul class="pager">
     
-
+    <li class="previous"><a href="/post/2017-08-26-hello-world/"><span
+      aria-hidden="true">&larr;</span> Hello, World!</a></li>
     
-    <li class="next"><a href="/post/looking-for-musicologists-on-twitter/">Looking For Musicologists on Twitter <span
-      aria-hidden="true">&rarr;</span></a></li>
+
     
   </ul>
 </nav>

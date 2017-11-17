@@ -1,39 +1,38 @@
 ---
-title: Looking for Musicologists on Twitter
-author: ~
-date: '2017-11-15'
+title: Looking For Musicologists on Twitter
+author: Dave
+date: '2017-11-16'
 slug: looking-for-musicologists-on-twitter
 categories: []
 tags: []
 ---
 
-
 For the most part, Twitter is full of garbage.
 But I'm an optimist and a firm believer in [Sturgeon's Law](https://en.wikipedia.org/wiki/Sturgeon%27s_law) so by that logic there must be some good on it.
 That good is academic twitter.
 
-While this is not a post meaning to talk about how great academic twitter is, I did want to write a quick post to 
-1. see if I could write a blog post using blogdown's markdown and
-2. share how I scraped twitter to find active users in the Musicology and Music Theory community
+While this isn't a post evangelizing for academic Twitter, I did want to  
+ 1. see if I could figure out if I could write a post with some R code in it and
+ 2. share how I scraped Twitter to find active users in the Musicology and Music Theory community in case anyone else wants to try their hand at it.
 
 So here it goes...
 
 The first thing that you have to do is get some tweets.
-Luckily there are some great packages out there in the #rstats world that can help with this.
-For this project I used the [twitteR](https://cran.r-project.org/web/packages/twitteR/twitteR.pdf) package which lets you log into Twitter's API.
-There are already some great instructions on how to get started with it that you can find [here](https://davetang.org/muse/2013/04/06/using-the-r_twitter-package/), so I won't go into tons of detail about some of that code is doing.
-Also you can't just copy and paste my code since it requires credentials from your own Twitter account.
+Luckily there are some packages out there in the #rstats world that can help with this.
+For this project I used the [twitteR](https://cran.r-project.org/web/packages/twitteR/twitteR.pdf) package which lets you log into Twitter's API and search Twitter with R.
+There are already some instructions on how to get started with it that you can find [here](https://davetang.org/muse/2013/04/06/using-the-r_twitter-package/), so I won't go into tons of detail about setting it up.
+(Also just note you can't just copy and paste my code verbatim since it requires credentials from *your* own Twitter account)
 
 Let's first load the two packages we'll need.
-```{r}
+```{r, eval=FALSE}
 library(data.table)
 library(twitteR)
 ```
 
 Next up, we need to access Twitter's API by entering in the details from the link above.
-I find it's easiest to copy and paste each of my keys and tokens into a nice little character string, assign those to an object, then later with the line that lets R access your Twitter account
+I find it's easiest to copy and paste each of my keys and tokens into a nice little character string, assign those to an object, then call those objects in the last command in this block.
 
-```{r}
+```{r, eval=FALSE}
 consumer_key <- 'YOUR CONSUMER KEY HERE'
 consumer_secret <- 'COPY AND PASTE YOUR CONSUMER SECRET HERE'
 access_token <- 'THEN PUT YOUR ACCESS TOKEN HERE'
@@ -46,27 +45,26 @@ Running that last line in the chunk should then direct you to your default brows
 The next bit of code won't run the way I have it set up because Twitter doesn't let you download tweets older than a week old.
 So if you want to play with tweets from a conference's hashtag or some event, make sure to think ahead to download them!!
 
-```{r}
+```{r, eval=FALSE}
 amsTwitter <- twitteR::searchTwitter("#smt2017", n = 700)
 amsTwitter <- twitteR::searchTwitter("#amsroc17", n = 1600)
 ```
 
-This line above searches Twitter for anything matching the conference hashtags as a string and saves the output of it in a big list that is generally not that helpful.
-(You can also include an argument asking for a certain number of tweets, which I did.)
-
+This line above searches Twitter for anything matching the conference hashtags and saves the output of it in a list.
+You can also include an argument asking for a certain number of tweets, which I've also done.
 Luckily the twitteR package has a function that will take this list and convert it to a nice data frame.
 
-```{r}
+```{r, eval=FALSE}
 amsTwitter.df <- twListToDF(amsTwitter)
 smtTwitter.df <- twListToDF(smtTwitter)
 ```
 
 Now with two nice data frames, we'll soon be able to join them together and count up some tweets!
 In order to use this we can take advantage of the powerful 
-[data.table](https://cran.r-project.org/web/packages/data.table/vignettes/datatable-intro.html) package to join our two tables together, then count up the tweets!
+[data.table](https://cran.r-project.org/web/packages/data.table/vignettes/datatable-intro.html) package to join our two tables together.
 Shout out to [Gorm Analytics](https://gormanalysis.com/) for introducing me to data.table and helping me learn it! 
 
-```{r}
+```{r, eval=FALSE}
 amsTwitter.dt <- data.table(amsTwitter.df)
 smtTwitter.dt <- data.table(smtTwitter.df)
 amstweets <- amsTwitter.dt[, .(amsTweets = .N), by=screenName][order(-amsTweets)]
@@ -82,9 +80,13 @@ We then need to clean up some of the NAs in our bigger dataset with R's ifelse()
 It looks over a column in your dataset, checks if a value is an NA, if it is then it gives it a 0, if not, it just puts in the value that was there in the first place.
 After replacing NAs, I then make a new variable that adds together both columns then run our final line that prints out our final dataset from top to bottom.
 
-```{r}
-totalTweets$smtTweets <- ifelse(test = is.na(totalTweets$smtTweets),yes = 0,no = totalTweets$smtTweets) 
-totalTweets$amsTweets <- ifelse(test = is.na(totalTweets$amsTweets),yes = 0,no = totalTweets$amsTweets) 
+```{r, eval=FALSE}
+totalTweets$smtTweets <- ifelse(test = is.na(totalTweets$smtTweets),
+                                yes = 0,
+                                no = totalTweets$smtTweets) 
+totalTweets$amsTweets <- ifelse(test = is.na(totalTweets$amsTweets),
+                                yes = 0,
+                                no = totalTweets$amsTweets) 
 
 totalTweets[, TotalTweets := smtTweets + amsTweets]
 totalTweets[order(-TotalTweets)]
@@ -94,3 +96,4 @@ totalTweets[order(-TotalTweets)]
 From here it was just a matter of using some online converter to turn it into an html file and then ssh'ing it up to our [Music Cognition at LSU](musiccog.lsu.edu/) server!
 
 If anyone has any questions on this, please let me know! 
+
