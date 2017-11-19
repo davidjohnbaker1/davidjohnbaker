@@ -20,7 +20,7 @@
 &lt;p&gt;This weekend I was working a homework assingment for my Transformational Theory seminar where we were given a number of pairs of pitch class sets and had to calculate the imultiset for each following Joseph Straus’ 2014 article on &lt;a href=&#34;http://www.mtosmt.org/issues/mto.14.20.2/mto.14.20.2.straus.html&#34;&gt;Total Voice Leading&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;As I looked at the top of the assigment (pictured below) and started to crank out the first one by hand, I realized that the next 30 minutes of my life were going to be doing the same thing over and over again.&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;/static/img/imultiset.png&#34; /&gt;
+&lt;img src=&#34;/img/imultiset.png&#34; /&gt;
 
 &lt;/div&gt;
 &lt;p&gt;Usually if I get that feeling my next thought is “Can I make a computer do this?” and after thinking about it for two minutes I realized the answer was yes.&lt;/p&gt;
@@ -30,7 +30,7 @@
 &lt;p&gt;In order to calculate the imultiset you need two pitch class sets, in this case X and Y. Each set can have any number of pitch classes in them and what you need to do is calculate the distance in &lt;a href=&#34;http://openmusictheory.com/mod12.html&#34;&gt;Modulo 12 space&lt;/a&gt; between every possible combination of pitch classes from one set to the other. So for example, you could move from 4 (E in Mod 12 for you non-music theory readers) to 7, 11, 2, or 5 (G, B, D, or F) resulting in four intervals: {3,7,10,1}. These four numbers in the {curly braces} are what you get when you subtract each number in the second set from the note E in Mod 12 space. This action then needs to be completed for every pair.&lt;/p&gt;
 &lt;p&gt;When you need to account for every pairing you need to do a &lt;a href=&#34;https://www.w3resource.com/sql/joins/cross-join.php&#34;&gt;cross join&lt;/a&gt;. A cross join connects each member of one set to each member of another set. This creates the sets of pairs seen below.&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;static/img/imultisetcj.png&#34; /&gt;
+&lt;img src=&#34;/img/imultisetcj.png&#34; /&gt;
 
 &lt;/div&gt;
 &lt;p&gt;Then all you need to do is subtract one from the other to get the distance. The only problem is that these subtractions need to happen in Mod 12 space so in any case where you are subtracting a bigger number from a smaller number you will get a negative result! This is easily fixed by just adding 12 to that number in order to get what we &lt;em&gt;should&lt;/em&gt; have been our answer if we were doing Mod 12 arithmatic.&lt;/p&gt;
