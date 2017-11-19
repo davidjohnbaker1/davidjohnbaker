@@ -8,13 +8,13 @@ tags: [R, Music Theory, Transformational Theory]
 ---
 
 November is pretty much the worst month for people in higher education.
-There are too many deadlines and if you're still in coursework (like myself) you have essays to write, presentations to make, and a backlog of homework assigments to grade.
+There are too many deadlines and if you're still in coursework (like myself) you have essays to write, presentations to make, and a backlog of homework assignments to grade.
 So if you can save time here or there, it's usually a good choice.
 
-This weekend I was working a homework assingment for my Transformational Theory seminar where we were given a number of pairs of pitch class sets and had to calculate the imultiset for each following Joseph Straus' 2014 article on [Total Voice Leading](http://www.mtosmt.org/issues/mto.14.20.2/mto.14.20.2.straus.html).
+This weekend I was working a homework assignment for my Transformational Theory seminar where we were given a number of pairs of pitch class sets and had to calculate the imultiset for each following Joseph Straus' 2014 article on [Total Voice Leading](http://www.mtosmt.org/issues/mto.14.20.2/mto.14.20.2.straus.html).
 
 
-As I looked at the top of the assigment (pictured below) and started to crank out the first one by hand, I realized that the next 30 minutes of my life were going to be doing the same thing over and over again.
+As I looked at the top of the assignment (pictured below) and started to crank out the first one by hand, I realized that the next 30 minutes of my life were going to be doing the same thing over and over again.
 
 ![](/img/imultiset.png)
 
@@ -37,7 +37,7 @@ This creates the sets of pairs seen below.
 
 Then all you need to do is subtract one from the other to get the distance.
 The only problem is that these subtractions need to happen in Mod 12 space so in any case where you are subtracting a bigger number from a smaller number you will get a negative result!
-This is easily fixed by just adding 12 to that number in order to get what we *should* have been our answer if we were doing Mod 12 arithmatic. 
+This is easily fixed by just adding 12 to that number in order to get what we *should* have been our answer if we were doing Mod 12 arithmetic. 
 
 After fixing the Mod 12 problem, you'll have a nice list of intervals that just have to be sorted from top to bottom to have your imultiset. 
 So let's see how you would do this line by line.
@@ -56,7 +56,7 @@ X <- c(0,4,7)
 Y <- c(7,11,2,5)
 ```
 
-Next we need to do that cross join, which we can accompish with R's merge() function.
+Next we need to do that cross join, which we can accomplish with R's merge() function.
 This makes us a data frame with every combination from set X and set Y.
 Below we see the function's output. 
 
