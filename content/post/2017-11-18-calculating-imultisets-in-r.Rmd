@@ -45,7 +45,7 @@ So let's see how you would do this line by line.
 ## R Code 
 
 First, let's get two pitch class sets. 
-In this case we have a C major triad and a G dominant chord.
+In this case we have a C major triad and a G7 chord.
 
 X = \{0,4,7\} and Y = \{7,11,2,5\}
 
