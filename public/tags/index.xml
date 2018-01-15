@@ -30,11 +30,29 @@
     </item>
     
     <item>
+      <title>Beer</title>
+      <link>/tags/beer/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/beer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Data Mining</title>
       <link>/tags/data-mining/</link>
       <pubDate>Mon, 20 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>/tags/data-mining/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Science</title>
+      <link>/tags/data-science/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/data-science/</guid>
       <description></description>
     </item>
     
@@ -68,7 +86,7 @@
     <item>
       <title>R</title>
       <link>/tags/r/</link>
-      <pubDate>Sat, 13 Jan 2018 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/r/</guid>
       <description></description>
