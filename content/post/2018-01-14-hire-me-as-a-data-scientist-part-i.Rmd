@@ -32,7 +32,7 @@ I'd love some feedback!
 
 ## Exploring the Dataset
  
-The first thing I did was to grab this dataset which you can get [here](https://s3.amazonaws.com/demo-datasets/beer_reviews.tar.gz?lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3BDqDjqRycTlq5seB4xN3ocA%3D%3D) and then I set up my R script with a few of my favorite packages (again, big love to Ben at [GormAnalysis](https://gormanalysis.com/) for helping me learn [data.table](https://cran.r-project.org/web/packages/data.table/vignettes/datatable-intro.html).
+The first thing I did was to grab this dataset which you can get [here](https://s3.amazonaws.com/demo-datasets/beer_reviews.tar.gz?lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3BDqDjqRycTlq5seB4xN3ocA%3D%3D) and then I set up my R script with a few of my favorite packages (again, big love to Ben at [GormAnalysis](https://gormanalysis.com/) for helping me learn [data.table](https://cran.r-project.org/web/packages/data.table/vignettes/datatable-intro.html)).
 
 ```{r}
 #=====================================================================================#
