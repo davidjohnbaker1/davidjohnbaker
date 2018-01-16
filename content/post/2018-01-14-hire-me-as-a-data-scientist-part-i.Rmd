@@ -54,10 +54,10 @@ The reviews come from a variety of different users that have rated the beers bas
 ```{r}
 names(beer)
 
-beer[, .(.N = unique(beer$brewery_name))]
-beer[, .(.N = unique(beer$review_profilename))]
-beer[, .(.N = unique(beer$beer_name))]
-beer[, .(.N = unique(beer$beer_style))]
+beer[, .(Number = unique(beer$brewery_name))]
+beer[, .(Number = unique(beer$review_profilename))]
+beer[, .(Number = unique(beer$beer_name))]
+beer[, .(Number = unique(beer$beer_style))]
 ```
 
 

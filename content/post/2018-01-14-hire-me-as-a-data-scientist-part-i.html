@@ -22,7 +22,7 @@ categories: [R, Data Science, Beer]
 </div>
 <div id="exploring-the-dataset" class="section level2">
 <h2>Exploring the Dataset</h2>
-<p>The first thing I did was to grab this dataset which you can get <a href="https://s3.amazonaws.com/demo-datasets/beer_reviews.tar.gz?lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3BDqDjqRycTlq5seB4xN3ocA%3D%3D">here</a> and then I set up my R script with a few of my favorite packages (again, big love to Ben at <a href="https://gormanalysis.com/">GormAnalysis</a> for helping me learn <a href="https://cran.r-project.org/web/packages/data.table/vignettes/datatable-intro.html">data.table</a>.</p>
+<p>The first thing I did was to grab this dataset which you can get <a href="https://s3.amazonaws.com/demo-datasets/beer_reviews.tar.gz?lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3BDqDjqRycTlq5seB4xN3ocA%3D%3D">here</a> and then I set up my R script with a few of my favorite packages (again, big love to Ben at <a href="https://gormanalysis.com/">GormAnalysis</a> for helping me learn <a href="https://cran.r-project.org/web/packages/data.table/vignettes/datatable-intro.html">data.table</a>).</p>
 <pre class="r"><code>#=====================================================================================#
 # Beer Script
 #=====================================================================================#
@@ -33,7 +33,7 @@ library(stringr)
 #=====================================================================================#
 beer &lt;- fread(&quot;data/beer_reviews.csv&quot;)</code></pre>
 <pre><code>## 
-Read 86.3% of 1586614 rows
+Read 63.0% of 1586614 rows
 Read 1586614 rows and 13 (of 13) columns from 0.168 GB file in 00:00:03</code></pre>
 <pre class="r"><code>#=====================================================================================#</code></pre>
 <p>The dataset has about 1.5 million observations across 14 different observations, so don’t try to open it in LibreOffice. The reviews come from a variety of different users that have rated the beers based on five different attributes (Appearance, Pallete, Aroma, Taste, Overall) and then each beer has a few other variables listed such as its ABV, the brewery it comes from, the beer’s name (duh), and what kind of beer it is.</p>
@@ -43,8 +43,8 @@ Read 1586614 rows and 13 (of 13) columns from 0.168 GB file in 00:00:03</code></
 ##  [7] &quot;review_profilename&quot; &quot;beer_style&quot;         &quot;review_palate&quot;     
 ## [10] &quot;review_taste&quot;       &quot;beer_name&quot;          &quot;beer_abv&quot;          
 ## [13] &quot;beer_beerid&quot;</code></pre>
-<pre class="r"><code>beer[, .(.N = unique(beer$brewery_name))]</code></pre>
-<pre><code>##                                 .N
+<pre class="r"><code>beer[, .(Number = unique(beer$brewery_name))]</code></pre>
+<pre><code>##                             Number
 ##    1:              Vecchio Birraio
 ##    2:      Caldera Brewing Company
 ##    3:       Amstel Brouwerij B. V.
@@ -56,8 +56,8 @@ Read 1586614 rows and 13 (of 13) columns from 0.168 GB file in 00:00:03</code></
 ## 5741:        Wissey Valley Brewery
 ## 5742:      Outback Brewery Pty Ltd
 ## 5743: Georg Meinel Bierbrauerei KG</code></pre>
-<pre class="r"><code>beer[, .(.N = unique(beer$review_profilename))]</code></pre>
-<pre><code>##                    .N
+<pre class="r"><code>beer[, .(Number = unique(beer$review_profilename))]</code></pre>
+<pre><code>##                Number
 ##     1:        stcules
 ##     2: johnmichaelsen
 ##     3:        oline73
@@ -69,8 +69,8 @@ Read 1586614 rows and 13 (of 13) columns from 0.168 GB file in 00:00:03</code></
 ## 33386:       hogshead
 ## 33387:     NyackNicky
 ## 33388:        joeebbs</code></pre>
-<pre class="r"><code>beer[, .(.N = unique(beer$beer_name))]</code></pre>
-<pre><code>##                            .N
+<pre class="r"><code>beer[, .(Number = unique(beer$beer_name))]</code></pre>
+<pre><code>##                        Number
 ##     1:           Sausa Weizen
 ##     2:               Red Moon
 ##     3: Black Horse Black Beer
@@ -82,8 +82,8 @@ Read 1586614 rows and 13 (of 13) columns from 0.168 GB file in 00:00:03</code></
 ## 56855:       Baron Von Weizen
 ## 56856:          Resolution #2
 ## 56857:     The Horseman&#39;s Ale</code></pre>
-<pre class="r"><code>beer[, .(.N = unique(beer$beer_style))]</code></pre>
-<pre><code>##                                   .N
+<pre class="r"><code>beer[, .(Number = unique(beer$beer_style))]</code></pre>
+<pre><code>##                               Number
 ##   1:                      Hefeweizen
 ##   2:              English Strong Ale
 ##   3:          Foreign / Export Stout
