@@ -207,7 +207,7 @@ ordered.abv.by.type$beer_style <- factor(ordered.abv.by.type$beer_style, levels 
 #  theme_bw()
 ```
 
-![Average ABV by Type Of Beer](/img/tempabv.png)
+![](/img/tempabv.png)
 
 So you can see here that if you wanted to have a higher ABV on average for your brewery, you'd benefit from having more IPAs,
 Barley Wines, and Belgian Stouts.

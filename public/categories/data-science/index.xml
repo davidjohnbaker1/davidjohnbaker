@@ -37,7 +37,7 @@ library(stringr)
 #=====================================================================================#
 beer &amp;lt;- fread(&amp;quot;data/beer_reviews.csv&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## 
-Read 80.7% of 1586614 rows
+Read 58.0% of 1586614 rows
 Read 1586614 rows and 13 (of 13) columns from 0.168 GB file in 00:00:03&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#=====================================================================================#&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;The dataset has about 1.5 million observations across 14 different observations, so don’t try to open it in LibreOffice. The reviews come from a variety of different users that have rated the beers based on five different attributes (Appearance, Pallete, Aroma, Taste, Overall) and then each beer has a few other variables listed such as its ABV, the brewery it comes from, the beer’s name (duh), and what kind of beer it is.&lt;/p&gt;
@@ -302,8 +302,8 @@ ordered.abv.by.type$beer_style &amp;lt;- factor(ordered.abv.by.type$beer_style, 
 #  geom_errorbar(aes(ymin=MeanAbvType-SdAbvType, ymax=MeanAbvType+SdAbvType)) +
 #  theme_bw()&lt;/code&gt;&lt;/pre&gt;
 &lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;/img/tempabv.png&#34; alt=&#34;Average ABV by Type Of Beer&#34; /&gt;
-&lt;p class=&#34;caption&#34;&gt;Average ABV by Type Of Beer&lt;/p&gt;
+&lt;img src=&#34;/img/tempabv.png&#34; /&gt;
+
 &lt;/div&gt;
 &lt;p&gt;So you can see here that if you wanted to have a higher ABV on average for your brewery, you’d benefit from having more IPAs, Barley Wines, and Belgian Stouts.&lt;/p&gt;
 &lt;p&gt;Now with average ABV for each beer, let’s then match that to our big list, find how each beer fairs against its own category, sort them, and then combine them with our information from before on how big the brewery is. For the purposes of this example, let’s only look at breweries that have over 100 beers in the database and look the top 20.&lt;/p&gt;
