@@ -179,13 +179,12 @@ he pointed out that one thing that this analysis did not take into account was t
 that are traditionally brewed to have a higher ABV (like IPAs and Belgiums) might skew my results.
 So if you are a big IPA brewery, you are going to have higher average ABV because of the beers you decide to brew!
 
-So in the true spirit of that data science venn diagram noting that data scientists need to be flexible in 
+So in the true spirit of that [data science Venn diagram](http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram) noting that data scientists need to be flexible in 
 incorporating others' domain knowledge, I did another analysis to just show how much an answer can change depending on how you change your operationalization of the question! 
 
 Let's do another one!
 
 First up for this one is making a plot of the data to see how much beers actually vary from type to type. 
-(Excuse the messy plot for now, I thought it would render fine, I'll fix it.)
 
 ```{r}
 # Get mean and SD of each beer type 
@@ -197,6 +196,7 @@ abv.by.type <- beer.complete[ , .(MeanAbvType = mean(beer_abv),
 ordered.abv.by.type <- abv.by.type[order(-MeanAbvType)]
 ordered.abv.by.type$beer_style <- factor(ordered.abv.by.type$beer_style, levels = ordered.abv.by.type$beer_style)
 
+# Code for plot, blogdown crunches the images 
 # Average ABV by beer type
 # ggplot(ordered.abv.by.type, aes(x = beer_style, y = MeanAbvType)) + 
 #  geom_bar(stat="identity") +   coord_flip() +
@@ -209,11 +209,9 @@ ordered.abv.by.type$beer_style <- factor(ordered.abv.by.type$beer_style, levels 
 
 ![](/img/abvtemp.png)
 
-So you can see here that if you wanted to have a higher ABV on average for your brewery, you'd benefit from having more IPAs,
-Barley Wines, and Belgian Stouts.
+So you can see here that if you wanted to have a higher ABV on average for your brewery, you'd benefit from having more IPAs, Barley Wines, and Belgian Stouts.
 
-Now with average ABV for each beer, let's then match that to our big list, find how each beer fairs against its own category,
-sort them, and then combine them with our information from before on how big the brewery is. 
+Now with average ABV for each beer, let's then match that to our big list, find how each beer fairs against its own category, sort them, and then combine them with our information from before on how big the brewery is. 
 For the purposes of this example, let's only look at breweries that have over 100 beers in the database and look the top 20.
 
 ```{r}

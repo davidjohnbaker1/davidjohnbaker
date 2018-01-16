@@ -283,7 +283,7 @@ library(stringr)
 #=====================================================================================#
 beer &lt;- fread(&quot;data/beer_reviews.csv&quot;)</code></pre>
 <pre><code>## 
-Read 58.0% of 1586614 rows
+Read 86.3% of 1586614 rows
 Read 1586614 rows and 13 (of 13) columns from 0.168 GB file in 00:00:03</code></pre>
 <pre class="r"><code>#=====================================================================================#</code></pre>
 <p>The dataset has about 1.5 million observations across 14 different observations, so don’t try to open it in LibreOffice. The reviews come from a variety of different users that have rated the beers based on five different attributes (Appearance, Pallete, Aroma, Taste, Overall) and then each beer has a few other variables listed such as its ABV, the brewery it comes from, the beer’s name (duh), and what kind of beer it is.</p>
@@ -527,9 +527,9 @@ ggplot(brassOrg.abv, aes(x = beer_name, y = beer_abv)) +
    theme(axis.text.x=element_text(angle = -90, hjust = 0)) + ylim(0, 60) </code></pre>
 <p><img src="/post/2018-01-14-hire-me-as-a-data-scientist-part-i_files/figure-html/unnamed-chunk-8-2.png" width="672" /></p>
 <p>I think that saying Schorschbräu is technically correct here, but after sharing my findings with my one beer drinking friend he pointed out that one thing that this analysis did not take into account was the how that beers that are traditionally brewed to have a higher ABV (like IPAs and Belgiums) might skew my results. So if you are a big IPA brewery, you are going to have higher average ABV because of the beers you decide to brew!</p>
-<p>So in the true spirit of that data science venn diagram noting that data scientists need to be flexible in incorporating others’ domain knowledge, I did another analysis to just show how much an answer can change depending on how you change your operationalization of the question!</p>
+<p>So in the true spirit of that <a href="http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram">data science Venn diagram</a> noting that data scientists need to be flexible in incorporating others’ domain knowledge, I did another analysis to just show how much an answer can change depending on how you change your operationalization of the question!</p>
 <p>Let’s do another one!</p>
-<p>First up for this one is making a plot of the data to see how much beers actually vary from type to type. (Excuse the messy plot for now, I thought it would render fine, I’ll fix it.)</p>
+<p>First up for this one is making a plot of the data to see how much beers actually vary from type to type.</p>
 <pre class="r"><code># Get mean and SD of each beer type 
 abv.by.type &lt;- beer.complete[ , .(MeanAbvType = mean(beer_abv), 
                                   SdAbvType = sd(beer_abv)), 
@@ -539,6 +539,7 @@ abv.by.type &lt;- beer.complete[ , .(MeanAbvType = mean(beer_abv),
 ordered.abv.by.type &lt;- abv.by.type[order(-MeanAbvType)]
 ordered.abv.by.type$beer_style &lt;- factor(ordered.abv.by.type$beer_style, levels = ordered.abv.by.type$beer_style)
 
+# Code for plot, blogdown crunches the images 
 # Average ABV by beer type
 # ggplot(ordered.abv.by.type, aes(x = beer_style, y = MeanAbvType)) + 
 #  geom_bar(stat=&quot;identity&quot;) +   coord_flip() +
@@ -548,7 +549,7 @@ ordered.abv.by.type$beer_style &lt;- factor(ordered.abv.by.type$beer_style, leve
 #  geom_errorbar(aes(ymin=MeanAbvType-SdAbvType, ymax=MeanAbvType+SdAbvType)) +
 #  theme_bw()</code></pre>
 <div class="figure">
-<img src="/img/tempabv.png" />
+<img src="/img/abvtemp.png" />
 
 </div>
 <p>So you can see here that if you wanted to have a higher ABV on average for your brewery, you’d benefit from having more IPAs, Barley Wines, and Belgian Stouts.</p>
