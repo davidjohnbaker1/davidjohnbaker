@@ -7,7 +7,6 @@ categories: [R, 10 Minute Reads]
 tags: [R, Data Science, Beer]
 ---
 
-## Beer Reccomendation
 
 Continuing on from my earlier post, I'm now looking to tackle the question:
 
