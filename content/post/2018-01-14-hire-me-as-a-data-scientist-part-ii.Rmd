@@ -62,7 +62,7 @@ This is pretty important when it comes to modeling the data (discussed in Part I
 So looking at this dataset, I wondered if there were any sort of implicit assumptions I could make about this data that might be able to help me find a good beer.
 One assumption that I didn’t think was too wild was that a sample of this population that had gone out of its way to rate over 500 beers was probably more of a beer experts than those who have only done a couple of reviews on the site.
 
-One thing I wanted to check was: of all the 1.5 million reviews, where were they coming from? Were there enough reviews among the super users that we could use? 
+One thing I wanted to check was: of all the 1.5 million reviews, where were they coming from? Were there enough reviews among the super users that I could use? 
 And what made someone a super user? 
 I could have been a bit more scientific, setting an _a priori_ threshold, but for this I kind of just looked at that chart above, spit balled thinking 500 might be a good number to check, and then went to see how much of the data would be accounted if I put my threshold there. 
 I lucked out and got about half of it.
@@ -77,34 +77,34 @@ sum(review.counts[ N > 500]$N) # Number of Reviews from Super Users
 super.users <- review.counts[ N >  500] # I can settle for .75 Million Reviews
 ```
 
-So now we have a list of the users who have done over 500 reviews who make up 46% of our entire data.
-We can use this new table we've made to index through our dataset of all the reviews that we have (that have their ABV ratings!) so we are only dealing with these higher quality reviewers.
+So now I had a list of the users who had completed over 500 reviews and made up 46% of our entire data. 
+I could use this new table I've made to index through our dataset of all the reviews that I had (that have their ABV ratings!) so I was then only dealing with these higher quality reviewers.
 
 ```{r}
 super.reviews <- super.users[beer.complete, on = "review_profilename", nomatch=0]
 ```
 
-As we continue to chop down our dataset (since this is a very exploratory process compared with cleaning up an experiment), it's important to do **quality assesment** steps.
-One thing worth checking here is to see if we are actually dealing with beer omnivores in our super users and make sure that all different types of beers are being represented in our smaller subset.
-This can be done but just looking at the number of rows between the original dataset and our super user table.
+As I continued to chop down the dataset (since this was a very exploratory process compared with cleaning up an experiment), it was important to do **quality assessment** steps. 
+One thing worth checking here was to see if I was actually dealing with beer omnivores in our super users and make sure that all different types of beers were being represented in our smaller subset. 
+This was done by just looking at the number of rows between the original dataset and our super user table.
 
 ```{r}
 super.reviews[, .(beer_styles = unique(beer_style))]
 beer[, .(beer_styles = unique(beer_style))]
 ```
 
-Luckily they are the same.
-If I were to really do some more work on this dataset, I would also want to check things such as how many of the beers has each super user tried?
+Luckily they were the same.
+If I were to really do some more work on this dataset, I would also want to check things such as how many of the beers had each super user tried?
 Are there IPA experts in the group?
 If yes, should their opinion be taken more seriously if I had questions about IPA recommendation in the future?
-But for now, I just set out to see what is the highest rated beer among all the super users of this dataset.
+But for now, I just set out to see what the highest rated beer among all the super users of this dataset was.
 
-In order to answer that question, we need to be able to find out which beer in specific has the highest mean rating.
-The dataset as is comes with a ```beer_id``` unique ID, but the data downloaded as is does not give us a key to this so we have to make it ourselves. 
-This can be accomplished by just pasting together the brewery's name, along with the beer name, and style into a new variable.
+In order to answer that question, I had to find out which beer in specific had the highest mean rating. 
+The dataset ‘as is’ comes with a ```beer_id``` unique ID, but the data downloaded as is does not give us a key to this, so I had to make it ourselves. 
+This was accomplished by just pasting together the brewery’s name, along with the beer name, and style into a new variable.
 
-As another **quality assurance** step, it's worth checking to see if this recreated the unique ID variable, which it didn't do exactly... but it's pretty close. 
-I would chalk that up to some sort of encoding error. 
+As another **quality assurance** step, it was worth checking to see if this recreated the unique ID variable, which it didn’t do exactly... but it was pretty close. 
+I would chalk that up to some sort of encoding error.
 
 ```{r}
 super.reviews[, beer_name_unique := paste(brewery_name,beer_name, beer_style)]
@@ -122,10 +122,11 @@ hist(super.reviews.popular$most_reviewed_beers,
      breaks = 200)
 ```
 
-Again we see this is clearly **not** anything resembling a repeated measures experiment and not all beers were rated equally. 
+Again I see this is clearly **not** anything resembling a repeated measures experiment and not all beers were rated equally. 
 
-Continuing in the same fashion above let's grab just the top 100 beers of our super users and then merge that on to our table from earlier that had all of the ratings from our super users. 
-Then of that table, let's just take the average of the overall rating and look at our top ten beers.
+Continuing in the same fashion above, I just grabbed the top 100 beers of our super users and merged that on to our table from earlier that had all of the ratings from our super users. 
+Then from that table, I took the average of the overall rating and looked at our top ten beers.
+
 ```{r}
 super.reviews.popular.100 <- super.reviews[, .(most_reviewed_beers = .N), by = beer_name_unique][order(-most_reviewed_beers)][1:100]
 
@@ -141,12 +142,11 @@ It's [Pliny The Elder](https://www.beeradvocate.com/beer/profile/863/7971/) from
 
 ## Bizzaro Beer
 
-Now Pliny The Elder seems to be a pretty popular beer.
-But what if we are trying to sketch out some ideas about what other beers that we could recommend to beer lovers who like Pliny The Elder?
-It needs to somewhat "look like" our target beer, but needs to have way less reviews.
+Now Pliny The Elder seemed to be a pretty popular beer. 
+But what if I was trying to sketch out some ideas about what other beers that I could recommend to beer lovers who like Pliny The Elder, it needed to somewhat “look like” the target beer, but have way less reviews.
 
-Playing with some of the fringe data here, I want to be careful not to again pick a beer with only one or two ratings on it.
-My rationale coming from assuming there is some sort of true "population mean" for this beer and having a beer with too little reviews will not approximate the mean correctly.
+Playing with some of the fringe data here, I wanted to be careful not to again pick a beer with only one or two ratings on it. 
+My rationale coming from assuming there is some sort of true “population mean” for this beer and having a beer with too little reviews will not approximate the mean correctly.
 
 ```{r}
 ## Make Unique Beer Label for Larger Dataset
@@ -168,7 +168,7 @@ While my first instinct was to do some sort of data reductive type thing like do
 So instead I figured why not just assume that there is some sort of wiggle room in my hastily made recommendation system and just match first on the overall review, then if there are some close contenders, look for matches on other metrics?
 
 The next bit of code creates a table of the metrics I am interested in, gets beers that have over 30 reviews, but less than 100, and also creates a vector so I can pull out all of the IPAs on my less reviewed beers table.
-I then join the tables for my candidates. 
+I then joined the tables for my candidates. 
 ```{r}
 # # Get metrics used for distance calculations
 beer.metrics <- beer.reliable[, .(mean_review_overall = mean(review_overall),
@@ -193,9 +193,8 @@ bizzaro.candidates <- less.reviewed.beers[find.IPA]
 bizzaro.candidates.metrics <- bizzaro.candidates[beer.metrics, on = "beer_name_unique", nomatch=0]
 ```
 
-Of these less reviewed beers, we now need to find the one that is "closest" on the few dimensions we have to work with.
-The simplest way to do this would be to just subtract our target beer (Pliny The Elder), from every other beer in our interested list, then check out the results. 
-
+Of these less reviewed beers, I now needed to find the one that was “closest” on the few dimensions I had to work with. 
+The simplest way to do this would be to just subtract our target beer (Pliny The Elder), from every other beer in our interested list, then check out the results.
 
 ```{r}
 ## Get metrics for our target beer
@@ -230,7 +229,7 @@ bizzaro.candidates.distances <- cbind(bizzaro.candidates.metrics, ipa.distances.
 ## Sort our data by overall and see if we have a good match!
 bizzaro.candidates.distances[order(-mean_review_overall)]
 ```
-Of course if we were building a real recommendation machine we could start talking about what factors are more important for what users and what factors are more predictive than others, but this seems like an OK enough solution to at least have completed my _a priori_ goal.
+Of course if I were building a real recommendation machine I could start talking about what factors are more important for what users and what factors are more predictive than others, but this seems like an OK enough solution to at least have completed my _a priori_ goal.
 
 Based on this solution, it looks like I will have to find myself a bottle of [Pliny The Elder](https://www.beeradvocate.com/beer/profile/863/7971/) and the [Hill Farmstead Brewery Galaxy Imperial Single Hop IPA American Double / Imperial IPA](https://www.beeradvocate.com/beer/profile/22511/67760/) and do some of my own empirical work to see if this was a good idea. 
 
@@ -239,7 +238,7 @@ Based on this solution, it looks like I will have to find myself a bottle of [Pl
 The last beer that I think wanted to recommend would be one that tastes great, but does not have a lot of alcohol with it.
 The reason this question kind of interests me is because if we are _really_ going to talk about how tasty a beer is, it would be nice to be able to factor out of the equation how drunk we are actually getting from it.
 
-We can see first of all IF this relationship exists if we look at the mean overall rating of a beer as a function of its ABV content.
+I can see first of all IF this relationship exists if we look at the mean overall rating of a beer as a function of its ABV content.
 
 ```{r}
 beer.complete[, beer_name_unique := paste(brewery_name,beer_name, beer_style) ]
@@ -256,8 +255,8 @@ ggplot(abv.vs.mean[Abv < 20], aes(x = Abv, y = MeanOverall)) +
        y = "Mean Overall Rating")
 ```
 
-Surprisingly, when we run some quick and dirty regression models (that yes, I know violate tons of assumptions) we see that only a very small amount of variance is being explained by its ABV. 
-Note that although the models are significant, the R squared values hover around 3-5%!
+Surprisingly, when I ran some quick and dirty regression models (that yes, I know violate tons of assumptions) I saw that only a very small amount of variance was being explained by its ABV. 
+Note that although the models were significant, the R squared values hovered around 3-5%!
 
 ```{r}
 # "The More Booze The Better" Model
@@ -271,7 +270,7 @@ summary(abv.poly)
 
 This actually surprised me and might be worth looking into at a deeper level another time, but for now I want to keep going on and find a beer knowing that how much booze is in it doesn't really affect how good it is.
 
-So let's take one final dive into the dataset, grab only our quality reviews then plot a subset of our data so we can see beers that have a very high overall rating with a very small amount of booze in them. 
+So let's take one final dive into the dataset, grab only our quality reviews then plot a subset of our data so I can see beers that have a very high overall rating with a very small amount of booze in them. 
 
 ```{r}
 # Quality Assurance Step
