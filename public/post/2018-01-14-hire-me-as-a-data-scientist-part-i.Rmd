@@ -112,8 +112,7 @@ abv.counter
 Having this table could be good enough for government work, but looking at the output there are clearly problems and one thing to consider in this table (and pretty much this whole dataset) is "Is this data point a good representation of what I am trying to measure?". 
 Note for example the huge variability as measured by the standard deviation in our top answer as well as the fact that some of the SDs have NAs and there is a value of 0.
 Given that, I think it'd be good to put on some sort of threshold that would up the quality of our answers.
-One way to do this would be to see exactly how many beers each brewery makes and use that as a proxy for 
- how big the brewery is.
+One way to do this would be to see exactly how many beers each brewery makes and use that as a proxy for how big the brewery is.
  
 The code below does just that and reveals the variability in terms of size of breweries within this dataset.
 
@@ -199,14 +198,16 @@ ordered.abv.by.type <- abv.by.type[order(-MeanAbvType)]
 ordered.abv.by.type$beer_style <- factor(ordered.abv.by.type$beer_style, levels = ordered.abv.by.type$beer_style)
 
 # Average ABV by beer type
-ggplot(ordered.abv.by.type, aes(x = beer_style, y = MeanAbvType)) + 
-  geom_bar(stat="identity") +   coord_flip() +
-  labs(title = "Average ABV by Type of Beer",
-       x = "Beer Style",
-       y = "Mean ABV, bars represent SD") +
-  geom_errorbar(aes(ymin=MeanAbvType-SdAbvType, ymax=MeanAbvType+SdAbvType)) +
-  theme_bw() 
+# ggplot(ordered.abv.by.type, aes(x = beer_style, y = MeanAbvType)) + 
+#  geom_bar(stat="identity") +   coord_flip() +
+#  labs(title = "Average ABV by Type of Beer",
+#       x = "Beer Style",
+#       y = "Mean ABV, bars represent SD") +
+#  geom_errorbar(aes(ymin=MeanAbvType-SdAbvType, ymax=MeanAbvType+SdAbvType)) +
+#  theme_bw()
 ```
+
+![Average ABV by Type Of Beer](/img/tempabv.png)
 
 So you can see here that if you wanted to have a higher ABV on average for your brewery, you'd benefit from having more IPAs,
 Barley Wines, and Belgian Stouts.

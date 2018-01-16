@@ -16,9 +16,7 @@
       <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/hire-me-as-a-data-scientist-part-ii/</guid>
-      <description>&lt;div id=&#34;beer-reccomendation&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Beer Reccomendation&lt;/h2&gt;
-&lt;p&gt;Continuing on from my earlier post, I’m now looking to tackle the question:&lt;/p&gt;
+      <description>&lt;p&gt;Continuing on from my earlier post, I’m now looking to tackle the question:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;If you had to pick 3 beers to recommend using only this data, which would you pick?&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -30,7 +28,6 @@
 &lt;li&gt;Find the best Beer sans Booze (Highest Rating with lowest ABV)&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;So let’s begin! Here’s how I went about tackling this question.&lt;/p&gt;
-&lt;/div&gt;
 &lt;div id=&#34;popular-with-super-users&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Popular with Super Users&lt;/h2&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#=====================================================================================#
@@ -43,12 +40,12 @@ library(stringr)
 #=====================================================================================#
 beer &amp;lt;- fread(&amp;quot;data/beer_reviews.csv&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## 
-Read 83.8% of 1586614 rows
+Read 86.3% of 1586614 rows
 Read 1586614 rows and 13 (of 13) columns from 0.168 GB file in 00:00:03&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;beer.complete &amp;lt;- beer[complete.cases(beer)]
 #=====================================================================================#&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Having had more experience in experimental settings first, one of the first things that I needed to get used to when I started working with non-psychology datasets is the lack of complete sets in what feel like almost everything. Whereas in the &lt;a href=&#34;https://musiccog.lsu.edu/&#34;&gt;lab&lt;/a&gt; we spend lots of time trying to design balanced studies that hopefully don’t violate the litany of assumptions that classic null hypothesis significance testing demands, my first few attempts at analyzing large amounts of data made me realize it’s almost risible to think that you’re going to have even, independent data, ever. This dataset is no different.&lt;/p&gt;
-&lt;p&gt;Of all of the unique users on the site, most of them only have done a couple of reviews, but some have essentially made a job out of this. Looking at the distribution of reviews, this is quite clear.&lt;/p&gt;
+&lt;p&gt;Having more experience in experimental settings, one of the first things I needed to get used to when I started working with non-psychology datasets was the lack of complete sets in what felt like almost everything. Whereas in the &lt;a href=&#34;https://musiccog.lsu.edu/&#34;&gt;lab&lt;/a&gt; we spend lots of time trying to design balanced studies that hopefully don’t violate the litany of assumptions that classic null hypothesis significance testing demands, my first few attempts at analyzing large amounts of data made me realize it’s almost risible to think that you’re going to have even, independent data, ever. This dataset is no different.&lt;/p&gt;
+&lt;p&gt;Of all of the unique users on the site, most of them have done only a couple of reviews, but some have essentially made a job out of this. Looking at the distribution of reviews, this is quite clear.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;review.counts &amp;lt;- beer[, .(.N), by = review_profilename][order(-N)]
 review.counts &lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;##        review_profilename    N
@@ -68,9 +65,9 @@ review.counts &lt;/code&gt;&lt;/pre&gt;
      xlab = &amp;quot;Number of Reviews&amp;quot;,
      main = &amp;quot;Distribution of Reviews Per User&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;/post/2018-01-14-hire-me-as-a-data-scientist-part-ii_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;This is pretty important when it comes to modeling the data (discussed in Part III) and not being fully aware of where your ratings are coming from could seriously put the quality of your models at risk.&lt;/p&gt;
-&lt;p&gt;So looking at this dataset, I was wondering if there were any sort of implicit assumptions I could make about the data here that might be able to help me find a good beer. One assumption that I don’t think is too wild is that a sample of this population who have gone out of their way and rated over 500 beers probably are more of beer experts than those who have only done a couple of reviews on the site.&lt;/p&gt;
-&lt;p&gt;One thing I wanted to check is of all the 1.5 million reviews, where are all of these reviews coming from? Are there enough reviews among the super users that we could use? And what makes someone a super user? I could have been a bit more scientific setting an &lt;em&gt;a priori&lt;/em&gt; threshold, but for this I kind of just looked at that chart above, spit balled thinking 500 might be a good number to check, and then went to see how much of the data is accounted if I put my threshold there. I lucked out and got about half of it.&lt;/p&gt;
+&lt;p&gt;This is pretty important when it comes to modeling the data (discussed in Part III), and not being fully aware of where your ratings are coming from could put the quality of your models at serious risk.&lt;/p&gt;
+&lt;p&gt;So looking at this dataset, I wondered if there were any sort of implicit assumptions I could make about this data that might be able to help me find a good beer. One assumption that I didn’t think was too wild was that a sample of this population that had gone out of its way to rate over 500 beers was probably more of a beer experts than those who have only done a couple of reviews on the site.&lt;/p&gt;
+&lt;p&gt;One thing I wanted to check was: of all the 1.5 million reviews, where were they coming from? Were there enough reviews among the super users that we could use? And what made someone a super user? I could have been a bit more scientific, setting an &lt;em&gt;a priori&lt;/em&gt; threshold, but for this I kind of just looked at that chart above, spit balled thinking 500 might be a good number to check, and then went to see how much of the data would be accounted if I put my threshold there. I lucked out and got about half of it.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;sum(review.counts$N) # Number of Total Reviews &lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## [1] 1586614&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;sum(review.counts[ N &amp;gt; 500]$N) # Number of Reviews from Super Users&lt;/code&gt;&lt;/pre&gt;

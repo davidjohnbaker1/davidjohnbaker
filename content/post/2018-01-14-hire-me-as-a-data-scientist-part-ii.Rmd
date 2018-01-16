@@ -40,11 +40,11 @@ beer.complete <- beer[complete.cases(beer)]
 #=====================================================================================#
 ```
 
-Having had more experience in experimental settings first, one of the first things that I needed to get used to when I started working with non-psychology datasets is the lack of complete sets in what feel like almost everything.
+Having more experience in experimental settings, one of the first things I needed to get used to when I started working with non-psychology datasets was the lack of complete sets in what felt like almost everything.
 Whereas in the [lab](https://musiccog.lsu.edu/) we spend lots of time trying to design balanced studies that hopefully don't violate the litany of assumptions that classic null hypothesis significance testing demands, my first few attempts at analyzing large amounts of data made me realize it's almost risible to think that you're going to have even, independent data, ever. 
 This dataset is no different.
 
-Of all of the unique users on the site, most of them only have done a couple of reviews, but some have essentially made a job out of this.
+Of all of the unique users on the site, most of them have done only a couple of reviews, but some have essentially made a job out of this.
 Looking at the distribution of reviews, this is quite clear. 
 
 ```{r}
@@ -57,16 +57,16 @@ hist(beer[, .(.N), by = review_profilename][order(-N)]$N,
 
 ```
 
-This is pretty important when it comes to modeling the data (discussed in Part III) and not being fully aware of where your ratings are coming from could seriously put the quality of your models at risk.
+This is pretty important when it comes to modeling the data (discussed in Part III), and not being fully aware of where your ratings are coming from could put the quality of your models at serious risk.
 
-So looking at this dataset, I was wondering if there were any sort of implicit assumptions I could make about the data here that might be able to help me find a good beer.
-One assumption that I don't think is too wild is that a sample of this population who have gone out of their way and rated over 500 beers probably are more of beer experts than those who have only done a couple of reviews on the site.
+So looking at this dataset, I wondered if there were any sort of implicit assumptions I could make about this data that might be able to help me find a good beer.
+One assumption that I didn’t think was too wild was that a sample of this population that had gone out of its way to rate over 500 beers was probably more of a beer experts than those who have only done a couple of reviews on the site.
 
-One thing I wanted to check is of all the 1.5 million reviews, where are all of these reviews coming from?
-Are there enough reviews among the super users that we could use?
-And what makes someone a super user?
-I could have been a bit more scientific setting an _a priori_ threshold, but for this I kind of just looked at that chart above, spit balled thinking 500 might be a good number to check, and then went to see how much of the data is accounted if I put my threshold there.
-I lucked out and got about half of it. 
+One thing I wanted to check was: of all the 1.5 million reviews, where were they coming from? Were there enough reviews among the super users that we could use? 
+And what made someone a super user? 
+I could have been a bit more scientific, setting an _a priori_ threshold, but for this I kind of just looked at that chart above, spit balled thinking 500 might be a good number to check, and then went to see how much of the data would be accounted if I put my threshold there. 
+I lucked out and got about half of it.
+
 
 ```{r}
 sum(review.counts$N) # Number of Total Reviews 
