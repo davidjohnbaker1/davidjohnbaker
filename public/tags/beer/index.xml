@@ -40,7 +40,7 @@ library(stringr)
 #=====================================================================================#
 beer &amp;lt;- fread(&amp;quot;data/beer_reviews.csv&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## 
-Read 86.3% of 1586614 rows
+Read 88.9% of 1586614 rows
 Read 1586614 rows and 13 (of 13) columns from 0.168 GB file in 00:00:03&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;beer.complete &amp;lt;- beer[complete.cases(beer)]
 #=====================================================================================#&lt;/code&gt;&lt;/pre&gt;
@@ -357,12 +357,12 @@ ggplot(abv.vs.mean[Abv &amp;lt; 20], aes(x = Abv, y = MeanOverall)) +
        x = &amp;quot;ABV Content&amp;quot;,
        y = &amp;quot;Mean Overall Rating&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;/post/2018-01-14-hire-me-as-a-data-scientist-part-ii_files/figure-html/unnamed-chunk-11-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Surprisingly, when we run some quick and dirty regression models (that yes, I know violate tons of assumptions) we see that only a very small amount of variance is being explained by its ABV. Note that although the models are significant, the &lt;span class=&#34;math inline&#34;&gt;\(R^2\)&lt;/span&gt; values hover around 3-5%!&lt;/p&gt;
+&lt;p&gt;Surprisingly, when we run some quick and dirty regression models (that yes, I know violate tons of assumptions) we see that only a very small amount of variance is being explained by its ABV. Note that although the models are significant, the R squared values hover around 3-5%!&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# &amp;quot;The More Booze The Better&amp;quot; Model
 abv.linear &amp;lt;- lm(MeanOverall ~ Abv, data = abv.vs.mean[Abv &amp;lt; 20]) 
 # The &amp;quot;Diminishing Returns Model &amp;quot;
 abv.poly &amp;lt;- lm(MeanOverall ~ poly(Abv,2), data = abv.vs.mean[Abv &amp;lt; 20])
-# The &amp;quot;Dissapoint Amount of Variance Explained Summaries&amp;quot;
+# The &amp;quot;Dissapointing Amount of Variance Explained Summaries&amp;quot;
 summary(abv.linear)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## 
 ## Call:

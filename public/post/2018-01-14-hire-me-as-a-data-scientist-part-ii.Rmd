@@ -257,14 +257,14 @@ ggplot(abv.vs.mean[Abv < 20], aes(x = Abv, y = MeanOverall)) +
 ```
 
 Surprisingly, when we run some quick and dirty regression models (that yes, I know violate tons of assumptions) we see that only a very small amount of variance is being explained by its ABV. 
-Note that although the models are significant, the $R^2$ values hover around 3-5%!
+Note that although the models are significant, the R squared values hover around 3-5%!
 
 ```{r}
 # "The More Booze The Better" Model
 abv.linear <- lm(MeanOverall ~ Abv, data = abv.vs.mean[Abv < 20]) 
 # The "Diminishing Returns Model "
 abv.poly <- lm(MeanOverall ~ poly(Abv,2), data = abv.vs.mean[Abv < 20])
-# The "Dissapoint Amount of Variance Explained Summaries"
+# The "Dissapointing Amount of Variance Explained Summaries"
 summary(abv.linear)
 summary(abv.poly)
 ```

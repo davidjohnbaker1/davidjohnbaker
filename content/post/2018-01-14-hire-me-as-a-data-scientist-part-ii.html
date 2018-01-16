@@ -33,7 +33,7 @@ library(stringr)
 #=====================================================================================#
 beer &lt;- fread(&quot;data/beer_reviews.csv&quot;)</code></pre>
 <pre><code>## 
-Read 86.3% of 1586614 rows
+Read 88.9% of 1586614 rows
 Read 1586614 rows and 13 (of 13) columns from 0.168 GB file in 00:00:03</code></pre>
 <pre class="r"><code>beer.complete &lt;- beer[complete.cases(beer)]
 #=====================================================================================#</code></pre>
@@ -350,12 +350,12 @@ ggplot(abv.vs.mean[Abv &lt; 20], aes(x = Abv, y = MeanOverall)) +
        x = &quot;ABV Content&quot;,
        y = &quot;Mean Overall Rating&quot;)</code></pre>
 <p><img src="/post/2018-01-14-hire-me-as-a-data-scientist-part-ii_files/figure-html/unnamed-chunk-11-1.png" width="672" /></p>
-<p>Surprisingly, when we run some quick and dirty regression models (that yes, I know violate tons of assumptions) we see that only a very small amount of variance is being explained by its ABV. Note that although the models are significant, the <span class="math inline">\(R^2\)</span> values hover around 3-5%!</p>
+<p>Surprisingly, when we run some quick and dirty regression models (that yes, I know violate tons of assumptions) we see that only a very small amount of variance is being explained by its ABV. Note that although the models are significant, the R squared values hover around 3-5%!</p>
 <pre class="r"><code># &quot;The More Booze The Better&quot; Model
 abv.linear &lt;- lm(MeanOverall ~ Abv, data = abv.vs.mean[Abv &lt; 20]) 
 # The &quot;Diminishing Returns Model &quot;
 abv.poly &lt;- lm(MeanOverall ~ poly(Abv,2), data = abv.vs.mean[Abv &lt; 20])
-# The &quot;Dissapoint Amount of Variance Explained Summaries&quot;
+# The &quot;Dissapointing Amount of Variance Explained Summaries&quot;
 summary(abv.linear)</code></pre>
 <pre><code>## 
 ## Call:
