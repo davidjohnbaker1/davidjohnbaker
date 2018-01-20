@@ -16,12 +16,13 @@ weight = 60
 
 I have served as Instructor of Record for the following courses at Louisiana State University:
 
-- MUS1701, Foundations of Music Study
-- MUS3621, Aural Skills IV
-- MUS3622, Aural Skills III
+- MUS 1701, Foundations of Music Study
+- MUS 3621, Aural Skills IV
+- MUS 3622, Aural Skills III
 
 I have served as a graduate assistant for the following courses at Louisiana State University.
 
-- PSY 4111, Intermediate Statistics
-- MUS3622, Music Theory IV
-- MUS3621, Music Theory III
+- PSYC 7111, Multivariate Statistics
+- PSYC 4111, Intermediate Statistics
+- MUS 3622, Music Theory IV
+- MUS 3621, Music Theory III
