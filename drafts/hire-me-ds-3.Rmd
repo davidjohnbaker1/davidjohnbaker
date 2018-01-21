@@ -17,21 +17,23 @@ For the third post in this series, I'll explore the question:
 
 > Which of the factors (aroma, taste, appearance, palette) are most important in determining the overall quality of a beer?
 
-Whereas the posts before were questions of sorting data, this is our first attempt to make some statistical models!
-When asking questions of how much do certain factors contribute to determining another one, you are essentially dealing with a regression problem.
+Whereas the posts before were questions of sorting data, this is our first attempt to make some statistical models.
+In this case we're going to be doing a bit of regression modeling. 
 
 ## Regression Problems 
 
-While I assume most people who are reading this know what regression is, it's worth taking a second to talk about since according to all the blog posts that I have read one of attributes of being a good data scientist is being able to explain seemingly complicated, yet unfamiliar terms to equally as intelligent team members who just don't do math all the time.
+While many people who are reading this might know what regression is, it's worth taking a second to talk about since (according to all the blog posts that I have read) one of the attributes of being a good data scientist is being able to explain seemingly complicated, yet unfamiliar terms to equally as intelligent team members who just don't work as much with numbers.
 
-I think the best way to explain regression models are that they are ways of making decent guesses about the world.
-Let's say for example we were to play a game where I would give you some sort reward for being really good at guessing the ABV of a beer I picked at random from the 56,857 unique beers in this dataset.
-If you had no other informaiton and knew that you were to get more of a reward for getting the closest to it, your best bet would probably be to pick the average ABV in all the beers.
-It's a simple model, but in the long run it would be best bet.
+I think the best way to explain regression models are that they are ways of helping you make decent guesses about guessable things.
+Let's say for example we were to play a game where I would give you 5$ every time you guessed the ABV within 1% of a beer I picked at random from the 56,857 unique beers in this dataset.
+And for every 1% you were off, you would get $1 dollar less.
 
-Now let's say I tell you that you're allowed to know what kind of beer it is.
-I give you a chart of all the average ABVs of each beer type, then before you make your guess, I tell you the type of beer that I am about to reveal and then you can consult your chart and change your guess accordingly.
-In this situation, if you wanted to increase your chances of getting closer (or in statisitcal terms the opposite would be minimizing your residuals) you would be foolish not to guess the average ABV of that beer type since we know from the last post that beers vary based on their type!
+If you had no other information, your best bet would be to pick the average ABV of all the beers every time.
+It's a simple model, but if we did it 100 times in a row that strategy would serve you better than just guessing randomly.
+
+Now let's say I tell you that you're allowed to know what kind of beer it is before you make your guess.
+I give you a chart of all the average ABVs of each beer type and then you can consult your chart and change your guess accordingly.
+In this situation, if you wanted to increase your chances of getting closer you would be foolish not to guess the average ABV of that beer type since we know from the last post that beers vary based on their type!
 
 You could imagine this process happening again and again with new charts I gave you and with each one you could get more and more accurate answers.
 Some charts would be more helpful than others.
@@ -42,76 +44,93 @@ Of course it's a bit more complicated than that, but having this example will he
 
 ## Tackling the Problem
 
-So how do we predict the overal quality of a beer?
-What informaiton would be good to know if we really wanted to have accurate guesses?
+So how do we predict the overall quality of a beer?
+What information would be good to know if we really wanted to have accurate guesses?
 Well in this situation we can't be too picky since we only have a few different variables!
 
-We know that our dependent varible is overall quality and that our independent variables are aroma, taste, appearance, palette.
-At this point it's worht mentioning two things.
-
-One is that there is a problem in this dataset that our data is not independent; we have many examples of the same preson rating multiple beers.
-The reason this is a big deal is because you want your model to account for how different people tend to rate things.
-We all have that one friend who thinks every beer is the best beer ever, and another one who just thinks everything is garbage.
-There will be variability in their ratings, but both will be living in their own rating world.
-And by mixing them all up, all that nice nuance is going to get washed out.
-Or even worse you'll run into something like [Simpson's Paradox](https://en.wikipedia.org/wiki/Simpson%27s_paradox).
-
-But that's getting pretty technical.
-
-The other point worth mentioning is the order we build these models.
-There are generally two ways.
-We can throw in all the variables at once and see what sticks.
-Or if we have a good theory of what we _think_ will make good predictors, we enter them step by step.
-The latter is by far the preferred way for theory-testing, but in this example we are just trying to explain what are the important predcitors out of the few we have. 
-
-So after all of that, I am going to break both of the rules of what I said (for now! maybe I will do another post running this as a mixed effects model) and just throw in all the predictors into the model, not care that they are correlated, and see what our model tells us. 
+We know that our dependent variable is ```review_overall``` and that our independent variables are ```review_aroma```, ```review_taste```, ```review_appearance```, ```review_palette```.
+At this point it's worth mentioning one thing: our data are not independent; we have many examples of the same person rating multiple beers.
+Technically this breaks of rule of linear regression... but we can find a work around later. 
 
 Let's do some modeling!
 
 ### Modeling 
 
-The first thing worth checking in this situation is how your variables are distributed.
-Normally you want nice [Guassian distributions](https://en.wikipedia.org/wiki/Normal_distribution) with your IVs.
-We see that in each of our variables here and also take note that our raters are not taking advantage of the whole scale they have.
-
+The first thing worth checking before running a linear regression is if our data are normal [normal](https://en.wikipedia.org/wiki/Normal_distribution) with our DV.
+Plotting the data we see that they look pretty normal and also note that our raters are not taking advantage of the whole scale they have.
 
 ```{r}
 mean(beer$review_overall)
-hist(beer$review_overall)
+hist(beer$review_overall,
+     main = "Distribution of DV",
+     xlab = "Review Overall",
+     ylab = "Frequency")
 ```
 
 The average rating of all beers is 3.82 (most beers are "above average") and it looks like we a ceiling problem with the data in that the top end of the ratings doesn't slope off like the lower ratings do.
 We _could_ transform the data, but the problem with doing that is that you then have think about how you interpret your answers on that scale.
 
-I then run a couple of other metrics on our IVs and inspect them visually.
+Let's check out our IVs.
 
 ```{r}
-#======================================================================================================
-## See how variables relate to each other , collinearity 
-
-hist(beer$review_aroma)
-hist(beer$review_appearance)
-hist(beer$review_palate)
-hist(beer$review_taste)
+#=====================================================================================#
+hist(beer$review_aroma,
+     main = "Aroma Distribution",
+     xlab = "",
+     ylab = "Frequnecy")
+hist(beer$review_appearance,
+     main = "Appearance Distribution",
+     xlab = "",
+     ylab = "Frequnecy")
+hist(beer$review_palate,
+     main = "Palate Distribution",
+     xlab = "",
+     ylab = "Frequnecy")
+hist(beer$review_taste,
+     main = "Taste Distribution",
+     xlab = "",
+     ylab = "Frequnecy")
 
 apply(beer[, .(review_overall, review_aroma, review_appearance, review_palate, review_taste)],2, skew)
 apply(beer[, .(review_overall, review_aroma, review_appearance, review_palate, review_taste)],2, kurtosi)
 ```
 
-Some of the other things worht checking here are for collinarity amongst variables (how much overlap is there between two) and we see from the correrlation tables that most things don't really overlap that much.
+Nothing seems to be egregiously wrong from a visual standpoint, but to be safe it's always good to run actual numbers looking at the skew and kurtosis of our data.
 
 ```{r}
-
-cor(beer[, .(review_overall, review_aroma, review_appearance, review_palate, review_taste)])
-
+apply(beer[, .(review_overall, review_aroma, review_appearance, review_palate, review_taste)],2, skew)
+apply(beer[, .(review_overall, review_aroma, review_appearance, review_palate, review_taste)],2, kurtosi)
 ```
 
+Nothing that bad. 
+
+Lastly we want to check for collinarity among variables.
+The reason to do this is in case two variables are essentially measuring the same thing.
+I'd assume there won't be a problem here, but let's say the people doing this study had also measured a variable called ```review_smellyness``` which you would imagine might correlate highly with ```review_aroma```.
+If that were the case, you might not be getting that much bang for your buck by including both variables in the model. 
+
+```{r}
+cor(beer[, .(review_overall, review_aroma, review_appearance, review_palate, review_taste)])
+```
+
+Some of the variables are highly correlated (```review_overall``` has an _R_ = ~.80 with ```review_taste```), so let's just keep that in mind as we go. 
+
 We've at least done a preliminary check of the assumptions of regression and only broke a few of them, so we need to be aware of that when we get into model interpretation. 
-For our first model, let's just dump everything in and see what comes up as significant. 
+
+For our first model, let's just dump everything in and see what comes up as significant since the question is not about theory building, just about finding helpful predictors. 
 
 ```{r}
 predict.overall <- lm(review_overall ~ review_aroma + review_appearance + review_palate + review_taste, data = beer)
 summary(predict.overall)
+plot(predict.overall)
+
+predict.overall.z <- lm(scale(review_overall) ~ scale(review_aroma) + 
+                                                scale(review_appearance) + 
+                                                scale(review_palate) + 
+                                                scale(review_taste), 
+                                                data = beer)
+plot(predict.overall.z)
+
 ## aroma and appearance contribute, but might just bbe because of high numbers
 ```
 
@@ -121,30 +140,63 @@ That's it.
 
 More important to look at is the size of the estimates.
 We see that the estimates for ```review_palate``` and ```review_taste``` are much larger in size than the ```review_aroma``` and ```review_appearance```.
-Since all of these variables were orignally measured on the same scale, we can directly compare them.
-We also notice that our Adjusted R-squared is .6581 meaning that this model accounts for over 65% of the variance, not bad.
+Since all of these variables were originally measured on the same scale, we can directly compare them.
+We also notice that our Adjusted R-squared is .6581 meaning that this model accounts for over 65% of the variance. 
+Not bad!
 
 Let's try to run another model, but this time without those two garbage predictors and see how much predictive power we loose. 
 
-
 ```{r}
-
 predict.overall.occam <- lm(review_overall ~ review_palate + review_taste, data = beer)
 summary(predict.overall.occam)
-# Adjusted R2 barely changed, def remove them from the model
-
-# Problem here is that we still have collinearity.
 ```
-Our two IVs are still significant, but our R squared droped to .6561 which is pretty negligiable.
-If it were up to me, I would say to just retain a two variable model. 
 
-One thing that has always irked me about reading about 'models' is that a lot of the time articles won't mention what the final model is and what it means.
+Our two IVs are still significant, but our R squared dropped to .6561 which is pretty negligible.
+If we stick with these two variables and want to know know the ```review_overall``` of a new beer we would grab those two estimates and the intercept and build a nice line.
 
-If we were to say what this model was and meant we would write it out going back to 8th grade algerbra as a line.
-
-Overall Taste = Score of what someone rates as Palate x 0.28 + Score of Taste * .59 + .54
+Overall Taste = Score of Palate x 0.28 + Score of Taste * .59 + .54
 
 So if you knew that someone rated a beer as a 4 on Palate and a 3 on taste, you would put those numbers into the equation and what it would predict after doing some basic math ( 4 \* 0.28 + 3 \*.59 + .54 ) it would guess the beer's overall score would be a 3.43.
 
+But why stop here?
+What if a one IV model could do the trick here? 
+I only say that because a bit before we noted that ```review_taste``` correlated very highly with ```review_overall```.
 
+```{r}
+predict.taste <- lm(review_overall ~ review_taste, data = beer)
+summary(predict.taste)
+```
+
+Looking at our Adjusted R-squared, we see that it's now only .6238!
+We barely lot any sort of predictive accuracy by just dropping down to a one variable model!!
+
+Now we're kind of just eyeballing here on our Adjusted R-squared, if we really want to know if there are significant differences between our models we can actually use the anova() function in R to compare our models.
+
+```{r}
+anova(predict.overall, predict.overall.occam, predict.taste)
+```
+
+The model below shows that we have significant differences between all of our model meaning that by choosing to use one over the other we are changing the predictive power of our model to the degree that the results each model spits out is probably not due to chance. 
+
+## TL;DR
+
+So what's the answer? 
+The TL;DR is that our taste variable takes the cake.
+Palate is also important to a decent degree.
+The other two help, but we should be cautious of their _statistical_ significance since our dataset is so huge. 
+
+Now above I noted that we technically broke some assumptions of linear regression.
+There are a few things we could do to get around this.
+One thing that has been getting quite popular in psychology research is running [Mixed Effects Models](thatonelink) which are great since they don't demand as many assumptions as linear regression (AF Notes)
+
+The other way to do it is to use a non-parametric model that makes no assumptions about the data and see what that does for us.
+I'm going to opt for the latter now, but will defintly be writing more about mixed effects models in the future!
+
+## KNN Regression
+
+Over the winter holiday myself and my labmate [Connor](link) read [Introduction to Statistical Learning](Link) which was a fantastic intro to anyone looking to get into machine learning.
+One type of regression it talked about was K-Nearest Neighbor Regression. 
+If you want to read about the pros and cons of it compared to linear regression, you can check it out in their section 3.5.
+
+Just to compare how simple, more rigid method compares to a more flexible one, I'll take more of a Machine Learnign approach to this.
 
