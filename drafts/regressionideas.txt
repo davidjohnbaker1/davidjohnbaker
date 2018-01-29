@@ -1,0 +1,20 @@
+While many people who are reading this might know what regression is, it's worth taking a second to talk about since (according to all the blog posts that I have read) one of the attributes of being a good data scientist is being able to explain seemingly complicated, yet unfamiliar terms to equally as intelligent team members who just don't work as much with numbers.
+
+I think the best way to explain regression models are that they are ways of helping you make decent guesses about guessable things.
+Let's say for example we were to play a game where I would give you 5$ every time you guessed the ABV within 1% of a beer I picked at random from the 56,857 unique beers in this dataset.
+And for every 1% you were off, you would get $1 dollar less.
+
+If you had no other information, your best bet would be to pick the average ABV of all the beers every time.
+It's a simple model, but if we did it 100 times in a row that strategy would serve you better than just guessing randomly.
+
+Now let's say I tell you that you're allowed to know what kind of beer it is before you make your guess.
+I give you a chart of all the average ABVs of each beer type and then you can consult your chart and change your guess accordingly.
+In this situation, if you wanted to increase your chances of getting closer you would be foolish not to guess the average ABV of that beer type since we know from the last post that beers vary based on their type!
+
+You could imagine this process happening again and again with new charts I gave you and with each one you could get more and more accurate answers.
+Some charts would be more helpful than others.
+For example a chart on the average ABV of that brewery might be better than knowing where the beer is brewed.
+
+Considering what charts would help you get closer to your guess is essentially what it's like to build regression models.
+Of course it's a bit more complicated than that, but having this example will help explain my answer to question #3 later on.
+

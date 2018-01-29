@@ -38,8 +38,12 @@ quality.data
 # Show 
 #--------------------------------------------------
 # Visually find all the systematic differences you are going to expect
+names(quality.data)
 
-
+# DV is Review Overall 
+# IVs to inspect are aroma, taste, appearance, palette
+# Reviewers Should have Random Intercepts and Random Slopes 
+# Individal Beers should have random slopes and intercepts 
 
 # Think of things that will add noise to your data 
 # Random Slope-y things: Quirks of Individual Raters, Quirks of individual Items general level of mean variability
@@ -48,6 +52,15 @@ quality.data
 # Then think of things that might add in random slopes (basically continuous variables that are random intercepts)
 
 # Make A Null Model with all the noise 
+# Gender --> categorical variable we think that exhasutive inclusion will be able to help with remove systematic noise
+# Beer style -- > " ... " 
+# Attitude and Subject are ITEM LEVEL and SUBJECT LEVEL Random Factors 
+# subjects will have their own level of quirky ness 
+
+# 1 + thing that we want to have Random Slope control for 
+
+beer.null <- lmer(review_overall ~ beer_style + (1 + review_overall|review_profilename) + (1 + review_overall|beer_name_unique),
+                  data=quality.data, REML=FALSE)
 
 # Then add in IVs you think are goign to help, anvova them, also check for interactions
 

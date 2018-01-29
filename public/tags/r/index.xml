@@ -7,8 +7,185 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 David John Baker</copyright>
-    <lastBuildDate>Mon, 15 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jan 2018 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/r/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hire Me (as a Data Scientist!), Part IV</title>
+      <link>/post/hire-me-as-a-data-scientist-part-iv/</link>
+      <pubDate>Mon, 29 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/hire-me-as-a-data-scientist-part-iv/</guid>
+      <description>&lt;p&gt;Since this is the last post, I’ll keep this short and sweet in terms of analysis. Though after having done all of this, I do have a few reflections I would like to share after doing the &lt;a href=&#34;https://www.linkedin.com/pulse/how-hire-test-data-skills-one-size-fits-all-interview-tanya-cashorali/&#34;&gt;One-Size-Fits-All-Data-Science Interview&lt;/a&gt; that I have included at the end. Our last question to answer is:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Lastly, if I typically enjoy a beer due to its aroma and appearance, which beer style should I try?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This is a pretty broad question and should be able to be answered without many pitfalls so let’s get started.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(ggplot2)
+library(data.table)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: package &amp;#39;data.table&amp;#39; was built under R version 3.4.2&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;beer &amp;lt;- fread(&amp;quot;data/beer_reviews.csv&amp;quot;) &lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+Read 83.8% of 1586614 rows
+Read 1586614 rows and 13 (of 13) columns from 0.168 GB file in 00:00:03&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;From a bird’s eye view, it seems like the most sensible thing to do would be to look at our data from the highest level, then just zoom in until we have the level of granularity we feel answers the question well. Let’s first just average over all the beer styles to get a rough estimate how a beer style fairs on the variables we are interested in and additionally see how much variability is associated with that measurement.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;sem &amp;lt;-function(x) {sd(x)/sqrt(length(x))}
+
+question4.means &amp;lt;- beer[, .(mean_aroma = mean(review_aroma), mean_appearance = mean(review_appearance), mean_overall = mean(review_overall),
+                            sem_aroma = sem(review_aroma), sem_appearance = sem(review_appearance), sem_overall = sem(review_overall),
+                            sd_aroma = sd(review_aroma), sd_appeareance = sd(review_appearance),sd_overall = sd(review_overall)), 
+                        by = beer_style]
+question4.means&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##                                         beer_style mean_aroma
+##   1:                                    Hefeweizen   3.761735
+##   2:                            English Strong Ale   3.749427
+##   3:                        Foreign / Export Stout   3.828366
+##   4:                               German Pilsener   3.387159
+##   5:                American Double / Imperial IPA   4.097782
+##  ---                                                         
+## 100:                                        Gueuze   4.117574
+## 101:                                          Gose   3.783528
+## 102:                                      Happoshu   2.595436
+## 103:                                         Sahti   3.827992
+## 104: Bi\303\250re de Champagne / Bi\303\250re Brut   3.734704
+##      mean_appearance mean_overall   sem_aroma sem_appearance sem_overall
+##   1:        3.828293     3.929626 0.003668940    0.003595729 0.004051038
+##   2:        3.852469     3.783288 0.008118012    0.007674182 0.009323636
+##   3:        4.039015     3.877679 0.007222404    0.006830955 0.008163490
+##   4:        3.572444     3.731573 0.004611304    0.004323963 0.005097580
+##   5:        4.078916     3.998017 0.001937927    0.001600133 0.002171618
+##  ---                                                                    
+## 100:        4.034864     4.086287 0.007225256    0.006450020 0.008273156
+## 101:        3.908163     3.965015 0.019413627    0.015860893 0.023754558
+## 102:        2.925311     2.914938 0.048722437    0.051373864 0.063538226
+## 103:        3.655985     3.700283 0.019516104    0.017677122 0.021691778
+## 104:        4.045889     3.648184 0.021782360    0.018920362 0.026781986
+##       sd_aroma sd_appeareance sd_overall
+##   1: 0.6129217      0.6006912  0.6767538
+##   2: 0.5623738      0.5316275  0.6458931
+##   3: 0.5581381      0.5278874  0.6308640
+##   4: 0.6863721      0.6436027  0.7587521
+##   5: 0.5682357      0.4691883  0.6367582
+##  ---                                    
+## 100: 0.5600855      0.4999910  0.6413163
+## 101: 0.5084740      0.4154222  0.6221699
+## 102: 0.7563756      0.7975368  0.9863785
+## 103: 0.6356980      0.5757968  0.7065662
+## 104: 0.7044834      0.6119209  0.8661809&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now knowing how each beer style varies on our variables of interest (with our overall score thrown in for good measure!), let’s plot our results. Note that I have included standard error of the mean error bars as a sanity check to make sure that each beer’s ratings is not going to bleed into the other’s dimensions. By doing this we can have a bit more confidence in what we are looking at that it actually has some meaning. This plot shows the standard error on each of the two variables we are interested in and for the most part it looks as if they are relatively well contained.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ggplot(question4.means, aes(x = mean_aroma, y = mean_appearance, color = beer_style)) + 
+  geom_point() +
+  geom_errorbar(aes(ymin=mean_appearance-sem_appearance, ymax=mean_appearance+sem_appearance), width=.1) +
+  geom_errorbarh(aes(xmin=mean_aroma-sem_aroma, xmax=mean_aroma+sem_aroma)) + theme(legend.position=&amp;quot;none&amp;quot;) +
+  labs(title = &amp;quot;Mean Appearance and Aroma&amp;quot;, y = &amp;quot;Mean Aroma&amp;quot;, x = &amp;quot;Mean Appearance&amp;quot;) &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2018-01-29-hire-me-as-a-data-scientist-part-iv_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;This graph has a lot of beers, but what we are interested in is that top right quadrant where both the average appearance and aroma are maxed out. Let’s zoom in on it and throw in a sizing variable of the overall rating and inspect our graph.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ggplot(question4.means[mean_appearance &amp;gt; 4 &amp;amp; mean_aroma &amp;gt; 4], 
+       aes(x = mean_aroma, y = mean_appearance, color = beer_style, size = mean_overall)) + 
+  geom_point() + xlim(4,4.2) + ylim(4,4.25) +  theme(legend.position=&amp;quot;none&amp;quot;) +
+ # geom_errorbar(aes(ymin=mean_appearance-sem_appearance, ymax=mean_appearance+sem_appearance), width=.1) +
+#  geom_errorbarh(aes(xmin=mean_aroma-sem_aroma, xmax=mean_aroma+sem_aroma)) + theme(legend.position=&amp;quot;none&amp;quot;) +
+  labs(title = &amp;quot;Mean Appearance and Aroma&amp;quot;, y = &amp;quot;Mean Aroma&amp;quot;, x = &amp;quot;Mean Appearance&amp;quot;) + 
+  geom_text(aes(label=beer_style, hjust = .5, vjust = -.75)) &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2018-01-29-hire-me-as-a-data-scientist-part-iv_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Looking at this subsection, it appears that we have a few choices for beers that score highly on both Appearance and Aroma. The American Double / Imperial Stout looks like a good option as it scores higher on how it looks, but our Russian Imperial Stout has a higher Aroma score. We could start crunching more numbers here to find “the best” option, or at this point we could take off our data science hats and put our psychology ones back on and run some double blind experiments on ourselves just to make sure that our data is actually lining up with something in the real world.&lt;/p&gt;
+&lt;div id=&#34;reflections&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Reflections&lt;/h2&gt;
+&lt;p&gt;What started out as a fun weekend project actually turned into a really great learning experience. I’ve definitely put a few solid hours into this and have gotten a lot out of it. I learned that my friends actually know a TON about beer and data science, that &lt;a href=&#34;https://git-lfs.github.com/&#34;&gt;git-lfs&lt;/a&gt; is a thing that I wish I would have known about earlier, and that I’m actually looking forward to doing more blogging in the future.&lt;/p&gt;
+&lt;p&gt;I will probably have to go MIA for the next two weeks since my General Exams are coming up in early February, but I’m sure I will be back at it come late March. Until then all I can hope for is that someone who is looking to hire a junior data scientist over the summer will come across these posts and think that I might be a good temporary addition to their team.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hire Me (as a Data Scientist!), Part III</title>
+      <link>/post/hire-me-as-a-datascientist-part-iii/</link>
+      <pubDate>Sun, 28 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/hire-me-as-a-datascientist-part-iii/</guid>
+      <description>&lt;p&gt;Two questions down, two to go! For the third post I’ll explore the question:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Which of the factors (aroma, taste, appearance, palette) are most important in determining the overall quality of a beer?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Whereas the posts before were questions of sorting data, this is our first attempt to make some statistical models. In this case we’re going to be doing a bit of regression modeling.&lt;/p&gt;
+&lt;p&gt;There are a ton of ways to tackle this problem. We could run some basic linear regression models and spent the whole post talking beta coeffecients and what assumptions we violated. We could do a linear mixed effects model, then realize that doing so would be a terrible choice (I tried it for the fun of it, bad idea). Or we do some fun non-parametric, machine learning models that are on the easier-to-interpret side. Since machine learning is so hot right now, let’s stick with that.&lt;/p&gt;
+&lt;div id=&#34;machine-learning-and-non-parametric-models&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Machine Learning and Non-Parametric Models&lt;/h2&gt;
+&lt;p&gt;Non-parametric models make no assumptions about the data. The models do not assume that our points come from beautiful, normally distributed ideal poplulations; they just seek to find some sort of way to give us a good rule of thumb about what is happening under the hood.&lt;/p&gt;
+&lt;p&gt;In this case we need to make a model to predict the quality of beer (our dependent variable, &lt;code&gt;review_overall&lt;/code&gt;) based on four different independent variables (&lt;code&gt;review_aroma&lt;/code&gt;, &lt;code&gt;review_taste&lt;/code&gt;, &lt;code&gt;review_appearance&lt;/code&gt;, &lt;code&gt;review_palete&lt;/code&gt;).&lt;/p&gt;
+&lt;p&gt;After discussing the pros and cons of certain methods of tackling this problem my friend &lt;a href=&#34;https://www.linkedin.com/in/tabitha-trahan-172471b4/&#34;&gt;Tabi&lt;/a&gt;, the data scientist over at &lt;a href=&#34;https://www.soundout.com/&#34;&gt;Soundout&lt;/a&gt;, suggested that an easy way to get the answer I was looking for was to used a random forest model. Some great explanations about how these models work can be found &lt;a href=&#34;http://trevorstephens.com/kaggle-titanic-tutorial/getting-started-with-r/&#34;&gt;here&lt;/a&gt; and &lt;a href=&#34;http://www-bcf.usc.edu/~gareth/ISL/&#34;&gt;here&lt;/a&gt;, and &lt;a href=&#34;https://gormanalysis.com/random-forest-from-top-to-bottom/&#34;&gt;here&lt;/a&gt; and since this isn’t a post about how random forest models work, I’ll just note that basically the idea is that it is an algorithm through and finds effecient ways to parse your dataset. Relevant to our question, the ways in which the algorithm splits our dataset is going to help us figure out what are the important variables.&lt;/p&gt;
+&lt;p&gt;Before running this model though, we need to talk about a small dependece problem in our dataset. In my earlier post I talked about how we probably should not just run a model on the data &lt;em&gt;as is&lt;/em&gt;. Last time we found there were tons of NAs in our dataset, that not all beers were equally represented, and that not all reviewers were making even amonts of reviews. In addition to these problems, there is also the problem that some reviewers might rate generally higher or lower &lt;em&gt;all the time&lt;/em&gt;. Since we know things like this exist, we want to account for them.&lt;/p&gt;
+&lt;p&gt;The simplest plan of action would be to try make each of the points we want to model independnt by averaging ratings across all beers so we don’t have cases where on person rated multiple beers. We’ll also make sure to only use beers that got over 30 ratings as a quality check. Let’s index out the data we need!&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(ggplot2)
+library(data.table)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: package &amp;#39;data.table&amp;#39; was built under R version 3.4.2&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;beer &amp;lt;- fread(&amp;quot;data/beer_reviews.csv&amp;quot;) &lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+Read 83.2% of 1586614 rows
+Read 1586614 rows and 13 (of 13) columns from 0.168 GB file in 00:00:03&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Make READABLE unique beer ID
+beer[, beer_name_unique := paste(brewery_name,beer_name, beer_style)]
+
+# Only beers with over 30 reviews 
+reliable.beers &amp;lt;- beer[, .(ReviewsBeerHas = .N), by = beer_name_unique][order(-ReviewsBeerHas)][ReviewsBeerHas &amp;gt; 30]
+
+# Merge with Inner Join 
+beer.reliable &amp;lt;- reliable.beers[beer, on = &amp;quot;beer_name_unique&amp;quot;, nomatch=0]
+
+# Make independent ratings 
+prediction.data &amp;lt;- beer.reliable[, .(AvgOverall = mean(review_overall),
+         AvgAroma = mean(review_aroma),
+         AvgTaste = mean(review_taste),
+         AvgApp = mean(review_appearance),
+         AvgPal = mean(review_palate)), by = beer_name_unique]&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now that we have some better data, let’s fit a random forest model attempting to predict the average overall rating from our four others. We’ll use the randomForest package and make sure to ask it to include a measure of importance.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(randomForest)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## randomForest 4.6-12&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Type rfNews() to see new features/changes/bug fixes.&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Attaching package: &amp;#39;randomForest&amp;#39;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## The following object is masked from &amp;#39;package:ggplot2&amp;#39;:
+## 
+##     margin&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;set.seed(666)
+random.forrest.fit &amp;lt;- randomForest(AvgOverall ~ AvgAroma + AvgTaste + AvgApp + AvgPal, data = prediction.data, importance = TRUE)
+random.forrest.fit$importance&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##             %IncMSE IncNodePurity
+## AvgAroma 0.02237100      205.5977
+## AvgTaste 0.09827118      292.3836
+## AvgApp   0.01506269      178.6027
+## AvgPal   0.05784560      262.0587&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The randomForest object gives us two different measures when it comes to variable importance. The first one, &lt;code&gt;%IncMSE&lt;/code&gt; which is a measure that tells us how much our model’s Mean Square Error (MSE) would change if we were to take that variable out of our model. Average taste here is trouncing the other variables in terms of importance. The second variable, &lt;code&gt;IncNodePurity&lt;/code&gt; gives us a measure of node purity from all of the trees that were used in creating our model. Here Taste again leads in terms of importance, but our Pallete variable seems to be close behind. We see this visually below.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;varImpPlot(random.forrest.fit, main = &amp;quot;Variable Importance Metrics&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2018-01-28-hire-me-as-a-datascientist-part-iii_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;The result that Taste seems to be taking the cake here is to be expected. Using some of the more basic tools of statistics and data science, we look at the correlation between our taste variable and our overall it’s quite high. Actually looking at our average ratings, all the correlations are really high!&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;cor(prediction.data[,-1])&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##            AvgOverall  AvgAroma  AvgTaste    AvgApp    AvgPal
+## AvgOverall  1.0000000 0.8825233 0.9529410 0.8448759 0.9364420
+## AvgAroma    0.8825233 1.0000000 0.9594183 0.8973834 0.9370662
+## AvgTaste    0.9529410 0.9594183 1.0000000 0.8962542 0.9743082
+## AvgApp      0.8448759 0.8973834 0.8962542 1.0000000 0.9132926
+## AvgPal      0.9364420 0.9370662 0.9743082 0.9132926 1.0000000&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Doing the analysis like this presents some strange issues of collinearity. Having an &lt;em&gt;r&lt;/em&gt; = .951 for our Overall and Taste variables is obnoxiously high. An &lt;em&gt;r&lt;/em&gt; = .974 for Palate and Taste is also strangely large. If you coming from more of a psychology background you would almost never see correlations this high in the wild; it would be an immediate sign concern.&lt;/p&gt;
+&lt;p&gt;The correlations go down a bit if you end up looking at the non-aggregated sets too (see below), but again remember that these values have that dependence and outlier issues with them. Still, taste and overall are the highest correlated variables.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;cor(beer[, .(review_overall,review_aroma,review_appearance,review_palate,review_taste)])&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##                   review_overall review_aroma review_appearance
+## review_overall         1.0000000    0.6160131         0.5017324
+## review_aroma           0.6160131    1.0000000         0.5610290
+## review_appearance      0.5017324    0.5610290         1.0000000
+## review_palate          0.7019139    0.6169469         0.5666339
+## review_taste           0.7898156    0.7167761         0.5469804
+##                   review_palate review_taste
+## review_overall        0.7019139    0.7898156
+## review_aroma          0.6169469    0.7167761
+## review_appearance     0.5666339    0.5469804
+## review_palate         1.0000000    0.7341351
+## review_taste          0.7341351    1.0000000&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This effect is probably due to the fact that higher beers tend to just score higher on everything. It would be pretty strange in pratcice to give a beer a 5/5 overall but then think it’s deserving of a 2/5 in Taste. If I were on a team at Beer Advocate I might try to suggest maybe incorporating either a larger range of ratings (maybe a seven point scale) or maybe thinking about different dimensions to ask people to rate like maybe hoppiness or bang-for-your-buck: variables that will have less collinearity issues.&lt;/p&gt;
+&lt;p&gt;So the take-home here is that the taste variable is the most important variable for determining the overall rating!&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Hire Me (as a Data Scientist!), Part II</title>

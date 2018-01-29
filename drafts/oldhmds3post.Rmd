@@ -1,0 +1,151 @@
+At this point it's worth mentioning one thing: our data are not independent; we have many examples of the same person rating multiple beers.
+Technically this breaks of rule of linear regression... but we can find a work around later. 
+
+Let's do some modeling!
+
+### Modeling 
+
+The first thing worth checking before running a linear regression is if our data are normal [normal](https://en.wikipedia.org/wiki/Normal_distribution) with our DV.
+Plotting the data we see that they look pretty normal and also note that our raters are not taking advantage of the whole scale they have.
+
+```{r}
+mean(beer$review_overall)
+hist(beer$review_overall,
+     main = "Distribution of DV",
+     xlab = "Review Overall",
+     ylab = "Frequency")
+```
+
+The average rating of all beers is 3.82 (most beers are "above average") and it looks like we a ceiling problem with the data in that the top end of the ratings doesn't slope off like the lower ratings do.
+We _could_ transform the data, but the problem with doing that is that you then have think about how you interpret your answers on that scale.
+
+Let's check out our IVs.
+
+```{r}
+#=====================================================================================#
+hist(beer$review_aroma,
+     main = "Aroma Distribution",
+     xlab = "",
+     ylab = "Frequnecy")
+hist(beer$review_appearance,
+     main = "Appearance Distribution",
+     xlab = "",
+     ylab = "Frequnecy")
+hist(beer$review_palate,
+     main = "Palate Distribution",
+     xlab = "",
+     ylab = "Frequnecy")
+hist(beer$review_taste,
+     main = "Taste Distribution",
+     xlab = "",
+     ylab = "Frequnecy")
+
+apply(beer[, .(review_overall, review_aroma, review_appearance, review_palate, review_taste)],2, skew)
+apply(beer[, .(review_overall, review_aroma, review_appearance, review_palate, review_taste)],2, kurtosi)
+```
+
+Nothing seems to be egregiously wrong from a visual standpoint, but to be safe it's always good to run actual numbers looking at the skew and kurtosis of our data.
+
+```{r}
+apply(beer[, .(review_overall, review_aroma, review_appearance, review_palate, review_taste)],2, skew)
+apply(beer[, .(review_overall, review_aroma, review_appearance, review_palate, review_taste)],2, kurtosi)
+```
+
+Nothing that bad. 
+
+Lastly we want to check for collinarity among variables.
+The reason to do this is in case two variables are essentially measuring the same thing.
+I'd assume there won't be a problem here, but let's say the people doing this study had also measured a variable called ```review_smellyness``` which you would imagine might correlate highly with ```review_aroma```.
+If that were the case, you might not be getting that much bang for your buck by including both variables in the model. 
+
+```{r}
+cor(beer[, .(review_overall, review_aroma, review_appearance, review_palate, review_taste)])
+```
+
+Some of the variables are highly correlated (```review_overall``` has an _R_ = ~.80 with ```review_taste```), so let's just keep that in mind as we go. 
+
+We've at least done a preliminary check of the assumptions of regression and only broke a few of them, so we need to be aware of that when we get into model interpretation. 
+
+For our first model, let's just dump everything in and see what comes up as significant since the question is not about theory building, just about finding helpful predictors. 
+
+```{r}
+predict.overall <- lm(review_overall ~ review_aroma + review_appearance + review_palate + review_taste, data = beer)
+summary(predict.overall)
+plot(predict.overall)
+
+predict.overall.z <- lm(scale(review_overall) ~ scale(review_aroma) + 
+                                                scale(review_appearance) + 
+                                                scale(review_palate) + 
+                                                scale(review_taste), 
+                                                data = beer)
+plot(predict.overall.z)
+
+## aroma and appearance contribute, but might just bbe because of high numbers
+```
+
+Looking at the output every predictor is significant!
+Though it's not really that big of a deal because our dataset is HUGE and all that a p < .05 is telling you is that the predictor you used is non-zero. 
+That's it.
+
+More important to look at is the size of the estimates.
+We see that the estimates for ```review_palate``` and ```review_taste``` are much larger in size than the ```review_aroma``` and ```review_appearance```.
+Since all of these variables were originally measured on the same scale, we can directly compare them.
+We also notice that our Adjusted R-squared is .6581 meaning that this model accounts for over 65% of the variance. 
+Not bad!
+
+Let's try to run another model, but this time without those two garbage predictors and see how much predictive power we loose. 
+
+```{r}
+predict.overall.occam <- lm(review_overall ~ review_palate + review_taste, data = beer)
+summary(predict.overall.occam)
+```
+
+Our two IVs are still significant, but our R squared dropped to .6561 which is pretty negligible.
+If we stick with these two variables and want to know know the ```review_overall``` of a new beer we would grab those two estimates and the intercept and build a nice line.
+
+Overall Taste = Score of Palate x 0.28 + Score of Taste * .59 + .54
+
+So if you knew that someone rated a beer as a 4 on Palate and a 3 on taste, you would put those numbers into the equation and what it would predict after doing some basic math ( 4 \* 0.28 + 3 \*.59 + .54 ) it would guess the beer's overall score would be a 3.43.
+
+But why stop here?
+What if a one IV model could do the trick here? 
+I only say that because a bit before we noted that ```review_taste``` correlated very highly with ```review_overall```.
+
+```{r}
+predict.taste <- lm(review_overall ~ review_taste, data = beer)
+summary(predict.taste)
+```
+
+Looking at our Adjusted R-squared, we see that it's now only .6238!
+We barely lot any sort of predictive accuracy by just dropping down to a one variable model!!
+
+Now we're kind of just eyeballing here on our Adjusted R-squared, if we really want to know if there are significant differences between our models we can actually use the anova() function in R to compare our models.
+
+```{r}
+anova(predict.overall, predict.overall.occam, predict.taste)
+```
+
+The model below shows that we have significant differences between all of our model meaning that by choosing to use one over the other we are changing the predictive power of our model to the degree that the results each model spits out is probably not due to chance. 
+
+## TL;DR
+
+So what's the answer? 
+The TL;DR is that our taste variable takes the cake.
+Palate is also important to a decent degree.
+The other two help, but we should be cautious of their _statistical_ significance since our dataset is so huge. 
+
+Now above I noted that we technically broke some assumptions of linear regression.
+There are a few things we could do to get around this.
+One thing that has been getting quite popular in psychology research is running [Mixed Effects Models](thatonelink) which are great since they don't demand as many assumptions as linear regression (AF Notes)
+
+The other way to do it is to use a non-parametric model that makes no assumptions about the data and see what that does for us.
+I'm going to opt for the latter now, but will defintly be writing more about mixed effects models in the future!
+
+## KNN Regression
+
+Over the winter holiday myself and my labmate [Connor](link) read [Introduction to Statistical Learning](Link) which was a fantastic intro to anyone looking to get into machine learning.
+One type of regression it talked about was K-Nearest Neighbor Regression. 
+If you want to read about the pros and cons of it compared to linear regression, you can check it out in their section 3.5.
+
+Just to compare how simple, more rigid method compares to a more flexible one, I'll take more of a Machine Learnign approach to this.
+
