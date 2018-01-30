@@ -1,3 +1,3 @@
 # davidjohnbaker
 
-This is the code to my [website](davidjohnbaker.rbind.io)! 
+This is the code to my [website](http://davidjohnbaker.rbind.io)! 
