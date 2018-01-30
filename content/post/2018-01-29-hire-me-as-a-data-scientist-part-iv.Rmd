@@ -76,13 +76,11 @@ both Appearance and Aroma.
 The American Double / Imperial Stout looks like a good option as it scores higher on how it
 looks, but our Russian Imperial Stout has a higher Aroma score.
 We could start crunching more numbers here to find "the best" option, or at this point we could
-take off our data science hats and put our psychology ones back (assuming that's what we were wearing...) on and run some double-blind experiments on ourselves just to make sure that our data is actually lining up with something in
-the real world.
+take off our data science hats and put our psychology ones back on (assuming that's what we were wearing...) and run some double-blind experiments on ourselves to make sure that our data is actually lining up with something in the real world.
 
 ## Reflections
 
-What started out as a fun weekend project actually turned into a really great learning
-experience.
+What started out as a fun weekend project actually turned into a really great learning experience.
 I've definitely put a few solid hours into this and have gotten a lot out of it.
 I learned that my friends actually know a TON about beer and data science, that [git-lfs](https://git-lfs.github.com/) is a thing that something I wish I would have known about earlier,
 and that I'm actually looking forward to doing more blogging in the future.
