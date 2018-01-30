@@ -8,8 +8,9 @@ tags: [R, Data Science, Beer]
 ---
 
 Since this is the last post, I'll keep this short and sweet in terms of analysis.
-Though after having done all of this, I do have a few reflections I would like to share after doing the [One-Size-Fits-All-Data-Science Interview](https://www.linkedin.com/pulse/how-hire-test-data-skills-one-size-fits-all-interview-tanya-cashorali/) that I have included at the end.
-Our last question to answer is: 
+Having done all of this, I do have a few reflections I would like to share after doing the [One-Size-Fits-All-Data-Science Interview](https://www.linkedin.com/pulse/how-hire-test-data-skills-one-size-fits-all-interview-tanya-cashorali/) that I have included at the end.
+
+Our final question to answer is: 
 
 > Lastly, if I typically enjoy a beer due to its aroma and appearance, which beer style should I try?
 
@@ -21,8 +22,12 @@ library(data.table)
 beer <- fread("data/beer_reviews.csv") 
 ```
 
-From a bird's eye view, it seems like the most sensible thing to do would be to look at our data from the highest level, then just zoom in until we have the level of granularity we feel answers the question well. 
-Let's first just average over all the beer styles to get a rough estimate how a beer style fairs on the variables we are interested in and additionally see how much variability is associated with that measurement. 
+From a bird's eye view, it seems like the most sensible thing to do would be to look at our data
+from the highest level, then just zoom in until we have the level of granularity we feel answers
+the question well.
+Let's first just average over all the beer styles to get a rough estimate of how a beer style fairs
+on the variables we are interested in, and additionally see how much variability is associated
+with that measurement.
 
 ```{r}
 sem <-function(x) {sd(x)/sqrt(length(x))}
@@ -34,10 +39,14 @@ question4.means <- beer[, .(mean_aroma = mean(review_aroma), mean_appearance = m
 question4.means
 ```
 
-Now knowing how each beer style varies on our variables of interest (with our overall score thrown in for good measure!), let's plot our results.
-Note that I have included standard error of the mean error bars as a sanity check to make sure that each beer's ratings is not going to bleed into the other's dimensions.
-By doing this we can have a bit more confidence in what we are looking  at that it actually has some meaning.
-This plot shows the standard error on each of the two variables we are interested in and for the most part it looks as if they are relatively well contained. 
+Now knowing how each beer style varies on our variables of interest (with our overall score
+thrown in for good measure!), let's plot our results.
+Note that I have included standard error of the mean error bars as a sanity check to make sure
+that each beer's ratings is not going to bleed into the others’ dimensions.
+By doing this we can have a bit more confidence in what we are looking at that it actually has
+some meaning.
+This plot shows the standard error on each of the two variables we are interested in and for the
+most part it looks as if they are relatively well contained.
 
 ```{r}
 ggplot(question4.means, aes(x = mean_aroma, y = mean_appearance, color = beer_style)) + 
@@ -47,8 +56,9 @@ ggplot(question4.means, aes(x = mean_aroma, y = mean_appearance, color = beer_st
   labs(title = "Mean Appearance and Aroma", y = "Mean Aroma", x = "Mean Appearance") 
 ```
 
-This graph has a lot of beers, but what we are interested in is that top right quadrant where both the average appearance and aroma are maxed out.
-Let's zoom in on it and throw in a sizing variable of the overall rating and inspect our graph. 
+This graph has a lot of beers, but what we are interested in is that top right quadrant where both
+the average appearance and aroma are maxed out.
+Let's zoom in on it and throw in a sizing variable of the overall rating and inspect our graph.
 
 ```{r}
 ggplot(question4.means[mean_appearance > 4 & mean_aroma > 4], 
@@ -61,15 +71,24 @@ ggplot(question4.means[mean_appearance > 4 & mean_aroma > 4],
 ```
 
 
-Looking at this subsection, it appears that we have a few choices for beers that score highly on both Appearance and Aroma.
-The American Double / Imperial Stout looks like a good option as it scores higher on how it looks, but our Russian Imperial Stout has a higher Aroma score.
-We could start crunching more numbers here to find "the best" option, or at this point we could take off our data science hats and put our psychology ones back on and run some double blind experiments on ourselves just to make sure that our data is actually lining up with something in the real world. 
+Looking at this subsection, it appears that we have a few choices for beers that score highly on
+both Appearance and Aroma.
+The American Double / Imperial Stout looks like a good option as it scores higher on how it
+looks, but our Russian Imperial Stout has a higher Aroma score.
+We could start crunching more numbers here to find "the best" option, or at this point we could
+take off our data science hats and put our psychology ones back (assuming that's what we were wearing...) on and run some double-blind experiments on ourselves just to make sure that our data is actually lining up with something in
+the real world.
 
 ## Reflections
 
-What started out as a fun weekend project actually turned into a really great learning experience.
+What started out as a fun weekend project actually turned into a really great learning
+experience.
 I've definitely put a few solid hours into this and have gotten a lot out of it.
-I learned that my friends actually know a TON about beer and data science, that [git-lfs](https://git-lfs.github.com/) is a thing that I wish I would have known about earlier, and that I'm actually looking forward to doing more blogging in the future.
+I learned that my friends actually know a TON about beer and data science, that [git-lfs](https://git-lfs.github.com/) is a thing that something I wish I would have known about earlier,
+and that I'm actually looking forward to doing more blogging in the future.
 
-I will probably have to go MIA for the next two weeks since my General Exams are coming up in early February, but I'm sure I will be back at it come late March.
-Until then all I can hope for is that someone who is looking to hire a junior data scientist over the summer will come across these posts and think that I might be a good temporary addition to their team.
+I will probably have to go MIA for the next two weeks since my General Exams are coming up in
+early February, but I'm sure I will be back at it come late March.
+Until then all I can hope for is that someone who is looking to hire a junior data scientist over the
+summer will come across these posts and think that I might be a good temporary addition to
+their team.

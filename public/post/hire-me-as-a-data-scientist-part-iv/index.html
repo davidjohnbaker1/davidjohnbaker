@@ -262,7 +262,8 @@
 </div>
 
     <div class="article-style" itemprop="articleBody">
-      <p>Since this is the last post, I’ll keep this short and sweet in terms of analysis. Though after having done all of this, I do have a few reflections I would like to share after doing the <a href="https://www.linkedin.com/pulse/how-hire-test-data-skills-one-size-fits-all-interview-tanya-cashorali/">One-Size-Fits-All-Data-Science Interview</a> that I have included at the end. Our last question to answer is:</p>
+      <p>Since this is the last post, I’ll keep this short and sweet in terms of analysis. Having done all of this, I do have a few reflections I would like to share after doing the <a href="https://www.linkedin.com/pulse/how-hire-test-data-skills-one-size-fits-all-interview-tanya-cashorali/">One-Size-Fits-All-Data-Science Interview</a> that I have included at the end.</p>
+<p>Our final question to answer is:</p>
 <blockquote>
 <p>Lastly, if I typically enjoy a beer due to its aroma and appearance, which beer style should I try?</p>
 </blockquote>
@@ -272,9 +273,9 @@ library(data.table)</code></pre>
 <pre><code>## Warning: package &#39;data.table&#39; was built under R version 3.4.2</code></pre>
 <pre class="r"><code>beer &lt;- fread(&quot;data/beer_reviews.csv&quot;) </code></pre>
 <pre><code>## 
-Read 83.8% of 1586614 rows
+Read 66.8% of 1586614 rows
 Read 1586614 rows and 13 (of 13) columns from 0.168 GB file in 00:00:03</code></pre>
-<p>From a bird’s eye view, it seems like the most sensible thing to do would be to look at our data from the highest level, then just zoom in until we have the level of granularity we feel answers the question well. Let’s first just average over all the beer styles to get a rough estimate how a beer style fairs on the variables we are interested in and additionally see how much variability is associated with that measurement.</p>
+<p>From a bird’s eye view, it seems like the most sensible thing to do would be to look at our data from the highest level, then just zoom in until we have the level of granularity we feel answers the question well. Let’s first just average over all the beer styles to get a rough estimate of how a beer style fairs on the variables we are interested in, and additionally see how much variability is associated with that measurement.</p>
 <pre class="r"><code>sem &lt;-function(x) {sd(x)/sqrt(length(x))}
 
 question4.means &lt;- beer[, .(mean_aroma = mean(review_aroma), mean_appearance = mean(review_appearance), mean_overall = mean(review_overall),
@@ -282,43 +283,43 @@ question4.means &lt;- beer[, .(mean_aroma = mean(review_aroma), mean_appearance 
                             sd_aroma = sd(review_aroma), sd_appeareance = sd(review_appearance),sd_overall = sd(review_overall)), 
                         by = beer_style]
 question4.means</code></pre>
-<pre><code>##                                         beer_style mean_aroma
-##   1:                                    Hefeweizen   3.761735
-##   2:                            English Strong Ale   3.749427
-##   3:                        Foreign / Export Stout   3.828366
-##   4:                               German Pilsener   3.387159
-##   5:                American Double / Imperial IPA   4.097782
-##  ---                                                         
-## 100:                                        Gueuze   4.117574
-## 101:                                          Gose   3.783528
-## 102:                                      Happoshu   2.595436
-## 103:                                         Sahti   3.827992
-## 104: Bi\303\250re de Champagne / Bi\303\250re Brut   3.734704
-##      mean_appearance mean_overall   sem_aroma sem_appearance sem_overall
-##   1:        3.828293     3.929626 0.003668940    0.003595729 0.004051038
-##   2:        3.852469     3.783288 0.008118012    0.007674182 0.009323636
-##   3:        4.039015     3.877679 0.007222404    0.006830955 0.008163490
-##   4:        3.572444     3.731573 0.004611304    0.004323963 0.005097580
-##   5:        4.078916     3.998017 0.001937927    0.001600133 0.002171618
-##  ---                                                                    
-## 100:        4.034864     4.086287 0.007225256    0.006450020 0.008273156
-## 101:        3.908163     3.965015 0.019413627    0.015860893 0.023754558
-## 102:        2.925311     2.914938 0.048722437    0.051373864 0.063538226
-## 103:        3.655985     3.700283 0.019516104    0.017677122 0.021691778
-## 104:        4.045889     3.648184 0.021782360    0.018920362 0.026781986
-##       sd_aroma sd_appeareance sd_overall
-##   1: 0.6129217      0.6006912  0.6767538
-##   2: 0.5623738      0.5316275  0.6458931
-##   3: 0.5581381      0.5278874  0.6308640
-##   4: 0.6863721      0.6436027  0.7587521
-##   5: 0.5682357      0.4691883  0.6367582
-##  ---                                    
-## 100: 0.5600855      0.4999910  0.6413163
-## 101: 0.5084740      0.4154222  0.6221699
-## 102: 0.7563756      0.7975368  0.9863785
-## 103: 0.6356980      0.5757968  0.7065662
-## 104: 0.7044834      0.6119209  0.8661809</code></pre>
-<p>Now knowing how each beer style varies on our variables of interest (with our overall score thrown in for good measure!), let’s plot our results. Note that I have included standard error of the mean error bars as a sanity check to make sure that each beer’s ratings is not going to bleed into the other’s dimensions. By doing this we can have a bit more confidence in what we are looking at that it actually has some meaning. This plot shows the standard error on each of the two variables we are interested in and for the most part it looks as if they are relatively well contained.</p>
+<pre><code>##                           beer_style mean_aroma mean_appearance
+##   1:                      Hefeweizen   3.761735        3.828293
+##   2:              English Strong Ale   3.749427        3.852469
+##   3:          Foreign / Export Stout   3.828366        4.039015
+##   4:                 German Pilsener   3.387159        3.572444
+##   5:  American Double / Imperial IPA   4.097782        4.078916
+##  ---                                                           
+## 100:                          Gueuze   4.117574        4.034864
+## 101:                            Gose   3.783528        3.908163
+## 102:                        Happoshu   2.595436        2.925311
+## 103:                           Sahti   3.827992        3.655985
+## 104: Bière de Champagne / Bière Brut   3.734704        4.045889
+##      mean_overall   sem_aroma sem_appearance sem_overall  sd_aroma
+##   1:     3.929626 0.003668940    0.003595729 0.004051038 0.6129217
+##   2:     3.783288 0.008118012    0.007674182 0.009323636 0.5623738
+##   3:     3.877679 0.007222404    0.006830955 0.008163490 0.5581381
+##   4:     3.731573 0.004611304    0.004323963 0.005097580 0.6863721
+##   5:     3.998017 0.001937927    0.001600133 0.002171618 0.5682357
+##  ---                                                              
+## 100:     4.086287 0.007225256    0.006450020 0.008273156 0.5600855
+## 101:     3.965015 0.019413627    0.015860893 0.023754558 0.5084740
+## 102:     2.914938 0.048722437    0.051373864 0.063538226 0.7563756
+## 103:     3.700283 0.019516104    0.017677122 0.021691778 0.6356980
+## 104:     3.648184 0.021782360    0.018920362 0.026781986 0.7044834
+##      sd_appeareance sd_overall
+##   1:      0.6006912  0.6767538
+##   2:      0.5316275  0.6458931
+##   3:      0.5278874  0.6308640
+##   4:      0.6436027  0.7587521
+##   5:      0.4691883  0.6367582
+##  ---                          
+## 100:      0.4999910  0.6413163
+## 101:      0.4154222  0.6221699
+## 102:      0.7975368  0.9863785
+## 103:      0.5757968  0.7065662
+## 104:      0.6119209  0.8661809</code></pre>
+<p>Now knowing how each beer style varies on our variables of interest (with our overall score thrown in for good measure!), let’s plot our results. Note that I have included standard error of the mean error bars as a sanity check to make sure that each beer’s ratings is not going to bleed into the others’ dimensions. By doing this we can have a bit more confidence in what we are looking at that it actually has some meaning. This plot shows the standard error on each of the two variables we are interested in and for the most part it looks as if they are relatively well contained.</p>
 <pre class="r"><code>ggplot(question4.means, aes(x = mean_aroma, y = mean_appearance, color = beer_style)) + 
   geom_point() +
   geom_errorbar(aes(ymin=mean_appearance-sem_appearance, ymax=mean_appearance+sem_appearance), width=.1) +
@@ -334,10 +335,10 @@ question4.means</code></pre>
   labs(title = &quot;Mean Appearance and Aroma&quot;, y = &quot;Mean Aroma&quot;, x = &quot;Mean Appearance&quot;) + 
   geom_text(aes(label=beer_style, hjust = .5, vjust = -.75)) </code></pre>
 <p><img src="/post/2018-01-29-hire-me-as-a-data-scientist-part-iv_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
-<p>Looking at this subsection, it appears that we have a few choices for beers that score highly on both Appearance and Aroma. The American Double / Imperial Stout looks like a good option as it scores higher on how it looks, but our Russian Imperial Stout has a higher Aroma score. We could start crunching more numbers here to find “the best” option, or at this point we could take off our data science hats and put our psychology ones back on and run some double blind experiments on ourselves just to make sure that our data is actually lining up with something in the real world.</p>
+<p>Looking at this subsection, it appears that we have a few choices for beers that score highly on both Appearance and Aroma. The American Double / Imperial Stout looks like a good option as it scores higher on how it looks, but our Russian Imperial Stout has a higher Aroma score. We could start crunching more numbers here to find “the best” option, or at this point we could take off our data science hats and put our psychology ones back (assuming that’s what we were wearing…) on and run some double-blind experiments on ourselves just to make sure that our data is actually lining up with something in the real world.</p>
 <div id="reflections" class="section level2">
 <h2>Reflections</h2>
-<p>What started out as a fun weekend project actually turned into a really great learning experience. I’ve definitely put a few solid hours into this and have gotten a lot out of it. I learned that my friends actually know a TON about beer and data science, that <a href="https://git-lfs.github.com/">git-lfs</a> is a thing that I wish I would have known about earlier, and that I’m actually looking forward to doing more blogging in the future.</p>
+<p>What started out as a fun weekend project actually turned into a really great learning experience. I’ve definitely put a few solid hours into this and have gotten a lot out of it. I learned that my friends actually know a TON about beer and data science, that <a href="https://git-lfs.github.com/">git-lfs</a> is a thing that something I wish I would have known about earlier, and that I’m actually looking forward to doing more blogging in the future.</p>
 <p>I will probably have to go MIA for the next two weeks since my General Exams are coming up in early February, but I’m sure I will be back at it come late March. Until then all I can hope for is that someone who is looking to hire a junior data scientist over the summer will come across these posts and think that I might be a good temporary addition to their team.</p>
 </div>
 
