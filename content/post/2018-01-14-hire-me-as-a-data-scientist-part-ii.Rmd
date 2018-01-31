@@ -60,7 +60,7 @@ hist(beer[, .(.N), by = review_profilename][order(-N)]$N,
 This is pretty important when it comes to modeling the data (discussed in Part III), and not being fully aware of where your ratings are coming from could put the quality of your models at serious risk.
 
 So looking at this dataset, I wondered if there were any sort of implicit assumptions I could make about this data that might be able to help me find a good beer.
-One assumption that I didn’t think was too wild was that a sample of this population that had gone out of its way to rate over 500 beers was probably more of a beer experts than those who have only done a couple of reviews on the site.
+One assumption that I didn’t think was too wild was that a sample of this population that had gone out of its way to rate over 500 beers was probably more of a beer expert than those who have only done a couple of reviews on the site.
 
 One thing I wanted to check was: of all the 1.5 million reviews, where were they coming from? Were there enough reviews among the super users that I could use? 
 And what made someone a super user? 
@@ -78,7 +78,7 @@ super.users <- review.counts[ N >  500] # I can settle for .75 Million Reviews
 ```
 
 So now I had a list of the users who had completed over 500 reviews and made up 46% of our entire data. 
-I could use this new table I've made to index through our dataset of all the reviews that I had (that have their ABV ratings!) so I was then only dealing with these higher quality reviewers.
+I could use this new table I had made to index through our dataset of all the reviews that I had (that have their ABV ratings!) so I was then only dealing with these higher quality reviewers.
 
 ```{r}
 super.reviews <- super.users[beer.complete, on = "review_profilename", nomatch=0]
@@ -95,12 +95,12 @@ beer[, .(beer_styles = unique(beer_style))]
 
 Luckily they were the same.
 If I were to really do some more work on this dataset, I would also want to check things such as how many of the beers had each super user tried?
-Are there IPA experts in the group?
-If yes, should their opinion be taken more seriously if I had questions about IPA recommendation in the future?
+Were there IPA experts in the group?
+If yes, should their opinions be taken more seriously if I had questions about IPA recommendations in the future?
 But for now, I just set out to see what the highest rated beer among all the super users of this dataset was.
 
 In order to answer that question, I had to find out which beer in specific had the highest mean rating. 
-The dataset ‘as is’ comes with a ```beer_id``` unique ID, but the data downloaded as is does not give us a key to this, so I had to make it ourselves. 
+The dataset ‘as is’ comes with a ```beer_id``` unique ID, but the data downloaded as is does not give us a key to this, so I had to make it myself. 
 This was accomplished by just pasting together the brewery’s name, along with the beer name, and style into a new variable.
 
 As another **quality assurance** step, it was worth checking to see if this recreated the unique ID variable, which it didn’t do exactly... but it was pretty close. 
@@ -122,7 +122,7 @@ hist(super.reviews.popular$most_reviewed_beers,
      breaks = 200)
 ```
 
-Again I see this is clearly **not** anything resembling a repeated measures experiment and not all beers were rated equally. 
+Again I saw this was clearly **not** anything resembling a repeated measures experiment and not all beers were rated equally. 
 
 Continuing in the same fashion above, I just grabbed the top 100 beers of our super users and merged that on to our table from earlier that had all of the ratings from our super users. 
 Then from that table, I took the average of the overall rating and looked at our top ten beers.
@@ -143,10 +143,11 @@ It's [Pliny The Elder](https://www.beeradvocate.com/beer/profile/863/7971/) from
 ## Bizzaro Beer
 
 Now Pliny The Elder seemed to be a pretty popular beer. 
-But what if I was trying to sketch out some ideas about what other beers that I could recommend to beer lovers who like Pliny The Elder, it needed to somewhat “look like” the target beer, but have way less reviews.
+But what if I was trying to sketch out some ideas about what other beers I could recommend to beer lovers who like Pliny The Elder? 
+It needed to somewhat “look like” the target beer, but have way less reviews.
 
 Playing with some of the fringe data here, I wanted to be careful not to again pick a beer with only one or two ratings on it. 
-My rationale coming from assuming there is some sort of true “population mean” for this beer and having a beer with too little reviews will not approximate the mean correctly.
+My rationale was coming from assuming there is some sort of true “population mean” for this beer and having a beer with too little reviews will not approximate the mean correctly.
 
 ```{r}
 ## Make Unique Beer Label for Larger Dataset
@@ -163,9 +164,9 @@ beer.reliable <- reliable.beers.list[beer, on = "beer_name_unique", nomatch=0]
 ```
 
 With our dataset chiseled down to only 'reliable' beers, I needed to find a way to get some sort of profile of each of the beers.
-While my first instinct was to do some sort of data reductive type thing like do a PCA on our continuous variables and use distances from certain scores as metrics of similarity ([which I have done before](https://musiccog.lsu.edu/davidjohnbaker/papers/Baker_Trahan_Mullensiefen_ProceedingsPaper.pdf) and it ended up actually being the inspiration for a tool currently used by [Soundout](https://www.soundout.com/brandmatch)!), doing that on so few predictors seemed [extra](https://www.urbandictionary.com/define.php?term=extra).
+While my first instinct was to do some sort of data reductive type thing like a PCA on our continuous variables and use distances from certain scores as metrics of similarity ([which I have done before](https://musiccog.lsu.edu/davidjohnbaker/papers/Baker_Trahan_Mullensiefen_ProceedingsPaper.pdf) and it ended up actually being the inspiration for a tool currently used by [Soundout](https://www.soundout.com/brandmatch)!), doing that on so few predictors seemed [extra](https://www.urbandictionary.com/define.php?term=extra).
 
-So instead I figured why not just assume that there is some sort of wiggle room in my hastily made recommendation system and just match first on the overall review, then if there are some close contenders, look for matches on other metrics?
+So instead, I figured why not just assume that there is some sort of wiggle room in my hastily made recommendation system and just match first on the overall review, then if there are some close contenders, look for matches on other metrics?
 
 The next bit of code creates a table of the metrics I am interested in, gets beers that have over 30 reviews, but less than 100, and also creates a vector so I can pull out all of the IPAs on my less reviewed beers table.
 I then joined the tables for my candidates. 
@@ -235,7 +236,7 @@ Based on this solution, it looks like I will have to find myself a bottle of [Pl
 
 ## Beer sans Booze 
 
-The last beer that I think wanted to recommend would be one that tastes great, but does not have a lot of alcohol with it.
+The last beer that I think I wanted to recommend would be one that tastes great, but does not have a lot of alcohol in it.
 The reason this question kind of interests me is because if we are _really_ going to talk about how tasty a beer is, it would be nice to be able to factor out of the equation how drunk we are actually getting from it.
 
 I can see first of all IF this relationship exists if we look at the mean overall rating of a beer as a function of its ABV content.
@@ -297,5 +298,5 @@ These are all OK choices (most of the beers are still above 5% ABV), but we do h
 
 ## Summary
 
-After all of this I know have three beers to check out.
+After all of this, I know have three beers to check out.
 [Pliny The Elder](https://www.beeradvocate.com/beer/profile/863/7971/) is our winner for the top rated beer among our Super Users of the site, the [Hill Farmstead Brewery Galaxy Imperial Single Hop IPA American Double / Imperial IPA](https://www.beeradvocate.com/beer/profile/22511/67760/) is a beer to maybe follow up on from our first choice, and then lastly we have the the [Southampton Publick House Southampton Berliner Weisse Berliner Weissbier](https://www.beeradvocate.com/beer/profile/1628/8626/) which supposedly tastes great, despite its lack of alcohol content. 
