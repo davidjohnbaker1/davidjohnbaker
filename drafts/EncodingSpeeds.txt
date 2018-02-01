@@ -1,0 +1,42 @@
+## Encoding Speeds
+
+If there is anything that Dan Shanahan and I disagree the most it is what is the most effective way to encoding melodies.
+
+With my dissertation coming up in the next few months, I figured that if I were going to be spending a lot of time sitting behind my comptuer screen taking melodies and turing them into our beloved **kern format, I should have some sort of rule of thumb for how long a melody takes to encode.
+This way I'll be able to ballpark how long it will take me to encode all of the melodies that I am hoping to use as the corpus for my dissertation.
+
+Since the world of computational musicology is not that big, it's worth taking a second to give a brief overview of why it's important to constantly be creating new data for our field.
+The first, and probably most important reason, is that in computational musicology encoded melodies are our data!
+Whereas reserach in psychology is often after some sort of effect dealing with reaction times or ratings on likert scales, the computational musicologist is interested in how the music as best represented by western notation, yes there are problems with that, can be used to help answer questions about musis.
+For example, in answering questions about melodic arches .... and found that.
+This study was great because it used huge number of melodies to suggest evidence for a certain hypothesis.
+Or take for example this study that used ESSEN Collection.
+Or this study that USED ESSEN COLLECTION and found that.
+There's clearly a bit of a trend here... a lot of studies tend to rely on the same data to reach their conclusions.
+If we are all basing our claims on the same dataset (which is also a big problematic ask Andrew Brinkman), then our claims about how these findings are supposed to generalize are diminished.
+
+If the integrity of our data and thus findings is not reason enough, another reason to encode more melodies is so that when we attempt to make claims about music perception or production, we are not falling into WEIRD research and thinking that because we used a sample of Western music that it is somehow representitive of all groups of people.
+Some researchers have been noteably leading this effort (Shanahan and Shanahan, 2014), and it's essential to the field to have a diverse representaiton of what we claim to be looking at as argued for in London (representitive corpus).
+
+I'm sure I will talk more about computational musicology in the future (big plans for this blog!), but the question that spurred this post is 
+> Given the fact that we need more melodies all the time, what is the best way to do this?
+
+My meetings with Dan pretty much boil down to two paths, each with their own mini paths.
+
+1. Encode everything by hand by looking at the score, then entering it directly into either MuseScore 2 or (for the masochists) directly into the terminal using vi. 
+2. Cut up a book, scan it, run it through optical recogition software, then spend your time cleaning up the errors before exporting it to XML, and then using humdrumextras to convert it to **kern.
+
+Dan is a firm beliver that working directly with text file and vim is the way to go.
+I on the other hand think that using something like MuseScore is a bit more sane.
+
+Of course the only way to figure this out properly is to set up an experiment and analyze the results!
+
+## The Experiment
+
+Step one in setting up any experiment is picking a good experimental design given what you have.
+Luckily at MCCL we have a few graduate students that were willing to help with this experiment.
+Since this was just for fun and I probably should be finding better ways to spend my time, I only set the experiment up with two factors of interest.
+1. If vim or musescore would be faster
+2.  
+
+ 
