@@ -1,3 +1,44 @@
+## Encoding A Corpus
+
+## Introduction
+
+One of the less glamorous things that you get the privlidge of doing if you are interested in computational musicology is encoding a corpus.
+It has got to be one of the most boring, yet most nessecary things that can be done for the field. 
+In this post I want to accomplish two things:
+First, I want to highlight the importance of why there is a constant need to be encoding new data (generalization and representation and London)
+Secondly, having just completed a corpus for some of my dissertation work, I want go give a realistic idea of what goes into encoding a corpus, also to give major props to those who are doing it.
+Hopefully posts like this will encourge other researchers to start with their own proejcts and maybe the community at large will eventually be able to utalize more resources we have.
+
+## Background To Enter Conversation
+
+
+## What I did and Pretty Pictures that Explain it
+
+## Conclusion
+
+i. people who encode deserve way more credit 
+ii. generalization and representation matter
+iii. think people should start their own projects, make your students encode!
+iv. students-- learn a lot about computers, GUI software, think about WHY it's important to have lots of data. 
+
+Since a large part of my upcoming dissertation is going to be talking about relationships between symbolic data and behavior, I thought it'd be good to talk about this process earlier on in the writing.
+And because the world of computational musicology is not that big, it's worth taking a second to give a brief overview of why it's important to constantly be creating new data for our field.
+The first, and probably most important reason, is that in computational musicology encoded melodies are our data!
+Whereas reserach in psychology is often after some sort of effect dealing with reaction times or ratings on likert scales, the computational musicologist is interested in how the music as best represented by western notation, yes there are problems with that, can be used to help answer questions about musis.
+For example, in answering questions about melodic arches .... and found that.
+This study was great because it used huge number of melodies to suggest evidence for a certain hypothesis.
+Or take for example this study that used ESSEN Collection.
+Or this study that USED ESSEN COLLECTION and found that.
+There's clearly a bit of a trend here... a lot of studies tend to rely on the same data to reach their conclusions.
+If we are all basing our claims on the same dataset (which is also a big problematic ask Andrew Brinkman), then our claims about how these findings are supposed to generalize are diminished.
+
+I. Lame-o hook to state what people are going to be spending their next ten minutes reading about
+II. The brief background they need to enter the conversation or know why I care, hopefully to get them to care
+III. What I did and the pretty pictures that explain it.
+IV. The call 
+
+
+
 ## Encoding Speeds
 
 If there is anything that Dan Shanahan and I disagree the most it is what is the most effective way to encoding melodies.
