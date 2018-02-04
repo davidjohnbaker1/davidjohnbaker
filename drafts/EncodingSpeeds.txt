@@ -2,17 +2,71 @@
 
 ## Introduction
 
-One of the less glamorous things that you get the privlidge of doing if you are interested in computational musicology is encoding a corpus.
-It has got to be one of the most boring, yet most nessecary things that can be done for the field. 
-In this post I want to accomplish two things:
-First, I want to highlight the importance of why there is a constant need to be encoding new data (generalization and representation and London)
-Secondly, having just completed a corpus for some of my dissertation work, I want go give a realistic idea of what goes into encoding a corpus, also to give major props to those who are doing it.
-Hopefully posts like this will encourge other researchers to start with their own proejcts and maybe the community at large will eventually be able to utalize more resources we have.
+One of the least glamorous things that you get the privlidge of doing in computational musicology is encoding a corpus.
+It has got to be one of the most boring, yet most nessecary tasks a music researcher can do.
+In this post I'd like to accomplish two things:
+First, I want to highlight the importance of why there is a constant need to be encoding new data for music research to grow as a research area. (generalization and representation and London)(And show some respect for those who do do this!) 
+Second, having just completed a corpus for some of my dissertation work, I want go give a realistic idea of what goes into encoding a corpus in order to hopefully inspire more people to start with their own proejcts 
 
-## Background To Enter Conversation
+## Background To Enter Conversation | Digitial Representations
+
+### What is current state, what is problem.
+
+The field of computational musicology is absolutly dependent on having digitial representations of melodies in order to do large scale analyses.
+HURON PAPER HERE
+Currently there are lots of collections that do exits (kern repo link), but any musicologist worth their salt would probably notice a similar phenomena when going through collections like the kernrepo.
+Much of the data comes from old, dead, white composers living in Europe from 1600--1800.
+Either that or data comes from the essen collection.
+Note thing about pop music and corpora--
+
+Having a narrower focus presents two problems.
+1. Making comparative claims are not as robust if you do not have adequate representation, especially cultural ones.
+2. Not having new data constantly leads to ovefitting and a lack of ability to generalize.
+
+For example, look at all of these studies making claims about Essen.
+If for example this claim about XYX is going to hold (especially if we are taking a NHST epistomological approach) need to get some new samples from the same population (in this case, europen folk songs).
+Until we do that going to suffer again from fact that Music Theory has yet again over explained a topic.
 
 
 ## What I did and Pretty Pictures that Explain it
+
+Hopefully I have established the need for constanlty creating new data so that effects we think to exist are there.
+What I am interested in studying is memory for melodies and as non-mooch, I want to be able to contribute.
+So what I did was encode the entire Berkowitz sight singing melody book into kern.
+Not availble for public use, but sample of 647 hopefully reflects individual operservations samples from larger populaiton of melodies used in signing classes (a big circular, I know).
+
+Being a good systematic musicologist, i thought it would be intersted to time how long it took me to do the whole corpus and even went a step further to see how long did each individual melody take to encode?
+It's a bit type A, but as I have written about elsewhere, think it was impotant to have firm boundaries between working and not.
+
+I took all that information and have plotted it below.
+
+Things you can see from the graph:
+-Entire time it took to plot each melody
+-Cumulative time of the entire corpus
+-Increaes in encoding time with increase in complexity of melodies
+-Decreaes in standardize time reflecting getting better as I did more melodies.
+
+
+MEGAPLOT
+
+Picture is worht a thousand words, but big take aways are 
+- This takes time but will be worth it
+- have own dataset that I can get a lot out of, especially when I combine it with other tools
+- Have good, represenative sample for what I need, and sufficent N to make claims seem better
+- Not working in a data poor environment here
+
+## How to get started yourself
+
+- Pick question that you want to answer first
+- Is there a composer you are in love with and feel like other people might want to have? 
+- Last year Bartok went into public domain?
+- Feel there is an underreprented group that brings something to table -- see Shanahan and Shanahan 2014
+
+- Not only helps reserach community and questions (if make it publicly availbile)
+- Going to learn A LOT about computers by dipping toes into this area
+- Great for students that need to learn GUI notation softare
+- Ideal world if every undergrad had encoded just 1 piece during their time, quickly have representative canon
+- Move towards a common good 
 
 ## Conclusion
 
