@@ -1,0 +1,42 @@
+# Post List
+
+* Melody for Memory 
+* History of Corpus/Symbolic Features
+* Box Models in Music Listening
+* Humdrum and Kern 
+* PhD and Health 
+* Black Bean Burger 
+* Productivity Creep
+* Boundary Post/Pomodoro
+* Learning Bash 
+* PhD as Playground 
+	- Great thing about LSU is that they kind of let me do what I want
+	- Could have been a total disaster, but lucky to have peer network that put me on right foot
+	- Want to pass on advice about what I think I did correctly
+	- Only invested in learning open source software (LibreOffice, R, Ubuntu, LateX, jsPsych, Sonic Visualizer, vim)
+	- aka learn how to use computers, not just 'learn to code' but acknowledge almost no barrier of entry for power tools
+	- Become technologically savy, aka useful 
+	- Kept a very long running list of bibliography 
+	- Get outside your discipline, fast , for me psych, there is more money there, more friends, sanity check 
+	- Try to publish sooner rather than later
+	- Use twitter like right now, front page of academia, very humanizing
+	- Use your gym, productivity creep 
+	- Do not go on trips without taking personal time 
+	- You have to cash in on the perks, you're an idiot if you don't try to make that happen 
+	- Learn to meet people at conference
+	- Find what the industry connection to your field is, they have the data
+	- Abe Lincoln, tree axe sharpen, things like R will be frustrating, don't learn them alone
+
+* Self Made Music Cognition PhD (what i do)
+	- List of Textbooks
+		+ Zoltan Dienes, Psychology as Science -- epistomology 
+		+ Andy Field, Introduction to Statistics with R -- start with plug and chug
+		+ Baker R and Statistics 
+		+ Oxford Handbook of Music Psychology 
+	- Name of the game for a job
+	- be useful, be useful, be useful 
+	- Technology, 
+	- Worst thing is someone coming to lab meeting, pitching idea, then expecting others to use skills to execute it
+	- Focus on transferable skills	
+	- Start with the question
+

@@ -1,0 +1,76 @@
+## Diss Draft Post
+
+Last week during my General Exam defense, the final question that was asked of me was from my Dean's representative.
+After staying relatively quiet for the first hour and forty minutes (#blessed), he asked me what were my thoughts about the General Exam process(at LSU we have three days of writing, then an oral defense 2 weeks later) .
+Not wanting to risk all the hard work I had just put in talking about everything from tonal design in Brahm's Op. 60, relationshps between Riemannien theory and the group theoretic structures underlying Neo-Riemanian theory, to how statistical learning has influenced research in music cognition (had to brag) I gave a rather polite answer and then the conversation worked its way into talking about what is next.
+That next topic is the disseratation.
+While  
+
+## Say in Post
+
+Done with General Exams, now ABD (whoop)
+Had a great time at PMD (will be writing about that elsewhere)
+Only one thing left to do, write dissertation 
+Of course have an idea, but being at conference I 
+Was able to see a lot of topics at PMD, MTSE, AMS-SE
+Lots of new, popular thing (film music, identity, idea of inscription, modulatory patterns, disability) 
+Presentations where students gratitiously cited profs
+Also just finished reading The Professor is In after coming across it on Megan Lavengood's blog which served as a nice reminder that, yes, the job market sucks and it'd be irresponsible to put all my eggs in that basket. 
+
+So with all of that in mind, what do I write a dissertatoin on?
+I think I have a good topic, but before I get into it, I want reframe the mental space that I will be going into.
+
+Evangelizying for less negativity, Dan will note I am painfully optimistic which results in forcasting early deadlines.
+Positive side of that is I don't feel like garbage all the time. 
+I'm OK with that.
+
+Want to instead think of the next few months with the retrospective mindset of most post-docs and professors: the time you have to write is golden and you'll never get that again.
+Much like the time you get in undergrad to practice never re-emerges.
+
+Three lofty goals from disseratation
+1. Answer a useful question
+2. Learn a lot in the process
+3. Write a dissertation people will read
+
+These are pretty lofty (maybe even self serving goals) goals for an ABD PhD student who hasn't even started, but idea that my tuba player told me he had in first lesson at BW, if you're not going for the top-- why even both? 
+Pretty extreme, but most people who commit to PhD in music are pretty extreme.
+
+
+Thesis: I picked my dissertaton topic based on three things, want to answer useful question, read a lot, and make people enage with it. 
+
+Often think about the best advice that I ever got, don't know wabout holistic level.
+Personal level was conversation sitting on library wall at Goldsmiths drinking a beer with flatmate Rory who said 'All you have are your relationships'.
+But on a professional level, comes from my dad who often focused on encourging me to make myself useful (sometimes coming as a declamatory negative reminder of my status in that cateogry)
+
+But it has been the advice that has opened the most doors. 
+Work in another department (useful in statistics, R), all my friends that kept on with music are very useful (kevin is trumpet player, guitar player, also wrote a book, transcribed), Ryan is a machine at sight reading, orchestrating, giving stage notes. 
+
+So naturally I wanted to extend that to my disseration topic.
+What do I know?
+Attempt to be useful thus far has lead to learning how to program, statistics, also read a lot.
+
+What is there a need for?
+Will blog about later, but more emphasis on first principles in music research -- how do people learn melodies?
+
+Will people pay me to do it?
+Not really, might get a fellowship, might teach elsewhere, but going to try to twist this on its head and think about the next year ro so as continued investment in myself that will lead to other people wanting to pay me to do either the thigns that I learned to do with this (expand on software, develop thigns for people) or have it directly translate into wanting to have a colleague who specializes in the neglected topic of aural skills (the other half of SMT, peagogy)
+
+Not trying to say that other dissertatoins will not be useful.
+Mine might suck.
+Just that for anyone else near where I am in this process or coming up on it, wanted to leave a thought trail so other's don't feel as alone.
+
+japanese thing for meaning
+
+Re got me thinking-- what is a good question?
+More importantly-- how do i get people to read my disseration?
+
+Rule #1 of grad school: (besides don't read the wiki) is be on the outlook for false dichotomies
+
+## Structure of Post
+
+I. Hook -- Look at me, I'm ABD! Now what?
+II. Picking dissertation topic 
+	A. Reason I
+	B. Reason II
+	C. Reason III
+III. Hoping to engage with community via blog and twitter
