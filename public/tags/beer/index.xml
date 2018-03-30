@@ -16,20 +16,20 @@
       <pubDate>Mon, 29 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/hire-me-as-a-data-scientist-part-iv/</guid>
-      <description>&lt;p&gt;Since this is the last post, I’ll keep this short and sweet in terms of analysis. Having done all of this, I do have a few reflections I would like to share after doing the &lt;a href=&#34;https://www.linkedin.com/pulse/how-hire-test-data-skills-one-size-fits-all-interview-tanya-cashorali/&#34;&gt;One-Size-Fits-All-Data-Science Interview&lt;/a&gt; that I have included at the end.&lt;/p&gt;
+      <description>&lt;p&gt;Since this is my last post in the beer review series, I’ll keep this short and sweet in terms of analysis. Having done all of this, I do have a few reflections I would like to share after doing the &lt;a href=&#34;https://www.linkedin.com/pulse/how-hire-test-data-skills-one-size-fits-all-interview-tanya-cashorali/&#34;&gt;One-Size-Fits-All-Data-Science Interview&lt;/a&gt; that I have included at the end.&lt;/p&gt;
 &lt;p&gt;Our final question to answer is:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Lastly, if I typically enjoy a beer due to its aroma and appearance, which beer style should I try?&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;This is a pretty broad question and should be able to be answered without many pitfalls so let’s get started.&lt;/p&gt;
+&lt;p&gt;This is a pretty broad question and should be able to be answered without many pitfalls, so let’s get started.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(ggplot2)
 library(data.table)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## Warning: package &amp;#39;data.table&amp;#39; was built under R version 3.4.2&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;beer &amp;lt;- fread(&amp;quot;data/beer_reviews.csv&amp;quot;) &lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## 
-Read 66.8% of 1586614 rows
+Read 83.2% of 1586614 rows
 Read 1586614 rows and 13 (of 13) columns from 0.168 GB file in 00:00:03&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;From a bird’s eye view, it seems like the most sensible thing to do would be to look at our data from the highest level, then just zoom in until we have the level of granularity we feel answers the question well. Let’s first just average over all the beer styles to get a rough estimate of how a beer style fairs on the variables we are interested in, and additionally see how much variability is associated with that measurement.&lt;/p&gt;
+&lt;p&gt;From a bird’s eye view, it seems like the most sensible thing to do would be to look at our data from the highest level, then just zoom in until we have the level of granularity we feel answers the question well. Let’s first average all the beer styles to get a rough estimate of how a beer style fairs on the variables we are interested in, and additionally see how much variability is associated with that measurement.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;sem &amp;lt;-function(x) {sd(x)/sqrt(length(x))}
 
 question4.means &amp;lt;- beer[, .(mean_aroma = mean(review_aroma), mean_appearance = mean(review_appearance), mean_overall = mean(review_overall),
@@ -73,7 +73,7 @@ question4.means&lt;/code&gt;&lt;/pre&gt;
 ## 102:      0.7975368  0.9863785
 ## 103:      0.5757968  0.7065662
 ## 104:      0.6119209  0.8661809&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Now knowing how each beer style varies on our variables of interest (with our overall score thrown in for good measure!), let’s plot our results. Note that I have included standard error of the mean error bars as a sanity check to make sure that each beer’s ratings is not going to bleed into the others’ dimensions. By doing this we can have a bit more confidence in what we are looking at that it actually has some meaning. This plot shows the standard error on each of the two variables we are interested in and for the most part it looks as if they are relatively well contained.&lt;/p&gt;
+&lt;p&gt;Knowing how each beer style fluctuates on our variables of interest (with our overall score thrown in for good measure!), let’s plot our results. Note that I have included standard error of the mean error bars as a sanity check to make sure that each beer’s ratings is not going to bleed into the others’ dimensions. By doing this, we can have a bit more confidence that we are looking at actually has some meaning. This plot shows the standard error on each of the two variables we are interested in, and for the most part it looks as if they are relatively well contained.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ggplot(question4.means, aes(x = mean_aroma, y = mean_appearance, color = beer_style)) + 
   geom_point() +
   geom_errorbar(aes(ymin=mean_appearance-sem_appearance, ymax=mean_appearance+sem_appearance), width=.1) +
@@ -89,11 +89,11 @@ question4.means&lt;/code&gt;&lt;/pre&gt;
   labs(title = &amp;quot;Mean Appearance and Aroma&amp;quot;, y = &amp;quot;Mean Aroma&amp;quot;, x = &amp;quot;Mean Appearance&amp;quot;) + 
   geom_text(aes(label=beer_style, hjust = .5, vjust = -.75)) &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;/post/2018-01-29-hire-me-as-a-data-scientist-part-iv_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Looking at this subsection, it appears that we have a few choices for beers that score highly on both Appearance and Aroma. The American Double / Imperial Stout looks like a good option as it scores higher on how it looks, but our Russian Imperial Stout has a higher Aroma score. We could start crunching more numbers here to find “the best” option, or at this point we could take off our data science hats and put our psychology ones back (assuming that’s what we were wearing…) on and run some double-blind experiments on ourselves just to make sure that our data is actually lining up with something in the real world.&lt;/p&gt;
+&lt;p&gt;Looking at this subsection, it appears we have a few choices for beers that score highly on both Appearance and Aroma. The American Double / Imperial Stout looks like a good option as it scores higher on how it looks, but our Russian Imperial Stout has a higher Aroma score. We could start crunching more numbers here to find “the best” option, or at this point we could take off our data science hats and put our psychology ones back on (assuming that’s what we were wearing…) and run some double-blind experiments on ourselves to make sure that our data is actually lining up with something in the real world.&lt;/p&gt;
 &lt;div id=&#34;reflections&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Reflections&lt;/h2&gt;
-&lt;p&gt;What started out as a fun weekend project actually turned into a really great learning experience. I’ve definitely put a few solid hours into this and have gotten a lot out of it. I learned that my friends actually know a TON about beer and data science, that &lt;a href=&#34;https://git-lfs.github.com/&#34;&gt;git-lfs&lt;/a&gt; is a thing that something I wish I would have known about earlier, and that I’m actually looking forward to doing more blogging in the future.&lt;/p&gt;
-&lt;p&gt;I will probably have to go MIA for the next two weeks since my General Exams are coming up in early February, but I’m sure I will be back at it come late March. Until then all I can hope for is that someone who is looking to hire a junior data scientist over the summer will come across these posts and think that I might be a good temporary addition to their team.&lt;/p&gt;
+&lt;p&gt;What started out as a fun weekend project actually turned into a really great learning experience. I’ve definitely put a few solid hours into this and have gotten a lot out of it. I learned that my friends actually know a TON about beer and data science, that &lt;a href=&#34;https://git-lfs.github.com/&#34;&gt;git-lfs&lt;/a&gt; is something I wish I would have known about earlier, and that I’m actually looking forward to doing more blogging in the future.&lt;/p&gt;
+&lt;p&gt;I will probably have to go MIA for the next two weeks since my General Exams are coming up in early February, but I’m sure I will be back at it come late March. Until then, all I can hope for is that someone who is looking to hire a junior data scientist over the summer will come across these posts and think I might be a good temporary addition to their team.&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
@@ -106,23 +106,23 @@ question4.means&lt;/code&gt;&lt;/pre&gt;
       <guid>/post/hire-me-as-a-datascientist-part-iii/</guid>
       <description>&lt;p&gt;Two questions down, two to go! For the third post I’ll explore the question:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Which of the factors (aroma, taste, appearance, palette) are most important in determining the overall quality of a beer?&lt;/p&gt;
+&lt;p&gt;Which of the factors (aroma, taste, appearance, palate) are most important in determining the overall quality of a beer?&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Whereas the posts before were questions on sorting data, this is our first attempt to make some statistical models. In this case we’re going to be doing a bit of regression modeling.&lt;/p&gt;
-&lt;p&gt;Of all the types of regression, there are a couple of ways to tackle this problem. We could run some basic linear regression models and spend the whole post talking beta coefficients and what assumptions we violated. We could do a linear mixed effects model, then realize that doing so would be a terrible choice (I tried it for the fun of it, bad idea). Or we do some fun non-parametric, machine learning models that are on the easier-to-interpret side. Since machine learning is so hot right now, let’s stick with that.&lt;/p&gt;
+&lt;p&gt;Whereas the posts before were questions on sorting data, this is our first attempt to make some statistical models. In this case, we’re going to be doing a bit of regression modeling.&lt;/p&gt;
+&lt;p&gt;There are a couple of ways to tackle this problem. We could run some basic linear regression models and spend the whole post talking beta coefficients and what assumptions we violated. We could do a linear mixed effects model, then realize that doing so would be a terrible choice (I tried it for the fun of it, bad idea). Or we do a fun non-parametric, machine learning model that is on the easier-to-interpret side. Since machine learning is so hot right now, let’s stick with that.&lt;/p&gt;
 &lt;div id=&#34;machine-learning-and-non-parametric-models&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Machine Learning and Non-Parametric Models&lt;/h2&gt;
-&lt;p&gt;Non-parametric models make no assumptions about the data. The models do not assume that our points come from beautiful, normally distributed ideal populations; they just seek to find some sort of way to give us a good rule of thumb about what is happening under the hood.&lt;/p&gt;
-&lt;p&gt;In this case we need to make a model to predict the quality of beer (our dependent variable, &lt;code&gt;review_overall&lt;/code&gt;) based on four different independent variables (&lt;code&gt;review_aroma&lt;/code&gt;, &lt;code&gt;review_taste&lt;/code&gt;, &lt;code&gt;review_appearance&lt;/code&gt;, &lt;code&gt;review_palete&lt;/code&gt;).&lt;/p&gt;
-&lt;p&gt;After discussing the pros and cons of certain methods of tackling this problem, my friend &lt;a href=&#34;https://www.linkedin.com/in/tabitha-trahan-172471b4/&#34;&gt;Tabi&lt;/a&gt;, the data scientist over at &lt;a href=&#34;https://www.soundout.com/&#34;&gt;Soundout&lt;/a&gt;, suggested that an easy way to get the answer I was looking for was to use a random forest model. Some great explanations about how these models work can be found &lt;a href=&#34;http://trevorstephens.com/kaggle-titanic-tutorial/getting-started-with-r/&#34;&gt;here&lt;/a&gt; and &lt;a href=&#34;http://www-bcf.usc.edu/~gareth/ISL/&#34;&gt;here&lt;/a&gt;, and &lt;a href=&#34;https://gormanalysis.com/random-forest-from-top-to-bottom/&#34;&gt;here&lt;/a&gt; and since this isn’t a post about how random forest models work, I’ll just note that basically the idea is that it is an algorithm that partitions your dataset into dimensions that help us either classify or predict observations in our dataset based on the variables you feed it. Relevant to our question: the ways in which the algorithm splits our dataset is going to help us figure out what are the important variables are.&lt;/p&gt;
-&lt;p&gt;Before running this model though, we need to talk about a small dependence problem in our dataset. In my earlier post I talked about how we probably should not just run a model on the data &lt;em&gt;as is&lt;/em&gt;. Last time we found there were tons of NAs in our dataset, that not all beers were equally represented, and that not all reviewers were making even amounts of reviews. In addition to these problems, there was also the problem that some reviewers might rate generally higher or lower &lt;em&gt;all the time&lt;/em&gt;. Since we know things like this exist, we wanted to account for them.&lt;/p&gt;
-&lt;p&gt;The simplest plan of action would be to try and make each of the points we want to model independent by averaging ratings across all beers so we don’t have cases where one person rated multiple beers. We’ll also made sure to only use beers that got over 30 ratings as a quality check. Let’s index out the data we need!&lt;/p&gt;
+&lt;p&gt;Non-parametric models make no assumptions about the data. The models do not assume that our points come from beautiful, normally distributed ideal populations; they just seek to find some way to give us a good rule of thumb about what is happening under the hood.&lt;/p&gt;
+&lt;p&gt;In this case, we need to make a model to predict the quality of beer (our dependent variable, &lt;code&gt;review_overall&lt;/code&gt;) based on four different independent variables (&lt;code&gt;review_aroma&lt;/code&gt;, &lt;code&gt;review_taste&lt;/code&gt;, &lt;code&gt;review_appearance&lt;/code&gt;, &lt;code&gt;review_palate&lt;/code&gt;).&lt;/p&gt;
+&lt;p&gt;After discussing the pros and cons of certain methods for tackling this problem, my friend &lt;a href=&#34;https://www.linkedin.com/in/tabitha-trahan-172471b4/&#34;&gt;Tabi&lt;/a&gt;, the data scientist over at &lt;a href=&#34;https://www.soundout.com/&#34;&gt;Soundout&lt;/a&gt;, suggested that an easy way to get the answer I was looking for was to use a random forest model. Some great explanations about how these models work can be found &lt;a href=&#34;http://trevorstephens.com/kaggle-titanic-tutorial/getting-started-with-r/&#34;&gt;here&lt;/a&gt; and &lt;a href=&#34;http://www-bcf.usc.edu/~gareth/ISL/&#34;&gt;here&lt;/a&gt;, and &lt;a href=&#34;https://gormanalysis.com/random-forest-from-top-to-bottom/&#34;&gt;here&lt;/a&gt; and since this isn’t a post about how random forest models work, I’ll just note that basically the idea is that it is an algorithm that partitions your dataset into dimensions that help us either classify or predict observations in our dataset based on the variables you feed it. Relevant to our question: the ways in which the algorithm splits our dataset is going to help us figure out what are the important variables.&lt;/p&gt;
+&lt;p&gt;Before running this model though, we need to talk about a small dependence problem in our dataset. In my earlier post, I talked about how we probably should not just run a model on the data &lt;em&gt;as is&lt;/em&gt;. Last time we found there were tons of NAs in our dataset, that not all beers were equally represented, and that not all reviewers were making even amounts of reviews. In addition to these problems, there was also the problem that some reviewers might rate generally higher or lower &lt;em&gt;all the time&lt;/em&gt;. Since we know things like this exist, we wanted to account for them.&lt;/p&gt;
+&lt;p&gt;The simplest plan of action would be to try and make each of the points we want to model independent by averaging ratings across all beers so we don’t have cases where one person’s influence is spread across multiple beers. We also make sure to only use beers that have over 30 ratings as a quality check. Let’s index out the data we need!&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(ggplot2)
 library(data.table)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## Warning: package &amp;#39;data.table&amp;#39; was built under R version 3.4.2&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;beer &amp;lt;- fread(&amp;quot;data/beer_reviews.csv&amp;quot;) &lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## 
-Read 81.9% of 1586614 rows
+Read 77.5% of 1586614 rows
 Read 1586614 rows and 13 (of 13) columns from 0.168 GB file in 00:00:03&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Make READABLE unique beer ID
 beer[, beer_name_unique := paste(brewery_name,beer_name, beer_style)]
@@ -139,7 +139,7 @@ prediction.data &amp;lt;- beer.reliable[, .(AvgOverall = mean(review_overall),
          AvgTaste = mean(review_taste),
          AvgApp = mean(review_appearance),
          AvgPal = mean(review_palate)), by = beer_name_unique]&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Now that we have some better data, let’s fit a random forest model, attempting to predict the average overall rating from our four others. We’ll use the &lt;code&gt;randomForest&lt;/code&gt; package and make sure to ask it to include a measure of variable importance.&lt;/p&gt;
+&lt;p&gt;Now that we have some better data, let’s fit a random forest model. We are now attempting to predict the average overall rating from our four others measures. We’ll use the &lt;code&gt;randomForest&lt;/code&gt; package and make sure to ask it to include a measure of variable importance.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(randomForest)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## randomForest 4.6-12&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## Type rfNews() to see new features/changes/bug fixes.&lt;/code&gt;&lt;/pre&gt;
@@ -148,27 +148,27 @@ prediction.data &amp;lt;- beer.reliable[, .(AvgOverall = mean(review_overall),
 &lt;pre&gt;&lt;code&gt;## The following object is masked from &amp;#39;package:ggplot2&amp;#39;:
 ## 
 ##     margin&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;set.seed(666)
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;set.seed(666) 
 random.forrest.fit &amp;lt;- randomForest(AvgOverall ~ AvgAroma + AvgTaste + AvgApp + AvgPal, data = prediction.data, importance = TRUE)
 random.forrest.fit$importance&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;##             %IncMSE IncNodePurity
-## AvgAroma 0.02250414      222.3220
-## AvgTaste 0.10219152      313.9890
-## AvgApp   0.01492937      185.0235
-## AvgPal   0.05395844      277.7650&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The randomForest object gives us two different measures when it comes to variable importance. The first one, &lt;code&gt;%IncMSE&lt;/code&gt;, is a measure that tells us how much our model’s Mean Square Error (MSE) would change if we were to take that variable out of our model. Average taste here is trouncing the other variables in terms of importance. The second variable, &lt;code&gt;IncNodePurity&lt;/code&gt; gives us a measure of node purity from all of the trees that were used in creating our model. Here Taste again leads in terms of importance, but our Palette variable seems to be close behind. We see this visually below.&lt;/p&gt;
+## AvgAroma 0.02340840      212.0524
+## AvgTaste 0.10151587      309.0940
+## AvgApp   0.01491228      192.9081
+## AvgPal   0.05686454      285.4011&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The randomForest object gives us two different measures when it comes to variable importance. The first one, &lt;code&gt;%IncMSE&lt;/code&gt;, is a measure that tells us how much our model’s Mean Square Error (MSE) would change if we were to take that variable out of our model. Average taste here is trouncing the other variables in terms of importance. The second variable, &lt;code&gt;IncNodePurity&lt;/code&gt; gives us a measure of node purity from all of the trees that were used in creating our model. Here Taste again leads in terms of importance, but our Palate variable seems to be close behind. We see this visually below.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;varImpPlot(random.forrest.fit, main = &amp;quot;Variable Importance Metrics&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;/post/2018-01-28-hire-me-as-a-datascientist-part-iii_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;The result that Taste seems to be taking the cake here is to be expected. Using some of the more basic tools of statistics and data science, we look at the correlation between our taste variable and our overall, and it’s quite high. Actually looking at our average ratings, all the correlations are really high!&lt;/p&gt;
+&lt;p&gt;The result that Taste seems to be taking the cake here is to be expected. Using some of the more basic tools of statistics and data science, we can look at the correlation between our taste variable and our overall, and it’s quite high. Actually looking at our average ratings, all of the correlations are really high!&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;cor(prediction.data[,-1])&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;##            AvgOverall  AvgAroma  AvgTaste    AvgApp    AvgPal
-## AvgOverall  1.0000000 0.8809331 0.9518380 0.8441298 0.9360866
-## AvgAroma    0.8809331 1.0000000 0.9593143 0.8971977 0.9370460
-## AvgTaste    0.9518380 0.9593143 1.0000000 0.8955708 0.9742872
-## AvgApp      0.8441298 0.8971977 0.8955708 1.0000000 0.9123960
-## AvgPal      0.9360866 0.9370460 0.9742872 0.9123960 1.0000000&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Doing the analysis with this data presents some strange issues of collinearity. Having an &lt;em&gt;r&lt;/em&gt; = .951 for our Overall and Taste variables is obnoxiously high. An &lt;em&gt;r&lt;/em&gt; = .974 for Palate and Taste is also strangely large. If you coming from more of a psychology background, you would almost never see correlations this high in the wild; it would be an immediate sign for concern.&lt;/p&gt;
-&lt;p&gt;The correlations go down a bit if you end up looking at the non-aggregated sets too (see below), but again remember that these values have those dependence and outlier issues with them. Still, taste and overall are the highest correlated variables.&lt;/p&gt;
+## AvgOverall  1.0000000 0.8809340 0.9518373 0.8441311 0.9360873
+## AvgAroma    0.8809340 1.0000000 0.9593160 0.8971965 0.9370526
+## AvgTaste    0.9518373 0.9593160 1.0000000 0.8955728 0.9742888
+## AvgApp      0.8441311 0.8971965 0.8955728 1.0000000 0.9124038
+## AvgPal      0.9360873 0.9370526 0.9742888 0.9124038 1.0000000&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Doing the analysis with this data presents some strange issues of collinearity. Having an &lt;em&gt;r&lt;/em&gt; = .951 for our Overall and Taste variables is obnoxiously high. An &lt;em&gt;r&lt;/em&gt; = .974 for Palette and Taste is also strangely large. If you come from more of a psychology background, you would almost never see correlations this high in the wild; it would be an immediate sign for concern.&lt;/p&gt;
+&lt;p&gt;The correlations go down a bit if you end up looking at the non-aggregated sets too (see below), but again remember that these values have those dependence and outlier issues with them. Still, &lt;code&gt;review_taste&lt;/code&gt; and &lt;code&gt;review_overall&lt;/code&gt; are the highest correlated variables.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;cor(beer[, .(review_overall,review_aroma,review_appearance,review_palate,review_taste)])&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;##                   review_overall review_aroma review_appearance
 ## review_overall         1.0000000    0.6160131         0.5017324
@@ -182,7 +182,7 @@ random.forrest.fit$importance&lt;/code&gt;&lt;/pre&gt;
 ## review_appearance     0.5666339    0.5469804
 ## review_palate         1.0000000    0.7341351
 ## review_taste          0.7341351    1.0000000&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;This effect is probably due to the fact that higher beers tend to just score higher on everything. It would be pretty strange in practice to give a beer a 5/5 overall but then think it’s deserving of a 2/5 in Taste. If I were on a team at Beer Advocate, I might try to suggest maybe incorporating either a larger range of ratings (maybe a seven point scale) or maybe thinking about different dimensions to ask people to rate like maybe ‘hoppiness’ or bang-for-your-buck. Variables like this would allow you to learn more about the beers since they would have less collinearity issues.&lt;/p&gt;
+&lt;p&gt;This effect is probably due to the fact that higher quality beers tend to score higher on everything. It would be pretty strange in practice to give a beer a 5/5 overall, but then think it’s deserving of a 2/5 in Taste. If I were on a team at Beer Advocate, I might suggest incorporating either a larger range of ratings (maybe a seven point scale) or maybe thinking about different dimensions to ask people to rate like ‘hoppiness’ or bang-for-your-buck. Variables like these would allow us to learn more about the beers since they would have less collinearity issues.&lt;/p&gt;
 &lt;p&gt;So the take-home here is that the taste variable is the most important variable for determining the overall rating and again we’re reminded about how messy this data is!&lt;/p&gt;
 &lt;/div&gt;
 </description>
@@ -213,12 +213,14 @@ random.forrest.fit$importance&lt;/code&gt;&lt;/pre&gt;
 #=====================================================================================#
 # Library
 library(ggplot2)
-library(data.table)
-library(stringr)
-#=====================================================================================#
+library(data.table)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: package &amp;#39;data.table&amp;#39; was built under R version 3.4.2&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(stringr)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: package &amp;#39;stringr&amp;#39; was built under R version 3.4.3&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#=====================================================================================#
 beer &amp;lt;- fread(&amp;quot;data/beer_reviews.csv&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## 
-Read 86.3% of 1586614 rows
+Read 84.5% of 1586614 rows
 Read 1586614 rows and 13 (of 13) columns from 0.168 GB file in 00:00:03&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;beer.complete &amp;lt;- beer[complete.cases(beer)]
 #=====================================================================================#&lt;/code&gt;&lt;/pre&gt;
@@ -244,7 +246,7 @@ review.counts &lt;/code&gt;&lt;/pre&gt;
      main = &amp;quot;Distribution of Reviews Per User&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;/post/2018-01-14-hire-me-as-a-data-scientist-part-ii_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;This is pretty important when it comes to modeling the data (discussed in Part III), and not being fully aware of where your ratings are coming from could put the quality of your models at serious risk.&lt;/p&gt;
-&lt;p&gt;So looking at this dataset, I wondered if there were any sort of implicit assumptions I could make about this data that might be able to help me find a good beer. One assumption that I didn’t think was too wild was that a sample of this population that had gone out of its way to rate over 500 beers was probably more of a beer experts than those who have only done a couple of reviews on the site.&lt;/p&gt;
+&lt;p&gt;So looking at this dataset, I wondered if there were any sort of implicit assumptions I could make about this data that might be able to help me find a good beer. One assumption that I didn’t think was too wild was that a sample of this population that had gone out of its way to rate over 500 beers was probably more of a beer expert than those who have only done a couple of reviews on the site.&lt;/p&gt;
 &lt;p&gt;One thing I wanted to check was: of all the 1.5 million reviews, where were they coming from? Were there enough reviews among the super users that I could use? And what made someone a super user? I could have been a bit more scientific, setting an &lt;em&gt;a priori&lt;/em&gt; threshold, but for this I kind of just looked at that chart above, spit balled thinking 500 might be a good number to check, and then went to see how much of the data would be accounted if I put my threshold there. I lucked out and got about half of it.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;sum(review.counts$N) # Number of Total Reviews &lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## [1] 1586614&lt;/code&gt;&lt;/pre&gt;
@@ -253,7 +255,7 @@ review.counts &lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;731066/1586614 # Percent of Total Reviews from 500+ Super Users&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## [1] 0.4607712&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;super.users &amp;lt;- review.counts[ N &amp;gt;  500] # I can settle for .75 Million Reviews&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;So now I had a list of the users who had completed over 500 reviews and made up 46% of our entire data. I could use this new table I’ve made to index through our dataset of all the reviews that I had (that have their ABV ratings!) so I was then only dealing with these higher quality reviewers.&lt;/p&gt;
+&lt;p&gt;So now I had a list of the users who had completed over 500 reviews and made up 46% of our entire data. I could use this new table I had made to index through our dataset of all the reviews that I had (that have their ABV ratings!) so I was then only dealing with these higher quality reviewers.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;super.reviews &amp;lt;- super.users[beer.complete, on = &amp;quot;review_profilename&amp;quot;, nomatch=0]&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;As I continued to chop down the dataset (since this was a very exploratory process compared with cleaning up an experiment), it was important to do &lt;strong&gt;quality assessment&lt;/strong&gt; steps. One thing worth checking here was to see if I was actually dealing with beer omnivores in our super users and make sure that all different types of beers were being represented in our smaller subset. This was done by just looking at the number of rows between the original dataset and our super user table.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;super.reviews[, .(beer_styles = unique(beer_style))]&lt;/code&gt;&lt;/pre&gt;
@@ -282,8 +284,8 @@ review.counts &lt;/code&gt;&lt;/pre&gt;
 ## 102:                        Happoshu
 ## 103:                           Sahti
 ## 104: Bière de Champagne / Bière Brut&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Luckily they were the same. If I were to really do some more work on this dataset, I would also want to check things such as how many of the beers had each super user tried? Are there IPA experts in the group? If yes, should their opinion be taken more seriously if I had questions about IPA recommendation in the future? But for now, I just set out to see what the highest rated beer among all the super users of this dataset was.&lt;/p&gt;
-&lt;p&gt;In order to answer that question, I had to find out which beer in specific had the highest mean rating. The dataset ‘as is’ comes with a &lt;code&gt;beer_id&lt;/code&gt; unique ID, but the data downloaded as is does not give us a key to this, so I had to make it ourselves. This was accomplished by just pasting together the brewery’s name, along with the beer name, and style into a new variable.&lt;/p&gt;
+&lt;p&gt;Luckily they were the same. If I were to really do some more work on this dataset, I would also want to check things such as how many of the beers had each super user tried? Were there IPA experts in the group? If yes, should their opinions be taken more seriously if I had questions about IPA recommendations in the future? But for now, I just set out to see what the highest rated beer among all the super users of this dataset was.&lt;/p&gt;
+&lt;p&gt;In order to answer that question, I had to find out which beer in specific had the highest mean rating. The dataset ‘as is’ comes with a &lt;code&gt;beer_id&lt;/code&gt; unique ID, but the data downloaded as is does not give us a key to this, so I had to make it myself. This was accomplished by just pasting together the brewery’s name, along with the beer name, and style into a new variable.&lt;/p&gt;
 &lt;p&gt;As another &lt;strong&gt;quality assurance&lt;/strong&gt; step, it was worth checking to see if this recreated the unique ID variable, which it didn’t do exactly… but it was pretty close. I would chalk that up to some sort of encoding error.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;super.reviews[, beer_name_unique := paste(brewery_name,beer_name, beer_style)]
 
@@ -301,7 +303,7 @@ hist(super.reviews.popular$most_reviewed_beers,
      xlab = &amp;quot;Number of Reviews each Beer Recieves&amp;quot;,
      breaks = 200)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;/post/2018-01-14-hire-me-as-a-data-scientist-part-ii_files/figure-html/unnamed-chunk-6-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Again I see this is clearly &lt;strong&gt;not&lt;/strong&gt; anything resembling a repeated measures experiment and not all beers were rated equally.&lt;/p&gt;
+&lt;p&gt;Again I saw this was clearly &lt;strong&gt;not&lt;/strong&gt; anything resembling a repeated measures experiment and not all beers were rated equally.&lt;/p&gt;
 &lt;p&gt;Continuing in the same fashion above, I just grabbed the top 100 beers of our super users and merged that on to our table from earlier that had all of the ratings from our super users. Then from that table, I took the average of the overall rating and looked at our top ten beers.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;super.reviews.popular.100 &amp;lt;- super.reviews[, .(most_reviewed_beers = .N), by = beer_name_unique][order(-most_reviewed_beers)][1:100]
 
@@ -336,8 +338,8 @@ super.reviews.cream.of.crop[, .(mean_review_overall = mean(review_overall)), by 
 &lt;/div&gt;
 &lt;div id=&#34;bizzaro-beer&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Bizzaro Beer&lt;/h2&gt;
-&lt;p&gt;Now Pliny The Elder seemed to be a pretty popular beer. But what if I was trying to sketch out some ideas about what other beers that I could recommend to beer lovers who like Pliny The Elder, it needed to somewhat “look like” the target beer, but have way less reviews.&lt;/p&gt;
-&lt;p&gt;Playing with some of the fringe data here, I wanted to be careful not to again pick a beer with only one or two ratings on it. My rationale coming from assuming there is some sort of true “population mean” for this beer and having a beer with too little reviews will not approximate the mean correctly.&lt;/p&gt;
+&lt;p&gt;Now Pliny The Elder seemed to be a pretty popular beer. But what if I was trying to sketch out some ideas about what other beers I could recommend to beer lovers who like Pliny The Elder? It needed to somewhat “look like” the target beer, but have way less reviews.&lt;/p&gt;
+&lt;p&gt;Playing with some of the fringe data here, I wanted to be careful not to again pick a beer with only one or two ratings on it. My rationale was coming from assuming there is some sort of true “population mean” for this beer and having a beer with too little reviews will not approximate the mean correctly.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;## Make Unique Beer Label for Larger Dataset
 beer[, beer_name_unique := paste(brewery_name,beer_name, beer_style)]
 
@@ -349,8 +351,8 @@ reliable.beers.list &amp;lt;- number.of.reviews[ NumberOfReviews &amp;gt;= 30 ]
 
 ## Join that to our big &amp;#39;beer&amp;#39; dataset only matching beers with over 30 reviews
 beer.reliable &amp;lt;- reliable.beers.list[beer, on = &amp;quot;beer_name_unique&amp;quot;, nomatch=0]&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;With our dataset chiseled down to only ‘reliable’ beers, I needed to find a way to get some sort of profile of each of the beers. While my first instinct was to do some sort of data reductive type thing like do a PCA on our continuous variables and use distances from certain scores as metrics of similarity (&lt;a href=&#34;https://musiccog.lsu.edu/davidjohnbaker/papers/Baker_Trahan_Mullensiefen_ProceedingsPaper.pdf&#34;&gt;which I have done before&lt;/a&gt; and it ended up actually being the inspiration for a tool currently used by &lt;a href=&#34;https://www.soundout.com/brandmatch&#34;&gt;Soundout&lt;/a&gt;!), doing that on so few predictors seemed &lt;a href=&#34;https://www.urbandictionary.com/define.php?term=extra&#34;&gt;extra&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;So instead I figured why not just assume that there is some sort of wiggle room in my hastily made recommendation system and just match first on the overall review, then if there are some close contenders, look for matches on other metrics?&lt;/p&gt;
+&lt;p&gt;With our dataset chiseled down to only ‘reliable’ beers, I needed to find a way to get some sort of profile of each of the beers. While my first instinct was to do some sort of data reductive type thing like a PCA on our continuous variables and use distances from certain scores as metrics of similarity (&lt;a href=&#34;https://musiccog.lsu.edu/davidjohnbaker/papers/Baker_Trahan_Mullensiefen_ProceedingsPaper.pdf&#34;&gt;which I have done before&lt;/a&gt; and it ended up actually being the inspiration for a tool currently used by &lt;a href=&#34;https://www.soundout.com/brandmatch&#34;&gt;Soundout&lt;/a&gt;!), doing that on so few predictors seemed &lt;a href=&#34;https://www.urbandictionary.com/define.php?term=extra&#34;&gt;extra&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;So instead, I figured why not just assume that there is some sort of wiggle room in my hastily made recommendation system and just match first on the overall review, then if there are some close contenders, look for matches on other metrics?&lt;/p&gt;
 &lt;p&gt;The next bit of code creates a table of the metrics I am interested in, gets beers that have over 30 reviews, but less than 100, and also creates a vector so I can pull out all of the IPAs on my less reviewed beers table. I then joined the tables for my candidates.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# # Get metrics used for distance calculations
 beer.metrics &amp;lt;- beer.reliable[, .(mean_review_overall = mean(review_overall),
@@ -520,7 +522,7 @@ bizzaro.candidates.distances[order(-mean_review_overall)]&lt;/code&gt;&lt;/pre&g
 &lt;/div&gt;
 &lt;div id=&#34;beer-sans-booze&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Beer sans Booze&lt;/h2&gt;
-&lt;p&gt;The last beer that I think wanted to recommend would be one that tastes great, but does not have a lot of alcohol with it. The reason this question kind of interests me is because if we are &lt;em&gt;really&lt;/em&gt; going to talk about how tasty a beer is, it would be nice to be able to factor out of the equation how drunk we are actually getting from it.&lt;/p&gt;
+&lt;p&gt;The last beer that I think I wanted to recommend would be one that tastes great, but does not have a lot of alcohol in it. The reason this question kind of interests me is because if we are &lt;em&gt;really&lt;/em&gt; going to talk about how tasty a beer is, it would be nice to be able to factor out of the equation how drunk we are actually getting from it.&lt;/p&gt;
 &lt;p&gt;I can see first of all IF this relationship exists if we look at the mean overall rating of a beer as a function of its ABV content.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;beer.complete[, beer_name_unique := paste(brewery_name,beer_name, beer_style) ]
 
@@ -606,7 +608,7 @@ ggplot(dd.beers.2, aes(x = abv, y = mean_overall, label = beer_name_unique, colo
 &lt;/div&gt;
 &lt;div id=&#34;summary&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;After all of this I know have three beers to check out. &lt;a href=&#34;https://www.beeradvocate.com/beer/profile/863/7971/&#34;&gt;Pliny The Elder&lt;/a&gt; is our winner for the top rated beer among our Super Users of the site, the &lt;a href=&#34;https://www.beeradvocate.com/beer/profile/22511/67760/&#34;&gt;Hill Farmstead Brewery Galaxy Imperial Single Hop IPA American Double / Imperial IPA&lt;/a&gt; is a beer to maybe follow up on from our first choice, and then lastly we have the the &lt;a href=&#34;https://www.beeradvocate.com/beer/profile/1628/8626/&#34;&gt;Southampton Publick House Southampton Berliner Weisse Berliner Weissbier&lt;/a&gt; which supposedly tastes great, despite its lack of alcohol content.&lt;/p&gt;
+&lt;p&gt;After all of this, I know have three beers to check out. &lt;a href=&#34;https://www.beeradvocate.com/beer/profile/863/7971/&#34;&gt;Pliny The Elder&lt;/a&gt; is our winner for the top rated beer among our Super Users of the site, the &lt;a href=&#34;https://www.beeradvocate.com/beer/profile/22511/67760/&#34;&gt;Hill Farmstead Brewery Galaxy Imperial Single Hop IPA American Double / Imperial IPA&lt;/a&gt; is a beer to maybe follow up on from our first choice, and then lastly we have the the &lt;a href=&#34;https://www.beeradvocate.com/beer/profile/1628/8626/&#34;&gt;Southampton Publick House Southampton Berliner Weisse Berliner Weissbier&lt;/a&gt; which supposedly tastes great, despite its lack of alcohol content.&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>

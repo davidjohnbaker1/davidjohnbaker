@@ -9,20 +9,20 @@ tags: [R, Data Science, Beer]
 
 
 
-<p>Since this is the last post, I’ll keep this short and sweet in terms of analysis. Having done all of this, I do have a few reflections I would like to share after doing the <a href="https://www.linkedin.com/pulse/how-hire-test-data-skills-one-size-fits-all-interview-tanya-cashorali/">One-Size-Fits-All-Data-Science Interview</a> that I have included at the end.</p>
+<p>Since this is my last post in the beer review series, I’ll keep this short and sweet in terms of analysis. Having done all of this, I do have a few reflections I would like to share after doing the <a href="https://www.linkedin.com/pulse/how-hire-test-data-skills-one-size-fits-all-interview-tanya-cashorali/">One-Size-Fits-All-Data-Science Interview</a> that I have included at the end.</p>
 <p>Our final question to answer is:</p>
 <blockquote>
 <p>Lastly, if I typically enjoy a beer due to its aroma and appearance, which beer style should I try?</p>
 </blockquote>
-<p>This is a pretty broad question and should be able to be answered without many pitfalls so let’s get started.</p>
+<p>This is a pretty broad question and should be able to be answered without many pitfalls, so let’s get started.</p>
 <pre class="r"><code>library(ggplot2)
 library(data.table)</code></pre>
 <pre><code>## Warning: package &#39;data.table&#39; was built under R version 3.4.2</code></pre>
 <pre class="r"><code>beer &lt;- fread(&quot;data/beer_reviews.csv&quot;) </code></pre>
 <pre><code>## 
-Read 66.8% of 1586614 rows
+Read 83.2% of 1586614 rows
 Read 1586614 rows and 13 (of 13) columns from 0.168 GB file in 00:00:03</code></pre>
-<p>From a bird’s eye view, it seems like the most sensible thing to do would be to look at our data from the highest level, then just zoom in until we have the level of granularity we feel answers the question well. Let’s first just average over all the beer styles to get a rough estimate of how a beer style fairs on the variables we are interested in, and additionally see how much variability is associated with that measurement.</p>
+<p>From a bird’s eye view, it seems like the most sensible thing to do would be to look at our data from the highest level, then just zoom in until we have the level of granularity we feel answers the question well. Let’s first average all the beer styles to get a rough estimate of how a beer style fairs on the variables we are interested in, and additionally see how much variability is associated with that measurement.</p>
 <pre class="r"><code>sem &lt;-function(x) {sd(x)/sqrt(length(x))}
 
 question4.means &lt;- beer[, .(mean_aroma = mean(review_aroma), mean_appearance = mean(review_appearance), mean_overall = mean(review_overall),
@@ -66,7 +66,7 @@ question4.means</code></pre>
 ## 102:      0.7975368  0.9863785
 ## 103:      0.5757968  0.7065662
 ## 104:      0.6119209  0.8661809</code></pre>
-<p>Now knowing how each beer style varies on our variables of interest (with our overall score thrown in for good measure!), let’s plot our results. Note that I have included standard error of the mean error bars as a sanity check to make sure that each beer’s ratings is not going to bleed into the others’ dimensions. By doing this we can have a bit more confidence in what we are looking at that it actually has some meaning. This plot shows the standard error on each of the two variables we are interested in and for the most part it looks as if they are relatively well contained.</p>
+<p>Knowing how each beer style fluctuates on our variables of interest (with our overall score thrown in for good measure!), let’s plot our results. Note that I have included standard error of the mean error bars as a sanity check to make sure that each beer’s ratings is not going to bleed into the others’ dimensions. By doing this, we can have a bit more confidence that we are looking at actually has some meaning. This plot shows the standard error on each of the two variables we are interested in, and for the most part it looks as if they are relatively well contained.</p>
 <pre class="r"><code>ggplot(question4.means, aes(x = mean_aroma, y = mean_appearance, color = beer_style)) + 
   geom_point() +
   geom_errorbar(aes(ymin=mean_appearance-sem_appearance, ymax=mean_appearance+sem_appearance), width=.1) +
@@ -82,9 +82,9 @@ question4.means</code></pre>
   labs(title = &quot;Mean Appearance and Aroma&quot;, y = &quot;Mean Aroma&quot;, x = &quot;Mean Appearance&quot;) + 
   geom_text(aes(label=beer_style, hjust = .5, vjust = -.75)) </code></pre>
 <p><img src="/post/2018-01-29-hire-me-as-a-data-scientist-part-iv_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
-<p>Looking at this subsection, it appears that we have a few choices for beers that score highly on both Appearance and Aroma. The American Double / Imperial Stout looks like a good option as it scores higher on how it looks, but our Russian Imperial Stout has a higher Aroma score. We could start crunching more numbers here to find “the best” option, or at this point we could take off our data science hats and put our psychology ones back (assuming that’s what we were wearing…) on and run some double-blind experiments on ourselves just to make sure that our data is actually lining up with something in the real world.</p>
+<p>Looking at this subsection, it appears we have a few choices for beers that score highly on both Appearance and Aroma. The American Double / Imperial Stout looks like a good option as it scores higher on how it looks, but our Russian Imperial Stout has a higher Aroma score. We could start crunching more numbers here to find “the best” option, or at this point we could take off our data science hats and put our psychology ones back on (assuming that’s what we were wearing…) and run some double-blind experiments on ourselves to make sure that our data is actually lining up with something in the real world.</p>
 <div id="reflections" class="section level2">
 <h2>Reflections</h2>
-<p>What started out as a fun weekend project actually turned into a really great learning experience. I’ve definitely put a few solid hours into this and have gotten a lot out of it. I learned that my friends actually know a TON about beer and data science, that <a href="https://git-lfs.github.com/">git-lfs</a> is a thing that something I wish I would have known about earlier, and that I’m actually looking forward to doing more blogging in the future.</p>
-<p>I will probably have to go MIA for the next two weeks since my General Exams are coming up in early February, but I’m sure I will be back at it come late March. Until then all I can hope for is that someone who is looking to hire a junior data scientist over the summer will come across these posts and think that I might be a good temporary addition to their team.</p>
+<p>What started out as a fun weekend project actually turned into a really great learning experience. I’ve definitely put a few solid hours into this and have gotten a lot out of it. I learned that my friends actually know a TON about beer and data science, that <a href="https://git-lfs.github.com/">git-lfs</a> is something I wish I would have known about earlier, and that I’m actually looking forward to doing more blogging in the future.</p>
+<p>I will probably have to go MIA for the next two weeks since my General Exams are coming up in early February, but I’m sure I will be back at it come late March. Until then, all I can hope for is that someone who is looking to hire a junior data scientist over the summer will come across these posts and think I might be a good temporary addition to their team.</p>
 </div>

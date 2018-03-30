@@ -27,7 +27,7 @@ It's the start of the semester, I'm basically ABD, need more of a portfolio beyo
 Why not see what I can produce in 4 or 5 hours?
 At the very least I'll hopefully just have something to point to if a future employer wants to see how I think through data-science problems.
 
-And if anyone is reading this who does have comments on my code or thought process... please let me know what you think on [Twitter](www.twitter.com/DavidJohnBaker)!
+And if anyone is reading this that does have comments on my code or thought process... please let me know what you think on [Twitter](www.twitter.com/DavidJohnBaker)!
 I'd love some feedback!
 
 ## Exploring the Dataset
@@ -175,7 +175,7 @@ ggplot(brassOrg.abv, aes(x = beer_name, y = beer_abv)) +
 ```
 
 I think that saying Schorschbräu is technically correct here, but after sharing my findings with my one beer drinking friend
-he pointed out that one thing that this analysis did not take into account was the how that beers
+he pointed out that one thing that this analysis did not take into account was that beers
 that are traditionally brewed to have a higher ABV (like IPAs and Belgiums) might skew my results.
 So if you are a big IPA brewery, you are going to have higher average ABV because of the beers you decide to brew!
 
