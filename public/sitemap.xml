@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>/post/to-dos-and-boundaries/</loc>
+      <lastmod>2018-04-09T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/talk/scsmt-2018/</loc>
       <lastmod>2018-03-23T00:00:00+00:00</lastmod>
     </url>
@@ -258,6 +267,16 @@
     
     <url>
     
+      <loc>/tags/10-minute-reads/</loc>
+      <lastmod>2018-04-09T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/categories/10-minute-reads/</loc>
       <lastmod>2018-01-29T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -378,6 +397,26 @@
     
     <url>
     
+      <loc>/tags/grad-school/</loc>
+      <lastmod>2018-04-09T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/grad-school/</loc>
+      <lastmod>2018-04-09T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/music-theory/</loc>
       <lastmod>2017-11-19T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -400,6 +439,36 @@
     
       <loc>/tags/music-and-memory/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/pomodoro/</loc>
+      <lastmod>2018-04-09T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/productivity/</loc>
+      <lastmod>2018-04-09T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/productivity/</loc>
+      <lastmod>2018-04-09T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -470,6 +539,16 @@
     
       <loc>/tags/twitter/</loc>
       <lastmod>2017-11-20T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/vim/</loc>
+      <lastmod>2018-04-09T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
