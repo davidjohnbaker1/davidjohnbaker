@@ -5,19 +5,19 @@ date: "April 14, 2018"
 output: html_document
 ---
 
-When I have to give the academic version of my two minute elevator speech describing what I "do", often I  say most of it falls into either **computational musicology** or **music psychology**.
+When I have to give the academic version of my elevator pitch describing what I "do", often I say most of it falls into either **computational musicology** or **music psychology**.
 People generally have a pretty good idea of what music psychology is, but sometimes I'll get the deer-in-the-headlights look at any mention of computational musicology.
 For some reason it sounds more complicated than it actually is, but it's just a broad term to means that you are using a computer to study music.
 
-Relatively speaking, I don't think the world has enough [computational musicology](https://pushpullfork.com/computational-musicology/) as reflected in its very sad [wikipedia page](https://en.wikipedia.org/wiki/Computational_musicology).
+Relatively speaking, I don't think the world has enough [computational musicology](https://pushpullfork.com/computational-musicology/) and the lack of it is reflected in its very sad [wikipedia page](https://en.wikipedia.org/wiki/Computational_musicology).
 Since computational musicology is theoretically half of what I do, I feel a certain need to advocate for the disipline.
 In order to do that, I'm planning on doing a series of how-to blog posts for anyone looking to get their feet wet with the hopes of making computational musicology accesible to anyone interested.
 
 But why!?
 
 There are two main reasons that I'd like to do this.
-The **first reason** is totally self-motivated and relates to my last point of my second reason: It'd be nice to have more friends working in computational musicology and I think raising awareness and increasing accesibility is a great way to grow the community.
-I'm also pretty keen on the whole public musicology thing and think if a small percentage of Louisianan's tax dollars end up going to pay my paycheck to let me have probably one of the most obsure jobs ever imaginable ("Music Theorist"), what I work on should be availble in a bite-size version that doesn't require a PhD to do understand. 
+The **first reason** is totally self-motivated: It'd be nice to have more friends working in computational musicology and I think raising awareness and increasing accesibility is a great way to grow the community.
+I'm also pretty keen on the whole public musicology thing and think if a small percentage of Louisianan's tax dollars end up going to my paycheck to let me have probably one of the most obsure jobs ever imaginable ("Music Theorist"), what I work on should be availble in a bite-size version that doesn't require a PhD to do understand. 
 The **second reason** is that computational musicology is a great reserach discipline to help people with musical backgrounds learn transferable skills while simultaneosly answering a musical question!
 I won't spend much of this post focusing on the first reason, but I did try to sketch out a list of points that support my second reason.
 I am hoping this post will set the stage for my subsequent *How-To* posts.
@@ -41,15 +41,15 @@ Getting a bit more detailed here...
 ## Computer Literacy
 
 By definition computational musicology uses computers.
-For the most part computers are pretty user friendly.
-The thing is, most people pretty much use their computer as a $1,000 Facebook-Email-Netfilix-Reddit-Word-Proccessor-Powerpoint-Maker machine and then add to that expense by buying a bunch of very expensive software.
-While there is nothing wrong with that, computers today are magnitutes more powerful than they were compared a few decades ago and today you can actually train a neural network on the same computer you use to watch cat gifs.
-The tools from computational musicology rely on freely availbible software and you'll have to learn a lot about your computer and all the wonderful things it can do by using it.
+Of course most people use computers to do research these days, but computational musicology is absolutly dependent on software that does all of the heavy lifting.
+From looking at spectrograms, to finding common patterns in the real book, to downloading all of Taylor Swift's lyrics and seeing that she's starting to get really interested in booze at this point, none of these are tasks that any sane person would want to do "the old fashioned way".
+Learning about how computers store, organize, and then process digital data requires a knowledge about computers above and beyond your typical Facebook user.
+The deeper you go into the field, the more computer liteate you are going to have to become.
 
-## Computational Thinking
+##Computational Thinking
 
-Once you learn a bit more about how your computer actually works, the next thing on the list is to come up with an interestign question to ask. Next on list?
-Of course asking a good question isn't exclusive to computational musicology, but in order to actually "ask" the computer your question, it needs to very well-formed. 
+In addition to learning a bit more about how your computer actually works, forming a good question to ask is something something
+Asking a good question isn't exclusive to computational musicology, but in order to actually "ask" the computer your question, it needs to very well-formed. 
 Computers are very bad at nuance and are not good for answering questions like "What is tonality"?
 On Stephen Wolfram's blog, he describes [computational thinking](http://blog.stephenwolfram.com/2016/09/how-to-teach-computational-thinking/) as 
 
