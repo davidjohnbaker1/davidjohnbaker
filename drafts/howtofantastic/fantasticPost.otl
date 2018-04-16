@@ -1,0 +1,45 @@
+# Fantastic Post
+
+Goal: Get anyone wanting to work with abstracted features able to run software in an hour.
+
+Important idea that abstracted features can be predictive
+	Baker and Mullenseifen Paper
+	Kopiez and Mullensiefen Paper
+	FANTASTIC review (Get them for .bib) 
+But how do you do it?
+
+Symbolic Notatation
+	Fancy version of File 
+	Export as XML or as MIDI (Do MIDI)
+		note various forms of midi
+		important that musescore does our midi 
+
+Running midi2csv converter 
+	Get from Klaus' website 
+	Put it in your .bash_rc
+	now can run ```melconv``` anywhere in your computer
+	write a bash loop for this, learn more from Hubert's page (I will write more on this later w humdrum)
+	converts it all to CSV
+
+Running FANTASTIC 
+	Get all the software from Daniel 
+	Already have it set up if you download it over HERE to have it set up 
+	WD is set, then need to run Fantastic.R with other features in the file 
+	This process creates the object you need, then can start exploring 
+
+Export and Look at Features
+	Write code to import it 
+	Write code for scatter plots in ggplot2 (can swap out to other variables to plot)
+	Even do with group by function 
+	
+Welcome to computational work 
+	Can now do collinearity stuff
+	see what types of variables are normally distributed
+	also use in perceptual modeling
+
+Things you could then cite if you were doing this
+	all the FANTASTIC papers
+	Baker Mullensiefen
+	Kopiez and Mullensiefen 
+	Klaus papers
+

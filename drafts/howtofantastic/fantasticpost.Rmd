@@ -1,0 +1,52 @@
+---
+title: "fantasticPost"
+author: "David John Baker"
+date: "April 14, 2018"
+output: html_document
+---
+
+In my last post I extolled the virtues of computational musiocology.
+It was a lot of hype, not that much substance, and you could have closed out of the page thinking "Yeah, I still don't get what the whole thing is about."
+In order to remedy that, I want to give a hands-on walk through and actually do some computational musicology and show how it can be useful.
+In this post we're going to take a look at this fantastic software developed by my old advisor, Daniel Müllensiefen, that does feature extraction on symbolic music data and then talk about what those features might mean.
+
+If you read that last sentance and was like "too much jargon", let's start with the end in mind then work our way towards that.
+
+Most people who can read music often have a lot of good intutitions about music.
+Just glancing at a melody we can probably tell how complex it is, if it's singable or not, maybe even take a guess as to how tonal it sounds.
+All of these properities just listed could be thought of as features of the melody.
+The ones I listed are kind of abstract, but you could also imagine more basic features like how many notes it has, the range of the melody, or the variety of intervals in the melody.
+Take for example this melody here:
+
+[MELODY]
+
+We could go through and count all the notes (not too hard), tally up how many different kinds of intervals there are in it (getting tedious), or finally hand compute the frequency of distribution of the pitch classes in the melody and compare it with the profiles generated in a Probe Tone profile to have some sort of estimate of how 'tonal' the melody is (shoot me now).
+Once we did this, we would have a set of features taken from this symbolic representation of our musical data.
+But we would just have it for one melody, which doesn't really tell us much.
+What we want is a lot of melodies and if we have a lot of melodies, we don't want to have to do all of this by hand. 
+
+Cue FANASTIC.
+
+When you have to do something a lot of times that is tedious, time to call in the computers.
+So what FANTASTIC does is extracts all these features for a melody, or tons of melodies.
+So let's say you wanted to do this for a set of melodies that you have, let's do it.
+
+INSERT THE WHY HERE, COUPLE OF PAPERS THAT HAVE USED IT
+
+The way the software works is that you need monophoic melodies and also have to have them in .csv format.
+Klaus is working on ways to make this conversion process easier and with having more time to do dissertation stuff next year I am hoping to understan the process more deeply, but going to take you through my way of converting files.
+Need some software in order to do this, MuseScore, melconv, and to run it all in R.
+I've written up how it all looks, but also included some GIFs that show the point and click of it all.
+You can get those softwares here here and here.
+We need a bunch of MIDI files, found best way to get them is exporting of out musescore2.
+
+## Symbolic Notation 
+
+Not going to bore you with me putting in melodies here, but here is a gif of me having some melodies in MuseScore 2.
+Going to EXPORT them as midi 
+
+
+
+
+
+

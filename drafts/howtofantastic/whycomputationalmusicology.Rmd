@@ -1,0 +1,127 @@
+---
+title: "howtofantasticDraft"
+author: "David John Baker"
+date: "April 14, 2018"
+output: html_document
+---
+
+When I have to give the academic version of my two minute elevator speech describing what I "do", often I  say most of it falls into either **computational musicology** or **music psychology**.
+People generally have a pretty good idea of what music psychology is, but sometimes I'll get the deer-in-the-headlights look at any mention of computational musicology.
+For some reason it sounds more complicated than it actually is, but it's just a broad term to means that you are using a computer to study music.
+
+Relatively speaking, I don't think the world has enough [computational musicology](https://pushpullfork.com/computational-musicology/) as reflected in its very sad [wikipedia page](https://en.wikipedia.org/wiki/Computational_musicology).
+Since computational musicology is theoretically half of what I do, I feel a certain need to advocate for the disipline.
+In order to do that, I'm planning on doing a series of how-to blog posts for anyone looking to get their feet wet with the hopes of making computational musicology accesible to anyone interested.
+
+But why!?
+
+There are two main reasons that I'd like to do this.
+The **first reason** is totally self-motivated and relates to my last point of my second reason: It'd be nice to have more friends working in computational musicology and I think raising awareness and increasing accesibility is a great way to grow the community.
+I'm also pretty keen on the whole public musicology thing and think if a small percentage of Louisianan's tax dollars end up going to pay my paycheck to let me have probably one of the most obsure jobs ever imaginable ("Music Theorist"), what I work on should be availble in a bite-size version that doesn't require a PhD to do understand. 
+The **second reason** is that computational musicology is a great reserach discipline to help people with musical backgrounds learn transferable skills while simultaneosly answering a musical question!
+I won't spend much of this post focusing on the first reason, but I did try to sketch out a list of points that support my second reason.
+I am hoping this post will set the stage for my subsequent *How-To* posts.
+
+I'll start out with my non-exhaustive list first, then elaborate on each point a bit lower down.
+
+Here's the clickbait:
+
+I think computational musicology is great because...
+
+1. it teaches computer literacy.
+2. doing research in this field insists on computational thinking.
+3. it's a great means to start learning about programming.
+4. it's also a great way to start learning about data, quantitative reserach, and statistics.
+5. it can be a music theorist's link to music psychology and doing science.
+6. everyone can help out with reserach.
+7. doing interdisciplinary reserach results in more friends.
+
+Getting a bit more detailed here...
+
+## Computer Literacy
+
+By definition computational musicology uses computers.
+For the most part computers are pretty user friendly.
+The thing is, most people pretty much use their computer as a $1,000 Facebook-Email-Netfilix-Reddit-Word-Proccessor-Powerpoint-Maker machine and then add to that expense by buying a bunch of very expensive software.
+While there is nothing wrong with that, computers today are magnitutes more powerful than they were compared a few decades ago and today you can actually train a neural network on the same computer you use to watch cat gifs.
+The tools from computational musicology rely on freely availbible software and you'll have to learn a lot about your computer and all the wonderful things it can do by using it.
+
+## Computational Thinking
+
+Once you learn a bit more about how your computer actually works, the next thing on the list is to come up with an interestign question to ask. Next on list?
+Of course asking a good question isn't exclusive to computational musicology, but in order to actually "ask" the computer your question, it needs to very well-formed. 
+Computers are very bad at nuance and are not good for answering questions like "What is tonality"?
+On Stephen Wolfram's blog, he describes [computational thinking](http://blog.stephenwolfram.com/2016/09/how-to-teach-computational-thinking/) as 
+
+> formulating things with enough clarity, and in a systematic enough way, that one can tell a computer how to do them. 
+
+For most people who use the buzzword "computational thinking", this is quite literal.
+But if this is the plan from the outset, really helps clarify things (hepokoski darcy), implementations of GTTM. 
+Both of which enjoy a very high citation count, I think because it gives us a framework and a solid structure to either build upon in the former or critique in the latter. 
+Also great because forming such a clear research question is central to writing a paper in any discipline, but also needed in order to form falsifiable hypothesis if you want to start doing science.
+
+They are though very good at answering exactly what you ask of them.
+Great examples of these can be found on the [Humdrum.org](http://www.humdrum.org/guide/ch01/) page.
+The thing is you have to know exactly what to type in to get that answer.
+
+## Learning About Programming
+
+After deciding exactly what question you need to ask, the next step is to get both the data and write a program to answer it.
+Data comes in all shapes and sizes (mostly gross), but depending on your question you can try to answer it with maybe audio features (ismir links), symbolic data (ds), metadata (?), or make a solid argument with evidence from both (hubert work).
+Granted, this is a really big mountain to climb, but start small, work up.
+
+## Learning About Statistics
+
+Once you have your question and then your data, you'll hopefully have some results.
+Time to interpret!
+At this point you need to face questions like is your question better answered with frequentist or baysian statistics?
+Or both?
+Did you draw from a representive sample?
+Or is the answer or model that you arrived at in some ways biased?
+
+## Link to Music Psychology
+
+All of the data, be it audio or symbolic is some remnant of a human behavior.
+Music is a product of human activity (or animal if you ask HH) and you might begin to situate your findings within a large discussion?
+Any interesting patterns? 
+Historical findings that corroborate stuff like Gjerdigan?
+Could findings inform pedagogical practices (eastman piano guy on jazz)
+5. music theorist's link to music psychology
+                a. have a lot of things we intuitively understand 
+                b. if you get tools of computational musicology, use them as predictors for behaviroal 
+                c. this is pretty much my dissertation, and of course want other people to be intersted in this as well 
+ 
+## Everyone Can Help Out With Research
+
+This is clearly a lot an no one is an expert in all of it.
+And not everyone can do everything, need to help and share in order to get it all accomplished.
+Even it it's encoding one melody, one piece, helping get the works of someone who just entered public domain into digital format, makes it both accesible for others and a very small part contributing to the resarch community.
+One thign I don't particualyr like about way theory or musicology research community is set up is that kind of hard to get undergrads in on some reserach project.
+Music is still way behind in terms of collboration and putting team together to split up the work is way to tackle big problems as a gorup.
+
+## More Friends
+
+Then thing is that when you do work with this, you can work on a team.
+Everyone can get involved in the project, disuss because all running into same problems.
+Know that everyone gets to come to the table and be like 'I don't know' and offers tons of oppertunities for teaching and learning.
+Mentioned linking to music psychology, but then also people who work in music information retrevail (engineers and computer scientists), or musicologist with very specific interest. 
+
+Software and data is not exclusive, but the learning curve to start is.
+Was very lucky to be able to take Dan Shanahan's computational musicology course and just want to spread the good word!
+
+
+                d. great that it will 'hopefully' have practical applications in pedagogical settings
+
+### Quick Example
+
+Computers are great for answering questions about music that you wouldn't want to do by hand.
+For example, a great question to ask a computer would be something like:
+
+> "How many times does J.S. Bach use the note C in the first Prelude of his Well-Tempred Clavier?"
+
+You could defintly answer that question by hand, but given the choice it'd probably be better to just ask a computer to do it.
+On it's own, that number is pretty uselesss as well. 
+(The answer is XXX if you're interested, the following humdrum code will provide it)
+
+Coming up with posts covering abstracted featurs, humdrum, key profiles, corpus studies.
+

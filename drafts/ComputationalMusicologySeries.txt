@@ -1,0 +1,19 @@
+## Computational Musicology Series
+
+I. FANTASTIC
+II. humdrum 
+III. Key profiles 
+IV. Corpus studies? 
+
+Why computational musicology is good
+	i. teaches computer literacy
+	ii. also insists on computational thinking, forces you to operationalize 
+	iii. great vehicile to start learning about programming
+	iv. great vehicle ot start learning about statistics 
+	v. music theorist's link to music psychology
+		a. have a lot of things we intuitively understand
+		b. if you get tools of computational musicology, use them as predictors for behaviroal
+		c. this is pretty much my dissertation, and of course want other people to be intersted in this as well	
+		d. great that it will 'hopefully' have practical applications in pedagogical settings
+	vi. everyone can help out with reserach
+	vii. more friends
