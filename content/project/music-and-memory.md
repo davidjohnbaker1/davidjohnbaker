@@ -28,4 +28,8 @@ caption = " "
 
 +++
 
-My main research interest is investigating what individual and musical factors contribute to how someone learns and remembers a melody. Not only do findings in this area have relevance for music perception, but they also have  implications for how aural skills are taught at the conservatory level of music education.
+My main research interest investigates what individual and musical factors contribute to how someone learns and remembers a melody.
+Not only do findings in this area have relevance for music perception, but they also have  implications for how aural skills are taught at the conservatory level of music education.
+
+Some of the initial findings from our research are going to be published in the upcoming conference proceedings for the [International Conference for Music Perception and Cognition](https://music-psychology-conference2018.uni-graz.at/en/) and are serving as the basis for my dissertation.
+

@@ -20,7 +20,7 @@ defaultContentLanguageInSubdir = false
 
 [params]
   name = "David John Baker"
-  role = "PhD Student, Music Cognition and Computation Lab"
+  role = "PhD Candidate, Music Cognition and Computation Lab"
   organization = "Louisiana State University"
   organization_url = ""
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)

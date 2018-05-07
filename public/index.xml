@@ -64,6 +64,41 @@
     </item>
     
     <item>
+      <title>Music Industry</title>
+      <link>/project/music-industry/</link>
+      <pubDate>Sat, 07 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/project/music-industry/</guid>
+      <description>
+
+&lt;p&gt;In addition to academic work, I&amp;rsquo;m also often involved as working as a consultant for various music industry projects.
+One of the great things about working in &lt;a href=&#34;https://twitter.com/search?q=%23musicscience&#34; target=&#34;_blank&#34;&gt;#musicscience&lt;/a&gt; is that there is a bit more opportunity to do consultancy work where theory can meet practice.
+If you&amp;rsquo;d like to hire me for anything from trying to find insight from your dirty data, to making data products, to scientific consultancy, please don&amp;rsquo;t hesitate to &lt;a href=&#34;mailto:davidjohnbaker1@gmail.com&#34; target=&#34;_blank&#34;&gt;get in touch&lt;/a&gt;!!&lt;/p&gt;
+
+&lt;p&gt;Here are some examples of projects that I have been involved with in the past.&lt;/p&gt;
+
+&lt;h2 id=&#34;projects&#34;&gt;Projects&lt;/h2&gt;
+
+&lt;h3 id=&#34;soundscape&#34;&gt;Soundscape&lt;/h3&gt;
+
+&lt;p&gt;This summer I am currently involved on a project with &lt;a href=&#34;https://soundscapeagency.com/&#34; target=&#34;_blank&#34;&gt;Soundscape Agency&lt;/a&gt; acting as their scientific consultant to help develop music in collaboration with various artists from the &lt;a href=&#34;https://www.erasedtapes.com/&#34; target=&#34;_blank&#34;&gt;Erased Tapes&lt;/a&gt; record label.
+More information to come soon!&lt;/p&gt;
+
+&lt;h3 id=&#34;soundout&#34;&gt;Soundout&lt;/h3&gt;
+
+&lt;p&gt;Working with &lt;a href=&#34;https://www.soundout.com/&#34; target=&#34;_blank&#34;&gt;Soundout&lt;/a&gt;, I worked on a project with their lead data scientist &lt;a href=&#34;https://www.linkedin.com/in/tabitha-trahan/&#34; target=&#34;_blank&#34;&gt;Tabi Trahan&lt;/a&gt; and Dr. &lt;a href=&#34;http://www.doc.gold.ac.uk/~mas03dm/&#34; target=&#34;_blank&#34;&gt;Daniel Müllensifen&lt;/a&gt; to develop a tool that mapped Music and Brand personality onto the same emotional space.
+The details of the project can be found in the &lt;a href=&#34;https://www.researchgate.net/publication/306374399_Matching_Music_to_Brand_Personality_A_Semantic_Differential_Tool_for_Measuring_Emotional_Space&#34; target=&#34;_blank&#34;&gt;proceedings of the 14th International Conference on Music Perception and Cognition&lt;/a&gt;.
+The tool served as the basis for what later became their &lt;a href=&#34;https://www.soundout.com/brandmatch&#34; target=&#34;_blank&#34;&gt;BrandMatch&lt;/a&gt; tool.&lt;/p&gt;
+
+&lt;h3 id=&#34;audio-branding-academy&#34;&gt;Audio Branding Academy&lt;/h3&gt;
+
+&lt;p&gt;In 2014 I presented with Dr. Daniel Müllensifen at the Audio Branding Academy annual conference in Berlin, Germany.
+We gave a half-day workshop on tools that help bridge gaps between academics, creatives, and industry minded people.
+A summary of our workshop can be found in their &lt;a href=&#34;https://www.researchgate.net/publication/284721150_Music_Brands_Advertising_Testing_What_Works&#34; target=&#34;_blank&#34;&gt;annual yearbook from that year&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Root Interval Schemas in Rock Music</title>
       <link>/talk/scsmt-2018/</link>
       <pubDate>Fri, 23 Mar 2018 00:00:00 +0000</pubDate>
@@ -1204,15 +1239,6 @@ I&amp;rsquo;d like to create content relevant to what it&amp;rsquo;s like to do 
       <guid>/talk/smpc-rock-2017/</guid>
       <description>&lt;p&gt;Poster presented at the Society for Music Perception and Cognition, 2017&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Perception of Leitmotives in Richard Wagner&#39;s Der Ring des Nibelungen</title>
-      <link>/publication/wagner-frontiers/</link>
-      <pubDate>Thu, 04 May 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/wagner-frontiers/</guid>
-      <description></description>
     </item>
     
   </channel>
