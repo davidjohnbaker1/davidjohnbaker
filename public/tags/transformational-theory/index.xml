@@ -16,9 +16,9 @@
       <pubDate>Sun, 19 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>/post/calculating-imultisets-in-r/</guid>
-      <description>&lt;p&gt;November is pretty much the worst month for people in higher education. There are too many deadlines and if you’re still in coursework (like myself) you have essays to write, presentations to make, and a backlog of homework assigments to grade. So if you can save time here or there, it’s usually a good choice.&lt;/p&gt;
-&lt;p&gt;This weekend I was working a homework assingment for my Transformational Theory seminar where we were given a number of pairs of pitch class sets and had to calculate the imultiset for each following Joseph Straus’ 2014 article on &lt;a href=&#34;http://www.mtosmt.org/issues/mto.14.20.2/mto.14.20.2.straus.html&#34;&gt;Total Voice Leading&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;As I looked at the top of the assigment (pictured below) and started to crank out the first one by hand, I realized that the next 30 minutes of my life were going to be doing the same thing over and over again.&lt;/p&gt;
+      <description>&lt;p&gt;November is pretty much the worst month for people in higher education. There are too many deadlines and if you’re still in coursework (like myself) you have essays to write, presentations to make, and a backlog of homework assignments to grade. So if you can save time here or there, it’s usually a good choice.&lt;/p&gt;
+&lt;p&gt;This weekend I was working a homework assignment for my Transformational Theory seminar where we were given a number of pairs of pitch class sets and had to calculate the imultiset for each following Joseph Straus’ 2014 article on &lt;a href=&#34;http://www.mtosmt.org/issues/mto.14.20.2/mto.14.20.2.straus.html&#34;&gt;Total Voice Leading&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As I looked at the top of the assignment (pictured below) and started to crank out the first one by hand, I realized that the next 30 minutes of my life were going to be doing the same thing over and over again.&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;
 &lt;img src=&#34;/img/imultiset.png&#34; /&gt;
 
@@ -33,17 +33,17 @@
 &lt;img src=&#34;/img/imultisetcj.png&#34; /&gt;
 
 &lt;/div&gt;
-&lt;p&gt;Then all you need to do is subtract one from the other to get the distance. The only problem is that these subtractions need to happen in Mod 12 space so in any case where you are subtracting a bigger number from a smaller number you will get a negative result! This is easily fixed by just adding 12 to that number in order to get what we &lt;em&gt;should&lt;/em&gt; have been our answer if we were doing Mod 12 arithmatic.&lt;/p&gt;
+&lt;p&gt;Then all you need to do is subtract one from the other to get the distance. The only problem is that these subtractions need to happen in Mod 12 space so in any case where you are subtracting a bigger number from a smaller number you will get a negative result! This is easily fixed by just adding 12 to that number in order to get what we &lt;em&gt;should&lt;/em&gt; have been our answer if we were doing Mod 12 arithmetic.&lt;/p&gt;
 &lt;p&gt;After fixing the Mod 12 problem, you’ll have a nice list of intervals that just have to be sorted from top to bottom to have your imultiset. So let’s see how you would do this line by line.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;r-code&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;R Code&lt;/h2&gt;
-&lt;p&gt;First, let’s get two pitch class sets. In this case we have a C major triad and a G dominant chord.&lt;/p&gt;
+&lt;p&gt;First, let’s get two pitch class sets. In this case we have a C major triad and a G7 chord.&lt;/p&gt;
 &lt;p&gt;X = {0,4,7} and Y = {7,11,2,5}&lt;/p&gt;
 &lt;p&gt;Let’s first assign each chord to an object.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;X &amp;lt;- c(0,4,7)
 Y &amp;lt;- c(7,11,2,5)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Next we need to do that cross join, which we can accompish with R’s merge() function. This makes us a data frame with every combination from set X and set Y. Below we see the function’s output.&lt;/p&gt;
+&lt;p&gt;Next we need to do that cross join, which we can accomplish with R’s merge() function. This makes us a data frame with every combination from set X and set Y. Below we see the function’s output.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;Example &amp;lt;- merge(X,Y,all=TRUE)
 Example&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;##    x  y

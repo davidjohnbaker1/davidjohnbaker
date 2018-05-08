@@ -11,6 +11,99 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Project Management with git and R</title>
+      <link>/post/project-management-with-git-and-r/</link>
+      <pubDate>Tue, 08 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/project-management-with-git-and-r/</guid>
+      <description>&lt;div id=&#34;staying-organized&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Staying Organized&lt;/h2&gt;
+&lt;p&gt;The semester is finally over meaning it’s time to put some serious dents into my research projects. I’ve got a couple floating around at this point, but the one that I need to think about the most is my PhD dissertation. From what I’ve heard it’s quite an intensive ordeal and given that over the next year I need to write a multi-chapter document with a dissertation committee spread across thousands of miles, I think it might be important to try to &lt;strong&gt;stay organized&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;A couple of different people I follow on Twitter have suggested that I use &lt;a href=&#34;https://www.literatureandlatte.com/scrivener/overview&#34;&gt;Scrivner&lt;/a&gt; to keep track of writing and what not, but for the past year or two I have really been trying to push myself to commit exclusively to using &lt;a href=&#34;https://en.wikipedia.org/wiki/Free_and_open-source_software&#34;&gt;Free and Open Source Software&lt;/a&gt; for everything I do. For some time now I have been thinking about trying to write my entire dissertation using all things &lt;a href=&#34;https://cran.r-project.org/&#34;&gt;R&lt;/a&gt; and &lt;a href=&#34;https://www.rstudio.com/&#34;&gt;RStudio&lt;/a&gt; and I think I’m ready to try it. I don’t want to get on a rant here about FOSS and how great R is, but let me just give a few reasons why I want to head down this path as opposed to using proprietary, paid software.&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;It’s free&lt;/li&gt;
+&lt;li&gt;Learning the ins and outs of all of this is going to make me a better programmer/researcher over the course of the next year (more skills = more employment options!)&lt;/li&gt;
+&lt;li&gt;Working with this will help make my work more accessible and reproducible&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;That said, I’m not only going to try to write my thesis using only free software (I’m sure there will be exceptions), but one thing I also want to do is to document as much of the process as I can so that anyone else (especially those without computer backgrounds!) can do the same if they would ever want to learn these sets of tools. I’ve always thought it’s a shame that a lot of this software is not common place in the Humanities and hope that through blogging about how to do it, it will help others who want to use it find it easier.&lt;/p&gt;
+&lt;p&gt;So where do you even start?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;r-projects-and-github&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;R Projects and Git(hub)&lt;/h2&gt;
+&lt;p&gt;When starting a new project, the first thing that I normally do is to create a place on my computer where the entirety of that project can live and then link that up to &lt;a href=&#34;http://github.com&#34;&gt;github&lt;/a&gt; so I can share what I do with the people I work with.&lt;/p&gt;
+&lt;p&gt;In this post I will just walk through how to just set up a version controlled project with R via Github.&lt;/p&gt;
+&lt;div id=&#34;step-one-create-a-repository-on-github&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Step One: Create a repository on Github&lt;/h3&gt;
+&lt;p&gt;I find it’s easiest when starting a project to start on github first, then copy that onto your computer.&lt;/p&gt;
+&lt;p&gt;The first thing to do is to log into your github account (assuming you have one, it’s easy to sign up!) and create a new repository (repo) using the little plus at the top right of your home page as you can see below.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;/img/pmwr1.png&#34; alt=&#34;Navigate to New Repository Page&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;Navigate to New Repository Page&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;From here you want to give your repo a name, a small description, and tick the box that asks you initialize it with a README file. The screenshot below shows the page right before I click the green “Create Repository” button.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;/img/pmwr2.png&#34; alt=&#34;Setting up your repo&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;Setting up your repo&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;When choosing a name, it’s important to pick something easy to recognize and type. Once you click ‘Create Repository’, it will take you to your repo’s home page and should look something like this:&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;/img/pmwr3.png&#34; alt=&#34;The Blank Page&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;The Blank Page&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;From here you are going to want to click the green ‘Clone or download’ and then copy that link to your clipboard. The next screen shot shows what that will look like.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;/img/pmwr4.png&#34; alt=&#34;Clone the Git HTTPS&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;Clone the Git HTTPS&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;With the link copied, you then want to open up your terminal (if you’re a Windows user, make sure to get &lt;a href=&#34;https://git-scm.com/&#34;&gt;Gitbash&lt;/a&gt;!!) and then navigate to where you want your project to live. I keep all my projects in a directory called &lt;code&gt;projects&lt;/code&gt; on my desktop for easy access. From here, you then want to use git to clone your project. If you’re totally new to using this kind of software to do work, you’ll also have to install git. If you don’t have git, &lt;a href=&#34;https://www.linode.com/docs/development/version-control/how-to-install-git-mac/&#34;&gt;this&lt;/a&gt; page will show you how to get it via &lt;code&gt;homebrew&lt;/code&gt; at the command line, which, SURPRISE! you also have to download separately!! You can get that &lt;a href=&#34;https://brew.sh/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Side note: when you are first starting out with all things computer-program-tech-whatever, you are going to need to get a lot of software before you can even start to use all the fun stuff. I remember this being particularly discouraging and no fun when I started. If you can, it’s best to try to get someone to slowly walk you through this via some &lt;a href=&#34;https://en.wikipedia.org/wiki/Pair_programming&#34;&gt;pair programming&lt;/a&gt;. If not, don’t be afraid to ask questions when you start!&lt;/p&gt;
+&lt;p&gt;So getting back to what we were doing, you need to navigate to where you want your project to live (the first line) and then clone your directory by typing &lt;code&gt;git clone yourproject.git&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;/img/pmwr5.png&#34; alt=&#34;Cloning Your Repo&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;Cloning Your Repo&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Now if you look in your projects folder (or just press &lt;code&gt;ls&lt;/code&gt; as in “&lt;code&gt;l&lt;/code&gt;i&lt;code&gt;s&lt;/code&gt;t” all the files that are in your directory), you’ll notice you have a new directory sent directly from github heaven!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;step-two-making-it-an-r-project&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Step Two: Making It an R Project&lt;/h3&gt;
+&lt;p&gt;Since I’m going to primarily using R to manage this project, I then need to turn this directory into an R project so that every time I open this project, it can be governed with R.&lt;/p&gt;
+&lt;p&gt;In order to do that, I need to get out of terminal, and then open up RStudio. From here you need to go to &lt;strong&gt;File &amp;gt; New Project &amp;gt; Create From Existing Directory &amp;gt; &lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;/img/pmwr6.png&#34; /&gt;
+
+&lt;/div&gt;
+&lt;p&gt;Then navigate and select to open the folder you just cloned from github.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;/img/pmwr7.png&#34; /&gt;
+
+&lt;/div&gt;
+&lt;p&gt;If you then tick the box that says to open the box in a new project, you’ll then see something like this:&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;/img/pmwr8.png&#34; /&gt;
+
+&lt;/div&gt;
+&lt;p&gt;Tah dah! We’ve now made our directory an R project and can save our changes on github.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;step-three-pushing-it-the-cloud&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Step Three: Pushing it the Cloud&lt;/h2&gt;
+&lt;p&gt;Now all that’s left to do is sync up the changes on our local machine with that on github. We can bring terminal back and assuming that we are in our project’s directory (we can check that by typing &lt;code&gt;pwd&lt;/code&gt; in Terminal), we then need to enter the work life cycle of updating a github account with the following commands:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git add .
+git commit -m &amp;quot;Whatever you did&amp;quot;
+git push &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Or how I did it with my project here:&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;/img/pmwr9.png&#34; /&gt;
+
+&lt;/div&gt;
+&lt;p&gt;If we then go back to our project page on Github.com, we can see that our changes should have been updated!&lt;/p&gt;
+&lt;p&gt;I should note that each time you start your project you want to &lt;code&gt;git pull&lt;/code&gt; to make sure that you have the most updated version of the project (for when you are eventually collaborating with other people).&lt;/p&gt;
+&lt;p&gt;In writing this I actually realized there is SO MUCH that underlies this seemingly basic process of starting a project, so if anyone has any questions on this whole process, please let me know and I can try to make this post (and future ones) clearer.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>To-Dos and Boundaries</title>
       <link>/post/to-dos-and-boundaries/</link>
       <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
@@ -133,7 +226,7 @@ library(data.table)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## Warning: package &amp;#39;data.table&amp;#39; was built under R version 3.4.2&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;beer &amp;lt;- fread(&amp;quot;data/beer_reviews.csv&amp;quot;) &lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## 
-Read 83.2% of 1586614 rows
+Read 56.7% of 1586614 rows
 Read 1586614 rows and 13 (of 13) columns from 0.168 GB file in 00:00:03&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;From a bird’s eye view, it seems like the most sensible thing to do would be to look at our data from the highest level, then just zoom in until we have the level of granularity we feel answers the question well. Let’s first average all the beer styles to get a rough estimate of how a beer style fairs on the variables we are interested in, and additionally see how much variability is associated with that measurement.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;sem &amp;lt;-function(x) {sd(x)/sqrt(length(x))}
@@ -228,7 +321,7 @@ library(data.table)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## Warning: package &amp;#39;data.table&amp;#39; was built under R version 3.4.2&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;beer &amp;lt;- fread(&amp;quot;data/beer_reviews.csv&amp;quot;) &lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## 
-Read 77.5% of 1586614 rows
+Read 69.3% of 1586614 rows
 Read 1586614 rows and 13 (of 13) columns from 0.168 GB file in 00:00:03&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Make READABLE unique beer ID
 beer[, beer_name_unique := paste(brewery_name,beer_name, beer_style)]
@@ -247,7 +340,8 @@ prediction.data &amp;lt;- beer.reliable[, .(AvgOverall = mean(review_overall),
          AvgPal = mean(review_palate)), by = beer_name_unique]&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Now that we have some better data, let’s fit a random forest model. We are now attempting to predict the average overall rating from our four others measures. We’ll use the &lt;code&gt;randomForest&lt;/code&gt; package and make sure to ask it to include a measure of variable importance.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(randomForest)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## randomForest 4.6-12&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: package &amp;#39;randomForest&amp;#39; was built under R version 3.4.4&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## randomForest 4.6-14&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## Type rfNews() to see new features/changes/bug fixes.&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## 
 ## Attaching package: &amp;#39;randomForest&amp;#39;&lt;/code&gt;&lt;/pre&gt;
@@ -258,21 +352,21 @@ prediction.data &amp;lt;- beer.reliable[, .(AvgOverall = mean(review_overall),
 random.forrest.fit &amp;lt;- randomForest(AvgOverall ~ AvgAroma + AvgTaste + AvgApp + AvgPal, data = prediction.data, importance = TRUE)
 random.forrest.fit$importance&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;##             %IncMSE IncNodePurity
-## AvgAroma 0.02340840      212.0524
-## AvgTaste 0.10151587      309.0940
-## AvgApp   0.01491228      192.9081
-## AvgPal   0.05686454      285.4011&lt;/code&gt;&lt;/pre&gt;
+## AvgAroma 0.02441128      210.5021
+## AvgTaste 0.09918310      316.1375
+## AvgApp   0.01538637      194.8586
+## AvgPal   0.05592918      278.5960&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;The randomForest object gives us two different measures when it comes to variable importance. The first one, &lt;code&gt;%IncMSE&lt;/code&gt;, is a measure that tells us how much our model’s Mean Square Error (MSE) would change if we were to take that variable out of our model. Average taste here is trouncing the other variables in terms of importance. The second variable, &lt;code&gt;IncNodePurity&lt;/code&gt; gives us a measure of node purity from all of the trees that were used in creating our model. Here Taste again leads in terms of importance, but our Palate variable seems to be close behind. We see this visually below.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;varImpPlot(random.forrest.fit, main = &amp;quot;Variable Importance Metrics&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;/post/2018-01-28-hire-me-as-a-datascientist-part-iii_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;The result that Taste seems to be taking the cake here is to be expected. Using some of the more basic tools of statistics and data science, we can look at the correlation between our taste variable and our overall, and it’s quite high. Actually looking at our average ratings, all of the correlations are really high!&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;cor(prediction.data[,-1])&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;##            AvgOverall  AvgAroma  AvgTaste    AvgApp    AvgPal
-## AvgOverall  1.0000000 0.8809340 0.9518373 0.8441311 0.9360873
-## AvgAroma    0.8809340 1.0000000 0.9593160 0.8971965 0.9370526
-## AvgTaste    0.9518373 0.9593160 1.0000000 0.8955728 0.9742888
-## AvgApp      0.8441311 0.8971965 0.8955728 1.0000000 0.9124038
-## AvgPal      0.9360873 0.9370526 0.9742888 0.9124038 1.0000000&lt;/code&gt;&lt;/pre&gt;
+## AvgOverall  1.0000000 0.8811997 0.9518908 0.8432381 0.9360091
+## AvgAroma    0.8811997 1.0000000 0.9591004 0.8954413 0.9365741
+## AvgTaste    0.9518908 0.9591004 1.0000000 0.8949545 0.9742687
+## AvgApp      0.8432381 0.8954413 0.8949545 1.0000000 0.9120654
+## AvgPal      0.9360091 0.9365741 0.9742687 0.9120654 1.0000000&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Doing the analysis with this data presents some strange issues of collinearity. Having an &lt;em&gt;r&lt;/em&gt; = .951 for our Overall and Taste variables is obnoxiously high. An &lt;em&gt;r&lt;/em&gt; = .974 for Palette and Taste is also strangely large. If you come from more of a psychology background, you would almost never see correlations this high in the wild; it would be an immediate sign for concern.&lt;/p&gt;
 &lt;p&gt;The correlations go down a bit if you end up looking at the non-aggregated sets too (see below), but again remember that these values have those dependence and outlier issues with them. Still, &lt;code&gt;review_taste&lt;/code&gt; and &lt;code&gt;review_overall&lt;/code&gt; are the highest correlated variables.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;cor(beer[, .(review_overall,review_aroma,review_appearance,review_palate,review_taste)])&lt;/code&gt;&lt;/pre&gt;
@@ -326,7 +420,7 @@ library(data.table)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#=====================================================================================#
 beer &amp;lt;- fread(&amp;quot;data/beer_reviews.csv&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## 
-Read 84.5% of 1586614 rows
+Read 83.8% of 1586614 rows
 Read 1586614 rows and 13 (of 13) columns from 0.168 GB file in 00:00:03&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;beer.complete &amp;lt;- beer[complete.cases(beer)]
 #=====================================================================================#&lt;/code&gt;&lt;/pre&gt;
@@ -748,7 +842,7 @@ library(data.table)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#=====================================================================================#
 beer &amp;lt;- fread(&amp;quot;data/beer_reviews.csv&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## 
-Read 72.5% of 1586614 rows
+Read 63.7% of 1586614 rows
 Read 1586614 rows and 13 (of 13) columns from 0.168 GB file in 00:00:03&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#=====================================================================================#&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;The dataset has about 1.5 million observations across 14 different observations, so don’t try to open it in LibreOffice. The reviews come from a variety of different users that have rated the beers based on five different attributes (Appearance, Palate, Aroma, Taste, Overall) and then each beer has a few other variables listed such as its ABV, the brewery it comes from, the beer’s name (duh), and what kind of beer it is.&lt;/p&gt;
@@ -1118,9 +1212,9 @@ totalTweets[order(-TotalTweets)]&lt;/code&gt;&lt;/pre&gt;
       <pubDate>Sun, 19 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>/post/calculating-imultisets-in-r/</guid>
-      <description>&lt;p&gt;November is pretty much the worst month for people in higher education. There are too many deadlines and if you’re still in coursework (like myself) you have essays to write, presentations to make, and a backlog of homework assigments to grade. So if you can save time here or there, it’s usually a good choice.&lt;/p&gt;
-&lt;p&gt;This weekend I was working a homework assingment for my Transformational Theory seminar where we were given a number of pairs of pitch class sets and had to calculate the imultiset for each following Joseph Straus’ 2014 article on &lt;a href=&#34;http://www.mtosmt.org/issues/mto.14.20.2/mto.14.20.2.straus.html&#34;&gt;Total Voice Leading&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;As I looked at the top of the assigment (pictured below) and started to crank out the first one by hand, I realized that the next 30 minutes of my life were going to be doing the same thing over and over again.&lt;/p&gt;
+      <description>&lt;p&gt;November is pretty much the worst month for people in higher education. There are too many deadlines and if you’re still in coursework (like myself) you have essays to write, presentations to make, and a backlog of homework assignments to grade. So if you can save time here or there, it’s usually a good choice.&lt;/p&gt;
+&lt;p&gt;This weekend I was working a homework assignment for my Transformational Theory seminar where we were given a number of pairs of pitch class sets and had to calculate the imultiset for each following Joseph Straus’ 2014 article on &lt;a href=&#34;http://www.mtosmt.org/issues/mto.14.20.2/mto.14.20.2.straus.html&#34;&gt;Total Voice Leading&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As I looked at the top of the assignment (pictured below) and started to crank out the first one by hand, I realized that the next 30 minutes of my life were going to be doing the same thing over and over again.&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;
 &lt;img src=&#34;/img/imultiset.png&#34; /&gt;
 
@@ -1135,17 +1229,17 @@ totalTweets[order(-TotalTweets)]&lt;/code&gt;&lt;/pre&gt;
 &lt;img src=&#34;/img/imultisetcj.png&#34; /&gt;
 
 &lt;/div&gt;
-&lt;p&gt;Then all you need to do is subtract one from the other to get the distance. The only problem is that these subtractions need to happen in Mod 12 space so in any case where you are subtracting a bigger number from a smaller number you will get a negative result! This is easily fixed by just adding 12 to that number in order to get what we &lt;em&gt;should&lt;/em&gt; have been our answer if we were doing Mod 12 arithmatic.&lt;/p&gt;
+&lt;p&gt;Then all you need to do is subtract one from the other to get the distance. The only problem is that these subtractions need to happen in Mod 12 space so in any case where you are subtracting a bigger number from a smaller number you will get a negative result! This is easily fixed by just adding 12 to that number in order to get what we &lt;em&gt;should&lt;/em&gt; have been our answer if we were doing Mod 12 arithmetic.&lt;/p&gt;
 &lt;p&gt;After fixing the Mod 12 problem, you’ll have a nice list of intervals that just have to be sorted from top to bottom to have your imultiset. So let’s see how you would do this line by line.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;r-code&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;R Code&lt;/h2&gt;
-&lt;p&gt;First, let’s get two pitch class sets. In this case we have a C major triad and a G dominant chord.&lt;/p&gt;
+&lt;p&gt;First, let’s get two pitch class sets. In this case we have a C major triad and a G7 chord.&lt;/p&gt;
 &lt;p&gt;X = {0,4,7} and Y = {7,11,2,5}&lt;/p&gt;
 &lt;p&gt;Let’s first assign each chord to an object.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;X &amp;lt;- c(0,4,7)
 Y &amp;lt;- c(7,11,2,5)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Next we need to do that cross join, which we can accompish with R’s merge() function. This makes us a data frame with every combination from set X and set Y. Below we see the function’s output.&lt;/p&gt;
+&lt;p&gt;Next we need to do that cross join, which we can accomplish with R’s merge() function. This makes us a data frame with every combination from set X and set Y. Below we see the function’s output.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;Example &amp;lt;- merge(X,Y,all=TRUE)
 Example&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;##    x  y
@@ -1227,16 +1321,6 @@ I&amp;rsquo;d like to create content relevant to what it&amp;rsquo;s like to do 
       <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>/talk/smpc-gold-2017/</guid>
-      <description>&lt;p&gt;Poster presented at the Society for Music Perception and Cognition, 2017&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>A Relational Network Approach to Rock Music Syntax</title>
-      <link>/talk/smpc-rock-2017/</link>
-      <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/talk/smpc-rock-2017/</guid>
       <description>&lt;p&gt;Poster presented at the Society for Music Perception and Cognition, 2017&lt;/p&gt;
 </description>
     </item>

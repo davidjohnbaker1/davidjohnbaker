@@ -1,8 +1,10 @@
 ---
-title: "Project Management with R"
-author: "David John Baker"
-date: "May 7, 2018"
-output: html_document
+title: Project Management with git and R
+author: ~
+date: '2018-05-08'
+slug: project-management-with-git-and-r
+categories: []
+tags: []
 ---
 
 ## Staying Organized
@@ -36,22 +38,22 @@ I find it's easiest when starting a project to start on github first, then copy 
 
 The first thing to do is to log into your github account (assuming you have one, it's easy to sign up!) and create a new repository (repo) using the little plus at the top right of your home page as you can see below.
 
-![Navigate to New Repository Page](../static/img/pmwr1.png)
+![Navigate to New Repository Page](/img/pmwr1.png)
 
 From here you want to give your repo a name, a small description, and tick the box that asks you initialize it with a README file.
 The screenshot below shows the page right before I click the green "Create Repository" button.
 
-![Setting up your repo](../static/img/pmwr2.png)
+![Setting up your repo](/img/pmwr2.png)
 
 When choosing a name, it's important to pick something easy to recognize and type.
 Once you click 'Create Repository', it will take you to your repo's home page and should look something like this: 
 
-![The Blank Page](../static/img/pmwr3.png)
+![The Blank Page](/img/pmwr3.png)
 
 From here you are going to want to click the green 'Clone or download' and then copy that link to your clipboard.
 The next screen shot shows what that will look like.
 
-![Clone the Git HTTPS](../static/img/pmwr4.png)
+![Clone the Git HTTPS](/img/pmwr4.png)
 
 With the link copied, you then want to open up your terminal (if you're a Windows user, make sure to get [Gitbash](https://git-scm.com/)!!) and then navigate to where you want your project to live.
 I keep all my projects in a directory called ```projects``` on my desktop for easy access.
@@ -67,7 +69,7 @@ If not, don't be afraid to ask questions when you start!
 
 So getting back to what we were doing, you need to navigate to where you want your project to live (the first line) and then clone your directory by typing ```git clone yourproject.git```.
 
-![Cloning Your Repo](../static/img/pmwr5.png)
+![Cloning Your Repo](/img/pmwr5.png)
 
 Now if you look in your projects folder (or just press ```ls``` as in "```l```i```s```t" all the files that are in your directory), you'll notice you have a new directory sent directly from github heaven!
 
@@ -79,16 +81,15 @@ In order to do that, I need to get out of terminal, and then open up RStudio.
 From here you need to go to 
 **File > New Project > Create From Existing Directory > **
 
-![Rstudio project](../static/img/pmwr6.png)
+![](/img/pmwr6.png)
 
 Then navigate and select to open the folder you just cloned from github. 
 
-![Rstudio project](../static/img/pmwr7.png)
-
+![](/img/pmwr7.png)
 
 If you then tick the box that says to open the box in a new project, you'll then see something like this:
 
-![Rstudio project](../static/img/pmwr8.png)
+![](/img/pmwr8.png)
 
 Tah dah! 
 We've now made our directory an R project and can save our changes on github. 
@@ -106,7 +107,7 @@ git push
 
 Or how I did it with my project here:
 
-![Rstudio project](../static/img/pmwr9.png)
+![](/img/pmwr9.png)
 
 If we then go back to our project page on Github.com, we can see that our changes should have been updated!
 

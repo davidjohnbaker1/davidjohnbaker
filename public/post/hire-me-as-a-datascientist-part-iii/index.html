@@ -280,7 +280,7 @@ library(data.table)</code></pre>
 <pre><code>## Warning: package &#39;data.table&#39; was built under R version 3.4.2</code></pre>
 <pre class="r"><code>beer &lt;- fread(&quot;data/beer_reviews.csv&quot;) </code></pre>
 <pre><code>## 
-Read 77.5% of 1586614 rows
+Read 69.3% of 1586614 rows
 Read 1586614 rows and 13 (of 13) columns from 0.168 GB file in 00:00:03</code></pre>
 <pre class="r"><code># Make READABLE unique beer ID
 beer[, beer_name_unique := paste(brewery_name,beer_name, beer_style)]
@@ -299,7 +299,8 @@ prediction.data &lt;- beer.reliable[, .(AvgOverall = mean(review_overall),
          AvgPal = mean(review_palate)), by = beer_name_unique]</code></pre>
 <p>Now that we have some better data, let’s fit a random forest model. We are now attempting to predict the average overall rating from our four others measures. We’ll use the <code>randomForest</code> package and make sure to ask it to include a measure of variable importance.</p>
 <pre class="r"><code>library(randomForest)</code></pre>
-<pre><code>## randomForest 4.6-12</code></pre>
+<pre><code>## Warning: package &#39;randomForest&#39; was built under R version 3.4.4</code></pre>
+<pre><code>## randomForest 4.6-14</code></pre>
 <pre><code>## Type rfNews() to see new features/changes/bug fixes.</code></pre>
 <pre><code>## 
 ## Attaching package: &#39;randomForest&#39;</code></pre>
@@ -310,21 +311,21 @@ prediction.data &lt;- beer.reliable[, .(AvgOverall = mean(review_overall),
 random.forrest.fit &lt;- randomForest(AvgOverall ~ AvgAroma + AvgTaste + AvgApp + AvgPal, data = prediction.data, importance = TRUE)
 random.forrest.fit$importance</code></pre>
 <pre><code>##             %IncMSE IncNodePurity
-## AvgAroma 0.02340840      212.0524
-## AvgTaste 0.10151587      309.0940
-## AvgApp   0.01491228      192.9081
-## AvgPal   0.05686454      285.4011</code></pre>
+## AvgAroma 0.02441128      210.5021
+## AvgTaste 0.09918310      316.1375
+## AvgApp   0.01538637      194.8586
+## AvgPal   0.05592918      278.5960</code></pre>
 <p>The randomForest object gives us two different measures when it comes to variable importance. The first one, <code>%IncMSE</code>, is a measure that tells us how much our model’s Mean Square Error (MSE) would change if we were to take that variable out of our model. Average taste here is trouncing the other variables in terms of importance. The second variable, <code>IncNodePurity</code> gives us a measure of node purity from all of the trees that were used in creating our model. Here Taste again leads in terms of importance, but our Palate variable seems to be close behind. We see this visually below.</p>
 <pre class="r"><code>varImpPlot(random.forrest.fit, main = &quot;Variable Importance Metrics&quot;)</code></pre>
 <p><img src="/post/2018-01-28-hire-me-as-a-datascientist-part-iii_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
 <p>The result that Taste seems to be taking the cake here is to be expected. Using some of the more basic tools of statistics and data science, we can look at the correlation between our taste variable and our overall, and it’s quite high. Actually looking at our average ratings, all of the correlations are really high!</p>
 <pre class="r"><code>cor(prediction.data[,-1])</code></pre>
 <pre><code>##            AvgOverall  AvgAroma  AvgTaste    AvgApp    AvgPal
-## AvgOverall  1.0000000 0.8809340 0.9518373 0.8441311 0.9360873
-## AvgAroma    0.8809340 1.0000000 0.9593160 0.8971965 0.9370526
-## AvgTaste    0.9518373 0.9593160 1.0000000 0.8955728 0.9742888
-## AvgApp      0.8441311 0.8971965 0.8955728 1.0000000 0.9124038
-## AvgPal      0.9360873 0.9370526 0.9742888 0.9124038 1.0000000</code></pre>
+## AvgOverall  1.0000000 0.8811997 0.9518908 0.8432381 0.9360091
+## AvgAroma    0.8811997 1.0000000 0.9591004 0.8954413 0.9365741
+## AvgTaste    0.9518908 0.9591004 1.0000000 0.8949545 0.9742687
+## AvgApp      0.8432381 0.8954413 0.8949545 1.0000000 0.9120654
+## AvgPal      0.9360091 0.9365741 0.9742687 0.9120654 1.0000000</code></pre>
 <p>Doing the analysis with this data presents some strange issues of collinearity. Having an <em>r</em> = .951 for our Overall and Taste variables is obnoxiously high. An <em>r</em> = .974 for Palette and Taste is also strangely large. If you come from more of a psychology background, you would almost never see correlations this high in the wild; it would be an immediate sign for concern.</p>
 <p>The correlations go down a bit if you end up looking at the non-aggregated sets too (see below), but again remember that these values have those dependence and outlier issues with them. Still, <code>review_taste</code> and <code>review_overall</code> are the highest correlated variables.</p>
 <pre class="r"><code>cor(beer[, .(review_overall,review_aroma,review_appearance,review_palate,review_taste)])</code></pre>

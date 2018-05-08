@@ -273,7 +273,7 @@ library(data.table)</code></pre>
 <pre><code>## Warning: package &#39;data.table&#39; was built under R version 3.4.2</code></pre>
 <pre class="r"><code>beer &lt;- fread(&quot;data/beer_reviews.csv&quot;) </code></pre>
 <pre><code>## 
-Read 83.2% of 1586614 rows
+Read 56.7% of 1586614 rows
 Read 1586614 rows and 13 (of 13) columns from 0.168 GB file in 00:00:03</code></pre>
 <p>From a bird’s eye view, it seems like the most sensible thing to do would be to look at our data from the highest level, then just zoom in until we have the level of granularity we feel answers the question well. Let’s first average all the beer styles to get a rough estimate of how a beer style fairs on the variables we are interested in, and additionally see how much variability is associated with that measurement.</p>
 <pre class="r"><code>sem &lt;-function(x) {sd(x)/sqrt(length(x))}

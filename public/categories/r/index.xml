@@ -27,7 +27,7 @@ library(data.table)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## Warning: package &amp;#39;data.table&amp;#39; was built under R version 3.4.2&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;beer &amp;lt;- fread(&amp;quot;data/beer_reviews.csv&amp;quot;) &lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## 
-Read 83.2% of 1586614 rows
+Read 56.7% of 1586614 rows
 Read 1586614 rows and 13 (of 13) columns from 0.168 GB file in 00:00:03&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;From a bird’s eye view, it seems like the most sensible thing to do would be to look at our data from the highest level, then just zoom in until we have the level of granularity we feel answers the question well. Let’s first average all the beer styles to get a rough estimate of how a beer style fairs on the variables we are interested in, and additionally see how much variability is associated with that measurement.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;sem &amp;lt;-function(x) {sd(x)/sqrt(length(x))}
@@ -122,7 +122,7 @@ library(data.table)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## Warning: package &amp;#39;data.table&amp;#39; was built under R version 3.4.2&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;beer &amp;lt;- fread(&amp;quot;data/beer_reviews.csv&amp;quot;) &lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## 
-Read 77.5% of 1586614 rows
+Read 69.3% of 1586614 rows
 Read 1586614 rows and 13 (of 13) columns from 0.168 GB file in 00:00:03&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Make READABLE unique beer ID
 beer[, beer_name_unique := paste(brewery_name,beer_name, beer_style)]
@@ -141,7 +141,8 @@ prediction.data &amp;lt;- beer.reliable[, .(AvgOverall = mean(review_overall),
          AvgPal = mean(review_palate)), by = beer_name_unique]&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Now that we have some better data, let’s fit a random forest model. We are now attempting to predict the average overall rating from our four others measures. We’ll use the &lt;code&gt;randomForest&lt;/code&gt; package and make sure to ask it to include a measure of variable importance.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(randomForest)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## randomForest 4.6-12&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: package &amp;#39;randomForest&amp;#39; was built under R version 3.4.4&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## randomForest 4.6-14&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## Type rfNews() to see new features/changes/bug fixes.&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## 
 ## Attaching package: &amp;#39;randomForest&amp;#39;&lt;/code&gt;&lt;/pre&gt;
@@ -152,21 +153,21 @@ prediction.data &amp;lt;- beer.reliable[, .(AvgOverall = mean(review_overall),
 random.forrest.fit &amp;lt;- randomForest(AvgOverall ~ AvgAroma + AvgTaste + AvgApp + AvgPal, data = prediction.data, importance = TRUE)
 random.forrest.fit$importance&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;##             %IncMSE IncNodePurity
-## AvgAroma 0.02340840      212.0524
-## AvgTaste 0.10151587      309.0940
-## AvgApp   0.01491228      192.9081
-## AvgPal   0.05686454      285.4011&lt;/code&gt;&lt;/pre&gt;
+## AvgAroma 0.02441128      210.5021
+## AvgTaste 0.09918310      316.1375
+## AvgApp   0.01538637      194.8586
+## AvgPal   0.05592918      278.5960&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;The randomForest object gives us two different measures when it comes to variable importance. The first one, &lt;code&gt;%IncMSE&lt;/code&gt;, is a measure that tells us how much our model’s Mean Square Error (MSE) would change if we were to take that variable out of our model. Average taste here is trouncing the other variables in terms of importance. The second variable, &lt;code&gt;IncNodePurity&lt;/code&gt; gives us a measure of node purity from all of the trees that were used in creating our model. Here Taste again leads in terms of importance, but our Palate variable seems to be close behind. We see this visually below.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;varImpPlot(random.forrest.fit, main = &amp;quot;Variable Importance Metrics&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;/post/2018-01-28-hire-me-as-a-datascientist-part-iii_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;The result that Taste seems to be taking the cake here is to be expected. Using some of the more basic tools of statistics and data science, we can look at the correlation between our taste variable and our overall, and it’s quite high. Actually looking at our average ratings, all of the correlations are really high!&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;cor(prediction.data[,-1])&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;##            AvgOverall  AvgAroma  AvgTaste    AvgApp    AvgPal
-## AvgOverall  1.0000000 0.8809340 0.9518373 0.8441311 0.9360873
-## AvgAroma    0.8809340 1.0000000 0.9593160 0.8971965 0.9370526
-## AvgTaste    0.9518373 0.9593160 1.0000000 0.8955728 0.9742888
-## AvgApp      0.8441311 0.8971965 0.8955728 1.0000000 0.9124038
-## AvgPal      0.9360873 0.9370526 0.9742888 0.9124038 1.0000000&lt;/code&gt;&lt;/pre&gt;
+## AvgOverall  1.0000000 0.8811997 0.9518908 0.8432381 0.9360091
+## AvgAroma    0.8811997 1.0000000 0.9591004 0.8954413 0.9365741
+## AvgTaste    0.9518908 0.9591004 1.0000000 0.8949545 0.9742687
+## AvgApp      0.8432381 0.8954413 0.8949545 1.0000000 0.9120654
+## AvgPal      0.9360091 0.9365741 0.9742687 0.9120654 1.0000000&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Doing the analysis with this data presents some strange issues of collinearity. Having an &lt;em&gt;r&lt;/em&gt; = .951 for our Overall and Taste variables is obnoxiously high. An &lt;em&gt;r&lt;/em&gt; = .974 for Palette and Taste is also strangely large. If you come from more of a psychology background, you would almost never see correlations this high in the wild; it would be an immediate sign for concern.&lt;/p&gt;
 &lt;p&gt;The correlations go down a bit if you end up looking at the non-aggregated sets too (see below), but again remember that these values have those dependence and outlier issues with them. Still, &lt;code&gt;review_taste&lt;/code&gt; and &lt;code&gt;review_overall&lt;/code&gt; are the highest correlated variables.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;cor(beer[, .(review_overall,review_aroma,review_appearance,review_palate,review_taste)])&lt;/code&gt;&lt;/pre&gt;
@@ -220,7 +221,7 @@ library(data.table)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#=====================================================================================#
 beer &amp;lt;- fread(&amp;quot;data/beer_reviews.csv&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## 
-Read 84.5% of 1586614 rows
+Read 83.8% of 1586614 rows
 Read 1586614 rows and 13 (of 13) columns from 0.168 GB file in 00:00:03&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;beer.complete &amp;lt;- beer[complete.cases(beer)]
 #=====================================================================================#&lt;/code&gt;&lt;/pre&gt;
@@ -642,7 +643,7 @@ library(data.table)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#=====================================================================================#
 beer &amp;lt;- fread(&amp;quot;data/beer_reviews.csv&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## 
-Read 72.5% of 1586614 rows
+Read 63.7% of 1586614 rows
 Read 1586614 rows and 13 (of 13) columns from 0.168 GB file in 00:00:03&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#=====================================================================================#&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;The dataset has about 1.5 million observations across 14 different observations, so don’t try to open it in LibreOffice. The reviews come from a variety of different users that have rated the beers based on five different attributes (Appearance, Palate, Aroma, Taste, Overall) and then each beer has a few other variables listed such as its ABV, the brewery it comes from, the beer’s name (duh), and what kind of beer it is.&lt;/p&gt;
@@ -1012,9 +1013,9 @@ totalTweets[order(-TotalTweets)]&lt;/code&gt;&lt;/pre&gt;
       <pubDate>Sun, 19 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>/post/calculating-imultisets-in-r/</guid>
-      <description>&lt;p&gt;November is pretty much the worst month for people in higher education. There are too many deadlines and if you’re still in coursework (like myself) you have essays to write, presentations to make, and a backlog of homework assigments to grade. So if you can save time here or there, it’s usually a good choice.&lt;/p&gt;
-&lt;p&gt;This weekend I was working a homework assingment for my Transformational Theory seminar where we were given a number of pairs of pitch class sets and had to calculate the imultiset for each following Joseph Straus’ 2014 article on &lt;a href=&#34;http://www.mtosmt.org/issues/mto.14.20.2/mto.14.20.2.straus.html&#34;&gt;Total Voice Leading&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;As I looked at the top of the assigment (pictured below) and started to crank out the first one by hand, I realized that the next 30 minutes of my life were going to be doing the same thing over and over again.&lt;/p&gt;
+      <description>&lt;p&gt;November is pretty much the worst month for people in higher education. There are too many deadlines and if you’re still in coursework (like myself) you have essays to write, presentations to make, and a backlog of homework assignments to grade. So if you can save time here or there, it’s usually a good choice.&lt;/p&gt;
+&lt;p&gt;This weekend I was working a homework assignment for my Transformational Theory seminar where we were given a number of pairs of pitch class sets and had to calculate the imultiset for each following Joseph Straus’ 2014 article on &lt;a href=&#34;http://www.mtosmt.org/issues/mto.14.20.2/mto.14.20.2.straus.html&#34;&gt;Total Voice Leading&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As I looked at the top of the assignment (pictured below) and started to crank out the first one by hand, I realized that the next 30 minutes of my life were going to be doing the same thing over and over again.&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;
 &lt;img src=&#34;/img/imultiset.png&#34; /&gt;
 
@@ -1029,17 +1030,17 @@ totalTweets[order(-TotalTweets)]&lt;/code&gt;&lt;/pre&gt;
 &lt;img src=&#34;/img/imultisetcj.png&#34; /&gt;
 
 &lt;/div&gt;
-&lt;p&gt;Then all you need to do is subtract one from the other to get the distance. The only problem is that these subtractions need to happen in Mod 12 space so in any case where you are subtracting a bigger number from a smaller number you will get a negative result! This is easily fixed by just adding 12 to that number in order to get what we &lt;em&gt;should&lt;/em&gt; have been our answer if we were doing Mod 12 arithmatic.&lt;/p&gt;
+&lt;p&gt;Then all you need to do is subtract one from the other to get the distance. The only problem is that these subtractions need to happen in Mod 12 space so in any case where you are subtracting a bigger number from a smaller number you will get a negative result! This is easily fixed by just adding 12 to that number in order to get what we &lt;em&gt;should&lt;/em&gt; have been our answer if we were doing Mod 12 arithmetic.&lt;/p&gt;
 &lt;p&gt;After fixing the Mod 12 problem, you’ll have a nice list of intervals that just have to be sorted from top to bottom to have your imultiset. So let’s see how you would do this line by line.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;r-code&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;R Code&lt;/h2&gt;
-&lt;p&gt;First, let’s get two pitch class sets. In this case we have a C major triad and a G dominant chord.&lt;/p&gt;
+&lt;p&gt;First, let’s get two pitch class sets. In this case we have a C major triad and a G7 chord.&lt;/p&gt;
 &lt;p&gt;X = {0,4,7} and Y = {7,11,2,5}&lt;/p&gt;
 &lt;p&gt;Let’s first assign each chord to an object.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;X &amp;lt;- c(0,4,7)
 Y &amp;lt;- c(7,11,2,5)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Next we need to do that cross join, which we can accompish with R’s merge() function. This makes us a data frame with every combination from set X and set Y. Below we see the function’s output.&lt;/p&gt;
+&lt;p&gt;Next we need to do that cross join, which we can accomplish with R’s merge() function. This makes us a data frame with every combination from set X and set Y. Below we see the function’s output.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;Example &amp;lt;- merge(X,Y,all=TRUE)
 Example&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;##    x  y
