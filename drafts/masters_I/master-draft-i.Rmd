@@ -1,0 +1,109 @@
+---
+title: "mastersI-draft"
+author: "David John Baker"
+date: "July 3, 2018"
+output: html_document
+---
+
+Bullet Thoughts
+
+* Few people have contacted me about music cog as career path
+* Hilariously wrote abou this as naive masters student
+* More than 3 people ask, time to write a blog post
+* Before giving any advice warn for a few things
+  - There are many ways to do everything, this is not a definitive list
+  - Opinions come from music background, technically theory
+  - Really encourge friends in psych/neuro/mir to write similar posts for accesiblity to field 
+  - Be aware of survivorship bias (Julliard example) and academic privlidge
+* Why some people do Masters 
+  - Logical next step
+  - Didn't want student loans to start
+  - Need to professionally redefine self 
+  - Many others
+* Unlike PhD where you should find great person/enviroment for research career growth
+  - Goal is to connect with a new network 
+  - Go through entire research process
+      + Lit --> Publication
+      + Go thru pub because that is currency of academia, want to get an academic coin 
+      + Academic coin is only valid in academic cirles unless you come up with something to monetize
+      + Do it all yourself
+      + Don't use propritary software 
+      + Turn MSc into publication, shows you know what's up IF you want to continue
+* Get useful so you can open doors 
+  - Oppertunity to meet people
+  - Open doors to possible jobs (meaning for research, pick city you could see yourself in)
+  - Research masters is not like other ones like Education in Music or Music Therapy
+  - Don't be fooled that a Masters is granding your special info 
+  - Adage that all practice rooms the same becomes library and internet is same everywhere
+  - You're paying (if pay tuition, also using time) to get access to resources
+      + People
+      + Time 
+      + Community
+* Answer good question where you cultivate in demand skills and make minor contribution to community
+* Find peopel who will go out of their way to help you, clout of degree probably isn't enough
+* Implicit deal is that you invest in currency of academia, people with resources invest in you
+  -does not always work like this 
+* One of reasons to do graduate school is to learn skills that working in place that has to obey market would not permit; there is a bottom line at the end of the day.
+* Really is no bottom line with being a student 
+* Suggest a few programs to start looking into 
+
+Goal of Post: Give my opinion on using music cognition as career path.
+            : Not buzzfeed "look at all these career options", more my opinion as how I think it works
+            : Time is limited in the masters, how to get most out of it
+            : Stress that I'm largely in the research sides of things and advocate for career divesity
+
+I. Introduction
+  A. Few people have asked me about music cognition as a career path 
+  B. I think it can be great way to make lateral move for people with music backgrounds
+  C. Can't accomplish in ONE post, but will 
+  D.THESIS: GIVE MY OPINION ON HOW TO GET MOST OF OF MASTERS ON A VERY HIGH LEVEL.
+  E. Disclaimer: Survivorship bias, many ways to do this, people will disagree, write your own
+  F. I write this with Masters (and PhD) career diversity in mind (Grad school teach non-academic skills)
+II. What is the point of a Masters?
+  A. Get the experience to autonomously re-define yourself by engaging in research project start to finishing
+  B. Do not do a Masters if you think you're going to get access to esoteric information.
+  C. Adage of "Practice rooms are the same at every music school" becomes "Everyone has a library card and access to the internet"
+  D. Pay for access to new community, people, resources, which will open doors for what is best for YOU
+  E. How you navigate the finite time in your masters and make use of those resources is important. 
+III. How do you do it?
+  A. Pick program where you connect valuable network of people (industry and academic and interdisp)
+  B. Pick program where you go thru entire research process
+  C. Pick program where people will open doors for you given the work you put in
+  D. The point of all of this is to become useful.
+  E. Art of picking a good question; lesson 1 of grad school: Be aware of false dichotomies
+  F. Cultivate in-demand skills and make a minor contribution to your field of study.
+  H. The secret deal is you put in the work, others help you out, get academic currency (no one cares), but as a bi-product you get a lot of great skills, connections, and tangible thing on your CV/Resume.
+IV. Done right?
+  A. End with new skill set (cognition is good for this for programming,stats, computers, literature)
+  B. Have references from people in different departments to vouch for your new identity 
+  C. Your mentors/advisors can point you towards jobs in city, PhD programs if still reserach inclined.
+  D. You've got a new professional network of people 
+V. Future Posts
+  A. Reading lists
+  B. What does it mean to pick a good question? 
+  C. Career diversity in graduate school
+  D. Answer to does this just rule out music theory? I think yes in current state.
+  E. Show eiter exit data or curriculumm to reflect fact that we're not just passing people through a giant money machine hoping to get ones that stick to the wall and clone ourselves.
+  F. Does not have to be quantitative.   
+  
+  -------------------------------
+
+# Intro
+I read somewhere on the internet that if more than three people ask you the same question, it's worth considering writing a blog post about.  
+Over the past few weeks I've gotten a few questions from younger lab members and some LSU undergraduates about pursing music cognition at the Masters level as a means to purse it as a career path.
+It's a pretty broad question to consider and touches on some very hot issues such as "What's the point of graduate school?", but I think it's worth writing about.
+It's my opinion (though obviously very biased) that music cognition is a good career move for people with music backgrounds if you are going to pick a field of graduate study, but that does not come without its caveats. 
+
+
+# Goal of Post 
+In this post I hope to share some of my opinions about what it means to get a Masters in fields related to music cognition and give my viewpoint of what those 1 or 2 years could look like.
+Before reading on and taking advice from some random white guy (or anyone giving advice on graduate school), be very aware that there are many ways to accomplish your career goals.
+What worked for me might or might not work for you and talking about gradute school often relies on a heavy, heavy dose of surviorship bias.
+There is a huge tendacy to look to those who have succeded, think you too can just tick the same boxes they did, and get approximently what they have.
+Sucess at anything involves a huge amount of luck, as well as social positioning in order to succede.
+I really encourage any peers or superiors to write similar posts on this (or if you're thinking about grad school to ask as many people as possible about their experiences; and not just the ones who have gone on to do things you want to do. Pick people who did the same program but may have not taken the assumed route!) 
+
+# What's The Point of a Masters
+
+So with that disclaimer out of the way, let's take our first swing at this by trying to answer the question:
+> What's the point of even getting a Masters in music cognition?
