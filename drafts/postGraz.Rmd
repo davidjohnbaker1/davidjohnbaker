@@ -1,0 +1,41 @@
+---
+title: "ICMPC-Thoughts-Draft"
+author: "David John Baker"
+date: "July 31, 2018"
+output: html_document
+---
+
+Hello all!
+I'm finally back on the blogging after a bit of a summer hiatus.
+The past few weeks have been pretty wild in terms of work, but ICMPC15 in Graz was the last major thing to tick off of the to-do list since things started to snowball back in May.
+
+Unlike other posts, I'm not trying to walk anyone through any tutorials so writing just for the sake of other people hearing what I am up to and my own opinions seems a bit self indulgent, so I'm going to try to think of this post as more of a "this is what i have been doing and here is some proof" type of a post. 
+
+## Back To London
+
+I guess the first thing worth putting in writing is that I moved back to London this summer.
+While this might seem like a bit of a crazy thing to do with only a year left of my dissertation at LSU, I was lucky enough to win one of two campus-wide graduate school funded dissertation award for my project (see my application here, the form of which is taken directly from Karen Kelskey's suggestions about a Bullet Proof grant application) which I'm sure was also made possible by the letters of support that I got from my supervisors at LSU (Daniel Shanahan) and (Emily Elliot) and applied for a program in London where I trade a bit of volunteer work for free housing. 
+It was bittersweet to leave Baton Rouge so abruptly, but given the the luck I had plus some more personal motivation, it was clearly the best option.
+
+## Graz
+
+### Aural Skills 
+
+Since I'm now based in London, I ended up going to the Graz hub of the latest ICMPC instead of Monteral.
+I had a great time in Graz presenting some work that we have been working on at LSU.
+If you're interested in Aural Skills and things related to my dissertation, check out my poster HERE as well as the short conference proceedings paper I wrote over here.
+I'd be very curious to hear what the Music Theory pedagogy community would have to say about this and be even more eager to hear if anyone is interested in collaborating on helping collect data over the course of the next year to help build a big database that the cognition and research could use in helps to model melodic dicatation.
+If you're interested in this, please GET IN CONTACT.
+The one sentence version of this research is that you can use abstracted melodic features to predict how well people dicatation melodies. 
+
+### Working Memory Capacity and Musical Tests
+
+I also gave a talk (check it out here) on an experiment we ran at LSU last year where we argue that you can use measures of working memory capacity to predict really well how someone does on musical perception tasks. 
+There's also a proceedings paper that I wrote for this that you can find (here) 
+It was great getting to share this dataset and realize how that if you collect a lot of data, other people might also find it helpful.
+I've already had two other researchers say that we have a list of variables that would help coroborate some of their past claims or frame a future project!
+
+### The #musicscience Community
+
+Every time I go to ICMPC, I'm reminded how great of a community it is.
+Almost every person that I met was unbelieveably nice, approachable, and eagar to talk about research questions.
