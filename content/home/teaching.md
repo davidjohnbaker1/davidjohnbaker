@@ -26,3 +26,5 @@ I have served as a graduate assistant for the following courses at Louisiana Sta
 - PSYC 4111, Intermediate Statistics
 - MUS 3622, Music Theory IV
 - MUS 3621, Music Theory III
+
+For examples of past syllabi, please click the links above to be directed to my github!
