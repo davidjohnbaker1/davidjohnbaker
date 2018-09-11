@@ -61,15 +61,76 @@ Though not publicly availible yet, the dataset will have both melodic as well as
     </item>
     
     <item>
-      <title>Music and Memory</title>
+      <title>Modeling Melodic Dictation</title>
       <link>/project/music-and-memory/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/project/music-and-memory/</guid>
-      <description>&lt;p&gt;My main research interest investigates what individual and musical factors contribute to how someone learns and remembers a melody.
-Not only do findings in this area have relevance for music perception, but they also have  implications for how aural skills are taught at the conservatory level of music education.&lt;/p&gt;
+      <description>
 
-&lt;p&gt;Some of the initial findings from our research are going to be published in the upcoming conference proceedings for the &lt;a href=&#34;https://music-psychology-conference2018.uni-graz.at/en/&#34; target=&#34;_blank&#34;&gt;International Conference for Music Perception and Cognition&lt;/a&gt; and are serving as the basis for my dissertation.&lt;/p&gt;
+&lt;p&gt;All students pursuing a Bachelor&amp;rsquo;s degree in Music from universities accredited by the National
+Association of Schools of Music must learn to take melodic dictation.
+This skill is a demanding process that requires students to listen to a melody, retain it in memory, and then use their knowledge of Western musical notation to recreate the mental image of the melody on paper in a limited time frame.
+For many, becoming proficient at this task is at the core of developing their aural skills.&lt;/p&gt;
+
+&lt;h2 id=&#34;structure-and-highlights-of-the-dissertation&#34;&gt;Structure and Highlights of the Dissertation&lt;/h2&gt;
+
+&lt;p&gt;In my dissertation I investigate factors thought to contribute to how people learn melodies by drawing on my experience from both cognitive psychology and computational musicology.
+I am currently in the process of writing and welcome any thoughts of questions on the research!
+Below I outline the main goals of each chapter along with methods and novel findings from the research:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Chapter I: Background and Theoretical Rationale
+
+&lt;ul&gt;
+&lt;li&gt;Establishes why tools from computational musicology and cognitive psychology are best suited to answer questions about melodic dictation.&lt;/li&gt;
+&lt;li&gt;Catalogs and taxonomizes features thought to contribute to melodic dictation&lt;/li&gt;
+&lt;li&gt;Argues for polymorphic view of modeling musical ability&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Chapter II: History and Mental Representation
+
+&lt;ul&gt;
+&lt;li&gt;Reviews history and current state of aural skills pedagogy&lt;/li&gt;
+&lt;li&gt;Asserts historical questions of aural skills pedagogy can be better understood by recontextualizing them as questions of mental representation of musical material&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Chapter III: Insights from Cognitive Psychology
+
+&lt;ul&gt;
+&lt;li&gt;Uses cross-sectional experimental design to investigate individual abilities thought to contribute to tasks of musical perception&lt;/li&gt;
+&lt;li&gt;Data analyzed using structural equation modeling&lt;/li&gt;
+&lt;li&gt;Findings suggest working memory capacity to be good predictor in tasks of musical perception&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Chapter IV: Computational Features
+
+&lt;ul&gt;
+&lt;li&gt;Asserts that computationally abstracted features from melodies can be used as quantitative stand in for musical intuitions&lt;/li&gt;
+&lt;li&gt;Discusses how these features can be used to help aural skills pedagogues determine difficulty of melodies&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Chapter V: Dictation Corpus
+
+&lt;ul&gt;
+&lt;li&gt;Introduces new 600+ melody corpus&lt;/li&gt;
+&lt;li&gt;Describes corpus&amp;rsquo; features and possible uses&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Chapter VI: Experiments and Computational Model
+
+&lt;ul&gt;
+&lt;li&gt;Synthesizes all aforementioned factors in dual experiments investigating how predictive abstracted features are in experimental setting&lt;/li&gt;
+&lt;li&gt;Posits computational model of melodic dictation&lt;/li&gt;
+&lt;li&gt;Discusses how computational model can inform both perceptual research and inform pedagogical practice.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;dissertation-output&#34;&gt;Dissertation Output&lt;/h2&gt;
+
+&lt;p&gt;Full referencing to be added soon.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;First author&lt;/strong&gt; on article currently revised and resubmitted at &lt;em&gt;Musicae Scientiae&lt;/em&gt; replicating the &lt;a href=&#34;https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0089642&#34; target=&#34;_blank&#34;&gt;Goldsmiths Musical Sophistication Index&lt;/a&gt; that offers additional commentary on the use of latent variables in music research. Argues for researchers to adopt a polymorphic view of musical ability when creating statistical models. Materials from first and third Chapter&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;First author&lt;/strong&gt; on tentatively accepted book chapter with Routledge in &lt;em&gt;Companion to Aural Training in Music Education&lt;/em&gt;. Materials from sixth Chapter.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;First author&lt;/strong&gt; on chapter in &lt;em&gt;Scholarly Approaches to Mathematical Music Theory&lt;/em&gt;. Materials from sixth chapter&lt;/li&gt;
+&lt;li&gt;Two &lt;strong&gt;First author&lt;/strong&gt; International Conference on Music Perception and Cognition proceedings papers available on my &lt;a href=&#34;https://www.researchgate.net/profile/David_Baker45&#34; target=&#34;_blank&#34;&gt;Research Gate&lt;/a&gt;. Materials from third and sixth chapter.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
