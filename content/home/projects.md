@@ -6,7 +6,7 @@ date = "2016-04-20T00:00:00"
 draft = false
 
 title = "Projects"
-subtitle = ""
+subtitle = "Portals to my dissertation work, examples of industry collaborations, and links to my colleauges"
 widget = "projects"
 
 # Order that this section will appear in.
@@ -26,8 +26,8 @@ view = 1
   tag = "*"
   
 [[filter]]
-  name = "Music and Memory"
-  tag = ["music-and-memory"]
+  name = "Modeling Melodic Dictation"
+  tag = ["mmd"]
 
 [[filter]]
   name = "Other"

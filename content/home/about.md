@@ -12,8 +12,8 @@ weight = 1
 # List your academic interests.
 [interests]
   interests = [
-    "Music and Memory",
-    "Computational Musicology",
+    "Memory for Melodies",
+    "Computational Modeling",
     "Corpus Studies",
     "Aural Skills",
     "R",
@@ -42,5 +42,6 @@ weight = 1
 
 David John Baker is a PhD candidate in Music Theory with a minor in Cognitive and Brain Sciences at Louisiana State University.
 He currently works in the Music Cognition and Computation Lab with Dr. Daniel Shanahan and Dr. Emily Elliott investigating how musical perception can be influenced by both musical structures, as well as individual differences.
-His work has been funded by the UK’s Arts and Humanities Research Council, and the Music and Psychology departments at Louisiana State University.
-
+His dissertation uses tools from both cognitive psychology and computational musicology in order to better understand how people learn melodies. 
+In the past he has been funded by the UK's Arts and Humanities Research Council, the School of Music, and Psychology department at Louisiana State University.
+He is currently funded by LSU as a dissertation fellow after winning a campus-wide award for his project: **Modeling Melodic Dictation**.
