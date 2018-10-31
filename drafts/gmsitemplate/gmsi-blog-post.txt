@@ -1,0 +1,86 @@
+Gold MSI Blog Post 
+
+Replication.
+Is it popular and important for research in psychology? 
+Yes.
+Will reading a replication paper get you all fired up about research?
+Probably not.
+Unless you are personally invested in a niche subject, most people just want to know if something did or did not replicate.
+
+Today our lab has a new publication that’s accessible online that replicates the Goldsmiths Musical Sophistication Index.
+The “just-tell-me-if-I-can-keep-using-it” verdict of the paper is: “Yes, knock yourself out”. 
+Scroll to the bottom of the page, grab either the APA or Bibtex citation and cite us as Baker, Ventura, Shanahan, Calamia, and Elliott (2018).
+
+If you’re a bit more careful about choosing what tools you use in your research and are interested in a few of the points we make in the paper, then read on. 
+
+To give the very short version of the paper in plain english (not Abstract-ese) the paper generally goes like this.
+Over the past century the world of music science has struggled to quantify what it means to be musical.
+We clearly need some measure of it if we want to make claims about how much engaging with music is supposedly better for you, but every time you try to pin down what you think being musical is, you realize you forgot something.
+
+A lot of people have tried to get around this problem a few different ways, but in this paper we decided to focus Goldsmiths Musical Sophistication Index since it’s tool that has getting very popular very fast within the music science world (and I also used to work at Goldsmiths, so I was pretty familiar with it).
+At LSU we were running a big study where we had all this Gold-MSI data and thought: “Hey, why don’t we try to replicate this?”
+We had a couple of good reasons
+
+* Most researchers are not going to be using samples like that in the original paper (N= 147,000+) and will probably just use it on their WEIRD subject pool, we should probably see if there are any weird things that happen when you use it like this
+* Some people break off a part of the Gold-MSI and use just one of the sub scales, is that a good idea? 
+* An independent replication of the Gold-MSI would probably be a valuable contribution and it’d be good to write a paper that might be helpful for others to read and cite
+
+I had also just read this great paper on Process Overlap Theory and saw a lot of parallels between what Kovacs and Conway had to say when arguing against the idea of g and the idea of measuring anything musical with a latent variable.
+
+So we went ahead, grabbed us some data, and spent a lot of time reading Alex Beajean’s Latent Variable Analysis with R book to dive deep into the world of latent variable modeling.
+So what did we find?
+
+In general, the Gold-MSI pretty much behaved as you would expect it to.
+Using a WEIRD sample, we had a bit of a skewed distribution that people should look out for, but the sub-scale scores pretty much lined up with the means and standard deviations that were originally reported.
+That said, I did look at the item level data and found anything but normal distributions there.
+This is not the biggest deal in the world due to the estimators the lavaan packages uses when doing its estimation, but if you are going to break off a scale use just a part of the Gold-MSI, it’s worth keeping in mind.
+
+
+So given that it pretty much replicates, is there anything else researchers should know?
+Well, this is where we zoom out from painfully up close to the Gold-MSI and expand way outwards in our discussion.
+In the paper we highlight that the Gold-MSI uses latent variables, which basically relies on the same math as calculating _g_.
+Of course _g_ is calculated using a bunch of objective tests that correlate with one another, but you still use factor analytic techniques to derive the larger constructs, in this case the General Sophistication score. 
+
+After pointing this out we borrow a few arguments made by Kovacs and Conway and argue that even though someone might score highly on some of the Gold-MSI scales, it doesn’t mean that they are using their musical sophistication to actually complete any of the tasks that when used as an IV that it predicts.
+Just like you wouldn’t say you used your general intelligence to solve a mental rotation puzzle, you wouldn’t say you used your musical sophistication to do a melodic memory task. 
+We note that this is great for descriptive theories, but we just want to remind people that they shouldn’t confuse a statistical abstraction for any sort of real process.
+
+We got a lot more fanciful with the language in the article, but hopefully you’ll give it a read if you’ve gotten this far in the blog post.
+The paper ends saying that people should of course keep using the Gold-MSI as we desperately need more consistency in measurements, but as a community we need to think about what our models are actually telling us.
+This is especially true in that we are now coming up on the 100 year anniversary of Seashore’s first tests of musical abilities and it’s a perfect time to stop and reflect on the tools we are using and the questions we are trying to ask. 
+
+If this sounds up your ally, give the paper a read.
+You can download it here, and if you want to cite us, just copy and paste below.
+
+
+
+* Replication 
+	- use novel sample that is probably more like WEIRD 
+	- See a Skewing of items, probably due to things like age 
+	- Each of the subscales gets about the same mean and SD
+	- But that is pretty wild because at the item level things are all over the place
+	- So if you break off a subscale to use, do not assume things like MT ed is normal 
+	- Check out Figure 3 for that
+	- Read tables if you're interested
+	- Detailed account of how to actually run it (and we have our code for it) 
+* Theoretical Questions
+	- Given it pretty much replicates, is there anythign else people should know?
+	- Might not be familiar with latent variables, but basically same idea as IQ or g
+	- People def have opinions on that, should know it's same math underneath
+	- Point we make borrows from Kovacs and Conway 
+	- You wouldn't say you used your general intelligence to solve mental rotation
+	- You wouldn't say that you used your musical training to do a melody memory task 
+	- Works great in descriptive theories, but don't confuse statistical abstraction as the real process! 
+	- Get much more fanciful with the language in the article
+	- People need to keep using it, but we should think more about it
+	- Def true as we are now 100 years THIS YEAR on Seashore's 1919 test
+	
+So if you want to read it, great, would love to get a conversation going
+
+APA Cite is here
+
+Bib Cite is here
+
+Link to Paper 
+
+
