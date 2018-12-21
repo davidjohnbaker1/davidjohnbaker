@@ -1,0 +1,91 @@
+---
+title: "Invest In Yourself"
+author: "David John Baker"
+date: "12/13/2018"
+output: html_document
+---
+
+Graduate school is limited in time and there are high demands and high rewards. 
+See it as a time to be able to learn as much as possible outside of demands of a job.
+But you have to do this in an environment where everyone is part of a pyramid scheme.
+You can't drink the Kool-Aid without knowing that it comes w healthy survivorship bias.
+So how do you best navigate this time?
+
+I say take the approach that this is 4 ish years to learn as much you can on someone else's dollar.
+This might seem like a betrayal of the system, but know that the system will not invest in you.
+The only thing that will invest in you is other people.
+And when you find people who will invest in you, do not blow that.
+
+Don't do your own projects.
+Have to acknowledge that the time and pressure of your superiors is a lot, esp those without tenrue.
+
+You need to be useful. 
+
+
+---- Garbage Below Here
+
+Earlier today I had a moment where I was about to sit down and crack on with my dissertation writing hoping to make progress, but instead thought it might be wise to do a bit of self reflection.
+As I noted from a tweet earlier today, the year is 95% over and I think this is the point where the nostolgia can commence and we can reflect on all that has happened this year. 
+I listed out like everything I have done and 
+
+One of the hardest things to do in Grad School is to manage your time.
+I've written before about how I manage my time through both my to-do list, pomodori, and serious boundary setting, but I didn't really go deep into that blog post as 'what' I do.
+I consider myself to be a very productive grad student by this point (evidence here), but have not always been as productive.
+Even in my charity job, I finish jobs very quickly.
+And I often wonder how this happens.
+Some people think its the hardware that you use as evident from a very popular post by Russ Poldrack on his actual gear.
+I find it interesting to read posts like this, but remain very skeptical having lived my previous life as a trumpet players.
+Only say this because trumpet players are infamous for thinking that small adjustments to their equipment will result in significant changes in their playing ability.
+When I would bring up things like this in my lessons with Jack Sutte, who I studied with at BW as part of Cleveland orchestra, he would calmly ask to borrow my trumpet, swap in his mouth piece (we both played 1.25 Bach C) and put me to shame playing the exact excerpt I couldn't get to sound right with the most beautiful way possible. 
+To use a non-musical metaphor, it's like getting a new set of golf clubs and thinking you're going to drop a few strokes off your game.
+It's how you do what you do over a long time that pays off. 
+
+So could think about this using NHST thinking?
+Are all activities equally worth pursing? 
+No.
+
+There was so much that I was asked to do as a grad student.
+Going all the way back I had to work on a recording studio for over 150 hours on top of teaching, plus research.
+Second year in music department had to do double the teaching, while going to lectures of main class, plus 12 credit hours, and again all the research.
+Was also told that as music grad student I had to play in an ensemble.
+This did not benefit me.
+
+Tried to come up with a list of things that I would suggest investing in.
+
+Really first take time think about what questions will make you invest in yourself.
+Know right away at start of Masters or PhD that you will probably (in the mathematical sense) not be working in academia.
+
+You will be given advice without the disclaimer of survivorship bias.
+You will be compared to other people who fit a perscribed mold.
+They will probably be basic dudes.
+This happened me twice and I remember both times extremly vividly.
+To be told to try to be more like "X or Y" is an explicit undermining of your own autonomy as an individual and a suggesation that there is a mold in which you are secretly trying to be shaped into.
+If that was not the case, you could just have easily said that there were areas that lack refinment and could improved. 
+
+First important question you need to ask yourslef is why are you being asked to invest time in this?
+
+Is this going to improve your career prospects or is someone offloading on you ?
+Does it feel like you are being given a gig for exposure? 
+If so, don't do it. 
+
+There are two sets of people that you can imagine needing to impress.
+The first is your tenure committee in about 12 years (five-ish years of TT position plus the four our so needed for your PhD)
+
+Advice for superiors at this point.
+One is that you need to be very aware that what worked for you is not exactly what is going to work for other people at this point. 
+And need to know that people under you are smart.
+They know when they are being employed as part of a pyrimid scheme.
+
+Also the reason that I personally got into academic work was because I wanted to do meaninfgul work and take a seat at a very large, long discussion of issues that matter to me.
+While you need a lot of small studies to equate to a much bigger one, there are so many bs studies out there.
+
+I think a great measure of your research is to know if you can defend it or not to your skeptical family members and friends you grew up with. 
+
+I guess really what I am getting at here is that grad school is a time to invest in yourself.
+It's important not to get caught up in the idealism of graduate school and tell yourself that there are just some questions that only matter to a small group.
+
+YOu should be especially skeptical if you know ever person that would ever be interested in the paper that you are writing.
+
+* Big project that you don't think you would ever stand a chance of being really good at. For me this was R programming and statistics. 
+
+Hard to imagine 

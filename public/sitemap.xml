@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>/post/cataloging-memories-with-music/</loc>
+      <lastmod>2018-12-21T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/talk/open-university-2018/</loc>
       <lastmod>2018-11-15T00:00:00+00:00</lastmod>
     </url>
@@ -480,8 +489,38 @@
     
     <url>
     
+      <loc>/tags/memory/</loc>
+      <lastmod>2018-12-21T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/tags/mmd/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/music/</loc>
+      <lastmod>2018-12-21T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/music/</loc>
+      <lastmod>2018-12-21T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -512,6 +551,16 @@
     
       <loc>/tags/music-and-memory/</loc>
       <lastmod>2018-04-07T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/playlists/</loc>
+      <lastmod>2018-12-21T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

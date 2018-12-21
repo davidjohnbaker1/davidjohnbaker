@@ -1,0 +1,96 @@
+---
+title: "abmm-1"
+author: "David John Baker"
+date: "12/20/2018"
+output: html_document
+---
+
+One of my favorite things about being a PhD student is that my peers almost always seem to be down to have some sort of high stakes conversation.
+Last Friday over lunch, my friend Peter posted seriously harsh question that he said he had been thinking about which was "What has music science actually contributed as a field to society?"(or something close to that).
+There is always something about the word actually that puts you on the defensive, and answering this question was no different.
+I think my initial reaction had something to do with using music's complexity to help understand the modular processing (aka there is no 'music' part of the brain, it's complex and serves as a great example of the homunculus problem in perception research) but I have been thinking about this question a lot since then.
+
+# Darling... 
+
+<iframe src="https://open.spotify.com/embed/track/0dEIca2nhcxDUV8C5QkPYb" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+In thinking about this question, I actually realized that one area of research that has actually affected me in a profound way (that I have been meaning to write about!) is music and autobigraphical memory.
+The general idea is that music has the power to evoke strong emotional memories that are not related to the structure of the music itself.
+There has been some cool work on it that you can read about HERE Janata or HERE Belfi that digs into it properly, which also runs in tandem the ideas of musical remisnce bumps HERE and research suggesting why in older adulthood we still listen to a bit of the music that was played by our parents.
+But for all intents and purposes of this post, all you really have to know is that people do look into what I have heard to referred to as the "Darling, they are playing our song" phenomena.
+
+Now as a music theorist, this phenomena is also pretty interesting since it has to do with musical meaning.
+This is not the kind of inter-opus meaning like a leitmotive in a Wager opera (e.g. Wotan realizes he shouldn't have tried to pawn off his wife's sister and the Spear motive HERE plays representing contractual commitment) or what Meyer would refer to as an abolutist's verison of musical meaning where the meaning is exclusive to the musical processes themselves (p33), but rather an external referential meaning where the music points to something completely outside of the music.
+Now of course there can and inveitably will be mixes in these categories.
+The song that Darling might be refering to has lovey dovey lyrics, which are congruent with that sentiment, but the claiming of the song being 'ours' is more about that it is associated with a certain event or feeling.
+
+But the whole idea here is that there is a strong relationship between musical experience and our ability to remember certain events.
+Is this a 'finding' of music science?
+Did I need a study to tell me that?
+Probably not.
+But if this is the case (and this was one of the first things in music psychology that caught my imagination) I wondered if it would be possible to take advantage of this effect?
+
+So as a result of this finding in music psychology, I decided to start keeeping a playlist diary on Spottify.
+The idea of it was that I would add a song to it whenever I had a strong experience associated with music.
+The experiences did not have to be exact direct mappings such as this exact song must be playing for it to be added to my playlist, the idea was that any memory that maybe could be bottled up in a song could get added as not to make the inclusion critera that intense.
+This of course is naturally much easier for a musciophile like myself who basically always has music playing.
+All that needed to happen was for me to be a bit more of my emotions as I went about my life. 
+If a song comes on that seems like it is painting a nice soundscape to the backdrop of my life, it gets added.
+
+So I have been running this ''experiemnt'' on myself for the past four years.
+It's the end of 2018 now, so what got added to it this year?
+And importantly-- did it work?
+
+As I am writing this post I have been listening to the play list and like the past few years, when listening to it, I get immediately transported back to the memories I activly chose to catalogue.
+The first couple of songs take me right back to celebrating the New Year with my friends in Baton Rouge.
+For example I remember the second tune Lambada coming on the radio as my friends drove to buy food to make breakfast after a long weekend in New Orleans.
+The moment felt right (I was also probably still very hungover from the past weekend) so I whipped out my phone to Shazam the tune, and then later added it to my list.
+
+<iframe src="https://open.spotify.com/embed/track/6vN77lE9LK6HP2DewaN6HZ" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+It's no just exact moments that I catalouge, but I also record re-occuring songs.
+For example, later on the list is some Debussy.
+I like the music, but more imporantly it's the theme to Westworld and I used to have weekly Sunday screenings of the show at my apartment in Baton Rouge and wanted to remember sitting quietly in a room with my friends having a bit of a reprive before Monday would come up and grad school would restart.
+
+One day I want to look at the list and maybe see some patterns over a life time.
+For example, I'd imagine that more songs/memories would cluster around highly anticipated emotional events.
+I saw this last year with two salient examples from my General Exams.
+The first is this great Louisiana tune my friend Crystal put on in my living room after a day of drinking celebrating being done with three days of writing for our written Genernal Exams.
+Fast forward a few weeks and the night before my oral defense I remeber sitting in a sonic parking lot eating ice cream with Sasha and Jacob, listening to Eye of the Tiger at full volume  which serentiptiously came on the radio.
+
+Crusing through this playlist I also realize how much I did this year and all the great people I got to hang out with.
+Just weeks after Eye of the Tiger I got to hang out at a Public Musicology conference in S Carolina and ended up hanging out with both darkmusictheory and 12tone late at night in an AirBnB. 
+Or more examples of traveling where in Florida MY WAY came on the radio and while sitting with my friend Rory during the first vacation that I had ever taken just for the sake of a vacation (not academic work related), asking the server to start happy hour early, mis-ordering our 2 for 1 margeritas, then both being served 2 drinks at 2PM and boozing it up in full Jimmy Buffett regalia.
+
+Of course I won't to on a play by play of my whole list, but the cool thing is that as a whole this playlist only makes sense to me.
+Somone looking at the playlist might be able to figure out some of the tunes given that they knew where I was at what time
+
+THREE LIONS
+
+BUt other songs that I have known for a while are emotinally recycled (Cannibal Reousce) and obtain new meaning.
+
+## Zooming Out
+
+And the cool thing is, as I mentioned above, I have been doing this for the past four years.
+Going all the way back to 2015 I can still vividly transport myself back to eating doughnuts in an NYC apartment listening to Laura Mvula.
+And as the 2015 playlist plays, I still anticipate each song within this playlist's context with each memory being anticpated as well.
+
+
+So what I guess I am basicaly suggesting is that on a personal level, if you have an assortment of external musical meaning your life, maybe it is time to consider starting an autobiographical musical memories playlist yourself in 2019?
+I have found knowing that this playlist is there helps me stay more present when music is playing (which is a lot of the time) since you never know if a moment will meet your inner arbitrary threshold for adding it to the list.
+This process also helps unleash your inner nerd as it lets you intergrate various music platforms (Spotify to catalouge, Shazam to find songs you don't know the names of) and also encourages more serediptiosu listening experiences via the radio or Pandora.
+Maybe one day there will be some sort of built in infrastructure to help people catalouge these specific memories (rinse a song, Spotify suggests maybe adding it to your memory playlist? which admitdly is a bit big brother-y) and I think it also importantly speaks to how adding a psychological dimension to music industry platforms can also give them new meaning. 
+
+I would also be interested to know if anyone after reading this does go ahead and do it.
+I'd be very keen to have an intense music psychology conversation about similariteis in partaking in this activity.
+Thanks for getting all the way to the bottom of this post!
+I have been wanting to experiment with moving towards more music related essay format content (less how-to data science), so if you do like this please let me know! 
+
+
+- also good impliations here  or why important to have people at young age listen to music and enjoy it
+- if we think this effect is real, could be good reason to encourage younger people to listent to music we value as a culture, sort of emotional investing for later
+
+
+Janata, P., Tomic, S. T., & Rakowski, S. K. (2007).
+Characterization of music-evoked autobiographical
+memories. Memory, 15, 845–860.
