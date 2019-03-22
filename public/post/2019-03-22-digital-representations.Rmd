@@ -37,7 +37,7 @@ How is it possible to make generalizable claims if you only look at a very small
 
 In general, I work a lot with music and often use computers as a tool in that research.
 Unlike the Bach problem here, I am interested in melodies, but the types of data and tools to analyze this data are similar.
-One of the major problems I face in my work was a problem that in order to make robust claims about music, you need to be able to show similar phenomena happen with new data.
+One of the major problems I face in my work is that in order to make robust claims about music, you need to be able to show similar phenomena happen with new data.
 But where does this new data come from?
 
 If you're a data scientist, you might get this from scraping a website or a government database.
