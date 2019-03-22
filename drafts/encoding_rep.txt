@@ -1,0 +1,87 @@
+Encoding and representation
+
+Obvs can't not have a blog post about things dealing with google doodle from a bit ago.
+Bit dated, but had my own dissertation to write
+And this is like, right in line w something I have been thinking about.
+Again questions of representaiton.
+
+Use as jumping off point this blog post by Imani on bach.
+She makes lots of good points
+one i was most struck by was thinking that reason people like bach and the whole bach as machien trope is realllllly what people were mad at.
+Reason that people go for bach.
+It's a great dataset.
+might only be 300 files, but think about how many musical events those are.
+
+Ran census -k with humdrum on the dataset that David Huron Encoded in 1980s.
+this many events.
+Very rich here and lots goign on.
+Not only notes, but meta conceptualizations that are implicit to anyone that had to edure part writing
+Like you have four voices that are separate
+But getting computer to know that there are four, they line up, and setting whole thing up not fun.
+so pending how you slice and represent it, going to have different responses.
+Might also do with fact that "Bach style" tends to have advantage of beign a population itself in which we sample 
+ANother idea ill hopefully be exploring in the future.
+But real point of this blog post is to provide alternate reading of the problem
+Might not be that there is bach obsession, more of convience (and obvs the two play to one another).
+
+So in my dissertation (shameless plug), i work a lot with computers and music.
+Unlike bach above, interested in melodies and how people learn them for melodic dictation.
+But still dealing with questions of digital representation and that and software. 
+
+When you do stuff like this, need to use data.
+But where does that data come from.
+If you're a music psychologist you often get that data from an experiment.
+If you are looking for a certain effect, you assume that the effect will be present under same conditions with new data.
+If you are a computational musicologist, not the case.
+Need to get that data.
+Could go to somewhere like kern scores and invite you to go there.
+Look what is there and what is represented.
+have a lot of dead guys, represenative of canon stuff.
+Also have a lot of folk songs thanks to Schaffrath work.
+But note there are not complete sets like Schubert song cycles, Sibelius Symphonies, or chamber works of Clara Schuman.
+
+Gut reaciton coudl be something like "wtf were they thinking".
+But know that a lot of what gets done is determined by funding and what it allows people to do.
+As noted by ESF and OTHER, early on, computational musicology bc always didnt have computers, questions were decided by global quesitons of relevance reflecting 1960s ideals.
+Could be a bit colonial, but like to imagine how personally invested people were back in day walking around Columbia literally with punch cards.
+
+But thing is that all this data has to be encoded.
+And someone has to do it.
+For my dissertation I encoded XXX monophonic melodies.
+Of course the unit melody means lots of notes.
+In total that is XXXXXXXX musical events that I encoded (I did 95%, had help from colleagues).
+It sucked.
+I hated having this giant project of encoding over my head thorughotu the dissertation, but glad it's now done.
+This is a bit of a commerical for the work, in case other people want to use it.
+But more imporantly reflects a little red hen situation sometimes.
+
+Could resign this to individual work, imagine David Huron seriously doing this withotu something like MuseScore in a god dam text file.
+But keeping in line with my other beliefs on representation in editing things like wikipedia htat I jsut blogged about,
+also think that representation in terms of what we haev digitally is important here.
+
+As said last time, MEI is on it (anna volk), but think that the real underutalized resource here is students.
+
+Might seem like stream of consious ness here  but wanted to talk abou this for a while.
+
+What I really want to know is how little we use our undergrads like psychology does for helping our field grown and includign them in researhc.
+In psyuchology, basically have to take part in experiments which generate the data for the papers that the field reads.
+Leads to problems that it's basically WEIRD, but better than no-data.
+In music, don't really have this problem as much bc research is not data driven, nor should it in many topics.
+But imagine a world where in teaching computer notation to students, we note this encoding problem we have in music.
+Every small little classroom encodes some pop melodies, encodes a Shostakovich Fugue, or even does one line of a Beach symphony.
+What this would do is lead to an explosion of new data for researchers to model, allow for comparisons between styles, and teach students about serious pressing problems in reserach while having them learn about notational software.
+
+It just seems so obvious to me, but I know that is because I live this problem more frequently than other music researchers.
+
+
+
+
+
+
+
+
+
+
+
+
+

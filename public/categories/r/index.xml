@@ -199,14 +199,16 @@ random.forrest.fit$importance&lt;/code&gt;&lt;/pre&gt;
 &lt;blockquote&gt;
 &lt;p&gt;If you had to pick 3 beers to recommend using only this data, which would you pick?&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;This is a pretty open ended question, which is kind of fun. I also don’t really have a ton of experience (yet!) in recommendation systems, though I have done a little reading here or there on it.&lt;/p&gt;
+&lt;p&gt;This is a pretty open ended question, which is kind of fun.
+I also don’t really have a ton of experience (yet!) in recommendation systems, though I have done a little reading here or there on it.&lt;/p&gt;
 &lt;p&gt;My goals in coming up with three beers to recommend were to:&lt;/p&gt;
 &lt;ol style=&#34;list-style-type: decimal&#34;&gt;
 &lt;li&gt;Try to find the most popular beer among super users of the website&lt;/li&gt;
 &lt;li&gt;Find a &lt;a href=&#34;https://youtu.be/IcjSDZNbOs0?t=31s&#34;&gt;bizzaro&lt;/a&gt; beer that matched the profile of my first beer, but lives in the &lt;a href=&#34;https://books.google.com/books?hl=en&amp;amp;lr=&amp;amp;id=DTeZAAAAQBAJ&amp;amp;oi=fnd&amp;amp;pg=PT6&amp;amp;dq=anderson+2006+long+tail&amp;amp;ots=MpaGpMbdfD&amp;amp;sig=25QPk_RCCNU2yFoo9nsU0hrt0sc#v=onepage&amp;amp;q=anderson%202006%20long%20tail&amp;amp;f=false&#34;&gt;long tail&lt;/a&gt; of the ratings distribution&lt;/li&gt;
 &lt;li&gt;Find the best Beer sans Booze (Highest Rating with lowest ABV)&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;So let’s begin! Here’s how I went about tackling this question.&lt;/p&gt;
+&lt;p&gt;So let’s begin!
+Here’s how I went about tackling this question.&lt;/p&gt;
 &lt;div id=&#34;popular-with-super-users&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Popular with Super Users&lt;/h2&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#=====================================================================================#
@@ -214,19 +216,17 @@ random.forrest.fit$importance&lt;/code&gt;&lt;/pre&gt;
 #=====================================================================================#
 # Library
 library(ggplot2)
-library(data.table)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Warning: package &amp;#39;data.table&amp;#39; was built under R version 3.4.2&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(stringr)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Warning: package &amp;#39;stringr&amp;#39; was built under R version 3.4.3&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#=====================================================================================#
-beer &amp;lt;- fread(&amp;quot;data/beer_reviews.csv&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## 
-Read 83.8% of 1586614 rows
-Read 1586614 rows and 13 (of 13) columns from 0.168 GB file in 00:00:03&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;beer.complete &amp;lt;- beer[complete.cases(beer)]
+library(data.table)
+library(stringr)
+#=====================================================================================#
+beer &amp;lt;- fread(&amp;quot;data/beer_reviews.csv&amp;quot;)
+beer.complete &amp;lt;- beer[complete.cases(beer)]
 #=====================================================================================#&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Having more experience in experimental settings, one of the first things I needed to get used to when I started working with non-psychology datasets was the lack of complete sets in what felt like almost everything. Whereas in the &lt;a href=&#34;https://musiccog.lsu.edu/&#34;&gt;lab&lt;/a&gt; we spend lots of time trying to design balanced studies that hopefully don’t violate the litany of assumptions that classic null hypothesis significance testing demands, my first few attempts at analyzing large amounts of data made me realize it’s almost risible to think that you’re going to have even, independent data, ever. This dataset is no different.&lt;/p&gt;
-&lt;p&gt;Of all of the unique users on the site, most of them have done only a couple of reviews, but some have essentially made a job out of this. Looking at the distribution of reviews, this is quite clear.&lt;/p&gt;
+&lt;p&gt;Having more experience in experimental settings, one of the first things I needed to get used to when I started working with non-psychology datasets was the lack of complete sets in what felt like almost everything.
+Whereas in the &lt;a href=&#34;https://musiccog.lsu.edu/&#34;&gt;lab&lt;/a&gt; we spend lots of time trying to design balanced studies that hopefully don’t violate the litany of assumptions that classic null hypothesis significance testing demands, my first few attempts at analyzing large amounts of data made me realize it’s almost risible to think that you’re going to have even, independent data, ever.
+This dataset is no different.&lt;/p&gt;
+&lt;p&gt;Of all of the unique users on the site, most of them have done only a couple of reviews, but some have essentially made a job out of this.
+Looking at the distribution of reviews, this is quite clear.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;review.counts &amp;lt;- beer[, .(.N), by = review_profilename][order(-N)]
 review.counts &lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;##        review_profilename    N
@@ -247,8 +247,12 @@ review.counts &lt;/code&gt;&lt;/pre&gt;
      main = &amp;quot;Distribution of Reviews Per User&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;/post/2018-01-14-hire-me-as-a-data-scientist-part-ii_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;This is pretty important when it comes to modeling the data (discussed in Part III), and not being fully aware of where your ratings are coming from could put the quality of your models at serious risk.&lt;/p&gt;
-&lt;p&gt;So looking at this dataset, I wondered if there were any sort of implicit assumptions I could make about this data that might be able to help me find a good beer. One assumption that I didn’t think was too wild was that a sample of this population that had gone out of its way to rate over 500 beers was probably more of a beer expert than those who have only done a couple of reviews on the site.&lt;/p&gt;
-&lt;p&gt;One thing I wanted to check was: of all the 1.5 million reviews, where were they coming from? Were there enough reviews among the super users that I could use? And what made someone a super user? I could have been a bit more scientific, setting an &lt;em&gt;a priori&lt;/em&gt; threshold, but for this I kind of just looked at that chart above, spit balled thinking 500 might be a good number to check, and then went to see how much of the data would be accounted if I put my threshold there. I lucked out and got about half of it.&lt;/p&gt;
+&lt;p&gt;So looking at this dataset, I wondered if there were any sort of implicit assumptions I could make about this data that might be able to help me find a good beer.
+One assumption that I didn’t think was too wild was that a sample of this population that had gone out of its way to rate over 500 beers was probably more of a beer expert than those who have only done a couple of reviews on the site.&lt;/p&gt;
+&lt;p&gt;One thing I wanted to check was: of all the 1.5 million reviews, where were they coming from? Were there enough reviews among the super users that I could use?
+And what made someone a super user?
+I could have been a bit more scientific, setting an &lt;em&gt;a priori&lt;/em&gt; threshold, but for this I kind of just looked at that chart above, spit balled thinking 500 might be a good number to check, and then went to see how much of the data would be accounted if I put my threshold there.
+I lucked out and got about half of it.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;sum(review.counts$N) # Number of Total Reviews &lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## [1] 1586614&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;sum(review.counts[ N &amp;gt; 500]$N) # Number of Reviews from Super Users&lt;/code&gt;&lt;/pre&gt;
@@ -256,9 +260,12 @@ review.counts &lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;731066/1586614 # Percent of Total Reviews from 500+ Super Users&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## [1] 0.4607712&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;super.users &amp;lt;- review.counts[ N &amp;gt;  500] # I can settle for .75 Million Reviews&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;So now I had a list of the users who had completed over 500 reviews and made up 46% of our entire data. I could use this new table I had made to index through our dataset of all the reviews that I had (that have their ABV ratings!) so I was then only dealing with these higher quality reviewers.&lt;/p&gt;
+&lt;p&gt;So now I had a list of the users who had completed over 500 reviews and made up 46% of our entire data.
+I could use this new table I had made to index through our dataset of all the reviews that I had (that have their ABV ratings!) so I was then only dealing with these higher quality reviewers.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;super.reviews &amp;lt;- super.users[beer.complete, on = &amp;quot;review_profilename&amp;quot;, nomatch=0]&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;As I continued to chop down the dataset (since this was a very exploratory process compared with cleaning up an experiment), it was important to do &lt;strong&gt;quality assessment&lt;/strong&gt; steps. One thing worth checking here was to see if I was actually dealing with beer omnivores in our super users and make sure that all different types of beers were being represented in our smaller subset. This was done by just looking at the number of rows between the original dataset and our super user table.&lt;/p&gt;
+&lt;p&gt;As I continued to chop down the dataset (since this was a very exploratory process compared with cleaning up an experiment), it was important to do &lt;strong&gt;quality assessment&lt;/strong&gt; steps.
+One thing worth checking here was to see if I was actually dealing with beer omnivores in our super users and make sure that all different types of beers were being represented in our smaller subset.
+This was done by just looking at the number of rows between the original dataset and our super user table.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;super.reviews[, .(beer_styles = unique(beer_style))]&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;##                          beer_styles
 ##   1:                      Hefeweizen
@@ -285,9 +292,16 @@ review.counts &lt;/code&gt;&lt;/pre&gt;
 ## 102:                        Happoshu
 ## 103:                           Sahti
 ## 104: Bière de Champagne / Bière Brut&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Luckily they were the same. If I were to really do some more work on this dataset, I would also want to check things such as how many of the beers had each super user tried? Were there IPA experts in the group? If yes, should their opinions be taken more seriously if I had questions about IPA recommendations in the future? But for now, I just set out to see what the highest rated beer among all the super users of this dataset was.&lt;/p&gt;
-&lt;p&gt;In order to answer that question, I had to find out which beer in specific had the highest mean rating. The dataset ‘as is’ comes with a &lt;code&gt;beer_id&lt;/code&gt; unique ID, but the data downloaded as is does not give us a key to this, so I had to make it myself. This was accomplished by just pasting together the brewery’s name, along with the beer name, and style into a new variable.&lt;/p&gt;
-&lt;p&gt;As another &lt;strong&gt;quality assurance&lt;/strong&gt; step, it was worth checking to see if this recreated the unique ID variable, which it didn’t do exactly… but it was pretty close. I would chalk that up to some sort of encoding error.&lt;/p&gt;
+&lt;p&gt;Luckily they were the same.
+If I were to really do some more work on this dataset, I would also want to check things such as how many of the beers had each super user tried?
+Were there IPA experts in the group?
+If yes, should their opinions be taken more seriously if I had questions about IPA recommendations in the future?
+But for now, I just set out to see what the highest rated beer among all the super users of this dataset was.&lt;/p&gt;
+&lt;p&gt;In order to answer that question, I had to find out which beer in specific had the highest mean rating.
+The dataset ‘as is’ comes with a &lt;code&gt;beer_id&lt;/code&gt; unique ID, but the data downloaded as is does not give us a key to this, so I had to make it myself.
+This was accomplished by just pasting together the brewery’s name, along with the beer name, and style into a new variable.&lt;/p&gt;
+&lt;p&gt;As another &lt;strong&gt;quality assurance&lt;/strong&gt; step, it was worth checking to see if this recreated the unique ID variable, which it didn’t do exactly… but it was pretty close.
+I would chalk that up to some sort of encoding error.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;super.reviews[, beer_name_unique := paste(brewery_name,beer_name, beer_style)]
 
 length(unique(super.reviews$beer_beerid))&lt;/code&gt;&lt;/pre&gt;
@@ -305,7 +319,8 @@ hist(super.reviews.popular$most_reviewed_beers,
      breaks = 200)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;/post/2018-01-14-hire-me-as-a-data-scientist-part-ii_files/figure-html/unnamed-chunk-6-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Again I saw this was clearly &lt;strong&gt;not&lt;/strong&gt; anything resembling a repeated measures experiment and not all beers were rated equally.&lt;/p&gt;
-&lt;p&gt;Continuing in the same fashion above, I just grabbed the top 100 beers of our super users and merged that on to our table from earlier that had all of the ratings from our super users. Then from that table, I took the average of the overall rating and looked at our top ten beers.&lt;/p&gt;
+&lt;p&gt;Continuing in the same fashion above, I just grabbed the top 100 beers of our super users and merged that on to our table from earlier that had all of the ratings from our super users.
+Then from that table, I took the average of the overall rating and looked at our top ten beers.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;super.reviews.popular.100 &amp;lt;- super.reviews[, .(most_reviewed_beers = .N), by = beer_name_unique][order(-most_reviewed_beers)][1:100]
 
 super.reviews.cream.of.crop &amp;lt;- super.reviews.popular.100[super.reviews, 
@@ -335,12 +350,16 @@ super.reviews.cream.of.crop[, .(mean_review_overall = mean(review_overall)), by 
 ##  8:            4.349810
 ##  9:            4.346652
 ## 10:            4.334526&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;And we have our winner! It’s &lt;a href=&#34;https://www.beeradvocate.com/beer/profile/863/7971/&#34;&gt;Pliny The Elder&lt;/a&gt; from Russian River Brewing Company as my first beer recommendation!&lt;/p&gt;
+&lt;p&gt;And we have our winner!
+It’s &lt;a href=&#34;https://www.beeradvocate.com/beer/profile/863/7971/&#34;&gt;Pliny The Elder&lt;/a&gt; from Russian River Brewing Company as my first beer recommendation!&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;bizzaro-beer&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Bizzaro Beer&lt;/h2&gt;
-&lt;p&gt;Now Pliny The Elder seemed to be a pretty popular beer. But what if I was trying to sketch out some ideas about what other beers I could recommend to beer lovers who like Pliny The Elder? It needed to somewhat “look like” the target beer, but have way less reviews.&lt;/p&gt;
-&lt;p&gt;Playing with some of the fringe data here, I wanted to be careful not to again pick a beer with only one or two ratings on it. My rationale was coming from assuming there is some sort of true “population mean” for this beer and having a beer with too little reviews will not approximate the mean correctly.&lt;/p&gt;
+&lt;p&gt;Now Pliny The Elder seemed to be a pretty popular beer.
+But what if I was trying to sketch out some ideas about what other beers I could recommend to beer lovers who like Pliny The Elder?
+It needed to somewhat “look like” the target beer, but have way less reviews.&lt;/p&gt;
+&lt;p&gt;Playing with some of the fringe data here, I wanted to be careful not to again pick a beer with only one or two ratings on it.
+My rationale was coming from assuming there is some sort of true “population mean” for this beer and having a beer with too little reviews will not approximate the mean correctly.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;## Make Unique Beer Label for Larger Dataset
 beer[, beer_name_unique := paste(brewery_name,beer_name, beer_style)]
 
@@ -352,9 +371,11 @@ reliable.beers.list &amp;lt;- number.of.reviews[ NumberOfReviews &amp;gt;= 30 ]
 
 ## Join that to our big &amp;#39;beer&amp;#39; dataset only matching beers with over 30 reviews
 beer.reliable &amp;lt;- reliable.beers.list[beer, on = &amp;quot;beer_name_unique&amp;quot;, nomatch=0]&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;With our dataset chiseled down to only ‘reliable’ beers, I needed to find a way to get some sort of profile of each of the beers. While my first instinct was to do some sort of data reductive type thing like a PCA on our continuous variables and use distances from certain scores as metrics of similarity (&lt;a href=&#34;https://musiccog.lsu.edu/davidjohnbaker/papers/Baker_Trahan_Mullensiefen_ProceedingsPaper.pdf&#34;&gt;which I have done before&lt;/a&gt; and it ended up actually being the inspiration for a tool currently used by &lt;a href=&#34;https://www.soundout.com/brandmatch&#34;&gt;Soundout&lt;/a&gt;!), doing that on so few predictors seemed &lt;a href=&#34;https://www.urbandictionary.com/define.php?term=extra&#34;&gt;extra&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;With our dataset chiseled down to only ‘reliable’ beers, I needed to find a way to get some sort of profile of each of the beers.
+While my first instinct was to do some sort of data reductive type thing like a PCA on our continuous variables and use distances from certain scores as metrics of similarity (&lt;a href=&#34;https://musiccog.lsu.edu/davidjohnbaker/papers/Baker_Trahan_Mullensiefen_ProceedingsPaper.pdf&#34;&gt;which I have done before&lt;/a&gt; and it ended up actually being the inspiration for a tool currently used by &lt;a href=&#34;https://www.soundout.com/brandmatch&#34;&gt;Soundout&lt;/a&gt;!), doing that on so few predictors seemed &lt;a href=&#34;https://www.urbandictionary.com/define.php?term=extra&#34;&gt;extra&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;So instead, I figured why not just assume that there is some sort of wiggle room in my hastily made recommendation system and just match first on the overall review, then if there are some close contenders, look for matches on other metrics?&lt;/p&gt;
-&lt;p&gt;The next bit of code creates a table of the metrics I am interested in, gets beers that have over 30 reviews, but less than 100, and also creates a vector so I can pull out all of the IPAs on my less reviewed beers table. I then joined the tables for my candidates.&lt;/p&gt;
+&lt;p&gt;The next bit of code creates a table of the metrics I am interested in, gets beers that have over 30 reviews, but less than 100, and also creates a vector so I can pull out all of the IPAs on my less reviewed beers table.
+I then joined the tables for my candidates.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# # Get metrics used for distance calculations
 beer.metrics &amp;lt;- beer.reliable[, .(mean_review_overall = mean(review_overall),
                                   mean_review_aroma = mean(review_overall),
@@ -376,7 +397,8 @@ bizzaro.candidates &amp;lt;- less.reviewed.beers[find.IPA]
 
 #Create Table
 bizzaro.candidates.metrics &amp;lt;- bizzaro.candidates[beer.metrics, on = &amp;quot;beer_name_unique&amp;quot;, nomatch=0]&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Of these less reviewed beers, I now needed to find the one that was “closest” on the few dimensions I had to work with. The simplest way to do this would be to just subtract our target beer (Pliny The Elder), from every other beer in our interested list, then check out the results.&lt;/p&gt;
+&lt;p&gt;Of these less reviewed beers, I now needed to find the one that was “closest” on the few dimensions I had to work with.
+The simplest way to do this would be to just subtract our target beer (Pliny The Elder), from every other beer in our interested list, then check out the results.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;## Get metrics for our target beer
 rrbcpteadii.metrics &amp;lt;- beer[beer_name_unique == &amp;quot;Russian River Brewing Company Pliny The Elder American Double / Imperial IPA&amp;quot;,
                            .(mean_review_overall = mean(review_overall),
@@ -523,7 +545,8 @@ bizzaro.candidates.distances[order(-mean_review_overall)]&lt;/code&gt;&lt;/pre&g
 &lt;/div&gt;
 &lt;div id=&#34;beer-sans-booze&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Beer sans Booze&lt;/h2&gt;
-&lt;p&gt;The last beer that I think I wanted to recommend would be one that tastes great, but does not have a lot of alcohol in it. The reason this question kind of interests me is because if we are &lt;em&gt;really&lt;/em&gt; going to talk about how tasty a beer is, it would be nice to be able to factor out of the equation how drunk we are actually getting from it.&lt;/p&gt;
+&lt;p&gt;The last beer that I think I wanted to recommend would be one that tastes great, but does not have a lot of alcohol in it.
+The reason this question kind of interests me is because if we are &lt;em&gt;really&lt;/em&gt; going to talk about how tasty a beer is, it would be nice to be able to factor out of the equation how drunk we are actually getting from it.&lt;/p&gt;
 &lt;p&gt;I can see first of all IF this relationship exists if we look at the mean overall rating of a beer as a function of its ABV content.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;beer.complete[, beer_name_unique := paste(brewery_name,beer_name, beer_style) ]
 
@@ -538,7 +561,8 @@ ggplot(abv.vs.mean[Abv &amp;lt; 20], aes(x = Abv, y = MeanOverall)) +
        x = &amp;quot;ABV Content&amp;quot;,
        y = &amp;quot;Mean Overall Rating&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;/post/2018-01-14-hire-me-as-a-data-scientist-part-ii_files/figure-html/unnamed-chunk-11-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Surprisingly, when I ran some quick and dirty regression models (that yes, I know violate tons of assumptions) I saw that only a very small amount of variance was being explained by its ABV. Note that although the models were significant, the R squared values hovered around 3-5%!&lt;/p&gt;
+&lt;p&gt;Surprisingly, when I ran some quick and dirty regression models (that yes, I know violate tons of assumptions) I saw that only a very small amount of variance was being explained by its ABV.
+Note that although the models were significant, the R squared values hovered around 3-5%!&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# &amp;quot;The More Booze The Better&amp;quot; Model
 abv.linear &amp;lt;- lm(MeanOverall ~ Abv, data = abv.vs.mean[Abv &amp;lt; 20]) 
 # The &amp;quot;Diminishing Returns Model &amp;quot;
@@ -609,7 +633,8 @@ ggplot(dd.beers.2, aes(x = abv, y = mean_overall, label = beer_name_unique, colo
 &lt;/div&gt;
 &lt;div id=&#34;summary&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Summary&lt;/h2&gt;
-&lt;p&gt;After all of this, I know have three beers to check out. &lt;a href=&#34;https://www.beeradvocate.com/beer/profile/863/7971/&#34;&gt;Pliny The Elder&lt;/a&gt; is our winner for the top rated beer among our Super Users of the site, the &lt;a href=&#34;https://www.beeradvocate.com/beer/profile/22511/67760/&#34;&gt;Hill Farmstead Brewery Galaxy Imperial Single Hop IPA American Double / Imperial IPA&lt;/a&gt; is a beer to maybe follow up on from our first choice, and then lastly we have the the &lt;a href=&#34;https://www.beeradvocate.com/beer/profile/1628/8626/&#34;&gt;Southampton Publick House Southampton Berliner Weisse Berliner Weissbier&lt;/a&gt; which supposedly tastes great, despite its lack of alcohol content.&lt;/p&gt;
+&lt;p&gt;After all of this, I know have three beers to check out.
+&lt;a href=&#34;https://www.beeradvocate.com/beer/profile/863/7971/&#34;&gt;Pliny The Elder&lt;/a&gt; is our winner for the top rated beer among our Super Users of the site, the &lt;a href=&#34;https://www.beeradvocate.com/beer/profile/22511/67760/&#34;&gt;Hill Farmstead Brewery Galaxy Imperial Single Hop IPA American Double / Imperial IPA&lt;/a&gt; is a beer to maybe follow up on from our first choice, and then lastly we have the the &lt;a href=&#34;https://www.beeradvocate.com/beer/profile/1628/8626/&#34;&gt;Southampton Publick House Southampton Berliner Weisse Berliner Weissbier&lt;/a&gt; which supposedly tastes great, despite its lack of alcohol content.&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
@@ -622,11 +647,20 @@ ggplot(dd.beers.2, aes(x = abv, y = mean_overall, label = beer_name_unique, colo
       <guid>/post/hire-me-as-a-data-scientist-part-i/</guid>
       <description>&lt;div id=&#34;background&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Background&lt;/h2&gt;
-&lt;p&gt;I read &lt;a href=&#34;https://medium.com/&#34;&gt;Medium&lt;/a&gt; blog posts on “How to Become a Data Scientist” more often than I care to admit. Much of this comes from a fear that after doing all this work on the PhD and then hitting the Music Theory job market, I won’t fit the mold of the kind of theorist most schools want to hire. Not coming from &lt;a href=&#34;https://pushpullfork.com/music-theory-job-market/&#34;&gt;one of five schools that seem to have a monopoly on the tenure track jobs&lt;/a&gt; can be a bit discouraging, but I also won’t deny that having a non-academic job with a regular 9-5 schedule and a &lt;a href=&#34;https://www.glassdoor.com/Salaries/data-scientist-salary-SRCH_KO0,14.htm&#34;&gt;decent salary&lt;/a&gt; is pretty tempting after spending the vast majority of my twenties in school. And even if I don’t go on over to industry after the PhD, I’ll probably always be looking for a bit more work in summer.&lt;/p&gt;
+&lt;p&gt;I read &lt;a href=&#34;https://medium.com/&#34;&gt;Medium&lt;/a&gt; blog posts on “How to Become a Data Scientist” more often than I care to admit.
+Much of this comes from a fear that after doing all this work on the PhD and then hitting the Music Theory job market, I won’t fit the mold of the kind of theorist most schools want to hire.
+Not coming from &lt;a href=&#34;https://pushpullfork.com/music-theory-job-market/&#34;&gt;one of five schools that seem to have a monopoly on the tenure track jobs&lt;/a&gt; can be a bit discouraging, but I also won’t deny that having a non-academic job with a regular 9-5 schedule and a &lt;a href=&#34;https://www.glassdoor.com/Salaries/data-scientist-salary-SRCH_KO0,14.htm&#34;&gt;decent salary&lt;/a&gt; is pretty tempting after spending the vast majority of my twenties in school.
+And even if I don’t go on over to industry after the PhD, I’ll probably always be looking for a bit more work in summer.&lt;/p&gt;
 &lt;p&gt;On top of all of that, I believe that skills that are acquired in a PhD (especially if you do computational musicology and music cognition!) are very transferable to most jobs, and it’s just a matter of being a bit more pro-active in promoting myself that might help me one day land a stable, non-academic job.&lt;/p&gt;
-&lt;p&gt;That said, one tweet I saw last week by &lt;a href=&#34;https://twitter.com/kierisi&#34;&gt;Jesse Meagan&lt;/a&gt; linked to this really interesting Linked-In post by &lt;a href=&#34;https://twitter.com/tanyacash21&#34;&gt;Tanya Cashorali&lt;/a&gt; that purported to have a &lt;a href=&#34;https://www.linkedin.com/pulse/how-hire-test-data-skills-one-size-fits-all-interview-tanya-cashorali/&#34;&gt;one size fits all data-science interview process&lt;/a&gt; which has candidates take home a big dataset with a bunch of beer reviews and answer four very broad questions. Considering myself an aficionado of How-To-Become-a-Data Scientist articles, this of course caught my eye.&lt;/p&gt;
-&lt;p&gt;After reading the article, I figured why not give it a go? It’s the start of the semester, I’m basically ABD, need more of a portfolio beyond &lt;a href=&#34;www.github.com/davidjohnbaker1&#34;&gt;my github&lt;/a&gt;, and I have nothing to do with my Saturday morning. Why not see what I can produce in 4 or 5 hours? At the very least I’ll hopefully just have something to point to if a future employer wants to see how I think through data-science problems.&lt;/p&gt;
-&lt;p&gt;And if anyone is reading this that does have comments on my code or thought process… please let me know what you think on &lt;a href=&#34;www.twitter.com/DavidJohnBaker&#34;&gt;Twitter&lt;/a&gt;! I’d love some feedback!&lt;/p&gt;
+&lt;p&gt;That said, one tweet I saw last week by &lt;a href=&#34;https://twitter.com/kierisi&#34;&gt;Jesse Meagan&lt;/a&gt; linked to this really interesting Linked-In
+post by &lt;a href=&#34;https://twitter.com/tanyacash21&#34;&gt;Tanya Cashorali&lt;/a&gt; that purported to have a &lt;a href=&#34;https://www.linkedin.com/pulse/how-hire-test-data-skills-one-size-fits-all-interview-tanya-cashorali/&#34;&gt;one size fits all data-science interview process&lt;/a&gt; which has candidates take home a big dataset with a bunch of beer reviews and answer four very broad questions.
+Considering myself an aficionado of How-To-Become-a-Data Scientist articles, this of course caught my eye.&lt;/p&gt;
+&lt;p&gt;After reading the article, I figured why not give it a go?
+It’s the start of the semester, I’m basically ABD, need more of a portfolio beyond &lt;a href=&#34;www.github.com/davidjohnbaker1&#34;&gt;my github&lt;/a&gt;, and I have nothing to do with my Saturday morning.
+Why not see what I can produce in 4 or 5 hours?
+At the very least I’ll hopefully just have something to point to if a future employer wants to see how I think through data-science problems.&lt;/p&gt;
+&lt;p&gt;And if anyone is reading this that does have comments on my code or thought process… please let me know what you think on &lt;a href=&#34;www.twitter.com/DavidJohnBaker&#34;&gt;Twitter&lt;/a&gt;!
+I’d love some feedback!&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;exploring-the-dataset&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Exploring the Dataset&lt;/h2&gt;
@@ -636,17 +670,13 @@ ggplot(dd.beers.2, aes(x = abv, y = mean_overall, label = beer_name_unique, colo
 #=====================================================================================#
 # Library
 library(ggplot2)
-library(data.table)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Warning: package &amp;#39;data.table&amp;#39; was built under R version 3.4.2&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(stringr)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Warning: package &amp;#39;stringr&amp;#39; was built under R version 3.4.3&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#=====================================================================================#
-beer &amp;lt;- fread(&amp;quot;data/beer_reviews.csv&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## 
-Read 63.7% of 1586614 rows
-Read 1586614 rows and 13 (of 13) columns from 0.168 GB file in 00:00:03&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#=====================================================================================#&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The dataset has about 1.5 million observations across 14 different observations, so don’t try to open it in LibreOffice. The reviews come from a variety of different users that have rated the beers based on five different attributes (Appearance, Palate, Aroma, Taste, Overall) and then each beer has a few other variables listed such as its ABV, the brewery it comes from, the beer’s name (duh), and what kind of beer it is.&lt;/p&gt;
+library(data.table)
+library(stringr)
+#=====================================================================================#
+beer &amp;lt;- fread(&amp;quot;data/beer_reviews.csv&amp;quot;)
+#=====================================================================================#&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The dataset has about 1.5 million observations across 14 different observations, so don’t try to open it in LibreOffice.
+The reviews come from a variety of different users that have rated the beers based on five different attributes (Appearance, Palate, Aroma, Taste, Overall) and then each beer has a few other variables listed such as its ABV, the brewery it comes from, the beer’s name (duh), and what kind of beer it is.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;names(beer)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;##  [1] &amp;quot;brewery_id&amp;quot;         &amp;quot;brewery_name&amp;quot;       &amp;quot;review_time&amp;quot;       
 ##  [4] &amp;quot;review_overall&amp;quot;     &amp;quot;review_aroma&amp;quot;       &amp;quot;review_appearance&amp;quot; 
@@ -706,15 +736,21 @@ Read 1586614 rows and 13 (of 13) columns from 0.168 GB file in 00:00:03&lt;/code
 ## 103:                           Sahti
 ## 104: Bière de Champagne / Bière Brut&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;From a bird’s eye view we have 56,857 unique beers in 104 different categories from 5,743 different breweries and 33,388 unique beer aficionados who have gone out of their way to tell this website what they think about the beers they drink.&lt;/p&gt;
-&lt;p&gt;Before diving in further, it’s worth doing a preliminary check of the quality of the data (aka we should know if this is BAD (Best Available Data) or has undergone a fair deal of cleaning). As someone who comes from more of a psychology background, I’ve noticed what certain people consider “clean” when it comes to data varies a lot.&lt;/p&gt;
-&lt;p&gt;The first thing I check for is if there is any kind of data missing and if there is, is it due to chance? Or is it due to some sort of systematic variation?&lt;/p&gt;
+&lt;p&gt;Before diving in further, it’s worth doing a preliminary check of the quality of the data (aka we should know if this is BAD (Best Available Data) or has undergone a fair deal of cleaning).
+As someone who comes from more of a psychology background, I’ve noticed what certain people consider “clean” when it comes to data varies a lot.&lt;/p&gt;
+&lt;p&gt;The first thing I check for is if there is any kind of data missing and if there is, is it due to chance?
+Or is it due to some sort of systematic variation?&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;table(complete.cases(beer))&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## 
 ##   FALSE    TRUE 
 ##   67785 1518829&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;67785/1518829&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## [1] 0.04462978&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;So about 4% of our rows don’t have every entry, so probably not too much cause for concern unless we start getting into specific questions about specific beers. Looking into this a bit further it seems like it’s just beers missing the ABV of the beer. Anyone who has made some beer ratings has made ratings on all five variables. And although it’s only 4% of our entire ratings that don’t have their ABV, comparing that to every beer we have, we see we are actually missing ~25% of the ABV ratings of all of our beers. That could be a problem later, but it’s good to know about it sooner rather than later.&lt;/p&gt;
+&lt;p&gt;So about 4% of our rows don’t have every entry, so probably not too much cause for concern unless we start getting into specific questions about specific beers.
+Looking into this a bit further it seems like it’s just beers missing the ABV of the beer.
+Anyone who has made some beer ratings has made ratings on all five variables.
+And although it’s only 4% of our entire ratings that don’t have their ABV, comparing that to every beer we have, we see we are actually missing ~25% of the ABV ratings of all of our beers.
+That could be a problem later, but it’s good to know about it sooner rather than later.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;beer.complete &amp;lt;- beer[complete.cases(beer)]
 
 beer[!complete.cases(beer)][, .(.N = unique(beer_name))]&lt;/code&gt;&lt;/pre&gt;
@@ -745,7 +781,9 @@ beer[!complete.cases(beer)][, .(.N = unique(beer_name))]&lt;/code&gt;&lt;/pre&gt
 &lt;/div&gt;
 &lt;div id=&#34;which-brewery-produces-the-strongest-beers-by-abv&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Which brewery produces the strongest beers by ABV%?&lt;/h2&gt;
-&lt;p&gt;Answering the first question on the list is pretty straight forward. Essentially all you need to do is grab all of the observations that have an ABV associated with their rating, and then get the average ABV of all the beers that that brewery produces.&lt;/p&gt;
+&lt;p&gt;Answering the first question on the list is pretty straight forward.
+Essentially all you need to do is grab all of the observations that have an ABV associated with their rating, and then
+get the average ABV of all the beers that that brewery produces.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Use object before that has only ratings with ABVs 
 beer.complete[, .(AvgABV = mean(beer_abv)), by = brewery_name]&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;##                       brewery_name   AvgABV
@@ -778,7 +816,10 @@ abv.counter&lt;/code&gt;&lt;/pre&gt;
 ## 5154:                      Fentimans Ltd.  1.3750000  1.6201852
 ## 5155:                        Borodino ZAO  0.9666667  0.4041452
 ## 5156:                    All Stars Bakery  0.5000000  0.0000000&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Having this table could be good enough for government work, but looking at the output there are clearly problems, and one thing to consider in this table (and pretty much this whole dataset) is “Is this data point a good representation of what I am trying to measure?”. Note for example the huge variability as measured by the standard deviation in our top answer as well as the fact that some of the SDs have NAs and there is a value of 0. Given that, I think it’d be good to put on some sort of threshold that would up the quality of our answers. One way to do this would be to see exactly how many beers each brewery makes and use that as a proxy for how big the brewery is.&lt;/p&gt;
+&lt;p&gt;Having this table could be good enough for government work, but looking at the output there are clearly problems, and one thing to consider in this table (and pretty much this whole dataset) is “Is this data point a good representation of what I am trying to measure?”.
+Note for example the huge variability as measured by the standard deviation in our top answer as well as the fact that some of the SDs have NAs and there is a value of 0.
+Given that, I think it’d be good to put on some sort of threshold that would up the quality of our answers.
+One way to do this would be to see exactly how many beers each brewery makes and use that as a proxy for how big the brewery is.&lt;/p&gt;
 &lt;p&gt;The code below does just that and reveals the variability in terms of size of breweries within this dataset.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Create table that counts number of beers 
 NoOfBeers &amp;lt;- beer.complete[, .(NameOfBeer = unique(beer_name)), 
@@ -867,7 +908,8 @@ hist(NoOfBeers$N, breaks= 200,
 ## 3:  3.075935  4.539520
 ## 4:  1.658347  4.274244
 ## 5:  3.578800  4.207793&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Doing it this way puts Schorschbräu as the highest ABV brewery, which makes sense because &lt;a href=&#34;https://www.beeradvocate.com/beer/profile/6513/51466/?ba=wordemupg&#34;&gt;they claim to make the world’s strongest beer&lt;/a&gt;. Making a quick plot of the data for our winner and the second place finisher, we see how strong Schorschbräu really is.&lt;/p&gt;
+&lt;p&gt;Doing it this way puts Schorschbräu as the highest ABV brewery, which makes sense because &lt;a href=&#34;https://www.beeradvocate.com/beer/profile/6513/51466/?ba=wordemupg&#34;&gt;they claim to make the world’s strongest beer&lt;/a&gt;.
+Making a quick plot of the data for our winner and the second place finisher, we see how strong Schorschbräu really is.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;schor.abv &amp;lt;- beer.complete[brewery_name == &amp;quot;Schorschbräu&amp;quot;, 
                            .(beer_name = unique(beer_name)), by = beer_abv]
 
@@ -886,8 +928,12 @@ ggplot(brassOrg.abv, aes(x = beer_name, y = beer_abv)) +
         y = &amp;quot;ABV&amp;quot;) +
    theme(axis.text.x=element_text(angle = -90, hjust = 0)) + ylim(0, 60) &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;/post/2018-01-14-hire-me-as-a-data-scientist-part-i_files/figure-html/unnamed-chunk-8-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;I think that saying Schorschbräu is technically correct here, but after sharing my findings with my one beer drinking friend he pointed out that one thing that this analysis did not take into account was that beers that are traditionally brewed to have a higher ABV (like IPAs and Belgiums) might skew my results. So if you are a big IPA brewery, you are going to have higher average ABV because of the beers you decide to brew!&lt;/p&gt;
-&lt;p&gt;So in the true spirit of that &lt;a href=&#34;http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram&#34;&gt;data science Venn diagram&lt;/a&gt; noting that data scientists need to be flexible in incorporating others’ domain knowledge, I did another analysis to just show how much an answer can change depending on how you change your operationalization of the question!&lt;/p&gt;
+&lt;p&gt;I think that saying Schorschbräu is technically correct here, but after sharing my findings with my one beer drinking friend
+he pointed out that one thing that this analysis did not take into account was that beers
+that are traditionally brewed to have a higher ABV (like IPAs and Belgiums) might skew my results.
+So if you are a big IPA brewery, you are going to have higher average ABV because of the beers you decide to brew!&lt;/p&gt;
+&lt;p&gt;So in the true spirit of that &lt;a href=&#34;http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram&#34;&gt;data science Venn diagram&lt;/a&gt; noting that data scientists need to be flexible in
+incorporating others’ domain knowledge, I did another analysis to just show how much an answer can change depending on how you change your operationalization of the question!&lt;/p&gt;
 &lt;p&gt;Let’s do another one!&lt;/p&gt;
 &lt;p&gt;First up for this one is making a plot of the data to see how much beers actually vary from type to type.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Get mean and SD of each beer type 
@@ -908,12 +954,10 @@ ordered.abv.by.type$beer_style &amp;lt;- factor(ordered.abv.by.type$beer_style, 
 #       y = &amp;quot;Mean ABV, bars represent SD&amp;quot;) +
 #  geom_errorbar(aes(ymin=MeanAbvType-SdAbvType, ymax=MeanAbvType+SdAbvType)) +
 #  theme_bw()&lt;/code&gt;&lt;/pre&gt;
-&lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;/img/abvtemp.png&#34; /&gt;
-
-&lt;/div&gt;
+&lt;p&gt;&lt;img src=&#34;/img/abvtemp.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;So you can see here that if you wanted to have a higher ABV on average for your brewery, you’d benefit from having more IPAs, Barley Wines, and Belgian Stouts.&lt;/p&gt;
-&lt;p&gt;Now with average ABV for each beer, let’s then match that to our big list, find how each beer fairs against its own category, sort them, and then combine them with our information from before on how big the brewery is. For the purposes of this example, let’s only look at breweries that have over 100 beers in the database and look the top 20.&lt;/p&gt;
+&lt;p&gt;Now with average ABV for each beer, let’s then match that to our big list, find how each beer fairs against its own category, sort them, and then combine them with our information from before on how big the brewery is.
+For the purposes of this example, let’s only look at breweries that have over 100 beers in the database and look the top 20.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Combine ABV per type data with complete data
 beer.complete.avg.abv &amp;lt;- abv.by.type[beer.complete, on = &amp;quot;beer_style&amp;quot;]
 # Make new z score variable based on other beers in group
@@ -949,9 +993,10 @@ BreweryAndAvgAbv[N &amp;gt; 100][order(-AvgAbvZ)][1:25]&lt;/code&gt;&lt;/pre&gt;
 ## 22:                Willimantic Brewing Co. -0.28003004 134
 ## 23:     John Harvard&amp;#39;s Brewery &amp;amp; Ale House -0.29598861 151
 ## 24:          Minneapolis Town Hall Brewery -0.41963873 243
-## 25:                                     NA          NA  NA
+## 25:                                   &amp;lt;NA&amp;gt;          NA  NA
 ##                               brewery_name     AvgAbvZ   N&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Looking at this list, we get a totally different answer. It appears that on average &lt;a href=&#34;https://www.beeradvocate.com/beer/profile/2097/&#34;&gt;Kuhnhenn Brewing Company&lt;/a&gt; brews their beers 1.26 standard deviations above the mean of all other beers in that category!&lt;/p&gt;
+&lt;p&gt;Looking at this list, we get a totally different answer.
+It appears that on average &lt;a href=&#34;https://www.beeradvocate.com/beer/profile/2097/&#34;&gt;Kuhnhenn Brewing Company&lt;/a&gt; brews their beers 1.26 standard deviations above the mean of all other beers in that category!&lt;/p&gt;
 &lt;p&gt;Both answers could be technically correct, but more importantly demonstrate how important it is to come up with how you frame your question first, and then try to answer it so you don’t end up going on a fishing expedition!&lt;/p&gt;
 &lt;p&gt;Moving on to question #2!&lt;/p&gt;
 &lt;/div&gt;
