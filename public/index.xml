@@ -11,6 +11,67 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Sempre Grad Conference, 2019</title>
+      <link>/post/sempre-grad-conference-2019/</link>
+      <pubDate>Thu, 28 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/sempre-grad-conference-2019/</guid>
+      <description>&lt;p&gt;Since I am planning on spending the whole day today writing, I figured: What better way to warm up to some writing than with some writing?&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;
+And what better way to get the juices flowing than to write about the wonderful experience that was the &lt;a href=&#34;https://www.sempre.org.uk/&#34;&gt;Sempre&lt;/a&gt; graduate student conference at Cambridge this past Monday.&lt;/p&gt;
+&lt;p&gt;If you’re reading this in North America, you might not be familiar with Sempre, so for the uninitiated, Sempre or the Society for Education, Music and Psychology Research is a professional organization in the UK dedicated towards bringing together those in various fields of music, but specifically music education and music psychology.
+I don’t think we really have something like this in the USA.
+The music psychology people tend to hang out at the &lt;a href=&#34;http://www.musicperception.org/&#34;&gt;Society for Music Perception and Cognition&lt;/a&gt;, and I am kind of embarrassed that off the top of my head I don’t know where graduate students in music education might submit research they are working on to present to their peers?
+According to &lt;a href=&#34;https://www.sempre.org.uk/about/1-background&#34;&gt;Sempre’s website&lt;/a&gt;, they’re very keen on helping out researchers at the start of their career and having this graduate conference is just one of the ways they do that.&lt;/p&gt;
+&lt;p&gt;The conference this week was a short and sweet one-day affair held at the Faculty of Music at Cambridge.
+Of course the weather was perfect that day, but luckily all the talks made it worth it to sit indoors all day.
+Ian Cross welcomed everyone with a short the opening address and if my memory serves me correctly, he noted there were about 80 submissions to this conference.
+He said most of those submissions did happen to come the day of the deadline, which is quite in line with any stereotypes one may have about graduate students.
+But thinking about that, I feel like if all professional music organizations were to release the timestamp data of their abstract submissions, there wouldn’t be a single one that didn’t exhibit an exponential growth in submissions in the hours leading to the deadline.&lt;/p&gt;
+&lt;p&gt;After his short introduction, the keynote speaker Martin Rohrmeier, head of the &lt;a href=&#34;https://dcml.epfl.ch/&#34;&gt;Digital and Computational Musicology Lab&lt;/a&gt; at &lt;a href=&#34;https://en.wikipedia.org/wiki/%C3%89cole_Polytechnique_F%C3%A9d%C3%A9rale_de_Lausanne&#34;&gt;École Polytechnique Fédérale de Lausanne&lt;/a&gt; was introduced.
+Martin’s talk surveyed a lot of his previous work on using computational tools to model various aspects of tonality which showcased the work of his graduate students in attendance that day.
+He also presented an overview of his lab’s work looking at &lt;a href=&#34;https://www.pnas.org/content/pnas/110/38/15443.full.pdf&#34;&gt;hierarchical, embedded structures within larger forms&lt;/a&gt;.
+All of this empirical work then was tied together with what Martin put forward as a possible general theory of cognition and aesthetics that would be available to the listener, were they to choose, to engage deeply with a work of art.&lt;/p&gt;
+&lt;p&gt;Knowing his audience as the next generation of music researchers, he made several pleas throughout his talk to encourage future work in music to work at the intersection between music theory, music psychology, and computer modeling.
+This is an idea often gets poked at over here in Europe quite explicitly, but seems to live more as a tacit assumption in a lot of work in North America unless you’re at a talk by David Huron.&lt;/p&gt;
+&lt;p&gt;The rest of the day took an ABA form with five minute flash talks surrounding a longer 12 minute talk session and the poster session scheduled for lunch.
+As I tweeted earlier, I was skeptical of the five minute talks at first, thinking “How could people cram all they need to say into five minutes?!”&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt; but seeing as this was only a one-day conference that was more about community building rather than getting in the nitty gritty about methods, the format worked well.
+Because of it, in a one-day session we were able to hear about the research of 20 graduate students on a diversity of topics (not even including the 25 posters at lunch!).&lt;/p&gt;
+&lt;p&gt;Almost all of the talks in the morning session addressed issues at the intersection of music and well-being with the exception of a paper by Daniel Harasim looking at unsupervised machine learning methods to examine jazz harmonies.
+Listening to all these talks only reiterated assertions made earlier in the keynote of how many human resources are needed in order to push knowledge limits in the field of music.&lt;/p&gt;
+&lt;p&gt;The start of the afternoon session was reminiscent of last summer’s multi-hub ICMPC conference as the winner of Sempre’s &lt;a href=&#34;https://www.sempre.org.uk/awards/hickman&#34;&gt;Hickman&lt;/a&gt; award, &lt;a href=&#34;https://twitter.com/LAWarrenburg&#34;&gt;Lindsay Warrenbug&lt;/a&gt;, skyped into the conference to deliver her paper on Melancholy and Grief in Music.
+It’s nice to see the music science community putting their money where their mouth is on making remote presentations a possibility for presenters (something also heavily advocated for by the &lt;a href=&#34;https://sites.google.com/site/sysmusconference/&#34;&gt;SysMus Series&lt;/a&gt;).
+Not to throw shade, but this is something that my home discipline of Music Theory needs to do a bit of catch-up on.&lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;
+I look forward to the inevitable SMT Discuss or Twitter feud where we discuss if a person who can’t be to the national meeting in-person should instead be swapped out for someone who can.&lt;/p&gt;
+&lt;p&gt;The rest of the talks in the afternoon were all extremely interesting.
+It’s hard to go through and single out work I was loving since most of the work I liked was done by people who were good friends, but one paper that I feel like the theory and psychology community should be looking out for very soon was the work by &lt;a href=&#34;https://twitter.com/pmcharrison&#34;&gt;Peter Harrison&lt;/a&gt; and his advisor Marcus Pearce.
+In 12 minutes, Peter was able to explain the current theories in the literature surrounding instantaneous consonance and dissonance (is it periodicity, is it spectral interference, is it cultural familiarity?), introduce an aggregated behavioral datasets from four prior studies where participants rated various sonorities, then introduce a new R package, &lt;a href=&#34;https://github.com/pmcharrison/incon&#34;&gt;“incon”&lt;/a&gt; that they used to computationally model 15 models of consonance to get to the bottom of the story.
+If you’re interested in his findings, I know he also has a &lt;a href=&#34;https://psyarxiv.com/6jsug/&#34;&gt;pre-print&lt;/a&gt; of it out right now.&lt;br /&gt;
+I only mention his paper in detail because I think what he is doing is very in line with the music theory world and will hopefully start an interesting conversation once it gets published.&lt;/p&gt;
+&lt;p&gt;By the end of the day we’d have heard talks on musical chills, emotions and music, using music to help rehabilitate stroke survivors, music’s role maternal mental health in The Gambia, and posters on topics from more traditional music theory (thinking about hierarchical voice leading structure ala Schenker with Graph Transformations) to decentering the dominant discourse of the ‘Dead White Men’ cannon.
+It was a great day.
+Not only did the conference have a diversity of talks, but of the 20 talks, there appeared to be 50/50 split in the gender of the speakers.
+I only note that so when the inevitable “But is it even possible to have a conference where we just have men talk?!” question arise, there’s documentaiton of this happening.&lt;/p&gt;
+&lt;p&gt;Going to this conference and thinking about things like the &lt;a href=&#34;https://slate.com/technology/2019/03/google-doodle-bach-ai-music-generator.html&#34;&gt;general rage from last week regarding the Google Doodle&lt;/a&gt; made it very clear that there are many, many ways to do music research.
+It made me wish that there were more conferences that follow this design beyond the graduate level.
+I am only lamenting about this because if all goes well in May, this past Sempre conference will have been my last as a graduate student.&lt;/p&gt;
+&lt;p&gt;Of course this brings up ideas about the “point” of the conference, but one important “point” is that I don’t think conferences should just be be about apex research at its final moment of metamorphosis before publication.
+I feel like we as researchers need more of a chance to air out our ideas in a less, shall I say… performative setting.
+I obviously acknowledge that the content and subject matter with a conference like this is very different to that of AMS or SMT, but honestly think that the culture of something like Sempre is much closer to what people want and need.&lt;/p&gt;
+&lt;p&gt;This is especially true for early career researchers where point is to build relationships, explore new ideas, and not start to drink that academic Kool Aid right away since numerically speaking we will not all be academics, but will hopefully all engage in some kind of music research.
+I’m also advocating for this because I’m currently in the peak of my PhD isolation phase now writing and going to this and being inspired by peers is what I think I’ll need to cross the finish line.&lt;/p&gt;
+&lt;p&gt;So big thanks to Sempre for hosting it, allowing for a day of intellectual curiosity, and continuing to grow a healthy network of next generation of researchers.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;My thought yesterday morning, posting it a day later&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;In retrospect, an obvious personal projection&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;Which I only mention as persona grivence since I was not able to present some of my own work this year at a conference I attened to and was not able to attend because of travel…&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Digital Representations</title>
       <link>/post/digital-representations/</link>
       <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
@@ -662,97 +723,6 @@ question4.means&lt;/code&gt;&lt;/pre&gt;
 &lt;h2&gt;Reflections&lt;/h2&gt;
 &lt;p&gt;What started out as a fun weekend project actually turned into a really great learning experience. I’ve definitely put a few solid hours into this and have gotten a lot out of it. I learned that my friends actually know a TON about beer and data science, that &lt;a href=&#34;https://git-lfs.github.com/&#34;&gt;git-lfs&lt;/a&gt; is something I wish I would have known about earlier, and that I’m actually looking forward to doing more blogging in the future.&lt;/p&gt;
 &lt;p&gt;I will probably have to go MIA for the next two weeks since my General Exams are coming up in early February, but I’m sure I will be back at it come late March. Until then, all I can hope for is that someone who is looking to hire a junior data scientist over the summer will come across these posts and think I might be a good temporary addition to their team.&lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hire Me (as a Data Scientist!), Part III</title>
-      <link>/post/hire-me-as-a-datascientist-part-iii/</link>
-      <pubDate>Sun, 28 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/hire-me-as-a-datascientist-part-iii/</guid>
-      <description>&lt;p&gt;Two questions down, two to go! For the third post I’ll explore the question:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Which of the factors (aroma, taste, appearance, palate) are most important in determining the overall quality of a beer?&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Whereas the posts before were questions on sorting data, this is our first attempt to make some statistical models. In this case, we’re going to be doing a bit of regression modeling.&lt;/p&gt;
-&lt;p&gt;There are a couple of ways to tackle this problem. We could run some basic linear regression models and spend the whole post talking beta coefficients and what assumptions we violated. We could do a linear mixed effects model, then realize that doing so would be a terrible choice (I tried it for the fun of it, bad idea). Or we do a fun non-parametric, machine learning model that is on the easier-to-interpret side. Since machine learning is so hot right now, let’s stick with that.&lt;/p&gt;
-&lt;div id=&#34;machine-learning-and-non-parametric-models&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Machine Learning and Non-Parametric Models&lt;/h2&gt;
-&lt;p&gt;Non-parametric models make no assumptions about the data. The models do not assume that our points come from beautiful, normally distributed ideal populations; they just seek to find some way to give us a good rule of thumb about what is happening under the hood.&lt;/p&gt;
-&lt;p&gt;In this case, we need to make a model to predict the quality of beer (our dependent variable, &lt;code&gt;review_overall&lt;/code&gt;) based on four different independent variables (&lt;code&gt;review_aroma&lt;/code&gt;, &lt;code&gt;review_taste&lt;/code&gt;, &lt;code&gt;review_appearance&lt;/code&gt;, &lt;code&gt;review_palate&lt;/code&gt;).&lt;/p&gt;
-&lt;p&gt;After discussing the pros and cons of certain methods for tackling this problem, my friend &lt;a href=&#34;https://www.linkedin.com/in/tabitha-trahan-172471b4/&#34;&gt;Tabi&lt;/a&gt;, the data scientist over at &lt;a href=&#34;https://www.soundout.com/&#34;&gt;Soundout&lt;/a&gt;, suggested that an easy way to get the answer I was looking for was to use a random forest model. Some great explanations about how these models work can be found &lt;a href=&#34;http://trevorstephens.com/kaggle-titanic-tutorial/getting-started-with-r/&#34;&gt;here&lt;/a&gt; and &lt;a href=&#34;http://www-bcf.usc.edu/~gareth/ISL/&#34;&gt;here&lt;/a&gt;, and &lt;a href=&#34;https://gormanalysis.com/random-forest-from-top-to-bottom/&#34;&gt;here&lt;/a&gt; and since this isn’t a post about how random forest models work, I’ll just note that basically the idea is that it is an algorithm that partitions your dataset into dimensions that help us either classify or predict observations in our dataset based on the variables you feed it. Relevant to our question: the ways in which the algorithm splits our dataset is going to help us figure out what are the important variables.&lt;/p&gt;
-&lt;p&gt;Before running this model though, we need to talk about a small dependence problem in our dataset. In my earlier post, I talked about how we probably should not just run a model on the data &lt;em&gt;as is&lt;/em&gt;. Last time we found there were tons of NAs in our dataset, that not all beers were equally represented, and that not all reviewers were making even amounts of reviews. In addition to these problems, there was also the problem that some reviewers might rate generally higher or lower &lt;em&gt;all the time&lt;/em&gt;. Since we know things like this exist, we wanted to account for them.&lt;/p&gt;
-&lt;p&gt;The simplest plan of action would be to try and make each of the points we want to model independent by averaging ratings across all beers so we don’t have cases where one person’s influence is spread across multiple beers. We also make sure to only use beers that have over 30 ratings as a quality check. Let’s index out the data we need!&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(ggplot2)
-library(data.table)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Warning: package &amp;#39;data.table&amp;#39; was built under R version 3.4.2&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;beer &amp;lt;- fread(&amp;quot;data/beer_reviews.csv&amp;quot;) &lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## 
-Read 69.3% of 1586614 rows
-Read 1586614 rows and 13 (of 13) columns from 0.168 GB file in 00:00:03&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Make READABLE unique beer ID
-beer[, beer_name_unique := paste(brewery_name,beer_name, beer_style)]
-
-# Only beers with over 30 reviews 
-reliable.beers &amp;lt;- beer[, .(ReviewsBeerHas = .N), by = beer_name_unique][order(-ReviewsBeerHas)][ReviewsBeerHas &amp;gt; 30]
-
-# Merge with Inner Join 
-beer.reliable &amp;lt;- reliable.beers[beer, on = &amp;quot;beer_name_unique&amp;quot;, nomatch=0]
-
-# Make independent ratings 
-prediction.data &amp;lt;- beer.reliable[, .(AvgOverall = mean(review_overall),
-         AvgAroma = mean(review_aroma),
-         AvgTaste = mean(review_taste),
-         AvgApp = mean(review_appearance),
-         AvgPal = mean(review_palate)), by = beer_name_unique]&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Now that we have some better data, let’s fit a random forest model. We are now attempting to predict the average overall rating from our four others measures. We’ll use the &lt;code&gt;randomForest&lt;/code&gt; package and make sure to ask it to include a measure of variable importance.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(randomForest)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Warning: package &amp;#39;randomForest&amp;#39; was built under R version 3.4.4&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## randomForest 4.6-14&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Type rfNews() to see new features/changes/bug fixes.&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## 
-## Attaching package: &amp;#39;randomForest&amp;#39;&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## The following object is masked from &amp;#39;package:ggplot2&amp;#39;:
-## 
-##     margin&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;set.seed(666) 
-random.forrest.fit &amp;lt;- randomForest(AvgOverall ~ AvgAroma + AvgTaste + AvgApp + AvgPal, data = prediction.data, importance = TRUE)
-random.forrest.fit$importance&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;##             %IncMSE IncNodePurity
-## AvgAroma 0.02441128      210.5021
-## AvgTaste 0.09918310      316.1375
-## AvgApp   0.01538637      194.8586
-## AvgPal   0.05592918      278.5960&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The randomForest object gives us two different measures when it comes to variable importance. The first one, &lt;code&gt;%IncMSE&lt;/code&gt;, is a measure that tells us how much our model’s Mean Square Error (MSE) would change if we were to take that variable out of our model. Average taste here is trouncing the other variables in terms of importance. The second variable, &lt;code&gt;IncNodePurity&lt;/code&gt; gives us a measure of node purity from all of the trees that were used in creating our model. Here Taste again leads in terms of importance, but our Palate variable seems to be close behind. We see this visually below.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;varImpPlot(random.forrest.fit, main = &amp;quot;Variable Importance Metrics&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2018-01-28-hire-me-as-a-datascientist-part-iii_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;The result that Taste seems to be taking the cake here is to be expected. Using some of the more basic tools of statistics and data science, we can look at the correlation between our taste variable and our overall, and it’s quite high. Actually looking at our average ratings, all of the correlations are really high!&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;cor(prediction.data[,-1])&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;##            AvgOverall  AvgAroma  AvgTaste    AvgApp    AvgPal
-## AvgOverall  1.0000000 0.8811997 0.9518908 0.8432381 0.9360091
-## AvgAroma    0.8811997 1.0000000 0.9591004 0.8954413 0.9365741
-## AvgTaste    0.9518908 0.9591004 1.0000000 0.8949545 0.9742687
-## AvgApp      0.8432381 0.8954413 0.8949545 1.0000000 0.9120654
-## AvgPal      0.9360091 0.9365741 0.9742687 0.9120654 1.0000000&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Doing the analysis with this data presents some strange issues of collinearity. Having an &lt;em&gt;r&lt;/em&gt; = .951 for our Overall and Taste variables is obnoxiously high. An &lt;em&gt;r&lt;/em&gt; = .974 for Palette and Taste is also strangely large. If you come from more of a psychology background, you would almost never see correlations this high in the wild; it would be an immediate sign for concern.&lt;/p&gt;
-&lt;p&gt;The correlations go down a bit if you end up looking at the non-aggregated sets too (see below), but again remember that these values have those dependence and outlier issues with them. Still, &lt;code&gt;review_taste&lt;/code&gt; and &lt;code&gt;review_overall&lt;/code&gt; are the highest correlated variables.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;cor(beer[, .(review_overall,review_aroma,review_appearance,review_palate,review_taste)])&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;##                   review_overall review_aroma review_appearance
-## review_overall         1.0000000    0.6160131         0.5017324
-## review_aroma           0.6160131    1.0000000         0.5610290
-## review_appearance      0.5017324    0.5610290         1.0000000
-## review_palate          0.7019139    0.6169469         0.5666339
-## review_taste           0.7898156    0.7167761         0.5469804
-##                   review_palate review_taste
-## review_overall        0.7019139    0.7898156
-## review_aroma          0.6169469    0.7167761
-## review_appearance     0.5666339    0.5469804
-## review_palate         1.0000000    0.7341351
-## review_taste          0.7341351    1.0000000&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;This effect is probably due to the fact that higher quality beers tend to score higher on everything. It would be pretty strange in practice to give a beer a 5/5 overall, but then think it’s deserving of a 2/5 in Taste. If I were on a team at Beer Advocate, I might suggest incorporating either a larger range of ratings (maybe a seven point scale) or maybe thinking about different dimensions to ask people to rate like ‘hoppiness’ or bang-for-your-buck. Variables like these would allow us to learn more about the beers since they would have less collinearity issues.&lt;/p&gt;
-&lt;p&gt;So the take-home here is that the taste variable is the most important variable for determining the overall rating and again we’re reminded about how messy this data is!&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
