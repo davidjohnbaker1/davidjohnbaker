@@ -1,0 +1,160 @@
+---
+title: brainwaves
+author: ~
+date: '2019-04-04'
+slug: brainwaves
+categories: []
+tags: []
+header:
+  caption: ''
+  image: ''
+highlight: yes
+math: no
+---
+
+This past year has been insanely busy because I have a very hard time saying no to projects.
+One that I failed to say "No" to but do not regret at all was a year-long project launching this week called _brainwaves_.
+We had our official launch event this past Thursday at the [Citizen M in Tower Hill](https://www.citizenm.com/destinations/london/tower-of-london-hotel) and there might be a bit of press in the coming days, so I now seems like the optimal time to take some time to reflect on the project and share a bit about it.
+
+## Background
+
+About a year ago, I got an email from my MSc. advisor [Daniel Müllenseifen](http://www.doc.gold.ac.uk/~mas03dm/) about the London based company [Soundcape](https://soundscapeagency.com/) who were looking to undertake a project marrying music and science.
+As someone always looking for summer work (thanks, 9 month PhD contracts...), I was first intriuged by the propect of getting a bit of work before pay checks restarted again in Fall, but more imporantly I was intriuged by what the project was about.
+
+The short version of it was that [Soundscape](https://soundscapeagency.com/) was planning on teaming up with both the [Erased Tapes](https://www.erasedtapes.com/) record label, the hotel chain [Citizen M](https://www.citizenm.com/), and [Bose](https://www.bose.co.uk/en_gb/index.html) in order to see if they could create an aesthetically pleasing album with music specifically composed to help alliviate the woes that travellers experience.
+Erased Tapes had put forward three artists to take part in the project, [Ben Lukas Boysen](https://benlukasboysen.com/), [Hogni](https://www.erasedtapes.com/artist/hogni), and [Michael Price](https://www.michaelpricemusic.com/) and needed someone from the research side to come on to the project in order to provide a some music science.
+Returning to my opening sentence, there was really no way that I was going to react to this offer and say "Nah, I think I'll pass".
+
+The project ticked many of the boxes that interest me.
+Chance to collaborate with major artist and an awesome record label?
+Check.
+Chance to design experiments to test a music perception related research question?
+Check.
+Chance to do applied music research on a prompt that appeals to both my inner theorist AND psychologist?
+Check.
+Basically, I didn't need much convincing.
+
+The project quite "big" and I haven't really taken much time to reflect on it, or even share about it, I wanted to share my own experiences with it.
+As I re-read this post, I realize that many of my posts recently have got a bit more rambly, so apologies in advance, but I have a lot to share on this one, so to help you focus, let this track play in the background.
+
+<iframe src="https://open.spotify.com/embed/track/0DBTEKky53REiLOrjqxg1B" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+## The Problem 
+
+As long as there have been writings about music, there has been a general interest in the link between musical structures and affective states. 
+If you're coming at this from a humanities background, the narrative might start with the Greeks and what they thought about modes and affective states^[Strunk, W. O. (1998). Source readings in music history (Vol. 1). W W Norton & Company., the chapter from Plato and The Republic], run into work on ragas^[Bor, J. (1999). The raga guide: A survey of 74 Hindustani rāgas. Rotterdam: Nimbus Records and Rotterdam Conservatory of Music., brief discussion on affect in an introductory guide], talk a bit about what Leonard Meyer had to say^[Meyer, L. B. (1956). Emotion and Meaning in Music. University of Chicago Press.], and then end with ways to get around the fact regarding [how studies of musical expression tend to just take into account the view of the person doing the analysis](http://mtosmt.org/issues/mto.18.24.3/mto.18.24.3.albrecht.html) and end realizing how messy and subjective it is.
+If you're coming at it from a pscyhology background, the narrative tends to start with the now debunked Mozart Effect^[Rauscher, F. H., Shaw, G. L., & Ky, C. N. (1993). Music and spatial task performance. Nature, 365(6447), 611.], and end with a more established literature on both the effects of [musical training](https://www.utm.utoronto.ca/~w3psygs/FILES/SwaminathanSchellenberg2018.pdf) and [background music]().
+This also crosses into territory reading if music emotions are dealing with felt verus percieved emotion^[Juslin, P. N., & Sloboda, J. (Eds.). (2011). Handbook of music and emotion: Theory, research, applications. Oxford University Press.], [different theories about it all](https://core.ac.uk/download/pdf/85216658.pdf), assertions that we are just dealing with mood^[Page 7 of Meyer 1956!], and intersects with definitions about emotions and feelings^[Damasio, A. R. (2003). Looking for Spinoza: Joy, sorrow, and the feeling brain. Houghton Mifflin Harcourt.].
+It's a topic that has been in discussion and will be in discussion for a while.
+
+But this project was a bit different in some regards.
+Instead trying to reseach a particular emotion, or set of emotions, the interest here was to think a bit more functionally about an affective state, then try to use music to get the listener there.
+The inspiration from the project came from the world of neuroscience.
+The general idea being that when the brain is in different conscious states, that the brain's osseclatory activity will be markedly different between states.
+Not only that, but there seems to be evidence to suggest that there is some sort of coupling between the patterns that peoopel are able to entrain to in music and the actual brain waves.
+This was also the focus of the most recent [So Strangely](http://sostrangely.com/episode-8/) podcast.
+
+The goal here was **not** to try to deterministically map oscilatory patterns in the music to that of neural activity.
+Instead, the idea was
+
+> If we know that different affective states exist AND are marked by different neurological markers, we can we create aestheically pleasing, immersive music that would help lead people to a specific state of mind.
+
+The idea is bold, but I think that gnarly quality of the question is what makes questions like this attractive to those in music science.
+
+So given this bold idea, how did we go about tackling this?
+Essentially the problem was two-fold.
+The first was to try to come up with prompts for the composers to give them some direction as to what we were generally interested in.
+The second was to then try to find a clever way to test the music to see if it was effective.
+Again, I want to make it clear that our goal was not to think that our mental model was handing the composers a list of musical features and then thinking that given these features, we would obtain an exact result.
+
+Rather, we wanted to work together to create tracks with certain function while simultaneously producing an aesthically pleasing piece of music for the record label.
+With the music created, the idea was to then test the music to see if it does what we hoped it would do.
+
+From an empirical perspective, this part was quite fun because it allowed for some creativity on the aspect of the researchers.
+I say researchers because I was not the only one working on this.
+[Cat Smyth](), an MSc. student at [Goldsmiths](https://www.gold.ac.uk/pg/msc-music-mind-brain/) and Soundcape employee at the time, also helped in the design and impornalty provided much of the ground work for running the experiments.
+Essentially what we had to do was come up with three different ways of measuring the effectiveness of the music for each situation.
+When answering a question like this you kind of find yourself between two worlds.
+On one side we have bleep bloop experiments from psychacoustics and the more, shall I say rigerous, world of cognitve psychology.
+Experimental stimuli are controlled, the designs attempt to be as air tight as possilbe, and you would never think about changing more than one variable at a time.
+On the other side we have the more ecologically valid experiments where on principle you might drag in an EDA machine into Bayreuth^[Vaitl, D., Vehrs, W., & Sternagel, S. (1993). Prompts-leitmotif-emotion: Play it again, Richard Wagner. The structure of emotion: Psychophysiological, cognitive, and clinical aspects, 169-189.] or do a live data collection.
+You can collect some data, but looking for repeatable effect sizes might be more difficult.
+
+In attempting to find a happy medium we tried to find proxy tasks that might best represent what each of the goal states.
+For the [Focus] state (what you might be listening to right now), we decided to use an [Attention Network Task](https://expfactory-experiments.github.io/attention-network-task/) which requires people to essentially focus on a very repeatitive task.
+For the anxiety state, Cat found a paper that used [VR in order to induce anxiety] that we took as inspiration for our design.
+The nice thing about not working within academic context is unlike the lab at MCCL, the team at Soundscape had a high quality virtual reality set that we used.
+The idea was to have people do simulation where they go up 50 stories up, stand on plank, then walk out on it
+I was a bit skeptical of it being anxiety inducing, but tried it for myself and as much as you think the VR is not real, part of my brain does not know the difference.
+Looking into this, I also found out there is a whole series of of [Youtube videos of people freaking out from being in VR.](https://www.youtube.com/watch?v=EqURblPPr5U)
+Lastly, we needed a way to track sleep patterns.
+For this we ran a small diary study using the [Pittsburgh Sleep Index](https://linkinghub.elsevier.com/retrieve/pii/0165178189900474) inspired by talking with my colleague [Tabi](https://www.linkedin.com/in/tabitha-trahan) who was quite knowledgeable as evident from the first author  [publication](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0206531) she had on it as a result of her MSc at Goldsmiths.^[This whole thing is pretty much turning into an add for Goldsmiths MSc. in Music, Mind and Brain I guess]
+
+Over the summer and fall we collected the data, ran into all the problems that you would get in an academic context, then once it all came in, we modeled it. 
+Luckily we got the results we were hoping for (Phew).
+We found least variability in responses in the Focus task, lowest amount of electrodermal activity in the Anxiety condition, and for the Sleep condition took we analyzed the data with a more qualitiative approach to look for themes in free text data along with differences using the PSQI. 
+It would have been great to run the whole thing as a between-subjects design, but that was just not possible given the constraints.
+
+Unlike academic research trajectories, we didn't take this straight to peer-review, but hopefully when things calm down we can at least get it written up in some sort of smaller journal to get it out there. 
+In the future, it'd be great to keep on exploring more aspects of this project.
+We might look at what happens with more conditions beyond our target, silence, and a control or maybe add in type-of-headphones with a factorial design since Bose is a partner in all of this.
+
+Throughout the project, I was a bit anxious at times. 
+Not working "at" any of the companies, but having financial inscentives seems to bring with it some implicit pressures of what the results _could_ be.
+Though when the conversation starts to smell like that, you just have to remind people that if you can't be wrong, you're really not doing research.
+And it's not like these pressures to find effects are exclusive to the world outside the Ivory Tower. 
+Most people aware of [what kind of problems exist](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0020124) when you inscentives novelty over truth.
+
+## Reducing My Anxiety 
+
+Trying to wrap this up, I just want to end with a few general thoughts.
+The first was that overall this was a really great learning experience.
+I'm very grateful to have had the chance to work in this context and play a role in a project that seemed to let the science parts be science-y and the art parts be art-y.
+The artists were so open minded in our conversations and produced some beatiful music as a result of it all.
+
+Through this project I got a taste of what some variations of industry as opposed to academic research might that look like.
+And imporantly, I got the oppertunity to really talk about things that I think are important to a more general audience.
+At our launch event this past Thursday, I wanted to get all [Two Cultures](https://en.wikipedia.org/wiki/The_Two_Cultures) and gush about how I think discussions between science and the humanities (if you even think that boundry exists) will lead to world peace.
+But I didn't, I tried to keep to the basics.
+I tried to do my best to communicate what we did to the best of my ability.
+
+That said, I will be interested to know what the press do with the soundclips.
+As early career research, I imagine a nightmare situation where the headlines will read something like:
+
+> Neuroscientist (wrong) Dr. (not yet) David Baker at Goldsmiths (not at Goldsmiths) says listening to tone at 400Hz will alliveiate anxiety because it takes over your brain (obviously not true).
+
+Typing this out makes me realize how absurd feeling anxious about this is, but given a press release that I did not write, you never know what's going to come out. 
+Twitter loves to pounce on any poorly reported article.
+Take for example the fury regarding that [math paper](https://www.technologyreview.com/s/612194/data-mining-reveals-the-hidden-laws-of-evolution-behind-classical-music/#), the [Vox incident](https://www.youtube.com/watch?v=xm4LO22-cyY), or any [article bestowing value judgement](https://www.pbs.org/newshour/science/computer-scientists-prove-80s-music-boring) on researchers looking at measures of complexity.
+
+Meditating on this I have two thoughts.
+The first is that at this point, it's now out of my hands and luckily have a blog where I can write my own thoughts.
+And the second is that if people do get huffy or snarky, I would fair to bet that their work (at any stage) has never been covered by the media (for better or worse).
+In many ways, I feel like one of the real purposes of this blog is to pre-empt that neuroses of mine.
+But more imporantly, I also did want to share about this experience because it was fun and did enjoy it.
+
+## Final Thoughts
+
+Overall it was a very practical application of the knowledge you get working in music psychology.
+This whole this is very different from what I am generally intersted in (e.g [my dissertation work memory for melodies](https://via.hypothes.is/https://davidjohnbaker1.github.io/document/index.html), working memory, [ontological assumptions that come with using latent variables in music psychology](https://journals.sagepub.com/doi/abs/10.1177/1029864918811879?journalCode=msxa)), but it was fun to do.
+Most importantly, this whole thing resulted in three very wonderful pieces of music.
+
+Practicing what I preach, I wrote this post listening to the Focus track.
+I think it helped.
+
+I love Hogni's track.
+
+<iframe src="https://open.spotify.com/embed/track/5UXapbSMDetGg5Y5DI182Z" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+It could be a whole separate blog post, but I love how intimate the recording is.
+If you listen closely, you can hear sounds from fingers sliding on strings to the action of the piano pedal.
+I really feel that this gives the track feeling of closeness, something that conceviably could alliviate one's anxiety.
+Ben Lukas Boysens' sleep track is also beatiful.
+And hope you give it a listen.
+
+<iframe src="https://open.spotify.com/embed/track/16WlPRF6bBLgPMvumBnqKY" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+Lastly, one thing that is very apparent from this whole experience is that there is clearly an appetite for this kind of work.
+As musicologists, theorists, and music psychologists I think it's important to talk about what it means to engage on projects that have a public face. 
+I don't know how much press it will get, but it does remind me that every so often someone will put a microphone in your face and ask you to talk about research and why it matters.
+
