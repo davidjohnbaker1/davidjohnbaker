@@ -1,5 +1,18 @@
 # Blog Topics 
 
+1. Introduction to post phd posts
+2. Hidden Curricula
+3. My opinions on asking questions
+4. UK + USA PhD
+
+* Write on topics where I know a lot about, tempted to make how-to guides
+* But they are on the internet, have bigger plans
+* Health in Grad School (weight, myfit, recipies, vegeteriamism) 
+
+## Almost Done 
+
+* Point of Masters
+
 ## First Principles
 
 * Want to write articles that are the kind that I'd want to watch when I am looking for something

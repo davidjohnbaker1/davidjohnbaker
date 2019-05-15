@@ -40,8 +40,7 @@ weight = 1
 
 # Biography
 
-David John Baker is a PhD candidate in Music Theory with a minor in Cognitive and Brain Sciences at Louisiana State University.
-He currently works in the Music Cognition and Computation Lab with Dr. Daniel Shanahan and Dr. Emily Elliott investigating how musical perception can be influenced by both musical structures, as well as individual differences.
-His dissertation uses tools from both cognitive psychology and computational musicology in order to better understand how people learn melodies. 
-In the past he has been funded by the UK's Arts and Humanities Research Council, the School of Music, and Psychology department at Louisiana State University.
-He is currently funded by LSU as a dissertation fellow after winning a campus-wide award for his project: **Modeling Melodic Dictation**.
+David John Baker is a music researcher and educator passionate about research questions at the intersection of music theory and music science. 
+His research looks to understand how the people learn melodies in order to improve pedagogical practices in aural skills education. 
+Using his background in the humanities and training in psychological sciences, David builds testable models of how people hear music.
+His overlapping quantitative skill set with the world of data science has also led him to both industry projects and work with non-profit organizations. 
