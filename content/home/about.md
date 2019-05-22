@@ -22,7 +22,7 @@ weight = 1
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD in Music Theory"
+  course = "Ph.D. in Music Theory"
   institution = "Louisiana State University"
   year = 2019
 
@@ -32,7 +32,7 @@ weight = 1
   year = 2014
 
 [[education.courses]]
-  course = "BM Instrumental Performance"
+  course = "B.M. Instrumental Performance"
   institution = "Baldwin Wallace University"
   year = 2012
  
