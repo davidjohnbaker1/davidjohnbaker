@@ -30,6 +30,14 @@ Lots of topics I want to talk about
 	resources avalible 
 	health 
 
+	- Note finally done
+	- What I might write about
+	- Way to self reflect in open for other PhD students
+	- trying to shed ID, but also important to let it out slowly 
+	- And also student Rep for SMPC, one thing I hated was how quickly people forget 
+	- Need Direction 
+	- Here are possible topics 
+
 
 Feel like one of the reasons I am attracted to the PhD is the stimulation.
 

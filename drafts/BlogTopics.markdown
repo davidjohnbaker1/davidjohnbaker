@@ -12,6 +12,24 @@
 ## Almost Done 
 
 * Point of Masters
+* Brainwaves
+
+## Draft Bay 
+
+* Point of Masters
+* Brainwaves 
+* Choosing PhD Question 
+* First Post PhD 
+	- Note finally done
+	- What I might write about
+	- Way to self reflect in open for other PhD students
+	- trying to shed ID, but also important to let it out slowly 
+	- And also student Rep for SMPC, one thing I hated was how quickly people forget 
+	- Need Direction 
+	- Here are possible topics 
+* Health in PhD and Weight
+* Writting Dissertation with Open Source Tools
+* Suggestions for PhD (Fresh)
 
 ## First Principles
 
@@ -23,6 +41,27 @@
 * Limit the creation of each post to an hour
 
 ## Topics 
+
+### Suggestions for PhD (Fresh)
+
+* Post on What I think (fresh out of the gate) was good and bad
+* And want to come back to this and reflect on what I said in five and ten years
+* But if wait to long, will not capture some of the freshness and anxiety of it
+* Good choices
+	- Investing in self 
+	- Trying to make lots of friends and connections (conferences) 
+	- Avoiding fad research (if someone made career w it in MT, probably too old now) 
+	- Which is concerning
+	- Informal learning 
+		- Jeff Perry
+		- Jacob Gran 
+		- Conversations with peers 
+	- Think about career diversity immediatly (easy to do with science_
+		- Numerically impossible
+		- Financially stupid not to
+		- Need to put money where mouth is 
+		- Value this via idea of internships
+		- remember from prior post, need to know if you're actually a flow junkie 
 
 ### PhD Life
 
