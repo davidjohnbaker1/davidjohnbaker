@@ -1,0 +1,86 @@
+Last Day at Toynbee
+
+After year, time is now up with time as residential volunteer worker at Toynbee Hall.
+Haven't been blogging about it much, but this is something that I've invested a lot of time in this year.
+
+Want to talk about two things.
+
+1. What was I even doing?
+2. What new ideas do I have that I want to share? 
+
+What I did while I was there.
+	- Taken on as Research and Evaluation residential voluenteer worker
+		- said one thing on the description 
+		- structure got shuffled around while I was there and broke off to just resarch
+		- basically, just like academia, roving position where played to strenths
+		- for me that included doing data, writing, organizing events, and some field research, training
+		- Notice here that job was very much like what academics are asked to be able to do 
+		- There were larger projects in need of addressing that needed to be reported on
+		- but not everythign is about the manuscript at the end , varying level projects
+		- seems obvious to people outside academic structure, but assume right now that is the readership 
+		- so might have big year long report, might instead have small local grant to write about 
+	- Job crafting for DS
+		- Lucky that I wasn't a full employee, so could do a bit of job crafting
+		- Tried to push towards all things data sciecne right away to see where theory met practice
+		- so as a result spent a lot of time, and i mean a lot of time, cleaning data
+		- taking it from pre-formatted excel sheets to make it tidy
+			- had survey data from money, relating it to income
+			- only by breaking it down to tidy can realize much of data people decided not to report (not mcar) 
+		- Then realy getting to know the data via visualsation and had Tukey/peng lightbulb moments
+		- Feel right into the datasciecne noob trap, wanted to do fancy algorithms I read about
+		- But time is much, much better served with simple visualizations of survey data
+		- Quickly realized that job is researcher, not data shaman
+		- So best thing to then do is to try to pass on ideas in training about best quant data practice
+			- collecting variables at lowest level 
+			- encourating free text responses 
+			- rephrasing questions for maximum granularity (income brackets vs income) 
+		- So TLDR had nice crash course in what you read in the blogs vs what you need by Friday
+	- Other "researcher"-y things
+		- Lots of writing, helped out on a lot of reports
+		- Ability to create a narrative is super important 
+		- thinking about the audience and what they know and point of getting information across
+		- Helping out on small things here or there (went out to do interviews for project, chance to run training)
+		- Also got to run the datathon which I've blogged about before.
+		- Most important to realize that skills doing research are applicabile
+		- Wanted to say same form with different content, but really same form with total differnt langauge and value structure (and diffrent content)
+		- Which leads to next point about what is new  
+And new thoughts I have
+	- If you want to help people, just go to a charity 
+		- lot of people struggle with what they do in the context of the world right now
+		- there is a whole divison of work out there trying to change that
+		- Instead of doubling down on focusing on papers where only you benefit practically
+		- instead say no to bubble over demands of academia so you have free time to also help 
+		- really thought a lot about this last point because some of the research that they do at Toynbee Hall
+	- When you do research, think about who benefits from it
+		- Bit of background it's a charity with very old roots
+		- idea was settlelemnt then go on to do other things
+		- A lot of people in area, especially older people go there for support 
+		- Which brings up interesting question, what does it mean to do research there?
+		- Academic--> long, cleansed route where stay objective and look to literature for answers, get published, turned to policy bc its real
+		- not only option
+		- Can instead just ask people what are their problems, bring them along in the process
+		- approach called PAR
+		- Idea is to have community be co-researchers in project, let them develop questions, and help throughout
+		- give example, easier to see how it changes from what is done in the tower
+		- imagine have project on needs of older people in local community
+		- could read up on it, make lit review, develop yet another survey, yada
+		- or could use connections in community to just ask older people
+		- they did this last year, got together team of co-researchers
+		- trained them, developed questions together, then used network of 20 older people to reach 400 in community
+		- not only gets representitive sample beyond slapping a turk up 
+		- but know in the process something like their access to information and isolation is a factor
+		- so in interviewing them and putting this in dialouge, able to give them information as to where to get support and friends
+		- even before months of rounds of submissions, able to have impact on the community
+		- and unlike tower model, when something gets published, can you really stare in the eyes of those who are oppresed and tell them they benefited?
+		- really calls into question beneficiaries of the time and effort that is put in to work. 
+		- Been a topic on my mind a lot now for many things I do: who benefits from this choice? 
+	- I think humanities PhDs should have similar placements
+		- y
+		- gets you out of the tower for a bit
+		- can actually apply the skills people tell you that you have rather than think you have
+		- langauge is totally different in how you present yourself and values of culture
+		- find out that you hate open office designs
+		- also chance to live a lifestyle outside of the tower grind
+		- might find out that you think it's music (or psych or whatever) that you love
+		- but really its research and helping people and being part of community with shared values
+		- 

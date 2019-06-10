@@ -1,0 +1,70 @@
+Thinking a lot about going to a theory conference.
+
+And also imporantly the differece between registration costs.
+
+First lay some basic principles.
+We have professional societies.
+Way of unifiying the field and idea is that they are going to look out for you.
+I pay my dues to SMT, get to go to conferences, Spectrum, also got to apply for things like dissertation award.
+
+Now not grad student, wonder how as card carrying theorist, how SMT serves me?
+And how does it serve others in terms of the goals it puts foward?
+
+One thing with national confernece is that it is very prestigious to present at.
+And have to be there to be part of it.
+See and be seen.
+And very encourged to go to really instill the values (like looking down at name tag).
+But is going practical for grad students?
+
+Amount to pay for grad students is X
+Amount for faculty to pay is X.
+Amount for adjunct people to pay is X.
+
+But what proportion of someone's salary is that?
+
+Did some math to figure that out.
+
+Got PhD stipends from a few friends from when they were a student.
+And going to assume that they have not changed much in a year.
+Plot them below.
+
+Then wondered how much a theorist makes.
+So used my SMT membership to get listing of professors at state schools on list.
+Sampled 10 state schools.
+Went to departments, found most recent salary I could find on website per department.
+Tried to match this up based on departments of graduate students from state schools.
+This will change for private.
+Schools are listed here, but blocked by region for anon.
+Don't yell at me, all this information is publicly availible.
+
+Plot here.
+
+Here are some general trends that I see from my sample.
+
+Now what happens when we put them together.
+
+Look at this with grad students and faculty.
+
+Now if we think of this as a percentage change we see this:
+
+Plot here of rate of conference times with both.
+
+Math here works out to be this based on my calculation.
+
+Obviously needs to make money.
+
+Point here is that if you kept grad rates the same as ratio.
+You would then be charging this for professors.
+
+Here is double algerbra chart to see what optimization space would be.
+
+Clearly we have a constrast here between values and value.
+
+Clear case where we could maximize value and values here.
+
+Of course, not the SMT treasurer or statistician.
+But anyone that knows me knows I love numbers and using them for change.
+Motion to change?
+
+Also theory, what do awards mean 
+
