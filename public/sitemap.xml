@@ -420,8 +420,8 @@
     
     <url>
     
-      <loc>/categories/10-minute-reads/</loc>
-      <lastmod>2018-01-29T00:00:00+00:00</lastmod>
+      <loc>/tags/10-minute-reads/</loc>
+      <lastmod>2018-04-09T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -430,8 +430,8 @@
     
     <url>
     
-      <loc>/tags/10-minute-reads/</loc>
-      <lastmod>2018-04-09T00:00:00+00:00</lastmod>
+      <loc>/categories/10-minute-reads/</loc>
+      <lastmod>2018-01-29T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -470,8 +470,8 @@
     
     <url>
     
-      <loc>/categories/beer/</loc>
-      <lastmod>2018-01-13T00:00:00+00:00</lastmod>
+      <loc>/tags/beer/</loc>
+      <lastmod>2018-01-29T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -480,8 +480,8 @@
     
     <url>
     
-      <loc>/tags/beer/</loc>
-      <lastmod>2018-01-29T00:00:00+00:00</lastmod>
+      <loc>/categories/beer/</loc>
+      <lastmod>2018-01-13T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -520,8 +520,8 @@
     
     <url>
     
-      <loc>/categories/data-science/</loc>
-      <lastmod>2018-01-13T00:00:00+00:00</lastmod>
+      <loc>/tags/data-science/</loc>
+      <lastmod>2018-01-29T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -530,8 +530,8 @@
     
     <url>
     
-      <loc>/tags/data-science/</loc>
-      <lastmod>2018-01-29T00:00:00+00:00</lastmod>
+      <loc>/categories/data-science/</loc>
+      <lastmod>2018-01-13T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -560,7 +560,7 @@
     
     <url>
     
-      <loc>/categories/grad-school/</loc>
+      <loc>/tags/grad-school/</loc>
       <lastmod>2018-04-09T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -570,7 +570,7 @@
     
     <url>
     
-      <loc>/tags/grad-school/</loc>
+      <loc>/categories/grad-school/</loc>
       <lastmod>2018-04-09T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -600,16 +600,6 @@
     
     <url>
     
-      <loc>/categories/music/</loc>
-      <lastmod>2018-12-21T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/tags/music/</loc>
       <lastmod>2018-12-21T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -620,8 +610,8 @@
     
     <url>
     
-      <loc>/categories/music-theory/</loc>
-      <lastmod>2017-11-19T00:00:00+00:00</lastmod>
+      <loc>/categories/music/</loc>
+      <lastmod>2018-12-21T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -631,6 +621,16 @@
     <url>
     
       <loc>/tags/music-theory/</loc>
+      <lastmod>2017-11-19T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/music-theory/</loc>
       <lastmod>2017-11-19T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -670,7 +670,7 @@
     
     <url>
     
-      <loc>/categories/productivity/</loc>
+      <loc>/tags/productivity/</loc>
       <lastmod>2018-04-09T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -680,7 +680,7 @@
     
     <url>
     
-      <loc>/tags/productivity/</loc>
+      <loc>/categories/productivity/</loc>
       <lastmod>2018-04-09T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -710,7 +710,7 @@
     
     <url>
     
-      <loc>/categories/r/</loc>
+      <loc>/tags/r/</loc>
       <lastmod>2018-01-29T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -720,7 +720,7 @@
     
     <url>
     
-      <loc>/tags/r/</loc>
+      <loc>/categories/r/</loc>
       <lastmod>2018-01-29T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
