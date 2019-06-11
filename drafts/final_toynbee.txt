@@ -1,0 +1,151 @@
+------------------------
+Title: Toynbee
+-----------------------
+
+After a year, the time is now up with my time as a Residential Volunteer Worker at Toynbee Hall.
+Given everything that's happened this year (dissertation, travel, destroying my shoulder), I haven't really got to blog about it much, but seeing as I have invested a lot of time here and it's been a sizeable part of my life the past year, I wanted to take some time to reflect on what I have been up to the past year.
+-- highlight links between academia and non-academia (readership) 
+
+
+I want to talk about two things here:
+
+1. What was I even doing here?
+2. What new ideas do I have that I now want to share?
+
+## What was I doing here?
+
+### RVW
+
+To give a bit of background on this, a little more than a year ago I applied to be the 'Research and Evaluation Residential Volunteer Worker' at [Toynbee Hall](). 
+As I've blogged about [before](https://davidjohnbaker.rbind.io/post/toynbee-hall-datathon/), Toynbee Hall was in the process of re-booting this program that brought people on site to volunteer at the charity (non-profit) in exchange for residency.
+I was accepted along with three others who worked on the Heritage side of things on projects ranging from story telling, to art, to social justice.
+When I started, I thought I'd be shuffling a bit between the Reseach and Evaluation teams, but while I was there, they did a bit of departmental shuffling and as a result ended up spending my time with just the Research side of things.
+As an RVW, and just like academia, I sort of had a roving position where I generally played to most of my strengths.
+For me, that included doing all things data, writing, helping organize events, and doing some field research (in that order).
+I'd imagine that my readship would notice that this laundry listing of things is actually quite similar to that of what people get up to in academia.
+There were larger projects in need of addressing as well as smaller ones.
+Different from academia, the end goal of all projects was not to end up with the research in a peer-reviewed academic journal, but rather to have some sort of immediate impact on the local community.
+More about this later.
+
+### Job Crafting
+
+I was quite lucky in this position in that I was part of the first wave of RVWs in a long time and was not an employee at all (just a voluenteer), and had a supervisor who was very open to exploring what I had to offer.
+As a result of this, I was able to do a bit of [job crafting]().
+Very early on last year, I tried to push many of my weekly goals towards all things data science so I could see first hand what of all the thigns I have been doing in my PhD research actually was helpful outside my own research.
+Turns out where most of this lead was that I spent a lot, and I mean a lot, of time cleaning data.
+I distinclty remember many days where I would put on my headphones (I also learned I do not function well in open office designs, and most other people do not) and spend hours taking pre-formatted excel workbooks with awful column names and formatting over to [tidy] data.
+Then after things were tidied up, I then spent a lot of time with ggplot2 really getting to know the datasets that I was dealing with and really started to get some Peng/Tukey light bulb moments about the importance of exploratory data analysis.
+For example, after taking data set from garbage excel to tidy, found that much of inncome data -- key variable in project we were looking at with savings-- was missing not at trandom.
+Would not have found that as tucked away, and proceeding with any modeling with that in there would have seriously compromised our models. 
+
+Hilariously, I feel right into many of the data science noob traps that I had read about on all the How to Data Science blog posts I had been reading in the years prior to this job.
+I desparealy wanted to show off all the weird algorithms I had been reading about in order to show of the extrmem power of some of these tools.
+But in first few exahanges of what I did with others, I quickly found that my time and skills were much better servd just making a lot of simple visualizations of our survey data.
+
+* Plot here 
+
+This process also rid me of any dilusions of making models of very high predictive accuracy.
+My job was to be critical reseacher who used data, not a data shaman that created crazy models.
+
+In thinking about this, I also realized that there is not much you can do as the numbers guy when someone hands you a dataset.
+Though job here is not to be "well you should have done xyz", you have to do your best to extract as much meaning and value from the dataset as you can, then actively bring up best quant data practices so that future people will not fall into the same trap.
+Things like this include just trying to collect variables at the highest level of granularity and encouraing free text responses.
+So the TL;DR of much of this year is that I had a very nice crash course in what you read in the data science blogs versus what you need by Friday.
+
+Of course there were a lot of other "researcher"-y things that I also did.
+I spent a lot of time writing reports.
+Doing this much writting also affirmed my belif that as researchers, one's ability to immediatly create a clear, and compelling narrative is one of the ways you can be most impactful.
+Just like academia, it's very important to know your audience, why you are writing, and what you hope to accomplish.
+I also helped out with a couple small things here or there like going out to do interviews for proejcts and had the chance to run a trainng session on best quantitative resercher practices.
+About a month or so ago, I also got to blog about the Datahon, which combined many of these other skills and enabled me to talk to other charities in the process.
+
+Imporantly, thinking about how all of this fits in for my more academic readership, one thing that was great to experience is that many of the skills that I focued on in academia were both applicabile and relevant.
+In many ways I was close in what I thought going into this, being that working in this context would be similar form, but different content, but it's a bit more than than.
+It's almost a similar form, but with a totally different language and underlying value structure.
+And it's this last point that leads me to my next major section here: what is new and what have I learned over the course of the past year?
+
+## New Thoughts I Have 
+
+So as discussed in my previous post, what I was up to at Toynbee Hall this year was markedly different than what I get up to in my academic life.
+And more importantly, my experience there has really shaped some new opinions on acdemic ideas.
+
+One of the first, and almost most obvious ones, worth addressing right off the bat is that if you want to go out and help people or make the world a better place or whatever, just go help and voluenteer time at a charity.
+From my Twitter feed, it seems like there are lot of people who struggle with what they do in the context of everythign else going on in the world right now.
+What much of this seems to conviently forget to mention is that 1) no one is making people stay in academia and 2) there is a whole division of labor in the world whose goal is to directly change the lives of people for the better.
+To that, some people might react with a little mix of both academic Stockholm Sydrome and retort with the fact that moving from academia to another industry is not as easy as I am making it sound asa white dude with a blog.
+Of course, I am not blind to that, but one thing that I am hoping to accomplish in writing about this is the need to talk about career divserity for academics and how this might be possible.
+I also offer a possible solution below.
+
+-- weird bc have had people jokingly say that no one benefits from their research
+-- think it was supposed to be funny, but very, very out of touch with rest of world 
+
+The bigger point I am hoping to make here is that instead of doubling down on academic research at feelings of not being able to help in the world, I'd bet more people would be better served if acdemics were to be able to say No to the ever growing bubbling over of demands of academia so that people do in fact have free time which they could use to help others. 
+And this semi-sour sentiment is not coming out of nowhere, but really grew out of a question that sits at the center of a lot of the researcher that they do at Toynbee Hall in the research.
+
+> Who benfits from the reserach you do? (Honestly)
+
+## Who Benefits?
+
+To give a bit of context to this, it's worth establishing that Toynbee Hall is a charity that strives to have deep roots with the local community it exists in.
+It started as a University settlement where people could see the local area and become personally invested in it.
+And local community is invested in many things Toynbee Hall.
+A lot of people in the area, especially  older people, go to TH's community center for a sense of belonging and meaning in their lives.
+Toynbee Hall is part of their lives, but it also has a responsibility to do research to help them.
+But this introduces an interesting question of power, manily, what does it mean to do resarch on people that you have both a vested interest in and personal relationship with?
+
+The academic approach to reseach attempts to address this question the long way.
+To truly learn about your local community, one must put oneself at a distance, try too stay objective about the questions at hand, look to the literature to establish the central discussions on the topic, conduct research methods with the established and recognized tools of the field [gierd], then submit said findings for publication in a peer reviwed journal.
+From here this apoliticalaspossible piece of research then can be used as a small building block to influence policy change that the higher levels.
+This long, circuitous route is certainly the narrative many academics tell themselvs that they do.
+But it is not the only route.
+
+In contrast, researchers can dispell themsleves of the illusion that what they do is objective (as most good critical theorists will tell you) and instead just get your hands "dirty" and fully embrace the subjectivity of the subject of your reseach.
+One way of doing this in a very hands-on way is to use Participatory Action Research or PAR.
+The idea here is to instead just ask those affected by the research about their problems and include them in the entire research process.
+
+In order to make this idea a bit clearer, instead of theoretically describing it, it's better to show than tell so let me show you an example of this from the past year.
+Imagine that there is project where a local charity wants to directly address the needs of older people in the local community.
+One might be tempted to read deeply on the issue, do a proper lit review, develop another survey, yadayadayda.
+Or intead, the charity could try to rely on the already establishe community connections to start to get in touch with the community from day one.
+Instead they could assemble a small team of local community members that all have a interest in having some sort of impact (contrasted to the disinteresetd intest we read about in research methods) then as a team, come up with question that are impacting the community and in need of change, work with those with more experience in crating better question (like above), then use this network of co-researchers to go on foot and reach over 400 people in the local community.
+Not only does this result in a better sampling that just throwing up a Mechancial Turk (which this population would probably not use), but in takign this appraoch the team is able to solve problems in the process.
+For example, if "everybody knows" that access to information about local services and isolation is a problem, why not additionally equip those taking the survey with tools to connect those being inerviewed with information that could start to solve these problems in process.
+Doing this jumps model of waiting for rounds of peer review before resarch can be "used".
+And more importantly, when it finally does get published, who benefits more?
+The academic with a new line on their CV or the people from the survey.
+
+Toynbee Hall did complete this project last year [read about it here].
+And then what results is a report where you get the best of both worlds where there is both a quantiative high, level, represenative descitpiton of the methods via the survey, narratives of individual voices, and have developed a stronger linked community in the process.
+
+This is all to say: important to take a very long, hard look at who benefits from the research choices hat you make on a daily basis?
+Speaks to questions of outreach, ownership, power, and false illusions about objectivity.
+I am not at all calling for complete overhall, know that need a diversity of methods.
+But as someone who lives and breathes the quantitative stuff, I learned a lot with this and want to better close gap of this. 
+
+### The Answer
+
+So taking this all back to a larger qusetion about relationships between what can be don and academia.
+Having the privlidge of this experience really reinforced an opinion that I was thinkin about througout my PhD in that I think PhD programs in the humanities would be really strenghtened by having long intership programs as part of their degree options.
+And I have a couple of reasons now as why I would argue for this.
+The first is that it gets you out of the Ivory Tower for a bit.
+Not only can you actually begin to see what skills are transferable in a meanifingful way, but can also just see if it really is [this subject] that you can't live without even though you haven't ever experienced anything else.
+Doing an internship like this (or however it's cast) allows PhD students to learn a totally different langauge and value structure that without learning how to do will make applying for non-academic jobs much more difficult.
+It's also a chance to live a lifestyple that is outside of the Ivory Tower Grind.
+Aggain, it might be that it really is this very specific submset of a work field called Music Theory that you can't live without.
+But maybe it's just that people like research and talking about the subject area at hand (music) as a part of a community with a shared set of values.
+Might not be charity as it was in my case, but seriously think there is a lot that Music PhD (humaniteis) in specific could offer in non-profits arts settings (orchestra, arts).
+Doing  this would also have people put their money where their mouth is about career diversity and the real values and value of doing a PhD in the arts where the only real end goal is "the job".
+
+## Wrapping Up
+
+As I wrap up my time here, I look back and see that my time here was really a great oppertunity.
+I learned a lot and personally benefited a lot from having this chance and only hope that what I was able to do in my role equated to what I also recieved.
+Much of this would not have been possible without having supervior Dr. Xia Lin for oppertunity.
+I am really looking forward to finding hout new ways to help out with this work in the future.
+My time here has really changed how I think about my own career trajetor and who benefits from all the choices that I make.
+I am excited to carry that forward inmy own career and to hopefully use hwat I have in a way that helps others in a truly meaningful way.
+
+
+
+
+
