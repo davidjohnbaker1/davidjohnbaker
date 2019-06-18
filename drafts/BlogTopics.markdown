@@ -1,6 +1,5 @@
 # Blog Topics 
 
-1. Introduction to post phd posts
 2. Hidden Curricula
 3. My opinions on asking questions
 4. UK + USA PhD
@@ -11,12 +10,12 @@
 
 ## Almost Done 
 
-* Done PhD 
 * Point of Masters
 * Brainwaves
 
 ## Draft Bay 
 
+* Dissertation Hype
 * Point of Masters
 * Brainwaves 
 * Choosing PhD Question 

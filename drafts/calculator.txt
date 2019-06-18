@@ -1,0 +1,97 @@
+Calculator
+
+Like it or not, there is money in academia.
+Not only large profit margin, but having confernece is nothing to sniff at.
+At individual level think about it most.
+Plane, hotel, local food, and registration and child care
+Plust whever else.
+Lots of times need to provide interest free loan to university
+And some people have no external funding.
+
+But money you pay goes to things.
+on SMPC board get to think about this from other angle.
+Need money to function and do good things
+But what is the best model?
+
+Well this is a data questoin
+But also it's a value vs values question
+Hail to graber
+
+And as student rep, feel like I have responsiblity to look out for grad students.
+Esp important bc have this strange thing set up
+	Organizatoins are there to serve the field
+	But mostly the field really are professors
+	Very helpful for your career (giving you job and income) 
+	But also very helpful for students
+
+	Meet future advisors
+	Meet future friends
+	Get ideas 
+	Collaborations
+	They are truly invaluable
+
+	But how much should people have to pay for that?
+	And really need to value moving away from pay to play structure
+	Even if get money back, again need to front it.
+
+So question here is data science: optimze cost AND values
+
+Have a few parameters here in a model we want to make
+
+SMPC: Early late registratoin, student nonstudent, member non member
+	Also have on site registration
+
+Can I share data here?
+
+Basically its a big algerbra puzzle
+
+Amount = category * rate + add infinitum
+
+But important question too here is by what magnitude is faculty vs student.
+
+Plot below here
+	SMPC Registration
+
+But also for comparison did the sister rates
+	SMT
+	AMS
+	SAM
+	EMS
+	Psychonomics
+	SfN 
+	
+General trends here:
+	Check for main effect of Discipline
+
+Check out these differences
+	Note have competing things here
+Do NOT have data on how many people of each show up.
+But in general, this does give attempt on value ratio.
+
+How does this then compare with general income rates?
+
+Much harder to do because very different.
+But data is publicly availible.
+
+Cross line here about journalism vs research vs data science.
+
+Got ten different psychology PhD stipends
+Got ten different music PhD stipends
+Got ten diffent Professor stipends from matching institutions
+
+Here we have a plot of the disparity between professor salaries and phd salaries.
+Here are these ratios
+
+Now compare these ratios to the ratios between conference prices.
+
+I think it should be relative and much more for people who are professors with jobs, salaries, and need for tenure.
+Should be minimal for graduate students (bias of former grad stduent and student rep).
+
+But want to also play around with what this might look like as prototype for conference orgnizers.
+Calculates rates based on the nine parameters
+But also will tell you your ratio between grad and faculty. 
+
+Very interesting question because its value values.
+And need to put your money where your mouth is.
+
+Eventually will quantify on how much you "get back"?
