@@ -3,107 +3,124 @@ title: "mastersI-draft"
 author: "David John Baker"
 date: "July 3, 2018"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
 # Intro
 
 I read somewhere on the internet that if more than three people email you with the same question, it's worth writing your answer up in a blog post.  
-Over the the course of my PhD I've gotten a few questions from younger students ranging from MCCL@LSU lab members to complete internet strangers (mostly because of a very [old blog post I did for MajoringInMusic.com](https://majoringinmusic.com/music-cognition-career-path/) ) about pursing music cognition at the Masters level as a means of a career path.
+Over the the course of my Ph.D I've gotten a few questions from younger students ranging from MCCL@LSU lab members to complete internet strangers (mostly because of a very [old blog post I did for MajoringInMusic.com](https://majoringinmusic.com/music-cognition-career-path/) ) about pursing music cognition at the master's level as a means of a career path.
 
-Considering if it's worth it to do a Master's in something as specific as music cognition (#musicscience) touches on some very hot issues such as "What's the point of graduate school?", I think it's worth writing about.
-It's my opinion (though obviously very biased) that music cognition is a good career move for people with music backgrounds if you are going to pick a field of graduate study, but that does not come without its caveats.
-I've had this draft sitting, waiting to be published for a while now, and just got another email this week on the topic.
-I figured now would be the ideal time to put the last edits on it and post it.
-I'd love to hear what people think!
+Considering if it's worth it to do a master's in something as specific as music cognition (#musicscience) touches on some very hot issues such as "What's the point of graduate school?" and I think it's worth writing about.
+It's my opinion (though obviously very biased) that music cognition is a good career move for people with music backgrounds if you are going to pick a field of graduate study
+This of course does not come without its caveats.
+I've had this draft sitting, waiting to be published for a while now, and just got another email this week on the topic so I figured might as well brush off the dust and press publish.
 
 # Goal of Post 
 
-In this post I hope to share some of my opinions about what it means to get a Master's in fields related to music science and give my opinion of what those one or two years could look like.
-Before reading on and taking advice from some random white guy (or anyone giving advice on graduate school for that matter), be very aware that there are many ways to accomplish your career goals.
+In this post I hope to share some of my opinions about what it means to get a master's in fields related to music science and give my opinion of what those one or two years could look like.
+Before reading on and taking advice from some random guy (or anyone giving advice on graduate school for that matter), be very aware that there are many ways to accomplish your career goals.
+
 **What worked for me might or might not work for you and advice about gradute school often relies on a heavy, heavy dose of surviorship bias.**
+
 There is a huge tendency to look to those who have succeed, think you too can just tick the same boxes they did, and get approximately what they have.
-Success at anything involves a huge amount of luck, privilege, and tons hard work in order to succeed.
-I really encourage any peers or superiors to write similar posts on this question so prospective students have as much information as they can beforing making the choice to go on to graduate school.
+Success at anything involves a huge amount of luck and tons hard work in order to succeed.
+I really encourage any peers or or those in more senior positions to write similar posts on this question so prospective students have as much information as they can before making the choice to go on to graduate school.
+It's a huge deal to spend the amount of time and money to attend graduate school and it's kind of terrifying to think how little information some people have when they make this choice.
 If you're thinking about grad school I also encourage you to ask as many people as possible about their experiences. 
 
-Also upfront I want to address the anticipated comment of:
+One of the reasons I am writing this is because there is a demand for advice on this if people are contacting a some grad student based on his Twitter feed and a blog from over five years ago.
+There is a dearth of information available besides what is passed between those in and not in the know.
 
-> What gives you the right to give advice, Dave? You're not even done with your PhD.
-
-One of the reasons I am writing this is because there is obviously a demand for advice on this if people are contacting a grad student based on his Twitter feed and a blog from over five years ago.
-There obviously is a dearth of information available.
-I also want to point out that although I am primarily involved with academic work, music science allows for career paths beyond academia to industry jobs and consultancy projects that myself and colleagues have been involved with.
-Music science can even pave a career path for jobs not having anything to do with music such as data science.
+I also want to point out that although I have been primarily involved with academic work, music science allows for career paths beyond academia to industry jobs and consultancy projects that myself and colleagues have been involved with.
+Of course this also could be said for other types of degrees, but compared to other programs I have seen, it's just not nearly as encouraged.
+Music science can even pave a career path for jobs not having anything to do with music such as data science (something I know a lot of academics are interested in).
 
 # What's The Point of a Masters?
 
 So with that disclaimer out of the way, let's take our first swing at this by trying to answer the question:
 
-> What's the point of even getting a Masters in music science?
+> What's the point of even getting a master's in music science?
 
-If I had to distill **my opinion** on why someone _should_ get a Master's in music science into one sentence it would be:
+If I had to distill **my opinion** on why someone _should_ get a master's in music science into one sentence it would be:
 
-> a Master's in music science gives the student a opportunity to autonomously re-define oneself as a researcher by engaging in a research project from start to finish.
+> a Master's in music science gives the student a opportunity to autonomously re-define oneself as a researcher by engaging in a project from start to finish.
 
-Since I am a music theorist, many of the people that have asked me questions about making this career move come from a background in music.
+Since I am a card carrying music theorist, many of the people that have asked me questions about making this career move come from a background in music.
 I am imagining the audience of this blog post to be someone currently in or having finished their undergraduate degree in music.
 I am kind of writing it to the person that I was 6 years ago. 
 
-The Masters is a chance to have space to think much more critically about some topic of interest and then engage with research methodologies to contribute to research on topic in a meaningful way.
-If you have the chance to teach along the way, just as in the PhD, remember this is a double edged sword.
-You might bolster your CV for PhD program admissions, but there is an opportunity cost for you learning new skills (of course teaching might be the skill you want!) that usually works out better for the University than it does for you. 
+The master's is a chance to have space to think much more critically about some topic of interest and then engage with hands research methods in order to contribute on topic in a meaningful way.
+If you have the chance to teach along the way, just as in the PhD, remember this is a double edged sword!
+You might bolster your CV for Ph.D program admissions, but there is an opportunity cost for you learning new skills (of course teaching might be the skill you want!).
+That said, if you can get into a master's program where they will let you teach on an assistantship so you don't have to pay, that's a huge plus for the program.
+Assuming that you need this teaching experience also assumes that the way forward is an academic path in some ways.
+I'll say it once and will say it again: **academia should not be considered the only career option for those going on to get higher education degrees**.
 
-In 2019, if you think that doing a Masters will entitle you to access to esoteric information, you are misguided.
-Most information today can be accessed via the internet or hunting down a paper on Sci-Hub.tw or Research Gate.
+In 2019, if you think that doing a Masters will entitle you to access to esoteric information, I think you are a bit misguided.
+Most information today can be accessed via the internet or hunting down a paper on [Sci-Hub](sci-hub.tw).tw or [Research Gate](www.researchgate.com).
 For people coming from music backgrounds, the adage of "Practice rooms are the same at every music school" basically becomes "Everyone has a library card and access to the internet".
 
 In my opinion, what you are paying for (or if you're lucky, being paid) is access to a new community and resources which you should use to open doors that are best for YOU!
-The mark of how much you get out of your Master's will be how you best navigate the finite time in your degree and best make use of those resources.
+The mark of how much you get out of your master's will be how you best navigate the finite time in your degree and best make use of those resources.
 
 # How Do You Do It?
 
-So having assumed that you want to do a Master's in music science, how do you go about figuring out where to go?
+So having assumed that you want to do a master's in music science, how do you go about figuring out where to go?
 
 My advice to people is to pick a program where you will be able to connect to a valuable network of people.
 This could mean *just* academic connections, but also could mean industry or other interdisciplinary connections.
+
 Pick a program whose network you want to be a part of.
-If the program does not have a happy little family of current students and alumni, you should be very skeptical.
-I lucked out three times with each of my degrees and consider myself very lucky to be member of the Baldwin Wallace Conservatory alumni, the Music, Mind and Brain group at Goldsmiths, and the School of Music and Department of Psychology at Louisiana State University.
+If the program does not have a happy little family of current students and alumni, it should throw up some red flags.
+I lucked out three times with each of my degrees and consider myself very lucky to be member of the [Baldwin Wallace Conservatory]() alumni, the [Music, Mind and Brain]() group at Goldsmiths, and the School of Music and Department of Psychology at [Louisiana State University]().
 You will spend an exorbitant amount of time with these people and you need to make sure you like the people and that the current group is happy.
 Having colleagues that are bitter, toxic, and selfish can destroy the entire experience of graduate school.
+Make sure you ask the current or former students about the vibe of the progam.
 
 Next, I would highly suggest programs where you can undergo a complete research project from start to finish.
-This normally entails writing a Master's thesis.
+This normally entails writing a master's thesis.
 There are programs that allow you to graduate having just done coursework, but being able to talk in-depth about a specific topic along with appropriate methodologies is a valuable part of your professional and personal development.
-Doing a project, as opposed to a healthy serving of coursework, also allows you the freedom to learn to write a very large document (a very important skill to organize your thoughts), learn new skills (experimental design, data analysis), and will also situate yourself to pick a question you can one day have published (a ticket into PhD work?).
+Doing a project, as opposed to a healthy serving of classes, also allows you the freedom to learn to write a very large document (a very important skill to organize your thoughts), learn new skills (experimental design, data analysis), and will also situate yourself to pick a question you can one day have published (a ticket into PhD work?).
 
 The research that you do as part of any music science project should also open up doors to what you want to do after you finish.
-This could mean contributing to a larger conversation on playlist recommendations if you want to jump over to one of the music industry giants like Spotify or Pandora, looking at questions of categorical rhythm perception if you want to a PhD on rhythm, or maybe look at music based interventions for health research.
-Whatever you choose, it's nice when you find a program where all types of research are valued and not just academic Master's thesis that are the hot issue of your field.
-You of course could just do a Master's for the fun of it, there is nothing wrong with that.
+This could mean contributing to a larger conversation on playlist recommendations if you want to jump over to one of the music industry giants like Spotify or Pandora, looking at questions of rhythm perception if you want to a PhD on rhythm, or maybe look at music based interventions for health research.
+Whatever you choose, it's nice when you find a program where all types of research are valued and not just academic master's thesis that are the hot issue of your field.
+You of course also just do a master's for the fun of it, there is nothing wrong with that either.
+In my experience, it seems like a lot of people who have asked my advice are thinking of the master's as a means to something else.
 
-It's my opinion that the point of the time in the Master's is learn a lot about a new topic are and to become useful as a researcher.
-By useful, I also just don't mean that in a neo-liberal "learn skills that you can sell", but to engage with your Master's in a way that will allow you to develop a skill set that makes sense outside of the pyramid scheme of academia.
+It's my opinion that the point of the time in the master's is to learn a lot about a new topic are and to become useful as a researcher.
+By useful, I also just don't mean that in a neo-liberal "learn skills that you can sell", but to engage with your master's in a way that will allow you to develop a skill set that makes sense outside of academia.
 
-Know that **most people getting PhDs will not work in academia** so you before you enroll in your Master's, probabilitically speaking you are even less likely to continue to go on to academia.
+Know that **most people getting PhDs will not work in academia** so before you enroll in your master's, probabilitically speaking, you are even less likely at this point to continue to go on to academia as a full time gig.
 Of course this shouldn't deter you from pursing further education.
 Pursing something you find intrinscilly rewarding has value in itself.
+Just know that setting out for that sweet professorship job is not an easy ride.
+For more reading on that, check out Karen Kelsky's book [The Professor is In]().
 
-What I would suggest is to not find yourself in Master's program that is basically a "pay to play" scheme for academia.
-While many people might try to convince you that taking out $50,000+ in loans to pay for a Master's is a good choice, it might not be! 
+I would also suggest to make sure that you not find yourself in master's program that is basically a "pay to play" scheme for academia.
+While many people might try to convince you that taking out $50,000+ in loans to pay for a master's is a good choice, it might not be!
 
-What I would suggest doing is spending a significant amount of time choosing the right question to try to answer in your research project.
+Part of me wishes that I could go ham here on listing out all the music psychology Masters programs that there are ([like Vicky Williamson used to have on her blog](https://musicpsychology.co.uk/studying-music-psychology/)), but maybe that's a post for another time.
+
+## Other Considerations
+
+But once you have a picked a program, what are the other things to then look out for or suggest?
+
+One thing that I think is very important is to spend a significant amount of time choosing the right question to try to answer in your research project.
 My friends and I always joke that the first lesson of grad school is "Be on the lookout for false dichotomies" which without a doubt applies to the research question you choose.
-In the entire universe of questions you can answer as part of your Masters, it is possible to answer a question where you can cultivate in-demand skills while simultaneously making an original contribution to your field of study.
+In the entire universe of questions you can answer as part of your Masters, it is possible to answer a question where you can cultivate skills that you'll find useful after you leave while simultaneously making an original contribution to your field of study.
 
-I believe that you want to be able to pick a question that will challenge you to learn new skills, but be guided in that process.
+It's always nice to pick a question that will challenge you to learn new skills, but be guided in that process.
 What alarms a lot of people when they start grad school is the immense amount of pressure that their "teachers" are under to publish at all times and they are living right under the world's largest pyramid scheme and might not be aware of it.
 
-There is a not-so-secret currency in academia of publications for those higher up the ladder and you should be aware of that when picking both a project and your adviser.
+Thinking about choosing the right question will probably be a whole blog post in itself in the next few months. 
+
+It's also worth mentioning on this note that there is a not-so-secret currency in academia of publications for those higher up the ladder and you should be aware of that when picking both a project/thesis topic and your adviser.
 Your choice of project and adviser will also be a huge contributing factor in how grad school goes for you.
-So my advice to you is to pick a question that your adviser has just enough invested interest in trying to answer that they will go out of their way to try and help you solve it provided that you are going to put in the work to answer it.
+So my advice to you is to pick a question that your adviser has just enough invested interest in trying to answer that they will go out of their way to try and help you solve it provided that you are going to put in the work to help out.
+
 By helping your adviser answer a question they are working on, you will enter into a intense, but hopefully productive symbiotic relationship where they are able to mentor you into learning new skills that help them answer questions they are interested in. 
 You will get a new skill set, hopefully a publication (again, has almost no relevance outside of academia), and a chance to establish yourself in a new network. 
 This seems almost too obvious at this point, but to someone starting out in a field, so many students are not aware of the hidden curricula of graduate school that often determines how well someone does. 
@@ -111,10 +128,11 @@ This seems almost too obvious at this point, but to someone starting out in a fi
 # Done right?
 
 So how do you know you are on the right track or have done it right?
-For a music science Master's (though a lot of this post could have relevance to Music Theory), I think this means ending with a new skill set and knowledge base that you didn't have when you started.
+For a music science master's (though a lot of this post could have relevance to Music Theory), I think this means ending with a new skill set and knowledge base that you didn't have when you started.
 
-An understanding of experimental design, ability to do basic programming (ideally in R or Python since you can't take SPSS, Matlab, SAS, Stata with you when you graduate), statistics, and the ability to engage on the surface level with issues relevant to your field and very deeply about whatever you did your Master's thesis on. 
-You should have references from a few new people in your department, and if you were especially intrepid during those two years, maybe some people outside of it (the Dean?, a collaborator?, the Librarian?) who can vouch for your new identity as a researcher.
+A basic understanding of experimental design, ability to do some programming (ideally in R or Python since you can't take SPSS, Matlab, SAS, Stata with you when you graduate), statistics, and the ability to engage on the surface level with issues relevant to your field, and talk at length about whatever you did your master's thesis on would all be marks of a a sucessful venture in my opinion.
+
+Some people forget about this one, but you should also try to have references from a few new people in your department, and if you were especially intrepid during those two years, maybe some people outside of it (the Dean?, a collaborator?, the Librarian?) who can vouch for your new identity as a researcher.
 
 Hopefully those who are now your references can now introduce you to jobs or PhD positions (if that's your end goal).
 And most importantly you also have a new peer network and many new friends.
@@ -124,9 +142,11 @@ The world is so much who you know, which is only made easier when you make yours
 # Future Posts
 
 So this was quite a long post here and sitting here writing it makes me realize that I could keep writing about this for hours.
-Some future posts on career advice might consider diving more into the idea of what it means to use "usefulness" as a measure of the type of question you ask, what does career diversity in graduate school look like, and how does this advice translate to people wanting to purse a Master's in Music Theory as a way to do music science.
+Re-reading it, it doesn't flow that well and reflects that this was just a document where I would cut and paste advice I'd give undergrads when they asked me questions, so sorry if it's a bit choppy.
 
-Hopefully this blog post is helpful for people that find themselves in the position that I was in sixyears ago.
-As I enter the last few months of my PhD, I can say with complete certainly that never imagined myself as a music science researcher even half way through my undergrad, yet the past six years have been better than I could have ever imagined.
+Some future posts on career advice might consider diving more into the idea of what it means to use "usefulness" as a measure of the type of question you ask, what does career diversity in graduate school look like, and how does this advice translate to people wanting to pursue a master's in Music Theory as a way to do music science.
+
+Hopefully this blog post is helpful for people that find themselves in the position that I was in six years ago.
+Having just finished a Ph.D looking at this topic, I can say with complete certainly that I never imagined myself as a music science researcher even half way through my undergrad, yet the past six years have been better than I could have ever imagined.
 I've gone from a finishing a degree where I just played trumpet for hours and hours every day to learning a whole new skill set, answering questions I once thought I'd never be smart enough to ask, and most importantly have met the nicest group of people I could have ever imagined.
 Sappy, I know. 
