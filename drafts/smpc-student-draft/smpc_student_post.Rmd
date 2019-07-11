@@ -1,0 +1,112 @@
+---
+title: "SMPC for Students"
+author: "David John Baker"
+date: "7/11/2019"
+output: html_document
+---
+
+Next week is [SMPC](https://wp.nyu.edu/smpc2019/)!!! 
+I’m super excited for it (as always), but this year I’m justifiably a bit more excited because this will be my first experience going to a conference as a member of the [Executive Board](http://www.musicperception.org/about-smpc.html) representing the Student members of the Society for Music Perception and Cognition. 
+I’ve technically spent the last six years as a graduate student (year of MSc, year being an RA, then four in the PhD…) and even though I’ve just recently shed my graduate status and will emerge this weekend from my chrysalis as beautiful doctoral butterfly, the feelings of being a grad student larva are still very fresh so the plight of the graduate student is with me.
+
+So given six years of knowing what it's like to be a grad student, I really wanted to take all of what I have learned and try to incorporate it all in a way that I hope is going to be beneficial for all the student members of the society.
+
+So what does this mean in practice?
+
+Well as any professional academic society, we can say that we value X,Y, or Z, but it's not until there is empirical evidence of this can we put our money where our mouth is. 
+So part of this post is talking about what those things are so they don't go unnoticed (also for any of my SMT or AMS readers where I'm pretty sure these types of things do not exist and they might incorporate like, you know, having a student member on the SMT board?) and the other part is just a big advertisment on my little blog about what's going to be avaible for students so others can help guide them to people and events that they will find most helpful. 
+
+## The Main (Student) Events 
+
+Even though we only have three official days together, there are going to be four major events that are special events that are directed towards the student memebers (who according to my last account make up XX% of people registering for the conference and also are XX for funding).
+The four events are:
+
+* Day One Meet and Greet with Human Bingo
+* Day Two Early Career Session
+* Day Three Applying to Graduate School 
+* The old-as-time-itself Faculty-Student lunch
+
+Each event will serve a specific purpose for the student members and also will highlight the diversity of options and oppertunities that are avaiible to the students. 
+
+### Meet and Greet
+
+The first event, timed accordilgy, is going to the graduate student meet-and-greet.
+When I first ran the idea on Twitter, there seemed to be a positive response from not only students, but faculty that were interested in getting to know other people.
+At a conference where you have people coming from many perspectives on what it means to study music ranging from neuroscience, to music theory, to psychology, to music information retrevial, it's important for attendees (especailly rookies) to be able to cross into different strata of reserach.
+At the time of the Twitter conversation in Early July Blair and Brian suggested a human bingo.
+I've got all the cards ready to go and printed and will be distributing them post Keynote 1 and the presidential address.
+Anyone is welcome to grab them and play in that middle awkward period between the talk and the reception (see image) and will hopefully get people talking.
+A little into the reception, we'll be pulling some of the grad students to the side so everyone can have a chat with one another.
+What I'm hoping for here is that just a hello or seeing someone in the area will be enough for later in the conference of for people to break the ice with others with convseration starters such as "Oh, I saw you over at the grad meet up and wanted to say hello, but just didn't".
+Hopefully there will be a lot of small hellos and then as the night progresses there will be some nice intergration between schools, departments, and labs. 
+
+One thing that is tricky that was pointed out by Dom is that in events like this (godforbid we call them networking) is that activities like human bingo or just letting people roam free in a giant room is that it really favors people who are good at the extroversion game.
+For this reason, I really tried to add questions to the human bingo that allow people that would be further on the orbit of socializing to be sought out and valued via their status as newcomers with bingo cards such as "First time at conference" or for the more intrepid "Authored a paper that you cite in your SMPC presentation" to allow for people to approach those who a cheezy game might make make it easier than approaching someone saying how you cite their work and might come off as sniviling. 
+
+But this of course doesn't still ensure that the less bositerous people will still feel engaged.
+And one thing that is also tough about all of this is that the whole thing is very fleeting in that sometimes people (at least me) feel that if they don't make the connections at the time, those oppertunities are lost until next time.
+To ameliorate this problem, I've really tried to push the whole Twitter thing so people can at least connect passively and watch things happen passivly until they feel a bit more inclined to strike up a conversation. 
+I also have some Google docs that we will be using for the next two sessions that will allow some sort of conference trace to be left behind so that if someone decides to hang out with group A instead of group B that they can still be somewhat aware of what is going on. 
+
+Of course eventually things will break off and we'll have places we suggest people to go (Cat place or Houston), but the whole idea is to keep things out in the open as much as possible so it's not like a hoard of people leave while you're in the loo and then you're stuck by yourself.
+
+### ECSession
+
+The next two events we have here are panel events that have now been a part of SMPC for the past few years.
+From what I have gathered from previous student reps, the Early Career session was created first and in it's first instatiation a lot of the question time was taken up with many of the even career-younger people asking about applying to grad school, so these sessions were both split.
+
+As anyone who follows me on Twitter knows, I think it's well past time that people have to think very broadly about what the early part of their career is going to look like in the world of music and science and numerically speaking it is impossible for everyone in the field to go on to get the coveted tenure track job where they start their own lab, blah blah blah.
+And importantly, that's not what everyone even wants to do.
+So knowing that it's numerically impossible and shouldn't be treated as the be-all-end-all in music science, one thing that I thought was very important in inviting people to serve on the Early Career Workshop panel was to have both academic and industry folk represented.
+
+This year the panel consists of four members and hopefully covers a diverse array of opinions and advice that could be offered.
+This year we have [Caitlyn Trevor]() who just completed her Ph.D. in Music Theory from Ohio Stat University and is now living in Europe on the very prestigious Marie Curie Postdocotral fellowship.
+We also have [Psyche Loui], a psychology and neuroscience researcher who is a assistant professor at Northeastern.
+Psyche has done a lot of work... bbc 
+Then we also have [Brian McFee], an assistant professor at NYU where the conference is being held.
+Not only has he done a postdoc, but additinally has a cross appointment in music as well as data science (something I know a lot of academics inclusing myself are starting to consider as a worthwhile thing to get involved with).
+Then last but not least there is [Steve Keller]() who just recently was appointed as the Audio Alchemist for brands at Pandora.
+Not only can Steve talk at length about the more industry side of things having had his own company for 14 years, but he also works and publishes academci research on the topic.
+
+Hopefully this latin squares of people covers all the permutations that someone might have questions.
+At this point I am not sure exactly how the conversation will go, but I have created a Google doc accessible HERE where people can write some questions ahead of time so we can see what kind of topics will be popular and for those who don't want to ask a big question in a large room can feel more comfrotable.
+I'm imagining this whole thing wanting to strech longer than the 45 minutes we have at lunch, but will be encouraging everyone to at least link up on Twitter or later via email if they need an "in" to get a question answered they did not have.
+Maybe questions from this session can then go to a bigger FAQ that the SMPC website could hold. 
+
+### Applying to Grad School
+
+Similar in many respects, but just earlier in the typical pipeline of people who attend SMPC is the Applying to Grad School session.
+This session was a bit tricky to organize and make sure I covered all my bases, but we'll see.
+
+In the early career session we have [Daniel Shanahan](), who has just recently started a position at Ohio State University in a Theory department (also my Ph.D advisor!), [Ed Large]() a former SMPC president and associate professor and head of UCONN lab where he does neuroscience; [Hayley Kragness]() a post-doc in Canada specialzing in XYZ, and last but certainly not least [Kelly Jakubowski]() who has experiences with UK Post-graduate system where she did both her MSc and PhD in Psychology and now helps run a new lab at [Durham]() where they will be having a new music psychology program come 2020.
+
+You'll notice that this list hopefully again strikes a balance between state and private schools, regions (America, Canada, Europe), seniority, as well as discipline.
+Again, I hope given this krewe, there will not be a question where they can't answer or at least be able to point someone in the right direction of who to talk to.
+The same thing goes with having a google doc to list out questions before for similar reasons as above.
+
+### Lunch 
+
+Lastly, we have the Faculty-Lunch session.
+At this point we've had both faculty and students sign up for this event and it'll give students a chance to meet one-on-one with someone they may or may not have gotten to chat to face to face.
+
+As an aside, The student faculty lunch was always something I looked foward to and hope that all the faculty take it quite seriosuly as things that they say and pass on can have quite the impression on greener researchers.
+I specifically remember getting tacos in Nashville with Carol Krumhansl before starting my Ph.D. and bringing up the very real concern I had at the time about doing a Ph.D. in Music Theory having come straight from a Psychology Master's and worrying that I might be going into the wrong field.
+I remember her saying that you don't really need a specific set of coursework to be a good psychologist; what you do need is to read all the papers of what you are interested in, learn all of the techinques, and engage in a meaningful way with the literature.
+She noted that her Ph.D. was in mathematics and that really no-one historically has ever got a Ph.D. IN music science and that I should just follow the questions I want to ask 
+I wouldn't be that she doesn't even remember saying this to me, but it really left an indellible mark on how I thought about research in general during my Ph.D. 
+I can only hope that other students get similiarly rewarding experiences. 
+
+### Future
+
+So going into the conference, I have no idea how any of this will land.
+They could all be catastrophic failures, but they also have the chance of being very helpful to everyone involved.
+
+Lastly, seems weird to write this for people that would get this far in one of my posts, but make sure to be nice to all the students.
+They really are the future of the field and in additon to doing good research, it's important that everyone passes on the culture that has been SMPC the past few years as supportive and inclusive. 
+
+If you see anyone being insuffrable towards students, especially during a presentaiton, that violates our new CODE OF CONDUCT, please say something and report that.
+Part of me wants to say "But I could _never_ imagine that happening at SMPCCCC"(spongebob), but know that very much that I'm an idealist and things like this happen all the time. 
+
+I just want every student to leave SMPC as I have the past few years, super inspired to do great work, new contacts to ask questions of on the stuff you just don't understand, and with more friends than you had prior to the conference.
+
+See ya'll soon! 

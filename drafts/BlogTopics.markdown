@@ -10,13 +10,11 @@
 
 ## Almost Done 
 
-* Point of Masters
 * Brainwaves
 
 ## Draft Bay 
 
 * Dissertation Hype
-* Point of Masters
 * Brainwaves 
 * Choosing PhD Question 
 * First Post PhD 
