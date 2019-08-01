@@ -2,6 +2,10 @@
 
 This past week was very special to me, I finally walked and got my PhD! 
 Finally finishing it was a loooong time coming.
+
+OR Got email that 11 people downloaded my PhD in month since posting.
+
+
 I've technically been in Grad School the past six years.
 This is a one year MSc, a year working as an RA (ish) on the TM project, then four years of LSU.
 Did a whole ton of work in this time.

@@ -1,0 +1,106 @@
+How To Host An Experiment
+
+0. Have a Linux or Macbook 
+1. Open up AWS account 
+	https://medium.com/@connorleech/how-to-launch-an-ec2-instance-de568295205d
+2. Put on PHP 
+	https://stackoverflow.com/questions/34873685/how-to-install-php-7-on-ec2-t2-micro-instance-running-amazon-linux-distro
+3. SCP your shit online 
+4. Modify your JS_psych script so that it saves PHP
+5. SUDO the right things
+6. Test Run it  
+7. Get the data off things
+
+
+https://stackoverflow.com/questions/20939562/scp-permission-denied-publickey-on-ec2-only-when-using-r-flag-on-directories
+
+In this post going to cataluge for myself how I got latest experiment up and running online.
+It was not fun also because I have no techincal background.
+Very much like the cat analogy in a dark room.
+Can be so goddamn close to everything but not really get it.
+
+Had a bit of practice at LSU because had this sketchy server from dan
+Got it via ofering the dude a whistky bottle
+Then just got shut down out of no where
+
+So now had to re-assemble
+Thought about doing the pavolvia thing or JATOS but already had some knowlege
+and was not afraid of the command line so just figured I'd go for it
+I also that day had a puppy on my lap and was rubberducking to Peter on Whatsapp.
+
+Going to make this as clear as possible.
+
+Did the whole thing again so I can host a replication study that we are doing for LSU.
+If you do this whole thing and it helps, please repay me by doing both these two surveys.
+
+Ok, hope you have a cup of coffee, here goes nothing.
+Also full disclaimer that I can't ask any what ifs, just describe best I can.
+Also going to just describe things as I understand and hope someone will fill me in on it.
+Will result in very funny techncial understanding.
+
+Ok so the goal here is to host your experiment online. 
+Assume here that you have a jsPsych Experiment ready to go that saves locally. 
+Can take this one right here if you need it (notice that the file in current state when you go thru it will just save locally).
+
+First open this on your computer and verify this.
+Just simple thing where we have a test.
+Notice that the files here are just what we need.
+And important here is the directory structure.
+
+We click thru till the end and then it evetually saves.
+At this stage will notice that file saves with a random file name.
+Set this up for randomization and keeping thing anonymous.
+
+Way that this works is some javascript function here that generates it internally.
+Feel free to add it to your script if you want.
+
+Another way to do this would be to have it set up where you add in the participant number in janky way.
+For example..
+	js code to do that.
+
+Ok, so it works here. 
+Now need to depart for a minute from our local experiment.
+
+Point here now is to try to get it on a server.
+WTF does that mean in non-technical terms?
+too many acroymys with web stuff and if you follwo me on twitter you konw I hate web stuff 
+
+Basically you need a ghost version of your computer living in amazon warehouse.
+So we need to set up this ghost computer in Amazon.
+
+First up, go to AWS.
+Need to set up a password and login and shit.
+First we go here.
+Then this takes us to landing page. 
+
+Now what were going to do is follow up on what this blog suggests.
+Basically we click thru and try to get all the small free stuff.
+I think its designed so that if you use it more you pay more for it.
+Not worried about it because not getting that traffic and if did would be happy to pay for that N.
+
+got this bad boy running.
+Can tell from here and here.
+
+Ok now need to link the two.
+Going to have our local stuff and make the ghost verision in the attic.
+Way we do this is link it up with this key.
+
+now line to connect it with ssh
+ssh is way that we go up and down
+
+do it with this line here.
+Notice that these things are her 
+
+Now bit of a side note here, but I hate this shit
+So one thing i do is make aliases
+
+Add this to bash profile with this exact sequences of keystrokes
+notice i have some other ones that do cool stuff
+lik this one that gets me to my desktop 
+
+reset terminal
+
+
+
+
+

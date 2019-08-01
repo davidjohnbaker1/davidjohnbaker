@@ -5,7 +5,7 @@ abstract = "Despite its ubiquity in music conservatory curricula, research on to
 
 abstract_short = ""
 event = "Invited Speaker: Open University Research Seminar"
-event_url = "https://www.sc.edu/study/colleges_schools/music/concerts_and_events/bernstein_mass/bernstein_public_music_discourse/"
+event_url = "http://www9.open.ac.uk/mct-cc/news/school-seminar-modeling-melodic-dictation"
 location = "Milton Keyes, England"
 
 selected = false

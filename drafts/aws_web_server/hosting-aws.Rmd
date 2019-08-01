@@ -1,0 +1,47 @@
+---
+title: "Hosting Your Own Experiments"
+author: "David John Baker"
+date: "7/18/2019"
+output: html_document
+---
+
+While I was a grad student at LSU, the Music Cognition and Computation Lab @ LSU^[RIP] had access to a server where we hosted all the relevant information for the lab, had our sweet department only wiki, and also hosted all of our jsPsych experiments.
+To get that server running, legend has it that someone just walked over to the IT department with a bottle of nice whiskey, said "Hey, could you get our lab its own server?" and then magically the next day we had access to a computer in the sky.
+And as you could imagine, one day, without warning, our virtual Walhalla came burning down with no warning thus incapacitating our data collection abilities.
+
+Since then, I have been looking all over the internet on how to re-create such a server so that I can have an online portal in which I can collect new data.
+Googled the shit out of the problem and was confronted with numerous "Hosting Your Experiment Online: Made Easy!!" posts and after scanning everyone, decided that they were not in fact as easy as I thought they would be.
+
+
+Not everyone has the luxury of coming up with an experiment then saying to their undelrings: Make it so! and the data shows up a couple of weeks later.
+And as much as I'd love to one day be that person, I do feel having gone through the straight up anger level frustrations of dealing with how to figure out technical problems with computers has really made 
+
+
+Some days I wish I were some overpaid tenured PI who just could sit back in his big fat leather chair with my cigar and whiskey, ponder thoughts about the mind might organize musical structure, then when genius strikes, beckon to my army of graduate student underlings, explain to them the experiment I wish to exist in this world, then tell them to get me that data (with of course the help of their undergraduate data collection minions)!!
+
+This of course will never happen.
+Also not ethical way of condudcting reserach because not teaching grad students.
+Also completely unaware of the hours and hours of techincial work that go into making stuff like this happen.
+Also gripe that our generation of reserachers expected to be way more techicnally addept than any that were before us.
+Def do believe that don't "have to" learn stuff like R and if need to do Excel, that's fine. 
+But in super-competitive academic job market, esp with neoliberal tenticles extending to all department to get people to have employable skills after graduationg, I more just feel bad for people who probably know they should be learning this kind of stuff in quant related fields and are unable. 
+Would guess that if two equally qualified candidates were at interview and one can teach software and other cannot, software person will get the job.
+
+
+And in many ways betrays what it means to be a senior academic and educate those below them.
+But maybe some sort of permutation of this exists out there in the world.
+And 
+
+One thing that I have always been jealous (but also very confused of) is researchers (grad students included!) who are somewhat removed from the whole data collection process.
+They seem to just come up with a question, 
+Over the past few years I have met a lot of people who are not involved with some part of their entire data pipeline from the initial inception of the idea to create an experiement to the final transferring of the numbers from the analysis script to the draft for journal submission.
+
+* Need to not be hampered by technology
+* being tech guy is super painful but IF have time and luxery of grad school, well worth it (if interested)
+* Why?
+* two reasons and a curse
+- one: learning to program (slowly) allows you to get at the exact question you want, too much can only program in qualtics so I guess we'll bend the question for qualtrics and analyses
+-two: much more employable and great way to rid yourself of grademployment dread
+-Three: people will ask you to collaborate a lot (but by nature you do a lot more work that is not seen on paper) this might pay off in the end but this year will tell. 
+
+This could mean not having to sit there when a student from the experiment pool comes down to the lab and watch them click through, not having to deal with the pain of making an exp

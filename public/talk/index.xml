@@ -11,6 +11,15 @@
     <atom:link href="/talk/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Modeling the Limits of Musical Memory</title>
+      <link>/talk/cogmir-2019/</link>
+      <pubDate>Thu, 08 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/cogmir-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Symposium on Open Science</title>
       <link>/talk/smpc-openscience-2019/</link>
       <pubDate>Tue, 06 Aug 2019 00:00:00 +0000</pubDate>
