@@ -29,17 +29,18 @@ caption = " "
 +++
 
 In addition to academic work, I'm also often involved as working as a consultant for various music industry projects.
-One of the great things about working in [#musicscience](https://twitter.com/search?q=%23musicscience) is that there is a bit more opportunity to do consultancy work where theory can meet practice. 
+They are typically a mix of music + data science, sometimes with a bit of psychology thrown in.
 If you'd like to hire me for anything from trying to find insight from your dirty data, to making data products, to scientific consultancy, please don't hesitate to [get in touch](mailto:davidjohnbaker1@gmail.com)!!
 
 Here are some examples of projects that I have been involved with in the past.
 
 ## Projects
 
-### Soundscape
+### brainwaves
 
-This summer I am currently involved on a project with [Soundscape Agency](https://soundscapeagency.com/) acting as their scientific consultant to help develop music in collaboration with various artists from the [Erased Tapes](https://www.erasedtapes.com/) record label.
-More information to come soon! 
+This last year I was involved on a project with [Soundscape Agency](https://soundscapeagency.com/) acting as their scientific consultant to help develop music in collaboration with various artists from the [Erased Tapes](https://www.erasedtapes.com/) record label, [Citizen M](https://www.citizenm.com/) hotels, and [Bose](https://www.bose.co.uk/en_gb/products/headphones/wireless_headphones.html) Headphones.
+The project launched in Spring of 2019 and has received a bit of news coverage. 
+To learn more about the project, check out this interview I did in [Forbes](https://www.forbes.com/sites/michellegross/2019/08/22/this-is-the-most-relaxing-music-to-travel-to-according-to-science/?fbclid=IwAR2N_Qdrh7_zpKVcchT8g8kLgr9Nki3geI0HF4wl2diZIMcPVLTrFdGsg9c#57d3a463508d). 
 
 ### Soundout
 
@@ -49,6 +50,6 @@ The tool served as the basis for what later became their [BrandMatch](https://ww
 
 ### Audio Branding Academy 
 
-In 2014 I presented with Dr. Daniel Müllensifen at the Audio Branding Academy annual conference in Berlin, Germany.
+In 2014, I presented with Dr. Daniel Müllensifen at the Audio Branding Academy annual conference in Berlin, Germany.
 We gave a half-day workshop on tools that help bridge gaps between academics, creatives, and industry minded people. 
 A summary of our workshop can be found in their [annual yearbook from that year](https://www.researchgate.net/publication/284721150_Music_Brands_Advertising_Testing_What_Works).
