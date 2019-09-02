@@ -40,7 +40,8 @@ Here are some examples of projects that I have been involved with in the past.
 
 This last year I was involved on a project with [Soundscape Agency](https://soundscapeagency.com/) acting as their scientific consultant to help develop music in collaboration with various artists from the [Erased Tapes](https://www.erasedtapes.com/) record label, [Citizen M](https://www.citizenm.com/) hotels, and [Bose](https://www.bose.co.uk/en_gb/products/headphones/wireless_headphones.html) Headphones.
 The project launched in Spring of 2019 and has received a bit of news coverage. 
-To learn more about the project, check out this interview I did in [Forbes](https://www.forbes.com/sites/michellegross/2019/08/22/this-is-the-most-relaxing-music-to-travel-to-according-to-science/?fbclid=IwAR2N_Qdrh7_zpKVcchT8g8kLgr9Nki3geI0HF4wl2diZIMcPVLTrFdGsg9c#57d3a463508d). 
+To learn more about the project, check out this interview I did in [Forbes](https://www.forbes.com/sites/michellegross/2019/08/22/this-is-the-most-relaxing-music-to-travel-to-according-to-science/?fbclid=IwAR2N_Qdrh7_zpKVcchT8g8kLgr9Nki3geI0HF4wl2diZIMcPVLTrFdGsg9c#57d3a463508d).
+This was also covered by [the Danish newspaper Borsen](https://borsen.dk/nyheder/avisen/artikel/11/224488/artikel.html).
 
 ### Soundout
 
