@@ -11,6 +11,162 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Blog on (Data Science) Blogs</title>
+      <link>/post/blog-on-blogs/</link>
+      <pubDate>Fri, 07 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/blog-on-blogs/</guid>
+      <description>&lt;p&gt;We’re nearing the point of saturation when it comes to data science blogs.
+The amount of reccomended Medium, Towards Data Science, Analytics Vidhya, or whatever website you can post to articles that come up on my suggested reading on my phone is unending.
+Why?
+Because aspiring data scientists have repeatedly been told that one of the best ways to break into data science is to:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;START. A. BLOG.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;You, an aspiring member of the workforce, not only should be refining all your technical skills as you apply for jobs, brush up your LinkedIn profile, refactor all that code from that one project you still have yet to set to public on Githhub, but in addition to &lt;em&gt;all&lt;/em&gt; that (and your normal life) should devote time to writing data science blogs.&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This is a lot to ask of someone applying for jobs.&lt;/p&gt;
+&lt;p&gt;And as many of our students at &lt;a href=&#34;https://flatironschool.com/&#34;&gt;Flatiron School&lt;/a&gt; have pointed out, there is not only a sea, but an ocean of data science blog posts out there.
+There are so many out there (of &lt;a href=&#34;https://twitter.com/statsepi/status/1215932060172455936?s=20&#34;&gt;varying quality&lt;/a&gt;) and there seems to be such a push for aspiring data scientists to blog that one of our students joked (maybe not?) that their final project should be a bot that writes data science blog posts just to keep up appearances.
+In many ways, I couldn’t argue with them, it seems that this advice of starting a blog and blogging is pushed on people wanting to break into data science and what results is a collection of very OK posts when you click around on &lt;a href=&#34;medium.com&#34;&gt;Medium&lt;/a&gt;.
+This influx of blogs from people-yet-to-get-hired also means that there are a lot of people who are probably under-qualfied to write about the tutorial they set out to detail, especially if it’s about stats.
+Hello &lt;a href=&#34;https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect&#34;&gt;Dunning-Kruger&lt;/a&gt;.
+In some ways, because there are so many posts out there, writing a bad blog post at this point would probably do you more harm than good.&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;But as I thought about this AI Blog Bot that one of our students came up with and the sea of bad blogs out there, deep down in my teacher bones I felt that starting a blog is &lt;em&gt;still&lt;/em&gt; a good idea.&lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;
+Like all thoughts, I couldn’t put my finger on it right away, but this post here is sets out to address the real reasons why in 2020 I &lt;em&gt;STILL&lt;/em&gt; think people should be starting a blog if they are interested in breaking into the world of data science (or really whatever you’re into).&lt;/p&gt;
+&lt;div id=&#34;the-point-of-a-data-science-blog&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;The “Point” of a Data Science Blog&lt;/h2&gt;
+&lt;p&gt;In the world of data science, especially at Flatiron School, when we first introduce the idea of blogging to students they think that the “point” of writing data science blogs is to disseminate some sort of technical information.
+For a newcomer to the field, this feels like a gargantuan task that almost validates someone’s impostor syndrome as they start to even think about topics in which they can address.
+How can a student, someone who is just getting to grips with stats, programming, and machine learning have anything of substance to contribute to that sea of Medium posts?
+In many ways, I think anyone new to the social media (Twitter, blogs) has a valid point in this regard.&lt;/p&gt;
+&lt;p&gt;We’re at a point now where knowledge is becoming so democratized that &lt;a href=&#34;https://twitter.com/DavidJohnBaker/status/1216639369093603329?s=20&#34;&gt;so many good resources exist&lt;/a&gt; that even as someone with a PhD with lots of teaching experience, I feel like I can’t compete with the sea of &lt;a href=&#34;https://r4ds.had.co.nz/&#34;&gt;free books&lt;/a&gt;, &lt;a href=&#34;https://www.becomingadatascientist.com/&#34;&gt;blog posts&lt;/a&gt;, &lt;a href=&#34;https://www.rdocumentation.org/&#34;&gt;documentation&lt;/a&gt;, and &lt;a href=&#34;https://www.youtube.com/channel/UCMdihazndR0f9XBoSXWqnYg&#34;&gt;YouTube videos&lt;/a&gt; out there in terms of making &lt;em&gt;new&lt;/em&gt; content.&lt;a href=&#34;#fn4&#34; class=&#34;footnote-ref&#34; id=&#34;fnref4&#34;&gt;&lt;sup&gt;4&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;But to think that the “point” of writing a data science blog post on a technical topic is to compete with someone like &lt;a href=&#34;https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw&#34;&gt;3blue1Brown&lt;/a&gt; explaining eigenvalues would be to &lt;a href=&#34;https://www.youtube.com/watch?v=U_eZmEiyTo0&#34;&gt;make one of the classic blunders&lt;/a&gt; and assume the “point” of writing a blog is that they are contributing the a giant ocean of knowledge that is “data science”, hoping to have their dribble “counts” as a meaningful drop to that big ocean.&lt;/p&gt;
+&lt;p&gt;In my opinion, on a deeper level, it’s more about writing blog posts that are about yourself and how you relate to the community of people that you eventually would like to be a member of.
+This is important because “data science” is not some big monolith, but rather a community of people.
+It shouldn’t be reified like a “thing” or some established part of the academy (let’s not forget how old data science is).
+For me, it’s better thought of as a big network of people, all with various understandings of what data science &lt;em&gt;is&lt;/em&gt; or even &lt;em&gt;can be&lt;/em&gt;.
+It’s about the people and you as a person.&lt;/p&gt;
+&lt;p&gt;It might not feel like that at first, especially with all the gate keeping that seems to perpetually exist, but people who make up data science are literally just other people.
+This might seem painfully obvious, but if you think about this from a social media perspective, all things social media (blogs, Twitter, LinkedIn) provide direct access for you to join said community.
+In my opinion, blogging without some sort of humanistic intent to make a connection with another person is just an exercise in bureaucracy.
+It’s something a &lt;a href=&#34;https://en.wikipedia.org/wiki/Reptilian_conspiracy_theory&#34;&gt;lizard person&lt;/a&gt; would do.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;blogging-and-social-media&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Blogging and Social Media&lt;/h2&gt;
+&lt;p&gt;Let me expand a bit.
+Social media and the online presence thing really never “clicked” for me until I started just interacting with other people and started getting reactions from “famous” people.
+I still remember when I watched &lt;a href=&#34;https://en.wikipedia.org/wiki/The_Interrupters&#34;&gt;The Inturrupters&lt;/a&gt; when I was like 22 and I tweeted about how much I liked the documentary and one of the people central to the documentary– &lt;a href=&#34;https://twitter.com/GSlutkin&#34;&gt;Gary Slutkin&lt;/a&gt; – not only liked the tweet, but commented back.&lt;/p&gt;
+&lt;p&gt;It blew my mind that for a fleeting moment I had some sort of interaction with someone who I had no connection to.
+And this really hasn’t gone away.
+A few years later I remembering feeling like a nerd when &lt;a href=&#34;https://twitter.com/hadleywickham&#34;&gt;Hadley Wickhamn&lt;/a&gt; liked one of my stupid tweets.
+I even screenshotted it for my collection.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/blogblog/hadley_like.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Of course not every interaction is with someone that is “twitter famous”, the most useful connections I have had on Twitter were throughout my Ph.D. finding so many people that share a common interest (what lead to the &lt;a href=&#34;https://twitter.com/search?q=%23musicscience&amp;amp;src=typed_query&#34;&gt;#musicscience&lt;/a&gt; hash tag!!).
+These connections have lead to things that I value (relationships with other people with shared intersts) and have also led to things of value (getting offers for data science gigs based on some of my data science posts) because I was able to start some sort of relationship.&lt;/p&gt;
+&lt;p&gt;The point I am trying to make here is not that it feels nice to get people to like your memes,&lt;a href=&#34;#fn5&#34; class=&#34;footnote-ref&#34; id=&#34;fnref5&#34;&gt;&lt;sup&gt;5&lt;/sup&gt;&lt;/a&gt; but that social media allows everyone the chance to start a relationship with someone before you actually have a relationship with them.
+By blogging and having a bit of a social media presence, you are able to kind of “front load” what that relationship could be.&lt;/p&gt;
+&lt;p&gt;What do I mean by this?
+What does does this actually look like in practice?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;the-actual-point&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;The Actual Point&lt;/h2&gt;
+&lt;p&gt;In my opinion the point of blogs or front-loading the relationship can take one of two different forms.&lt;/p&gt;
+&lt;p&gt;The first, which I tend to dub the “Twitter approach”, is to start building up your relationship before you actually meet someone face to face.
+Coming from an academic background, this is mostly how I’ve used social media.
+The name of the game is to just be you and rub shoulders with people who you know you will inevitably meet so that when you do meet someone face to face, you have some sort of idea of who they are &lt;em&gt;as a person&lt;/em&gt; so you can start your real relationship sooner and use the finite time you have together (normally at a conference) to then form a meaningful connection.&lt;/p&gt;
+&lt;p&gt;If you adopt this mentality, then the act of “networking” (a term dreaded by most introverted academics who tell us how introverted they are) can become what it should be which is just making more friends.&lt;/p&gt;
+&lt;p&gt;Of course it’s not so easy as to just start tweeting, build a huge following, and then profit.
+But I figure if you’re reading this blog, you’re already half way interested in this process.
+You have to start slowly, just ‘Like’ weird stuff that the chronic posters post, and then get to know what people are like, and learn what people value.
+A lot of the times it will be memes.
+Some of time there will be a dumpster fire.
+But there is a lot to be learned just watching it all pass by.
+Eventually you’ll find your niche and the whole “twitter for networking thing” will start to make more sense.&lt;/p&gt;
+&lt;p&gt;The second way, which sort of seems more suited for blogging (but of course they interact!), happens the other way around where you meet someone in person (or maybe on Twitter) and you’ve already built up a bit of a small online presence via your twitter feed or a blog.
+This might happen at a hackathon, or a conference, or even a non-work party.&lt;/p&gt;
+&lt;p&gt;It might happen something like this:&lt;/p&gt;
+&lt;p&gt;You find yourself in a conversation with someone and realize that you have similar interests.
+Maybe the person you’re talking to is part of a data science team somewhere and you’ve both attended the same meet up.
+Maybe they have a position open and are looking to hire a new data scientist.
+You bring up that you fancy yourself a bit of a data scientist.&lt;/p&gt;
+&lt;p&gt;Who you’ve just met remains skeptical.
+And they should.
+Everyone wants to be a data scientist.
+And to make matters worse everyone who wants to be a data scientist seems to have some sort of lame blog (written by a data scientist who has a blog).
+The thing is, if you’re actually out there in the real world having a chat and enjoying yourself with someone you’ve done most of the hard work in the world of networking.
+You’ve convinced someone that you are someone who the other person could imagine spending a lot of time with.
+What do you do then?&lt;/p&gt;
+&lt;p&gt;Well you might mention you are looking for a job or to switch jobs and have been writing blog posts not to add to the big bureaucratic pool of data science blog posts, but because you have a certain amount of expertise that you want to share and like linking your weird interest in your area of expertise (in my case, music theory) to the world of programming.&lt;/p&gt;
+&lt;p&gt;When you depart, things are now out of your hands.
+That’s totally fine, but if the person liked you, you know they are going to social media creep you.
+If they find you on the web and like what they see, they can fill in the professional scaffolding of the person that they met or know.
+Of course this is no guarantee that you would always get a job, but having something out there like a blog, an active twitter feed, or your Github profile is some sort of tangible evidence that you were who you said you were.
+In the case of the blog, if you have written quality content for where you are in your career demonstrating you know what you know, have some idea of what you don’t know, and can articulate that clearly, you can really get yourself recognized.&lt;/p&gt;
+&lt;p&gt;In both cases, the end result here is to to help other people get to know who you are with the help of the internet.
+If your goal is to land some sort of professional relationship with someone, this social media presence allows the person that will end up working with you a brief glimpse into what that relationship is going to be.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;a-blog-warning&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;A Blog Warning&lt;/h2&gt;
+&lt;p&gt;Now I don’t think you don’t HAVE to blog to become a data scientist.
+I could write tons more about the many ways this practice/culture could go wrong.
+In my opinion there is a little too much of an emphasis on the blog thing.&lt;/p&gt;
+&lt;p&gt;What if someone is not a great writer because English is their second language (assuming an English speaking workplace)?
+What if someone doesn’t have the luxury of doing their whole life AND blogging? (It takes a lot of time…)
+What if people just don’t like to write?
+What if people hate social media?&lt;/p&gt;
+&lt;p&gt;These are all valid questions that should sit in the back of someone’s mind.&lt;/p&gt;
+&lt;p&gt;But if you are interested in blogging and you think that you would enjoy sharing, why not give it a shot?
+Your first blogs might be lame, some of mine were/are.
+Eve this one is kind of lame.
+It’s a blog about blogs to just get me back in the swing of writing.
+It won’t be the contribution that everyone remembers me by (hopefully) but might help out a few people.&lt;/p&gt;
+&lt;p&gt;You might be really surprised about what good can come from it.
+I’ve been told that two of the positions that I’ve worked for recently, that people have read my blog before and that it positively influenced a hiring choice.
+We have numerous stories about blogs helping people get hired from my work at Flatiron School.
+I’ve also been offered some freelance gigs.
+Those would not have happened if I just had pushed some code to my Github.&lt;/p&gt;
+&lt;p&gt;I will end by saying that you do decide to start a blog, it does take a long time.
+At first you will think you will blog a ton.
+That will eventually die down and that’s OK.
+Creativity burnout is real and life happens.
+Luckily a lot of &lt;a href=&#34;https://twitter.com/12tonevideos/status/1078766465338232835?s=20&#34;&gt;content creators are very open about this&lt;/a&gt; and help normalize this.
+You should just blog when you want to or can or have something to say.
+At this point I think of mine as more like a small outlet for myself to express myself and a vehicle to help others given the experiences that I have had.&lt;/p&gt;
+&lt;p&gt;I’ll end with some advice that I have been giving to some students that are on their blog game now, just so this isn’t a total ramble.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Write blogs that only you can can write. (My default answer when people ask if they should write about an introduction to supervised versus unsupervised machine learning.)&lt;/li&gt;
+&lt;li&gt;Write the kind of blog post you would want to read. (My default answer when people ask me how long they should be.)&lt;/li&gt;
+&lt;li&gt;Literally write down the people you would want to read your blog at the top of your page when you’re drafting the post and write the post to them, erase their names when you’re done&lt;/li&gt;
+&lt;li&gt;Cite your sources.&lt;/li&gt;
+&lt;li&gt;Tweet/Post on LinkedIn about it when you’re done writing.&lt;/li&gt;
+&lt;li&gt;Don’t take them too seriously.&lt;/li&gt;
+&lt;li&gt;Demonstrate you know what you know and have a vague idea of what you don’t know&lt;/li&gt;
+&lt;li&gt;Try to make other people feel smarter or more empowered to do something after they have read your blog.&lt;/li&gt;
+&lt;li&gt;Everyone likes pictures.&lt;/li&gt;
+&lt;li&gt;Include code people can easily copy and paste to try on their own.&lt;/li&gt;
+&lt;li&gt;Don’t start too much drama, a little is kind of fun.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And lastly, if you you struggle to write, that’s ok.
+Writing is very hard.
+If you find it difficult, try to stick to some sort of template.
+If there’s any interest in sharing the materials we use at Flatiron School to help people get started, I’d be more than happy to for a future post.
+This one is now too long.&lt;/p&gt;
+&lt;p&gt;So, maybe start a blog in 2020, but take some time to really think about why you are doing it.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;I assume if you clicked on the title you’re here for that reason…&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;It probably should go without saying, but if you write factually incorrect information on your blog, you are going to have a lot of explaining to do…&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;Also being tainted by a lot of suviorship bias&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn4&#34;&gt;&lt;p&gt;The secret is you don’t have ot compete with it&lt;a href=&#34;#fnref4&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn5&#34;&gt;&lt;p&gt;Though always very nice&lt;a href=&#34;#fnref5&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Prelude to a Career</title>
       <link>/post/prelude-to-a-career/</link>
       <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
@@ -886,80 +1042,6 @@ Either way, as noted by &lt;a href=&#34;https://twitter.com/Komaniecki_R/status/
 &lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Schaffrath, H. (1995). The Essen Folksong Collection in Kern Format. [computer database]. D. Huron (ed.). Menlo Park, CA: Center for Computer Assisted Research in the Humanities, 1995.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;A couple of my LSU colleagues helped out on some of them.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;Also a great place to talk about human biases in algorithms, the need to be ethical in research…&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>#wikiwednesday</title>
-      <link>/post/wikiwednesday/</link>
-      <pubDate>Wed, 13 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/wikiwednesday/</guid>
-      <description>&lt;p&gt;One of the biggest issues that I lament about regarding Twitter is how there is so much great information just falling through my feed, never to be recovered again.
-A perfect example of this appeared yesterday when &lt;a href=&#34;https://twitter.com/willmasonmusic&#34;&gt;Will Mason&lt;/a&gt; &lt;a href=&#34;https://twitter.com/willmasonmusic/status/1105462217728761857&#34;&gt;tweeted asking for people to help provide examples of idiomatic instrumental constraints leading to funny pitch choices&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/img/wiki_20190313_post/will_tweet.png&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Within one day, there were loads examples of this along with some discussion contextualizing the responses.
-Examples like this happen all the time on Twitter ranging from people needing specific musical examples to &lt;a href=&#34;https://twitter.com/DougShadle/status/1066802040217759744&#34;&gt;killer Twitter rants like this one&lt;/a&gt; of &lt;a href=&#34;https://twitter.com/DougShadle&#34;&gt;Doug Shadle&lt;/a&gt; that took me way too long to find, which only proves my point.
-After liking the tweets, that’s usually where my engagement with the information ends, then I get sad that this information will never be available again for anyone who was not on Twitter yesterday.
-I know it lives on Twitter and can dig it out, but I honestly feel I should be spending less time on my computer when I find myself telling more senior music scholars things like&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;“Oh, actually, there was a really good Twitter thread about this the other day”.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;So what can be done?&lt;/p&gt;
-&lt;p&gt;Well, one thing that I think a lot of people forget about is that all this information can and should be put on Wikipedia.
-After looking at Will’s thread, I put “Idiomatic Music” in the Wikipedia search bar, and was directed to this &lt;a href=&#34;https://en.wikipedia.org/wiki/Instrumental_idiom&#34;&gt;stub of a page&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/img/wiki_20190313_post/pre_edit.png&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;This is where I would have hoped to find the information on Will’s tweet if I were looking for it on another day, but it’s not there.
-So in true “knowledge should be for everyone” fashion, I added it to the page and thought this might be a good opportunity to procrastinate writing my dissertation by writing a blog about my favorite dissertation writing procrastination activity: editing Wikipedia.&lt;/p&gt;
-&lt;div id=&#34;editing-wikipedia&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Editing Wikipedia&lt;/h2&gt;
-&lt;p&gt;One thing I have been meaning to blog about, and this obviously has given me a good reason to, is how easy and important I think it is for academics to edit Wikipedia.
-It’s so important that I have even turned my love of editing Wikipedia into something I personally refer to as #wikiwednesday.&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;For me, #wikiwednesday is just a weekly reminder that I should add something to Wikipedia every Wednesday.
-For the past few weeks, I have been doing it on topics related to my dissertation, but in this post I honestly wanted to show how easy it is to edit Wikipedia for anyone that hasn’t yet.
-Hopefully after seeing a few screenshots, you too will be inclined to help out as well!&lt;/p&gt;
-&lt;p&gt;The first thing that you need to do is make an account.
-I made a quick one just for this post.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/img/wiki_20190313_post/make_account.png&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Ok, now with an account made, the next thing that you need to do is click the Edit Source button found in the top right corner.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/img/wiki_20190313_post/editsource.png&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Here (at least my my Firefox?) there’s the option to use the Visual Editor mode.
-If you’re not familiar with Markdown and HTML and what not, this is the way to go in my opinion.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/img/wiki_20190313_post/viz_editor.png&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;From here, this opens up the hood and you can start editing.
-I am personally in the process of doing the last 50 days of my dissertation, so I seriously do not have time to restructure this page, but I do have time to add in a bit of text (and do this quick blog post).&lt;/p&gt;
-&lt;p&gt;Next, all I wanted to do was create a new heading that would provide some examples of this, then write some very OK text with some concrete examples from Will’s thread.
-The text is not poetic by any means, but it’s better for it to be there than not.
-And if you think what I wrote sucks, you can always change it!&lt;/p&gt;
-&lt;p&gt;After adding all this in, I then tried to link in some of the composers and examples with the link tool.
-It might take a second to get a handle of how this works, but it’s time well spent in my opinion.
-After a few minutes of editing….&lt;a href=&#34;https://en.wikipedia.org/wiki/Instrumental_idiom&#34;&gt;Tah Dah!&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;wiki-ing&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;wiki-ing&lt;/h2&gt;
-&lt;p&gt;Part of me wanted to just keep going and adding to this page, but my hope is that people will read this post and do a bit of their own #wikiwednesday-ing and just try to do one small edit on this page or another.
-I find that once you start, I think it’s pretty fun and actually kind of hard to stop.&lt;/p&gt;
-&lt;p&gt;Not only is it fun (my opinion), but I also think that if you are an expert in something (cougheveryonewithaphdcough), you have a responsibility to edit Wikipedia in your own subject area.
-Not only is it important to give people up-to-date and accurate information, but Wikipedia is also a place where most people probably start most of their inquiries.
-And this isn’t just undergrads, the amount of times I have seen people crack open Wikipedia on their phones at an SMT or AMS talk on a subject outside of their realm of expertise is pretty funny.&lt;/p&gt;
-&lt;p&gt;The reason I think this is so important is because this writing will be more read than any article I write in any journal (especially if it’s written behind a pay wall!) and probably have more of a cumulative impact than most of my research.
-Also, knowing that Wikipedia is probably the best empirical evidence of what we as a community canonize, it becomes so important to make sure that Wikipedia is representative of the world we want to exist in.
-I’m obviously not the first by any means to point this out.
-There has recently been coverage of Wikipedia’s diversity issues by the &lt;a href=&#34;https://www.washingtonpost.com/lifestyle/style/history-has-a-massive-gender-bias-well-settle-for-fixing-wikipedia/2019/02/15/b2537640-3163-11e9-86ab-5d02109aeb01_story.html?utm_term=.72aa4b49348f&#34;&gt;Washington Post&lt;/a&gt; and anyone that is not living under a rock (aka not on Twitter) knows that the music community is actively working towards &lt;a href=&#34;https://www.annakijas.com/rebalancing-the-music-canon/&#34;&gt;Rebalancing the Music Canon&lt;/a&gt; as blogged about by &lt;a href=&#34;https://twitter.com/anna_kijas&#34;&gt;Anna Kijas&lt;/a&gt; and working towards more accessibility of music from historically under-represented composers by initiatives like &lt;a href=&#34;https://twitter.com/MTEW_com&#34;&gt;Music Theory Examples by Women&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/ComposerProject&#34;&gt;The Institute for Composer Diversity&lt;/a&gt;.
-All I am trying to get across with this post is how important I see it for anyone with skin in the game to take a bit of time out of their day each week and make a habit out of putting information out where most people read it.&lt;/p&gt;
-&lt;p&gt;Of course this is being done too, I guess I just am hoping for more of it.
-I’ve seen that some people like &lt;a href=&#34;https://twitter.com/K_Leonard_PhD&#34;&gt;Kendra Leonard&lt;/a&gt; starting to organize Wikipedia sessions (couldn’t find this exact tweet to link in?) to create and edit pages on Women composers.
-In my opinion, if both &lt;a href=&#34;https://societymusictheory.org/&#34;&gt;SMT&lt;/a&gt; and &lt;a href=&#34;https://www.amsmusicology.org/&#34;&gt;AMS&lt;/a&gt; put aside 2 hours each national conference to edit the music pages of Wikipedia, we as a society could take most of the year off of #publicmusicology (just kidding, but maybe not because that level of human resources editing Wikipedia would be unheard of).&lt;/p&gt;
-&lt;p&gt;So on that note, I think it’d be nice if anyone interested in &lt;a href=&#34;https://twitter.com/search?q=%23publicmusicology&amp;amp;src=typd&#34;&gt;#publicmusicology&lt;/a&gt; would join me in my weekly small edits of Wikipedia and share small portions of what they did with #wikiwednesday to remind others to also help out.
-Or you could get back to devoting all your time to that article that most people probably will not read (#shotsfired).&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;footnotes&#34;&gt;
-&lt;hr /&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;My love for editing Wikipedia pages grew out of taking extensive notes on a server that my advsior, &lt;a href=&#34;https://twitter.com/danielshanahan&#34;&gt;Dan Shanahan&lt;/a&gt; set one up for our department to facilitate collective knowledge for our department.
-Of course those posts live in on a “private” wiki, but they will one day see the light of day when I either blog about them or try to get all that info to Wikipedia.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>

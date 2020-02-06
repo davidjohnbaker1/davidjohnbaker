@@ -13,11 +13,10 @@ weight = 1
 [interests]
   interests = [
     "Memory for Melodies",
-    "Computational Modeling",
-    "Corpus Studies",
-    "Aural Skills",
+    "Data Science Education",
+    "Music and Cognitive Ability",
     "R",
-    "Music Industry"
+    "Applications of Music Research in Industry"
   ]
 
 # List your qualifications (such as academic degrees).
@@ -43,4 +42,6 @@ weight = 1
 David John Baker is a music researcher and educator passionate about research questions at the intersection of music theory and music science. 
 His research looks to understand how the people learn melodies in order to improve pedagogical practices in aural skills education. 
 Using his background in the humanities and training in psychological sciences, David builds testable models of how people hear music.
-His overlapping quantitative skill set with the world of data science has also led him to both industry projects and work with non-profit organizations. 
+
+His overlapping quantitative skill set with the world of data science has also led him to both industry projects and work with non-profit organizations.
+He is currently a Lead Instructor of Data Science at Flatiron School in London.

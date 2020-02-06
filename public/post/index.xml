@@ -11,6 +11,162 @@
     <atom:link href="/post/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Blog on (Data Science) Blogs</title>
+      <link>/post/blog-on-blogs/</link>
+      <pubDate>Fri, 07 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/blog-on-blogs/</guid>
+      <description>&lt;p&gt;We’re nearing the point of saturation when it comes to data science blogs.
+The amount of reccomended Medium, Towards Data Science, Analytics Vidhya, or whatever website you can post to articles that come up on my suggested reading on my phone is unending.
+Why?
+Because aspiring data scientists have repeatedly been told that one of the best ways to break into data science is to:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;START. A. BLOG.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;You, an aspiring member of the workforce, not only should be refining all your technical skills as you apply for jobs, brush up your LinkedIn profile, refactor all that code from that one project you still have yet to set to public on Githhub, but in addition to &lt;em&gt;all&lt;/em&gt; that (and your normal life) should devote time to writing data science blogs.&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This is a lot to ask of someone applying for jobs.&lt;/p&gt;
+&lt;p&gt;And as many of our students at &lt;a href=&#34;https://flatironschool.com/&#34;&gt;Flatiron School&lt;/a&gt; have pointed out, there is not only a sea, but an ocean of data science blog posts out there.
+There are so many out there (of &lt;a href=&#34;https://twitter.com/statsepi/status/1215932060172455936?s=20&#34;&gt;varying quality&lt;/a&gt;) and there seems to be such a push for aspiring data scientists to blog that one of our students joked (maybe not?) that their final project should be a bot that writes data science blog posts just to keep up appearances.
+In many ways, I couldn’t argue with them, it seems that this advice of starting a blog and blogging is pushed on people wanting to break into data science and what results is a collection of very OK posts when you click around on &lt;a href=&#34;medium.com&#34;&gt;Medium&lt;/a&gt;.
+This influx of blogs from people-yet-to-get-hired also means that there are a lot of people who are probably under-qualfied to write about the tutorial they set out to detail, especially if it’s about stats.
+Hello &lt;a href=&#34;https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect&#34;&gt;Dunning-Kruger&lt;/a&gt;.
+In some ways, because there are so many posts out there, writing a bad blog post at this point would probably do you more harm than good.&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;But as I thought about this AI Blog Bot that one of our students came up with and the sea of bad blogs out there, deep down in my teacher bones I felt that starting a blog is &lt;em&gt;still&lt;/em&gt; a good idea.&lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;
+Like all thoughts, I couldn’t put my finger on it right away, but this post here is sets out to address the real reasons why in 2020 I &lt;em&gt;STILL&lt;/em&gt; think people should be starting a blog if they are interested in breaking into the world of data science (or really whatever you’re into).&lt;/p&gt;
+&lt;div id=&#34;the-point-of-a-data-science-blog&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;The “Point” of a Data Science Blog&lt;/h2&gt;
+&lt;p&gt;In the world of data science, especially at Flatiron School, when we first introduce the idea of blogging to students they think that the “point” of writing data science blogs is to disseminate some sort of technical information.
+For a newcomer to the field, this feels like a gargantuan task that almost validates someone’s impostor syndrome as they start to even think about topics in which they can address.
+How can a student, someone who is just getting to grips with stats, programming, and machine learning have anything of substance to contribute to that sea of Medium posts?
+In many ways, I think anyone new to the social media (Twitter, blogs) has a valid point in this regard.&lt;/p&gt;
+&lt;p&gt;We’re at a point now where knowledge is becoming so democratized that &lt;a href=&#34;https://twitter.com/DavidJohnBaker/status/1216639369093603329?s=20&#34;&gt;so many good resources exist&lt;/a&gt; that even as someone with a PhD with lots of teaching experience, I feel like I can’t compete with the sea of &lt;a href=&#34;https://r4ds.had.co.nz/&#34;&gt;free books&lt;/a&gt;, &lt;a href=&#34;https://www.becomingadatascientist.com/&#34;&gt;blog posts&lt;/a&gt;, &lt;a href=&#34;https://www.rdocumentation.org/&#34;&gt;documentation&lt;/a&gt;, and &lt;a href=&#34;https://www.youtube.com/channel/UCMdihazndR0f9XBoSXWqnYg&#34;&gt;YouTube videos&lt;/a&gt; out there in terms of making &lt;em&gt;new&lt;/em&gt; content.&lt;a href=&#34;#fn4&#34; class=&#34;footnote-ref&#34; id=&#34;fnref4&#34;&gt;&lt;sup&gt;4&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;But to think that the “point” of writing a data science blog post on a technical topic is to compete with someone like &lt;a href=&#34;https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw&#34;&gt;3blue1Brown&lt;/a&gt; explaining eigenvalues would be to &lt;a href=&#34;https://www.youtube.com/watch?v=U_eZmEiyTo0&#34;&gt;make one of the classic blunders&lt;/a&gt; and assume the “point” of writing a blog is that they are contributing the a giant ocean of knowledge that is “data science”, hoping to have their dribble “counts” as a meaningful drop to that big ocean.&lt;/p&gt;
+&lt;p&gt;In my opinion, on a deeper level, it’s more about writing blog posts that are about yourself and how you relate to the community of people that you eventually would like to be a member of.
+This is important because “data science” is not some big monolith, but rather a community of people.
+It shouldn’t be reified like a “thing” or some established part of the academy (let’s not forget how old data science is).
+For me, it’s better thought of as a big network of people, all with various understandings of what data science &lt;em&gt;is&lt;/em&gt; or even &lt;em&gt;can be&lt;/em&gt;.
+It’s about the people and you as a person.&lt;/p&gt;
+&lt;p&gt;It might not feel like that at first, especially with all the gate keeping that seems to perpetually exist, but people who make up data science are literally just other people.
+This might seem painfully obvious, but if you think about this from a social media perspective, all things social media (blogs, Twitter, LinkedIn) provide direct access for you to join said community.
+In my opinion, blogging without some sort of humanistic intent to make a connection with another person is just an exercise in bureaucracy.
+It’s something a &lt;a href=&#34;https://en.wikipedia.org/wiki/Reptilian_conspiracy_theory&#34;&gt;lizard person&lt;/a&gt; would do.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;blogging-and-social-media&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Blogging and Social Media&lt;/h2&gt;
+&lt;p&gt;Let me expand a bit.
+Social media and the online presence thing really never “clicked” for me until I started just interacting with other people and started getting reactions from “famous” people.
+I still remember when I watched &lt;a href=&#34;https://en.wikipedia.org/wiki/The_Interrupters&#34;&gt;The Inturrupters&lt;/a&gt; when I was like 22 and I tweeted about how much I liked the documentary and one of the people central to the documentary– &lt;a href=&#34;https://twitter.com/GSlutkin&#34;&gt;Gary Slutkin&lt;/a&gt; – not only liked the tweet, but commented back.&lt;/p&gt;
+&lt;p&gt;It blew my mind that for a fleeting moment I had some sort of interaction with someone who I had no connection to.
+And this really hasn’t gone away.
+A few years later I remembering feeling like a nerd when &lt;a href=&#34;https://twitter.com/hadleywickham&#34;&gt;Hadley Wickhamn&lt;/a&gt; liked one of my stupid tweets.
+I even screenshotted it for my collection.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/blogblog/hadley_like.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Of course not every interaction is with someone that is “twitter famous”, the most useful connections I have had on Twitter were throughout my Ph.D. finding so many people that share a common interest (what lead to the &lt;a href=&#34;https://twitter.com/search?q=%23musicscience&amp;amp;src=typed_query&#34;&gt;#musicscience&lt;/a&gt; hash tag!!).
+These connections have lead to things that I value (relationships with other people with shared intersts) and have also led to things of value (getting offers for data science gigs based on some of my data science posts) because I was able to start some sort of relationship.&lt;/p&gt;
+&lt;p&gt;The point I am trying to make here is not that it feels nice to get people to like your memes,&lt;a href=&#34;#fn5&#34; class=&#34;footnote-ref&#34; id=&#34;fnref5&#34;&gt;&lt;sup&gt;5&lt;/sup&gt;&lt;/a&gt; but that social media allows everyone the chance to start a relationship with someone before you actually have a relationship with them.
+By blogging and having a bit of a social media presence, you are able to kind of “front load” what that relationship could be.&lt;/p&gt;
+&lt;p&gt;What do I mean by this?
+What does does this actually look like in practice?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;the-actual-point&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;The Actual Point&lt;/h2&gt;
+&lt;p&gt;In my opinion the point of blogs or front-loading the relationship can take one of two different forms.&lt;/p&gt;
+&lt;p&gt;The first, which I tend to dub the “Twitter approach”, is to start building up your relationship before you actually meet someone face to face.
+Coming from an academic background, this is mostly how I’ve used social media.
+The name of the game is to just be you and rub shoulders with people who you know you will inevitably meet so that when you do meet someone face to face, you have some sort of idea of who they are &lt;em&gt;as a person&lt;/em&gt; so you can start your real relationship sooner and use the finite time you have together (normally at a conference) to then form a meaningful connection.&lt;/p&gt;
+&lt;p&gt;If you adopt this mentality, then the act of “networking” (a term dreaded by most introverted academics who tell us how introverted they are) can become what it should be which is just making more friends.&lt;/p&gt;
+&lt;p&gt;Of course it’s not so easy as to just start tweeting, build a huge following, and then profit.
+But I figure if you’re reading this blog, you’re already half way interested in this process.
+You have to start slowly, just ‘Like’ weird stuff that the chronic posters post, and then get to know what people are like, and learn what people value.
+A lot of the times it will be memes.
+Some of time there will be a dumpster fire.
+But there is a lot to be learned just watching it all pass by.
+Eventually you’ll find your niche and the whole “twitter for networking thing” will start to make more sense.&lt;/p&gt;
+&lt;p&gt;The second way, which sort of seems more suited for blogging (but of course they interact!), happens the other way around where you meet someone in person (or maybe on Twitter) and you’ve already built up a bit of a small online presence via your twitter feed or a blog.
+This might happen at a hackathon, or a conference, or even a non-work party.&lt;/p&gt;
+&lt;p&gt;It might happen something like this:&lt;/p&gt;
+&lt;p&gt;You find yourself in a conversation with someone and realize that you have similar interests.
+Maybe the person you’re talking to is part of a data science team somewhere and you’ve both attended the same meet up.
+Maybe they have a position open and are looking to hire a new data scientist.
+You bring up that you fancy yourself a bit of a data scientist.&lt;/p&gt;
+&lt;p&gt;Who you’ve just met remains skeptical.
+And they should.
+Everyone wants to be a data scientist.
+And to make matters worse everyone who wants to be a data scientist seems to have some sort of lame blog (written by a data scientist who has a blog).
+The thing is, if you’re actually out there in the real world having a chat and enjoying yourself with someone you’ve done most of the hard work in the world of networking.
+You’ve convinced someone that you are someone who the other person could imagine spending a lot of time with.
+What do you do then?&lt;/p&gt;
+&lt;p&gt;Well you might mention you are looking for a job or to switch jobs and have been writing blog posts not to add to the big bureaucratic pool of data science blog posts, but because you have a certain amount of expertise that you want to share and like linking your weird interest in your area of expertise (in my case, music theory) to the world of programming.&lt;/p&gt;
+&lt;p&gt;When you depart, things are now out of your hands.
+That’s totally fine, but if the person liked you, you know they are going to social media creep you.
+If they find you on the web and like what they see, they can fill in the professional scaffolding of the person that they met or know.
+Of course this is no guarantee that you would always get a job, but having something out there like a blog, an active twitter feed, or your Github profile is some sort of tangible evidence that you were who you said you were.
+In the case of the blog, if you have written quality content for where you are in your career demonstrating you know what you know, have some idea of what you don’t know, and can articulate that clearly, you can really get yourself recognized.&lt;/p&gt;
+&lt;p&gt;In both cases, the end result here is to to help other people get to know who you are with the help of the internet.
+If your goal is to land some sort of professional relationship with someone, this social media presence allows the person that will end up working with you a brief glimpse into what that relationship is going to be.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;a-blog-warning&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;A Blog Warning&lt;/h2&gt;
+&lt;p&gt;Now I don’t think you don’t HAVE to blog to become a data scientist.
+I could write tons more about the many ways this practice/culture could go wrong.
+In my opinion there is a little too much of an emphasis on the blog thing.&lt;/p&gt;
+&lt;p&gt;What if someone is not a great writer because English is their second language (assuming an English speaking workplace)?
+What if someone doesn’t have the luxury of doing their whole life AND blogging? (It takes a lot of time…)
+What if people just don’t like to write?
+What if people hate social media?&lt;/p&gt;
+&lt;p&gt;These are all valid questions that should sit in the back of someone’s mind.&lt;/p&gt;
+&lt;p&gt;But if you are interested in blogging and you think that you would enjoy sharing, why not give it a shot?
+Your first blogs might be lame, some of mine were/are.
+Eve this one is kind of lame.
+It’s a blog about blogs to just get me back in the swing of writing.
+It won’t be the contribution that everyone remembers me by (hopefully) but might help out a few people.&lt;/p&gt;
+&lt;p&gt;You might be really surprised about what good can come from it.
+I’ve been told that two of the positions that I’ve worked for recently, that people have read my blog before and that it positively influenced a hiring choice.
+We have numerous stories about blogs helping people get hired from my work at Flatiron School.
+I’ve also been offered some freelance gigs.
+Those would not have happened if I just had pushed some code to my Github.&lt;/p&gt;
+&lt;p&gt;I will end by saying that you do decide to start a blog, it does take a long time.
+At first you will think you will blog a ton.
+That will eventually die down and that’s OK.
+Creativity burnout is real and life happens.
+Luckily a lot of &lt;a href=&#34;https://twitter.com/12tonevideos/status/1078766465338232835?s=20&#34;&gt;content creators are very open about this&lt;/a&gt; and help normalize this.
+You should just blog when you want to or can or have something to say.
+At this point I think of mine as more like a small outlet for myself to express myself and a vehicle to help others given the experiences that I have had.&lt;/p&gt;
+&lt;p&gt;I’ll end with some advice that I have been giving to some students that are on their blog game now, just so this isn’t a total ramble.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Write blogs that only you can can write. (My default answer when people ask if they should write about an introduction to supervised versus unsupervised machine learning.)&lt;/li&gt;
+&lt;li&gt;Write the kind of blog post you would want to read. (My default answer when people ask me how long they should be.)&lt;/li&gt;
+&lt;li&gt;Literally write down the people you would want to read your blog at the top of your page when you’re drafting the post and write the post to them, erase their names when you’re done&lt;/li&gt;
+&lt;li&gt;Cite your sources.&lt;/li&gt;
+&lt;li&gt;Tweet/Post on LinkedIn about it when you’re done writing.&lt;/li&gt;
+&lt;li&gt;Don’t take them too seriously.&lt;/li&gt;
+&lt;li&gt;Demonstrate you know what you know and have a vague idea of what you don’t know&lt;/li&gt;
+&lt;li&gt;Try to make other people feel smarter or more empowered to do something after they have read your blog.&lt;/li&gt;
+&lt;li&gt;Everyone likes pictures.&lt;/li&gt;
+&lt;li&gt;Include code people can easily copy and paste to try on their own.&lt;/li&gt;
+&lt;li&gt;Don’t start too much drama, a little is kind of fun.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And lastly, if you you struggle to write, that’s ok.
+Writing is very hard.
+If you find it difficult, try to stick to some sort of template.
+If there’s any interest in sharing the materials we use at Flatiron School to help people get started, I’d be more than happy to for a future post.
+This one is now too long.&lt;/p&gt;
+&lt;p&gt;So, maybe start a blog in 2020, but take some time to really think about why you are doing it.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;I assume if you clicked on the title you’re here for that reason…&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;It probably should go without saying, but if you write factually incorrect information on your blog, you are going to have a lot of explaining to do…&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;Also being tainted by a lot of suviorship bias&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn4&#34;&gt;&lt;p&gt;The secret is you don’t have ot compete with it&lt;a href=&#34;#fnref4&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn5&#34;&gt;&lt;p&gt;Though always very nice&lt;a href=&#34;#fnref5&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Prelude to a Career</title>
       <link>/post/prelude-to-a-career/</link>
       <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
@@ -1330,97 +1486,6 @@ question4.means&lt;/code&gt;&lt;/pre&gt;
 &lt;h2&gt;Reflections&lt;/h2&gt;
 &lt;p&gt;What started out as a fun weekend project actually turned into a really great learning experience. I’ve definitely put a few solid hours into this and have gotten a lot out of it. I learned that my friends actually know a TON about beer and data science, that &lt;a href=&#34;https://git-lfs.github.com/&#34;&gt;git-lfs&lt;/a&gt; is something I wish I would have known about earlier, and that I’m actually looking forward to doing more blogging in the future.&lt;/p&gt;
 &lt;p&gt;I will probably have to go MIA for the next two weeks since my General Exams are coming up in early February, but I’m sure I will be back at it come late March. Until then, all I can hope for is that someone who is looking to hire a junior data scientist over the summer will come across these posts and think I might be a good temporary addition to their team.&lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hire Me (as a Data Scientist!), Part III</title>
-      <link>/post/hire-me-as-a-datascientist-part-iii/</link>
-      <pubDate>Sun, 28 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/hire-me-as-a-datascientist-part-iii/</guid>
-      <description>&lt;p&gt;Two questions down, two to go! For the third post I’ll explore the question:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Which of the factors (aroma, taste, appearance, palate) are most important in determining the overall quality of a beer?&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Whereas the posts before were questions on sorting data, this is our first attempt to make some statistical models. In this case, we’re going to be doing a bit of regression modeling.&lt;/p&gt;
-&lt;p&gt;There are a couple of ways to tackle this problem. We could run some basic linear regression models and spend the whole post talking beta coefficients and what assumptions we violated. We could do a linear mixed effects model, then realize that doing so would be a terrible choice (I tried it for the fun of it, bad idea). Or we do a fun non-parametric, machine learning model that is on the easier-to-interpret side. Since machine learning is so hot right now, let’s stick with that.&lt;/p&gt;
-&lt;div id=&#34;machine-learning-and-non-parametric-models&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Machine Learning and Non-Parametric Models&lt;/h2&gt;
-&lt;p&gt;Non-parametric models make no assumptions about the data. The models do not assume that our points come from beautiful, normally distributed ideal populations; they just seek to find some way to give us a good rule of thumb about what is happening under the hood.&lt;/p&gt;
-&lt;p&gt;In this case, we need to make a model to predict the quality of beer (our dependent variable, &lt;code&gt;review_overall&lt;/code&gt;) based on four different independent variables (&lt;code&gt;review_aroma&lt;/code&gt;, &lt;code&gt;review_taste&lt;/code&gt;, &lt;code&gt;review_appearance&lt;/code&gt;, &lt;code&gt;review_palate&lt;/code&gt;).&lt;/p&gt;
-&lt;p&gt;After discussing the pros and cons of certain methods for tackling this problem, my friend &lt;a href=&#34;https://www.linkedin.com/in/tabitha-trahan-172471b4/&#34;&gt;Tabi&lt;/a&gt;, the data scientist over at &lt;a href=&#34;https://www.soundout.com/&#34;&gt;Soundout&lt;/a&gt;, suggested that an easy way to get the answer I was looking for was to use a random forest model. Some great explanations about how these models work can be found &lt;a href=&#34;http://trevorstephens.com/kaggle-titanic-tutorial/getting-started-with-r/&#34;&gt;here&lt;/a&gt; and &lt;a href=&#34;http://www-bcf.usc.edu/~gareth/ISL/&#34;&gt;here&lt;/a&gt;, and &lt;a href=&#34;https://gormanalysis.com/random-forest-from-top-to-bottom/&#34;&gt;here&lt;/a&gt; and since this isn’t a post about how random forest models work, I’ll just note that basically the idea is that it is an algorithm that partitions your dataset into dimensions that help us either classify or predict observations in our dataset based on the variables you feed it. Relevant to our question: the ways in which the algorithm splits our dataset is going to help us figure out what are the important variables.&lt;/p&gt;
-&lt;p&gt;Before running this model though, we need to talk about a small dependence problem in our dataset. In my earlier post, I talked about how we probably should not just run a model on the data &lt;em&gt;as is&lt;/em&gt;. Last time we found there were tons of NAs in our dataset, that not all beers were equally represented, and that not all reviewers were making even amounts of reviews. In addition to these problems, there was also the problem that some reviewers might rate generally higher or lower &lt;em&gt;all the time&lt;/em&gt;. Since we know things like this exist, we wanted to account for them.&lt;/p&gt;
-&lt;p&gt;The simplest plan of action would be to try and make each of the points we want to model independent by averaging ratings across all beers so we don’t have cases where one person’s influence is spread across multiple beers. We also make sure to only use beers that have over 30 ratings as a quality check. Let’s index out the data we need!&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(ggplot2)
-library(data.table)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Warning: package &amp;#39;data.table&amp;#39; was built under R version 3.4.2&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;beer &amp;lt;- fread(&amp;quot;data/beer_reviews.csv&amp;quot;) &lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## 
-Read 69.3% of 1586614 rows
-Read 1586614 rows and 13 (of 13) columns from 0.168 GB file in 00:00:03&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Make READABLE unique beer ID
-beer[, beer_name_unique := paste(brewery_name,beer_name, beer_style)]
-
-# Only beers with over 30 reviews 
-reliable.beers &amp;lt;- beer[, .(ReviewsBeerHas = .N), by = beer_name_unique][order(-ReviewsBeerHas)][ReviewsBeerHas &amp;gt; 30]
-
-# Merge with Inner Join 
-beer.reliable &amp;lt;- reliable.beers[beer, on = &amp;quot;beer_name_unique&amp;quot;, nomatch=0]
-
-# Make independent ratings 
-prediction.data &amp;lt;- beer.reliable[, .(AvgOverall = mean(review_overall),
-         AvgAroma = mean(review_aroma),
-         AvgTaste = mean(review_taste),
-         AvgApp = mean(review_appearance),
-         AvgPal = mean(review_palate)), by = beer_name_unique]&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Now that we have some better data, let’s fit a random forest model. We are now attempting to predict the average overall rating from our four others measures. We’ll use the &lt;code&gt;randomForest&lt;/code&gt; package and make sure to ask it to include a measure of variable importance.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(randomForest)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Warning: package &amp;#39;randomForest&amp;#39; was built under R version 3.4.4&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## randomForest 4.6-14&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Type rfNews() to see new features/changes/bug fixes.&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## 
-## Attaching package: &amp;#39;randomForest&amp;#39;&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## The following object is masked from &amp;#39;package:ggplot2&amp;#39;:
-## 
-##     margin&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;set.seed(666) 
-random.forrest.fit &amp;lt;- randomForest(AvgOverall ~ AvgAroma + AvgTaste + AvgApp + AvgPal, data = prediction.data, importance = TRUE)
-random.forrest.fit$importance&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;##             %IncMSE IncNodePurity
-## AvgAroma 0.02441128      210.5021
-## AvgTaste 0.09918310      316.1375
-## AvgApp   0.01538637      194.8586
-## AvgPal   0.05592918      278.5960&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The randomForest object gives us two different measures when it comes to variable importance. The first one, &lt;code&gt;%IncMSE&lt;/code&gt;, is a measure that tells us how much our model’s Mean Square Error (MSE) would change if we were to take that variable out of our model. Average taste here is trouncing the other variables in terms of importance. The second variable, &lt;code&gt;IncNodePurity&lt;/code&gt; gives us a measure of node purity from all of the trees that were used in creating our model. Here Taste again leads in terms of importance, but our Palate variable seems to be close behind. We see this visually below.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;varImpPlot(random.forrest.fit, main = &amp;quot;Variable Importance Metrics&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2018-01-28-hire-me-as-a-datascientist-part-iii_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;The result that Taste seems to be taking the cake here is to be expected. Using some of the more basic tools of statistics and data science, we can look at the correlation between our taste variable and our overall, and it’s quite high. Actually looking at our average ratings, all of the correlations are really high!&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;cor(prediction.data[,-1])&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;##            AvgOverall  AvgAroma  AvgTaste    AvgApp    AvgPal
-## AvgOverall  1.0000000 0.8811997 0.9518908 0.8432381 0.9360091
-## AvgAroma    0.8811997 1.0000000 0.9591004 0.8954413 0.9365741
-## AvgTaste    0.9518908 0.9591004 1.0000000 0.8949545 0.9742687
-## AvgApp      0.8432381 0.8954413 0.8949545 1.0000000 0.9120654
-## AvgPal      0.9360091 0.9365741 0.9742687 0.9120654 1.0000000&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Doing the analysis with this data presents some strange issues of collinearity. Having an &lt;em&gt;r&lt;/em&gt; = .951 for our Overall and Taste variables is obnoxiously high. An &lt;em&gt;r&lt;/em&gt; = .974 for Palette and Taste is also strangely large. If you come from more of a psychology background, you would almost never see correlations this high in the wild; it would be an immediate sign for concern.&lt;/p&gt;
-&lt;p&gt;The correlations go down a bit if you end up looking at the non-aggregated sets too (see below), but again remember that these values have those dependence and outlier issues with them. Still, &lt;code&gt;review_taste&lt;/code&gt; and &lt;code&gt;review_overall&lt;/code&gt; are the highest correlated variables.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;cor(beer[, .(review_overall,review_aroma,review_appearance,review_palate,review_taste)])&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;##                   review_overall review_aroma review_appearance
-## review_overall         1.0000000    0.6160131         0.5017324
-## review_aroma           0.6160131    1.0000000         0.5610290
-## review_appearance      0.5017324    0.5610290         1.0000000
-## review_palate          0.7019139    0.6169469         0.5666339
-## review_taste           0.7898156    0.7167761         0.5469804
-##                   review_palate review_taste
-## review_overall        0.7019139    0.7898156
-## review_aroma          0.6169469    0.7167761
-## review_appearance     0.5666339    0.5469804
-## review_palate         1.0000000    0.7341351
-## review_taste          0.7341351    1.0000000&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;This effect is probably due to the fact that higher quality beers tend to score higher on everything. It would be pretty strange in practice to give a beer a 5/5 overall, but then think it’s deserving of a 2/5 in Taste. If I were on a team at Beer Advocate, I might suggest incorporating either a larger range of ratings (maybe a seven point scale) or maybe thinking about different dimensions to ask people to rate like ‘hoppiness’ or bang-for-your-buck. Variables like these would allow us to learn more about the beers since they would have less collinearity issues.&lt;/p&gt;
-&lt;p&gt;So the take-home here is that the taste variable is the most important variable for determining the overall rating and again we’re reminded about how messy this data is!&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>

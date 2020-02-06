@@ -21,10 +21,10 @@ defaultContentLanguageInSubdir = false
 [params]
   name = "David John Baker"
   role = "Music, Theory, Science"
-  organization = ""
+  organization = "Flatiron School, London"
   organization_url = ""
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "davidocean.png"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "headshots/david_color_serious.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "davidjohnbaker1@gmail.com"
   address = ""
   office_hours = ""

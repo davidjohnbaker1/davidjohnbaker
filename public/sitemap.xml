@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>/post/blog-on-blogs/</loc>
+      <lastmod>2020-02-07T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/post/prelude-to-a-career/</loc>
       <lastmod>2019-09-24T00:00:00+00:00</lastmod>
     </url>
@@ -595,7 +604,7 @@
     <url>
     
       <loc>/categories/data-science/</loc>
-      <lastmod>2018-01-13T00:00:00+00:00</lastmod>
+      <lastmod>2020-02-07T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
