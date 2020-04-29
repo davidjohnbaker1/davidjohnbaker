@@ -1,14 +1,36 @@
-# My New Website
+# Website 
+
+## To Do
+
+* [ ] Link New CV
+* [ ] Link new Resume 
+
+### Future Blogs 
+
+* [ ] SysMus Blog for AltAc 
+* [ ] RStudio Instructor Post 
+* [ ] FIS Reflection Post 
+
+### Teaching 
+
+* [ ] Link in Workshop Examples
+* [ ] Link Data Science Lesson Plans 
+	- Capstone Template Materials
+	- Statistics Slides
+	- PCA
+	- Bayes 
+	- Tidyverse
+* [ ] Add links to vidoes of me teaching 
+* [ ] Link to University Course Materials
+* [ ] Create Teaching Effectiveness Materials
+* [ ] Add Diversity Statement Links
+
+## Projects 
+
+* [ ] Resolve `projects` vs `project` problem
+* [ ] Push old projects up 
 
 ## Experience
 
-* [ ] Link Experiences at bottom
-* [ ] New Photos for all of Experience 
 * [ ] Remove contact info on teaching 
-  
-## To Do 
-
-* [Potato Head](https://summer-of-blogdown.netlify.app/02/#41)
 * [ ] Tags to blog site 
-* [ ] Add Veritonic on Projects
-* [ ] Add Sony on Projects 
