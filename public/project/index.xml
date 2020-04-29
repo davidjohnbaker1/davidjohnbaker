@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on David John Baker</title>
@@ -8,7 +8,9 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2019 David John Baker</copyright>
     <lastBuildDate>Sat, 07 Apr 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/project/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Music Industry</title>
@@ -16,42 +18,7 @@
       <pubDate>Sat, 07 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/project/music-industry/</guid>
-      <description>
-
-&lt;p&gt;In addition to academic work, I&amp;rsquo;m also often involved as working as a consultant for various music industry projects.
-They are typically a mix of music + data science, sometimes with a bit of psychology thrown in.
-If you&amp;rsquo;d like to hire me for anything from trying to find insight from your dirty data, to making data products, to scientific consultancy, please don&amp;rsquo;t hesitate to &lt;a href=&#34;mailto:davidjohnbaker1@gmail.com&#34; target=&#34;_blank&#34;&gt;get in touch&lt;/a&gt;!!&lt;/p&gt;
-
-&lt;p&gt;Here are some examples of projects that I have been involved with in the past.&lt;/p&gt;
-
-&lt;h2 id=&#34;projects&#34;&gt;Projects&lt;/h2&gt;
-
-&lt;h3 id=&#34;brainwaves&#34;&gt;brainwaves&lt;/h3&gt;
-
-&lt;p&gt;This last year I was involved on a project with &lt;a href=&#34;https://soundscapeagency.com/&#34; target=&#34;_blank&#34;&gt;Soundscape Agency&lt;/a&gt; acting as their scientific consultant to help develop music in collaboration with various artists from the &lt;a href=&#34;https://www.erasedtapes.com/&#34; target=&#34;_blank&#34;&gt;Erased Tapes&lt;/a&gt; record label, &lt;a href=&#34;https://www.citizenm.com/&#34; target=&#34;_blank&#34;&gt;Citizen M&lt;/a&gt; hotels, and &lt;a href=&#34;https://www.bose.co.uk/en_gb/products/headphones/wireless_headphones.html&#34; target=&#34;_blank&#34;&gt;Bose&lt;/a&gt; Headphones.
-The project launched in Spring of 2019 and has received a bit of news coverage.
-To learn more about the project, check out this interview I did in &lt;a href=&#34;https://www.forbes.com/sites/michellegross/2019/08/22/this-is-the-most-relaxing-music-to-travel-to-according-to-science/?fbclid=IwAR2N_Qdrh7_zpKVcchT8g8kLgr9Nki3geI0HF4wl2diZIMcPVLTrFdGsg9c#57d3a463508d&#34; target=&#34;_blank&#34;&gt;Forbes&lt;/a&gt;.
-This was also covered by &lt;a href=&#34;https://borsen.dk/nyheder/avisen/artikel/11/224488/artikel.html&#34; target=&#34;_blank&#34;&gt;the Danish newspaper Borsen&lt;/a&gt; as well as a couple of others.
-There was also a bit of video content that was created that you can see below.&lt;/p&gt;
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/WPNQ_0BxStE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-
-&lt;h3 id=&#34;soundout&#34;&gt;Soundout&lt;/h3&gt;
-
-&lt;p&gt;Working with &lt;a href=&#34;https://www.soundout.com/&#34; target=&#34;_blank&#34;&gt;Soundout&lt;/a&gt;, I worked on a project with their lead data scientist &lt;a href=&#34;https://www.linkedin.com/in/tabitha-trahan/&#34; target=&#34;_blank&#34;&gt;Tabi Trahan&lt;/a&gt; and Dr. &lt;a href=&#34;http://www.doc.gold.ac.uk/~mas03dm/&#34; target=&#34;_blank&#34;&gt;Daniel Müllensifen&lt;/a&gt; to develop a tool that mapped Music and Brand personality onto the same emotional space.
-The details of the project can be found in the &lt;a href=&#34;https://www.researchgate.net/publication/306374399_Matching_Music_to_Brand_Personality_A_Semantic_Differential_Tool_for_Measuring_Emotional_Space&#34; target=&#34;_blank&#34;&gt;proceedings of the 14th International Conference on Music Perception and Cognition&lt;/a&gt;.
-The tool served as the basis for what later became their &lt;a href=&#34;https://www.soundout.com/brandmatch&#34; target=&#34;_blank&#34;&gt;BrandMatch&lt;/a&gt; tool.&lt;/p&gt;
-
-&lt;h3 id=&#34;audio-branding-academy&#34;&gt;Audio Branding Academy&lt;/h3&gt;
-
-&lt;p&gt;In 2014, I presented with Dr. Daniel Müllensifen at the Audio Branding Academy annual conference in Berlin, Germany.
-We gave a half-day workshop on tools that help bridge gaps between academics, creatives, and industry minded people.
-A summary of our workshop can be found in their &lt;a href=&#34;https://www.researchgate.net/publication/284721150_Music_Brands_Advertising_Testing_What_Works&#34; target=&#34;_blank&#34;&gt;annual yearbook from that year&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>Projects I&amp;rsquo;ve done outside of the Ivory Tower</description>
     </item>
     
     <item>
@@ -60,13 +27,7 @@ A summary of our workshop can be found in their &lt;a href=&#34;https://www.rese
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/project/computational-musicology/</guid>
-      <description>&lt;p&gt;Computational Musicology involves using computers to digitize musical data and then using powerful software to search through massive amounts of data that would be unfeasible to do by hand. I am particularly interested in using symbolic data to extract information from melodies that can be used to predict how well melodies are remembered and creating new data sets that others can use.&lt;/p&gt;
-
-&lt;p&gt;One project involving creating new datasets involves curating a dataset of improvised jazz solos.
-In its current state, the corpus is encoded in **kern and has solos from Charlie Parker (~70), Clifford Brown (~80), as well as Dizzy Gillespie (~10).
-We are in the process of including data from Miles Davis, John Coltrane, as well as other artists.
-Though not publicly availible yet, the dataset will have both melodic as well as harmonic information and be easily indexed using the &lt;a href=&#34;http://www.humdrum.org/&#34; target=&#34;_blank&#34;&gt;Humdrum&lt;/a&gt; tool kit.&lt;/p&gt;
-</description>
+      <description>Computers, music, and data</description>
     </item>
     
     <item>
@@ -75,23 +36,7 @@ Though not publicly availible yet, the dataset will have both melodic as well as
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/project/music-and-memory/</guid>
-      <description>
-
-&lt;p&gt;This past year I successfully defending my Ph.D. dissertation &lt;em&gt;Modeling Melodic Dictation&lt;/em&gt;.
-In a nutshell, I was interested in seeing how tools from computational musicology and cognitive psychology can help understand melodic dictation.
-In the research I was able to use all the domain expertise that comes along with doing a Ph.D. in Music Theory with the tools and techniques from music perception.
-Check out the dissertation &lt;a href=&#34;https://digitalcommons.lsu.edu/gradschool_dissertations/4960/&#34; target=&#34;_blank&#34;&gt;here on the LSU Commons&lt;/a&gt; and I also have the whole thing (though not the canonical copy!) hosted as interactive book online thanks to &lt;a href=&#34;https://bookdown.org/yihui/bookdown/&#34; target=&#34;_blank&#34;&gt;bookdown&lt;/a&gt;.
-&lt;a href=&#34;https://davidjohnbaker1.github.io/document/&#34; target=&#34;_blank&#34;&gt;Find the online, mobile friendly copy here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;dissertation-output&#34;&gt;Dissertation Output&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;First author&lt;/strong&gt; on article accepted at &lt;em&gt;Musicae Scientiae&lt;/em&gt; replicating the &lt;a href=&#34;https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0089642&#34; target=&#34;_blank&#34;&gt;Goldsmiths Musical Sophistication Index&lt;/a&gt; that offers additional commentary on the use of latent variables in music research. We argue for researchers to adopt a polymorphic view of musical ability when creating statistical models and question some of the assumptions that we as researchers make when we used latent variables in music psychology research.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Sole author&lt;/strong&gt; on book chapter with Routledge in &lt;em&gt;Companion to Aural Training in Music Education&lt;/em&gt; scheduled for publication in 2020.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;First author&lt;/strong&gt; on chapter in &lt;em&gt;Scholarly Approaches to Mathematical Music Theory&lt;/em&gt;.&lt;/li&gt;
-&lt;li&gt;Two &lt;strong&gt;First author&lt;/strong&gt; International Conference on Music Perception and Cognition proceedings papers available on my &lt;a href=&#34;https://www.researchgate.net/profile/David_Baker45&#34; target=&#34;_blank&#34;&gt;Research Gate&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>Research from my PhD dissertation</description>
     </item>
     
     <item>
@@ -100,7 +45,7 @@ Check out the dissertation &lt;a href=&#34;https://digitalcommons.lsu.edu/gradsc
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/project/lsu-lab-external/</guid>
-      <description></description>
+      <description>Check out this link to see all the great people and projects that I work on at Louisiana State University</description>
     </item>
     
   </channel>

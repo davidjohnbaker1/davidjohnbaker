@@ -1,14 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mmd on David John Baker</title>
+    <title>mmd on David John Baker</title>
     <link>/tags/mmd/</link>
-    <description>Recent content in Mmd on David John Baker</description>
+    <description>Recent content in mmd on David John Baker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 David John Baker</copyright>
     <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/mmd/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="/tags/mmd/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Modeling Melodic Dictation</title>
@@ -16,23 +18,7 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/project/music-and-memory/</guid>
-      <description>
-
-&lt;p&gt;This past year I successfully defending my Ph.D. dissertation &lt;em&gt;Modeling Melodic Dictation&lt;/em&gt;.
-In a nutshell, I was interested in seeing how tools from computational musicology and cognitive psychology can help understand melodic dictation.
-In the research I was able to use all the domain expertise that comes along with doing a Ph.D. in Music Theory with the tools and techniques from music perception.
-Check out the dissertation &lt;a href=&#34;https://digitalcommons.lsu.edu/gradschool_dissertations/4960/&#34; target=&#34;_blank&#34;&gt;here on the LSU Commons&lt;/a&gt; and I also have the whole thing (though not the canonical copy!) hosted as interactive book online thanks to &lt;a href=&#34;https://bookdown.org/yihui/bookdown/&#34; target=&#34;_blank&#34;&gt;bookdown&lt;/a&gt;.
-&lt;a href=&#34;https://davidjohnbaker1.github.io/document/&#34; target=&#34;_blank&#34;&gt;Find the online, mobile friendly copy here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;dissertation-output&#34;&gt;Dissertation Output&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;First author&lt;/strong&gt; on article accepted at &lt;em&gt;Musicae Scientiae&lt;/em&gt; replicating the &lt;a href=&#34;https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0089642&#34; target=&#34;_blank&#34;&gt;Goldsmiths Musical Sophistication Index&lt;/a&gt; that offers additional commentary on the use of latent variables in music research. We argue for researchers to adopt a polymorphic view of musical ability when creating statistical models and question some of the assumptions that we as researchers make when we used latent variables in music psychology research.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Sole author&lt;/strong&gt; on book chapter with Routledge in &lt;em&gt;Companion to Aural Training in Music Education&lt;/em&gt; scheduled for publication in 2020.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;First author&lt;/strong&gt; on chapter in &lt;em&gt;Scholarly Approaches to Mathematical Music Theory&lt;/em&gt;.&lt;/li&gt;
-&lt;li&gt;Two &lt;strong&gt;First author&lt;/strong&gt; International Conference on Music Perception and Cognition proceedings papers available on my &lt;a href=&#34;https://www.researchgate.net/profile/David_Baker45&#34; target=&#34;_blank&#34;&gt;Research Gate&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>Research from my PhD dissertation</description>
     </item>
     
   </channel>

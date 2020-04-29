@@ -1,14 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Music on David John Baker</title>
+    <title>music on David John Baker</title>
     <link>/categories/music/</link>
-    <description>Recent content in Music on David John Baker</description>
+    <description>Recent content in music on David John Baker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 David John Baker</copyright>
     <lastBuildDate>Fri, 21 Dec 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/categories/music/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="/categories/music/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Cataloging Memories with Music</title>
@@ -16,104 +18,7 @@
       <pubDate>Fri, 21 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/cataloging-memories-with-music/</guid>
-      <description>&lt;p&gt;The past few times that I have sat down to work on my dissertation I have run into a writer’s block.
-Though it is not the kind of writer’s block where nothing comes out.
-The past few times I have set aside time to write I have had &lt;em&gt;so many&lt;/em&gt; thoughts that I have not been able to just stick my nose to the ground and write.
-My brain feel like it’s on fire.
-It’s the end of the year and it has been an intense one and it’s important to acknowledge that.
-Too often in grad school we work and work and work and work, and never reflect on how we even ended up in this situation in the first place.
-There is too much doing and not enough reflecting.&lt;/p&gt;
-&lt;p&gt;So to attend to that problem, as opposed to just tweet about how we need a change of culture (but really be frantically work on yet another manuscript) I set aside some time yesterday to write about something I have been wanting to share for a while: my auto-biographical musical playlists.&lt;/p&gt;
-&lt;div id=&#34;darling&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Darling&lt;/h1&gt;
-&lt;p&gt;The general background and inspiration from this post and idea comes from some music science literature investigating how music has the power to evoke strong emotional memories that are not related to the structure of the music itself.
-There has been some cool work on it that you can read about &lt;a href=&#34;https://www.tandfonline.com/doi/abs/10.1080/09658210701734593&#34;&gt;here&lt;/a&gt; or &lt;a href=&#34;https://static1.squarespace.com/static/55ac0a53e4b05f2993b25780/t/55c9ffdde4b0e9393a61707c/1439301597483/Belfi_etal_2015_Memory.pdf&#34;&gt;here&lt;/a&gt; that digs into it properly, which also runs in tandem with research suggesting why &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/24006129&#34;&gt;really like the music we listened to in our formative years.&lt;/a&gt;
-But for all the intents and purposes of this post, all you really have to know is that there is good evidence to suggest that a strong link exists between music and memories of specific moments in our lives.
-Ages ago, when I first started getting into music science I heard this referred to as the “Darling, they are playing our song!” effect and &lt;strong&gt;I wanted to see if I could use some of this research in my own life&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;So as a result of reading about this area of research in music science, a few years ago I decided to start keeping a playlist diary on Spotify.
-The idea of it was that I would add a song to the playlist whenever I had a strong experience associated with music.
-The experiences did not have to be exact mappings such as this exact song must be playing during a certain moment for it to be added to my playlist; the idea was that any memory that might be bottled up in a song could get added as not to make the inclusion criteria that strict.
-This of course is naturally much easier for a musicophile like myself who basically always has music playing or is around music.
-All that needed to happen was for me to be a bit more mindful as I went about my life.
-If a song comes on that seems like it is painting a nice soundscape to the backdrop of my life, it gets added.&lt;/p&gt;
-&lt;div id=&#34;results&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Results&lt;/h2&gt;
-&lt;p&gt;So I have been running this experiment on myself for the past four years.
-It’s the end of 2018 now, so what got added to it this year?
-Here is a link to the playlist itself.&lt;/p&gt;
-&lt;iframe src=&#34;https://open.spotify.com/embed/user/1220215602/playlist/3rfnbRTo1WVReR4exGvNjE&#34; width=&#34;300&#34; height=&#34;380&#34; align=&#34;center&#34; frameborder=&#34;0&#34; allowtransparency=&#34;true&#34; allow=&#34;encrypted-media&#34;&gt;
-&lt;/iframe&gt;
-&lt;p&gt;As I am writing this post I have been listening to the playlist and, like the past few years, when listening to it, I get immediately transported back to the memories I actively chose to catalog.
-The first couple of songs take me right back to celebrating the New Year with my friends in Baton Rouge.
-For example, I remember the second tune, Lambada, coming on the radio as my friends drove to buy food to make breakfast after a long weekend in New Orleans.
-The moment felt right, so I whipped out my phone to Shazam the tune, and then later added it to my list.&lt;/p&gt;
-&lt;iframe src=&#34;https://open.spotify.com/embed/track/3F7HdGevVojxdsARD4RHad&#34; width=&#34;300&#34; height=&#34;380&#34; align=&#34;center&#34; frameborder=&#34;0&#34; allowtransparency=&#34;true&#34; allow=&#34;encrypted-media&#34;&gt;
-&lt;/iframe&gt;
-&lt;p&gt;It’s not just exact moments that I catalog, but I also record re-occurring songs.
-For example, later on the list is some Debussy.&lt;/p&gt;
-&lt;iframe src=&#34;https://open.spotify.com/embed/track/00IZ3ndf3TNXt3hMum4WAV&#34; width=&#34;300&#34; height=&#34;380&#34; align=&#34;center&#34; frameborder=&#34;0&#34; allowtransparency=&#34;true&#34; allow=&#34;encrypted-media&#34;&gt;
-&lt;/iframe&gt;
-&lt;p&gt;I like the music, but more importantly it’s used in &lt;a href=&#34;https://en.wikipedia.org/wiki/Westworld_(TV_series)&#34;&gt;Westworld&lt;/a&gt; and I used to have weekly Sunday screenings of the show at my apartment in Baton Rouge.
-I wanted to remember sitting quietly in a room with my friends having a bit of a break before Monday would come up and grad school would restart.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;patterns&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Patterns&lt;/h2&gt;
-&lt;p&gt;One day I’d like to look at the list and maybe see some patterns over a lifetime.
-For example, I’d imagine that more songs/memories would cluster around highly anticipated emotional events.
-I saw this play out last year with two salient songs from my PhD General Exams.
-The first example is this great tune my friend Crystal put on in my living room after a day of drinking celebrating being done with three days of writing for the first part of our General Exams and learning the &lt;a href=&#34;https://www.youtube.com/watch?v=uwJ66XxGBFk&#34;&gt;line dance&lt;/a&gt; to this.&lt;/p&gt;
-&lt;iframe src=&#34;https://open.spotify.com/embed/track/42excP3MyVua6modv3v9Pz&#34; width=&#34;300&#34; height=&#34;380&#34; align=&#34;center&#34; frameborder=&#34;0&#34; allowtransparency=&#34;true&#34; allow=&#34;encrypted-media&#34;&gt;
-&lt;/iframe&gt;
-&lt;p&gt;Fast forward a few weeks and the night before my oral defense, I remember sitting in a Sonic parking lot eating ice cream with my friends Sasha and Jacob, listening to Eye of the Tiger at full volume.
-It was a moment where it felt like God had momentarily DJ’d for us.&lt;/p&gt;
-&lt;iframe src=&#34;https://open.spotify.com/embed/track/2KH16WveTQWT6KOG9Rg6e2&#34; width=&#34;300&#34; height=&#34;380&#34; align=&#34;center&#34; frameborder=&#34;0&#34; allowtransparency=&#34;true&#34; allow=&#34;encrypted-media&#34;&gt;
-&lt;/iframe&gt;
-&lt;p&gt;Cruising through this playlist I also realize how much traveling I did this year and all the great people I got to hang out with.
-Just weeks after Eye of the Tiger, I got to hang out at a public musicology conference in South Carolina and ended up hanging out with both &lt;a href=&#34;https://twitter.com/darkmusictheory?lang=en&#34;&gt;darkmusictheory&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/12tonevideos?lang=en&#34;&gt;12tone&lt;/a&gt; late at night in an AirBnB and remember really liking the piano intro to this tune.&lt;/p&gt;
-&lt;iframe src=&#34;https://open.spotify.com/embed/track/4L1eqdFY10yO7tMzvRp0sx&#34; width=&#34;300&#34; height=&#34;380&#34; align=&#34;center&#34; frameborder=&#34;0&#34; allowtransparency=&#34;true&#34; allow=&#34;encrypted-media&#34;&gt;
-&lt;/iframe&gt;
-&lt;p&gt;Much of my playlist comes from memories traveling.
-In Florida I remember sitting with my friend Rory while talking about how we are spending our lives and this recording of &lt;em&gt;A Mi Manera&lt;/em&gt; came on the radio.&lt;/p&gt;
-&lt;iframe src=&#34;https://open.spotify.com/embed/track/0Nx5c4i2z90wi8Uj6LbUbH&#34; width=&#34;300&#34; height=&#34;380&#34; align=&#34;center&#34; frameborder=&#34;0&#34; allowtransparency=&#34;true&#34; allow=&#34;encrypted-media&#34;&gt;
-&lt;/iframe&gt;
-&lt;p&gt;This was the first vacation/holiday I had ever taken just for the sake of a vacation (not academic work related) in years and I distinctly remember sitting on the patio, asking the server to start happy hour early, mis-ordering our 2 for 1 margaritas, then both being served 2 drinks at 2PM and boozing it up in full Jimmy Buffet regalia.
-Of course I won’t go on a play by play&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; of my whole list, but the meaningful thing is that as a whole this playlist only ‘makes sense’ to me.&lt;/p&gt;
-&lt;p&gt;Someone looking at the playlist might be able to figure out some of the tunes given that they knew where I was at what time such as this recording added at the start of July.&lt;/p&gt;
-&lt;iframe src=&#34;https://open.spotify.com/embed/track/1b7kLkJkr6XRYgWqVmDm05&#34; width=&#34;300&#34; height=&#34;380&#34; align=&#34;center&#34; frameborder=&#34;0&#34; allowtransparency=&#34;true&#34; allow=&#34;encrypted-media&#34;&gt;
-&lt;/iframe&gt;
-&lt;p&gt;But other songs that I have known for a while get emotionally recycled and obtain new meaning just for me.&lt;/p&gt;
-&lt;iframe src=&#34;https://open.spotify.com/embed/track/6pGEheBKHMS6cvYqqKcU6O&#34; width=&#34;300&#34; height=&#34;380&#34; align=&#34;center&#34; frameborder=&#34;0&#34; allowtransparency=&#34;true&#34; allow=&#34;encrypted-media&#34;&gt;
-&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;div id=&#34;zooming-out&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Zooming Out&lt;/h2&gt;
-&lt;p&gt;And the cool thing is, as I mentioned above, I have been doing this for the past four years.
-Going all the way back to 2015 I can still vividly transport myself back to eating donuts in an NYC apartment listening to Laura Mvula.&lt;/p&gt;
-&lt;iframe src=&#34;https://open.spotify.com/embed/track/6VKhTOUK905auFiINtfLZZ&#34; width=&#34;300&#34; height=&#34;380&#34; align=&#34;center&#34; frameborder=&#34;0&#34; allowtransparency=&#34;true&#34; allow=&#34;encrypted-media&#34;&gt;
-&lt;/iframe&gt;
-&lt;p&gt;And even as the 2015 playlist plays, I still anticipate each song within this playlist’s context with each memory being anticipated as well.
-So what I guess I am basically suggesting is that on a personal level, if you have an assortment of external musical meaning your life, maybe it is time to consider starting an autobiographical musical memories playlist yourself in 2019?
-I have found knowing that this playlist is there helps me stay more present when music is playing (which is a lot of the time) since you never know if a moment will meet your inner arbitrary threshold for adding it to the list.&lt;/p&gt;
-&lt;p&gt;I would also be interested to know if anyone after reading this does go ahead and do it.
-I’d be very keen to have an intense music psychology conversation about similarities in partaking in this activity.
-I’ve also linked here the past four years just for proof, but also want to show off how diverse this kind of playlist can get since it’s not bound by anything like genre, style, mood, or some sort of lyrical similarity.&lt;/p&gt;
-&lt;iframe src=&#34;https://open.spotify.com/embed/user/1220215602/playlist/2Ndu7gNgVs1KFMUB4rjoA9&#34; width=&#34;300&#34; height=&#34;380&#34; frameborder=&#34;0&#34; allowtransparency=&#34;true&#34; allow=&#34;encrypted-media&#34;&gt;
-&lt;/iframe&gt;
-&lt;iframe src=&#34;https://open.spotify.com/embed/user/1220215602/playlist/7kA7U2jeQIMzJjvhU8knhs&#34; width=&#34;300&#34; height=&#34;380&#34; frameborder=&#34;0&#34; allowtransparency=&#34;true&#34; allow=&#34;encrypted-media&#34;&gt;
-&lt;/iframe&gt;
-&lt;iframe src=&#34;https://open.spotify.com/embed/user/1220215602/playlist/5Gb4jiSS6ikyEJOgpemxn6&#34; width=&#34;300&#34; height=&#34;380&#34; frameborder=&#34;0&#34; allowtransparency=&#34;true&#34; allow=&#34;encrypted-media&#34;&gt;
-&lt;/iframe&gt;
-&lt;iframe src=&#34;https://open.spotify.com/embed/user/1220215602/playlist/3rfnbRTo1WVReR4exGvNjE&#34; width=&#34;300&#34; height=&#34;380&#34; frameborder=&#34;0&#34; allowtransparency=&#34;true&#34; allow=&#34;encrypted-media&#34;&gt;
-&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;footnotes&#34;&gt;
-&lt;hr /&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Pun intended&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-</description>
+      <description>The past few times that I have sat down to work on my dissertation I have run into a writer’s block. Though it is not the kind of writer’s block where nothing comes out. The past few times I have set aside time to write I have had so many thoughts that I have not been able to just stick my nose to the ground and write. My brain feel like it’s on fire.</description>
     </item>
     
   </channel>
