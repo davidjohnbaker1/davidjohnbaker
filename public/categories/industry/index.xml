@@ -14,21 +14,20 @@
     
     <item>
       <title>Advanced R Markdown</title>
-      <link>/my-projects/brainwaves/</link>
+      <link>/my-projects/mmd/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/my-projects/brainwaves/</guid>
+      <guid>/my-projects/mmd/</guid>
       <description>&lt;p&gt;This two-day workshop is designed for those who want to take their R Markdown skills to the next level. We’ll talk about many low-level details in the rmarkdown package and the whole R Markdown ecosystem. The two goals of this workshop are: 1) learn how to fully customize R Markdown output (HTML, LaTeX/PDF, Word, and PowerPoint); and 2) learn more about existing R Markdown extensions in the ecosystem, such as flexdashboard, bookdown, blogdown, pkgdown, xaringan, rticles, and learnr. We will also talk about how to use or develop new language engines (languages that are not R), how to develop HTML widgets, and integrate Shiny with R Markdown.&lt;/p&gt;
 &lt;p&gt;See the workshop website for more, and links to individual slides below.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Advanced R Markdown</title>
-      <link>/my-projects/mmd/</link>
+      <title>brainwaves</title>
+      <link>/my-projects/brainwaves/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/my-projects/mmd/</guid>
-      <description>&lt;p&gt;This two-day workshop is designed for those who want to take their R Markdown skills to the next level. We’ll talk about many low-level details in the rmarkdown package and the whole R Markdown ecosystem. The two goals of this workshop are: 1) learn how to fully customize R Markdown output (HTML, LaTeX/PDF, Word, and PowerPoint); and 2) learn more about existing R Markdown extensions in the ecosystem, such as flexdashboard, bookdown, blogdown, pkgdown, xaringan, rticles, and learnr. We will also talk about how to use or develop new language engines (languages that are not R), how to develop HTML widgets, and integrate Shiny with R Markdown.&lt;/p&gt;
-&lt;p&gt;See the workshop website for more, and links to individual slides below.&lt;/p&gt;
+      <guid>/my-projects/brainwaves/</guid>
+      <description>&lt;p&gt;Description Here.&lt;/p&gt;
 </description>
     </item>
     

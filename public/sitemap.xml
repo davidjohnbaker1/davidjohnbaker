@@ -559,11 +559,6 @@
   </url>
   
   <url>
-    <loc>/my-projects/brainwaves/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/my-projects/cognition/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
@@ -580,6 +575,11 @@
   
   <url>
     <loc>/tags/bookdown/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/my-projects/brainwaves/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   

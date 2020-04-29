@@ -45,9 +45,7 @@ I offer tranings and workshops on various topics on topics related to data scien
 Recently I become a certified [RStudio Instructor](https://education.rstudio.com/trainers/), have worked as a Lead Instructor of Data Science at [Flatiron School](www.flatironschool.com), and have also designed and delivered workshops for [Minerva Statistical Consulting](https://minervastatisticalconsulting.co.uk/).
 I specialize in teaching beginners with little to no experience in data science.
 
-> Link Workshop Materials Here [WIP] 
-
-## Teaching Portfolio 
+## Teaching Portfolio {#teachingportfolio}
 
 Below I archive examples of materials I have created for pedagogical purposes.
 Here you can find:
@@ -55,32 +53,49 @@ Here you can find:
 * [Examples of data science lesson plans](#datasciencelessonplans)
 * Videos of me [delivering materials](#teachingvideos)
 * Listings of [university level courses I've taught](#universitymaterials)
-* [Evidence of teaching effectiveness](#evidenceteaching).
 
-I also include my current [teaching and diversity statements](#teachingdiversity), two documents required in applying for teaching positions at North American universities.
+### Examples of Data Science Teaching Materials {#datasciencelessonplans}
 
-### Data Science Lesson Plans {#datasciencelessonplans}
-
-> Coming Soon
+* [Complete Lesson Plan used for RStudio Teaching Certification](https://github.com/davidjohnbaker1/rstudio_certification_training)
+* [Project Template for Data Science Capstone](https://github.com/learn-co-students/capstone-template-london-ds)
+* [Intro to Inferential Statistics](https://github.com/learn-co-students/probability-london-ds)
+* [Central Limit Theorem](https://github.com/learn-co-students/distributions-sampling-london-ds)
+* [Hypothesis Testing](https://github.com/learn-co-students/hypothesis-testing-london-ds)
+* [A/B Testing](https://github.com/learn-co-students/ab-testing-london-ds)
+* [Bayes for Days](https://github.com/learn-co-students/bayes-london-ds)
+* [Linear Regression](https://github.com/learn-co-students/linear-regression-london-ds )
+* [Multiple Regression](https://github.com/learn-co-students/multiple-linear-regression-london-ds)
+* [Reg Coefs, EDA, and Train, Test, Split Review](https://github.com/learn-co-students/linear-regression-coef-lab-london-ds)
+* [PCA](https://github.com/learn-co-students/pca-london-ds)
+* [Clustering](https://github.com/learn-co-students/clustering-london-ds)
+* [Recommendation Systems](https://github.com/learn-co-students/recsys-london-ds)
+* [Big Data](https://github.com/learn-co-students/big-data-london-ds)
+* [NLP](https://github.com/learn-co-students/intro-to-nlp-london-ds)
+* [Deep NLP](https://github.com/learn-co-students/deep-nlp-london-ds)
 
 ### Videos of Me Teaching {#teachingvideos}
 
-> R For Tidyverse
-> PCA
-> Netflix 
+The Science of Netflix 
 
-### University Course Materials {#universitymaterials}
+{{<youtube xkMqgWHn36w>}}
 
-> Link to Github A-Z 
-> Syllabi for Music 
+R, RStudio, and Tidyverse for Pythonistas 
 
-### Evidence of Teaching Effectivness {#evidenceteaching}
+{{<youtube OLbBwr6yono>}}
 
-> FIS Reviews, Workshop Reviews, TA Reviews 
-> Ratings from students 
+### University Course Listings {#universitymaterials}
 
-### Teaching and Diversity Statements {#teachingdiversity}
-
-> Teaching Statement
-> Diversity Statements
+* **Foundations of Music Study**
+  - Taught remedial music theory and aural training course three times a week to undergraduates as Instructor of Record
+  - Responsible for all course material ranging from lectures, to homework assignments, bi-weekly recitations, to play-and-sing piano preparations, and teaching of aural-skills, held office hours.
+  - Homework assigned via Oxford Music Theory Skill Builder
+* **Aural Skills IV (Chromatic and Atonal)**
+  - Taught Aural Skills Labs to second-year undergraduate students, classes focused on providing individual attention to learning how to sight-sing chromatic and atonal melodies as well as complex rhythms. 
+  - Responsible for grading bi-weekly individual recitations with materials ranging from prepared melodies, to play-and-sing piano preparations, to sight-singing.
+  - Aided Instructor of Record for large Music Theory lecture
+* **Aural Skills III (Chromaticism)**
+  - Taught Aural Skills Labs to second-year undergraduate students, classes focused on providing individual attention to learning how to sight-sing melodies and rhythms.
+  - Responsible for grading bi-weekly individual recitations with materials ranging from prepared melodies,
+to play-and-sing piano preparations, to sight-singing
+  - Aided Instructor of Record for large Music Theory lecture
 
