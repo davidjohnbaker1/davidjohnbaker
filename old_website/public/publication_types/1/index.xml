@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 on David John Baker</title>
+    <link>/publication_types/1/</link>
+    <description>Recent content in 1 on David John Baker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 David John Baker</copyright>
+    <lastBuildDate>Mon, 01 Aug 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Matching Music to Brand Personality: A Semantic Differential Tool for Measuring Emotional Space</title>
+      <link>/publication/matching-music-to-brand/</link>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/matching-music-to-brand/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Music, animacy, and rubato: what makes music sound human?</title>
+      <link>/publication/animacy-proceedings/</link>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/animacy-proceedings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Role of Idiomaticism and Affordances in Bebop Improvisation</title>
+      <link>/publication/bebop-proceedings/</link>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/bebop-proceedings/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

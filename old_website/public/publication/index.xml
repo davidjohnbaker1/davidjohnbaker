@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on David John Baker</title>
+    <link>/publication/</link>
+    <description>Recent content in Publications on David John Baker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 David John Baker</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Examining Musical Sophistication: A replication and theoretical commentary of the Goldsmiths Musical Sophistication Index</title>
+      <link>/publication/gmsi-replication-2018/</link>
+      <pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/gmsi-replication-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Decoding emotions in expressive music performance: A multi-lab replication and extension study</title>
+      <link>/publication/emotion-replication-2018/</link>
+      <pubDate>Sun, 07 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/emotion-replication-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Perception of Leitmotives in Richard Wagner&#39;s Der Ring des Nibelungen</title>
+      <link>/publication/wagner-frontiers/</link>
+      <pubDate>Thu, 04 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/wagner-frontiers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Matching Music to Brand Personality: A Semantic Differential Tool for Measuring Emotional Space</title>
+      <link>/publication/matching-music-to-brand/</link>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/matching-music-to-brand/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Music, animacy, and rubato: what makes music sound human?</title>
+      <link>/publication/animacy-proceedings/</link>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/animacy-proceedings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Role of Idiomaticism and Affordances in Bebop Improvisation</title>
+      <link>/publication/bebop-proceedings/</link>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/bebop-proceedings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recognition of Leitmotives in Richard Wagner’s Music: An Item Response Theory Approach</title>
+      <link>/publication/wagner-irt/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/wagner-irt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Music, Brands, &amp; Advertising: Testing What Works</title>
+      <link>/publication/aba-2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/aba-2015/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

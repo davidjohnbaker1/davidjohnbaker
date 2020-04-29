@@ -50,13 +50,13 @@ So what did we find?
 In general, the Gold-MSI pretty much behaved as you would expect it to.
 Using a WEIRD sample, we had a bit of a skewed distribution that people should look out for, but the sub-scale scores pretty much lined up with the means and standard deviations that were originally reported.
 
-![Overall Skew](/img/Figure1_GMSIREP.png)
+![Overall Skew](/img/examining-gmsi/Figure1_GMSIREP.png)
 
-![Similar Descriptive Statistics](/img/Figure2_GMSIREP.png)
+![Similar Descriptive Statistics](/img/examining-gmsi/Figure2_GMSIREP.png)
 
 That said, we did look at the item level data and found anything but normal distributions.
 
-![Item Level Distributions](/img/Figure3_GMSIREP.png)
+![Item Level Distributions](/img/examining-gmsi/Figure3_GMSIREP.png)
 
 This is not the biggest deal in the world due to the estimators you can use with the [lavaan package](http://lavaan.ugent.be/) that were used in the original paper, but if you are going to break off a scale to use just a part of the Gold-MSI, it’s worth keeping in mind. 
 We noted the biggest problems with this using the Emotion sub-scale.

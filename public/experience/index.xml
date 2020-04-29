@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Experiences | David John Baker</title>
+    <link>/experience/</link>
+      <atom:link href="/experience/index.xml" rel="self" type="application/rss+xml" />
+    <description>Experiences</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Experiences</title>
+      <link>/experience/</link>
+    </image>
+    
+    <item>
+      <title>Experience</title>
+      <link>/experience/experience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/experience/experience/</guid>
+      <description>&lt;p&gt;My name is David John Baker, I&amp;rsquo;m an interdisciplinary researcher and educator.
+Currently, I am a Lead Instructor of Data Science at 
+&lt;a href=&#34;&#34;&gt;Flatiron School&lt;/a&gt; in London, England.
+Prior to working at Flatiron School, I completed my Ph.D in Music Theory at Louisiana State University and also hold an MSc. from Goldsmiths, University of London in 
+&lt;a href=&#34;&#34;&gt;Music, Mind and Brain&lt;/a&gt; and a B.M. from 
+&lt;a href=&#34;&#34;&gt;Baldwin Wallace University&lt;/a&gt; in Instrumental Performance.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m a card carrying 
+&lt;a href=&#34;&#34;&gt;music theorist&lt;/a&gt; who likes to 
+&lt;a href=&#34;&#34;&gt;publish research&lt;/a&gt; in psychology journals and do meaningful work 
+&lt;a href=&#34;&#34;&gt;teaching data science&lt;/a&gt; to people wanting to change their careers.&lt;/p&gt;
+&lt;p&gt;I feel most at home working between disciplines and think the best questions to be asked come from either questioning fundamental assumptions people hold about how we see the world or taking a clear action based approach to solving a utilitarian issue.
+Most of the research I find personally meaningful happens when trying to investigate musical cognition with scientific methods and taking time to think about what it means to work between 
+&lt;a href=&#34;&#34;&gt;the two worlds&lt;/a&gt;..&lt;/p&gt;
+&lt;p&gt;Combining critical thinking about problems with practical ways of questioning assumptions fits nicely within the world of data science, the professional field I am currently associated with.
+In my current role, I teach students looking to change their careers both how to ask meaningful questions about the world around them and give them the practical tools to further explore those questions.&lt;/p&gt;
+&lt;p&gt;Below you will find a chronological listing of where I have worked in the past five years.
+In order to get to know me more, I&amp;rsquo;d also suggest checking out some of the projects I am currently involved with as well as opinions I share on my blog.&lt;/p&gt;
+&lt;p&gt;If you would like a more traditional presentation of my work and research, please check out my 
+&lt;a href=&#34;&#34;&gt;academic curriculum viate&lt;/a&gt; or 
+&lt;a href=&#34;&#34;&gt;industry resume&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

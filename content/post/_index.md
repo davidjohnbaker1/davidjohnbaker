@@ -1,12 +1,10 @@
-+++
-title = "Posts"
-date = "2017-01-01T00:00:00Z"
-math = false
-highlight = false
+---
+header:
+  caption: ""
+  image: ""
+title: "Blog"
+view: 3
+---
 
-# Optional featured image (relative to `static/img/` folder).
-[header]
-image = ""
-caption = ""
+Read my thoughts and opinions below!
 
-+++

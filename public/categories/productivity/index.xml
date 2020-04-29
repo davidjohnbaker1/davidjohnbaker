@@ -1,24 +1,130 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Productivity on David John Baker</title>
+    <title>Productivity | David John Baker</title>
     <link>/categories/productivity/</link>
-    <description>Recent content in Productivity on David John Baker</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2019 David John Baker</copyright>
-    <lastBuildDate>Mon, 09 Apr 2018 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/categories/productivity/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/categories/productivity/index.xml" rel="self" type="application/rss+xml" />
+    <description>Productivity</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Mon, 09 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Productivity</title>
+      <link>/categories/productivity/</link>
+    </image>
     
     <item>
       <title>To-Dos and Boundaries</title>
       <link>/post/to-dos-and-boundaries/</link>
       <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
-      
       <guid>/post/to-dos-and-boundaries/</guid>
-      <description>As I write this sentence I know exactly how much time until my next break (45 minutes and 39 seconds if you’re interested). When my Activity Timer dings I’ll stop what I am doing, even if I am mid-thought and do something else. Maybe I’ll make a cup of tea, or maybe attend to that unread Facebook message, but most likely get on Twitter. I really have no idea what I will do, but I do know that as soon as my clock is not counting down I am technically ‘off the clock’.</description>
+      <description>
+
+
+&lt;p&gt;As I write this sentence I know exactly how much time until my next break (45 minutes and 39 seconds if you’re interested).
+When my &lt;a href=&#34;https://itunes.apple.com/us/app/activity-timer/id808647808?mt=12&#34;&gt;Activity Timer&lt;/a&gt; dings I’ll stop what I am doing, even if I am mid-thought and do something else.
+Maybe I’ll make a cup of tea, or maybe attend to that unread Facebook message, but most likely get on Twitter.
+I really have no idea what I will do, but I do know that as soon as my clock is not counting down I am technically ‘off the clock’.&lt;/p&gt;
+&lt;p&gt;This might seem absolutely insane, but when it comes to productivity and being a graduate student, if you don’t find something that works for you, you’ll find yourself feeling unbelievably stressed at all times.
+I’m weirdly proud of my own productivity system and after a brief exchange with &lt;a href=&#34;https://twitter.com/thomas_mock&#34;&gt;Thomas Mock&lt;/a&gt; on Twitter yesterday I figured it might be worth sharing.
+By documenting exactly how I do what I do, it’d also remind me to practice what I preach as I enter the last four weeks of the semester here at LSU.&lt;/p&gt;
+&lt;p&gt;Most of this falls into two categories:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;To-do lists and&lt;/li&gt;
+&lt;li&gt;Boundary setting at the local and global level.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I’ll explain each in turn.&lt;/p&gt;
+&lt;div id=&#34;to-do-lists&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;To Do Lists&lt;/h2&gt;
+&lt;p&gt;Some of the best advice on to-do lists I ever received was from &lt;a href=&#34;https://twitter.com/lewisrichard&#34;&gt;Richard Lewis&lt;/a&gt; when I was an RA on the &lt;a href=&#34;https://tm.web.ox.ac.uk/&#34;&gt;Transforming Musicology&lt;/a&gt; project.
+He was managing a huge amount of the project, as well as his own work at the time and I asked him how he did it.
+He showed me his to-do list.
+It was a simple text file (come to think of it, I think it was &lt;a href=&#34;https://orgmode.org/&#34;&gt;emacs org-mode&lt;/a&gt;) and gave me the sage advice of&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“only write down something on a to-do list that you can do.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;As dumb as it sounds, think of all the times you have written down something like ‘Write Final Paper for American Music Class’ as an item on a to-do list.
+You can’t actually DO that in one sitting (and if you DO do things like that, you might have a perfectionism/procrastination problem and HIGHLY recommend &lt;a href=&#34;https://www.amazon.com/Too-Perfect-When-Being-Control/dp/0449908003&#34;&gt;this book&lt;/a&gt; to read), but you can DO all the component parts of said project.
+What you have do is find a way to organize all the ‘things’ you have to do and break them down into manageable steps.
+I structure my to-do list hierarchically into all of the projects or classes that I am currently working on.
+My to-do list is a text file that I edit with VIM that takes advantage of &lt;code&gt;vimoutliner&lt;/code&gt; where you can find &lt;a href=&#34;https://github.com/vimoutliner/vimoutliner&#34;&gt;here&lt;/a&gt;.
+I access it by opening up my terminal (I also work as much as I can in terminal on Mac because I am easily distracted and like to feel like I am hacking in The Matrix) via an alias command.
+I just type ‘workflow’ into my command line and it opens up the to-do list.
+To learn how to set this up, check out &lt;a href=&#34;https://coolestguidesontheplanet.com/make-an-alias-in-bash-shell-in-os-x-terminal/&#34;&gt;this link here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The file is organized hierarchically and &lt;code&gt;vimoutliner&lt;/code&gt; color codes the indents.
+At the top of the file I have major deadlines that I shouldn’t forget about.
+As you look down the list there are high level headings like industry, lsu, and personal.
+Under each larger level umbrella is the actual project which has its own folder/directory (often linked to a github repo because I love those green commit squares).
+Then under the project are the actual to-dos.
+Each line starts with an action verb in all caps followed by something I could do in one sitting.
+Important to-dos get a &lt;code&gt;;&lt;/code&gt; which my text editor colors as red, which I associate with as important.&lt;/p&gt;
+&lt;p&gt;Here is what my current one looks like:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/todo.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;So when I am ready to work, all I do is type ‘workflow’ into terminal, then I have a whole list of things I can pick based on priority and what I have the mental energy for.
+By having a few things to choose and having everything written down my work is out of sight, out of mind for when I am not “working”.
+I often tell people that if I don’t write it down, I won’t do it.
+It’s a double edged sword because on the positive side, you don’t feel the mental heat &lt;a href=&#34;https://twitter.com/DavidJohnBaker/status/983456868214468609&#34;&gt;I was tweeting&lt;/a&gt; about yesterday as things pile up.
+They are just all on your to-do list and you’ll get to them when you sit down to work.
+The negative side is that if you use this system and forget to write it down immediately, you will forget to do it.&lt;/p&gt;
+&lt;p&gt;So with all this stuff to &lt;strong&gt;do&lt;/strong&gt;, how do I actually then &lt;strong&gt;do&lt;/strong&gt; it?
+In order to answer that question, I need to take a step back and talk about boundaries.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;boundary-setting&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Boundary Setting&lt;/h2&gt;
+&lt;p&gt;The best and worst thing about graduate school is the lack of structure.
+It’s fantastic in that I can work when I want, where I want, and as long as I meet my deadlines, I wont be hanged, drawn, and quartered by my advisers.
+It’s terrible in that with no set boundaries, it creates this constant ‘I should be working right now’ culture (a world I am very familiar with coming from an undergraduate degree in music where you just replace ‘working’ with ‘practicing’).
+To be fair, my advisers would never do that, they might get a bit irritated but they are the nicest, most supportive people ever.
+I have found that the best way to work around this structure problem is to set very firm boundaries both at a local and global level.&lt;/p&gt;
+&lt;div id=&#34;local-boundaries&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Local Boundaries&lt;/h3&gt;
+&lt;p&gt;One of the hardest things to do with work is to just start.
+Often I don’t start to work because I feel like the problems that I have to tackle are just too big.
+Add in a bit of self-doubt, fear of your work not being good enough, and looming thoughts of a terrible academic job market that your peers constantly remind you of and it’s almost like why even bother?
+The best way I get around that is to just start working by picking a certain amount of time you think you can commit your full attention to something.
+It might be five minutes, ten minutes, the holy &lt;a href=&#34;https://en.wikipedia.org/wiki/Pomodoro_Technique&#34;&gt;twenty five minute pomodoro&lt;/a&gt;, or you might have the juice to sit down for 50 minutes (this session).
+With that in mind, or knowing what I kind of work I feel like doing (writing, coding, emails) I press ‘start’ on my timer, open up my &lt;code&gt;workflow&lt;/code&gt; and pick one of the things I already wrote down to do that could be done in one session.
+While the clock is ticking down &lt;strong&gt;ONLY WORK ON THAT ONE PROJECT&lt;/strong&gt;.
+No Facebook, no phone, no Twitter.
+Don’t even start a conversation with your lab mate that walks in.
+If they start talking to you, practice saying ‘No’ to them and tell them you are doing a pomodoro session and will be done in 9 minutes and 19 seconds (current clock).
+When the timer goes off, stop.
+Even if you are almost done!
+The reason for this is that so you can get a quick breath so when you press ‘Start’ the next time, you will know exactly how to start your work!&lt;/p&gt;
+&lt;p&gt;I find that doing this just a few times will get me in a much healthier place in terms of work life boundaries.
+And the best thing about it is as soon as the clock stops, you’re done and can make a cup of tea or coffee.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;global-boundaries&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Global Boundaries&lt;/h3&gt;
+&lt;p&gt;The other important catch to this system is setting global boundaries.
+What I mean by this is that you need to start working at about the same time every day and end at a reasonable time.
+I try to get into the office everyday at about 9AM and leave at about 6PM.
+It’s a long-ish work day (I take an hour lunch), but the best part is that having this regularity makes me happy.
+It might seem like I am just doing a 9-5 thing, but since I’m a grad student (and ABD right now) I can just stop whenever I want!
+The thing is I often do not because I weirdly really like what I do.
+The whole point of setting boundaries it to avoid burnout!&lt;/p&gt;
+&lt;p&gt;In addition to keeping semi-regular work hours I also do not have email or slack on my phone.
+My first music theory professor on my first day of class of undergraduate told us ‘there is no such thing as a music theory emergency’.
+He is correct.
+Most problems are not emergencies and the rest you get at night is much better than being on call 24/7.
+If you are staying on top of your work and working healthily to a goal, this system is &lt;em&gt;supposed&lt;/em&gt; to prevent you from running into a place where you are submitting something at the last possible second.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;closing-thoughts&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Closing Thoughts&lt;/h3&gt;
+&lt;p&gt;If after reading that you think “Dave, sounds like you just have a cushy grad position, you probably don’t work that hard. On the other hand I work 60-70 hours a week as a grad student!” I would have two things to say to you.
+The first is that I don’t believe you are as productive as you could be.
+I’d personally pay for the Go-Pro for you to wear all week and would be interested to know much time people accidentally waste each day looking at social media and doing other unproductive things.
+The other is that you might consider your ability to say ‘No’ to people.
+One of the hardest things I have hard to learn is to say ‘No’ and not let productivty creep happen (become more productive, get more time, fill free time with work).
+Saying ‘No’ is very hard but I actually got a lot of help learning about it when I read &lt;a href=&#34;https://twitter.com/DrHenryCloud&#34;&gt;Henry Cloud’s&lt;/a&gt; book on &lt;a href=&#34;https://www.amazon.com/Boundaries-Updated-Expanded-When-Control/dp/0310351804/ref=sr_1_1?ie=UTF8&amp;amp;qid=1523372885&amp;amp;sr=8-1&amp;amp;keywords=boundaries+book&#34;&gt;Boundaries&lt;/a&gt; about six years ago.
+I could do a whole blog post on that book.&lt;/p&gt;
+&lt;p&gt;While there is something to be said about just falling deep into your work, especially at the start of grad school, I always try to do a bit of self reflection and ask myself if what I am doing is sustainable.
+The first two years of my PhD were not and it lead to me being very depressed and irritable at times.
+I really credit some of these ideas I just detailed with moving away from a lot of those very toxic mindsets that permeate many academic’s social media feeds (WORK WORK WORK!).
+I’d really like to have my cake and eat it too with a healthy work/life balance and this is just one idea that moves me closer to that goal.&lt;/p&gt;
+&lt;p&gt;Also for those keeping score at home this post took 1 50 minute session, one 20 minute session, then I went to bed, and did three more 20 minute sessions to get it done and posted.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
     </item>
     
   </channel>

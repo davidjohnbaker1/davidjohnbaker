@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>service | David John Baker</title>
+    <link>/categories/service/</link>
+      <atom:link href="/categories/service/index.xml" rel="self" type="application/rss+xml" />
+    <description>service</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Wed, 09 Oct 2019 08:38:28 -0700</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>service</title>
+      <link>/categories/service/</link>
+    </image>
+    
+    <item>
+      <title>Public Musicology</title>
+      <link>/my-projects/public/</link>
+      <pubDate>Wed, 09 Oct 2019 08:38:28 -0700</pubDate>
+      <guid>/my-projects/public/</guid>
+      <description>&lt;p&gt;In addition to all the academic and professional things that you &lt;em&gt;should&lt;/em&gt; do as an early career academic, I also am really interested in finding ways to communicate what I do to audiences beyond the Ivory Tower.
+A lot of this comes in the form of tweets and blogs, but here are some other projects I have collaborated on that I am particularly proud of.&lt;/p&gt;
+&lt;h2 id=&#34;the-science-of-netflix&#34;&gt;The Science of Netflix&lt;/h2&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/xkMqgWHn36w&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;collaboration-with-12tone&#34;&gt;Collaboration with 12Tone&lt;/h2&gt;
+&lt;p&gt;Following an 
+&lt;a href=&#34;https://www.youtube.com/watch?v=U-iDi4M6BV8&amp;amp;feature=youtu.be&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;academic talk&lt;/a&gt; I did on the idea of measuring musicianship, I collaborated with 
+&lt;a href=&#34;https://www.youtube.com/channel/UCTUtqcDkzw7bisadh6AOx5w&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;12tone&lt;/a&gt; to help produce a video on the same subject.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/RHRzpqs2IeA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;interview-on-so-strangely&#34;&gt;Interview on So Strangely&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://sostrangely.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Podcast appearance on So Strangely Talking about Scale Degree Qualia&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Service</title>
+      <link>/my-projects/service/</link>
+      <pubDate>Wed, 09 Oct 2019 08:38:28 -0700</pubDate>
+      <guid>/my-projects/service/</guid>
+      <description>&lt;h3 id=&#34;smpc-student-representative&#34;&gt;SMPC Student Representative&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Things I did there&lt;/li&gt;
+&lt;li&gt;Others?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;toynbee-hall&#34;&gt;Toynbee Hall&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Reports I was a part of&lt;/li&gt;
+&lt;li&gt;Hackathon&lt;/li&gt;
+&lt;li&gt;Speaker at EARL London&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

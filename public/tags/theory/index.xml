@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>theory | David John Baker</title>
+    <link>/tags/theory/</link>
+      <atom:link href="/tags/theory/index.xml" rel="self" type="application/rss+xml" />
+    <description>theory</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Wed, 09 Oct 2019 08:38:28 -0700</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>theory</title>
+      <link>/tags/theory/</link>
+    </image>
+    
+    <item>
+      <title>Modeling Melodic Dictation</title>
+      <link>/my-projects/mmd/</link>
+      <pubDate>Wed, 09 Oct 2019 08:38:28 -0700</pubDate>
+      <guid>/my-projects/mmd/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Coming Soon!&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Music Theory on David John Baker</title>
+    <link>/tags/music-theory/</link>
+    <description>Recent content in Music Theory on David John Baker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 David John Baker</copyright>
+    <lastBuildDate>Sun, 19 Nov 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/music-theory/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Calculating iMultisets in R</title>
+      <link>/post/calculating-imultisets-in-r/</link>
+      <pubDate>Sun, 19 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/calculating-imultisets-in-r/</guid>
+      <description>November is pretty much the worst month for people in higher education. There are too many deadlines and if you’re still in coursework (like myself) you have essays to write, presentations to make, and a backlog of homework assignments to grade. So if you can save time here or there, it’s usually a good choice.
+This weekend I was working a homework assignment for my Transformational Theory seminar where we were given a number of pairs of pitch class sets and had to calculate the imultiset for each following Joseph Straus’ 2014 article on Total Voice Leading.</description>
+    </item>
+    
+  </channel>
+</rss>

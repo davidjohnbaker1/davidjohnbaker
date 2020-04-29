@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks on David John Baker</title>
+    <link>/talk/</link>
+    <description>Recent content in Recent &amp; Upcoming Talks on David John Baker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 David John Baker</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Modeling the Limits of Musical Memory</title>
+      <link>/talk/cogmir-2019/</link>
+      <pubDate>Thu, 08 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/cogmir-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Symposium on Open Science</title>
+      <link>/talk/smpc-openscience-2019/</link>
+      <pubDate>Tue, 06 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/smpc-openscience-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What is happening in a student’s mind when they perform melodic dictation?</title>
+      <link>/talk/smpc-comp-2019/</link>
+      <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/smpc-comp-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What is going on in someone&#39;s head when they do melodic dictation?</title>
+      <link>/talk/pedagogy-compmodel-2019/</link>
+      <pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/pedagogy-compmodel-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What&#39;s going on in someone&#39;s head when they do melodic dictation?</title>
+      <link>/talk/mtmw-compmodel-2019/</link>
+      <pubDate>Fri, 10 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/mtmw-compmodel-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Frequency Facilitation Hypothesis</title>
+      <link>/talk/againagain-ffh-2019/</link>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/againagain-ffh-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modeling Melodic Dictation</title>
+      <link>/talk/open-university-2018/</link>
+      <pubDate>Thu, 15 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/open-university-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Examining Objective and Subjective Aspects of Musical Sophistication: Insights from General Fluid Intelligence and Working Memory Capacity</title>
+      <link>/talk/icmpc-wmc-2018/</link>
+      <pubDate>Sat, 28 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/icmpc-wmc-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Root Interval Schemas in Rock Music</title>
+      <link>/talk/scsmt-2018/</link>
+      <pubDate>Fri, 23 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/scsmt-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Who counts as a musician?</title>
+      <link>/talk/pmd-musician-2018/</link>
+      <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/pmd-musician-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modeling Performance on Aural Skills Examinations</title>
+      <link>/talk/yboa-aural-2017/</link>
+      <pubDate>Mon, 11 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/yboa-aural-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Modeling and Perception of Melodic Similarity in Jazz Improvisation</title>
+      <link>/talk/smpc-similarity-2017/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/smpc-similarity-2017/</guid>
+      <description>Poster presented at the Society for Music Perception and Cognition, 2017</description>
+    </item>
+    
+    <item>
+      <title>Validating the Goldsmiths Musical Sophistication Index in a Sample of American Participants</title>
+      <link>/talk/smpc-gold-2017/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/smpc-gold-2017/</guid>
+      <description>Poster presented at the Society for Music Perception and Cognition, 2017</description>
+    </item>
+    
+    <item>
+      <title>A Relational Network Approach to Rock Music Syntax</title>
+      <link>/talk/smpc-rock-2017/</link>
+      <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/smpc-rock-2017/</guid>
+      <description>Poster presented at the Society for Music Perception and Cognition, 2017</description>
+    </item>
+    
+  </channel>
+</rss>

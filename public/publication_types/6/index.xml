@@ -1,22 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>6 on David John Baker</title>
+    <title>6 | David John Baker</title>
     <link>/publication_types/6/</link>
-    <description>Recent content in 6 on David John Baker</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2019 David John Baker</copyright>
-    <lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/publication_types/6/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/publication_types/6/index.xml" rel="self" type="application/rss+xml" />
+    <description>6</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>6</title>
+      <link>/publication_types/6/</link>
+    </image>
     
     <item>
       <title>Recognition of Leitmotives in Richard Wagner’s Music: An Item Response Theory Approach</title>
       <link>/publication/wagner-irt/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      
       <guid>/publication/wagner-irt/</guid>
       <description></description>
     </item>
@@ -25,7 +24,6 @@
       <title>Music, Brands, &amp; Advertising: Testing What Works</title>
       <link>/publication/aba-2015/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      
       <guid>/publication/aba-2015/</guid>
       <description></description>
     </item>

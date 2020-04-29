@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>David John Baker</title>
+    <link>/authors/david-john-baker/</link>
+      <atom:link href="/authors/david-john-baker/index.xml" rel="self" type="application/rss+xml" />
+    <description>David John Baker</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>David John Baker</title>
+      <link>/authors/david-john-baker/</link>
+    </image>
+    
+    <item>
+      <title>Musical training mediates the relation between working memory capacity and preference for musical complexity</title>
+      <link>/publication/memory-cognition-auditory-2020/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/memory-cognition-auditory-2020/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

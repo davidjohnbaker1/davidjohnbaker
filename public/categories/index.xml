@@ -1,106 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on David John Baker</title>
+    <title>Categories | David John Baker</title>
     <link>/categories/</link>
-    <description>Recent content in Categories on David John Baker</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2019 David John Baker</copyright>
-    <lastBuildDate>Fri, 07 Feb 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Data Science</title>
-      <link>/categories/data-science/</link>
-      <pubDate>Fri, 07 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/data-science/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>charity</title>
-      <link>/categories/charity/</link>
-      <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/charity/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R</title>
-      <link>/categories/r/</link>
-      <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>rstats</title>
-      <link>/categories/rstats/</link>
-      <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/rstats/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>music</title>
-      <link>/categories/music/</link>
-      <pubDate>Fri, 21 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/music/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Grad School</title>
-      <link>/categories/grad-school/</link>
-      <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/grad-school/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Productivity</title>
-      <link>/categories/productivity/</link>
-      <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/productivity/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>10 Minute Reads</title>
-      <link>/categories/10-minute-reads/</link>
-      <pubDate>Mon, 29 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/10-minute-reads/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Beer</title>
-      <link>/categories/beer/</link>
-      <pubDate>Sat, 13 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/beer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Music Theory</title>
-      <link>/categories/music-theory/</link>
-      <pubDate>Sun, 19 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/music-theory/</guid>
-      <description></description>
-    </item>
+      <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <description>Categories</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Fri, 07 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Categories</title>
+      <link>/categories/</link>
+    </image>
     
   </channel>
 </rss>

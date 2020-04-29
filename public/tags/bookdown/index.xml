@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bookdown | David John Baker</title>
+    <link>/tags/bookdown/</link>
+      <atom:link href="/tags/bookdown/index.xml" rel="self" type="application/rss+xml" />
+    <description>bookdown</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>bookdown</title>
+      <link>/tags/bookdown/</link>
+    </image>
+    
+    <item>
+      <title>Advanced R Markdown</title>
+      <link>/my-projects/brainwaves/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/my-projects/brainwaves/</guid>
+      <description>&lt;p&gt;This two-day workshop is designed for those who want to take their R Markdown skills to the next level. We’ll talk about many low-level details in the rmarkdown package and the whole R Markdown ecosystem. The two goals of this workshop are: 1) learn how to fully customize R Markdown output (HTML, LaTeX/PDF, Word, and PowerPoint); and 2) learn more about existing R Markdown extensions in the ecosystem, such as flexdashboard, bookdown, blogdown, pkgdown, xaringan, rticles, and learnr. We will also talk about how to use or develop new language engines (languages that are not R), how to develop HTML widgets, and integrate Shiny with R Markdown.&lt;/p&gt;
+&lt;p&gt;See the workshop website for more, and links to individual slides below.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Advanced R Markdown</title>
+      <link>/my-projects/cognition/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/my-projects/cognition/</guid>
+      <description>&lt;p&gt;This two-day workshop is designed for those who want to take their R Markdown skills to the next level. We’ll talk about many low-level details in the rmarkdown package and the whole R Markdown ecosystem. The two goals of this workshop are: 1) learn how to fully customize R Markdown output (HTML, LaTeX/PDF, Word, and PowerPoint); and 2) learn more about existing R Markdown extensions in the ecosystem, such as flexdashboard, bookdown, blogdown, pkgdown, xaringan, rticles, and learnr. We will also talk about how to use or develop new language engines (languages that are not R), how to develop HTML widgets, and integrate Shiny with R Markdown.&lt;/p&gt;
+&lt;p&gt;See the workshop website for more, and links to individual slides below.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Main interest as psychologist is how music can help inform how we learn about cognition.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Music is special for these reasons in particular.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;but also collaborate on lots of other projects within OSF.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Can find link to actual papers and their affiliated blog posts (for the less inclined) on pages&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Mem Cognition&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;EE Preprint&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;SDRT&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Old SEM&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Frontiers&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fixed Relative&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;IRT&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Advanced R Markdown</title>
+      <link>/my-projects/mmd/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/my-projects/mmd/</guid>
+      <description>&lt;p&gt;This two-day workshop is designed for those who want to take their R Markdown skills to the next level. We’ll talk about many low-level details in the rmarkdown package and the whole R Markdown ecosystem. The two goals of this workshop are: 1) learn how to fully customize R Markdown output (HTML, LaTeX/PDF, Word, and PowerPoint); and 2) learn more about existing R Markdown extensions in the ecosystem, such as flexdashboard, bookdown, blogdown, pkgdown, xaringan, rticles, and learnr. We will also talk about how to use or develop new language engines (languages that are not R), how to develop HTML widgets, and integrate Shiny with R Markdown.&lt;/p&gt;
+&lt;p&gt;See the workshop website for more, and links to individual slides below.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

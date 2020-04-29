@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>music-and-memory on David John Baker</title>
+    <link>/tags/music-and-memory/</link>
+    <description>Recent content in music-and-memory on David John Baker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 David John Baker</copyright>
+    <lastBuildDate>Sat, 07 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/music-and-memory/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Music Industry</title>
+      <link>/project/music-industry/</link>
+      <pubDate>Sat, 07 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/project/music-industry/</guid>
+      <description>Projects I&amp;rsquo;ve done outside of the Ivory Tower</description>
+    </item>
+    
+    <item>
+      <title>Computational Musicology</title>
+      <link>/project/computational-musicology/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/computational-musicology/</guid>
+      <description>Computers, music, and data</description>
+    </item>
+    
+  </channel>
+</rss>

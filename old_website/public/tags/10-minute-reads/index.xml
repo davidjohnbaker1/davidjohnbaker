@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>10 Minute Reads on David John Baker</title>
+    <link>/tags/10-minute-reads/</link>
+    <description>Recent content in 10 Minute Reads on David John Baker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 David John Baker</copyright>
+    <lastBuildDate>Mon, 09 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/10-minute-reads/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>To-Dos and Boundaries</title>
+      <link>/post/to-dos-and-boundaries/</link>
+      <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/to-dos-and-boundaries/</guid>
+      <description>As I write this sentence I know exactly how much time until my next break (45 minutes and 39 seconds if you’re interested). When my Activity Timer dings I’ll stop what I am doing, even if I am mid-thought and do something else. Maybe I’ll make a cup of tea, or maybe attend to that unread Facebook message, but most likely get on Twitter. I really have no idea what I will do, but I do know that as soon as my clock is not counting down I am technically ‘off the clock’.</description>
+    </item>
+    
+  </channel>
+</rss>

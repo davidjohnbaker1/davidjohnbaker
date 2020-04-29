@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>industry | David John Baker</title>
+    <link>/tags/industry/</link>
+      <atom:link href="/tags/industry/index.xml" rel="self" type="application/rss+xml" />
+    <description>industry</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Thu, 09 Oct 2014 08:38:28 -0700</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>industry</title>
+      <link>/tags/industry/</link>
+    </image>
+    
+    <item>
+      <title>Consultancy Projects</title>
+      <link>/my-projects/music_industry_consultancy/</link>
+      <pubDate>Thu, 09 Oct 2014 08:38:28 -0700</pubDate>
+      <guid>/my-projects/music_industry_consultancy/</guid>
+      <description>&lt;h3 id=&#34;veritonic&#34;&gt;Veritonic&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Add here&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;### Sony&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Add here&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;soundout&#34;&gt;Soundout&lt;/h3&gt;
+&lt;p&gt;Working with 
+&lt;a href=&#34;https://www.soundout.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Soundout&lt;/a&gt;, I worked on a project with their lead data scientist 
+&lt;a href=&#34;https://www.linkedin.com/in/tabitha-trahan/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tabi Trahan&lt;/a&gt; and Dr. 
+&lt;a href=&#34;http://www.doc.gold.ac.uk/~mas03dm/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Daniel Müllensifen&lt;/a&gt; to develop a tool that mapped Music and Brand personality onto the same emotional space.
+The details of the project can be found in the 
+&lt;a href=&#34;https://www.researchgate.net/publication/306374399_Matching_Music_to_Brand_Personality_A_Semantic_Differential_Tool_for_Measuring_Emotional_Space&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;proceedings of the 14th International Conference on Music Perception and Cognition&lt;/a&gt;.
+The tool served as the basis for what later became their 
+&lt;a href=&#34;https://www.soundout.com/brandmatch&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BrandMatch&lt;/a&gt; tool.&lt;/p&gt;
+&lt;h3 id=&#34;audio-branding-academy&#34;&gt;Audio Branding Academy&lt;/h3&gt;
+&lt;p&gt;In 2014, I presented with Dr. Daniel Müllensifen at the Audio Branding Academy annual conference in Berlin, Germany.
+We gave a half-day workshop on tools that help bridge gaps between academics, creatives, and industry minded people.
+A summary of our workshop can be found in their 
+&lt;a href=&#34;https://www.researchgate.net/publication/284721150_Music_Brands_Advertising_Testing_What_Works&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;annual yearbook from that year&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

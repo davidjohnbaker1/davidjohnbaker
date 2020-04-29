@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>replication | David John Baker</title>
+    <link>/categories/replication/</link>
+      <atom:link href="/categories/replication/index.xml" rel="self" type="application/rss+xml" />
+    <description>replication</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Wed, 09 Oct 2019 08:38:28 -0700</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>replication</title>
+      <link>/categories/replication/</link>
+    </image>
+    
+    <item>
+      <title>Replication in Music Psychology</title>
+      <link>/my-projects/replication/</link>
+      <pubDate>Wed, 09 Oct 2019 08:38:28 -0700</pubDate>
+      <guid>/my-projects/replication/</guid>
+      <description>&lt;p&gt;Here I talk about importance of replication in field of music psychology.
+Important for field.
+Important for helping train future students.
+Important for recrcling on old ideas in order to get new ideas.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

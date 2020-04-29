@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>other | David John Baker</title>
+    <link>/tags/other/</link>
+      <atom:link href="/tags/other/index.xml" rel="self" type="application/rss+xml" />
+    <description>other</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Wed, 09 Oct 2019 08:38:28 -0700</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>other</title>
+      <link>/tags/other/</link>
+    </image>
+    
+    <item>
+      <title>Brainwa</title>
+      <link>/project/industry/brainwaves/</link>
+      <pubDate>Wed, 09 Oct 2019 08:38:28 -0700</pubDate>
+      <guid>/project/industry/brainwaves/</guid>
+      <description>&lt;h3 id=&#34;brainwaves&#34;&gt;brainwaves&lt;/h3&gt;
+&lt;p&gt;This last year I was involved on a project with 
+&lt;a href=&#34;https://soundscapeagency.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Soundscape Agency&lt;/a&gt; acting as their scientific consultant to help develop music in collaboration with various artists from the 
+&lt;a href=&#34;https://www.erasedtapes.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Erased Tapes&lt;/a&gt; record label, 
+&lt;a href=&#34;https://www.citizenm.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Citizen M&lt;/a&gt; hotels, and 
+&lt;a href=&#34;https://www.bose.co.uk/en_gb/products/headphones/wireless_headphones.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bose&lt;/a&gt; Headphones.
+The project launched in Spring of 2019 and has received a bit of news coverage.
+To learn more about the project, check out this interview I did in 
+&lt;a href=&#34;https://www.forbes.com/sites/michellegross/2019/08/22/this-is-the-most-relaxing-music-to-travel-to-according-to-science/?fbclid=IwAR2N_Qdrh7_zpKVcchT8g8kLgr9Nki3geI0HF4wl2diZIMcPVLTrFdGsg9c#57d3a463508d&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Forbes&lt;/a&gt;.
+This was also covered by 
+&lt;a href=&#34;https://borsen.dk/nyheder/avisen/artikel/11/224488/artikel.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;the Danish newspaper Borsen&lt;/a&gt; as well as a couple of others.
+There was also a bit of video content that was created that you can see below.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/WPNQ_0BxStE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

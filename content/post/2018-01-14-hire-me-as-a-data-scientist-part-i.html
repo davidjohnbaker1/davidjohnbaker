@@ -136,14 +136,12 @@ beer[!complete.cases(beer)][, .(.N = unique(beer_name))]</code></pre>
 <pre class="r"><code>14110/56857</code></pre>
 <pre><code>## [1] 0.2481665</code></pre>
 <pre class="r"><code>beer[969]</code></pre>
-<pre><code>##    brewery_id             brewery_name review_time review_overall
-## 1:      12770 City Grille and Brewhaus  1145738954              4
-##    review_aroma review_appearance review_profilename
-## 1:            3                 4         UncleJimbo
-##                 beer_style review_palate review_taste     beer_name
-## 1: American Pale Ale (APA)           3.5            4 City Pale Ale
-##    beer_abv beer_beerid
-## 1:       NA       30088</code></pre>
+<pre><code>##    brewery_id             brewery_name review_time review_overall review_aroma
+## 1:      12770 City Grille and Brewhaus  1145738954              4            3
+##    review_appearance review_profilename              beer_style review_palate
+## 1:                 4         UncleJimbo American Pale Ale (APA)           3.5
+##    review_taste     beer_name beer_abv beer_beerid
+## 1:            4 City Pale Ale       NA       30088</code></pre>
 <p>More problems might come up here or there, but let’s move on the first question.</p>
 </div>
 <div id="which-brewery-produces-the-strongest-beers-by-abv" class="section level2">
@@ -263,18 +261,18 @@ hist(NoOfBeers$N, breaks= 200,
      main = &quot;Distribution of ABV in Breweries that make more than 5 Beers&quot;)</code></pre>
 <p><img src="/post/2018-01-14-hire-me-as-a-data-scientist-part-i_files/figure-html/unnamed-chunk-7-2.png" width="672" /></p>
 <pre class="r"><code>abv.table[N &gt;= 5 &amp; zAvgABV &gt; 4, ][order(-AvgABV)]</code></pre>
-<pre><code>##                                           brewery_name   N   AvgABV
-## 1:                                        Schorschbräu  10 19.22882
-## 2: Brasserie Grain d&#39; Orge (Brasserie Jeanne d&#39;Arc SA)  10 12.44586
-## 3:                          Brauerei Schloss Eggenberg  14 11.77968
-## 4:                     Brasserie Dubuisson Frères sprl  14 11.43275
-## 5:                            Kuhnhenn Brewing Company 142 11.34584
-##        SdABV   zAvgABV
-## 1: 12.327304 10.235332
-## 2:  1.705488  5.048898
-## 3:  3.075935  4.539520
-## 4:  1.658347  4.274244
-## 5:  3.578800  4.207793</code></pre>
+<pre><code>##                                           brewery_name   N   AvgABV     SdABV
+## 1:                                        Schorschbräu  10 19.22882 12.327304
+## 2: Brasserie Grain d&#39; Orge (Brasserie Jeanne d&#39;Arc SA)  10 12.44586  1.705488
+## 3:                          Brauerei Schloss Eggenberg  14 11.77968  3.075935
+## 4:                     Brasserie Dubuisson Frères sprl  14 11.43275  1.658347
+## 5:                            Kuhnhenn Brewing Company 142 11.34584  3.578800
+##      zAvgABV
+## 1: 10.235332
+## 2:  5.048898
+## 3:  4.539520
+## 4:  4.274244
+## 5:  4.207793</code></pre>
 <p>Doing it this way puts Schorschbräu as the highest ABV brewery, which makes sense because <a href="https://www.beeradvocate.com/beer/profile/6513/51466/?ba=wordemupg">they claim to make the world’s strongest beer</a>.
 Making a quick plot of the data for our winner and the second place finisher, we see how strong Schorschbräu really is.</p>
 <pre class="r"><code>schor.abv &lt;- beer.complete[brewery_name == &quot;Schorschbräu&quot;, 

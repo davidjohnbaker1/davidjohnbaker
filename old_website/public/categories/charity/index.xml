@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>charity on David John Baker</title>
+    <link>/categories/charity/</link>
+    <description>Recent content in charity on David John Baker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 David John Baker</copyright>
+    <lastBuildDate>Tue, 18 Jun 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/charity/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Thank You, Toynbee</title>
+      <link>/post/thank-you-toynbee/</link>
+      <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/thank-you-toynbee/</guid>
+      <description>After a year, my time is now up as a Residential Volunteer Worker at Toynbee Hall. Given everything that’s happened this year (dissertation, travel, destroying my shoulder), I haven’t really got to blog about my experiences at Toynbee, but seeing as it’s been a sizable part of my life the past year, I wanted to take some time to reflect on what I have been up to the past year.</description>
+    </item>
+    
+    <item>
+      <title>Toynbee Hall Datathon</title>
+      <link>/post/toynbee-hall-datathon/</link>
+      <pubDate>Tue, 23 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/toynbee-hall-datathon/</guid>
+      <description>Background Not everyone might be aware, but in addition to living that dissertation life this past year, I have also been volunteering at Toynbee Hall as part of their newly re-started Residential Volunteer Worker program. The program started WAY back in the late 1890s. The idea was that all the bougie people from Oxbridge would come and live on-site in East London in order to do charity work and help out a bit before they were to go on to do other things like be elected to Parliament and then pass laws and help those that were not as well off.</description>
+    </item>
+    
+  </channel>
+</rss>

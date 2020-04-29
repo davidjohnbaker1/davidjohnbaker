@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My-projects | David John Baker</title>
+    <link>/my-projects/</link>
+      <atom:link href="/my-projects/index.xml" rel="self" type="application/rss+xml" />
+    <description>My-projects</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Wed, 09 Oct 2019 08:38:28 -0700</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>My-projects</title>
+      <link>/my-projects/</link>
+    </image>
+    
+    <item>
+      <title>Public Musicology</title>
+      <link>/my-projects/public/</link>
+      <pubDate>Wed, 09 Oct 2019 08:38:28 -0700</pubDate>
+      <guid>/my-projects/public/</guid>
+      <description>&lt;p&gt;In addition to all the academic and professional things that you &lt;em&gt;should&lt;/em&gt; do as an early career academic, I also am really interested in finding ways to communicate what I do to audiences beyond the Ivory Tower.
+A lot of this comes in the form of tweets and blogs, but here are some other projects I have collaborated on that I am particularly proud of.&lt;/p&gt;
+&lt;h2 id=&#34;the-science-of-netflix&#34;&gt;The Science of Netflix&lt;/h2&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/xkMqgWHn36w&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;collaboration-with-12tone&#34;&gt;Collaboration with 12Tone&lt;/h2&gt;
+&lt;p&gt;Following an 
+&lt;a href=&#34;https://www.youtube.com/watch?v=U-iDi4M6BV8&amp;amp;feature=youtu.be&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;academic talk&lt;/a&gt; I did on the idea of measuring musicianship, I collaborated with 
+&lt;a href=&#34;https://www.youtube.com/channel/UCTUtqcDkzw7bisadh6AOx5w&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;12tone&lt;/a&gt; to help produce a video on the same subject.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/RHRzpqs2IeA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;interview-on-so-strangely&#34;&gt;Interview on So Strangely&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://sostrangely.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Podcast appearance on So Strangely Talking about Scale Degree Qualia&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Replication in Music Psychology</title>
+      <link>/my-projects/replication/</link>
+      <pubDate>Wed, 09 Oct 2019 08:38:28 -0700</pubDate>
+      <guid>/my-projects/replication/</guid>
+      <description>&lt;p&gt;Here I talk about importance of replication in field of music psychology.
+Important for field.
+Important for helping train future students.
+Important for recrcling on old ideas in order to get new ideas.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Service</title>
+      <link>/my-projects/service/</link>
+      <pubDate>Wed, 09 Oct 2019 08:38:28 -0700</pubDate>
+      <guid>/my-projects/service/</guid>
+      <description>&lt;h3 id=&#34;smpc-student-representative&#34;&gt;SMPC Student Representative&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Things I did there&lt;/li&gt;
+&lt;li&gt;Others?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;toynbee-hall&#34;&gt;Toynbee Hall&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Reports I was a part of&lt;/li&gt;
+&lt;li&gt;Hackathon&lt;/li&gt;
+&lt;li&gt;Speaker at EARL London&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Advanced R Markdown</title>
+      <link>/my-projects/brainwaves/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/my-projects/brainwaves/</guid>
+      <description>&lt;p&gt;This two-day workshop is designed for those who want to take their R Markdown skills to the next level. We’ll talk about many low-level details in the rmarkdown package and the whole R Markdown ecosystem. The two goals of this workshop are: 1) learn how to fully customize R Markdown output (HTML, LaTeX/PDF, Word, and PowerPoint); and 2) learn more about existing R Markdown extensions in the ecosystem, such as flexdashboard, bookdown, blogdown, pkgdown, xaringan, rticles, and learnr. We will also talk about how to use or develop new language engines (languages that are not R), how to develop HTML widgets, and integrate Shiny with R Markdown.&lt;/p&gt;
+&lt;p&gt;See the workshop website for more, and links to individual slides below.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Advanced R Markdown</title>
+      <link>/my-projects/cognition/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/my-projects/cognition/</guid>
+      <description>&lt;p&gt;This two-day workshop is designed for those who want to take their R Markdown skills to the next level. We’ll talk about many low-level details in the rmarkdown package and the whole R Markdown ecosystem. The two goals of this workshop are: 1) learn how to fully customize R Markdown output (HTML, LaTeX/PDF, Word, and PowerPoint); and 2) learn more about existing R Markdown extensions in the ecosystem, such as flexdashboard, bookdown, blogdown, pkgdown, xaringan, rticles, and learnr. We will also talk about how to use or develop new language engines (languages that are not R), how to develop HTML widgets, and integrate Shiny with R Markdown.&lt;/p&gt;
+&lt;p&gt;See the workshop website for more, and links to individual slides below.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Main interest as psychologist is how music can help inform how we learn about cognition.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Music is special for these reasons in particular.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;but also collaborate on lots of other projects within OSF.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Can find link to actual papers and their affiliated blog posts (for the less inclined) on pages&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Mem Cognition&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;EE Preprint&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;SDRT&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Old SEM&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Frontiers&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fixed Relative&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;IRT&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Advanced R Markdown</title>
+      <link>/my-projects/mmd/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/my-projects/mmd/</guid>
+      <description>&lt;p&gt;This two-day workshop is designed for those who want to take their R Markdown skills to the next level. We’ll talk about many low-level details in the rmarkdown package and the whole R Markdown ecosystem. The two goals of this workshop are: 1) learn how to fully customize R Markdown output (HTML, LaTeX/PDF, Word, and PowerPoint); and 2) learn more about existing R Markdown extensions in the ecosystem, such as flexdashboard, bookdown, blogdown, pkgdown, xaringan, rticles, and learnr. We will also talk about how to use or develop new language engines (languages that are not R), how to develop HTML widgets, and integrate Shiny with R Markdown.&lt;/p&gt;
+&lt;p&gt;See the workshop website for more, and links to individual slides below.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Consultancy Projects</title>
+      <link>/my-projects/music_industry_consultancy/</link>
+      <pubDate>Thu, 09 Oct 2014 08:38:28 -0700</pubDate>
+      <guid>/my-projects/music_industry_consultancy/</guid>
+      <description>&lt;h3 id=&#34;veritonic&#34;&gt;Veritonic&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Add here&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;### Sony&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Add here&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;soundout&#34;&gt;Soundout&lt;/h3&gt;
+&lt;p&gt;Working with 
+&lt;a href=&#34;https://www.soundout.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Soundout&lt;/a&gt;, I worked on a project with their lead data scientist 
+&lt;a href=&#34;https://www.linkedin.com/in/tabitha-trahan/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tabi Trahan&lt;/a&gt; and Dr. 
+&lt;a href=&#34;http://www.doc.gold.ac.uk/~mas03dm/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Daniel Müllensifen&lt;/a&gt; to develop a tool that mapped Music and Brand personality onto the same emotional space.
+The details of the project can be found in the 
+&lt;a href=&#34;https://www.researchgate.net/publication/306374399_Matching_Music_to_Brand_Personality_A_Semantic_Differential_Tool_for_Measuring_Emotional_Space&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;proceedings of the 14th International Conference on Music Perception and Cognition&lt;/a&gt;.
+The tool served as the basis for what later became their 
+&lt;a href=&#34;https://www.soundout.com/brandmatch&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BrandMatch&lt;/a&gt; tool.&lt;/p&gt;
+&lt;h3 id=&#34;audio-branding-academy&#34;&gt;Audio Branding Academy&lt;/h3&gt;
+&lt;p&gt;In 2014, I presented with Dr. Daniel Müllensifen at the Audio Branding Academy annual conference in Berlin, Germany.
+We gave a half-day workshop on tools that help bridge gaps between academics, creatives, and industry minded people.
+A summary of our workshop can be found in their 
+&lt;a href=&#34;https://www.researchgate.net/publication/284721150_Music_Brands_Advertising_Testing_What_Works&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;annual yearbook from that year&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

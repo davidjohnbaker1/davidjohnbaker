@@ -1,95 +1,436 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.68.1" />
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
   <meta name="author" content="David John Baker">
-  <meta name="description" content="Music, Theory, Science">
 
   
   
   
     
   
+  <meta name="description" content="Staying Organized The semester is finally over meaning it’s time to put some serious dents into my research projects. I’ve got a couple floating around at this point, but the one that I need to think about the most is my PhD dissertation.">
+
   
-    
-    
-    <link rel="stylesheet" href="/css/highlight.min.css">
-    
+  <link rel="alternate" hreflang="en-us" href="/post/project-management-with-git-and-r/">
+
   
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.0/css/academicons.min.css" integrity="sha512-GGGNUPDhnG8LEAEDsjqYIQns+Gu8RBs4j5XGlxl7UfRaZBhCCm5jenJkeJL8uPuOXGqgl8/H1gjlWQDRjd3cUQ==" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+
+
   
   
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather%7CRoboto+Mono">
-  <link rel="stylesheet" href="/css/hugo-academic.css">
+  
+  <meta name="theme-color" content="#2962ff">
   
 
   
-    <script>
-      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-      ga('create', 'UA-109897649-1', 'auto');
-      ga('require', 'eventTracker');
-      ga('require', 'outboundLinkTracker');
-      ga('require', 'urlChangeTracker');
-      ga('send', 'pageview');
-    </script>
-    <script async src="//www.google-analytics.com/analytics.js"></script>
-    
-    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
-    
   
 
-  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="David John Baker">
-  <link rel="feed" href="/index.xml" type="application/rss+xml" title="David John Baker">
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
 
-  <link rel="icon" type="image/png" href="/img/icon.png">
-  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109897649-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-109897649-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
   <link rel="canonical" href="/post/project-management-with-git-and-r/">
 
   
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@DavidJohnBaker">
+  <meta property="twitter:creator" content="@DavidJohnBaker">
+  
+  <meta property="og:site_name" content="David John Baker">
+  <meta property="og:url" content="/post/project-management-with-git-and-r/">
+  <meta property="og:title" content="Project Management with git and R | David John Baker">
+  <meta property="og:description" content="Staying Organized The semester is finally over meaning it’s time to put some serious dents into my research projects. I’ve got a couple floating around at this point, but the one that I need to think about the most is my PhD dissertation."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
+  <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2018-05-08T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2018-05-08T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/post/project-management-with-git-and-r/"
+  },
+  "headline": "Project Management with git and R",
+  
+  "datePublished": "2018-05-08T00:00:00Z",
+  "dateModified": "2018-05-08T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "David John Baker"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "David John Baker",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "Staying Organized The semester is finally over meaning it’s time to put some serious dents into my research projects. I’ve got a couple floating around at this point, but the one that I need to think about the most is my PhD dissertation."
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
 
   <title>Project Management with git and R | David John Baker</title>
 
 </head>
-<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
 
-<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
     
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-              data-target=".navbar-collapse" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+    <div class="d-none d-lg-inline-flex">
       <a class="navbar-brand" href="/">David John Baker</a>
     </div>
+    
 
     
-    <div class="collapse navbar-collapse">
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">David John Baker</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
 
       
-      <ul class="nav navbar-nav navbar-right">
+      <ul class="navbar-nav d-md-inline-flex">
         
 
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
         
 
         <li class="nav-item">
-          <a href="/#about">
-            
-            <span>Home</span>
-          </a>
+          <a class="nav-link " href="/experience"><span>Experience</span></a>
         </li>
 
         
@@ -97,11 +438,21 @@
 
         
 
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
         <li class="nav-item">
-          <a href="/#publications_selected">
-            
-            <span>Publications</span>
-          </a>
+          <a class="nav-link  active" href="/post"><span>Blog</span></a>
         </li>
 
         
@@ -109,11 +460,21 @@
 
         
 
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
         <li class="nav-item">
-          <a href="/#posts">
-            
-            <span>Posts</span>
-          </a>
+          <a class="nav-link " href="/projects"><span>Projects</span></a>
         </li>
 
         
@@ -121,135 +482,169 @@
 
         
 
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
         <li class="nav-item">
-          <a href="/#projects">
-            
-            <span>Projects</span>
-          </a>
+          <a class="nav-link " href="/teaching"><span>Teaching</span></a>
         </li>
 
         
         
 
-        
-
-        <li class="nav-item">
-          <a href="/#teaching">
-            
-            <span>Teaching</span>
-          </a>
-        </li>
-
-        
-        
-
-        
-
-        <li class="nav-item">
-          <a href="/#contact">
-            
-            <span>Contact</span>
-          </a>
-        </li>
-
-        
-        
+      
 
         
       </ul>
-
     </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-palette" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+
+    </ul>
+
   </div>
 </nav>
 
 
-<article class="article" itemscope itemtype="http://schema.org/Article">
+  <article class="article">
 
   
 
 
-  <div class="article-container">
-    <h1 itemprop="name">Project Management with git and R</h1>
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Project Management with git and R</h1>
+
+  
+
+  
     
+
 
 <div class="article-metadata">
 
+  
+  
+
+  
   <span class="article-date">
-    <time datetime="2018-05-08 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-      Tue, May 8, 2018
-    </time>
+    
+    
+      
+    
+    May 8, 2018
   </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    6 min read
+  </span>
+  
 
   
   
   
-  
 
   
-  
-  
-  
-
-  
-  
-<div class="share-box" aria-hidden="true">
-  <ul class="share">
-    <li>
-      <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=%2fpost%2fproject-management-with-git-and-r%2f"
-         target="_blank">
-        <i class="fa fa-facebook"></i>
-      </a>
-    </li>
-    <li>
-      <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Project%20Management%20with%20git%20and%20R&amp;url=%2fpost%2fproject-management-with-git-and-r%2f"
-         target="_blank">
-        <i class="fa fa-twitter"></i>
-      </a>
-    </li>
-    <li>
-      <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpost%2fproject-management-with-git-and-r%2f&amp;title=Project%20Management%20with%20git%20and%20R"
-         target="_blank">
-        <i class="fa fa-linkedin"></i>
-      </a>
-    </li>
-    <li>
-      <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=%2fpost%2fproject-management-with-git-and-r%2f&amp;title=Project%20Management%20with%20git%20and%20R"
-         target="_blank">
-        <i class="fa fa-weibo"></i>
-      </a>
-    </li>
-    <li>
-      <a class="email"
-         href="mailto:?subject=Project%20Management%20with%20git%20and%20R&amp;body=%2fpost%2fproject-management-with-git-and-r%2f">
-        <i class="fa fa-envelope"></i>
-      </a>
-    </li>
-  </ul>
-</div>
-
-
   
 
 </div>
 
-    <div class="article-style" itemprop="articleBody">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
       
 
 
 <div id="staying-organized" class="section level2">
 <h2>Staying Organized</h2>
-<p>The semester is finally over meaning it’s time to put some serious dents into my research projects. I’ve got a couple floating around at this point, but the one that I need to think about the most is my PhD dissertation. From what I’ve heard it’s quite an intensive ordeal and given that over the next year I need to write a multi-chapter document with a dissertation committee spread across thousands of miles, I think it might be important to try to <strong>stay organized</strong>.</p>
-<p>A couple of different people I follow on Twitter have suggested that I use <a href="https://www.literatureandlatte.com/scrivener/overview">Scrivner</a> to keep track of writing and what not, but for the past year or two I have really been trying to push myself to commit exclusively to using <a href="https://en.wikipedia.org/wiki/Free_and_open-source_software">Free and Open Source Software</a> for everything I do. For some time now I have been thinking about trying to write my entire dissertation using all things <a href="https://cran.r-project.org/">R</a> and <a href="https://www.rstudio.com/">RStudio</a> and I think I’m ready to try it. I don’t want to get on a rant here about FOSS and how great R is, but let me just give a few reasons why I want to head down this path as opposed to using proprietary, paid software.</p>
+<p>The semester is finally over meaning it’s time to put some serious dents into my research projects.
+I’ve got a couple floating around at this point, but the one that I need to think about the most is my PhD dissertation.
+From what I’ve heard it’s quite an intensive ordeal and given that over the next year I need to write a multi-chapter document with a dissertation committee spread across thousands of miles, I think it might be important to try to <strong>stay organized</strong>.</p>
+<p>A couple of different people I follow on Twitter have suggested that I use <a href="https://www.literatureandlatte.com/scrivener/overview">Scrivner</a> to keep track of writing and what not, but for the past year or two I have really been trying to push myself to commit exclusively to using <a href="https://en.wikipedia.org/wiki/Free_and_open-source_software">Free and Open Source Software</a> for everything I do.
+For some time now I have been thinking about trying to write my entire dissertation using all things <a href="https://cran.r-project.org/">R</a> and <a href="https://www.rstudio.com/">RStudio</a> and I think I’m ready to try it.
+I don’t want to get on a rant here about FOSS and how great R is, but let me just give a few reasons why I want to head down this path as opposed to using proprietary, paid software.</p>
 <ol style="list-style-type: decimal">
 <li>It’s free</li>
 <li>Learning the ins and outs of all of this is going to make me a better programmer/researcher over the course of the next year (more skills = more employment options!)</li>
 <li>Working with this will help make my work more accessible and reproducible</li>
 </ol>
-<p>That said, I’m not only going to try to write my thesis using only free software (I’m sure there will be exceptions), but one thing I also want to do is to document as much of the process as I can so that anyone else (especially those without computer backgrounds!) can do the same if they would ever want to learn these sets of tools. I’ve always thought it’s a shame that a lot of this software is not common place in the Humanities and hope that through blogging about how to do it, it will help others who want to use it find it easier.</p>
+<p>That said, I’m not only going to try to write my thesis using only free software (I’m sure there will be exceptions), but one thing I also want to do is to document as much of the process as I can so that anyone else (especially those without computer backgrounds!) can do the same if they would ever want to learn these sets of tools.
+I’ve always thought it’s a shame that a lot of this software is not common place in the Humanities and hope that through blogging about how to do it, it will help others who want to use it find it easier.</p>
 <p>So where do you even start?</p>
 </div>
 <div id="r-projects-and-github" class="section level2">
@@ -261,29 +656,40 @@
 <p>I find it’s easiest when starting a project to start on github first, then copy that onto your computer.</p>
 <p>The first thing to do is to log into your github account (assuming you have one, it’s easy to sign up!) and create a new repository (repo) using the little plus at the top right of your home page as you can see below.</p>
 <div class="figure">
-<img src="/img/pmwr1.png" alt="Navigate to New Repository Page" />
+<img src="/img/project-management-with-git/pmwr1.png" alt="Navigate to New Repository Page" />
 <p class="caption">Navigate to New Repository Page</p>
 </div>
-<p>From here you want to give your repo a name, a small description, and tick the box that asks you initialize it with a README file. The screenshot below shows the page right before I click the green “Create Repository” button.</p>
+<p>From here you want to give your repo a name, a small description, and tick the box that asks you initialize it with a README file.
+The screenshot below shows the page right before I click the green “Create Repository” button.</p>
 <div class="figure">
-<img src="/img/pmwr2.png" alt="Setting up your repo" />
+<img src="/img/project-management-with-git/pmwr2.png" alt="Setting up your repo" />
 <p class="caption">Setting up your repo</p>
 </div>
-<p>When choosing a name, it’s important to pick something easy to recognize and type. Once you click ‘Create Repository’, it will take you to your repo’s home page and should look something like this:</p>
+<p>When choosing a name, it’s important to pick something easy to recognize and type.
+Once you click ‘Create Repository’, it will take you to your repo’s home page and should look something like this:</p>
 <div class="figure">
-<img src="/img/pmwr3.png" alt="The Blank Page" />
+<img src="/img/project-management-with-git/pmwr3.png" alt="The Blank Page" />
 <p class="caption">The Blank Page</p>
 </div>
-<p>From here you are going to want to click the green ‘Clone or download’ and then copy that link to your clipboard. The next screen shot shows what that will look like.</p>
+<p>From here you are going to want to click the green ‘Clone or download’ and then copy that link to your clipboard.
+The next screen shot shows what that will look like.</p>
 <div class="figure">
-<img src="/img/pmwr4.png" alt="Clone the Git HTTPS" />
+<img src="/img/project-management-with-git/pmwr4.png" alt="Clone the Git HTTPS" />
 <p class="caption">Clone the Git HTTPS</p>
 </div>
-<p>With the link copied, you then want to open up your terminal (if you’re a Windows user, make sure to get <a href="https://git-scm.com/">Gitbash</a>!!) and then navigate to where you want your project to live. I keep all my projects in a directory called <code>projects</code> on my desktop for easy access. From here, you then want to use git to clone your project. If you’re totally new to using this kind of software to do work, you’ll also have to install git. If you don’t have git, <a href="https://www.linode.com/docs/development/version-control/how-to-install-git-mac/">this</a> page will show you how to get it via <code>homebrew</code> at the command line, which, SURPRISE! you also have to download separately!! You can get that <a href="https://brew.sh/">here</a>.</p>
-<p>Side note: when you are first starting out with all things computer-program-tech-whatever, you are going to need to get a lot of software before you can even start to use all the fun stuff. I remember this being particularly discouraging and no fun when I started. If you can, it’s best to try to get someone to slowly walk you through this via some <a href="https://en.wikipedia.org/wiki/Pair_programming">pair programming</a>. If not, don’t be afraid to ask questions when you start!</p>
+<p>With the link copied, you then want to open up your terminal (if you’re a Windows user, make sure to get <a href="https://git-scm.com/">Gitbash</a>!!) and then navigate to where you want your project to live.
+I keep all my projects in a directory called <code>projects</code> on my desktop for easy access.
+From here, you then want to use git to clone your project.
+If you’re totally new to using this kind of software to do work, you’ll also have to install git.
+If you don’t have git, <a href="https://www.linode.com/docs/development/version-control/how-to-install-git-mac/">this</a> page will show you how to get it via <code>homebrew</code> at the command line, which, SURPRISE! you also have to download separately!!
+You can get that <a href="https://brew.sh/">here</a>.</p>
+<p>Side note: when you are first starting out with all things computer-program-tech-whatever, you are going to need to get a lot of software before you can even start to use all the fun stuff.
+I remember this being particularly discouraging and no fun when I started.
+If you can, it’s best to try to get someone to slowly walk you through this via some <a href="https://en.wikipedia.org/wiki/Pair_programming">pair programming</a>.
+If not, don’t be afraid to ask questions when you start!</p>
 <p>So getting back to what we were doing, you need to navigate to where you want your project to live (the first line) and then clone your directory by typing <code>git clone yourproject.git</code>.</p>
 <div class="figure">
-<img src="/img/pmwr5.png" alt="Cloning Your Repo" />
+<img src="/img/project-management-with-git/pmwr5.png" alt="Cloning Your Repo" />
 <p class="caption">Cloning Your Repo</p>
 </div>
 <p>Now if you look in your projects folder (or just press <code>ls</code> as in “<code>l</code>i<code>s</code>t” all the files that are in your directory), you’ll notice you have a new directory sent directly from github heaven!</p>
@@ -291,114 +697,435 @@
 <div id="step-two-making-it-an-r-project" class="section level3">
 <h3>Step Two: Making It an R Project</h3>
 <p>Since I’m going to primarily using R to manage this project, I then need to turn this directory into an R project so that every time I open this project, it can be governed with R.</p>
-<p>In order to do that, I need to get out of terminal, and then open up RStudio. From here you need to go to <strong>File &gt; New Project &gt; Create From Existing Directory &gt; </strong></p>
-<div class="figure">
-<img src="/img/pmwr6.png" />
-
-</div>
+<p>In order to do that, I need to get out of terminal, and then open up RStudio.
+From here you need to go to
+<strong>File &gt; New Project &gt; Create From Existing Directory &gt; </strong></p>
+<p><img src="/img/project-management-with-git/pmwr6.png" /></p>
 <p>Then navigate and select to open the folder you just cloned from github.</p>
-<div class="figure">
-<img src="/img/pmwr7.png" />
-
-</div>
+<p><img src="/img/project-management-with-git/pmwr7.png" /></p>
 <p>If you then tick the box that says to open the box in a new project, you’ll then see something like this:</p>
-<div class="figure">
-<img src="/img/pmwr8.png" />
-
-</div>
-<p>Tah dah! We’ve now made our directory an R project and can save our changes on github.</p>
+<p><img src="/img/project-management-with-git/pmwr8.png" /></p>
+<p>Tah dah!
+We’ve now made our directory an R project and can save our changes on github.</p>
 </div>
 </div>
 <div id="step-three-pushing-it-the-cloud" class="section level2">
 <h2>Step Three: Pushing it the Cloud</h2>
-<p>Now all that’s left to do is sync up the changes on our local machine with that on github. We can bring terminal back and assuming that we are in our project’s directory (we can check that by typing <code>pwd</code> in Terminal), we then need to enter the work life cycle of updating a github account with the following commands:</p>
+<p>Now all that’s left to do is sync up the changes on our local machine with that on github.
+We can bring terminal back and assuming that we are in our project’s directory (we can check that by typing <code>pwd</code> in Terminal), we then need to enter the work life cycle of updating a github account with the following commands:</p>
 <pre><code>git add .
 git commit -m &quot;Whatever you did&quot;
 git push </code></pre>
 <p>Or how I did it with my project here:</p>
-<div class="figure">
-<img src="/img/pmwr9.png" />
-
-</div>
+<p><img src="/img/project-management-with-git/pmwr9.png" /></p>
 <p>If we then go back to our project page on Github.com, we can see that our changes should have been updated!</p>
 <p>I should note that each time you start your project you want to <code>git pull</code> to make sure that you have the most updated version of the project (for when you are eventually collaborating with other people).</p>
 <p>In writing this I actually realized there is SO MUCH that underlies this seemingly basic process of starting a project, so if anyone has any questions on this whole process, please let me know and I can try to make this post (and future ones) clearer.</p>
 </div>
 
     </div>
-  </div>
-
-</article>
-
-<div class="container">
-  <nav>
-  <ul class="pager">
-    
-    <li class="previous"><a href="/post/to-dos-and-boundaries/"><span
-      aria-hidden="true">&larr;</span> To-Dos and Boundaries</a></li>
-    
 
     
-    <li class="next"><a href="/post/examining-musical-sophistication/">Examining Musical Sophistication <span
-      aria-hidden="true">&rarr;</span></a></li>
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=/post/project-management-with-git-and-r/&amp;text=Project%20Management%20with%20git%20and%20R" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=/post/project-management-with-git-and-r/&amp;t=Project%20Management%20with%20git%20and%20R" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Project%20Management%20with%20git%20and%20R&amp;body=/post/project-management-with-git-and-r/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=/post/project-management-with-git-and-r/&amp;title=Project%20Management%20with%20git%20and%20R" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Project%20Management%20with%20git%20and%20R%20/post/project-management-with-git-and-r/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=/post/project-management-with-git-and-r/&amp;title=Project%20Management%20with%20git%20and%20R" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
     
   </ul>
-</nav>
-
 </div>
 
-<div class="article-container">
+
+
+
+
+
+
+
+
+
+
+
+  
   
 
-</div>
 
-<footer class="site-footer">
-  <div class="container">
-    <p class="powered-by">
 
-      © 2019 David John Baker &middot; 
 
-      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
-      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
 
-      <span class="pull-right" aria-hidden="true">
-        <a href="#" id="back_to_top">
-          <span class="button_icon">
-            <i class="fa fa-chevron-up fa-2x"></i>
-          </span>
-        </a>
-      </span>
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu77191bed7170c7385b69814b1296e379_610137_270x270_fill_lanczos_center_2.png" alt="David John Baker">
+    
 
-    </p>
+    <div class="media-body">
+      <h5 class="card-title"><a href="/">David John Baker</a></h5>
+      <h6 class="card-subtitle">Lead Instructor, Data Science</h6>
+      <p class="card-text">Music, Theory, Sciences.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:davidjohnbaker1@gmail.com" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/DavidJohnBaker" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.co.uk/citations?user=tigU2AkAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/davidjohnbaker1" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/files/DJB_long_cv_march_26_2020.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.37431be2d92d7fb0160054761ab79602.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+  <p class="powered-by">
+    
+      <a href="/privacy/">Privacy Policy</a>
+    
+    
+       &middot; 
+      <a href="/terms/">Terms</a>
+    
+  </p>
+  
+
+  <p class="powered-by">
+    © 2020 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
 </footer>
 
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js" integrity="sha512-jGsMH83oKe9asCpkOVkBnUrDDTp8wl+adkB2D+//JtlxO4SrLoJdhbOysIFQJloQFD+C4Fl1rMsQZF76JjV0eQ==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.2/imagesloaded.pkgd.min.js" integrity="sha512-iHzEu7GbSc705hE2skyH6/AlTpOfBmkx7nUqTLGzPYR+C1tRaItbRlJ7hT/D3YQ9SV0fqLKzp4XY9wKulTBGTw==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js" integrity="sha512-Z5heTz36xTemt1TbtbfXtTq5lMfYnOkXM2/eWcTTiLU01+Sw4ku1i7vScDc8fWhrP2abz9GQzgKH5NGBLoYlAw==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/plugins/ScrollToPlugin.min.js" integrity="sha512-CDeU7pRtkPX6XJtF/gcFWlEwyaX7mcAp5sO3VIu/ylsdR74wEw4wmBpD5yYTrmMAiAboi9thyBUr1vXRPA7t0Q==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
-    
-    <script src="/js/hugo-academic.js"></script>
-    
+  </div>
+  
 
-    
-    
-      
-      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
 
-      
-
-      
-
-      <script>hljs.initHighlightingOnLoad();</script>
-    
-
-    
-    
-
-  </body>
+</body>
 </html>
-

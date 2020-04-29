@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About / Contact | David John Baker</title>
+    <link>/teaching/</link>
+      <atom:link href="/teaching/index.xml" rel="self" type="application/rss+xml" />
+    <description>About / Contact</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>About / Contact</title>
+      <link>/teaching/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>/teaching/about-me/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/teaching/about-me/</guid>
+      <description>&lt;p&gt;I am originally from Atlanta, Georgia, and am a proud ramblin&amp;rsquo; wreck from 
+&lt;a href=&#34;https://www.gatech.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Georgia Tech&lt;/a&gt;. After college, I studied psychology and quantitative methods, receiving my Ph.D. from 
+&lt;a href=&#34;https://www.vanderbilt.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Vanderbilt University&lt;/a&gt; (2008). I am now a data scientist and professional educator at 
+&lt;a href=&#34;https://www.rstudio.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RStudio&lt;/a&gt;. Prior to that, I was an Assistant Professor at 
+&lt;a href=&#34;https://www.asu.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arizona State University&lt;/a&gt;, and an Associate Professor at 
+&lt;a href=&#34;https://www.ohsu.edu/xd/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Oregon Health &amp;amp; Science University (OHSU)&lt;/a&gt;.&lt;/p&gt;
+&lt;img src=&#34;maps.jpg&#34; class=&#34;center-block&#34; alt=&#34;OHSU Research Week Poster&#34; style=&#34;width:60%;height:60%;&#34;&gt;
+&lt;p&gt;My 
+&lt;a href=&#34;https://profiles.impactstory.org/u/0000-0002-8082-1890&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;research&lt;/a&gt; focused on health-related applications of Natural Language Processing-based methods, and was funded by the National Institutes of Health, the Oregon Clinical and Translational Research Institute, and Autism Speaks. I have written numerous scientific 
+&lt;a href=&#34;/publication&#34;&gt;publications&lt;/a&gt; on autism and neurodevelopmental disorders and have presented my research at over 25 international conferences.&lt;/p&gt;
+&lt;img src=&#34;students.jpg&#34; class=&#34;center-block&#34; alt=&#34;OHSU Research Week Poster&#34; style=&#34;width:60%;height:60%;&#34;&gt;
+&lt;p&gt;While at OHSU, I became an avid user of the statistical programming language R, both in the lab as a Principal Investigator and in the classroom as a professor. I developed a passion for programming and education, and during my tenure at OHSU I developed and taught multiple graduate-level 
+&lt;a href=&#34;/categories/course/&#34;&gt;data science courses&lt;/a&gt; and 
+&lt;a href=&#34;/categories/workshop/&#34;&gt;workshops&lt;/a&gt;. I also trained the 
+&lt;a href=&#34;https://www.ohsu.edu/xd/research/centers-institutes/octri/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Office of Research Impact at the Oregon Clinical &amp;amp; Translational Research Institute&lt;/a&gt; to use R, and consulted with the University of Oregon College of Education on the development of a 
+&lt;a href=&#34;https://education.uoregon.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;graduate data science specialization track&lt;/a&gt;. I received an 
+&lt;a href=&#34;https://www.ohsu.edu/school-of-medicine/honors-and-awards-ceremony-2018-school-medicine&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Excellence in Education award&lt;/a&gt; from OHSU in 2018.&lt;/p&gt;
+&lt;p&gt;You can follow my current work for 
+&lt;a href=&#34;https://github.com/rstudio-education&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RStudio Education on GitHub&lt;/a&gt;. In my free time, I love spending time with my family and my two-year-old daughter. Thank you so much for reading.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hi there!</title>
+      <link>/teaching/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/teaching/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>/teaching/accomplishments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/teaching/accomplishments/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve taught throughout most of my professional career.
+Currently I am a Lead Instructor of Data Science at Flatiron School in London, England and have just recently become a certified 
+&lt;a href=&#34;&#34;&gt;RStudio Instructor&lt;/a&gt;.
+Prior to working at Flatiron School, I had designed and delivered workshops with 
+&lt;a href=&#34;&#34;&gt;Minerva Statistical Consulting&lt;/a&gt; teaching.&lt;/p&gt;
+&lt;p&gt;Before teaching data science and programming, I taught throughout most of my Ph.D in both the music department where I taught classes on Aural Skills and Music Theory to undergraduates and for the Department of Psychology where I was a teaching assistant for the graduate level statistics courses.
+You can see evidence of my teaching below in my teaching portfolio.&lt;/p&gt;
+&lt;h3 id=&#34;workshops&#34;&gt;Workshops&lt;/h3&gt;
+&lt;p&gt;I offer tranings and workshops on various topics on topics related to data science and am open to designing bespoke materials in order to suit your needs.
+I specialize in teaching beginners with little to no experience in data science.
+Below are a listing of workshops I have delivered before:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Two day crash course on R&lt;/li&gt;
+&lt;li&gt;R for Python&lt;/li&gt;
+&lt;li&gt;Tidyverse&lt;/li&gt;
+&lt;li&gt;ggplot&lt;/li&gt;
+&lt;li&gt;R for Psychologists&lt;/li&gt;
+&lt;li&gt;Data Science topics&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you want to get in contact about booking a workshop in person or online, SEE FORM BELOW.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PICTURES HERE&lt;/li&gt;
+&lt;li&gt;CONTAT FORM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;teaching-portfolio&#34;&gt;Teaching Portfolio&lt;/h3&gt;
+&lt;p&gt;Below you can explore my teaching portfolio.
+Here you can find videos of me teaching both online and in the classroom, examples of the types of documents that I produce for learners, listings of courses or lectures that I have taught, as well as student reviews.
+I also include my current teaching and diversity statements, two documents that resulted from applying for teaaching positions at North American Universities.&lt;/p&gt;
+&lt;h4 id=&#34;teaching-videos&#34;&gt;Teaching Videos&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;&#34;&gt;Here is a Link | Online | Data Science | Name of Lecture &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;&#34;&gt;Here is a Link | Online | Data Science | Name of Lecture &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;&#34;&gt;Here is a Link | Online | Data Science | Name of Lecture &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;&#34;&gt;Here is a Link | Online | Data Science | Name of Lecture &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;&#34;&gt;Here is a Link | Online | Data Science | Name of Lecture &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;teaching-documents&#34;&gt;Teaching Documents&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;&#34;&gt;Github Repo Template&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;&#34;&gt;Part Writing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;&#34;&gt;Stats Follow Along Template&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;&#34;&gt;R Guide &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;course-materials&#34;&gt;Course Materials&lt;/h4&gt;
+&lt;p&gt;Course Listings&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;AURAL SKILLS III&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;AURAL SKILLS IV&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;FUNDAMENTALS OF MUSIC THEORY&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;R WORKSHOP&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;FIS MATERIALS&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;&#34;&gt;Syllabus for Theory Class&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;&#34;&gt;Syllabus for Aural Skills Class&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;&#34;&gt;Syllabus for Theory Class&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;evidence-of-teaching-effectiveness&#34;&gt;Evidence of Teaching Effectiveness&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;FIS Reviews&lt;/li&gt;
+&lt;li&gt;Workshop Revies&lt;/li&gt;
+&lt;li&gt;TA Reviews&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;#### North American Statements&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Teaching Statement (NA University )&lt;/li&gt;
+&lt;li&gt;Diversity Statements (NA University)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

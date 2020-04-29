@@ -1,47 +1,14 @@
 +++
-# About/Biography widget.
+# About widget.
+widget = "about"  # See https://sourcethemes.com/academic/docs/page-builder/
+headless = true  # This file represents a page section.
+active = true  # Activate this widget? true/false
+weight = 10  # Order that this section will appear in.
 
-date = "2016-04-20T00:00:00"
-draft = false
+title = "Biography"
 
-widget = "about"
-
-# Order that this section will appear in.
-weight = 1
-
-# List your academic interests.
-[interests]
-  interests = [
-    "Memory for Melodies",
-    "Data Science Education",
-    "Music and Cognitive Ability",
-    "R",
-    "Applications of Music Research in Industry"
-  ]
-
-# List your qualifications (such as academic degrees).
-[[education.courses]]
-  course = "Ph.D. in Music Theory"
-  institution = "Louisiana State University"
-  year = 2019
-
-[[education.courses]]
-  course = "MSc. Music, Mind and Brain"
-  institution = "Goldsmiths, University of London"
-  year = 2014
-
-[[education.courses]]
-  course = "B.M. Instrumental Performance"
-  institution = "Baldwin Wallace University"
-  year = 2012
- 
+# Choose the user profile to display
+# This should be the username of a profile in your `content/authors/` folder.
+# See https://sourcethemes.com/academic/docs/get-started/#introduce-yourself
+author = "admin"
 +++
-
-# Biography
-
-David John Baker is a music researcher and educator passionate about research questions at the intersection of music theory and music science. 
-His research looks to understand how the people learn melodies in order to improve pedagogical practices in aural skills education. 
-Using his background in the humanities and training in psychological sciences, David builds testable models of how people hear music.
-
-His overlapping quantitative skill set with the world of data science has also led him to both industry projects and work with non-profit organizations.
-He is currently a Lead Instructor of Data Science at Flatiron School in London.

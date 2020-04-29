@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contacts | David John Baker</title>
+    <link>/contact/</link>
+      <atom:link href="/contact/index.xml" rel="self" type="application/rss+xml" />
+    <description>Contacts</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Contacts</title>
+      <link>/contact/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>/contact/about-me/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/contact/about-me/</guid>
+      <description>&lt;p&gt;I am originally from Atlanta, Georgia, and am a proud ramblin&amp;rsquo; wreck from 
+&lt;a href=&#34;https://www.gatech.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Georgia Tech&lt;/a&gt;. After college, I studied psychology and quantitative methods, receiving my Ph.D. from 
+&lt;a href=&#34;https://www.vanderbilt.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Vanderbilt University&lt;/a&gt; (2008). I am now a data scientist and professional educator at 
+&lt;a href=&#34;https://www.rstudio.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RStudio&lt;/a&gt;. Prior to that, I was an Assistant Professor at 
+&lt;a href=&#34;https://www.asu.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Arizona State University&lt;/a&gt;, and an Associate Professor at 
+&lt;a href=&#34;https://www.ohsu.edu/xd/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Oregon Health &amp;amp; Science University (OHSU)&lt;/a&gt;.&lt;/p&gt;
+&lt;img src=&#34;maps.jpg&#34; class=&#34;center-block&#34; alt=&#34;OHSU Research Week Poster&#34; style=&#34;width:60%;height:60%;&#34;&gt;
+&lt;p&gt;My 
+&lt;a href=&#34;https://profiles.impactstory.org/u/0000-0002-8082-1890&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;research&lt;/a&gt; focused on health-related applications of Natural Language Processing-based methods, and was funded by the National Institutes of Health, the Oregon Clinical and Translational Research Institute, and Autism Speaks. I have written numerous scientific 
+&lt;a href=&#34;/publication&#34;&gt;publications&lt;/a&gt; on autism and neurodevelopmental disorders and have presented my research at over 25 international conferences.&lt;/p&gt;
+&lt;img src=&#34;students.jpg&#34; class=&#34;center-block&#34; alt=&#34;OHSU Research Week Poster&#34; style=&#34;width:60%;height:60%;&#34;&gt;
+&lt;p&gt;While at OHSU, I became an avid user of the statistical programming language R, both in the lab as a Principal Investigator and in the classroom as a professor. I developed a passion for programming and education, and during my tenure at OHSU I developed and taught multiple graduate-level 
+&lt;a href=&#34;/categories/course/&#34;&gt;data science courses&lt;/a&gt; and 
+&lt;a href=&#34;/categories/workshop/&#34;&gt;workshops&lt;/a&gt;. I also trained the 
+&lt;a href=&#34;https://www.ohsu.edu/xd/research/centers-institutes/octri/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Office of Research Impact at the Oregon Clinical &amp;amp; Translational Research Institute&lt;/a&gt; to use R, and consulted with the University of Oregon College of Education on the development of a 
+&lt;a href=&#34;https://education.uoregon.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;graduate data science specialization track&lt;/a&gt;. I received an 
+&lt;a href=&#34;https://www.ohsu.edu/school-of-medicine/honors-and-awards-ceremony-2018-school-medicine&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Excellence in Education award&lt;/a&gt; from OHSU in 2018.&lt;/p&gt;
+&lt;p&gt;You can follow my current work for 
+&lt;a href=&#34;https://github.com/rstudio-education&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RStudio Education on GitHub&lt;/a&gt;. In my free time, I love spending time with my family and my two-year-old daughter. Thank you so much for reading.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

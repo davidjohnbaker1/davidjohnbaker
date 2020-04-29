@@ -1,25 +1,99 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Transformational Theory on David John Baker</title>
+    <title>Transformational Theory | David John Baker</title>
     <link>/tags/transformational-theory/</link>
-    <description>Recent content in Transformational Theory on David John Baker</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2019 David John Baker</copyright>
-    <lastBuildDate>Sun, 19 Nov 2017 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/transformational-theory/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/tags/transformational-theory/index.xml" rel="self" type="application/rss+xml" />
+    <description>Transformational Theory</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Sun, 19 Nov 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Transformational Theory</title>
+      <link>/tags/transformational-theory/</link>
+    </image>
     
     <item>
       <title>Calculating iMultisets in R</title>
       <link>/post/calculating-imultisets-in-r/</link>
       <pubDate>Sun, 19 Nov 2017 00:00:00 +0000</pubDate>
-      
       <guid>/post/calculating-imultisets-in-r/</guid>
-      <description>November is pretty much the worst month for people in higher education. There are too many deadlines and if you’re still in coursework (like myself) you have essays to write, presentations to make, and a backlog of homework assignments to grade. So if you can save time here or there, it’s usually a good choice.
-This weekend I was working a homework assignment for my Transformational Theory seminar where we were given a number of pairs of pitch class sets and had to calculate the imultiset for each following Joseph Straus’ 2014 article on Total Voice Leading.</description>
+      <description>
+
+
+&lt;p&gt;November is pretty much the worst month for people in higher education.
+There are too many deadlines and if you’re still in coursework (like myself) you have essays to write, presentations to make, and a backlog of homework assignments to grade.
+So if you can save time here or there, it’s usually a good choice.&lt;/p&gt;
+&lt;p&gt;This weekend I was working a homework assignment for my Transformational Theory seminar where we were given a number of pairs of pitch class sets and had to calculate the imultiset for each following Joseph Straus’ 2014 article on &lt;a href=&#34;http://www.mtosmt.org/issues/mto.14.20.2/mto.14.20.2.straus.html&#34;&gt;Total Voice Leading&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As I looked at the top of the assignment (pictured below) and started to crank out the first one by hand, I realized that the next 30 minutes of my life were going to be doing the same thing over and over again.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/calculating-imultisets/imultiset.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Usually if I get that feeling my next thought is “Can I make a computer do this?” and after thinking about it for two minutes I realized the answer was yes.&lt;/p&gt;
+&lt;p&gt;So instead of doing all of these by hand, I wrote an R script and with the time saved figured I’d write a quick post about it.&lt;/p&gt;
+&lt;div id=&#34;the-problem&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;The Problem&lt;/h2&gt;
+&lt;p&gt;In order to calculate the imultiset you need two pitch class sets, in this case X and Y.
+Each set can have any number of pitch classes in them and what you need to do is calculate the distance in &lt;a href=&#34;http://openmusictheory.com/mod12.html&#34;&gt;Modulo 12 space&lt;/a&gt; between every possible combination of pitch classes from one set to the other.
+So for example, you could move from 4 (E in Mod 12 for you non-music theory readers) to 7, 11, 2, or 5 (G, B, D, or F) resulting in four intervals: {3,7,10,1}.
+These four numbers in the {curly braces} are what you get when you subtract each number in the second set from the note E in Mod 12 space.
+This action then needs to be completed for every pair.&lt;/p&gt;
+&lt;p&gt;When you need to account for every pairing you need to do a &lt;a href=&#34;https://www.w3resource.com/sql/joins/cross-join.php&#34;&gt;cross join&lt;/a&gt;. A cross join connects each member of one set to each member of another set.
+This creates the sets of pairs seen below.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/calculating-imultisets/imultisetcj.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Then all you need to do is subtract one from the other to get the distance.
+The only problem is that these subtractions need to happen in Mod 12 space so in any case where you are subtracting a bigger number from a smaller number you will get a negative result!
+This is easily fixed by just adding 12 to that number in order to get what we &lt;em&gt;should&lt;/em&gt; have been our answer if we were doing Mod 12 arithmetic.&lt;/p&gt;
+&lt;p&gt;After fixing the Mod 12 problem, you’ll have a nice list of intervals that just have to be sorted from top to bottom to have your imultiset.
+So let’s see how you would do this line by line.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;r-code&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;R Code&lt;/h2&gt;
+&lt;p&gt;First, let’s get two pitch class sets.
+In this case we have a C major triad and a G7 chord.&lt;/p&gt;
+&lt;p&gt;X = {0,4,7} and Y = {7,11,2,5}&lt;/p&gt;
+&lt;p&gt;Let’s first assign each chord to an object.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;X &amp;lt;- c(0,4,7)
+Y &amp;lt;- c(7,11,2,5)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Next we need to do that cross join, which we can accomplish with R’s merge() function.
+This makes us a data frame with every combination from set X and set Y.
+Below we see the function’s output.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;Example &amp;lt;- merge(X,Y,all=TRUE)
+Example&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##    x  y
+## 1  0  7
+## 2  4  7
+## 3  7  7
+## 4  0 11
+## 5  4 11
+## 6  7 11
+## 7  0  2
+## 8  4  2
+## 9  7  2
+## 10 0  5
+## 11 4  5
+## 12 7  5&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Once having each combination, we then subtract one set from the other.
+Since I don’t know how to put R into Music Theory Mode where it only operates in Mod 12, we can fix the problem of the negative numbers by just indexing through our answer with in ifelse() statement to replace any negative values with the answer we actually want by adding 12 to it.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;Example$diff &amp;lt;- Example$y - Example$x
+Example$diff&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##  [1]  7  3  0 11  7  4  2 -2 -5  5  1 -2&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;Example$mod12 &amp;lt;- ifelse(test = Example$diff &amp;lt; 0 , 
+                        yes = Example$diff + 12, 
+                        no = Example$diff)
+Example$mod12&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##  [1]  7  3  0 11  7  4  2 10  7  5  1 10&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;With our numbers then in Mod 12 space, we just sort them and we get our imultiset.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;sort(Example$mod12)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##  [1]  0  1  2  3  4  5  7  7  7 10 10 11&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Of course you are not going to want to write this out every time you want to calculate an imultiset, so best to just write a function that does what we just did.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;calculate.multiset &amp;lt;- function(x,y){
+  array.1 &amp;lt;- x 
+  array.2 &amp;lt;- y
+  cross.join &amp;lt;- merge(array.1,array.2, all = TRUE)
+  cross.join$diff &amp;lt;- cross.join$y - cross.join$x
+  cross.join$mod12 &amp;lt;- ifelse(cross.join$diff &amp;lt; 0, cross.join$diff + 12, cross.join$diff)
+  sort(cross.join$mod12)
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</description>
     </item>
     
   </channel>

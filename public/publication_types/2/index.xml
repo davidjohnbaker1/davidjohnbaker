@@ -1,22 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2 on David John Baker</title>
+    <title>2 | David John Baker</title>
     <link>/publication_types/2/</link>
-    <description>Recent content in 2 on David John Baker</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2019 David John Baker</copyright>
-    <lastBuildDate>Thu, 11 Oct 2018 00:00:00 +0000</lastBuildDate>
+      <atom:link href="/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>2</title>
+      <link>/publication_types/2/</link>
+    </image>
     
-	<atom:link href="/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Musical training mediates the relation between working memory capacity and preference for musical complexity</title>
+      <link>/publication/memory-cognition-auditory-2020/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/memory-cognition-auditory-2020/</guid>
+      <description></description>
+    </item>
     
+    <item>
+      <title>Modeling Melodic Dictation</title>
+      <link>/publication/mmd-2019/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/mmd-2019/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Examining Musical Sophistication: A replication and theoretical commentary of the Goldsmiths Musical Sophistication Index</title>
       <link>/publication/gmsi-replication-2018/</link>
       <pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate>
-      
       <guid>/publication/gmsi-replication-2018/</guid>
       <description></description>
     </item>
@@ -25,7 +40,6 @@
       <title>Decoding emotions in expressive music performance: A multi-lab replication and extension study</title>
       <link>/publication/emotion-replication-2018/</link>
       <pubDate>Sun, 07 Oct 2018 00:00:00 +0000</pubDate>
-      
       <guid>/publication/emotion-replication-2018/</guid>
       <description></description>
     </item>
@@ -34,7 +48,6 @@
       <title>Perception of Leitmotives in Richard Wagner&#39;s Der Ring des Nibelungen</title>
       <link>/publication/wagner-frontiers/</link>
       <pubDate>Thu, 04 May 2017 00:00:00 +0000</pubDate>
-      
       <guid>/publication/wagner-frontiers/</guid>
       <description></description>
     </item>

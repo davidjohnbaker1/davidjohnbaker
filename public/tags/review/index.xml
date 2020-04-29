@@ -1,25 +1,78 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>review on David John Baker</title>
+    <title>review | David John Baker</title>
     <link>/tags/review/</link>
-    <description>Recent content in review on David John Baker</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2019 David John Baker</copyright>
-    <lastBuildDate>Thu, 28 Mar 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/review/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/tags/review/index.xml" rel="self" type="application/rss+xml" />
+    <description>review</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Thu, 28 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>review</title>
+      <link>/tags/review/</link>
+    </image>
     
     <item>
       <title>Sempre Grad Conference, 2019</title>
       <link>/post/sempre-grad-conference-2019/</link>
       <pubDate>Thu, 28 Mar 2019 00:00:00 +0000</pubDate>
-      
       <guid>/post/sempre-grad-conference-2019/</guid>
-      <description>Since I am planning on spending the whole day today writing, I figured: What better way to warm up to some writing than with some writing?1 And what better way to get the juices flowing than to write about the wonderful experience that was the Sempre graduate student conference at Cambridge this past Monday.
-If you’re reading this in North America, you might not be familiar with Sempre, so for the uninitiated, Sempre or the Society for Education, Music and Psychology Research is a professional organization in the UK dedicated towards bringing together those in various fields of music, but specifically music education and music psychology.</description>
+      <description>
+
+
+&lt;p&gt;Since I am planning on spending the whole day today writing, I figured: What better way to warm up to some writing than with some writing?&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;
+And what better way to get the juices flowing than to write about the wonderful experience that was the &lt;a href=&#34;https://www.sempre.org.uk/&#34;&gt;Sempre&lt;/a&gt; graduate student conference at Cambridge this past Monday.&lt;/p&gt;
+&lt;p&gt;If you’re reading this in North America, you might not be familiar with Sempre, so for the uninitiated, Sempre or the Society for Education, Music and Psychology Research is a professional organization in the UK dedicated towards bringing together those in various fields of music, but specifically music education and music psychology.
+I don’t think we really have something like this in the USA.
+The music psychology people tend to hang out at the &lt;a href=&#34;http://www.musicperception.org/&#34;&gt;Society for Music Perception and Cognition&lt;/a&gt;, and I am kind of embarrassed that off the top of my head I don’t know where graduate students in music education might submit research they are working on to present to their peers?
+According to &lt;a href=&#34;https://www.sempre.org.uk/about/1-background&#34;&gt;Sempre’s website&lt;/a&gt;, they’re very keen on helping out researchers at the start of their career and having this graduate conference is just one of the ways they do that.&lt;/p&gt;
+&lt;p&gt;The conference this week was a short and sweet one-day affair held at the Faculty of Music at Cambridge.
+Of course the weather was perfect that day, but luckily all the talks made it worth it to sit indoors all day.
+Ian Cross welcomed everyone with a short the opening address and if my memory serves me correctly, he noted there were about 80 submissions to this conference.
+He said most of those submissions did happen to come the day of the deadline, which is quite in line with any stereotypes one may have about graduate students.
+But thinking about that, I feel like if all professional music organizations were to release the timestamp data of their abstract submissions, there wouldn’t be a single one that didn’t exhibit an exponential growth in submissions in the hours leading to the deadline.&lt;/p&gt;
+&lt;p&gt;After his short introduction, the keynote speaker Martin Rohrmeier, head of the &lt;a href=&#34;https://dcml.epfl.ch/&#34;&gt;Digital and Computational Musicology Lab&lt;/a&gt; at &lt;a href=&#34;https://en.wikipedia.org/wiki/%C3%89cole_Polytechnique_F%C3%A9d%C3%A9rale_de_Lausanne&#34;&gt;École Polytechnique Fédérale de Lausanne&lt;/a&gt; was introduced.
+Martin’s talk surveyed a lot of his previous work on using computational tools to model various aspects of tonality which showcased the work of his graduate students in attendance that day.
+He also presented an overview of his lab’s work looking at &lt;a href=&#34;https://www.pnas.org/content/pnas/110/38/15443.full.pdf&#34;&gt;hierarchical, embedded structures within larger forms&lt;/a&gt;.
+All of this empirical work then was tied together with what Martin put forward as a possible general theory of cognition and aesthetics that would be available to the listener, were they to choose, to engage deeply with a work of art.&lt;/p&gt;
+&lt;p&gt;Knowing his audience as the next generation of music researchers, he made several pleas throughout his talk to encourage future work in music to work at the intersection between music theory, music psychology, and computer modeling.
+This is an idea often gets poked at over here in Europe quite explicitly, but seems to live more as a tacit assumption in a lot of work in North America unless you’re at a talk by David Huron.&lt;/p&gt;
+&lt;p&gt;The rest of the day took an ABA form with five minute flash talks surrounding a longer 12 minute talk session and the poster session scheduled for lunch.
+As I tweeted earlier, I was skeptical of the five minute talks at first, thinking “How could people cram all they need to say into five minutes?!”&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt; but seeing as this was only a one-day conference that was more about community building rather than getting in the nitty gritty about methods, the format worked well.
+Because of it, in a one-day session we were able to hear about the research of 20 graduate students on a diversity of topics (not even including the 25 posters at lunch!).&lt;/p&gt;
+&lt;p&gt;Almost all of the talks in the morning session addressed issues at the intersection of music and well-being with the exception of a paper by Daniel Harasim looking at unsupervised machine learning methods to examine jazz harmonies.
+Listening to all these talks only reiterated assertions made earlier in the keynote of how many human resources are needed in order to push knowledge limits in the field of music.&lt;/p&gt;
+&lt;p&gt;The start of the afternoon session was reminiscent of last summer’s multi-hub ICMPC conference as the winner of Sempre’s &lt;a href=&#34;https://www.sempre.org.uk/awards/hickman&#34;&gt;Hickman&lt;/a&gt; award, &lt;a href=&#34;https://twitter.com/LAWarrenburg&#34;&gt;Lindsay Warrenbug&lt;/a&gt;, skyped into the conference to deliver her paper on Melancholy and Grief in Music.
+It’s nice to see the music science community putting their money where their mouth is on making remote presentations a possibility for presenters (something also heavily advocated for by the &lt;a href=&#34;https://sites.google.com/site/sysmusconference/&#34;&gt;SysMus Series&lt;/a&gt;).
+Not to throw shade, but this is something that my home discipline of Music Theory needs to do a bit of catch-up on.&lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;
+I look forward to the inevitable SMT Discuss or Twitter feud where we discuss if a person who can’t be to the national meeting in-person should instead be swapped out for someone who can.&lt;/p&gt;
+&lt;p&gt;The rest of the talks in the afternoon were all extremely interesting.
+It’s hard to go through and single out work I was loving since most of the work I liked was done by people who were good friends, but one paper that I feel like the theory and psychology community should be looking out for very soon was the work by &lt;a href=&#34;https://twitter.com/pmcharrison&#34;&gt;Peter Harrison&lt;/a&gt; and his advisor Marcus Pearce.
+In 12 minutes, Peter was able to explain the current theories in the literature surrounding instantaneous consonance and dissonance (is it periodicity, is it spectral interference, is it cultural familiarity?), introduce an aggregated behavioral datasets from four prior studies where participants rated various sonorities, then introduce a new R package, &lt;a href=&#34;https://github.com/pmcharrison/incon&#34;&gt;“incon”&lt;/a&gt; that they used to computationally model 15 models of consonance to get to the bottom of the story.
+If you’re interested in his findings, I know he also has a &lt;a href=&#34;https://psyarxiv.com/6jsug/&#34;&gt;pre-print&lt;/a&gt; of it out right now.&lt;br /&gt;
+I only mention his paper in detail because I think what he is doing is very in line with the music theory world and will hopefully start an interesting conversation once it gets published.&lt;/p&gt;
+&lt;p&gt;By the end of the day we’d have heard talks on musical chills, emotions and music, using music to help rehabilitate stroke survivors, music’s role maternal mental health in The Gambia, and posters on topics from more traditional music theory (thinking about hierarchical voice leading structure ala Schenker with Graph Transformations) to decentering the dominant discourse of the ‘Dead White Men’ cannon.
+It was a great day.
+Not only did the conference have a diversity of talks, but of the 20 talks, there appeared to be 50/50 split in the gender of the speakers.
+I only note that so when the inevitable “But is it even possible to have a conference where we just have men talk?!” question arise, there’s documentaiton of this happening.&lt;/p&gt;
+&lt;p&gt;Going to this conference and thinking about things like the &lt;a href=&#34;https://slate.com/technology/2019/03/google-doodle-bach-ai-music-generator.html&#34;&gt;general rage from last week regarding the Google Doodle&lt;/a&gt; made it very clear that there are many, many ways to do music research.
+It made me wish that there were more conferences that follow this design beyond the graduate level.
+I am only lamenting about this because if all goes well in May, this past Sempre conference will have been my last as a graduate student.&lt;/p&gt;
+&lt;p&gt;Of course this brings up ideas about the “point” of the conference, but one important “point” is that I don’t think conferences should just be be about apex research at its final moment of metamorphosis before publication.
+I feel like we as researchers need more of a chance to air out our ideas in a less, shall I say… performative setting.
+I obviously acknowledge that the content and subject matter with a conference like this is very different to that of AMS or SMT, but honestly think that the culture of something like Sempre is much closer to what people want and need.&lt;/p&gt;
+&lt;p&gt;This is especially true for early career researchers where point is to build relationships, explore new ideas, and not start to drink that academic Kool Aid right away since numerically speaking we will not all be academics, but will hopefully all engage in some kind of music research.
+I’m also advocating for this because I’m currently in the peak of my PhD isolation phase now writing and going to this and being inspired by peers is what I think I’ll need to cross the finish line.&lt;/p&gt;
+&lt;p&gt;So big thanks to Sempre for hosting it, allowing for a day of intellectual curiosity, and continuing to grow a healthy network of next generation of researchers.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;My thought yesterday morning, posting it a day later&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;In retrospect, an obvious personal projection&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;Which I only mention as personal grivence since I was not able to present some of my own work this year at a conference that I was not able to attend because of travel…&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
     </item>
     
   </channel>

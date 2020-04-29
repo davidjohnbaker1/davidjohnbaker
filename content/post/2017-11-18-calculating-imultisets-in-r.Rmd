@@ -16,7 +16,7 @@ This weekend I was working a homework assignment for my Transformational Theory 
 
 As I looked at the top of the assignment (pictured below) and started to crank out the first one by hand, I realized that the next 30 minutes of my life were going to be doing the same thing over and over again.
 
-![](/img/imultiset.png)
+![](/img/calculating-imultisets/imultiset.png)
 
 Usually if I get that feeling my next thought is "Can I make a computer do this?" and after thinking about it for two minutes I realized the answer was yes. 
 
@@ -33,7 +33,7 @@ This action then needs to be completed for every pair.
 When you need to account for every pairing you need to do a [cross join](https://www.w3resource.com/sql/joins/cross-join.php). A cross join connects each member of one set to each member of another set.
 This creates the sets of pairs seen below.
 
-![](/img/imultisetcj.png)
+![](/img/calculating-imultisets/imultisetcj.png)
 
 Then all you need to do is subtract one from the other to get the distance.
 The only problem is that these subtractions need to happen in Mod 12 space so in any case where you are subtracting a bigger number from a smaller number you will get a negative result!

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Science on David John Baker</title>
+    <link>/categories/data-science/</link>
+    <description>Recent content in Data Science on David John Baker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 David John Baker</copyright>
+    <lastBuildDate>Fri, 07 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/data-science/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blog on (Data Science) Blogs</title>
+      <link>/post/blog-on-blogs/</link>
+      <pubDate>Fri, 07 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/blog-on-blogs/</guid>
+      <description>We’re nearing the point of saturation when it comes to data science blogs. The amount of reccomended Medium, Towards Data Science, Analytics Vidhya, or whatever website you can post to articles that come up on my suggested reading on my phone is unending. Why? Because aspiring data scientists have repeatedly been told that one of the best ways to break into data science is to:
+ START. A. BLOG.</description>
+    </item>
+    
+    <item>
+      <title>Hire Me (as a Data Scientist!), Part I</title>
+      <link>/post/hire-me-as-a-data-scientist-part-i/</link>
+      <pubDate>Sat, 13 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/hire-me-as-a-data-scientist-part-i/</guid>
+      <description>Background I read Medium blog posts on “How to Become a Data Scientist” more often than I care to admit. Much of this comes from a fear that after doing all this work on the PhD and then hitting the Music Theory job market, I won’t fit the mold of the kind of theorist most schools want to hire. Not coming from one of five schools that seem to have a monopoly on the tenure track jobs can be a bit discouraging, but I also won’t deny that having a non-academic job with a regular 9-5 schedule and a decent salary is pretty tempting after spending the vast majority of my twenties in school.</description>
+    </item>
+    
+  </channel>
+</rss>

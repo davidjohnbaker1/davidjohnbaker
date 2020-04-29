@@ -52,10 +52,12 @@ I wanted to show off all the machine learning I had been reading about in order 
 But in my first few exchanges of what I would go off and analyze and then share with others, I quickly found that my time and skills were much better spent making a lot of simple visualizations of our survey data (like the plot below) in order to help facilitate the start of conversations about the larger projects.
 The data analysis I was doing really meant nothing unless I could directly point to why a finding was important to a team of very intelligent people, but without a background in statistics. 
 
-![](/img/age_typology.png)
+![](/img/thank-you-toynbee/age_typology.png)
 
 This process also rid me of any delusions of making models that had overly predictive accuracy.
 My job was to be critical researcher who used data, not a data shaman that created impressive predictive accuracy.
+
+![](/img/thank-you-toynbee/saver_typology.png)
 
 In thinking about this, I also realized that there is not much you can do as the "numbers guy" when someone hands you a dataset you had no hand in designing.
 Unlike academic research where you pretty much have an idea of all the variables you're collecting in a cross-sectional study, working here you're often just given a dataset with a potpourri of variables and asked to finding meaning and value.

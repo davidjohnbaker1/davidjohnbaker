@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>education | David John Baker</title>
+    <link>/tags/education/</link>
+      <atom:link href="/tags/education/index.xml" rel="self" type="application/rss+xml" />
+    <description>education</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Wed, 09 Oct 2019 08:38:28 -0700</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>education</title>
+      <link>/tags/education/</link>
+    </image>
+    
+    <item>
+      <title>Test</title>
+      <link>/projects/test/</link>
+      <pubDate>Wed, 09 Oct 2019 08:38:28 -0700</pubDate>
+      <guid>/projects/test/</guid>
+      <description>&lt;p&gt;Here I write some markdown.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

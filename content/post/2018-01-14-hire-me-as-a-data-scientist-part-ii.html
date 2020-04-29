@@ -232,17 +232,15 @@ search.vector &lt;- bizzaro.candidates.metrics[, -c(1,2)]
 
 ## Sanity check that what we are going to subtract has same names
 names(key.vector)</code></pre>
-<pre><code>##  [1] &quot;mean_review_overall&quot;    &quot;mean_review_aroma&quot;     
-##  [3] &quot;mean_review_appearance&quot; &quot;mean_review_palate&quot;    
-##  [5] &quot;mean_reviw_taste&quot;       &quot;sd_review_overall&quot;     
-##  [7] &quot;sd_review_aroma&quot;        &quot;sd_review_appearance&quot;  
-##  [9] &quot;sd_review_palate&quot;       &quot;sd_review_taste&quot;</code></pre>
+<pre><code>##  [1] &quot;mean_review_overall&quot;    &quot;mean_review_aroma&quot;      &quot;mean_review_appearance&quot;
+##  [4] &quot;mean_review_palate&quot;     &quot;mean_reviw_taste&quot;       &quot;sd_review_overall&quot;     
+##  [7] &quot;sd_review_aroma&quot;        &quot;sd_review_appearance&quot;   &quot;sd_review_palate&quot;      
+## [10] &quot;sd_review_taste&quot;</code></pre>
 <pre class="r"><code>names(search.vector)</code></pre>
-<pre><code>##  [1] &quot;mean_review_overall&quot;    &quot;mean_review_aroma&quot;     
-##  [3] &quot;mean_review_appearance&quot; &quot;mean_review_palate&quot;    
-##  [5] &quot;mean_reviw_taste&quot;       &quot;sd_review_overall&quot;     
-##  [7] &quot;sd_review_aroma&quot;        &quot;sd_review_appearance&quot;  
-##  [9] &quot;sd_review_palate&quot;       &quot;sd_review_taste&quot;</code></pre>
+<pre><code>##  [1] &quot;mean_review_overall&quot;    &quot;mean_review_aroma&quot;      &quot;mean_review_appearance&quot;
+##  [4] &quot;mean_review_palate&quot;     &quot;mean_reviw_taste&quot;       &quot;sd_review_overall&quot;     
+##  [7] &quot;sd_review_aroma&quot;        &quot;sd_review_appearance&quot;   &quot;sd_review_palate&quot;      
+## [10] &quot;sd_review_taste&quot;</code></pre>
 <pre class="r"><code>## And that the apply function I am going to run is doing what I think it will
 search.vector[1]- key.vector</code></pre>
 <pre><code>##    mean_review_overall mean_review_aroma mean_review_appearance
@@ -294,66 +292,66 @@ bizzaro.candidates.distances[order(-mean_review_overall)]</code></pre>
 ## 134:               3.500000           2.890625         2.500000
 ## 135:               3.442308           3.009615         2.586538
 ## 136:               2.902174           2.836957         2.706522
-##      sd_review_overall sd_review_aroma sd_review_appearance
-##   1:         0.3337716       0.3337716            0.3861642
-##   2:         0.3289275       0.3289275            0.3845766
-##   3:         0.3865103       0.3865103            0.3641730
-##   4:         0.3698733       0.3698733            0.3741267
-##   5:         0.3768892       0.3768892            0.3796836
-##  ---                                                       
-## 132:         1.2438621       1.2438621            0.7136206
-## 133:         0.8995241       0.8995241            0.6866707
-## 134:         1.2427207       1.2427207            0.4918694
-## 135:         0.9108033       0.9108033            0.5994593
-## 136:         0.9829379       0.9829379            0.6843587
-##      sd_review_palate sd_review_taste mean_review_overall
-##   1:        0.3997258       0.3826844         0.002077562
-##   2:        0.4293993       0.3620669        -0.001792407
-##   3:        0.4749840       0.4873397        -0.114417945
-##   4:        0.4060561       0.3660140        -0.121673270
-##   5:        0.4586495       0.4026537        -0.146845883
-##  ---                                                     
-## 132:        1.1431528       1.1277209        -1.392659280
-## 133:        0.7355280       0.8165336        -1.722103173
-## 134:        0.8005479       0.9418581        -1.902527701
-## 135:        0.7637009       1.0035288        -1.974643085
-## 136:        0.7883377       1.0086226        -2.149810310
-##      mean_review_aroma mean_review_appearance mean_review_palate
-##   1:       0.002077562            -0.02018203        -0.01053621
-##   2:      -0.001792407            -0.07095603        -0.13956098
-##   3:      -0.114417945            -0.05933479        -0.23181349
-##   4:      -0.121673270            -0.15442587        -0.11588264
-##   5:      -0.146845883            -0.10451218        -0.13314386
-##  ---                                                            
-## 132:      -1.392659280            -0.55307677        -1.05000989
-## 133:      -1.722103173            -0.95464082        -1.40415587
-## 134:      -1.902527701            -0.88860309        -1.56070068
-## 135:      -1.974643085            -0.94629539        -1.44171030
-## 136:      -2.149810310            -1.48642917        -1.61436916
-##      mean_reviw_taste sd_review_overall sd_review_aroma
-##   1:      -0.07177483       -0.12136909     -0.12136909
-##   2:      -0.07804418       -0.12621327     -0.12621327
-##   3:      -0.13098536       -0.06863039     -0.06863039
-##   4:      -0.15630181       -0.08526747     -0.08526747
-##   5:      -0.21053081       -0.07825155     -0.07825155
-##  ---                                                   
-## 132:      -1.09151167        0.78872139      0.78872139
-## 133:      -1.82909857        0.44438341      0.44438341
-## 134:      -2.13098536        0.78758001      0.78758001
-## 135:      -2.04444690        0.45566254      0.45566254
-## 136:      -1.92446362        0.52779720      0.52779720
-##      sd_review_appearance sd_review_palate sd_review_taste
-##   1:          -0.01935577      -0.04762635     -0.03307969
-##   2:          -0.02094339      -0.01795284     -0.05369722
-##   3:          -0.04134702       0.02763182      0.07157561
-##   4:          -0.03139329      -0.04129607     -0.04975012
-##   5:          -0.02583641       0.01129741     -0.01311039
+##      sd_review_overall sd_review_aroma sd_review_appearance sd_review_palate
+##   1:         0.3337716       0.3337716            0.3861642        0.3997258
+##   2:         0.3289275       0.3289275            0.3845766        0.4293993
+##   3:         0.3865103       0.3865103            0.3641730        0.4749840
+##   4:         0.3698733       0.3698733            0.3741267        0.4060561
+##   5:         0.3768892       0.3768892            0.3796836        0.4586495
+##  ---                                                                        
+## 132:         1.2438621       1.2438621            0.7136206        1.1431528
+## 133:         0.8995241       0.8995241            0.6866707        0.7355280
+## 134:         1.2427207       1.2427207            0.4918694        0.8005479
+## 135:         0.9108033       0.9108033            0.5994593        0.7637009
+## 136:         0.9829379       0.9829379            0.6843587        0.7883377
+##      sd_review_taste mean_review_overall mean_review_aroma
+##   1:       0.3826844         0.002077562       0.002077562
+##   2:       0.3620669        -0.001792407      -0.001792407
+##   3:       0.4873397        -0.114417945      -0.114417945
+##   4:       0.3660140        -0.121673270      -0.121673270
+##   5:       0.4026537        -0.146845883      -0.146845883
 ##  ---                                                      
-## 132:           0.30810063       0.69580063      0.71195677
-## 133:           0.28115074       0.28817587      0.40076950
-## 134:           0.08634938       0.35319581      0.52609404
-## 135:           0.19393929       0.31634876      0.58776473
-## 136:           0.27883874       0.34098558      0.59285853</code></pre>
+## 132:       1.1277209        -1.392659280      -1.392659280
+## 133:       0.8165336        -1.722103173      -1.722103173
+## 134:       0.9418581        -1.902527701      -1.902527701
+## 135:       1.0035288        -1.974643085      -1.974643085
+## 136:       1.0086226        -2.149810310      -2.149810310
+##      mean_review_appearance mean_review_palate mean_reviw_taste
+##   1:            -0.02018203        -0.01053621      -0.07177483
+##   2:            -0.07095603        -0.13956098      -0.07804418
+##   3:            -0.05933479        -0.23181349      -0.13098536
+##   4:            -0.15442587        -0.11588264      -0.15630181
+##   5:            -0.10451218        -0.13314386      -0.21053081
+##  ---                                                           
+## 132:            -0.55307677        -1.05000989      -1.09151167
+## 133:            -0.95464082        -1.40415587      -1.82909857
+## 134:            -0.88860309        -1.56070068      -2.13098536
+## 135:            -0.94629539        -1.44171030      -2.04444690
+## 136:            -1.48642917        -1.61436916      -1.92446362
+##      sd_review_overall sd_review_aroma sd_review_appearance sd_review_palate
+##   1:       -0.12136909     -0.12136909          -0.01935577      -0.04762635
+##   2:       -0.12621327     -0.12621327          -0.02094339      -0.01795284
+##   3:       -0.06863039     -0.06863039          -0.04134702       0.02763182
+##   4:       -0.08526747     -0.08526747          -0.03139329      -0.04129607
+##   5:       -0.07825155     -0.07825155          -0.02583641       0.01129741
+##  ---                                                                        
+## 132:        0.78872139      0.78872139           0.30810063       0.69580063
+## 133:        0.44438341      0.44438341           0.28115074       0.28817587
+## 134:        0.78758001      0.78758001           0.08634938       0.35319581
+## 135:        0.45566254      0.45566254           0.19393929       0.31634876
+## 136:        0.52779720      0.52779720           0.27883874       0.34098558
+##      sd_review_taste
+##   1:     -0.03307969
+##   2:     -0.05369722
+##   3:      0.07157561
+##   4:     -0.04975012
+##   5:     -0.01311039
+##  ---                
+## 132:      0.71195677
+## 133:      0.40076950
+## 134:      0.52609404
+## 135:      0.58776473
+## 136:      0.59285853</code></pre>
 <p>Of course if I were building a real recommendation machine I could start talking about what factors are more important for what users and what factors are more predictive than others, but this seems like an OK enough solution to at least have completed my <em>a priori</em> goal.</p>
 <p>Based on this solution, it looks like I will have to find myself a bottle of <a href="https://www.beeradvocate.com/beer/profile/863/7971/">Pliny The Elder</a> and the <a href="https://www.beeradvocate.com/beer/profile/22511/67760/">Hill Farmstead Brewery Galaxy Imperial Single Hop IPA American Double / Imperial IPA</a> and do some of my own empirical work to see if this was a good idea.</p>
 </div>
@@ -374,6 +372,7 @@ ggplot(abv.vs.mean[Abv &lt; 20], aes(x = Abv, y = MeanOverall)) +
   labs(title = &quot;Rating as Function of ABV (Beers with than 20% ABV)&quot;,
        x = &quot;ABV Content&quot;,
        y = &quot;Mean Overall Rating&quot;)</code></pre>
+<pre><code>## `geom_smooth()` using formula &#39;y ~ x&#39;</code></pre>
 <p><img src="/post/2018-01-14-hire-me-as-a-data-scientist-part-ii_files/figure-html/unnamed-chunk-11-1.png" width="672" /></p>
 <p>Surprisingly, when I ran some quick and dirty regression models (that yes, I know violate tons of assumptions) I saw that only a very small amount of variance was being explained by its ABV.
 Note that although the models were significant, the R squared values hovered around 3-5%!</p>
