@@ -1,0 +1,1218 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="David John Baker">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="I have always tried to live by the adage that if you are going to do something, you should try to do it well. For the past eight or so months at Flatiron School, what I have been doing is teaching.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/post/rstudio-instructor-certification-thoughts/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109897649-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-109897649-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="/post/rstudio-instructor-certification-thoughts/">
+
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@DavidJohnBaker">
+  <meta property="twitter:creator" content="@DavidJohnBaker">
+  
+  <meta property="og:site_name" content="David John Baker">
+  <meta property="og:url" content="/post/rstudio-instructor-certification-thoughts/">
+  <meta property="og:title" content="RStudio Instructor Certification Thoughts | David John Baker">
+  <meta property="og:description" content="I have always tried to live by the adage that if you are going to do something, you should try to do it well. For the past eight or so months at Flatiron School, what I have been doing is teaching."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
+  <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2020-05-11T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2020-05-06T12:24:50&#43;01:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/post/rstudio-instructor-certification-thoughts/"
+  },
+  "headline": "RStudio Instructor Certification Thoughts",
+  
+  "datePublished": "2020-05-11T00:00:00Z",
+  "dateModified": "2020-05-06T12:24:50+01:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "David John Baker"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "David John Baker",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "I have always tried to live by the adage that if you are going to do something, you should try to do it well. For the past eight or so months at Flatiron School, what I have been doing is teaching."
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>RStudio Instructor Certification Thoughts | David John Baker</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">David John Baker</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">David John Baker</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/experience"><span>Experience</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/post"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/teaching"><span>Teaching</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-palette" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>RStudio Instructor Certification Thoughts</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    May 6, 2020
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    16 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      
+
+
+<p>I have always tried to live by the adage that if you are going to <em>do</em> something, you should try to <em>do</em> it well.
+For the past eight or so months at <a href="www.flatironschool.com">Flatiron School</a>, what I have been <em>doing</em> is teaching.
+In fact, like many trained academics, what actually “pays the bills” at the end of the day and what you spent a sizeable amount of your time <em>doing</em> is teaching, not research (especially in the United States).</p>
+<p>You wouldn’t think that was the case if you looked at what is required of most of us with academic backgrounds.
+The emphasis with academics is often to gain subject matter expertise in something where you become the expert.
+You take classes, read really thick books, take obscure examinations, and synthesize them all in order to come up with new ideas.
+Eventually you know <em>so much</em> about something that it’s sort of assumed you’re saturated with all the information you’ve soaked up like a sponge.
+All it takes to share that information is one good squeeze and all the information comes gushing out.</p>
+<p>And we’ve all witnessed this.
+We’ve sat in a classrooms where someone who “really know their stuff” gets up in front of a group of people and the information that’s inside of them just comes out every which way and you as the student are spending most of your effort trying to put all the pieces together to make sense of what is happening rather than absorbing the material yourself.</p>
+<p>You might think to yourself, “I know this teacher really knows their stuff, why do I not just <em>get it</em>?
+What’s wrong with me?”
+Well the answer is that the skills that get you in a position of power to teach something very complex are often not the skills that make you a good teacher.</p>
+<blockquote>
+<p>The skills that get you in a position of power to teach something very complex are often not the skills that make you a good teacher!</p>
+</blockquote>
+<p>This is true in academia and over the past few months I’ve also found it’s also true in the world of data science and software engineering (and literally any other discipline in my opinion, anyone that’s taken music lessons from a fantastic player knows that their playing ability doesn’t always translate to teaching ability).</p>
+<p>But why is this the case?
+Well in my experience, a huge part of this is that academics have never really been taught how to be an effective teacher to the extent they have for research.
+Literally five years as a graduate student and only in one semester did I take a class on teaching which was mostly designed to teach professional musicians who had to teach a music theory class so they can explain what an <a href="https://en.wikipedia.org/wiki/Augmented_sixth_chord">augmented sixth chord</a> is.</p>
+<p>The rest of my education on teaching comes from being on the receiving end of teaching.
+It consisted of making a big list of things I like and don’t like that my teachers did with the latter list being much longer than the former.</p>
+<p>I know the above is a bit heavy on the autobiographical side, but I’d bet many people who are reading this can relate.<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>
+Many people find themselves in a position of having (probably wanting!) to teach, but not having nearly as many resources to help you be a great teacher as there are to be a great researcher.
+And if you’re going to teach, you should <em>do</em> it well.
+So what can you do?</p>
+<p>Well one thing that you could try to do, like anything else you want to get better at, is to get external training on becoming a better teacher.</p>
+<div id="r-studio-instructor-certification" class="section level2">
+<h2>R Studio Instructor Certification</h2>
+<p>In this post I want to reflect on my experience of completing the <a href="https://education.rstudio.com/trainers/">RStudio Instructor Certification</a> program and just think out loud regarding the process for anyone else who also finds themselves in the boat of wanting to become a better teacher (especially those working in the world of technology!), but not really knowing an efficient way to go about this.
+I’m also not the only one who has written about this, if you want to see what other’s have said check out what <a href="https://laderast.github.io/2019/11/15/my-experience-with-rstudio-instructor-training/">Ted</a>, <a href="https://arilamstein.com/blog/2019/08/20/notes-on-becoming-an-rstudio-certified-trainer/">Ari</a>, <a href="https://www.onceupondata.com/2020/04/14/teaching-rstudio/">Omayma</a> or <a href="https://tcbanalytics.com/2020/04/08/rstudio-certification-program-insights-interview-with-greg-wilson/">this interview</a> have to say.</p>
+<div class="figure">
+<img src="/img/rstudiocerttraining/trainers.png" alt="It’s Me!" />
+<p class="caption">It’s Me!</p>
+</div>
+</div>
+<div id="certification" class="section level2">
+<h2>Certification</h2>
+<p>I first heard about the RStudio instructor certification back in August from <a href="https://twitter.com/JosiahParry">Josiah Perry</a> who mentioned it to me since at the time since he knew I was doing a few workshops in around London for <a href="https://minervastatisticalconsulting.co.uk/">Minerva Statistical Consulting</a> and trying to grow that side hustle as I looked for full time employment.</p>
+<div class="figure">
+<img src="/img/rstudiocerttraining/josiah.png" alt="He Was Right" />
+<p class="caption">He Was Right</p>
+</div>
+<p>My initial reason for signing up for this course was on the RStudio website there is a <a href="https://education.rstudio.com/trainers/">big list</a> of teachers that RStudio points people to who are looking to hire a trainer.
+They note the demand for teaching R is growing fast, so why not try to get on that list to say I’m ready and willing!</p>
+<p>So how do you get on that list?
+Well it’s a multi-step process that you can read about on the <a href="https://education.rstudio.com/trainers/#info">website here</a> but the summary is that you need to…</p>
+<ul>
+<li>Sign up for the class (there’s often a bit of a waiting period)</li>
+<li>Attend an ~8 hour course via Zoom</li>
+<li>Take a 90 minute teaching exam</li>
+<li>Take a 90 minute subject area exam in the tidyverse (you can do Shiny too!)</li>
+</ul>
+<p>The course costs $500, which is pretty pricy and unfortunatly I couldn’t get my employer to cover it for reason that might soon be clear, but they do waivers if needed!</p>
+<p>But many people reading this probably knew that and instead want to read more about the experience so they know what it’s like and if it’s for them.
+So let me reflect on each step in turn.
+Some will get more attention than others.</p>
+</div>
+<div id="step-one" class="section level2">
+<h2>Step One</h2>
+<p>As for step one, I want to mention that I first reached out to <a href="https://twitter.com/gvwilson">Greg Wilson</a> about the course in August, tried to sign up for a course in December, but because life happens I was not able to attend the remote sessions that are offered until March.
+I mention this only to note that as of now, the course is quite popular and if you are interested in participating, I suggest you sign on sooner rather than later.
+This of course might be different depending on when you read this, but did want to mention it.</p>
+</div>
+<div id="step-two" class="section level2">
+<h2>Step Two</h2>
+<p>The first part of the certification requires an about eight hour course on evidence based teaching methods.
+As can be found on the slides for the course that are open sourced, <a href="https://drive.google.com/drive/folders/13ohFt3D0EJ5PDbMaWTxnHH-hwA7G0IvY">the pitch of the whole course</a> is to treat the attendees as if they were educational front line workers who need to know best practices for when you are in front of students, rather than take a more academic review of all things education research.</p>
+<p>The vast majority of the course content comes from Greg Wilson’s <a href="http://teachtogether.tech/">Teaching Tech Together</a>.
+The book is free to read online, but as a compulsive book buyer (and back in the day when I had 45 minutes on my commute I liked to sit down and read the actual book) I bought a copy to read in preparation for the course.<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>
+You don’t have to read the book to take the course, but I wanted to get most out of the course and it’s a long wait between sign-up and the course, so why not best prepare?</p>
+<p>The course is not just a rehash of the book, most of the content comes from the <a href="https://drive.google.com/drive/folders/13ohFt3D0EJ5PDbMaWTxnHH-hwA7G0IvY">slides I linked to earlier</a>. Now instead of just rehashing the course, I want to talk about <strong>some ideas</strong> I found valuable from the course to give you a taste of what you might dive deeper into if you do sign up.</p>
+<div id="learning-personas" class="section level3">
+<h3>Learning Personas</h3>
+<p>The first meaningful thing from the course came in the first lecture which was the idea of a <a href="http://teachtogether.tech/#s:process-personas">learner persona</a>.
+The main idea here is to get you to realise first and foremost that <em>you are not your students</em>.
+Writing a learner personal reminds you that you are going to teach real people who want to know real things, not just listen to how much you know.</p>
+<p>A lot of the time this is sort of done for us as teachers.
+We are assigned to teach course ABC202 with this material XYZ and can assume that students have taken pre-reqs ABC-101, 102, and maybe 104, but in the Wild West of weekend workshops, this cannot always be assumed.<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a>
+By realising you are not your students, the idea is that you are able to better scope the content of your materials and meet your learners where they are in order to give them what they want in the limited time you have with them.</p>
+</div>
+<div id="concept-maps" class="section level3">
+<h3>Concept Maps</h3>
+<p>The second thing I really liked about the course was the idea of the <a href="http://teachtogether.tech/#s:memory-concept-maps">concept map</a> to help talk about learner’s different mental models.
+The idea here is to write down your thoughts on paper in a non-linear way because the order that you think of things (for reasons of expertise discussed in the course) is not always the best way to deliver that material to people who don’t know about it.
+You subsequently learn how to take these concept maps and turn them into lesson plans.</p>
+<p>I really got a lot out of this idea and have been using them in my own work. In addition to using this for lesson plans, you can see the drafts below of what I sketched out for the <a href="https://www.youtube.com/watch?v=xkMqgWHn36w">Science of Netflix</a> event I did back in March.
+I have also started to use it for organising some of the academic papers I am still writing!</p>
+<div class="figure">
+<img src="/img/rstudiocerttraining/net1.jpg" alt="One of My Drafts" />
+<p class="caption">One of My Drafts</p>
+</div>
+<p>What I found particularly helpful about concept maps is how there is not one “true” concept map for any topic and that the configuration of the ideas in your map really is in the eye of the beholder.
+The examples in the slides that I have taken directly from the training shown below offer two views of the organisation of a library: one from the vantage point of a patron and another the director.</p>
+<p>These are two different perspectives on the same thing and you’d also imagine that these maps would differ based on two levels of expertise of a subject.
+A kid might have different bubbles and arrows compared to an eldery person explaining how a library works.</p>
+<div class="figure">
+<img src="/img/rstudiocerttraining/patron.png" alt="Patron View" />
+<p class="caption">Patron View</p>
+</div>
+<div class="figure">
+<img src="/img/rstudiocerttraining/director.png" alt="Director View" />
+<p class="caption">Director View</p>
+</div>
+<p>Of all the things in the course, concept maps are what I have thought about most in the weeks following.</p>
+<p>I’ve really spent a lot of time thinking about the idea that the metal model that you use to think about an idea does not have to be “exactly” how something does work .
+It sort of is related to Greg’s Rule of teaching Number 6 that it’s ok to <a href="http://teachtogether.tech/#the-rules">sacrifice truth for clarity</a>.</p>
+<p>This really got me thinking about all things statistics and data science education.
+For example, how does sacrificing truth for clarity come into play when I teach <em>p</em> values?
+Part of me feels like the students need to understand <em>everything</em> I know or else I am doing them a disservice and part of me knows that hitting them over the head with all that at once is not going to be an effective teaching strategy in the long run.</p>
+<p>My original draft of this had a giant detour on this, so maybe better to save this for another time…</p>
+<p>Regardless, I really feel the idea of concept maps in tandem with considering the state of a student’s mental model has been very helpful in explaining concepts to students the past month or so.</p>
+</div>
+<div id="reproducible-lesson-planning" class="section level3">
+<h3>Reproducible Lesson Planning</h3>
+<p>The third major item I want to note that I found valuable cropped up across many of the sessions and that was the idea of how to do efficient, reproducible lesson planning.
+This is something that myself and the data science team at Flatiron in London have been thinking a lot about as many of us are teaching the same materials, all with our own idiosyncrasies, and all having to reinvent the wheel in order to make a lesson.</p>
+<p>Prior to a few months ago, there were not stock lessons that any data science teacher could just grab, spend a few minutes reading, and be ready to deliver the materials.
+It was always a matter of piecing together someone else’s scraps of a lesson then gluing their pieces together with your own understanding before putting the material in front of students.</p>
+<p>In the past few months, we’ve gotten a bit better at this. For example some of our lessons are getting carved out to have everything people would want to just get up and teach it which includes:</p>
+<ul>
+<li>Observable Learning Objectives</li>
+<li>A Lesson Outline with Time Points</li>
+<li>Slides</li>
+<li>An interactive notebook with questions for various ability levels for skill differentiation</li>
+<li>List of questions for instructors to ask built into the deck that are formative in order to check for understanding</li>
+<li>An objective exit ticket at the end to check for summative understanding</li>
+<li>Lesson notes for other teachers who are picking up the lesson cold</li>
+</ul>
+<p>Though the amount of effort to make a lesson with all of this is above and beyond some of the other resources I currently use that are probably good lessons, like this one here on <a href="https://github.com/learn-co-students/linear-regression-coef-lab-london-ds">this thing</a>, you wouldn’t be able to tell from the materials alone because most of what is important about this is in my head (where it’s only of use to me at this point).
+It’ll be a bit more work to get that all cleand up and ready for someone else to use, but once that is done, I’ll probably save someone else a ton of time.</p>
+<p>The last bonus thing I wanted to mention was some lateral learning I picked up on while participating in Greg’s Zoom sessions.
+The sessions themselves were masterclasses in online teaching.
+Throughout the two days I felt engaged and that if I tuned out, my lack of presence would be noticed.
+I felt like I was part of the learning experience.</p>
+<p>I’ve really tried to emulate this in my own online classes recently.
+If you find yourself online teaching (or will in Autumn) and want suggestions that work well, check out this <a href="https://rstudio.com/resources/webinars/teaching-online-at-short-notice/">recording</a> and <a href="https://education.rstudio.com/blog/2020/03/online-teaching-qa/">follow up</a> that were posted around the time we all moved online two months ago.</p>
+<p>So all in all, I learned a ton from this course.
+Of course I’m not so naive to think that an eight hour course has totally transformed my teaching and made me a master teacher, but I have been able to use much of what I learned right away and it’s made both mine and my student’s lives easier.</p>
+</div>
+</div>
+<div id="testing" class="section level2">
+<h2>Testing</h2>
+<p>After taking the course, you are then asked to complete your two exams within three months of the course.
+Scheduling your exams was super easy and will next reflect on those experiences.</p>
+<p>The first exam you need to take is the <strong>teaching exam</strong>.
+If you have taught prior to this course and were paying attention and actively participating in the class, all that is really required of you here is to make sure you put in the time to prepare your materials well (just like a regular class).
+If you don’t have lots of experience doing this, I’d say just make sure to not have the first time you deliver your materials be at the exam…</p>
+<p>You need to prepare a 15 minute lesson that demonstrates you understand the material from the course and can apply it, then you spend the rest of your 90 minutes on unprepared material that reflects your understanding of other aspects of the course.</p>
+<p>If you’d like, you can check out some of the materials I prepared <a href="https://github.com/davidjohnbaker1/rstudio_certification_training">here</a> but don’t take that as any sort of benchmark for good or bad.
+I just feel proud of what I did create and wanted to share it with others.
+My only tip here is that whatever you decide to teach on, remember you only have 15 minutes so make sure to not be too ambitious in your materials and practice it in front of your friends a few times even if you are comfortable teaching.</p>
+<p>I know that for as much as I do teach (and perform!) I <em>still</em> get super nervous when I know there is a pass/fail competent to what I am about to do.
+Though if doing a degree in music taught me anything it’s that if you’re nervous it’s often because you actually care about what you’re doing.</p>
+<p>The <strong>tidyverse exam</strong> is separate from the teaching exam, needs to be scheduled at a separate time, and also is capped at 90 minutes.
+Of course I can’t say what is on the exam without compromising the integrity of the current test, but if you have a bit of psychometrician in you, you know that one aspect of any good test is that multiple versions of the same test should yield similar results.
+With that in mind, my big piece of advice here would just be to try an <a href="https://education.rstudio.com/blog/2020/02/instructor-certification-exams/">old version of the test</a> and see how you do in 90 minutes.</p>
+<p>The test is also totally open internet, you just can’t ask any friends for help.
+If you’re nervous about this, what I’d also say is in your practice test and actual test, just practice googling even stuff that you know.
+Even as someone that does tidyverse stuff all the time, I found that just committing myself to opening up <a href="https://r4ds.had.co.nz/">R for Data Science</a> or googling any problem I didn’t know like the back of my hand alleviated a lot of the burden of choice I know I would have in a test taking environment.
+Remember, if you’re nervous it just means that you care about it.</p>
+<p>If you didn’t do as well as you’d like to have on your homemade practice test, then just slowly start to make your way through <a href="https://r4ds.had.co.nz/">R for Data Science</a> and stay active with all things <a href="https://github.com/rfordatascience/tidytuesday">Tidy Tuesday</a> (you know you’re gonna do some ggplotting).</p>
+</div>
+<div id="whats-next" class="section level2">
+<h2>What’s Next</h2>
+<p>So with both the course and the tests under my belt, what’s next?
+Well it’s been about a month since I finished and the first thing on my plate has been trying to take all of our London materials and get it to the point so that others within Flatiron can pick up my lesson plans. I’ve also started to try to share a lot of what I have been learning with my colleagues.
+On a meta-level post, which you’ll probably see a lot more of on my Twitter feed, I don’t know exactly what is next for me in terms of education in tech, but am really hoping to apply everything that I have learned in future teaching!</p>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>I am also just dying to write anything and everything being in lockdown… so sorry if this gets rambly<a href="#fnref1" class="footnote-back">↩</a></p></li>
+<li id="fn2"><p>Though if you do teach in the world of technology/coding/data science, this is an excellent read!!<a href="#fnref2" class="footnote-back">↩</a></p></li>
+<li id="fn3"><p>Or anyone trying to get into data science<a href="#fnref3" class="footnote-back">↩</a></p></li>
+</ol>
+</div>
+
+    </div>
+
+    
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=/post/rstudio-instructor-certification-thoughts/&amp;text=RStudio%20Instructor%20Certification%20Thoughts" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=/post/rstudio-instructor-certification-thoughts/&amp;t=RStudio%20Instructor%20Certification%20Thoughts" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=RStudio%20Instructor%20Certification%20Thoughts&amp;body=/post/rstudio-instructor-certification-thoughts/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=/post/rstudio-instructor-certification-thoughts/&amp;title=RStudio%20Instructor%20Certification%20Thoughts" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=RStudio%20Instructor%20Certification%20Thoughts%20/post/rstudio-instructor-certification-thoughts/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=/post/rstudio-instructor-certification-thoughts/&amp;title=RStudio%20Instructor%20Certification%20Thoughts" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu77191bed7170c7385b69814b1296e379_610137_270x270_fill_lanczos_center_2.png" alt="David John Baker">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/">David John Baker</a></h5>
+      <h6 class="card-subtitle">Lead Instructor, Data Science</h6>
+      <p class="card-text">Music, Theory, Sciences.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:davidjohnbaker1@gmail.com" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/DavidJohnBaker" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.co.uk/citations?user=tigU2AkAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/davidjohnbaker1" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/files/DJB_long_cv_march_26_2020.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.37431be2d92d7fb0160054761ab79602.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+  <p class="powered-by">
+    
+      <a href="/privacy/">Privacy Policy</a>
+    
+    
+       &middot; 
+      <a href="/terms/">Terms</a>
+    
+  </p>
+  
+
+  <p class="powered-by">
+    © 2020 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

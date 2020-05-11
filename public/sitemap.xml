@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/post/</loc>
+    <lastmod>2020-05-06T12:24:50+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/rstudio-instructor-certification-thoughts/</loc>
+    <lastmod>2020-05-06T12:24:50+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/talk/</loc>
     <lastmod>2020-04-24T00:00:00+00:00</lastmod>
   </url>
@@ -61,11 +71,6 @@
   <url>
     <loc>/publication_types/</loc>
     <lastmod>2020-03-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2020-02-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
