@@ -54,10 +54,30 @@ Here you can find:
 * Videos of me [delivering materials](#teachingvideos)
 * Listings of [university level courses I've taught](#universitymaterials)
 
-### Examples of Data Science Teaching Materials {#datasciencelessonplans}
+### Data Science Teaching Materials {#datasciencelessonplans}
+
+#### Lesson Plans
 
 * [Complete Lesson Plan used for RStudio Teaching Certification](https://github.com/davidjohnbaker1/rstudio_certification_training)
+
+The following are examples of lesson material I wrote for Flatiron School's curriula, examples of documents I've produced to help students, and examples of lesson plans:
+
+#### Curricula Writing
+
+* [R to Python: An Overview](https://github.com/learn-co-curriculum/dsc-r-to-python-an-overview)
+* [Installing R and RStudio](https://github.com/learn-co-curriculum/dsc-installing-r)
+* [R Base-ics I](https://github.com/learn-co-curriculum/dsc-r-base-ics-1)
+* [R Base-ics II](https://github.com/learn-co-curriculum/dsc-r-base-ics-2)
+* [Introduction to the Tidyverse](https://github.com/learn-co-curriculum/dsc-intro-to-tidyverse)
+* [Introduction to ggplot2](https://github.com/learn-co-curriculum/dsc-intro-to-ggplot2)
+* [Introduction to ggplot2 Lab](https://github.com/learn-co-curriculum/dsc-intro-to-ggplot2-lab)
+
+#### Project Templates
+
 * [Project Template for Data Science Capstone](https://github.com/learn-co-students/capstone-template-london-ds)
+
+#### Lesson Materials and Plans 
+
 * [Intro to Inferential Statistics](https://github.com/learn-co-students/probability-london-ds)
 * [Central Limit Theorem](https://github.com/learn-co-students/distributions-sampling-london-ds)
 * [Hypothesis Testing](https://github.com/learn-co-students/hypothesis-testing-london-ds)
