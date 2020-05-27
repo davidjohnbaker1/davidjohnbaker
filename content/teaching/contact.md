@@ -9,7 +9,7 @@ title = "Send Me an Email!"
 subtitle = ""
 
 # Automatically link email and phone?
-autolink = true
+autolink = false
 
 # Email form provider
 #   0: Disable email form
@@ -18,4 +18,5 @@ autolink = true
 email_form = 1
 +++
 
-If you'd like to get in contact regarding hiring me for a workshop, training, or a project, please send me an email using the form below.
+If you'd like to get in contact regarding hiring me for a workshop, training, or a project, please send me an email using the form below. 
+If you don't hear back from me, please try again [and not use this form](mailto:davidjohnbaker1@gmail.com)
