@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="For the most part, Twitter is full of garbage. But I’m an optimist and a firm believer in Sturgeon’s Law so by that logic there must be some good on it.">
+  <meta name="description" content="A couple of weeks ago I attended Dr. Frank Harrell’s Regression Modeling Strategies course. I wanted to use the chance to write a short post on some of the key takeaways that I got from the course for my own sake and just keep on my practice of writing every day.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/post/looking-for-musicologists-on-twitter/">
+  <link rel="alternate" hreflang="en-us" href="/post/regression-modeling-strategies-review/">
 
   
 
@@ -251,7 +251,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="/post/looking-for-musicologists-on-twitter/">
+  <link rel="canonical" href="/post/regression-modeling-strategies-review/">
 
   
   
@@ -268,15 +268,15 @@
   <meta property="twitter:creator" content="@DavidJohnBaker">
   
   <meta property="og:site_name" content="David John Baker">
-  <meta property="og:url" content="/post/looking-for-musicologists-on-twitter/">
-  <meta property="og:title" content="Looking For Musicologists on Twitter | David John Baker">
-  <meta property="og:description" content="For the most part, Twitter is full of garbage. But I’m an optimist and a firm believer in Sturgeon’s Law so by that logic there must be some good on it."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
+  <meta property="og:url" content="/post/regression-modeling-strategies-review/">
+  <meta property="og:title" content="Regression Modeling Strategies 2020 Review | David John Baker">
+  <meta property="og:description" content="A couple of weeks ago I attended Dr. Frank Harrell’s Regression Modeling Strategies course. I wanted to use the chance to write a short post on some of the key takeaways that I got from the course for my own sake and just keep on my practice of writing every day."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
   <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2017-11-20T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2020-06-01T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2017-11-20T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2020-05-29T13:41:24&#43;01:00">
   
 
   
@@ -300,12 +300,12 @@
   "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "/post/looking-for-musicologists-on-twitter/"
+    "@id": "/post/regression-modeling-strategies-review/"
   },
-  "headline": "Looking For Musicologists on Twitter",
+  "headline": "Regression Modeling Strategies 2020 Review",
   
-  "datePublished": "2017-11-20T00:00:00Z",
-  "dateModified": "2017-11-20T00:00:00Z",
+  "datePublished": "2020-06-01T00:00:00Z",
+  "dateModified": "2020-05-29T13:41:24+01:00",
   
   "author": {
     "@type": "Person",
@@ -320,7 +320,7 @@
       "url": "/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "For the most part, Twitter is full of garbage. But I’m an optimist and a firm believer in Sturgeon’s Law so by that logic there must be some good on it."
+  "description": "A couple of weeks ago I attended Dr. Frank Harrell’s Regression Modeling Strategies course. I wanted to use the chance to write a short post on some of the key takeaways that I got from the course for my own sake and just keep on my practice of writing every day."
 }
 </script>
 
@@ -338,7 +338,7 @@
 
 
 
-  <title>Looking For Musicologists on Twitter | David John Baker</title>
+  <title>Regression Modeling Strategies 2020 Review | David John Baker</title>
 
 </head>
 
@@ -563,7 +563,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Looking For Musicologists on Twitter</h1>
+  <h1>Regression Modeling Strategies 2020 Review</h1>
 
   
 
@@ -581,8 +581,10 @@
     
     
       
+          Last updated on
+      
     
-    Nov 20, 2017
+    May 29, 2020
   </span>
   
 
@@ -591,7 +593,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    4 min read
+    8 min read
   </span>
   
 
@@ -603,7 +605,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/categories/r/">R</a></span>
+    <i class="fas fa-folder mr-1"></i><a href="/categories/review/">review</a></span>
   
 
 </div>
@@ -634,66 +636,60 @@
       
 
 
-<p>For the most part, Twitter is full of garbage.
-But I’m an optimist and a firm believer in <a href="https://en.wikipedia.org/wiki/Sturgeon%27s_law">Sturgeon’s Law</a> so by that logic there must be some good on it.
-That good is academic twitter.</p>
-<p>While this isn’t a post advocating for academic Twitter, I did want to<br />
-1. see if I could figure out how to write a post with some R code in it and
-2. share how I scraped Twitter to find active users in the Musicology and Music Theory community</p>
-<p>So here it goes…</p>
-<p>The first thing that you have to do is get some tweets.
-Luckily some packages exist in the #rstats world that can help with this.
-For this project I used the <a href="https://cran.r-project.org/web/packages/twitteR/twitteR.pdf">twitteR</a> package which lets you log into Twitter’s API via R and and search it.
-There are already some instructions on how to get started with it that you can find <a href="https://davetang.org/muse/2013/04/06/using-the-r_twitter-package/">here</a>, so I won’t go into tons of detail about setting it up.
-(Also please note you can’t just copy and paste my code verbatim since it requires credentials from <em>your</em> own Twitter account)</p>
-<p>Let’s first load the two packages we’ll need.</p>
-<pre class="r"><code>library(data.table)
-library(twitteR)</code></pre>
-<p>Next up, we need to access Twitter’s API by entering in the details from the link above.
-I find it’s easiest to copy and paste each of my keys and tokens into a nice little character string, assign those to an object, then call those objects in the last command in this block.</p>
-<pre class="r"><code>consumer_key &lt;- &#39;YOUR CONSUMER KEY HERE&#39;
-consumer_secret &lt;- &#39;COPY AND PASTE YOUR CONSUMER SECRET HERE&#39;
-access_token &lt;- &#39;THEN PUT YOUR ACCESS TOKEN HERE&#39;
-access_secret &lt;- &#39;AND YOUR ACCESS SECRET HERE&#39;
-setup_twitter_oauth(consumer_key, consumer_secret, access_token=NULL, access_secret=NULL)</code></pre>
-<p>Running that last line in the chunk should then direct you to your default browser.
-This will log you into your Twitter account and R will ask for Twitter’s permission to enter through the back door.</p>
-<p>The next bit of code won’t run the way I have it set up because Twitter doesn’t let you download tweets older than a week old.
-So if you want to play with tweets from a conference’s hashtag or some event, make sure to think ahead to download them!!</p>
-<pre class="r"><code>amsTwitter &lt;- searchTwitter(&quot;#smt2017&quot;, n = 700)
-amsTwitter &lt;- searchTwitter(&quot;#amsroc17&quot;, n = 1600)</code></pre>
-<p>This line above searches Twitter for anything matching the conference hashtags and saves the output of it in a list.
-You can also include an argument asking for a certain number of tweets, which I’ve also done.
-Luckily the twitteR package has a function that will take this list and convert it to a data frame.</p>
-<pre class="r"><code>amsTwitter.df &lt;- twListToDF(amsTwitter)
-smtTwitter.df &lt;- twListToDF(smtTwitter)</code></pre>
-<p>With these nice data frames, we’ll soon be able to join them together and count up some tweets!
-In order to do this we can take advantage of the
-<a href="https://cran.r-project.org/web/packages/data.table/vignettes/datatable-intro.html">data.table</a> package to join our two tables together.
-Of course there are other ways, but Ben over at <a href="https://gormanalysis.com/">Gorm Analytics</a> sold me on data.table this past summer and since then I have really been loving its easy syntax.</p>
-<pre class="r"><code>amsTwitter.dt &lt;- data.table(amsTwitter.df)
-smtTwitter.dt &lt;- data.table(smtTwitter.df)
-amstweets &lt;- amsTwitter.dt[, .(amsTweets = .N), by=screenName][order(-amsTweets)]
-smttweets &lt;- smtTwitter.dt[, .(smtTweets = .N), by=screenName][order(-smtTweets)]
-totalTweets &lt;- merge(smttweets,amstweets, on =&quot;screenName&quot;, all = TRUE)</code></pre>
-<p>The first thing the above code does is swap our data frames over to data.tables.
-Once they are in the data.table format, we can count up the tweets by screen name, then list them from biggest to smallest all in the same line.
-From there we merge the two together via the shared column, making sure to grab every instance in each table since not every Tweeter tweeted with both hashtags.</p>
-<p>We then need to clean up some of the NAs (which as a data.table are characters!) in our bigger dataset with R’s ifelse() function that basically works exactly like an ifelse statement would in Microsoft Excel.
-It looks over a column in your dataset, checks if a value is an NA, if it is then it gives it a 0, if not, it puts in the value that was there in the first place.
-After replacing NAs, I then make a new variable that adds together both columns then run our final line that prints out our final dataset from top to bottom.</p>
-<pre class="r"><code>totalTweets$smtTweets &lt;- ifelse(test = is.na(totalTweets$smtTweets),
-                                yes = 0,
-                                no = totalTweets$smtTweets) 
-totalTweets$amsTweets &lt;- ifelse(test = is.na(totalTweets$amsTweets),
-                                yes = 0,
-                                no = totalTweets$amsTweets) 
-
-totalTweets[, TotalTweets := smtTweets + amsTweets]
-totalTweets[order(-TotalTweets)]</code></pre>
-<p>From here it was simply a matter of using an <a href="http://www.convertcsv.com/csv-to-html.htm">online converter</a> to turn it our final table an html file and then ssh it up to our <a href="http://musiccog.lsu.edu/">Music Cognition at LSU</a> server!
-Since then I’ve also added both the 2017 <a href="https://musiccog.lsu.edu/davidjohnbaker/data/amsmt17twitterdata/AmtTwitterData.csv">AMS</a> and <a href="https://musiccog.lsu.edu/davidjohnbaker/data/amsmt17twitterdata/SmtTwitterData.csv">SMT</a> datasets that I used to generate the counts in case you want to try this for yourself.</p>
-<p>If anyone has any questions on this, please <a href="https://twitter.com/DavidJohnBaker">tweet me</a>!</p>
+<p>A couple of weeks ago I attended Dr. <a href="https://twitter.com/f2harrell">Frank Harrell’s</a> <a href="https://hbiostat.org/doc/rms/4day.html">Regression Modeling Strategies</a> course.
+I wanted to use the chance to write a short post on some of the key takeaways that I got from the course for my own sake and just keep on my practice of writing every day.</p>
+<div id="expectations-and-reality" class="section level2">
+<h2>Expectations and Reality</h2>
+<p>The course met my expectations in that it was four days of A LOT of information from Dr. Harrell’s <a href="https://link.springer.com/book/10.1007/978-3-319-19425-7">book on regression modeling</a> pitched for people who know this stuff way better than I do.</p>
+<p>I don’t have a background in (bio)statistics, epidemiology, or live and breath stats every week to the extent that I imagine most other people on the Zoom call did.
+At many times it felt like tons of the material was slipping right through my fingers and was struggling to keep up with it (first semester grad school throwback!).
+Maybe things would have been different if I was not on UK time and starting the course at 3PM and ending at 10PM (after doing some teaching in the morning), but there’s no alternative universe in which I would have been sitting on the other end and feeling comfortable with the content given what I’ve learned up until this point.</p>
+<p>That said, I learned SO MUCH from this course and spending the six hours a day soaking in this information made me realise how much I miss having research be a part of my daily life.
+In the spirit of making writing a practice and not a performance, I wanted to summarize much of what I did take away from the course for my own (and other’s) benefit.</p>
+</div>
+<div id="simulations" class="section level2">
+<h2>Simulations</h2>
+<p>My first big takeaway was that I now feel that statistical simulations were and continue to be the missing piece of my previous statistics education and teaching.</p>
+<p>If you’re not exactly sure what I mean by this, a statistical simulation (or at least what I mean when I am referring to it in this context) is when you as the analyst sort of “play God” in order to create data that behaves exactly like you want it to then see how well your methods do in finding the “Truth”.
+Of course we don’t get this luxury when doing actual research (since if we knew the Truth, we wouldn’t have to do any empirical research!) so running a simulation before we actually get any messy data will give us a much better view of how our methods will perform under different conditions.</p>
+<p>From a research perspective, doing this seems almost totally obvious to have to do before investing so much time and energy into data collection, but speaking first hand as an applied researcher who is learning much of this as they go, this was just never a part of any class I ever took.</p>
+<p>One of the reasons that this idea of running simulations resonated with me so much mostly comes from one of the hours on the second day of the class where Dr. Harrell used this technique to show how bad running automated stepwise regression can be.
+You can page through the notes <a href="http://hbiostat.org/doc/rms.pdf">here</a> in the notes for Chapter 4 but the TL;DR is that if have some sort of regression model with 8 variables– four of which actually have a true relationship with what you’re trying to predict– and you were to just rely on <a href="https://en.wikipedia.org/wiki/Akaike_information_criterion">Akaike’s Information Criterion</a> to do the work for you, you need at least ~2,000 samples in order to have your little robot select the correct set of variables only half of the time…</p>
+<p>Like much of my statistical knowledge, I feel like so much of it started as a collection of rules of thumbs such as “never, ever, ever do stepwise/automated regression models”, but it was not until I saw something like this where it began to to make sense on how to get these many thumbs that I have been collecting.</p>
+<p>I think a lot of that has to do with the fact that a simulation gives the learner some sort of causal knob to play around with and not just be told that “well if you did it a different way then this would happen, just take my word on it”.</p>
+<p>Though getting back to the stepwise regression example, this little detour was depressing as hell to know how common this is in research and how bad of a tool it actually is and how long people <a href="https://onlinelibrary.wiley.com/doi/10.1111/j.2044-8317.1992.tb00992.x">have known about it</a>.
+I want to play around with this a bit in the future to understand it better and will hopefully be blogging about it more soon.</p>
+<p>But as depressing as this was to know how misguided so many regression models have been, one thing I really did like about the course was how Dr. Harrell reiterated many times that the reason that he does this course is so other people don’t have to make the mistakes that he did.</p>
+<p>I guess the bottom line of all of this is that I really think that becoming a bit more knowledgeable about simulation data is going to be helpful both in my own research as well as as a pedagogical tool going forward.
+I think coupling it with ideas about pre-registration, it will help a lot more with thinking beforehand about what the true state of the world rather than just taking a shotgun approach to knocking down null hypotheses and calling it science.</p>
+</div>
+<div id="case-studies" class="section level2">
+<h2>Case Studies</h2>
+<p>While many of the more abstract concepts went a bit over my head as someone without formal statistics training, the next thing that I found a lot of value in were the few case studies that were used to exemplify the topics being discussed.
+Nearer the end of the week, there were a few examples taken from Regression Modeling Strategies that Dr. Harrell worked though to demonstrate many of the concepts we had been talking about in action.</p>
+<p>For example, there was an extended walk through of modeling the <code>titanic3</code> dataset.
+Now I know that many data science people reading this might groan at the thought of slugging through another tutorial on that uses the Titanic dataset, but from a pedagogical standpoint using these canonical datasets really does reduce the germane cognitive demands of a learner to take in both new techniques and all things relevant to a new dataset.</p>
+<p>Because there was <em>so much</em> new information being conveyed, if Dr. Harrell would have used anything else, I think my stats brain would have basically imploded.
+What I found particularly helpful about this walk through (and many others, which is why I think these screencasts by <a href="https://www.youtube.com/channel/UCTTBgWyJl2HrrhQOOc710kA/videos">Julia Silge</a> and <a href="https://www.youtube.com/user/safe4democracy/videos">David Robinson</a> have become so popular) is the chance to see what an analysis looks like through the eyes of an expert.</p>
+<p>Personally, I feel I learn best when trying to emulate in the presence of an expert with them gently guiding me when I go off course.
+This might come from my background as a musician, but I personally can’t think of anything more powerful from a pedagogical standpoint than one-on-one pedagogy (For more reading I remember seeing some refereneces to this in <a href="http://teachtogether.tech/#">Teaching Tech Together</a> both <a href="http://teachtogether.tech/#ref-Coll1991">here</a> and <a href="http://teachtogether.tech/#ref-Casp2007">here</a>)), but of course this doesn’t scale well.</p>
+<p>What’s the answer then?</p>
+<p>Well, I think a bit part of it is trying to give learners access to that stream-of-consciousness leading to final product thought-process so that the learner can build up whatever temporary scaffolding they need to figure out how and why an expert made the choice they did.</p>
+<p>Reflecting on the course three weeks out, returning to these case studies is the first thing that I will want to do when I do have more time to look at this because everything was so tangible and thus much more memorable.
+I will be keeping that in mind for my future teaching.</p>
+</div>
+<div id="random" class="section level2">
+<h2>Random</h2>
+<p>There were other many other gems that I also took away from the course that didn’t make it under the main umbrellas here like justification for using multiple imputation methods for missing data (answer: don’t throw away valuable data you already collected!!), not assuming that your model is always going to be a straight line and thinking about using splines (when does that <em>ever</em> happen in nature), and a whole lot of other stuff.</p>
+<p>So hopefully going forward I will be able to start hacking away at all this, this coming summer with my own projects.</p>
+<p>The last thought I wanted to end on regarding things I took away from the course (so I can also come back to and know that I actually did feel this) was more of a lateral learning moment in hearing many times that the goals with a lot of the statistical modeling that I do, there is way less on the line than what others have to deal with.</p>
+<p>There arn’t millions of dollars of government money on experiments I design and I’m very glad that degree of ischemia is not the dependent variable I need to model in a clinical trial.
+Relative to this kind of work, there’s no reason for me to get as stressed about many of my modeling choices in my goofy reaction time studies where I am looking at recreating a <a href="https://en.wikipedia.org/wiki/Psychology#WEIRD_bias">WEIRD</a> subject’s implicit understanding of Western tonal music via some sort of behavioral paradigm.
+Yes, I might get it wrong, but if you can’t be wrong, you’re really not doing science.</p>
+<p>So wrapping up, I really took a lot from this course despite the fact that I felt very out of my depth most of the time.
+The course made me really realise how much I missed learning at this rate and made me long for being able to do more research rather than teach more.
+I have a feeling that will be more reality than I think in the future, but I guess only time will tell on that front!</p>
+</div>
 
     </div>
 
@@ -702,16 +698,6 @@ Since then I’ve also added both the 2017 <a href="https://musiccog.lsu.edu/dav
 
 
 
-
-<div class="article-tags">
-  
-  <a class="badge badge-light" href="/tags/twitter/">Twitter</a>
-  
-  <a class="badge badge-light" href="/tags/r/">R</a>
-  
-  <a class="badge badge-light" href="/tags/data-mining/">Data Mining</a>
-  
-</div>
 
 
 
@@ -726,7 +712,7 @@ Since then I’ve also added both the 2017 <a href="https://musiccog.lsu.edu/dav
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/post/looking-for-musicologists-on-twitter/&amp;text=Looking%20For%20Musicologists%20on%20Twitter" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/post/regression-modeling-strategies-review/&amp;text=Regression%20Modeling%20Strategies%202020%20Review" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -739,7 +725,7 @@ Since then I’ve also added both the 2017 <a href="https://musiccog.lsu.edu/dav
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/post/looking-for-musicologists-on-twitter/&amp;t=Looking%20For%20Musicologists%20on%20Twitter" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/post/regression-modeling-strategies-review/&amp;t=Regression%20Modeling%20Strategies%202020%20Review" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -752,7 +738,7 @@ Since then I’ve also added both the 2017 <a href="https://musiccog.lsu.edu/dav
       
       
       <li>
-        <a href="mailto:?subject=Looking%20For%20Musicologists%20on%20Twitter&amp;body=/post/looking-for-musicologists-on-twitter/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Regression%20Modeling%20Strategies%202020%20Review&amp;body=/post/regression-modeling-strategies-review/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -765,7 +751,7 @@ Since then I’ve also added both the 2017 <a href="https://musiccog.lsu.edu/dav
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/post/looking-for-musicologists-on-twitter/&amp;title=Looking%20For%20Musicologists%20on%20Twitter" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/post/regression-modeling-strategies-review/&amp;title=Regression%20Modeling%20Strategies%202020%20Review" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -778,7 +764,7 @@ Since then I’ve also added both the 2017 <a href="https://musiccog.lsu.edu/dav
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Looking%20For%20Musicologists%20on%20Twitter%20/post/looking-for-musicologists-on-twitter/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Regression%20Modeling%20Strategies%202020%20Review%20/post/regression-modeling-strategies-review/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -791,7 +777,7 @@ Since then I’ve also added both the 2017 <a href="https://musiccog.lsu.edu/dav
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/post/looking-for-musicologists-on-twitter/&amp;title=Looking%20For%20Musicologists%20on%20Twitter" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/post/regression-modeling-strategies-review/&amp;title=Regression%20Modeling%20Strategies%202020%20Review" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -932,21 +918,6 @@ Since then I’ve also added both the 2017 <a href="https://musiccog.lsu.edu/dav
 
 
   
-  
-  <div class="article-widget content-widget-hr">
-    <h3>Related</h3>
-    <ul>
-      
-      <li><a href="/post/calculating-imultisets-in-r/">Calculating iMultisets in R</a></li>
-      
-      <li><a href="/my-projects/cognition/">Advanced R Markdown</a></li>
-      
-      <li><a href="/my-projects/mmd/">Advanced R Markdown</a></li>
-      
-      <li><a href="/my-projects/brainwaves/">brainwaves</a></li>
-      
-    </ul>
-  </div>
   
 
 
