@@ -103,6 +103,10 @@ R, RStudio, and Tidyverse for Pythonistas
 
 {{<youtube OLbBwr6yono>}}
 
+Clustering Algorithms Crash Course 
+
+{{<youtube EKTVTfAXVIo>}}
+
 ### University Course Listings {#universitymaterials}
 
 * **Foundations of Music Study**
