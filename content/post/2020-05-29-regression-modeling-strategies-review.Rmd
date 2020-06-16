@@ -24,7 +24,7 @@ I wanted to use the chance to write a short post on some of the key takeaways th
 
 The course met my expectations in that it was four days of A LOT of information from Dr. Harrell's [book on regression modeling](https://link.springer.com/book/10.1007/978-3-319-19425-7) pitched for people who know this stuff way better than I do.
 
-I don’t have a background in (bio)statistics, epidemiology, or live and breath stats every week to the extent that I imagine most other people on the Zoom call did. 
+I don’t have a background in (bio)statistics, epidemiology, or live and breathe stats every week to the extent that I imagine most other people on the Zoom call did. 
 At many times it felt like tons of the material was slipping right through my fingers and was struggling to keep up with it (first semester grad school throwback!).
 Maybe things would have been different if I was not on UK time and starting the course at 3PM and ending at 10PM (after doing some teaching in the morning), but there’s no alternative universe in which I would have been sitting on the other end and feeling comfortable with the content given what I’ve learned up until this point. 
 
@@ -45,7 +45,7 @@ You can page through the notes [here](http://hbiostat.org/doc/rms.pdf) in the no
 
 Like much of my statistical knowledge, I feel like so much of it started as a collection of rules of thumbs such as “never, ever, ever do stepwise/automated regression models”, but it was not until I saw something like this where it began to to make sense on how to get these many thumbs that I have been collecting. 
 
-I think a lot of that has to do with the fact that a simulation gives the learner some sort of causal knob to play around with and not just be told that “well if you did it a different way then this would happen, just take my word on it”. 
+I think a lot of that has to do with the fact that a simulation gives the learner some sort of causal dial to play around with and not just be told that “well if you did it a different way then this would happen, just take my word on it”. 
 
 Though getting back to the stepwise regression example, this little detour was depressing as hell to know how common this  is in research and how bad of a tool it actually is and how long people [have known about it](https://onlinelibrary.wiley.com/doi/10.1111/j.2044-8317.1992.tb00992.x).
 I want to play around with this a bit in the future to understand it better and will hopefully be blogging about it more soon.
