@@ -5,7 +5,7 @@
     <link>/post/</link>
       <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Blog</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Mon, 29 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Tue, 30 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Blog</title>
@@ -13,83 +13,9 @@
     </image>
     
     <item>
-      <title>Begin the Fugue, Part I</title>
-      <link>/post/begin-the-fugue-part-i/</link>
-      <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/post/begin-the-fugue-part-i/</guid>
-      <description>
-
-
-&lt;p&gt;The past few months have been pretty exhausting.
-On top of all things lockdown and the global pandemic, a little over a month ago I was told that my job was “at risk” of redundancy.
-After going through the full collective consultation period, today is my last official day working as an employee of Flatiron School.
-While this has been a bit of a shock, I’ve been thinking about my time at Flatiron these past few weeks and as my first prelude comes to its final &lt;a href=&#34;https://en.wikipedia.org/wiki/Cadence#:~:text=In%20a%20perfect%20authentic%20cadence,found%20at%20structurally%20defining%20moments.&#34;&gt;PAC&lt;/a&gt; and brace for the subsequent fugue&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;, I always find that writing about what is on my mind really helps me see the bigger picture.&lt;/p&gt;
-&lt;p&gt;Looking over everything I did mull over, it’s quite long so I’ve broken it up into three parts:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;What Did I Just Do?: A prosaic setting of my resume&lt;/li&gt;
-&lt;li&gt;Vocationtional Vicissitudes: My thoughts on why vocationalism versus the liberal arts helps me understand higher education&lt;/li&gt;
-&lt;li&gt;My Dream AD (Applicant’s Description): Things I Might Want to do Next with My Job&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;As always, thanks for caring about me and reading my blog posts.&lt;/p&gt;
-&lt;div id=&#34;what-did-i-just-do&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;What Did I Just Do?&lt;/h2&gt;
-&lt;p&gt;For the past nine months I have been a Lead Instructor of Data Science at the London campus of the Flatiron School.
-During my time there, I’ve led four different cohorts of students through an intensive fifteen week program where students with not much experience in coding or statistics or machine learning immerse themselves in order to learn as much as they possibly can from their instructors, the written curricula, as well as their peers.&lt;/p&gt;
-&lt;p&gt;The bootcamp approach to learning is extremely different from that of traditional, liberal arts, higher-ed and while it can get a bad reputation for not being as exhaustive as spending four years doing something (duh), there are many things that bootcamps really excel at such as having so many learners concentrated into one space, all at about the same level of understanding, with near constant access to instructors to help guide a herd of overly eager learners.&lt;/p&gt;
-&lt;p&gt;At Flatiron School, I was mainly responsible for delivering material for the first two modules they took which were “Python for Data Science” and “Probability and Statistics” and was supported by a team of four wonderful people.&lt;/p&gt;
-&lt;p&gt;Many of us are now also on the job market now and if you are reading this and want to pick up the scraps of a fantastic team, go add these people on LinkedIn. All you have to do is click the links below. They’re all fantastic educators and even better data scientists.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/wachirandaiga/&#34;&gt;Wachira Ndagia&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/danielsanzbecerril/&#34;&gt;Dan Sanz Becerril&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/javier-f-s/&#34;&gt;Javi Fernandez Suarez&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/ioanapr/&#34;&gt;Ioana P&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I also lectured a bit on other topics that I personally like a lot such as clustering, principal components analysis, and was always the one to give my obligatory Introduction to R and the Tidyverse workshop. We taught mostly Python, so I wouldn’t have been able to sleep at night without introducing them to R.&lt;/p&gt;
-&lt;p&gt;As of today, we’ve graduated a sizeable batch of students and have placed many of them in jobs.&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;
-We’re not at 100% yet like our &lt;a href=&#34;https://hi.flatironschool.com/rs/072-UWY-209/images/Flatiron%20School%20Jobs%20Report.pdf?_ga=2.75036818.1013998130.1593420746-1423311562.1570117877&#34;&gt;Software Engineering program was able to do&lt;/a&gt;, but I get messages from students when they eventually get jobs and it’s always the best part of my day.
-Our students have gone on to work from companies ranging from start-ups, to educational programs like Flatiron School, to more high visibility brands like Nielson and the Bank of England.&lt;/p&gt;
-&lt;p&gt;In addition to all things teaching, I also got my first taste of being part of senior management, so I got to be on the hiring side of things for once.
-I now understand what people mean when they say &lt;a href=&#34;https://jobs.telegraph.co.uk/article/does-your-cv-pass-the-30-second-test-/#:~:text=Research%20shows%20that%20most%20employers,CV%20was%20just%206.25%20seconds.&#34;&gt;people will only look at your resume less than a minute&lt;/a&gt;.
-Being on the other side of the interviewing power-dynamic was surprisingly one of the most valuable experiences I will remember going forward.
-I’ve also felt how the volatility of a business’ performance directly affects one’s work since our parent company was WeWork.
-There were definitely ups and downs.&lt;/p&gt;
-&lt;p&gt;Near the end of my time, I also got to help out with a bit of the curriculum development (I got to write some of the R materials for our graduate’s continuing education) that you can check out on the newly minted &lt;a href=&#34;https://davidjohnbaker.rbind.io/teaching/&#34;&gt;Teaching&lt;/a&gt; section of my website.&lt;/p&gt;
-&lt;p&gt;It was a lot of work a lot of the time (especially at the start of the role and then again when we had to jump online) and it was 180 degrees in the direction of what I was doing before (writing my dissertation alone in my flat).
-And although it wasn’t what I thought I would be doing straight after my PhD, I learned a ton from the work and found many aspects of the job very enjoyable.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;the-good&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;The Good&lt;/h2&gt;
-&lt;p&gt;By far, the best part of the job was working with the bootcamp students.
-This group of students was by far the most engaged collective of learners I have ever worked with.
-To contextualise this, prior to teaching data science at Flatiron, the students from the two areas subjects in higher education I had experience with were both music theory and aural skills (a subset of music notorious for having undergraduates historically question the content area’s utility) as well as statistics for doctoral level psychologists (where a majority of the class was clinical psychologists who, for good reason, question both the quantification, reficication, and reductionism of quantitative methods).&lt;/p&gt;
-&lt;p&gt;In contrast to undergraduate music majors and clinical psychologists&lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;, none of the students at Flatiron were in my classes because they were “required to for graduation” and instead most of them had quit their jobs hoping to change the entire trajectory of their career.
-You fork out a lot of cash to do programs like this and that’s not something they took lightly as students and thus it was not something we took lightly as instructors.&lt;/p&gt;
-&lt;p&gt;As a result of this large time and financial investment, the students would absolutely rinse myself and the other instructors for questions every day to the point that by 6:00PM I was totally exhausted from so much face-to-face work.
-This constant engaging with instructors and asking as many questions as possible is actually one of the big appeals of this kind of flavor of bootcamp; there are not many other educational settings where students have so much direct access to instructors and peers who are all on the same page.&lt;/p&gt;
-&lt;p&gt;While we did our best to set boundaries with students it was hard not to engage with people who were so eager to learn.
-The real trick that I eventually learned was to try to get the students to essentially bootstrap each other’s learning and move away from the sage-on-the-stage approach and move over towards as much group and active learning as possible.
-I learned a lot about giving up control in the classroom and what you get when you start to acknowledge the fact that when you have adult learners, they bring with them far more life experience than those fresh out of school.&lt;/p&gt;
-&lt;p&gt;As a result of all this rapid learning, the last major thing that I loved about this job was getting to see so many students grow so quickly during their time as a bootcamp student.
-Of course it’s true that you’re never going to learn everything in a bootcamp, but these environments are designed to get someone from near zero to competence so they can get in their own self-directed learning feedback loops where they can start critically thinking rather than adopting a pumping them full of knowledge approach.&lt;/p&gt;
-&lt;p&gt;Now teaching in a bootcamp setting was not like anything I had taught in before.
-The goal wasn’t to teach people this history of science or competing philosophies of science throughout the 20th century (though I did weave a lot of that in my lectures, not gonna lie); it was straight up about getting people the tools they need to get a job.&lt;/p&gt;
-&lt;p&gt;For this reason, I’ve now spent a lot of time thinking about the idea of vocationalism versus liberal arts education which I elaborate on in &lt;a href=&#34;https://davidjohnbaker.rbind.io/post/begin-the-fugue-part-ii/&#34;&gt;Part II&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;footnotes&#34;&gt;
-&lt;hr /&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;In keeping with the metaphor I used when I wrote about joining Flatiron&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;I don’t want to go into the numbers I keep here since that probably counts as sensative information to post publicly, but the students are doing well. We’ll have to wait for our next third part audit for the official numbers.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;Obviously there were some in each group that were really into each class, I don’t mean to portray this as apathy&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Begin the Fugue, Part II</title>
       <link>/post/begin-the-fugue-part-ii/</link>
-      <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
       <guid>/post/begin-the-fugue-part-ii/</guid>
       <description>
 
@@ -101,16 +27,21 @@ When the goal of the teaching is unabashedly “be useful in a neoliberal vocati
 &lt;p&gt;I want to be very clear that I do not think that this approach should be the default goal of education (even though that is the new constant pressure), but now having experienced living in this bizarro world where success is defined solely by employment I now have a lot more opinions about the “value/values” demarcation in education.
 In many ways, I very much agree with many goals of Flatiron in that there is a huge hole in the way things are set up now for vocational job training that doesn’t fit the traditional guild/apprentice model (electrician, plumber) and there should be more opportunities for people to accomplish this if they want.
 This is especially true if it will lead to a marked difference in quality of life when it comes to their income.
-It makes me very happy to have worked for a company that has allocated &lt;a href=&#34;https://flatironschool.com/access/&#34;&gt;scholarship money for those that are underrepresented in tech&lt;/a&gt; and to have been able to pass on those opportunities to people I know personally.&lt;/p&gt;
+No one told me that working in tech can lead to such and it’s especially wrong for that field to have been dominated by white men for so long.
+This &lt;a href=&#34;https://insights.stackoverflow.com/survey/2020&#34;&gt;absurdly large differences in income&lt;/a&gt; has been benefiting people (white dudes) in tech for a long time, and opening it up to others via education is imporant.
+t makes me very happy to have worked for a company that has made this a priority and has allocated &lt;a href=&#34;https://flatironschool.com/access/&#34;&gt;scholarship money for those that are underrepresented in tech&lt;/a&gt; and to have been able to pass on those opportunities to people I know personally.&lt;/p&gt;
 &lt;p&gt;Of course the idealist in me would go so far as to try to steer the next part of this conversation away from idea of social mobility (why don’t we just pay people all more than living wages and avoid classist ideas that value white collar above blue collar work) but the realist in me knows that this structure is entrenched in Western society right now so if there is a way to open the door to making more money and better quality of life for people through work, then people who can open that door need to open it as wide as humanly possible.&lt;/p&gt;
-&lt;p&gt;Reflecting on the vocational versus liberal arts really has me thinking about that and what the future of what higher education will be.
+&lt;/div&gt;
+&lt;div id=&#34;emulating-ideas-from-vocational-education&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Emulating Ideas from Vocational Education&lt;/h2&gt;
+&lt;p&gt;Reflecting on the vocational versus liberal arts really has me thinking about that and what the future of what higher education could be.
 Many of my academic colleagues know the pressure of being asked to demonstrate “transferable skills” in their curricula.
 Students rightly want to be able to make a living for themselves when they graduate.&lt;/p&gt;
 &lt;p&gt;But if we just follow the job market and placements as our only metric for success, I feel as though we really betray the entire goal of education.
 &lt;a href=&#34;https://en.wikipedia.org/wiki/Bullshit_Jobs&#34;&gt;If you do think that, you need to get yourself a copy of David Graeber’s Bullshit Jobs immedietly&lt;/a&gt;.
 Now I don’t want to fall prey to Rule Number 2 of grad school (“Be on the lookout for false dichotomies”) thinking we can’t have both, but as more pressure is put on higher education to use employment as a &lt;a href=&#34;https://www.google.com/search?q=kpi&amp;amp;oq=kpi&amp;amp;aqs=chrome..69i57j0l6j46.664j0j4&amp;amp;sourceid=chrome&amp;amp;ie=UTF-8&#34;&gt;KPI&lt;/a&gt; (a new term I learned this year) there is a lot higher ed can and should take from the vocational/bootcamp model.
 If so much can be accomplished in so little time that can lead to better chances at employment, I am sure there is time during a four year undergraduate degree to equip them with what they need for employment (if they want to do this) that is not just a few resume review sessions.&lt;/p&gt;
-&lt;p&gt;I know this might not be as big of a deal for some of my STEM colleagues or students, but I do think about what this would look like if there was some sort of vocational option for music students.
+&lt;p&gt;I know this might not be as big of a deal for some of my STEM colleagues or students, but I do think about what this would look like if there was some sort of vocational option for music students (my home field).
 The irony is also not lost on me that when I talk about music students, I understand the historical links to a music conservatory, which again is all about going on to “work” as a professional musician (having lived that life myself).
 But the reality that every one of my conservatory friends found post-graduation is that it is really, really hard to have a “normal life” as a performing musician.
 You can gig a lot and do a fair bit of teaching, but you often find that many of your colleagues are bank rolled by their wealthy spouses or parents.
@@ -118,11 +49,11 @@ And on top of that, the hours don’t align with the “working day” (which I 
 Or you can go on tour and basically give up your “normal life”.&lt;/p&gt;
 &lt;p&gt;If you do this, you can be in the position to make a living, but it’s not exactly normal.
 I know things are a bit different for Music Ed, but I’m more thinking about the many jobs that people with really fantastic music educations could do, but either don’t know exist or have zero job preparation to get themselves that role.
-For example, the graduate student in musicology who has their finger on the pulse of the fantastic ideas in academic music study now, but would never have anything in their curricula about putting theory into practice at something like an arts organisation.&lt;/p&gt;
+For example, the graduate student in musicology who has their finger on the pulse of the fantastic ideas going around academic circles, but would never have anything in their curricula about putting theory into practice at something like an arts organisation.&lt;/p&gt;
 &lt;p&gt;I could easily imagine what a summer intensive might look like for music students (especially grad students) looking to pick up the skills they would need to go alt.
 I am sure there are tons of major orchestras or larger arts organizations that would benefit tremendously from music students who are like what I just described, but lack the mental model as to what power tools they need to be effective.
 Just learning basic data literacy, enough programming to wrangle data and make convincing visualizations for the board, and tools for thinking to not make rookie inferential mistakes could all be learned in a setting like this.
-Of course how I am thinking about it takes much more of a quant focus than what would traditionally not be offered in a music school setting, but that’s kind of the point in that you’d be able to do both.
+Of course how I am thinking about it takes much more of a quant focus than what would traditionally be offered in a music school setting, but that’s kind of the point in that you’d be able to do both.
 I can’t emphasize enough how much computer and research/data literacy (not even mastery) can add value to your organization when you couple it with the pre-existing expertise you have of your domain.&lt;/p&gt;
 &lt;p&gt;I am sure a small group of students who just wanted to learn these in-demand vocational skills over the summer or an alt-semester, they’d be ripe and ready by the end of it to go on and help arts organizations or work somewhere else.
 Maybe even set it up to lead to internships or something?
@@ -134,7 +65,7 @@ I will definitely be re-doing many parts of my teaching statement after the past
 &lt;p&gt;I won’t be able to implement these zany ideas anytime soon, but I did want to put them out there now since I think this push for vocational skills within the liberal arts will only become stronger as funding continues to drop for higher education and students withdraw from enrolling until they can go back on campus.&lt;/p&gt;
 &lt;p&gt;I’ll just end this section again here with repeating that I do not think that this emphasis on jobs should be the new standard for higher ed, but rather stealing ideas from the bootcamp model, annexing it as something separate for students who are interested, and then actually pulling this idea that liberal arts degrees need to be about employability out of the curricula so we can focus on deeper issues than just getting jobs.&lt;/p&gt;
 &lt;p&gt;Now knowing I won’t be doing this next, what might I be?&lt;/p&gt;
-&lt;p&gt;This takes me to &lt;a href=&#34;https://davidjohnbaker.rbind.io/post/begin-the-future-part-iii&#34;&gt;Part III of this series&lt;/a&gt; of me having a lot of time to think the past month, but no ability whatsoever to concentrate on my professional research.&lt;/p&gt;
+&lt;p&gt;This takes me to &lt;a href=&#34;https://davidjohnbaker.rbind.io/post/begin-the-future-part-iii/&#34;&gt;Part III of this series&lt;/a&gt; of me having a lot of time to think the past month, but no ability whatsoever to concentrate on my professional research.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;footnotes&#34;&gt;
 &lt;hr /&gt;
@@ -148,7 +79,7 @@ I will definitely be re-doing many parts of my teaching statement after the past
     <item>
       <title>Begin the Fugue, Part III</title>
       <link>/post/begin-the-fugue-part-iii/</link>
-      <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
       <guid>/post/begin-the-fugue-part-iii/</guid>
       <description>
 
@@ -206,6 +137,80 @@ I’m cleared to work both in the United Kingdom and the United States.&lt;/p&gt
 &lt;ol&gt;
 &lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;This is ironic for people who are not on the internet as much as I am.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;I love teaching too, don’t get me wrong, but I’m hoping my pendulum swings a bit more near towards the research side next.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Begin the Fugue, Part I</title>
+      <link>/post/begin-the-fugue-part-i/</link>
+      <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/post/begin-the-fugue-part-i/</guid>
+      <description>
+
+
+&lt;p&gt;The past few months have been pretty exhausting.
+On top of all things lockdown and the global pandemic, a little over a month ago I was told that my job was “at risk” of redundancy.
+After going through the full collective consultation period, today is my last official day working as an employee of Flatiron School.
+While this has been a bit of a shock, I’ve been thinking about my time at Flatiron these past few weeks and as my first prelude comes to its final &lt;a href=&#34;https://en.wikipedia.org/wiki/Cadence#:~:text=In%20a%20perfect%20authentic%20cadence,found%20at%20structurally%20defining%20moments.&#34;&gt;PAC&lt;/a&gt; and brace for the subsequent fugue&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;, I always find that writing about what is on my mind really helps me see the bigger picture.&lt;/p&gt;
+&lt;p&gt;Looking over everything I did mull over, it’s quite long so I’ve broken it up into three parts:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What Did I Just Do?: A prosaic setting of my resume&lt;/li&gt;
+&lt;li&gt;Vocationtional Vicissitudes: My thoughts on why vocationalism versus the liberal arts helps me understand higher education&lt;/li&gt;
+&lt;li&gt;My Dream AD (Applicant’s Description): Things I Might Want to do Next with My Job&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As always, thanks for caring about me and reading my blog posts.&lt;/p&gt;
+&lt;div id=&#34;what-did-i-just-do&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;What Did I Just Do?&lt;/h2&gt;
+&lt;p&gt;For the past nine months I have been a Lead Instructor of Data Science at the London campus of the Flatiron School.
+During my time there, I’ve led four different cohorts of students through an intensive fifteen week program where students with not much experience in coding or statistics or machine learning immerse themselves in order to learn as much as they possibly can from their instructors, the written curricula, as well as their peers.&lt;/p&gt;
+&lt;p&gt;The bootcamp approach to learning is extremely different from that of traditional, liberal arts, higher-ed and while it can get a bad reputation for not being as exhaustive as spending four years doing something (duh), there are many things that bootcamps really excel at such as having so many learners concentrated into one space, all at about the same level of understanding, with near constant access to instructors to help guide a herd of overly eager learners.&lt;/p&gt;
+&lt;p&gt;At Flatiron School, I was mainly responsible for delivering material for the first two modules they took which were “Python for Data Science” and “Probability and Statistics” and was supported by a team of four wonderful people.&lt;/p&gt;
+&lt;p&gt;Many of us are now also on the job market now and if you are reading this and want to pick up the scraps of a fantastic team, go add these people on LinkedIn. All you have to do is click the links below. They’re all fantastic educators and even better data scientists.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/wachirandaiga/&#34;&gt;Wachira Ndagia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/danielsanzbecerril/&#34;&gt;Dan Sanz Becerril&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/javier-f-s/&#34;&gt;Javi Fernandez Suarez&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/ioanapr/&#34;&gt;Ioana P&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I also lectured a bit on other topics that I personally like a lot such as clustering, principal components analysis, and was always the one to give my obligatory Introduction to R and the Tidyverse workshop. We taught mostly Python, so I wouldn’t have been able to sleep at night without introducing them to R.&lt;/p&gt;
+&lt;p&gt;As of today, we’ve graduated a sizeable batch of students and have placed many of them in jobs.&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;
+We’re not at 100% yet like our &lt;a href=&#34;https://hi.flatironschool.com/rs/072-UWY-209/images/Flatiron%20School%20Jobs%20Report.pdf?_ga=2.75036818.1013998130.1593420746-1423311562.1570117877&#34;&gt;Software Engineering program was able to do&lt;/a&gt;, but I get messages from students when they eventually get jobs and it’s always the best part of my day.
+Our students have gone on to work from companies ranging from start-ups, to educational programs like Flatiron School, to more high visibility brands like Nielsen and the Bank of England.&lt;/p&gt;
+&lt;p&gt;In addition to all things teaching, I also got my first taste of being part of senior management, so I got to be on the hiring side of things for once.
+I now understand what people mean when they say &lt;a href=&#34;https://jobs.telegraph.co.uk/article/does-your-cv-pass-the-30-second-test-/#:~:text=Research%20shows%20that%20most%20employers,CV%20was%20just%206.25%20seconds.&#34;&gt;people will only look at your resume less than a minute&lt;/a&gt;.
+Being on the other side of the interviewing power-dynamic was surprisingly one of the most valuable experiences I will remember going forward.
+I’ve also felt how the volatility of a business’ performance directly affects one’s work since our parent company was WeWork.
+There were definitely ups and downs.&lt;/p&gt;
+&lt;p&gt;Near the end of my time, I also got to help out with a bit of the curriculum development (I got to write some of the R materials for our graduate’s continuing education) that you can check out on the newly minted &lt;a href=&#34;https://davidjohnbaker.rbind.io/teaching/&#34;&gt;Teaching&lt;/a&gt; section of my website.&lt;/p&gt;
+&lt;p&gt;It was a lot of work a lot of the time (especially at the start of the role and then again when we had to jump online) and it was 180 degrees in the direction of what I was doing before (writing my dissertation alone in my flat).
+And although it wasn’t what I thought I would be doing straight after my PhD, I learned a ton from the work and found many aspects of the job very enjoyable.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;the-good&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;The Good&lt;/h2&gt;
+&lt;p&gt;By far, the best part of the job was working with the bootcamp students.
+This group of students was by far the most engaged collective of learners I have ever worked with.
+To contextualise this, prior to teaching data science at Flatiron, the students from the two areas subjects in higher education I had experience with were both music theory and aural skills (a subset of music notorious for having undergraduates historically question the content area’s utility) as well as statistics for doctoral level psychologists (where a majority of the class was clinical psychologists who, for good reason, question both the quantification, reficication, and reductionism of quantitative methods).&lt;/p&gt;
+&lt;p&gt;In contrast to undergraduate music majors and clinical psychologists&lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;, none of the students at Flatiron were in my classes because they were “required to for graduation” and instead most of them had quit their jobs hoping to change the entire trajectory of their career.
+You fork out a lot of cash to do programs like this and that’s not something they took lightly as students and thus it was not something we took lightly as instructors.&lt;/p&gt;
+&lt;p&gt;As a result of this large time and financial investment, the students would absolutely rinse myself and the other instructors for questions every day to the point that by 6:00PM I was totally exhausted from so much face-to-face work.
+This constant engaging with instructors and asking as many questions as possible is actually one of the big appeals of this kind of flavor of bootcamp; there are not many other educational settings where students have so much direct access to instructors and peers who are all on the same page.&lt;/p&gt;
+&lt;p&gt;While we did our best to set boundaries with students it was hard not to engage with people who were so eager to learn.
+The real trick that I eventually learned was to try to get the students to essentially bootstrap each other’s learning and move away from the sage-on-the-stage approach and move over towards as much group and active learning as possible.
+I learned a lot about giving up control in the classroom and what you get when you start to acknowledge the fact that when you have adult learners, they bring with them far more life experience than those fresh out of school.&lt;/p&gt;
+&lt;p&gt;As a result of all this rapid learning, the last major thing that I loved about this job was getting to see so many students grow so quickly during their time as a bootcamp student.
+Of course it’s true that you’re never going to learn everything in a bootcamp, but these environments are designed to get someone from near zero to competence so they can get in their own self-directed learning feedback loops where they can start critically thinking rather than adopting a pumping them full of knowledge approach.&lt;/p&gt;
+&lt;p&gt;Now teaching in a bootcamp setting was not like anything I had taught in before.
+The goal wasn’t to teach people this history of science or competing philosophies of science throughout the 20th century (though I did weave a lot of that in my lectures, not gonna lie); it was straight up about getting people the tools they need to get a job.&lt;/p&gt;
+&lt;p&gt;For this reason, I’ve now spent a lot of time thinking about the idea of vocationalism versus liberal arts education which I elaborate on in &lt;a href=&#34;https://davidjohnbaker.rbind.io/post/begin-the-fugue-part-ii/&#34;&gt;Part II&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;In keeping with the metaphor I used when I wrote about joining Flatiron&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;I don’t want to go into the numbers I keep here since that probably counts as sensative information to post publicly, but the students are doing well. We’ll have to wait for our next third part audit for the official numbers.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;Obviously there were some in each group that were really into each class, I don’t mean to portray this as apathy&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>

@@ -50,7 +50,7 @@ I also lectured a bit on other topics that I personally like a lot such as clust
 
 As of today, we’ve graduated a sizeable batch of students and have placed many of them in jobs.^[I don't want to go into the numbers I keep here since that probably counts as sensative information to post publicly, but the students are doing well. We'll have to wait for our next third part audit for the official numbers.] 
 We're not at 100% yet like our [Software Engineering program was able to do](https://hi.flatironschool.com/rs/072-UWY-209/images/Flatiron%20School%20Jobs%20Report.pdf?_ga=2.75036818.1013998130.1593420746-1423311562.1570117877), but I get messages from students when they eventually get jobs and it’s always the best part of my day.
-Our students have gone on to work from companies ranging from start-ups, to educational programs like Flatiron School, to more high visibility brands like Nielson and the Bank of England.
+Our students have gone on to work from companies ranging from start-ups, to educational programs like Flatiron School, to more high visibility brands like Nielsen and the Bank of England.
 
 In addition to all things teaching, I also got my first taste of being part of senior management, so I got to be on the hiring side of things for once.
 I now understand what people mean when they say [people will only look at your resume less than a minute](https://jobs.telegraph.co.uk/article/does-your-cv-pass-the-30-second-test-/#:~:text=Research%20shows%20that%20most%20employers,CV%20was%20just%206.25%20seconds.).
