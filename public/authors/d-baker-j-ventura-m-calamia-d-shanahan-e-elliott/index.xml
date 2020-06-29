@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>D Baker, J Ventura, M Calamia, D Shanahan, E Elliott | David John Baker</title>
-    <link>/authors/d-baker-j-ventura-m-calamia-d-shanahan-e-elliott/</link>
-      <atom:link href="/authors/d-baker-j-ventura-m-calamia-d-shanahan-e-elliott/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://davidjohnbaker.rbind.io/authors/d-baker-j-ventura-m-calamia-d-shanahan-e-elliott/</link>
+      <atom:link href="https://davidjohnbaker.rbind.io/authors/d-baker-j-ventura-m-calamia-d-shanahan-e-elliott/index.xml" rel="self" type="application/rss+xml" />
     <description>D Baker, J Ventura, M Calamia, D Shanahan, E Elliott</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Thu, 11 Oct 2018 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>D Baker, J Ventura, M Calamia, D Shanahan, E Elliott</title>
-      <link>/authors/d-baker-j-ventura-m-calamia-d-shanahan-e-elliott/</link>
+      <link>https://davidjohnbaker.rbind.io/authors/d-baker-j-ventura-m-calamia-d-shanahan-e-elliott/</link>
     </image>
     
     <item>
       <title>Examining Musical Sophistication: A replication and theoretical commentary of the Goldsmiths Musical Sophistication Index</title>
-      <link>/publication/gmsi-replication-2018/</link>
+      <link>https://davidjohnbaker.rbind.io/publication/gmsi-replication-2018/</link>
       <pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/gmsi-replication-2018/</guid>
+      <guid>https://davidjohnbaker.rbind.io/publication/gmsi-replication-2018/</guid>
       <description></description>
     </item>
     

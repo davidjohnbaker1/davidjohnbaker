@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>David John Baker</title>
-    <link>/authors/admin/</link>
-      <atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://davidjohnbaker.rbind.io/authors/admin/</link>
+      <atom:link href="https://davidjohnbaker.rbind.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     <description>David John Baker</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>David John Baker</title>
-      <link>/authors/admin/</link>
+      <link>https://davidjohnbaker.rbind.io/authors/admin/</link>
     </image>
     
   </channel>

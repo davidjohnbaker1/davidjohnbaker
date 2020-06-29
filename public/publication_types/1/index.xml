@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1 | David John Baker</title>
-    <link>/publication_types/1/</link>
-      <atom:link href="/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://davidjohnbaker.rbind.io/publication_types/1/</link>
+      <atom:link href="https://davidjohnbaker.rbind.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Mon, 01 Aug 2016 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>1</title>
-      <link>/publication_types/1/</link>
+      <link>https://davidjohnbaker.rbind.io/publication_types/1/</link>
     </image>
     
     <item>
       <title>Matching Music to Brand Personality: A Semantic Differential Tool for Measuring Emotional Space</title>
-      <link>/publication/matching-music-to-brand/</link>
+      <link>https://davidjohnbaker.rbind.io/publication/matching-music-to-brand/</link>
       <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
-      <guid>/publication/matching-music-to-brand/</guid>
+      <guid>https://davidjohnbaker.rbind.io/publication/matching-music-to-brand/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Music, animacy, and rubato: what makes music sound human?</title>
-      <link>/publication/animacy-proceedings/</link>
+      <link>https://davidjohnbaker.rbind.io/publication/animacy-proceedings/</link>
       <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
-      <guid>/publication/animacy-proceedings/</guid>
+      <guid>https://davidjohnbaker.rbind.io/publication/animacy-proceedings/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Role of Idiomaticism and Affordances in Bebop Improvisation</title>
-      <link>/publication/bebop-proceedings/</link>
+      <link>https://davidjohnbaker.rbind.io/publication/bebop-proceedings/</link>
       <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
-      <guid>/publication/bebop-proceedings/</guid>
+      <guid>https://davidjohnbaker.rbind.io/publication/bebop-proceedings/</guid>
       <description></description>
     </item>
     

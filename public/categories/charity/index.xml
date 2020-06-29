@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>charity | David John Baker</title>
-    <link>/categories/charity/</link>
-      <atom:link href="/categories/charity/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://davidjohnbaker.rbind.io/categories/charity/</link>
+      <atom:link href="https://davidjohnbaker.rbind.io/categories/charity/index.xml" rel="self" type="application/rss+xml" />
     <description>charity</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Tue, 18 Jun 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>charity</title>
-      <link>/categories/charity/</link>
+      <link>https://davidjohnbaker.rbind.io/categories/charity/</link>
     </image>
     
     <item>
       <title>Thank You, Toynbee</title>
-      <link>/post/thank-you-toynbee/</link>
+      <link>https://davidjohnbaker.rbind.io/post/thank-you-toynbee/</link>
       <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>/post/thank-you-toynbee/</guid>
+      <guid>https://davidjohnbaker.rbind.io/post/thank-you-toynbee/</guid>
       <description>
 
 
@@ -54,10 +54,10 @@ Doing this, I really started to get some light bulb moment about the &lt;a href=
 I wanted to show off all the machine learning I had been reading about in order to show of the power of these tools.
 But in my first few exchanges of what I would go off and analyze and then share with others, I quickly found that my time and skills were much better spent making a lot of simple visualizations of our survey data (like the plot below) in order to help facilitate the start of conversations about the larger projects.
 The data analysis I was doing really meant nothing unless I could directly point to why a finding was important to a team of very intelligent people, but without a background in statistics.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/img/thank-you-toynbee/age_typology.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/img/thank-you-toynbee/age_typology.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;This process also rid me of any delusions of making models that had overly predictive accuracy.
 My job was to be critical researcher who used data, not a data shaman that created impressive predictive accuracy.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/img/thank-you-toynbee/saver_typology.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/img/thank-you-toynbee/saver_typology.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;In thinking about this, I also realized that there is not much you can do as the “numbers guy” when someone hands you a dataset you had no hand in designing.
 Unlike academic research where you pretty much have an idea of all the variables you’re collecting in a cross-sectional study, working here you’re often just given a dataset with a potpourri of variables and asked to finding meaning and value.&lt;/p&gt;
 &lt;p&gt;I should mention that when someone does just hand you a dataset with variables another person came up with, the job here is not to be “well you should have done XYZ”; you have to do your best to extract as much meaning and value from the dataset as you can, then actively advocate for the best quantitative data practices that the team can eventually adopt so that future team members will not run into the same dead-ends.&lt;/p&gt;
@@ -179,9 +179,9 @@ helps others in a truly meaningful way.&lt;/p&gt;
     
     <item>
       <title>Toynbee Hall Datathon</title>
-      <link>/post/toynbee-hall-datathon/</link>
+      <link>https://davidjohnbaker.rbind.io/post/toynbee-hall-datathon/</link>
       <pubDate>Tue, 23 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>/post/toynbee-hall-datathon/</guid>
+      <guid>https://davidjohnbaker.rbind.io/post/toynbee-hall-datathon/</guid>
       <description>
 
 

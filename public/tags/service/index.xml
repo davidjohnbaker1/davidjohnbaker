@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>service | David John Baker</title>
-    <link>/tags/service/</link>
-      <atom:link href="/tags/service/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://davidjohnbaker.rbind.io/tags/service/</link>
+      <atom:link href="https://davidjohnbaker.rbind.io/tags/service/index.xml" rel="self" type="application/rss+xml" />
     <description>service</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Wed, 09 Oct 2019 08:38:28 -0700</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>service</title>
-      <link>/tags/service/</link>
+      <link>https://davidjohnbaker.rbind.io/tags/service/</link>
     </image>
     
     <item>
       <title>Public Musicology</title>
-      <link>/my-projects/public/</link>
+      <link>https://davidjohnbaker.rbind.io/my-projects/public/</link>
       <pubDate>Wed, 09 Oct 2019 08:38:28 -0700</pubDate>
-      <guid>/my-projects/public/</guid>
+      <guid>https://davidjohnbaker.rbind.io/my-projects/public/</guid>
       <description>&lt;p&gt;In addition to all the academic and professional things that you &lt;em&gt;should&lt;/em&gt; do as an early career academic, I also am really interested in finding ways to communicate what I do to audiences beyond the Ivory Tower.
 A lot of this comes in the form of tweets and blogs, but here are some other projects I have collaborated on that I am particularly proud of.&lt;/p&gt;
 &lt;h2 id=&#34;the-science-of-netflix&#34;&gt;The Science of Netflix&lt;/h2&gt;
@@ -44,9 +44,9 @@ A lot of this comes in the form of tweets and blogs, but here are some other pro
     
     <item>
       <title>Service</title>
-      <link>/my-projects/service/</link>
+      <link>https://davidjohnbaker.rbind.io/my-projects/service/</link>
       <pubDate>Wed, 09 Oct 2019 08:38:28 -0700</pubDate>
-      <guid>/my-projects/service/</guid>
+      <guid>https://davidjohnbaker.rbind.io/my-projects/service/</guid>
       <description>&lt;h3 id=&#34;smpc-student-representative&#34;&gt;SMPC Student Representative&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Things I did there&lt;/li&gt;

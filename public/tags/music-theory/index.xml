@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Music Theory | David John Baker</title>
-    <link>/tags/music-theory/</link>
-      <atom:link href="/tags/music-theory/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://davidjohnbaker.rbind.io/tags/music-theory/</link>
+      <atom:link href="https://davidjohnbaker.rbind.io/tags/music-theory/index.xml" rel="self" type="application/rss+xml" />
     <description>Music Theory</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Sun, 19 Nov 2017 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Music Theory</title>
-      <link>/tags/music-theory/</link>
+      <link>https://davidjohnbaker.rbind.io/tags/music-theory/</link>
     </image>
     
     <item>
       <title>Calculating iMultisets in R</title>
-      <link>/post/calculating-imultisets-in-r/</link>
+      <link>https://davidjohnbaker.rbind.io/post/calculating-imultisets-in-r/</link>
       <pubDate>Sun, 19 Nov 2017 00:00:00 +0000</pubDate>
-      <guid>/post/calculating-imultisets-in-r/</guid>
+      <guid>https://davidjohnbaker.rbind.io/post/calculating-imultisets-in-r/</guid>
       <description>
 
 
@@ -25,7 +25,7 @@ There are too many deadlines and if you’re still in coursework (like myself) y
 So if you can save time here or there, it’s usually a good choice.&lt;/p&gt;
 &lt;p&gt;This weekend I was working a homework assignment for my Transformational Theory seminar where we were given a number of pairs of pitch class sets and had to calculate the imultiset for each following Joseph Straus’ 2014 article on &lt;a href=&#34;http://www.mtosmt.org/issues/mto.14.20.2/mto.14.20.2.straus.html&#34;&gt;Total Voice Leading&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;As I looked at the top of the assignment (pictured below) and started to crank out the first one by hand, I realized that the next 30 minutes of my life were going to be doing the same thing over and over again.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/img/calculating-imultisets/imultiset.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/img/calculating-imultisets/imultiset.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Usually if I get that feeling my next thought is “Can I make a computer do this?” and after thinking about it for two minutes I realized the answer was yes.&lt;/p&gt;
 &lt;p&gt;So instead of doing all of these by hand, I wrote an R script and with the time saved figured I’d write a quick post about it.&lt;/p&gt;
 &lt;div id=&#34;the-problem&#34; class=&#34;section level2&#34;&gt;
@@ -37,7 +37,7 @@ These four numbers in the {curly braces} are what you get when you subtract each
 This action then needs to be completed for every pair.&lt;/p&gt;
 &lt;p&gt;When you need to account for every pairing you need to do a &lt;a href=&#34;https://www.w3resource.com/sql/joins/cross-join.php&#34;&gt;cross join&lt;/a&gt;. A cross join connects each member of one set to each member of another set.
 This creates the sets of pairs seen below.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/img/calculating-imultisets/imultisetcj.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/img/calculating-imultisets/imultisetcj.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Then all you need to do is subtract one from the other to get the distance.
 The only problem is that these subtractions need to happen in Mod 12 space so in any case where you are subtracting a bigger number from a smaller number you will get a negative result!
 This is easily fixed by just adding 12 to that number in order to get what we &lt;em&gt;should&lt;/em&gt; have been our answer if we were doing Mod 12 arithmetic.&lt;/p&gt;

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R | David John Baker</title>
-    <link>/tags/r/</link>
-      <atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://davidjohnbaker.rbind.io/tags/r/</link>
+      <atom:link href="https://davidjohnbaker.rbind.io/tags/r/index.xml" rel="self" type="application/rss+xml" />
     <description>R</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Thu, 28 Mar 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>R</title>
-      <link>/tags/r/</link>
+      <link>https://davidjohnbaker.rbind.io/tags/r/</link>
     </image>
     
     <item>
       <title>Hire Me (as a Data Scientist!), Part IV</title>
-      <link>/post/hire-me-as-a-data-scientist-part-iv/</link>
+      <link>https://davidjohnbaker.rbind.io/post/hire-me-as-a-data-scientist-part-iv/</link>
       <pubDate>Mon, 29 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>/post/hire-me-as-a-data-scientist-part-iv/</guid>
+      <guid>https://davidjohnbaker.rbind.io/post/hire-me-as-a-data-scientist-part-iv/</guid>
       <description>
 
 
@@ -80,7 +80,7 @@ most part it looks as if they are relatively well contained.&lt;/p&gt;
   geom_errorbar(aes(ymin=mean_appearance-sem_appearance, ymax=mean_appearance+sem_appearance), width=.1) +
   geom_errorbarh(aes(xmin=mean_aroma-sem_aroma, xmax=mean_aroma+sem_aroma)) + theme(legend.position=&amp;quot;none&amp;quot;) +
   labs(title = &amp;quot;Mean Appearance and Aroma&amp;quot;, y = &amp;quot;Mean Aroma&amp;quot;, x = &amp;quot;Mean Appearance&amp;quot;) &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2018-01-29-hire-me-as-a-data-scientist-part-iv_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/post/2018-01-29-hire-me-as-a-data-scientist-part-iv_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;This graph has a lot of beers, but what we are interested in is that top right quadrant where both
 the average appearance and aroma are maxed out.
 Let’s zoom in on it and throw in a sizing variable of the overall rating and inspect our graph.&lt;/p&gt;
@@ -91,7 +91,7 @@ Let’s zoom in on it and throw in a sizing variable of the overall rating and i
 #  geom_errorbarh(aes(xmin=mean_aroma-sem_aroma, xmax=mean_aroma+sem_aroma)) + theme(legend.position=&amp;quot;none&amp;quot;) +
   labs(title = &amp;quot;Mean Appearance and Aroma&amp;quot;, y = &amp;quot;Mean Aroma&amp;quot;, x = &amp;quot;Mean Appearance&amp;quot;) + 
   geom_text(aes(label=beer_style, hjust = .5, vjust = -.75)) &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2018-01-29-hire-me-as-a-data-scientist-part-iv_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/post/2018-01-29-hire-me-as-a-data-scientist-part-iv_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Looking at this subsection, it appears we have a few choices for beers that score highly on
 both Appearance and Aroma.
 The American Double / Imperial Stout looks like a good option as it scores higher on how it
@@ -115,9 +115,9 @@ their team.&lt;/p&gt;
     
     <item>
       <title>Hire Me (as a Data Scientist!), Part III</title>
-      <link>/post/hire-me-as-a-datascientist-part-iii/</link>
+      <link>https://davidjohnbaker.rbind.io/post/hire-me-as-a-datascientist-part-iii/</link>
       <pubDate>Sun, 28 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>/post/hire-me-as-a-datascientist-part-iii/</guid>
+      <guid>https://davidjohnbaker.rbind.io/post/hire-me-as-a-datascientist-part-iii/</guid>
       <description>
 
 
@@ -193,7 +193,7 @@ The second variable, &lt;code&gt;IncNodePurity&lt;/code&gt; gives us a measure o
 Here Taste again leads in terms of importance, but our Palate variable seems to be close behind.
 We see this visually below.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;varImpPlot(random.forrest.fit, main = &amp;quot;Variable Importance Metrics&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2018-01-28-hire-me-as-a-datascientist-part-iii_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/post/2018-01-28-hire-me-as-a-datascientist-part-iii_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;The result that Taste seems to be taking the cake here is to be expected.
 Using some of the more basic tools of statistics and data science, we can look at the correlation between our taste variable and our overall, and it’s quite high.
 Actually looking at our average ratings, all of the correlations are really high!&lt;/p&gt;
@@ -234,9 +234,9 @@ Variables like these would allow us to learn more about the beers since they wou
     
     <item>
       <title>Hire Me (as a Data Scientist!), Part II</title>
-      <link>/post/hire-me-as-a-data-scientist-part-ii/</link>
+      <link>https://davidjohnbaker.rbind.io/post/hire-me-as-a-data-scientist-part-ii/</link>
       <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>/post/hire-me-as-a-data-scientist-part-ii/</guid>
+      <guid>https://davidjohnbaker.rbind.io/post/hire-me-as-a-data-scientist-part-ii/</guid>
       <description>
 
 
@@ -290,7 +290,7 @@ review.counts &lt;/code&gt;&lt;/pre&gt;
      breaks = 200,
      xlab = &amp;quot;Number of Reviews&amp;quot;,
      main = &amp;quot;Distribution of Reviews Per User&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2018-01-14-hire-me-as-a-data-scientist-part-ii_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/post/2018-01-14-hire-me-as-a-data-scientist-part-ii_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;This is pretty important when it comes to modeling the data (discussed in Part III), and not being fully aware of where your ratings are coming from could put the quality of your models at serious risk.&lt;/p&gt;
 &lt;p&gt;So looking at this dataset, I wondered if there were any sort of implicit assumptions I could make about this data that might be able to help me find a good beer.
 One assumption that I didn’t think was too wild was that a sample of this population that had gone out of its way to rate over 500 beers was probably more of a beer expert than those who have only done a couple of reviews on the site.&lt;/p&gt;
@@ -362,7 +362,7 @@ hist(super.reviews.popular$most_reviewed_beers,
      main = &amp;quot;Distribution of Number of Ratings by Super Users&amp;quot;,
      xlab = &amp;quot;Number of Reviews each Beer Recieves&amp;quot;,
      breaks = 200)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2018-01-14-hire-me-as-a-data-scientist-part-ii_files/figure-html/unnamed-chunk-6-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/post/2018-01-14-hire-me-as-a-data-scientist-part-ii_files/figure-html/unnamed-chunk-6-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Again I saw this was clearly &lt;strong&gt;not&lt;/strong&gt; anything resembling a repeated measures experiment and not all beers were rated equally.&lt;/p&gt;
 &lt;p&gt;Continuing in the same fashion above, I just grabbed the top 100 beers of our super users and merged that on to our table from earlier that had all of the ratings from our super users.
 Then from that table, I took the average of the overall rating and looked at our top ten beers.&lt;/p&gt;
@@ -604,7 +604,7 @@ ggplot(abv.vs.mean[Abv &amp;lt; 20], aes(x = Abv, y = MeanOverall)) +
        x = &amp;quot;ABV Content&amp;quot;,
        y = &amp;quot;Mean Overall Rating&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## `geom_smooth()` using formula &amp;#39;y ~ x&amp;#39;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2018-01-14-hire-me-as-a-data-scientist-part-ii_files/figure-html/unnamed-chunk-11-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/post/2018-01-14-hire-me-as-a-data-scientist-part-ii_files/figure-html/unnamed-chunk-11-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Surprisingly, when I ran some quick and dirty regression models (that yes, I know violate tons of assumptions) I saw that only a very small amount of variance was being explained by its ABV.
 Note that although the models were significant, the R squared values hovered around 3-5%!&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# &amp;quot;The More Booze The Better&amp;quot; Model
@@ -672,7 +672,7 @@ ggplot(dd.beers.2, aes(x = abv, y = mean_overall, label = beer_name_unique, colo
        y = &amp;quot;Mean Overall Rating&amp;quot;) + theme(legend.position = &amp;quot;none&amp;quot;) +
   xlim(0, 20) +
   scale_y_continuous(breaks = c(seq(4.6,5,.1)), limits = c(4.6,4.85))&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2018-01-14-hire-me-as-a-data-scientist-part-ii_files/figure-html/unnamed-chunk-13-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/post/2018-01-14-hire-me-as-a-data-scientist-part-ii_files/figure-html/unnamed-chunk-13-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;These are all OK choices (most of the beers are still above 5% ABV), but we do have one beer clocking in at 2.0% ABV giving us our final beer recommendation – the &lt;a href=&#34;https://www.beeradvocate.com/beer/profile/1628/8626/&#34;&gt;Southampton Publick House Southampton Berliner Weisse Berliner Weissbier&lt;/a&gt;!&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;summary&#34; class=&#34;section level2&#34;&gt;
@@ -685,9 +685,9 @@ ggplot(dd.beers.2, aes(x = abv, y = mean_overall, label = beer_name_unique, colo
     
     <item>
       <title>Hire Me (as a Data Scientist!), Part I</title>
-      <link>/post/hire-me-as-a-data-scientist-part-i/</link>
+      <link>https://davidjohnbaker.rbind.io/post/hire-me-as-a-data-scientist-part-i/</link>
       <pubDate>Sat, 13 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>/post/hire-me-as-a-data-scientist-part-i/</guid>
+      <guid>https://davidjohnbaker.rbind.io/post/hire-me-as-a-data-scientist-part-i/</guid>
       <description>
 
 
@@ -903,7 +903,7 @@ abv.table[, zAvgABV := scale(AvgABV)]&lt;/code&gt;&lt;/pre&gt;
 hist(NoOfBeers$N, breaks= 200, 
      main = &amp;quot;Distribution of Size of Breweries&amp;quot;, 
      xlab = &amp;quot;Number of Beers Produced by a Brewery&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2018-01-14-hire-me-as-a-data-scientist-part-i_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/post/2018-01-14-hire-me-as-a-data-scientist-part-i_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;NoOfBeers[N &amp;gt; 200] # Clearly some big breweries here! &lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;##                        brewery_name   N
 ## 1:    Minneapolis Town Hall Brewery 243
@@ -938,7 +938,7 @@ hist(NoOfBeers$N, breaks= 200,
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;hist(abv.table[N &amp;gt;= 5, ][order(-AvgABV)]$zAvgABV,
      xlab = &amp;quot;z Score of ABV&amp;quot;, 
      main = &amp;quot;Distribution of ABV in Breweries that make more than 5 Beers&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2018-01-14-hire-me-as-a-data-scientist-part-i_files/figure-html/unnamed-chunk-7-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/post/2018-01-14-hire-me-as-a-data-scientist-part-i_files/figure-html/unnamed-chunk-7-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;abv.table[N &amp;gt;= 5 &amp;amp; zAvgABV &amp;gt; 4, ][order(-AvgABV)]&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;##                                           brewery_name   N   AvgABV     SdABV
 ## 1:                                        Schorschbräu  10 19.22882 12.327304
@@ -961,7 +961,7 @@ ggplot(schor.abv, aes(x = beer_name, y = beer_abv)) +
   geom_bar(stat = &amp;quot;identity&amp;quot;)  + 
   labs( title = &amp;quot;Schorschbräu Beer ABV&amp;quot;, x = &amp;quot;Beer Name&amp;quot;, y = &amp;quot;ABV&amp;quot;) +
    theme(axis.text.x=element_text(angle = -90, hjust = 0)) &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2018-01-14-hire-me-as-a-data-scientist-part-i_files/figure-html/unnamed-chunk-8-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/post/2018-01-14-hire-me-as-a-data-scientist-part-i_files/figure-html/unnamed-chunk-8-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;brassOrg.abv &amp;lt;- beer.complete[brewery_name == &amp;quot;Brasserie Grain d&amp;#39; Orge (Brasserie Jeanne d&amp;#39;Arc SA)&amp;quot;, 
                               .(beer_name = unique(beer_name)), by = beer_abv]
 
@@ -971,7 +971,7 @@ ggplot(brassOrg.abv, aes(x = beer_name, y = beer_abv)) +
         x = &amp;quot;Beer Name&amp;quot;, 
         y = &amp;quot;ABV&amp;quot;) +
    theme(axis.text.x=element_text(angle = -90, hjust = 0)) + ylim(0, 60) &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2018-01-14-hire-me-as-a-data-scientist-part-i_files/figure-html/unnamed-chunk-8-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/post/2018-01-14-hire-me-as-a-data-scientist-part-i_files/figure-html/unnamed-chunk-8-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;I think that saying Schorschbräu is technically correct here, but after sharing my findings with my one beer drinking friend
 he pointed out that one thing that this analysis did not take into account was that beers
 that are traditionally brewed to have a higher ABV (like IPAs and Belgiums) might skew my results.
@@ -998,7 +998,7 @@ ordered.abv.by.type$beer_style &amp;lt;- factor(ordered.abv.by.type$beer_style, 
 #       y = &amp;quot;Mean ABV, bars represent SD&amp;quot;) +
 #  geom_errorbar(aes(ymin=MeanAbvType-SdAbvType, ymax=MeanAbvType+SdAbvType)) +
 #  theme_bw()&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/img/abvtemp.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/img/abvtemp.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;So you can see here that if you wanted to have a higher ABV on average for your brewery, you’d benefit from having more IPAs, Barley Wines, and Belgian Stouts.&lt;/p&gt;
 &lt;p&gt;Now with average ABV for each beer, let’s then match that to our big list, find how each beer fairs against its own category, sort them, and then combine them with our information from before on how big the brewery is.
 For the purposes of this example, let’s only look at breweries that have over 100 beers in the database and look the top 20.&lt;/p&gt;
@@ -1049,9 +1049,9 @@ It appears that on average &lt;a href=&#34;https://www.beeradvocate.com/beer/pro
     
     <item>
       <title>Looking For Musicologists on Twitter</title>
-      <link>/post/looking-for-musicologists-on-twitter/</link>
+      <link>https://davidjohnbaker.rbind.io/post/looking-for-musicologists-on-twitter/</link>
       <pubDate>Mon, 20 Nov 2017 00:00:00 +0000</pubDate>
-      <guid>/post/looking-for-musicologists-on-twitter/</guid>
+      <guid>https://davidjohnbaker.rbind.io/post/looking-for-musicologists-on-twitter/</guid>
       <description>
 
 
@@ -1120,9 +1120,9 @@ Since then I’ve also added both the 2017 &lt;a href=&#34;https://musiccog.lsu.
     
     <item>
       <title>Calculating iMultisets in R</title>
-      <link>/post/calculating-imultisets-in-r/</link>
+      <link>https://davidjohnbaker.rbind.io/post/calculating-imultisets-in-r/</link>
       <pubDate>Sun, 19 Nov 2017 00:00:00 +0000</pubDate>
-      <guid>/post/calculating-imultisets-in-r/</guid>
+      <guid>https://davidjohnbaker.rbind.io/post/calculating-imultisets-in-r/</guid>
       <description>
 
 
@@ -1131,7 +1131,7 @@ There are too many deadlines and if you’re still in coursework (like myself) y
 So if you can save time here or there, it’s usually a good choice.&lt;/p&gt;
 &lt;p&gt;This weekend I was working a homework assignment for my Transformational Theory seminar where we were given a number of pairs of pitch class sets and had to calculate the imultiset for each following Joseph Straus’ 2014 article on &lt;a href=&#34;http://www.mtosmt.org/issues/mto.14.20.2/mto.14.20.2.straus.html&#34;&gt;Total Voice Leading&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;As I looked at the top of the assignment (pictured below) and started to crank out the first one by hand, I realized that the next 30 minutes of my life were going to be doing the same thing over and over again.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/img/calculating-imultisets/imultiset.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/img/calculating-imultisets/imultiset.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Usually if I get that feeling my next thought is “Can I make a computer do this?” and after thinking about it for two minutes I realized the answer was yes.&lt;/p&gt;
 &lt;p&gt;So instead of doing all of these by hand, I wrote an R script and with the time saved figured I’d write a quick post about it.&lt;/p&gt;
 &lt;div id=&#34;the-problem&#34; class=&#34;section level2&#34;&gt;
@@ -1143,7 +1143,7 @@ These four numbers in the {curly braces} are what you get when you subtract each
 This action then needs to be completed for every pair.&lt;/p&gt;
 &lt;p&gt;When you need to account for every pairing you need to do a &lt;a href=&#34;https://www.w3resource.com/sql/joins/cross-join.php&#34;&gt;cross join&lt;/a&gt;. A cross join connects each member of one set to each member of another set.
 This creates the sets of pairs seen below.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/img/calculating-imultisets/imultisetcj.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/img/calculating-imultisets/imultisetcj.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Then all you need to do is subtract one from the other to get the distance.
 The only problem is that these subtractions need to happen in Mod 12 space so in any case where you are subtracting a bigger number from a smaller number you will get a negative result!
 This is easily fixed by just adding 12 to that number in order to get what we &lt;em&gt;should&lt;/em&gt; have been our answer if we were doing Mod 12 arithmetic.&lt;/p&gt;
@@ -1204,9 +1204,9 @@ Example$mod12&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Advanced R Markdown</title>
-      <link>/my-projects/cognition/</link>
+      <link>https://davidjohnbaker.rbind.io/my-projects/cognition/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/my-projects/cognition/</guid>
+      <guid>https://davidjohnbaker.rbind.io/my-projects/cognition/</guid>
       <description>&lt;p&gt;This two-day workshop is designed for those who want to take their R Markdown skills to the next level. We’ll talk about many low-level details in the rmarkdown package and the whole R Markdown ecosystem. The two goals of this workshop are: 1) learn how to fully customize R Markdown output (HTML, LaTeX/PDF, Word, and PowerPoint); and 2) learn more about existing R Markdown extensions in the ecosystem, such as flexdashboard, bookdown, blogdown, pkgdown, xaringan, rticles, and learnr. We will also talk about how to use or develop new language engines (languages that are not R), how to develop HTML widgets, and integrate Shiny with R Markdown.&lt;/p&gt;
 &lt;p&gt;See the workshop website for more, and links to individual slides below.&lt;/p&gt;
 &lt;ul&gt;
@@ -1249,9 +1249,9 @@ Example$mod12&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Advanced R Markdown</title>
-      <link>/my-projects/mmd/</link>
+      <link>https://davidjohnbaker.rbind.io/my-projects/mmd/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/my-projects/mmd/</guid>
+      <guid>https://davidjohnbaker.rbind.io/my-projects/mmd/</guid>
       <description>&lt;p&gt;This two-day workshop is designed for those who want to take their R Markdown skills to the next level. We’ll talk about many low-level details in the rmarkdown package and the whole R Markdown ecosystem. The two goals of this workshop are: 1) learn how to fully customize R Markdown output (HTML, LaTeX/PDF, Word, and PowerPoint); and 2) learn more about existing R Markdown extensions in the ecosystem, such as flexdashboard, bookdown, blogdown, pkgdown, xaringan, rticles, and learnr. We will also talk about how to use or develop new language engines (languages that are not R), how to develop HTML widgets, and integrate Shiny with R Markdown.&lt;/p&gt;
 &lt;p&gt;See the workshop website for more, and links to individual slides below.&lt;/p&gt;
 </description>
@@ -1259,9 +1259,9 @@ Example$mod12&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>brainwaves</title>
-      <link>/my-projects/brainwaves/</link>
+      <link>https://davidjohnbaker.rbind.io/my-projects/brainwaves/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/my-projects/brainwaves/</guid>
+      <guid>https://davidjohnbaker.rbind.io/my-projects/brainwaves/</guid>
       <description>&lt;p&gt;Description Here.&lt;/p&gt;
 </description>
     </item>
