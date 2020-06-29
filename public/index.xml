@@ -2,21 +2,225 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>David John Baker</title>
-    <link>https://davidjohnbaker.rbind.io/</link>
-      <atom:link href="https://davidjohnbaker.rbind.io/index.xml" rel="self" type="application/rss+xml" />
+    <link>/</link>
+      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>David John Baker</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>David John Baker</title>
-      <link>https://davidjohnbaker.rbind.io/</link>
+      <link>/</link>
     </image>
     
     <item>
+      <title>Begin the Fugue, Part II</title>
+      <link>/post/begin-the-fugue-part-ii/</link>
+      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/post/begin-the-fugue-part-ii/</guid>
+      <description>
+
+
+&lt;div id=&#34;vocationtional-vicissitudes&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Vocationtional Vicissitudes&lt;/h2&gt;
+&lt;p&gt;After existing in this bootcamp space for the past few months, I feel like I am walking away with a very fresh take on what it means to teach in a vocational, rather than a liberal arts setting.
+When the goal of the teaching is unabashedly “be useful in a neoliberal vocation” context, there’s a lot less theory (of course something I personally wasn’t the biggest fan of for hopefully obvious reasons) and much more honesty about what this specific type of student wanted out of their education: new opportunities for employment.&lt;/p&gt;
+&lt;p&gt;I want to be very clear that I do not think that this approach should be the default goal of education (even though that is the new constant pressure), but now having experienced living in this bizarro world where success is defined solely by employment I now have a lot more opinions about the “value/values” demarcation in education.
+In many ways, I very much agree with many goals of Flatiron in that there is a huge hole in the way things are set up now for vocational job training that doesn’t fit the traditional guild/apprentice model (electrician, plumber) and there should be more opportunities for people to accomplish this if they want.
+This is especially true if it will lead to a marked difference in quality of life when it comes to their income.
+No one told me that working in tech can lead to such and it’s especially wrong for that field to have been dominated by white men for so long.
+This &lt;a href=&#34;https://insights.stackoverflow.com/survey/2020&#34;&gt;absurdly large differences in income&lt;/a&gt; has been benefiting people (white dudes) in tech for a long time, and opening it up to others via education is imporant.
+t makes me very happy to have worked for a company that has made this a priority and has allocated &lt;a href=&#34;https://flatironschool.com/access/&#34;&gt;scholarship money for those that are underrepresented in tech&lt;/a&gt; and to have been able to pass on those opportunities to people I know personally.&lt;/p&gt;
+&lt;p&gt;Of course the idealist in me would go so far as to try to steer the next part of this conversation away from idea of social mobility (why don’t we just pay people all more than living wages and avoid classist ideas that value white collar above blue collar work) but the realist in me knows that this structure is entrenched in Western society right now so if there is a way to open the door to making more money and better quality of life for people through work, then people who can open that door need to open it as wide as humanly possible.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;emulating-ideas-from-vocational-education&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Emulating Ideas from Vocational Education&lt;/h2&gt;
+&lt;p&gt;Reflecting on the vocational versus liberal arts really has me thinking about that and what the future of what higher education could be.
+Many of my academic colleagues know the pressure of being asked to demonstrate “transferable skills” in their curricula.
+Students rightly want to be able to make a living for themselves when they graduate.&lt;/p&gt;
+&lt;p&gt;But if we just follow the job market and placements as our only metric for success, I feel as though we really betray the entire goal of education.
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Bullshit_Jobs&#34;&gt;If you do think that, you need to get yourself a copy of David Graeber’s Bullshit Jobs immedietly&lt;/a&gt;.
+Now I don’t want to fall prey to Rule Number 2 of grad school (“Be on the lookout for false dichotomies”) thinking we can’t have both, but as more pressure is put on higher education to use employment as a &lt;a href=&#34;https://www.google.com/search?q=kpi&amp;amp;oq=kpi&amp;amp;aqs=chrome..69i57j0l6j46.664j0j4&amp;amp;sourceid=chrome&amp;amp;ie=UTF-8&#34;&gt;KPI&lt;/a&gt; (a new term I learned this year) there is a lot higher ed can and should take from the vocational/bootcamp model.
+If so much can be accomplished in so little time that can lead to better chances at employment, I am sure there is time during a four year undergraduate degree to equip them with what they need for employment (if they want to do this) that is not just a few resume review sessions.&lt;/p&gt;
+&lt;p&gt;I know this might not be as big of a deal for some of my STEM colleagues or students, but I do think about what this would look like if there was some sort of vocational option for music students (my home field).
+The irony is also not lost on me that when I talk about music students, I understand the historical links to a music conservatory, which again is all about going on to “work” as a professional musician (having lived that life myself).
+But the reality that every one of my conservatory friends found post-graduation is that it is really, really hard to have a “normal life” as a performing musician.
+You can gig a lot and do a fair bit of teaching, but you often find that many of your colleagues are bank rolled by their wealthy spouses or parents.
+And on top of that, the hours don’t align with the “working day” (which I know not everyone wants anyway).
+Or you can go on tour and basically give up your “normal life”.&lt;/p&gt;
+&lt;p&gt;If you do this, you can be in the position to make a living, but it’s not exactly normal.
+I know things are a bit different for Music Ed, but I’m more thinking about the many jobs that people with really fantastic music educations could do, but either don’t know exist or have zero job preparation to get themselves that role.
+For example, the graduate student in musicology who has their finger on the pulse of the fantastic ideas going around academic circles, but would never have anything in their curricula about putting theory into practice at something like an arts organisation.&lt;/p&gt;
+&lt;p&gt;I could easily imagine what a summer intensive might look like for music students (especially grad students) looking to pick up the skills they would need to go alt.
+I am sure there are tons of major orchestras or larger arts organizations that would benefit tremendously from music students who are like what I just described, but lack the mental model as to what power tools they need to be effective.
+Just learning basic data literacy, enough programming to wrangle data and make convincing visualizations for the board, and tools for thinking to not make rookie inferential mistakes could all be learned in a setting like this.
+Of course how I am thinking about it takes much more of a quant focus than what would traditionally be offered in a music school setting, but that’s kind of the point in that you’d be able to do both.
+I can’t emphasize enough how much computer and research/data literacy (not even mastery) can add value to your organization when you couple it with the pre-existing expertise you have of your domain.&lt;/p&gt;
+&lt;p&gt;I am sure a small group of students who just wanted to learn these in-demand vocational skills over the summer or an alt-semester, they’d be ripe and ready by the end of it to go on and help arts organizations or work somewhere else.
+Maybe even set it up to lead to internships or something?
+The new skill set would give them comfort in knowing all their eggs are not in the one basket that is music performance or the “academic job market” while not losing the culture of total immersion in music.
+Just a little bizarro world like the one I have been living in for the past year for them to enter for a few months to give them something different.&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Of course I don’t know who is going to pay for that or if students would be interested, but it’s got my mind ticking after seeing what can be done in three months when you just stare into vocationalism.&lt;/p&gt;
+&lt;p&gt;The whole experience teaching in this context thing really felt like if you’ve had the chance to learn a second language (non-natively) like being a white kid learning Spanish in secondary school and even though you’re learning Spanish, you’re also learning more about English because you had no idea what you took for granted about your own language.
+I will definitely be re-doing many parts of my teaching statement after the past nine months here.&lt;/p&gt;
+&lt;p&gt;I won’t be able to implement these zany ideas anytime soon, but I did want to put them out there now since I think this push for vocational skills within the liberal arts will only become stronger as funding continues to drop for higher education and students withdraw from enrolling until they can go back on campus.&lt;/p&gt;
+&lt;p&gt;I’ll just end this section again here with repeating that I do not think that this emphasis on jobs should be the new standard for higher ed, but rather stealing ideas from the bootcamp model, annexing it as something separate for students who are interested, and then actually pulling this idea that liberal arts degrees need to be about employability out of the curricula so we can focus on deeper issues than just getting jobs.&lt;/p&gt;
+&lt;p&gt;Now knowing I won’t be doing this next, what might I be?&lt;/p&gt;
+&lt;p&gt;This takes me to &lt;a href=&#34;https://davidjohnbaker.rbind.io/post/begin-the-future-part-iii/&#34;&gt;Part III of this series&lt;/a&gt; of me having a lot of time to think the past month, but no ability whatsoever to concentrate on my professional research.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;I can already hear the response of “There is no room for this in the curricula! We barely can let go of Set Theory!” Maybe one day it can be a fun Twitter conversation.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Begin the Fugue, Part III</title>
+      <link>/post/begin-the-fugue-part-iii/</link>
+      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/post/begin-the-fugue-part-iii/</guid>
+      <description>
+
+
+&lt;div id=&#34;whats-next&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;What’s Next&lt;/h2&gt;
+&lt;p&gt;Having coached many people to apply and get their first jobs in the world of data science, I have now seen A LOT of job postings and understand that a JD (job description) is more of a wish list of an ideal candidate rather than a required listing of skills.
+On top of all of that, the characteristics you want out of your future colleagues (like all of the patience and kindness required to sit with a student as you explain how git works, a skill that our instructors seemed to have infinite amounts of, again add ,&lt;a href=&#34;https://www.linkedin.com/in/wachirandaiga/&#34;&gt;Wachira Ndagia&lt;/a&gt;, &lt;a href=&#34;https://www.linkedin.com/in/danielsanzbecerril/&#34;&gt;Dan Sanz Becerril&lt;/a&gt;, &lt;a href=&#34;https://www.linkedin.com/in/javier-f-s/&#34;&gt;Javi Fernandez Suarez&lt;/a&gt; or &lt;a href=&#34;https://www.linkedin.com/in/ioanapr/&#34;&gt;Ioana P&lt;/a&gt; on LinkedIn if you want this, you don’t even have to send a message) do not show up on resumes.&lt;/p&gt;
+&lt;p&gt;So in that spirit, I want to end this post with posting my own description of what I’d like in my own work, maybe I can think of it as an AD (applicant’s dream!).&lt;/p&gt;
+&lt;p&gt;I know I won’t hit everything that I’ll list here for my next line of work, but I have a way better idea of what I want out of my next employment having worked in my past role.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;applicants-dream-ad&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Applicants Dream (AD)&lt;/h2&gt;
+&lt;p&gt;The first, and probably most important, aspect I want of my next job is one where I am challenged in a way that leads to daily personal growth.
+I found my work at Flatiron School to be challenging, but doing the same fifteen week loop over and over again so quickly made it feel more like I was getting better at some insane Shaun T HIIT work-out in terms of my teaching endurance rather than doing some sort of brain bulk (I hope my next employer likes colorful metaphors).&lt;/p&gt;
+&lt;p&gt;The second thing I really want is to be around people who are obsessed with what they do.
+As soon as I was told that my job was “at risk” of being redundant, my first thought was thinking about applying for some sort of academic jobs.
+Rationally, this is probably not the greatest idea considering the incoming COVID Higher Ed crisis, but I still felt this pull.&lt;/p&gt;
+&lt;p&gt;Why?&lt;/p&gt;
+&lt;p&gt;Well, I spent a lot of time reflecting and thinking about this very irrational thought and after sitting with it for a couple of days I think that the main reason I feel this pull is because I know that academia selects for people who like and value the same weird stuff that I do.&lt;/p&gt;
+&lt;p&gt;At this point in life I feel OK telling people that I have extremely nerdy and niche interests compared to many people.
+In conversations with many of my friends, I know that I like to dive much deeper into my interests and am the kind of person who reads textbooks for fun. (#iamverysmart&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;)
+I want to be around other people who are like that.&lt;/p&gt;
+&lt;p&gt;Of course this has its serious downsides, I find it really, really difficult to have hobbies that don’t turn into obsessions and projects, but at least I am aware of that and OK with that now.
+That is kind of what academia is and it’s nice to know that I am going to have traits like that in common with my future colleagues from Day One if I were to work in that setting, but I have learnt (in more of a feeling, rather than intellectual way) that academia is not the only place that this type of personality exists.
+Again, this is very much like the learning Spanish analogy from before having worked somewhere where I didn’t think I would have.&lt;/p&gt;
+&lt;p&gt;Now I think it’s becoming a lot more common for many academics to work in industry after coming to this realisation.
+At this juncture in life (and considering the future of the academic “job market”), it seems a bit wiser to still keep an eye open to whatever opportunities come up that are close to what I find meaningful, rather than getting too parochial too soon.&lt;/p&gt;
+&lt;p&gt;So right now, what I really want to do next is keep investing in my technical skills, ideally in the area of where my domain expertise is which is music.
+At Flatiron School, every so often when students would ask me a question where I didn’t know the answer right away, I had to remind them that the knowledge that I have about the world of data science is really only a by-product of wanting to answer questions that I have found personally meaningful in my own work.&lt;/p&gt;
+&lt;p&gt;At the end of the day, I didn’t learn all this coding and stats stuff so I could just teach it (never in 100 years would I have thought I’d be doing that in my first year of my PhD); I learned it so I could ask really obscure questions about the the hierarchical structure of western tonal music in a subset of a WEIRD population known as Western conservatory musicians who are learning solfege.
+That’s what I currently really like.&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Is there market value in knowing that? Can I make the “business case” for that?
+At this point, I’m sure I could spin it so there was something, but I’m OK with it standing on its own.&lt;/p&gt;
+&lt;p&gt;But I know that no one will pay me to do that (unless I can maybe secure some postdoc funding in that?) but I’m planning on using a lot of my time in the future to devote to my WEIRD interests.&lt;/p&gt;
+&lt;p&gt;Then lastly, going forward to my next line of work it would be really nice to have a manager who was as kind as my old manager.
+I remember being totally dumbfounded at the idea of “onboarding” coming from an academic background (hello baptism by fire with hidden curricula abound!).
+The amount of support and questions and effort my manager went through to get to know me as I was starting was something I will take with me if I am ever in that position.&lt;/p&gt;
+&lt;p&gt;Then lastly, it would be nice, but obviously not necessary to have all the perks of working in industry like having a salary that allows you to be more generous with your money, no obligation to work off the clock, free coffee and beer (that will probably never happen again), and remote work options.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;conclusions&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Conclusions&lt;/h2&gt;
+&lt;p&gt;Now a lot of this sounds like maybe the next step here is to maybe do a postdoc or try to secure a job doing music industry, but I would not be so bold with the amount of uncertainty that everyone is facing right now to say I know exactly what is next.
+Even though I might know what I want, I’m fully aware that I need temper my expectations.&lt;/p&gt;
+&lt;p&gt;And if I can’t land something right away, I have a lot of personal research projects I want to attend to in the near future and the fact that I want to spend my free time working on these probably is a big hint of what I should look at next.
+I also have three fat textbooks I want to read this summer and have plans to brush the dirt off a lot of my programming.&lt;/p&gt;
+&lt;p&gt;Lastly, I’d just like to end by saying that I had a great experience in something that I didn’t anticipate and just wanted to say that out loud for anyone else that reads this and might be in a similar position.
+It felt like such a commitment signing my contract here, like I’d given up on what I wanted to do.
+But here I am again, thinking about weird research in a much more stable position, using my free time to write papers and submit to conferences I find interesting.&lt;/p&gt;
+&lt;p&gt;Though I guess the real end of this should be if anyone knows of any gigs or jobs, either in teaching or research, please get in touch.
+I’m cleared to work both in the United Kingdom and the United States.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;This is ironic for people who are not on the internet as much as I am.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;I love teaching too, don’t get me wrong, but I’m hoping my pendulum swings a bit more near towards the research side next.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Begin the Fugue, Part I</title>
+      <link>/post/begin-the-fugue-part-i/</link>
+      <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/post/begin-the-fugue-part-i/</guid>
+      <description>
+
+
+&lt;p&gt;The past few months have been pretty exhausting.
+On top of all things lockdown and the global pandemic, a little over a month ago I was told that my job was “at risk” of redundancy.
+After going through the full collective consultation period, today is my last official day working as an employee of Flatiron School.
+While this has been a bit of a shock, I’ve been thinking about my time at Flatiron these past few weeks and as my first prelude comes to its final &lt;a href=&#34;https://en.wikipedia.org/wiki/Cadence#:~:text=In%20a%20perfect%20authentic%20cadence,found%20at%20structurally%20defining%20moments.&#34;&gt;PAC&lt;/a&gt; and brace for the subsequent fugue&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;, I always find that writing about what is on my mind really helps me see the bigger picture.&lt;/p&gt;
+&lt;p&gt;Looking over everything I did mull over, it’s quite long so I’ve broken it up into three parts:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What Did I Just Do?: A prosaic setting of my resume&lt;/li&gt;
+&lt;li&gt;Vocationtional Vicissitudes: My thoughts on why vocationalism versus the liberal arts helps me understand higher education&lt;/li&gt;
+&lt;li&gt;My Dream AD (Applicant’s Description): Things I Might Want to do Next with My Job&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As always, thanks for caring about me and reading my blog posts.&lt;/p&gt;
+&lt;div id=&#34;what-did-i-just-do&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;What Did I Just Do?&lt;/h2&gt;
+&lt;p&gt;For the past nine months I have been a Lead Instructor of Data Science at the London campus of the Flatiron School.
+During my time there, I’ve led four different cohorts of students through an intensive fifteen week program where students with not much experience in coding or statistics or machine learning immerse themselves in order to learn as much as they possibly can from their instructors, the written curricula, as well as their peers.&lt;/p&gt;
+&lt;p&gt;The bootcamp approach to learning is extremely different from that of traditional, liberal arts, higher-ed and while it can get a bad reputation for not being as exhaustive as spending four years doing something (duh), there are many things that bootcamps really excel at such as having so many learners concentrated into one space, all at about the same level of understanding, with near constant access to instructors to help guide a herd of overly eager learners.&lt;/p&gt;
+&lt;p&gt;At Flatiron School, I was mainly responsible for delivering material for the first two modules they took which were “Python for Data Science” and “Probability and Statistics” and was supported by a team of four wonderful people.&lt;/p&gt;
+&lt;p&gt;Many of us are now also on the job market now and if you are reading this and want to pick up the scraps of a fantastic team, go add these people on LinkedIn. All you have to do is click the links below. They’re all fantastic educators and even better data scientists.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/wachirandaiga/&#34;&gt;Wachira Ndagia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/danielsanzbecerril/&#34;&gt;Dan Sanz Becerril&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/javier-f-s/&#34;&gt;Javi Fernandez Suarez&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/ioanapr/&#34;&gt;Ioana P&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I also lectured a bit on other topics that I personally like a lot such as clustering, principal components analysis, and was always the one to give my obligatory Introduction to R and the Tidyverse workshop. We taught mostly Python, so I wouldn’t have been able to sleep at night without introducing them to R.&lt;/p&gt;
+&lt;p&gt;As of today, we’ve graduated a sizeable batch of students and have placed many of them in jobs.&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;
+We’re not at 100% yet like our &lt;a href=&#34;https://hi.flatironschool.com/rs/072-UWY-209/images/Flatiron%20School%20Jobs%20Report.pdf?_ga=2.75036818.1013998130.1593420746-1423311562.1570117877&#34;&gt;Software Engineering program was able to do&lt;/a&gt;, but I get messages from students when they eventually get jobs and it’s always the best part of my day.
+Our students have gone on to work from companies ranging from start-ups, to educational programs like Flatiron School, to more high visibility brands like Nielsen and the Bank of England.&lt;/p&gt;
+&lt;p&gt;In addition to all things teaching, I also got my first taste of being part of senior management, so I got to be on the hiring side of things for once.
+I now understand what people mean when they say &lt;a href=&#34;https://jobs.telegraph.co.uk/article/does-your-cv-pass-the-30-second-test-/#:~:text=Research%20shows%20that%20most%20employers,CV%20was%20just%206.25%20seconds.&#34;&gt;people will only look at your resume less than a minute&lt;/a&gt;.
+Being on the other side of the interviewing power-dynamic was surprisingly one of the most valuable experiences I will remember going forward.
+I’ve also felt how the volatility of a business’ performance directly affects one’s work since our parent company was WeWork.
+There were definitely ups and downs.&lt;/p&gt;
+&lt;p&gt;Near the end of my time, I also got to help out with a bit of the curriculum development (I got to write some of the R materials for our graduate’s continuing education) that you can check out on the newly minted &lt;a href=&#34;https://davidjohnbaker.rbind.io/teaching/&#34;&gt;Teaching&lt;/a&gt; section of my website.&lt;/p&gt;
+&lt;p&gt;It was a lot of work a lot of the time (especially at the start of the role and then again when we had to jump online) and it was 180 degrees in the direction of what I was doing before (writing my dissertation alone in my flat).
+And although it wasn’t what I thought I would be doing straight after my PhD, I learned a ton from the work and found many aspects of the job very enjoyable.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;the-good&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;The Good&lt;/h2&gt;
+&lt;p&gt;By far, the best part of the job was working with the bootcamp students.
+This group of students was by far the most engaged collective of learners I have ever worked with.
+To contextualise this, prior to teaching data science at Flatiron, the students from the two areas subjects in higher education I had experience with were both music theory and aural skills (a subset of music notorious for having undergraduates historically question the content area’s utility) as well as statistics for doctoral level psychologists (where a majority of the class was clinical psychologists who, for good reason, question both the quantification, reficication, and reductionism of quantitative methods).&lt;/p&gt;
+&lt;p&gt;In contrast to undergraduate music majors and clinical psychologists&lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;, none of the students at Flatiron were in my classes because they were “required to for graduation” and instead most of them had quit their jobs hoping to change the entire trajectory of their career.
+You fork out a lot of cash to do programs like this and that’s not something they took lightly as students and thus it was not something we took lightly as instructors.&lt;/p&gt;
+&lt;p&gt;As a result of this large time and financial investment, the students would absolutely rinse myself and the other instructors for questions every day to the point that by 6:00PM I was totally exhausted from so much face-to-face work.
+This constant engaging with instructors and asking as many questions as possible is actually one of the big appeals of this kind of flavor of bootcamp; there are not many other educational settings where students have so much direct access to instructors and peers who are all on the same page.&lt;/p&gt;
+&lt;p&gt;While we did our best to set boundaries with students it was hard not to engage with people who were so eager to learn.
+The real trick that I eventually learned was to try to get the students to essentially bootstrap each other’s learning and move away from the sage-on-the-stage approach and move over towards as much group and active learning as possible.
+I learned a lot about giving up control in the classroom and what you get when you start to acknowledge the fact that when you have adult learners, they bring with them far more life experience than those fresh out of school.&lt;/p&gt;
+&lt;p&gt;As a result of all this rapid learning, the last major thing that I loved about this job was getting to see so many students grow so quickly during their time as a bootcamp student.
+Of course it’s true that you’re never going to learn everything in a bootcamp, but these environments are designed to get someone from near zero to competence so they can get in their own self-directed learning feedback loops where they can start critically thinking rather than adopting a pumping them full of knowledge approach.&lt;/p&gt;
+&lt;p&gt;Now teaching in a bootcamp setting was not like anything I had taught in before.
+The goal wasn’t to teach people this history of science or competing philosophies of science throughout the 20th century (though I did weave a lot of that in my lectures, not gonna lie); it was straight up about getting people the tools they need to get a job.&lt;/p&gt;
+&lt;p&gt;For this reason, I’ve now spent a lot of time thinking about the idea of vocationalism versus liberal arts education which I elaborate on in &lt;a href=&#34;https://davidjohnbaker.rbind.io/post/begin-the-fugue-part-ii/&#34;&gt;Part II&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;In keeping with the metaphor I used when I wrote about joining Flatiron&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;I don’t want to go into the numbers I keep here since that probably counts as sensative information to post publicly, but the students are doing well. We’ll have to wait for our next third part audit for the official numbers.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;Obviously there were some in each group that were really into each class, I don’t mean to portray this as apathy&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Life after a PhD in Systematic Musicology: How You Might Prepare for Industry?</title>
-      <link>https://davidjohnbaker.rbind.io/post/life-after-a-phd-in-systematic-musicology-how-you-might-prepare-for-industry/</link>
+      <link>/post/life-after-a-phd-in-systematic-musicology-how-you-might-prepare-for-industry/</link>
       <pubDate>Tue, 09 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/post/life-after-a-phd-in-systematic-musicology-how-you-might-prepare-for-industry/</guid>
+      <guid>/post/life-after-a-phd-in-systematic-musicology-how-you-might-prepare-for-industry/</guid>
       <description>
 
 
@@ -124,9 +328,9 @@ In terms of industry, the closest job that my skills align with is data scientis
     
     <item>
       <title>Regression Modeling Strategies 2020 Review</title>
-      <link>https://davidjohnbaker.rbind.io/post/regression-modeling-strategies-review/</link>
+      <link>/post/regression-modeling-strategies-review/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/post/regression-modeling-strategies-review/</guid>
+      <guid>/post/regression-modeling-strategies-review/</guid>
       <description>
 
 
@@ -189,9 +393,9 @@ I have a feeling that will be more reality than I think in the future, but I gue
     
     <item>
       <title>RStudio Instructor Certification Thoughts</title>
-      <link>https://davidjohnbaker.rbind.io/post/rstudio-instructor-certification-thoughts/</link>
+      <link>/post/rstudio-instructor-certification-thoughts/</link>
       <pubDate>Mon, 11 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/post/rstudio-instructor-certification-thoughts/</guid>
+      <guid>/post/rstudio-instructor-certification-thoughts/</guid>
       <description>
 
 
@@ -227,7 +431,7 @@ So what can you do?&lt;/p&gt;
 &lt;p&gt;In this post I want to reflect on my experience of completing the &lt;a href=&#34;https://education.rstudio.com/trainers/&#34;&gt;RStudio Instructor Certification&lt;/a&gt; program and just think out loud regarding the process for anyone else who also finds themselves in the boat of wanting to become a better teacher (especially those working in the world of technology!), but not really knowing an efficient way to go about this.
 I’m also not the only one who has written about this, if you want to see what other’s have said check out what &lt;a href=&#34;https://laderast.github.io/2019/11/15/my-experience-with-rstudio-instructor-training/&#34;&gt;Ted&lt;/a&gt;, &lt;a href=&#34;https://arilamstein.com/blog/2019/08/20/notes-on-becoming-an-rstudio-certified-trainer/&#34;&gt;Ari&lt;/a&gt;, &lt;a href=&#34;https://www.onceupondata.com/2020/04/14/teaching-rstudio/&#34;&gt;Omayma&lt;/a&gt; or &lt;a href=&#34;https://tcbanalytics.com/2020/04/08/rstudio-certification-program-insights-interview-with-greg-wilson/&#34;&gt;this interview&lt;/a&gt; have to say.&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;https://davidjohnbaker.rbind.io/img/rstudiocerttraining/trainers.png&#34; alt=&#34;It’s Me!&#34; /&gt;
+&lt;img src=&#34;/img/rstudiocerttraining/trainers.png&#34; alt=&#34;It’s Me!&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;It’s Me!&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -235,7 +439,7 @@ I’m also not the only one who has written about this, if you want to see what 
 &lt;h2&gt;Certification&lt;/h2&gt;
 &lt;p&gt;I first heard about the RStudio instructor certification back in August from &lt;a href=&#34;https://twitter.com/JosiahParry&#34;&gt;Josiah Perry&lt;/a&gt; who mentioned it to me since at the time since he knew I was doing a few workshops in around London for &lt;a href=&#34;https://minervastatisticalconsulting.co.uk/&#34;&gt;Minerva Statistical Consulting&lt;/a&gt; and trying to grow that side hustle as I looked for full time employment.&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;https://davidjohnbaker.rbind.io/img/rstudiocerttraining/josiah.png&#34; alt=&#34;He Was Right&#34; /&gt;
+&lt;img src=&#34;/img/rstudiocerttraining/josiah.png&#34; alt=&#34;He Was Right&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;He Was Right&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;My initial reason for signing up for this course was on the RStudio website there is a &lt;a href=&#34;https://education.rstudio.com/trainers/&#34;&gt;big list&lt;/a&gt; of teachers that RStudio points people to who are looking to hire a trainer.
@@ -284,7 +488,7 @@ You subsequently learn how to take these concept maps and turn them into lesson 
 &lt;p&gt;I really got a lot out of this idea and have been using them in my own work. In addition to using this for lesson plans, you can see the drafts below of what I sketched out for the &lt;a href=&#34;https://www.youtube.com/watch?v=xkMqgWHn36w&#34;&gt;Science of Netflix&lt;/a&gt; event I did back in March.
 I have also started to use it for organising some of the academic papers I am still writing!&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;https://davidjohnbaker.rbind.io/img/rstudiocerttraining/net1.jpg&#34; alt=&#34;One of My Drafts&#34; /&gt;
+&lt;img src=&#34;/img/rstudiocerttraining/net1.jpg&#34; alt=&#34;One of My Drafts&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;One of My Drafts&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;What I found particularly helpful about concept maps is how there is not one “true” concept map for any topic and that the configuration of the ideas in your map really is in the eye of the beholder.
@@ -292,11 +496,11 @@ The examples in the slides that I have taken directly from the training shown be
 &lt;p&gt;These are two different perspectives on the same thing and you’d also imagine that these maps would differ based on two levels of expertise of a subject.
 A kid might have different bubbles and arrows compared to an eldery person explaining how a library works.&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;https://davidjohnbaker.rbind.io/img/rstudiocerttraining/patron.png&#34; alt=&#34;Patron View&#34; /&gt;
+&lt;img src=&#34;/img/rstudiocerttraining/patron.png&#34; alt=&#34;Patron View&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;Patron View&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;https://davidjohnbaker.rbind.io/img/rstudiocerttraining/director.png&#34; alt=&#34;Director View&#34; /&gt;
+&lt;img src=&#34;/img/rstudiocerttraining/director.png&#34; alt=&#34;Director View&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;Director View&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Of all the things in the course, concept maps are what I have thought about most in the weeks following.&lt;/p&gt;
@@ -377,9 +581,9 @@ On a meta-level post, which you’ll probably see a lot more of on my Twitter fe
     
     <item>
       <title>The Science of Netflix</title>
-      <link>https://davidjohnbaker.rbind.io/talk/science-of-netflix-fis/</link>
+      <link>/talk/science-of-netflix-fis/</link>
       <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/talk/science-of-netflix-fis/</guid>
+      <guid>/talk/science-of-netflix-fis/</guid>
       <description>
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/xkMqgWHn36w&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
@@ -390,17 +594,17 @@ On a meta-level post, which you’ll probably see a lot more of on my Twitter fe
     
     <item>
       <title>Musical training mediates the relation between working memory capacity and preference for musical complexity</title>
-      <link>https://davidjohnbaker.rbind.io/publication/memory-cognition-auditory-2020/</link>
+      <link>/publication/memory-cognition-auditory-2020/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/publication/memory-cognition-auditory-2020/</guid>
+      <guid>/publication/memory-cognition-auditory-2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Blog on (Data Science) Blogs</title>
-      <link>https://davidjohnbaker.rbind.io/post/blog-on-blogs/</link>
+      <link>/post/blog-on-blogs/</link>
       <pubDate>Fri, 07 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/post/blog-on-blogs/</guid>
+      <guid>/post/blog-on-blogs/</guid>
       <description>
 
 
@@ -448,7 +652,7 @@ I still remember when I watched &lt;a href=&#34;https://en.wikipedia.org/wiki/Th
 And this really hasn’t gone away.
 A few years later I remembering feeling like a nerd when &lt;a href=&#34;https://twitter.com/hadleywickham&#34;&gt;Hadley Wickhamn&lt;/a&gt; liked one of my stupid tweets.
 I even screenshotted it for my collection.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/img/blogblog/hadley_like.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/blogblog/hadley_like.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Of course not every interaction is with someone that is “twitter famous”, the most useful connections I have had on Twitter were throughout my Ph.D. finding so many people that share a common interest (what lead to the &lt;a href=&#34;https://twitter.com/search?q=%23musicscience&amp;amp;src=typed_query&#34;&gt;#musicscience&lt;/a&gt; hash tag!!).
 These connections have lead to things that I value (relationships with other people with shared intersts) and have also led to things of value (getting offers for data science gigs based on some of my data science posts) because I was able to start some sort of relationship.&lt;/p&gt;
 &lt;p&gt;The point I am trying to make here is not that it feels nice to get people to like your memes,&lt;a href=&#34;#fn5&#34; class=&#34;footnote-ref&#34; id=&#34;fnref5&#34;&gt;&lt;sup&gt;5&lt;/sup&gt;&lt;/a&gt; but that social media allows everyone the chance to start a relationship with someone before you actually have a relationship with them.
@@ -556,9 +760,9 @@ This one is now too long.&lt;/p&gt;
     
     <item>
       <title>Public Musicology</title>
-      <link>https://davidjohnbaker.rbind.io/my-projects/public/</link>
+      <link>/my-projects/public/</link>
       <pubDate>Wed, 09 Oct 2019 08:38:28 -0700</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/my-projects/public/</guid>
+      <guid>/my-projects/public/</guid>
       <description>&lt;p&gt;In addition to all the academic and professional things that you &lt;em&gt;should&lt;/em&gt; do as an early career academic, I also am really interested in finding ways to communicate what I do to audiences beyond the Ivory Tower.
 A lot of this comes in the form of tweets and blogs, but here are some other projects I have collaborated on that I am particularly proud of.&lt;/p&gt;
 &lt;h2 id=&#34;the-science-of-netflix&#34;&gt;The Science of Netflix&lt;/h2&gt;
@@ -586,9 +790,9 @@ A lot of this comes in the form of tweets and blogs, but here are some other pro
     
     <item>
       <title>Replication in Music Psychology</title>
-      <link>https://davidjohnbaker.rbind.io/my-projects/replication/</link>
+      <link>/my-projects/replication/</link>
       <pubDate>Wed, 09 Oct 2019 08:38:28 -0700</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/my-projects/replication/</guid>
+      <guid>/my-projects/replication/</guid>
       <description>&lt;p&gt;Here I talk about importance of replication in field of music psychology.
 Important for field.
 Important for helping train future students.
@@ -598,9 +802,9 @@ Important for recrcling on old ideas in order to get new ideas.&lt;/p&gt;
     
     <item>
       <title>Service</title>
-      <link>https://davidjohnbaker.rbind.io/my-projects/service/</link>
+      <link>/my-projects/service/</link>
       <pubDate>Wed, 09 Oct 2019 08:38:28 -0700</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/my-projects/service/</guid>
+      <guid>/my-projects/service/</guid>
       <description>&lt;h3 id=&#34;smpc-student-representative&#34;&gt;SMPC Student Representative&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Things I did there&lt;/li&gt;
@@ -617,9 +821,9 @@ Important for recrcling on old ideas in order to get new ideas.&lt;/p&gt;
     
     <item>
       <title>Prelude to a Career</title>
-      <link>https://davidjohnbaker.rbind.io/post/prelude-to-a-career/</link>
+      <link>/post/prelude-to-a-career/</link>
       <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/post/prelude-to-a-career/</guid>
+      <guid>/post/prelude-to-a-career/</guid>
       <description>
 
 
@@ -629,7 +833,7 @@ Most importantly, I ended up going back for my Ph.D. graduation back in Baton R
 I know a lot of people don’t walk and see graduation as kind of just another prom or wedding industry (it is, don’t get me wrong), but given that I have spent the majority of my 20s pursuing higher education, I wanted to fully experience the ritual that was its ending.
 I do not regret going at all.
 Below is a picture of me and the dedicatees of my dissertation.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/img/prelude_to_career/phdgrad.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/prelude_to_career/phdgrad.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;It feels very good to be done.
 If you want to check out my dissertation (proof that I’m actually done) you can find it &lt;a href=&#34;https://digitalcommons.lsu.edu/gradschool_dissertations/4960/&#34;&gt;here&lt;/a&gt; and as I submit more “things” from it and post those pre-prints, I will blog more about it all.&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;div id=&#34;east-coast-living&#34; class=&#34;section level2&#34;&gt;
@@ -640,17 +844,17 @@ I got a quick tour of the Pandora office in New York City from &lt;a href=&#34;h
 &lt;p&gt;In addition to work, I got to catch up with some old friends from BW I hadn’t seen in a few years and did a small weekend trip out of the city.
 I also got to enjoy what it’s like to not be experiencing constant sound.
 I even saw a bald eagle fly over a river while the sun was setting.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/img/prelude_to_career/nyc_friends.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/prelude_to_career/nyc_friends.png&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;london&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;London&lt;/h2&gt;
 &lt;p&gt;Since returning, I have been settling back into life in London.
 Most of this has basically meant trying to sort out what my future will look like which is no small task and I elaborate on a bit below.&lt;/p&gt;
 &lt;p&gt;I finished up some of my last “official” obligations with my volunteer position at &lt;a href=&#34;https://davidjohnbaker.rbind.io/post/thank-you-toynbee/&#34;&gt;Toynbee Hall&lt;/a&gt; sharing some of the work that I did at the &lt;a href=&#34;https://earlconf.com/&#34;&gt;London EARL Conference&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/img/prelude_to_career/earl_dave.jpg&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/prelude_to_career/earl_dave.jpg&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;I also took my fourth ever holiday (ever) of my adult life where the travel didn’t also include something having to do with music theory, music science, or data science.
 One of my best friends from &lt;a href=&#34;https://www.bw.edu/schools/conservatory-music/&#34;&gt;Baldwin Wallace&lt;/a&gt; is currently the trumpet/guitar player for &lt;a href=&#34;https://www.cirquedusoleil.com/kooza&#34;&gt;Kooza&lt;/a&gt; and the show was in Malaga for a couple of weeks so I went down to just sit on the beach and drink beer and watch people jump around on giant spinning wheels.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/img/prelude_to_career/malaga_2019.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/prelude_to_career/malaga_2019.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Going on that holiday made me realize I deeply, deeply regret not taking more breaks when I was a graduate student.
 My CV would have looked probably exactly the same, but I would have been far less depressed than I was most of the time.&lt;/p&gt;
 &lt;/div&gt;
@@ -746,41 +950,41 @@ I hope others find my sharing helpful.&lt;/p&gt;
     
     <item>
       <title>Modeling the Limits of Musical Memory</title>
-      <link>https://davidjohnbaker.rbind.io/talk/cogmir-2019/</link>
+      <link>/talk/cogmir-2019/</link>
       <pubDate>Thu, 08 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/talk/cogmir-2019/</guid>
+      <guid>/talk/cogmir-2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Symposium on Open Science</title>
-      <link>https://davidjohnbaker.rbind.io/talk/smpc-openscience-2019/</link>
+      <link>/talk/smpc-openscience-2019/</link>
       <pubDate>Tue, 06 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/talk/smpc-openscience-2019/</guid>
+      <guid>/talk/smpc-openscience-2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>What is happening in a student’s mind when they perform melodic dictation?</title>
-      <link>https://davidjohnbaker.rbind.io/talk/smpc-comp-2019/</link>
+      <link>/talk/smpc-comp-2019/</link>
       <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/talk/smpc-comp-2019/</guid>
+      <guid>/talk/smpc-comp-2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Modeling Melodic Dictation</title>
-      <link>https://davidjohnbaker.rbind.io/publication/mmd-2019/</link>
+      <link>/publication/mmd-2019/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/publication/mmd-2019/</guid>
+      <guid>/publication/mmd-2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SMPC for Students</title>
-      <link>https://davidjohnbaker.rbind.io/post/smpc-for-students/</link>
+      <link>/post/smpc-for-students/</link>
       <pubDate>Wed, 31 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/post/smpc-for-students/</guid>
+      <guid>/post/smpc-for-students/</guid>
       <description>
 
 
@@ -810,7 +1014,7 @@ At the time of the Twitter conversation in early July, &lt;a href=&#34;https://t
 &lt;p&gt;I’ll be printing out the this weekend and will be distributing them post-Monday’s keynote.
 Anyone is welcome to grab them and play in that middle awkward period between the talk and the reception (see image) and will hopefully get people talking.
 If you have some last minute ideas of blanks to add, put them &lt;a href=&#34;https://docs.google.com/spreadsheets/d/19GTI5qn-mrnS8QFIPngM-Pjw3KtAS2H0GPwLoAu9jlQ/edit?usp=sharing&#34;&gt;here&lt;/a&gt;!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/img/smpc_student/smpc_social.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/smpc_student/smpc_social.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;A little into the reception, we’ll be pulling some of the grad students to the side so everyone can have a chat with one another.
 What I’m hoping for here is just a lot of “Hello, you’re interested in music research?! That’s crazy! I’m also interested in music research!?” conversations happening.
 Hopefully there will be a lot of small hellos and then as the night progresses there will be some nice integration between schools, departments, and labs.&lt;/p&gt;
@@ -881,9 +1085,9 @@ Part of me wants to say “BuT I cOulD &lt;em&gt;neVeR&lt;/em&gt; iMagIne tHaT h
     
     <item>
       <title>Thoughts on Doing a Master&#39;s Degree in Music Science</title>
-      <link>https://davidjohnbaker.rbind.io/post/thoughts-on-doing-a-master-s-degree-in-music-science/</link>
+      <link>/post/thoughts-on-doing-a-master-s-degree-in-music-science/</link>
       <pubDate>Mon, 08 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/post/thoughts-on-doing-a-master-s-degree-in-music-science/</guid>
+      <guid>/post/thoughts-on-doing-a-master-s-degree-in-music-science/</guid>
       <description>
 
 
@@ -1026,9 +1230,9 @@ I am kind of writing it to the person that I was 6 years ago.&lt;a href=&#34;#fn
     
     <item>
       <title>Thank You, Toynbee</title>
-      <link>https://davidjohnbaker.rbind.io/post/thank-you-toynbee/</link>
+      <link>/post/thank-you-toynbee/</link>
       <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/post/thank-you-toynbee/</guid>
+      <guid>/post/thank-you-toynbee/</guid>
       <description>
 
 
@@ -1066,10 +1270,10 @@ Doing this, I really started to get some light bulb moment about the &lt;a href=
 I wanted to show off all the machine learning I had been reading about in order to show of the power of these tools.
 But in my first few exchanges of what I would go off and analyze and then share with others, I quickly found that my time and skills were much better spent making a lot of simple visualizations of our survey data (like the plot below) in order to help facilitate the start of conversations about the larger projects.
 The data analysis I was doing really meant nothing unless I could directly point to why a finding was important to a team of very intelligent people, but without a background in statistics.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/img/thank-you-toynbee/age_typology.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/thank-you-toynbee/age_typology.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;This process also rid me of any delusions of making models that had overly predictive accuracy.
 My job was to be critical researcher who used data, not a data shaman that created impressive predictive accuracy.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/img/thank-you-toynbee/saver_typology.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/thank-you-toynbee/saver_typology.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;In thinking about this, I also realized that there is not much you can do as the “numbers guy” when someone hands you a dataset you had no hand in designing.
 Unlike academic research where you pretty much have an idea of all the variables you’re collecting in a cross-sectional study, working here you’re often just given a dataset with a potpourri of variables and asked to finding meaning and value.&lt;/p&gt;
 &lt;p&gt;I should mention that when someone does just hand you a dataset with variables another person came up with, the job here is not to be “well you should have done XYZ”; you have to do your best to extract as much meaning and value from the dataset as you can, then actively advocate for the best quantitative data practices that the team can eventually adopt so that future team members will not run into the same dead-ends.&lt;/p&gt;
@@ -1191,9 +1395,9 @@ helps others in a truly meaningful way.&lt;/p&gt;
     
     <item>
       <title>Embracing Career Diversity</title>
-      <link>https://davidjohnbaker.rbind.io/post/embracing-career-diversity/</link>
+      <link>/post/embracing-career-diversity/</link>
       <pubDate>Wed, 12 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/post/embracing-career-diversity/</guid>
+      <guid>/post/embracing-career-diversity/</guid>
       <description>
 
 
@@ -1297,33 +1501,33 @@ Now on other side, I really want to explore all the topics I couldn’t justify 
     
     <item>
       <title>What is going on in someone&#39;s head when they do melodic dictation?</title>
-      <link>https://davidjohnbaker.rbind.io/talk/pedagogy-compmodel-2019/</link>
+      <link>/talk/pedagogy-compmodel-2019/</link>
       <pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/talk/pedagogy-compmodel-2019/</guid>
+      <guid>/talk/pedagogy-compmodel-2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>What&#39;s going on in someone&#39;s head when they do melodic dictation?</title>
-      <link>https://davidjohnbaker.rbind.io/talk/mtmw-compmodel-2019/</link>
+      <link>/talk/mtmw-compmodel-2019/</link>
       <pubDate>Fri, 10 May 2019 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/talk/mtmw-compmodel-2019/</guid>
+      <guid>/talk/mtmw-compmodel-2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Frequency Facilitation Hypothesis</title>
-      <link>https://davidjohnbaker.rbind.io/talk/againagain-ffh-2019/</link>
+      <link>/talk/againagain-ffh-2019/</link>
       <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/talk/againagain-ffh-2019/</guid>
+      <guid>/talk/againagain-ffh-2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Toynbee Hall Datathon</title>
-      <link>https://davidjohnbaker.rbind.io/post/toynbee-hall-datathon/</link>
+      <link>/post/toynbee-hall-datathon/</link>
       <pubDate>Tue, 23 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/post/toynbee-hall-datathon/</guid>
+      <guid>/post/toynbee-hall-datathon/</guid>
       <description>
 
 
@@ -1382,9 +1586,9 @@ Either ping me on Twitter or send me an email!&lt;/p&gt;
     
     <item>
       <title>Sempre Grad Conference, 2019</title>
-      <link>https://davidjohnbaker.rbind.io/post/sempre-grad-conference-2019/</link>
+      <link>/post/sempre-grad-conference-2019/</link>
       <pubDate>Thu, 28 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/post/sempre-grad-conference-2019/</guid>
+      <guid>/post/sempre-grad-conference-2019/</guid>
       <description>
 
 
@@ -1445,9 +1649,9 @@ I’m also advocating for this because I’m currently in the peak of my PhD iso
     
     <item>
       <title>Digital Representations</title>
-      <link>https://davidjohnbaker.rbind.io/post/digital-representations/</link>
+      <link>/post/digital-representations/</link>
       <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/post/digital-representations/</guid>
+      <guid>/post/digital-representations/</guid>
       <description>
 
 
@@ -1462,7 +1666,7 @@ Researchers like Bach because it’s already encoded.&lt;/p&gt;
 You can read more about the model &lt;a href=&#34;https://magenta.tensorflow.org/coconet&#34;&gt;here&lt;/a&gt;, but each Chorale has many more musical events/data points.
 Navigating to where the Bach chorales live on my computer and running the &lt;code&gt;census -k *.krn&lt;/code&gt; humdrum command on the first 308 of the Bach Chorales (just to ballpark) that were edited by Craig Sapp results in 72,030 note heads that can be analyzed with tools that can interpret &lt;code&gt;kern&lt;/code&gt; data.
 This is a subset of 120,528 humdrum tokens.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/img/digrep/kern1.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/digrep/kern1.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;I bring this up not to start debates about how much data is needed to train a model, but rather to point out that each little bit of data here had to be entered by hand for it to be used in any model.
 And there is no way that you could get a model to even come close to output that would be interesting without very clean data.&lt;/p&gt;
 &lt;p&gt;As a researcher looking to tackle problems in this domain, having something like a complete set of Bach’s chorales in a digital format is a fantastic resource.
@@ -1517,15 +1721,15 @@ Either way, as noted by &lt;a href=&#34;https://twitter.com/Komaniecki_R/status/
     
     <item>
       <title>#wikiwednesday</title>
-      <link>https://davidjohnbaker.rbind.io/post/wikiwednesday/</link>
+      <link>/post/wikiwednesday/</link>
       <pubDate>Wed, 13 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/post/wikiwednesday/</guid>
+      <guid>/post/wikiwednesday/</guid>
       <description>
 
 
 &lt;p&gt;One of the biggest issues that I lament about regarding Twitter is how there is so much great information just falling through my feed, never to be recovered again.
 A perfect example of this appeared yesterday when &lt;a href=&#34;https://twitter.com/willmasonmusic&#34;&gt;Will Mason&lt;/a&gt; &lt;a href=&#34;https://twitter.com/willmasonmusic/status/1105462217728761857&#34;&gt;tweeted asking for people to help provide examples of idiomatic instrumental constraints leading to funny pitch choices&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/img/wiki_20190313_post/will_tweet.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/wiki_20190313_post/will_tweet.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Within one day, there were loads examples of this along with some discussion contextualizing the responses.
 Examples like this happen all the time on Twitter ranging from people needing specific musical examples to &lt;a href=&#34;https://twitter.com/DougShadle/status/1066802040217759744&#34;&gt;killer Twitter rants like this one&lt;/a&gt; of &lt;a href=&#34;https://twitter.com/DougShadle&#34;&gt;Doug Shadle&lt;/a&gt; that took me way too long to find, which only proves my point.
 After liking the tweets, that’s usually where my engagement with the information ends, then I get sad that this information will never be available again for anyone who was not on Twitter yesterday.
@@ -1536,7 +1740,7 @@ I know it lives on Twitter and can dig it out, but I honestly feel I should be s
 &lt;p&gt;So what can be done?&lt;/p&gt;
 &lt;p&gt;Well, one thing that I think a lot of people forget about is that all this information can and should be put on Wikipedia.
 After looking at Will’s thread, I put “Idiomatic Music” in the Wikipedia search bar, and was directed to this &lt;a href=&#34;https://en.wikipedia.org/wiki/Instrumental_idiom&#34;&gt;stub of a page&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/img/wiki_20190313_post/pre_edit.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/wiki_20190313_post/pre_edit.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;This is where I would have hoped to find the information on Will’s tweet if I were looking for it on another day, but it’s not there.
 So in true “knowledge should be for everyone” fashion, I added it to the page and thought this might be a good opportunity to procrastinate writing my dissertation by writing a blog about my favorite dissertation writing procrastination activity: editing Wikipedia.&lt;/p&gt;
 &lt;div id=&#34;editing-wikipedia&#34; class=&#34;section level2&#34;&gt;
@@ -1548,12 +1752,12 @@ For the past few weeks, I have been doing it on topics related to my dissertatio
 Hopefully after seeing a few screenshots, you too will be inclined to help out as well!&lt;/p&gt;
 &lt;p&gt;The first thing that you need to do is make an account.
 I made a quick one just for this post.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/img/wiki_20190313_post/make_account.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/wiki_20190313_post/make_account.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Ok, now with an account made, the next thing that you need to do is click the Edit Source button found in the top right corner.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/img/wiki_20190313_post/editsource.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/wiki_20190313_post/editsource.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Here (at least my my Firefox?) there’s the option to use the Visual Editor mode.
 If you’re not familiar with Markdown and HTML and what not, this is the way to go in my opinion.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/img/wiki_20190313_post/viz_editor.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/wiki_20190313_post/viz_editor.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;From here, this opens up the hood and you can start editing.
 I am personally in the process of doing the last 50 days of my dissertation, so I seriously do not have time to restructure this page, but I do have time to add in a bit of text (and do this quick blog post).&lt;/p&gt;
 &lt;p&gt;Next, all I wanted to do was create a new heading that would provide some examples of this, then write some very OK text with some concrete examples from Will’s thread.
@@ -1593,33 +1797,33 @@ Of course those posts live in on a “private” wiki, but they will one day see
     
     <item>
       <title>About / Contact</title>
-      <link>https://davidjohnbaker.rbind.io/teaching/</link>
+      <link>/teaching/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/teaching/</guid>
+      <guid>/teaching/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Experience</title>
-      <link>https://davidjohnbaker.rbind.io/experience/</link>
+      <link>/experience/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/experience/</guid>
+      <guid>/experience/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>https://davidjohnbaker.rbind.io/projects/</link>
+      <link>/projects/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/projects/</guid>
+      <guid>/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cataloging Memories with Music</title>
-      <link>https://davidjohnbaker.rbind.io/post/cataloging-memories-with-music/</link>
+      <link>/post/cataloging-memories-with-music/</link>
       <pubDate>Fri, 21 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/post/cataloging-memories-with-music/</guid>
+      <guid>/post/cataloging-memories-with-music/</guid>
       <description>
 
 
@@ -1725,17 +1929,17 @@ I’ve also linked here the past four years just for proof, but also want to sho
     
     <item>
       <title>Modeling Melodic Dictation</title>
-      <link>https://davidjohnbaker.rbind.io/talk/open-university-2018/</link>
+      <link>/talk/open-university-2018/</link>
       <pubDate>Thu, 15 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/talk/open-university-2018/</guid>
+      <guid>/talk/open-university-2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Examining Musical Sophistication</title>
-      <link>https://davidjohnbaker.rbind.io/post/examining-musical-sophistication/</link>
+      <link>/post/examining-musical-sophistication/</link>
       <pubDate>Wed, 14 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/post/examining-musical-sophistication/</guid>
+      <guid>/post/examining-musical-sophistication/</guid>
       <description>
 
 
@@ -1776,16 +1980,16 @@ So what did we find?&lt;/p&gt;
 &lt;p&gt;In general, the Gold-MSI pretty much behaved as you would expect it to.
 Using a WEIRD sample, we had a bit of a skewed distribution that people should look out for, but the sub-scale scores pretty much lined up with the means and standard deviations that were originally reported.&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;https://davidjohnbaker.rbind.io/img/examining-gmsi/Figure1_GMSIREP.png&#34; alt=&#34;Overall Skew&#34; /&gt;
+&lt;img src=&#34;/img/examining-gmsi/Figure1_GMSIREP.png&#34; alt=&#34;Overall Skew&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;Overall Skew&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;https://davidjohnbaker.rbind.io/img/examining-gmsi/Figure2_GMSIREP.png&#34; alt=&#34;Similar Descriptive Statistics&#34; /&gt;
+&lt;img src=&#34;/img/examining-gmsi/Figure2_GMSIREP.png&#34; alt=&#34;Similar Descriptive Statistics&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;Similar Descriptive Statistics&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;That said, we did look at the item level data and found anything but normal distributions.&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;https://davidjohnbaker.rbind.io/img/examining-gmsi/Figure3_GMSIREP.png&#34; alt=&#34;Item Level Distributions&#34; /&gt;
+&lt;img src=&#34;/img/examining-gmsi/Figure3_GMSIREP.png&#34; alt=&#34;Item Level Distributions&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;Item Level Distributions&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;This is not the biggest deal in the world due to the estimators you can use with the &lt;a href=&#34;http://lavaan.ugent.be/&#34;&gt;lavaan package&lt;/a&gt; that were used in the original paper, but if you are going to break off a scale to use just a part of the Gold-MSI, it’s worth keeping in mind.
@@ -1818,33 +2022,51 @@ The paper was of much higher quality after the suggestions!&lt;/p&gt;
     
     <item>
       <title>Examining Musical Sophistication: A replication and theoretical commentary of the Goldsmiths Musical Sophistication Index</title>
-      <link>https://davidjohnbaker.rbind.io/publication/gmsi-replication-2018/</link>
+      <link>/publication/gmsi-replication-2018/</link>
       <pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/publication/gmsi-replication-2018/</guid>
+      <guid>/publication/gmsi-replication-2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Decoding emotions in expressive music performance: A multi-lab replication and extension study</title>
-      <link>https://davidjohnbaker.rbind.io/publication/emotion-replication-2018/</link>
+      <link>/publication/emotion-replication-2018/</link>
       <pubDate>Sun, 07 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/publication/emotion-replication-2018/</guid>
+      <guid>/publication/emotion-replication-2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Examining Objective and Subjective Aspects of Musical Sophistication: Insights from General Fluid Intelligence and Working Memory Capacity</title>
-      <link>https://davidjohnbaker.rbind.io/talk/icmpc-wmc-2018/</link>
+      <link>/talk/icmpc-wmc-2018/</link>
       <pubDate>Sat, 28 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/talk/icmpc-wmc-2018/</guid>
+      <guid>/talk/icmpc-wmc-2018/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Privacy Policy</title>
+      <link>/privacy/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
+      <guid>/privacy/</guid>
+      <description>&lt;p&gt;Add your privacy policy here and set &lt;code&gt;draft: false&lt;/code&gt; to publish it. Otherwise, delete this file if you don&amp;rsquo;t need it.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Terms</title>
+      <link>/terms/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
+      <guid>/terms/</guid>
+      <description>&lt;p&gt;Add your terms here and set &lt;code&gt;draft: false&lt;/code&gt; to publish it. Otherwise, delete this file if you don&amp;rsquo;t need it.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Project Management with git and R</title>
-      <link>https://davidjohnbaker.rbind.io/post/project-management-with-git-and-r/</link>
+      <link>/post/project-management-with-git-and-r/</link>
       <pubDate>Tue, 08 May 2018 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/post/project-management-with-git-and-r/</guid>
+      <guid>/post/project-management-with-git-and-r/</guid>
       <description>
 
 
@@ -1874,25 +2096,25 @@ I’ve always thought it’s a shame that a lot of this software is not common p
 &lt;p&gt;I find it’s easiest when starting a project to start on github first, then copy that onto your computer.&lt;/p&gt;
 &lt;p&gt;The first thing to do is to log into your github account (assuming you have one, it’s easy to sign up!) and create a new repository (repo) using the little plus at the top right of your home page as you can see below.&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;https://davidjohnbaker.rbind.io/img/project-management-with-git/pmwr1.png&#34; alt=&#34;Navigate to New Repository Page&#34; /&gt;
+&lt;img src=&#34;/img/project-management-with-git/pmwr1.png&#34; alt=&#34;Navigate to New Repository Page&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;Navigate to New Repository Page&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;From here you want to give your repo a name, a small description, and tick the box that asks you initialize it with a README file.
 The screenshot below shows the page right before I click the green “Create Repository” button.&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;https://davidjohnbaker.rbind.io/img/project-management-with-git/pmwr2.png&#34; alt=&#34;Setting up your repo&#34; /&gt;
+&lt;img src=&#34;/img/project-management-with-git/pmwr2.png&#34; alt=&#34;Setting up your repo&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;Setting up your repo&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;When choosing a name, it’s important to pick something easy to recognize and type.
 Once you click ‘Create Repository’, it will take you to your repo’s home page and should look something like this:&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;https://davidjohnbaker.rbind.io/img/project-management-with-git/pmwr3.png&#34; alt=&#34;The Blank Page&#34; /&gt;
+&lt;img src=&#34;/img/project-management-with-git/pmwr3.png&#34; alt=&#34;The Blank Page&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;The Blank Page&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;From here you are going to want to click the green ‘Clone or download’ and then copy that link to your clipboard.
 The next screen shot shows what that will look like.&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;https://davidjohnbaker.rbind.io/img/project-management-with-git/pmwr4.png&#34; alt=&#34;Clone the Git HTTPS&#34; /&gt;
+&lt;img src=&#34;/img/project-management-with-git/pmwr4.png&#34; alt=&#34;Clone the Git HTTPS&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;Clone the Git HTTPS&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;With the link copied, you then want to open up your terminal (if you’re a Windows user, make sure to get &lt;a href=&#34;https://git-scm.com/&#34;&gt;Gitbash&lt;/a&gt;!!) and then navigate to where you want your project to live.
@@ -1907,7 +2129,7 @@ If you can, it’s best to try to get someone to slowly walk you through this vi
 If not, don’t be afraid to ask questions when you start!&lt;/p&gt;
 &lt;p&gt;So getting back to what we were doing, you need to navigate to where you want your project to live (the first line) and then clone your directory by typing &lt;code&gt;git clone yourproject.git&lt;/code&gt;.&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;https://davidjohnbaker.rbind.io/img/project-management-with-git/pmwr5.png&#34; alt=&#34;Cloning Your Repo&#34; /&gt;
+&lt;img src=&#34;/img/project-management-with-git/pmwr5.png&#34; alt=&#34;Cloning Your Repo&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;Cloning Your Repo&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Now if you look in your projects folder (or just press &lt;code&gt;ls&lt;/code&gt; as in “&lt;code&gt;l&lt;/code&gt;i&lt;code&gt;s&lt;/code&gt;t” all the files that are in your directory), you’ll notice you have a new directory sent directly from github heaven!&lt;/p&gt;
@@ -1918,11 +2140,11 @@ If not, don’t be afraid to ask questions when you start!&lt;/p&gt;
 &lt;p&gt;In order to do that, I need to get out of terminal, and then open up RStudio.
 From here you need to go to
 &lt;strong&gt;File &amp;gt; New Project &amp;gt; Create From Existing Directory &amp;gt; &lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/img/project-management-with-git/pmwr6.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/project-management-with-git/pmwr6.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Then navigate and select to open the folder you just cloned from github.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/img/project-management-with-git/pmwr7.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/project-management-with-git/pmwr7.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;If you then tick the box that says to open the box in a new project, you’ll then see something like this:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/img/project-management-with-git/pmwr8.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/project-management-with-git/pmwr8.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Tah dah!
 We’ve now made our directory an R project and can save our changes on github.&lt;/p&gt;
 &lt;/div&gt;
@@ -1935,7 +2157,7 @@ We can bring terminal back and assuming that we are in our project’s directory
 git commit -m &amp;quot;Whatever you did&amp;quot;
 git push &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Or how I did it with my project here:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/img/project-management-with-git/pmwr9.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/project-management-with-git/pmwr9.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;If we then go back to our project page on Github.com, we can see that our changes should have been updated!&lt;/p&gt;
 &lt;p&gt;I should note that each time you start your project you want to &lt;code&gt;git pull&lt;/code&gt; to make sure that you have the most updated version of the project (for when you are eventually collaborating with other people).&lt;/p&gt;
 &lt;p&gt;In writing this I actually realized there is SO MUCH that underlies this seemingly basic process of starting a project, so if anyone has any questions on this whole process, please let me know and I can try to make this post (and future ones) clearer.&lt;/p&gt;
@@ -1945,9 +2167,9 @@ git push &lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>To-Dos and Boundaries</title>
-      <link>https://davidjohnbaker.rbind.io/post/to-dos-and-boundaries/</link>
+      <link>/post/to-dos-and-boundaries/</link>
       <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/post/to-dos-and-boundaries/</guid>
+      <guid>/post/to-dos-and-boundaries/</guid>
       <description>
 
 
@@ -1989,7 +2211,7 @@ Then under the project are the actual to-dos.
 Each line starts with an action verb in all caps followed by something I could do in one sitting.
 Important to-dos get a &lt;code&gt;;&lt;/code&gt; which my text editor colors as red, which I associate with as important.&lt;/p&gt;
 &lt;p&gt;Here is what my current one looks like:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/img/todo.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/todo.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;So when I am ready to work, all I do is type ‘workflow’ into terminal, then I have a whole list of things I can pick based on priority and what I have the mental energy for.
 By having a few things to choose and having everything written down my work is out of sight, out of mind for when I am not “working”.
 I often tell people that if I don’t write it down, I won’t do it.
@@ -2060,25 +2282,25 @@ I’d really like to have my cake and eat it too with a healthy work/life balanc
     
     <item>
       <title>Root Interval Schemas in Rock Music</title>
-      <link>https://davidjohnbaker.rbind.io/talk/scsmt-2018/</link>
+      <link>/talk/scsmt-2018/</link>
       <pubDate>Fri, 23 Mar 2018 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/talk/scsmt-2018/</guid>
+      <guid>/talk/scsmt-2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Who counts as a musician?</title>
-      <link>https://davidjohnbaker.rbind.io/talk/pmd-musician-2018/</link>
+      <link>/talk/pmd-musician-2018/</link>
       <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/talk/pmd-musician-2018/</guid>
+      <guid>/talk/pmd-musician-2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hire Me (as a Data Scientist!), Part IV</title>
-      <link>https://davidjohnbaker.rbind.io/post/hire-me-as-a-data-scientist-part-iv/</link>
+      <link>/post/hire-me-as-a-data-scientist-part-iv/</link>
       <pubDate>Mon, 29 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/post/hire-me-as-a-data-scientist-part-iv/</guid>
+      <guid>/post/hire-me-as-a-data-scientist-part-iv/</guid>
       <description>
 
 
@@ -2142,7 +2364,7 @@ most part it looks as if they are relatively well contained.&lt;/p&gt;
   geom_errorbar(aes(ymin=mean_appearance-sem_appearance, ymax=mean_appearance+sem_appearance), width=.1) +
   geom_errorbarh(aes(xmin=mean_aroma-sem_aroma, xmax=mean_aroma+sem_aroma)) + theme(legend.position=&amp;quot;none&amp;quot;) +
   labs(title = &amp;quot;Mean Appearance and Aroma&amp;quot;, y = &amp;quot;Mean Aroma&amp;quot;, x = &amp;quot;Mean Appearance&amp;quot;) &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/post/2018-01-29-hire-me-as-a-data-scientist-part-iv_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2018-01-29-hire-me-as-a-data-scientist-part-iv_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;This graph has a lot of beers, but what we are interested in is that top right quadrant where both
 the average appearance and aroma are maxed out.
 Let’s zoom in on it and throw in a sizing variable of the overall rating and inspect our graph.&lt;/p&gt;
@@ -2153,7 +2375,7 @@ Let’s zoom in on it and throw in a sizing variable of the overall rating and i
 #  geom_errorbarh(aes(xmin=mean_aroma-sem_aroma, xmax=mean_aroma+sem_aroma)) + theme(legend.position=&amp;quot;none&amp;quot;) +
   labs(title = &amp;quot;Mean Appearance and Aroma&amp;quot;, y = &amp;quot;Mean Aroma&amp;quot;, x = &amp;quot;Mean Appearance&amp;quot;) + 
   geom_text(aes(label=beer_style, hjust = .5, vjust = -.75)) &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/post/2018-01-29-hire-me-as-a-data-scientist-part-iv_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2018-01-29-hire-me-as-a-data-scientist-part-iv_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Looking at this subsection, it appears we have a few choices for beers that score highly on
 both Appearance and Aroma.
 The American Double / Imperial Stout looks like a good option as it scores higher on how it
@@ -2177,9 +2399,9 @@ their team.&lt;/p&gt;
     
     <item>
       <title>Hire Me (as a Data Scientist!), Part III</title>
-      <link>https://davidjohnbaker.rbind.io/post/hire-me-as-a-datascientist-part-iii/</link>
+      <link>/post/hire-me-as-a-datascientist-part-iii/</link>
       <pubDate>Sun, 28 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/post/hire-me-as-a-datascientist-part-iii/</guid>
+      <guid>/post/hire-me-as-a-datascientist-part-iii/</guid>
       <description>
 
 
@@ -2255,7 +2477,7 @@ The second variable, &lt;code&gt;IncNodePurity&lt;/code&gt; gives us a measure o
 Here Taste again leads in terms of importance, but our Palate variable seems to be close behind.
 We see this visually below.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;varImpPlot(random.forrest.fit, main = &amp;quot;Variable Importance Metrics&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/post/2018-01-28-hire-me-as-a-datascientist-part-iii_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2018-01-28-hire-me-as-a-datascientist-part-iii_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;The result that Taste seems to be taking the cake here is to be expected.
 Using some of the more basic tools of statistics and data science, we can look at the correlation between our taste variable and our overall, and it’s quite high.
 Actually looking at our average ratings, all of the correlations are really high!&lt;/p&gt;
@@ -2296,9 +2518,9 @@ Variables like these would allow us to learn more about the beers since they wou
     
     <item>
       <title>Hire Me (as a Data Scientist!), Part II</title>
-      <link>https://davidjohnbaker.rbind.io/post/hire-me-as-a-data-scientist-part-ii/</link>
+      <link>/post/hire-me-as-a-data-scientist-part-ii/</link>
       <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/post/hire-me-as-a-data-scientist-part-ii/</guid>
+      <guid>/post/hire-me-as-a-data-scientist-part-ii/</guid>
       <description>
 
 
@@ -2352,7 +2574,7 @@ review.counts &lt;/code&gt;&lt;/pre&gt;
      breaks = 200,
      xlab = &amp;quot;Number of Reviews&amp;quot;,
      main = &amp;quot;Distribution of Reviews Per User&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/post/2018-01-14-hire-me-as-a-data-scientist-part-ii_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2018-01-14-hire-me-as-a-data-scientist-part-ii_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;This is pretty important when it comes to modeling the data (discussed in Part III), and not being fully aware of where your ratings are coming from could put the quality of your models at serious risk.&lt;/p&gt;
 &lt;p&gt;So looking at this dataset, I wondered if there were any sort of implicit assumptions I could make about this data that might be able to help me find a good beer.
 One assumption that I didn’t think was too wild was that a sample of this population that had gone out of its way to rate over 500 beers was probably more of a beer expert than those who have only done a couple of reviews on the site.&lt;/p&gt;
@@ -2424,7 +2646,7 @@ hist(super.reviews.popular$most_reviewed_beers,
      main = &amp;quot;Distribution of Number of Ratings by Super Users&amp;quot;,
      xlab = &amp;quot;Number of Reviews each Beer Recieves&amp;quot;,
      breaks = 200)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/post/2018-01-14-hire-me-as-a-data-scientist-part-ii_files/figure-html/unnamed-chunk-6-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2018-01-14-hire-me-as-a-data-scientist-part-ii_files/figure-html/unnamed-chunk-6-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Again I saw this was clearly &lt;strong&gt;not&lt;/strong&gt; anything resembling a repeated measures experiment and not all beers were rated equally.&lt;/p&gt;
 &lt;p&gt;Continuing in the same fashion above, I just grabbed the top 100 beers of our super users and merged that on to our table from earlier that had all of the ratings from our super users.
 Then from that table, I took the average of the overall rating and looked at our top ten beers.&lt;/p&gt;
@@ -2666,7 +2888,7 @@ ggplot(abv.vs.mean[Abv &amp;lt; 20], aes(x = Abv, y = MeanOverall)) +
        x = &amp;quot;ABV Content&amp;quot;,
        y = &amp;quot;Mean Overall Rating&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## `geom_smooth()` using formula &amp;#39;y ~ x&amp;#39;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/post/2018-01-14-hire-me-as-a-data-scientist-part-ii_files/figure-html/unnamed-chunk-11-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2018-01-14-hire-me-as-a-data-scientist-part-ii_files/figure-html/unnamed-chunk-11-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Surprisingly, when I ran some quick and dirty regression models (that yes, I know violate tons of assumptions) I saw that only a very small amount of variance was being explained by its ABV.
 Note that although the models were significant, the R squared values hovered around 3-5%!&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# &amp;quot;The More Booze The Better&amp;quot; Model
@@ -2734,7 +2956,7 @@ ggplot(dd.beers.2, aes(x = abv, y = mean_overall, label = beer_name_unique, colo
        y = &amp;quot;Mean Overall Rating&amp;quot;) + theme(legend.position = &amp;quot;none&amp;quot;) +
   xlim(0, 20) +
   scale_y_continuous(breaks = c(seq(4.6,5,.1)), limits = c(4.6,4.85))&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/post/2018-01-14-hire-me-as-a-data-scientist-part-ii_files/figure-html/unnamed-chunk-13-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2018-01-14-hire-me-as-a-data-scientist-part-ii_files/figure-html/unnamed-chunk-13-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;These are all OK choices (most of the beers are still above 5% ABV), but we do have one beer clocking in at 2.0% ABV giving us our final beer recommendation – the &lt;a href=&#34;https://www.beeradvocate.com/beer/profile/1628/8626/&#34;&gt;Southampton Publick House Southampton Berliner Weisse Berliner Weissbier&lt;/a&gt;!&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;summary&#34; class=&#34;section level2&#34;&gt;
@@ -2747,9 +2969,9 @@ ggplot(dd.beers.2, aes(x = abv, y = mean_overall, label = beer_name_unique, colo
     
     <item>
       <title>Hire Me (as a Data Scientist!), Part I</title>
-      <link>https://davidjohnbaker.rbind.io/post/hire-me-as-a-data-scientist-part-i/</link>
+      <link>/post/hire-me-as-a-data-scientist-part-i/</link>
       <pubDate>Sat, 13 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/post/hire-me-as-a-data-scientist-part-i/</guid>
+      <guid>/post/hire-me-as-a-data-scientist-part-i/</guid>
       <description>
 
 
@@ -2965,7 +3187,7 @@ abv.table[, zAvgABV := scale(AvgABV)]&lt;/code&gt;&lt;/pre&gt;
 hist(NoOfBeers$N, breaks= 200, 
      main = &amp;quot;Distribution of Size of Breweries&amp;quot;, 
      xlab = &amp;quot;Number of Beers Produced by a Brewery&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/post/2018-01-14-hire-me-as-a-data-scientist-part-i_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2018-01-14-hire-me-as-a-data-scientist-part-i_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;NoOfBeers[N &amp;gt; 200] # Clearly some big breweries here! &lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;##                        brewery_name   N
 ## 1:    Minneapolis Town Hall Brewery 243
@@ -3000,7 +3222,7 @@ hist(NoOfBeers$N, breaks= 200,
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;hist(abv.table[N &amp;gt;= 5, ][order(-AvgABV)]$zAvgABV,
      xlab = &amp;quot;z Score of ABV&amp;quot;, 
      main = &amp;quot;Distribution of ABV in Breweries that make more than 5 Beers&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/post/2018-01-14-hire-me-as-a-data-scientist-part-i_files/figure-html/unnamed-chunk-7-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2018-01-14-hire-me-as-a-data-scientist-part-i_files/figure-html/unnamed-chunk-7-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;abv.table[N &amp;gt;= 5 &amp;amp; zAvgABV &amp;gt; 4, ][order(-AvgABV)]&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;##                                           brewery_name   N   AvgABV     SdABV
 ## 1:                                        Schorschbräu  10 19.22882 12.327304
@@ -3023,7 +3245,7 @@ ggplot(schor.abv, aes(x = beer_name, y = beer_abv)) +
   geom_bar(stat = &amp;quot;identity&amp;quot;)  + 
   labs( title = &amp;quot;Schorschbräu Beer ABV&amp;quot;, x = &amp;quot;Beer Name&amp;quot;, y = &amp;quot;ABV&amp;quot;) +
    theme(axis.text.x=element_text(angle = -90, hjust = 0)) &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/post/2018-01-14-hire-me-as-a-data-scientist-part-i_files/figure-html/unnamed-chunk-8-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2018-01-14-hire-me-as-a-data-scientist-part-i_files/figure-html/unnamed-chunk-8-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;brassOrg.abv &amp;lt;- beer.complete[brewery_name == &amp;quot;Brasserie Grain d&amp;#39; Orge (Brasserie Jeanne d&amp;#39;Arc SA)&amp;quot;, 
                               .(beer_name = unique(beer_name)), by = beer_abv]
 
@@ -3033,7 +3255,7 @@ ggplot(brassOrg.abv, aes(x = beer_name, y = beer_abv)) +
         x = &amp;quot;Beer Name&amp;quot;, 
         y = &amp;quot;ABV&amp;quot;) +
    theme(axis.text.x=element_text(angle = -90, hjust = 0)) + ylim(0, 60) &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/post/2018-01-14-hire-me-as-a-data-scientist-part-i_files/figure-html/unnamed-chunk-8-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2018-01-14-hire-me-as-a-data-scientist-part-i_files/figure-html/unnamed-chunk-8-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;I think that saying Schorschbräu is technically correct here, but after sharing my findings with my one beer drinking friend
 he pointed out that one thing that this analysis did not take into account was that beers
 that are traditionally brewed to have a higher ABV (like IPAs and Belgiums) might skew my results.
@@ -3060,7 +3282,7 @@ ordered.abv.by.type$beer_style &amp;lt;- factor(ordered.abv.by.type$beer_style, 
 #       y = &amp;quot;Mean ABV, bars represent SD&amp;quot;) +
 #  geom_errorbar(aes(ymin=MeanAbvType-SdAbvType, ymax=MeanAbvType+SdAbvType)) +
 #  theme_bw()&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/img/abvtemp.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/abvtemp.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;So you can see here that if you wanted to have a higher ABV on average for your brewery, you’d benefit from having more IPAs, Barley Wines, and Belgian Stouts.&lt;/p&gt;
 &lt;p&gt;Now with average ABV for each beer, let’s then match that to our big list, find how each beer fairs against its own category, sort them, and then combine them with our information from before on how big the brewery is.
 For the purposes of this example, let’s only look at breweries that have over 100 beers in the database and look the top 20.&lt;/p&gt;
@@ -3111,9 +3333,9 @@ It appears that on average &lt;a href=&#34;https://www.beeradvocate.com/beer/pro
     
     <item>
       <title>Looking For Musicologists on Twitter</title>
-      <link>https://davidjohnbaker.rbind.io/post/looking-for-musicologists-on-twitter/</link>
+      <link>/post/looking-for-musicologists-on-twitter/</link>
       <pubDate>Mon, 20 Nov 2017 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/post/looking-for-musicologists-on-twitter/</guid>
+      <guid>/post/looking-for-musicologists-on-twitter/</guid>
       <description>
 
 
@@ -3182,9 +3404,9 @@ Since then I’ve also added both the 2017 &lt;a href=&#34;https://musiccog.lsu.
     
     <item>
       <title>Calculating iMultisets in R</title>
-      <link>https://davidjohnbaker.rbind.io/post/calculating-imultisets-in-r/</link>
+      <link>/post/calculating-imultisets-in-r/</link>
       <pubDate>Sun, 19 Nov 2017 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/post/calculating-imultisets-in-r/</guid>
+      <guid>/post/calculating-imultisets-in-r/</guid>
       <description>
 
 
@@ -3193,7 +3415,7 @@ There are too many deadlines and if you’re still in coursework (like myself) y
 So if you can save time here or there, it’s usually a good choice.&lt;/p&gt;
 &lt;p&gt;This weekend I was working a homework assignment for my Transformational Theory seminar where we were given a number of pairs of pitch class sets and had to calculate the imultiset for each following Joseph Straus’ 2014 article on &lt;a href=&#34;http://www.mtosmt.org/issues/mto.14.20.2/mto.14.20.2.straus.html&#34;&gt;Total Voice Leading&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;As I looked at the top of the assignment (pictured below) and started to crank out the first one by hand, I realized that the next 30 minutes of my life were going to be doing the same thing over and over again.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/img/calculating-imultisets/imultiset.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/calculating-imultisets/imultiset.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Usually if I get that feeling my next thought is “Can I make a computer do this?” and after thinking about it for two minutes I realized the answer was yes.&lt;/p&gt;
 &lt;p&gt;So instead of doing all of these by hand, I wrote an R script and with the time saved figured I’d write a quick post about it.&lt;/p&gt;
 &lt;div id=&#34;the-problem&#34; class=&#34;section level2&#34;&gt;
@@ -3205,7 +3427,7 @@ These four numbers in the {curly braces} are what you get when you subtract each
 This action then needs to be completed for every pair.&lt;/p&gt;
 &lt;p&gt;When you need to account for every pairing you need to do a &lt;a href=&#34;https://www.w3resource.com/sql/joins/cross-join.php&#34;&gt;cross join&lt;/a&gt;. A cross join connects each member of one set to each member of another set.
 This creates the sets of pairs seen below.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/img/calculating-imultisets/imultisetcj.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/calculating-imultisets/imultisetcj.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Then all you need to do is subtract one from the other to get the distance.
 The only problem is that these subtractions need to happen in Mod 12 space so in any case where you are subtracting a bigger number from a smaller number you will get a negative result!
 This is easily fixed by just adding 12 to that number in order to get what we &lt;em&gt;should&lt;/em&gt; have been our answer if we were doing Mod 12 arithmetic.&lt;/p&gt;
@@ -3266,76 +3488,76 @@ Example$mod12&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Modeling Performance on Aural Skills Examinations</title>
-      <link>https://davidjohnbaker.rbind.io/talk/yboa-aural-2017/</link>
+      <link>/talk/yboa-aural-2017/</link>
       <pubDate>Mon, 11 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/talk/yboa-aural-2017/</guid>
+      <guid>/talk/yboa-aural-2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Modeling and Perception of Melodic Similarity in Jazz Improvisation</title>
-      <link>https://davidjohnbaker.rbind.io/talk/smpc-similarity-2017/</link>
+      <link>/talk/smpc-similarity-2017/</link>
       <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/talk/smpc-similarity-2017/</guid>
+      <guid>/talk/smpc-similarity-2017/</guid>
       <description>&lt;p&gt;Poster presented at the Society for Music Perception and Cognition, 2017&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Validating the Goldsmiths Musical Sophistication Index in a Sample of American Participants</title>
-      <link>https://davidjohnbaker.rbind.io/talk/smpc-gold-2017/</link>
+      <link>/talk/smpc-gold-2017/</link>
       <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/talk/smpc-gold-2017/</guid>
+      <guid>/talk/smpc-gold-2017/</guid>
       <description>&lt;p&gt;Poster presented at the Society for Music Perception and Cognition, 2017&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>A Relational Network Approach to Rock Music Syntax</title>
-      <link>https://davidjohnbaker.rbind.io/talk/smpc-rock-2017/</link>
+      <link>/talk/smpc-rock-2017/</link>
       <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/talk/smpc-rock-2017/</guid>
+      <guid>/talk/smpc-rock-2017/</guid>
       <description>&lt;p&gt;Poster presented at the Society for Music Perception and Cognition, 2017&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Perception of Leitmotives in Richard Wagner&#39;s Der Ring des Nibelungen</title>
-      <link>https://davidjohnbaker.rbind.io/publication/wagner-frontiers/</link>
+      <link>/publication/wagner-frontiers/</link>
       <pubDate>Thu, 04 May 2017 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/publication/wagner-frontiers/</guid>
+      <guid>/publication/wagner-frontiers/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Matching Music to Brand Personality: A Semantic Differential Tool for Measuring Emotional Space</title>
-      <link>https://davidjohnbaker.rbind.io/publication/matching-music-to-brand/</link>
+      <link>/publication/matching-music-to-brand/</link>
       <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/publication/matching-music-to-brand/</guid>
+      <guid>/publication/matching-music-to-brand/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Music, animacy, and rubato: what makes music sound human?</title>
-      <link>https://davidjohnbaker.rbind.io/publication/animacy-proceedings/</link>
+      <link>/publication/animacy-proceedings/</link>
       <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/publication/animacy-proceedings/</guid>
+      <guid>/publication/animacy-proceedings/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Role of Idiomaticism and Affordances in Bebop Improvisation</title>
-      <link>https://davidjohnbaker.rbind.io/publication/bebop-proceedings/</link>
+      <link>/publication/bebop-proceedings/</link>
       <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/publication/bebop-proceedings/</guid>
+      <guid>/publication/bebop-proceedings/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Advanced R Markdown</title>
-      <link>https://davidjohnbaker.rbind.io/my-projects/cognition/</link>
+      <link>/my-projects/cognition/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/my-projects/cognition/</guid>
+      <guid>/my-projects/cognition/</guid>
       <description>&lt;p&gt;This two-day workshop is designed for those who want to take their R Markdown skills to the next level. We’ll talk about many low-level details in the rmarkdown package and the whole R Markdown ecosystem. The two goals of this workshop are: 1) learn how to fully customize R Markdown output (HTML, LaTeX/PDF, Word, and PowerPoint); and 2) learn more about existing R Markdown extensions in the ecosystem, such as flexdashboard, bookdown, blogdown, pkgdown, xaringan, rticles, and learnr. We will also talk about how to use or develop new language engines (languages that are not R), how to develop HTML widgets, and integrate Shiny with R Markdown.&lt;/p&gt;
 &lt;p&gt;See the workshop website for more, and links to individual slides below.&lt;/p&gt;
 &lt;ul&gt;
@@ -3378,9 +3600,9 @@ Example$mod12&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Advanced R Markdown</title>
-      <link>https://davidjohnbaker.rbind.io/my-projects/mmd/</link>
+      <link>/my-projects/mmd/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/my-projects/mmd/</guid>
+      <guid>/my-projects/mmd/</guid>
       <description>&lt;p&gt;This two-day workshop is designed for those who want to take their R Markdown skills to the next level. We’ll talk about many low-level details in the rmarkdown package and the whole R Markdown ecosystem. The two goals of this workshop are: 1) learn how to fully customize R Markdown output (HTML, LaTeX/PDF, Word, and PowerPoint); and 2) learn more about existing R Markdown extensions in the ecosystem, such as flexdashboard, bookdown, blogdown, pkgdown, xaringan, rticles, and learnr. We will also talk about how to use or develop new language engines (languages that are not R), how to develop HTML widgets, and integrate Shiny with R Markdown.&lt;/p&gt;
 &lt;p&gt;See the workshop website for more, and links to individual slides below.&lt;/p&gt;
 </description>
@@ -3388,34 +3610,34 @@ Example$mod12&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>brainwaves</title>
-      <link>https://davidjohnbaker.rbind.io/my-projects/brainwaves/</link>
+      <link>/my-projects/brainwaves/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/my-projects/brainwaves/</guid>
+      <guid>/my-projects/brainwaves/</guid>
       <description>&lt;p&gt;Description Here.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Recognition of Leitmotives in Richard Wagner’s Music: An Item Response Theory Approach</title>
-      <link>https://davidjohnbaker.rbind.io/publication/wagner-irt/</link>
+      <link>/publication/wagner-irt/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/publication/wagner-irt/</guid>
+      <guid>/publication/wagner-irt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Music, Brands, &amp; Advertising: Testing What Works</title>
-      <link>https://davidjohnbaker.rbind.io/publication/aba-2015/</link>
+      <link>/publication/aba-2015/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/publication/aba-2015/</guid>
+      <guid>/publication/aba-2015/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Consultancy Projects</title>
-      <link>https://davidjohnbaker.rbind.io/my-projects/music_industry_consultancy/</link>
+      <link>/my-projects/music_industry_consultancy/</link>
       <pubDate>Thu, 09 Oct 2014 08:38:28 -0700</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/my-projects/music_industry_consultancy/</guid>
+      <guid>/my-projects/music_industry_consultancy/</guid>
       <description>&lt;h3 id=&#34;veritonic&#34;&gt;Veritonic&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Add here&lt;/li&gt;

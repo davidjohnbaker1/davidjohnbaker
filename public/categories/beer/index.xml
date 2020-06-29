@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Beer | David John Baker</title>
-    <link>https://davidjohnbaker.rbind.io/categories/beer/</link>
-      <atom:link href="https://davidjohnbaker.rbind.io/categories/beer/index.xml" rel="self" type="application/rss+xml" />
+    <link>/categories/beer/</link>
+      <atom:link href="/categories/beer/index.xml" rel="self" type="application/rss+xml" />
     <description>Beer</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Sat, 13 Jan 2018 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Beer</title>
-      <link>https://davidjohnbaker.rbind.io/categories/beer/</link>
+      <link>/categories/beer/</link>
     </image>
     
     <item>
       <title>Hire Me (as a Data Scientist!), Part I</title>
-      <link>https://davidjohnbaker.rbind.io/post/hire-me-as-a-data-scientist-part-i/</link>
+      <link>/post/hire-me-as-a-data-scientist-part-i/</link>
       <pubDate>Sat, 13 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/post/hire-me-as-a-data-scientist-part-i/</guid>
+      <guid>/post/hire-me-as-a-data-scientist-part-i/</guid>
       <description>
 
 
@@ -232,7 +232,7 @@ abv.table[, zAvgABV := scale(AvgABV)]&lt;/code&gt;&lt;/pre&gt;
 hist(NoOfBeers$N, breaks= 200, 
      main = &amp;quot;Distribution of Size of Breweries&amp;quot;, 
      xlab = &amp;quot;Number of Beers Produced by a Brewery&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/post/2018-01-14-hire-me-as-a-data-scientist-part-i_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2018-01-14-hire-me-as-a-data-scientist-part-i_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;NoOfBeers[N &amp;gt; 200] # Clearly some big breweries here! &lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;##                        brewery_name   N
 ## 1:    Minneapolis Town Hall Brewery 243
@@ -267,7 +267,7 @@ hist(NoOfBeers$N, breaks= 200,
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;hist(abv.table[N &amp;gt;= 5, ][order(-AvgABV)]$zAvgABV,
      xlab = &amp;quot;z Score of ABV&amp;quot;, 
      main = &amp;quot;Distribution of ABV in Breweries that make more than 5 Beers&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/post/2018-01-14-hire-me-as-a-data-scientist-part-i_files/figure-html/unnamed-chunk-7-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2018-01-14-hire-me-as-a-data-scientist-part-i_files/figure-html/unnamed-chunk-7-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;abv.table[N &amp;gt;= 5 &amp;amp; zAvgABV &amp;gt; 4, ][order(-AvgABV)]&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;##                                           brewery_name   N   AvgABV     SdABV
 ## 1:                                        Schorschbräu  10 19.22882 12.327304
@@ -290,7 +290,7 @@ ggplot(schor.abv, aes(x = beer_name, y = beer_abv)) +
   geom_bar(stat = &amp;quot;identity&amp;quot;)  + 
   labs( title = &amp;quot;Schorschbräu Beer ABV&amp;quot;, x = &amp;quot;Beer Name&amp;quot;, y = &amp;quot;ABV&amp;quot;) +
    theme(axis.text.x=element_text(angle = -90, hjust = 0)) &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/post/2018-01-14-hire-me-as-a-data-scientist-part-i_files/figure-html/unnamed-chunk-8-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2018-01-14-hire-me-as-a-data-scientist-part-i_files/figure-html/unnamed-chunk-8-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;brassOrg.abv &amp;lt;- beer.complete[brewery_name == &amp;quot;Brasserie Grain d&amp;#39; Orge (Brasserie Jeanne d&amp;#39;Arc SA)&amp;quot;, 
                               .(beer_name = unique(beer_name)), by = beer_abv]
 
@@ -300,7 +300,7 @@ ggplot(brassOrg.abv, aes(x = beer_name, y = beer_abv)) +
         x = &amp;quot;Beer Name&amp;quot;, 
         y = &amp;quot;ABV&amp;quot;) +
    theme(axis.text.x=element_text(angle = -90, hjust = 0)) + ylim(0, 60) &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/post/2018-01-14-hire-me-as-a-data-scientist-part-i_files/figure-html/unnamed-chunk-8-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2018-01-14-hire-me-as-a-data-scientist-part-i_files/figure-html/unnamed-chunk-8-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;I think that saying Schorschbräu is technically correct here, but after sharing my findings with my one beer drinking friend
 he pointed out that one thing that this analysis did not take into account was that beers
 that are traditionally brewed to have a higher ABV (like IPAs and Belgiums) might skew my results.
@@ -327,7 +327,7 @@ ordered.abv.by.type$beer_style &amp;lt;- factor(ordered.abv.by.type$beer_style, 
 #       y = &amp;quot;Mean ABV, bars represent SD&amp;quot;) +
 #  geom_errorbar(aes(ymin=MeanAbvType-SdAbvType, ymax=MeanAbvType+SdAbvType)) +
 #  theme_bw()&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/img/abvtemp.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/abvtemp.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;So you can see here that if you wanted to have a higher ABV on average for your brewery, you’d benefit from having more IPAs, Barley Wines, and Belgian Stouts.&lt;/p&gt;
 &lt;p&gt;Now with average ABV for each beer, let’s then match that to our big list, find how each beer fairs against its own category, sort them, and then combine them with our information from before on how big the brewery is.
 For the purposes of this example, let’s only look at breweries that have over 100 beers in the database and look the top 20.&lt;/p&gt;

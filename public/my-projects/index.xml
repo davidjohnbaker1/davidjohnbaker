@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My-projects | David John Baker</title>
-    <link>https://davidjohnbaker.rbind.io/my-projects/</link>
-      <atom:link href="https://davidjohnbaker.rbind.io/my-projects/index.xml" rel="self" type="application/rss+xml" />
+    <link>/my-projects/</link>
+      <atom:link href="/my-projects/index.xml" rel="self" type="application/rss+xml" />
     <description>My-projects</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Wed, 09 Oct 2019 08:38:28 -0700</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>My-projects</title>
-      <link>https://davidjohnbaker.rbind.io/my-projects/</link>
+      <link>/my-projects/</link>
     </image>
     
     <item>
       <title>Public Musicology</title>
-      <link>https://davidjohnbaker.rbind.io/my-projects/public/</link>
+      <link>/my-projects/public/</link>
       <pubDate>Wed, 09 Oct 2019 08:38:28 -0700</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/my-projects/public/</guid>
+      <guid>/my-projects/public/</guid>
       <description>&lt;p&gt;In addition to all the academic and professional things that you &lt;em&gt;should&lt;/em&gt; do as an early career academic, I also am really interested in finding ways to communicate what I do to audiences beyond the Ivory Tower.
 A lot of this comes in the form of tweets and blogs, but here are some other projects I have collaborated on that I am particularly proud of.&lt;/p&gt;
 &lt;h2 id=&#34;the-science-of-netflix&#34;&gt;The Science of Netflix&lt;/h2&gt;
@@ -44,9 +44,9 @@ A lot of this comes in the form of tweets and blogs, but here are some other pro
     
     <item>
       <title>Replication in Music Psychology</title>
-      <link>https://davidjohnbaker.rbind.io/my-projects/replication/</link>
+      <link>/my-projects/replication/</link>
       <pubDate>Wed, 09 Oct 2019 08:38:28 -0700</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/my-projects/replication/</guid>
+      <guid>/my-projects/replication/</guid>
       <description>&lt;p&gt;Here I talk about importance of replication in field of music psychology.
 Important for field.
 Important for helping train future students.
@@ -56,9 +56,9 @@ Important for recrcling on old ideas in order to get new ideas.&lt;/p&gt;
     
     <item>
       <title>Service</title>
-      <link>https://davidjohnbaker.rbind.io/my-projects/service/</link>
+      <link>/my-projects/service/</link>
       <pubDate>Wed, 09 Oct 2019 08:38:28 -0700</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/my-projects/service/</guid>
+      <guid>/my-projects/service/</guid>
       <description>&lt;h3 id=&#34;smpc-student-representative&#34;&gt;SMPC Student Representative&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Things I did there&lt;/li&gt;
@@ -75,9 +75,9 @@ Important for recrcling on old ideas in order to get new ideas.&lt;/p&gt;
     
     <item>
       <title>Advanced R Markdown</title>
-      <link>https://davidjohnbaker.rbind.io/my-projects/cognition/</link>
+      <link>/my-projects/cognition/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/my-projects/cognition/</guid>
+      <guid>/my-projects/cognition/</guid>
       <description>&lt;p&gt;This two-day workshop is designed for those who want to take their R Markdown skills to the next level. We’ll talk about many low-level details in the rmarkdown package and the whole R Markdown ecosystem. The two goals of this workshop are: 1) learn how to fully customize R Markdown output (HTML, LaTeX/PDF, Word, and PowerPoint); and 2) learn more about existing R Markdown extensions in the ecosystem, such as flexdashboard, bookdown, blogdown, pkgdown, xaringan, rticles, and learnr. We will also talk about how to use or develop new language engines (languages that are not R), how to develop HTML widgets, and integrate Shiny with R Markdown.&lt;/p&gt;
 &lt;p&gt;See the workshop website for more, and links to individual slides below.&lt;/p&gt;
 &lt;ul&gt;
@@ -120,9 +120,9 @@ Important for recrcling on old ideas in order to get new ideas.&lt;/p&gt;
     
     <item>
       <title>Advanced R Markdown</title>
-      <link>https://davidjohnbaker.rbind.io/my-projects/mmd/</link>
+      <link>/my-projects/mmd/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/my-projects/mmd/</guid>
+      <guid>/my-projects/mmd/</guid>
       <description>&lt;p&gt;This two-day workshop is designed for those who want to take their R Markdown skills to the next level. We’ll talk about many low-level details in the rmarkdown package and the whole R Markdown ecosystem. The two goals of this workshop are: 1) learn how to fully customize R Markdown output (HTML, LaTeX/PDF, Word, and PowerPoint); and 2) learn more about existing R Markdown extensions in the ecosystem, such as flexdashboard, bookdown, blogdown, pkgdown, xaringan, rticles, and learnr. We will also talk about how to use or develop new language engines (languages that are not R), how to develop HTML widgets, and integrate Shiny with R Markdown.&lt;/p&gt;
 &lt;p&gt;See the workshop website for more, and links to individual slides below.&lt;/p&gt;
 </description>
@@ -130,18 +130,18 @@ Important for recrcling on old ideas in order to get new ideas.&lt;/p&gt;
     
     <item>
       <title>brainwaves</title>
-      <link>https://davidjohnbaker.rbind.io/my-projects/brainwaves/</link>
+      <link>/my-projects/brainwaves/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/my-projects/brainwaves/</guid>
+      <guid>/my-projects/brainwaves/</guid>
       <description>&lt;p&gt;Description Here.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Consultancy Projects</title>
-      <link>https://davidjohnbaker.rbind.io/my-projects/music_industry_consultancy/</link>
+      <link>/my-projects/music_industry_consultancy/</link>
       <pubDate>Thu, 09 Oct 2014 08:38:28 -0700</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/my-projects/music_industry_consultancy/</guid>
+      <guid>/my-projects/music_industry_consultancy/</guid>
       <description>&lt;h3 id=&#34;veritonic&#34;&gt;Veritonic&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Add here&lt;/li&gt;

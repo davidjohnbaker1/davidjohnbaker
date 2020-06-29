@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>open science | David John Baker</title>
-    <link>https://davidjohnbaker.rbind.io/categories/open-science/</link>
-      <atom:link href="https://davidjohnbaker.rbind.io/categories/open-science/index.xml" rel="self" type="application/rss+xml" />
+    <link>/categories/open-science/</link>
+      <atom:link href="/categories/open-science/index.xml" rel="self" type="application/rss+xml" />
     <description>open science</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Wed, 09 Oct 2019 08:38:28 -0700</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>open science</title>
-      <link>https://davidjohnbaker.rbind.io/categories/open-science/</link>
+      <link>/categories/open-science/</link>
     </image>
     
     <item>
       <title>Replication in Music Psychology</title>
-      <link>https://davidjohnbaker.rbind.io/my-projects/replication/</link>
+      <link>/my-projects/replication/</link>
       <pubDate>Wed, 09 Oct 2019 08:38:28 -0700</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/my-projects/replication/</guid>
+      <guid>/my-projects/replication/</guid>
       <description>&lt;p&gt;Here I talk about importance of replication in field of music psychology.
 Important for field.
 Important for helping train future students.

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Grad School | David John Baker</title>
-    <link>https://davidjohnbaker.rbind.io/categories/grad-school/</link>
-      <atom:link href="https://davidjohnbaker.rbind.io/categories/grad-school/index.xml" rel="self" type="application/rss+xml" />
+    <link>/categories/grad-school/</link>
+      <atom:link href="/categories/grad-school/index.xml" rel="self" type="application/rss+xml" />
     <description>Grad School</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Mon, 09 Apr 2018 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Grad School</title>
-      <link>https://davidjohnbaker.rbind.io/categories/grad-school/</link>
+      <link>/categories/grad-school/</link>
     </image>
     
     <item>
       <title>To-Dos and Boundaries</title>
-      <link>https://davidjohnbaker.rbind.io/post/to-dos-and-boundaries/</link>
+      <link>/post/to-dos-and-boundaries/</link>
       <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/post/to-dos-and-boundaries/</guid>
+      <guid>/post/to-dos-and-boundaries/</guid>
       <description>
 
 
@@ -58,7 +58,7 @@ Then under the project are the actual to-dos.
 Each line starts with an action verb in all caps followed by something I could do in one sitting.
 Important to-dos get a &lt;code&gt;;&lt;/code&gt; which my text editor colors as red, which I associate with as important.&lt;/p&gt;
 &lt;p&gt;Here is what my current one looks like:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://davidjohnbaker.rbind.io/img/todo.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/todo.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;So when I am ready to work, all I do is type ‘workflow’ into terminal, then I have a whole list of things I can pick based on priority and what I have the mental energy for.
 By having a few things to choose and having everything written down my work is out of sight, out of mind for when I am not “working”.
 I often tell people that if I don’t write it down, I won’t do it.

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>bookdown | David John Baker</title>
-    <link>https://davidjohnbaker.rbind.io/tags/bookdown/</link>
-      <atom:link href="https://davidjohnbaker.rbind.io/tags/bookdown/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tags/bookdown/</link>
+      <atom:link href="/tags/bookdown/index.xml" rel="self" type="application/rss+xml" />
     <description>bookdown</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>bookdown</title>
-      <link>https://davidjohnbaker.rbind.io/tags/bookdown/</link>
+      <link>/tags/bookdown/</link>
     </image>
     
     <item>
       <title>Advanced R Markdown</title>
-      <link>https://davidjohnbaker.rbind.io/my-projects/cognition/</link>
+      <link>/my-projects/cognition/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/my-projects/cognition/</guid>
+      <guid>/my-projects/cognition/</guid>
       <description>&lt;p&gt;This two-day workshop is designed for those who want to take their R Markdown skills to the next level. We’ll talk about many low-level details in the rmarkdown package and the whole R Markdown ecosystem. The two goals of this workshop are: 1) learn how to fully customize R Markdown output (HTML, LaTeX/PDF, Word, and PowerPoint); and 2) learn more about existing R Markdown extensions in the ecosystem, such as flexdashboard, bookdown, blogdown, pkgdown, xaringan, rticles, and learnr. We will also talk about how to use or develop new language engines (languages that are not R), how to develop HTML widgets, and integrate Shiny with R Markdown.&lt;/p&gt;
 &lt;p&gt;See the workshop website for more, and links to individual slides below.&lt;/p&gt;
 &lt;ul&gt;
@@ -59,9 +59,9 @@
     
     <item>
       <title>Advanced R Markdown</title>
-      <link>https://davidjohnbaker.rbind.io/my-projects/mmd/</link>
+      <link>/my-projects/mmd/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/my-projects/mmd/</guid>
+      <guid>/my-projects/mmd/</guid>
       <description>&lt;p&gt;This two-day workshop is designed for those who want to take their R Markdown skills to the next level. We’ll talk about many low-level details in the rmarkdown package and the whole R Markdown ecosystem. The two goals of this workshop are: 1) learn how to fully customize R Markdown output (HTML, LaTeX/PDF, Word, and PowerPoint); and 2) learn more about existing R Markdown extensions in the ecosystem, such as flexdashboard, bookdown, blogdown, pkgdown, xaringan, rticles, and learnr. We will also talk about how to use or develop new language engines (languages that are not R), how to develop HTML widgets, and integrate Shiny with R Markdown.&lt;/p&gt;
 &lt;p&gt;See the workshop website for more, and links to individual slides below.&lt;/p&gt;
 </description>
@@ -69,9 +69,9 @@
     
     <item>
       <title>brainwaves</title>
-      <link>https://davidjohnbaker.rbind.io/my-projects/brainwaves/</link>
+      <link>/my-projects/brainwaves/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/my-projects/brainwaves/</guid>
+      <guid>/my-projects/brainwaves/</guid>
       <description>&lt;p&gt;Description Here.&lt;/p&gt;
 </description>
     </item>

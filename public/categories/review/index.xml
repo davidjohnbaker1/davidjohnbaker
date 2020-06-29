@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>review | David John Baker</title>
-    <link>https://davidjohnbaker.rbind.io/categories/review/</link>
-      <atom:link href="https://davidjohnbaker.rbind.io/categories/review/index.xml" rel="self" type="application/rss+xml" />
+    <link>/categories/review/</link>
+      <atom:link href="/categories/review/index.xml" rel="self" type="application/rss+xml" />
     <description>review</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>review</title>
-      <link>https://davidjohnbaker.rbind.io/categories/review/</link>
+      <link>/categories/review/</link>
     </image>
     
     <item>
       <title>Regression Modeling Strategies 2020 Review</title>
-      <link>https://davidjohnbaker.rbind.io/post/regression-modeling-strategies-review/</link>
+      <link>/post/regression-modeling-strategies-review/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/post/regression-modeling-strategies-review/</guid>
+      <guid>/post/regression-modeling-strategies-review/</guid>
       <description>
 
 

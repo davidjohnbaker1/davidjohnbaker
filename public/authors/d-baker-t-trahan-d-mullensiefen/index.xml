@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>D Baker, T Trahan, D Müllensiefen | David John Baker</title>
-    <link>https://davidjohnbaker.rbind.io/authors/d-baker-t-trahan-d-mullensiefen/</link>
-      <atom:link href="https://davidjohnbaker.rbind.io/authors/d-baker-t-trahan-d-mullensiefen/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/d-baker-t-trahan-d-mullensiefen/</link>
+      <atom:link href="/authors/d-baker-t-trahan-d-mullensiefen/index.xml" rel="self" type="application/rss+xml" />
     <description>D Baker, T Trahan, D Müllensiefen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Mon, 01 Aug 2016 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>D Baker, T Trahan, D Müllensiefen</title>
-      <link>https://davidjohnbaker.rbind.io/authors/d-baker-t-trahan-d-mullensiefen/</link>
+      <link>/authors/d-baker-t-trahan-d-mullensiefen/</link>
     </image>
     
     <item>
       <title>Matching Music to Brand Personality: A Semantic Differential Tool for Measuring Emotional Space</title>
-      <link>https://davidjohnbaker.rbind.io/publication/matching-music-to-brand/</link>
+      <link>/publication/matching-music-to-brand/</link>
       <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/publication/matching-music-to-brand/</guid>
+      <guid>/publication/matching-music-to-brand/</guid>
       <description></description>
     </item>
     

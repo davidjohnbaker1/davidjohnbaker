@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>review | David John Baker</title>
-    <link>https://davidjohnbaker.rbind.io/tags/review/</link>
-      <atom:link href="https://davidjohnbaker.rbind.io/tags/review/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tags/review/</link>
+      <atom:link href="/tags/review/index.xml" rel="self" type="application/rss+xml" />
     <description>review</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Thu, 28 Mar 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>review</title>
-      <link>https://davidjohnbaker.rbind.io/tags/review/</link>
+      <link>/tags/review/</link>
     </image>
     
     <item>
       <title>Sempre Grad Conference, 2019</title>
-      <link>https://davidjohnbaker.rbind.io/post/sempre-grad-conference-2019/</link>
+      <link>/post/sempre-grad-conference-2019/</link>
       <pubDate>Thu, 28 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/post/sempre-grad-conference-2019/</guid>
+      <guid>/post/sempre-grad-conference-2019/</guid>
       <description>
 
 

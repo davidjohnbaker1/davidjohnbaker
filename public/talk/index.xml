@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent &amp; Upcoming Talks | David John Baker</title>
-    <link>https://davidjohnbaker.rbind.io/talk/</link>
-      <atom:link href="https://davidjohnbaker.rbind.io/talk/index.xml" rel="self" type="application/rss+xml" />
+    <link>/talk/</link>
+      <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Fri, 24 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>https://davidjohnbaker.rbind.io/talk/</link>
+      <link>/talk/</link>
     </image>
     
     <item>
       <title>The Science of Netflix</title>
-      <link>https://davidjohnbaker.rbind.io/talk/science-of-netflix-fis/</link>
+      <link>/talk/science-of-netflix-fis/</link>
       <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/talk/science-of-netflix-fis/</guid>
+      <guid>/talk/science-of-netflix-fis/</guid>
       <description>
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/xkMqgWHn36w&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
@@ -27,115 +27,115 @@
     
     <item>
       <title>Modeling the Limits of Musical Memory</title>
-      <link>https://davidjohnbaker.rbind.io/talk/cogmir-2019/</link>
+      <link>/talk/cogmir-2019/</link>
       <pubDate>Thu, 08 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/talk/cogmir-2019/</guid>
+      <guid>/talk/cogmir-2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Symposium on Open Science</title>
-      <link>https://davidjohnbaker.rbind.io/talk/smpc-openscience-2019/</link>
+      <link>/talk/smpc-openscience-2019/</link>
       <pubDate>Tue, 06 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/talk/smpc-openscience-2019/</guid>
+      <guid>/talk/smpc-openscience-2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>What is happening in a student’s mind when they perform melodic dictation?</title>
-      <link>https://davidjohnbaker.rbind.io/talk/smpc-comp-2019/</link>
+      <link>/talk/smpc-comp-2019/</link>
       <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/talk/smpc-comp-2019/</guid>
+      <guid>/talk/smpc-comp-2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>What is going on in someone&#39;s head when they do melodic dictation?</title>
-      <link>https://davidjohnbaker.rbind.io/talk/pedagogy-compmodel-2019/</link>
+      <link>/talk/pedagogy-compmodel-2019/</link>
       <pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/talk/pedagogy-compmodel-2019/</guid>
+      <guid>/talk/pedagogy-compmodel-2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>What&#39;s going on in someone&#39;s head when they do melodic dictation?</title>
-      <link>https://davidjohnbaker.rbind.io/talk/mtmw-compmodel-2019/</link>
+      <link>/talk/mtmw-compmodel-2019/</link>
       <pubDate>Fri, 10 May 2019 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/talk/mtmw-compmodel-2019/</guid>
+      <guid>/talk/mtmw-compmodel-2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Frequency Facilitation Hypothesis</title>
-      <link>https://davidjohnbaker.rbind.io/talk/againagain-ffh-2019/</link>
+      <link>/talk/againagain-ffh-2019/</link>
       <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/talk/againagain-ffh-2019/</guid>
+      <guid>/talk/againagain-ffh-2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Modeling Melodic Dictation</title>
-      <link>https://davidjohnbaker.rbind.io/talk/open-university-2018/</link>
+      <link>/talk/open-university-2018/</link>
       <pubDate>Thu, 15 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/talk/open-university-2018/</guid>
+      <guid>/talk/open-university-2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Examining Objective and Subjective Aspects of Musical Sophistication: Insights from General Fluid Intelligence and Working Memory Capacity</title>
-      <link>https://davidjohnbaker.rbind.io/talk/icmpc-wmc-2018/</link>
+      <link>/talk/icmpc-wmc-2018/</link>
       <pubDate>Sat, 28 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/talk/icmpc-wmc-2018/</guid>
+      <guid>/talk/icmpc-wmc-2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Root Interval Schemas in Rock Music</title>
-      <link>https://davidjohnbaker.rbind.io/talk/scsmt-2018/</link>
+      <link>/talk/scsmt-2018/</link>
       <pubDate>Fri, 23 Mar 2018 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/talk/scsmt-2018/</guid>
+      <guid>/talk/scsmt-2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Who counts as a musician?</title>
-      <link>https://davidjohnbaker.rbind.io/talk/pmd-musician-2018/</link>
+      <link>/talk/pmd-musician-2018/</link>
       <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/talk/pmd-musician-2018/</guid>
+      <guid>/talk/pmd-musician-2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Modeling Performance on Aural Skills Examinations</title>
-      <link>https://davidjohnbaker.rbind.io/talk/yboa-aural-2017/</link>
+      <link>/talk/yboa-aural-2017/</link>
       <pubDate>Mon, 11 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/talk/yboa-aural-2017/</guid>
+      <guid>/talk/yboa-aural-2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Modeling and Perception of Melodic Similarity in Jazz Improvisation</title>
-      <link>https://davidjohnbaker.rbind.io/talk/smpc-similarity-2017/</link>
+      <link>/talk/smpc-similarity-2017/</link>
       <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/talk/smpc-similarity-2017/</guid>
+      <guid>/talk/smpc-similarity-2017/</guid>
       <description>&lt;p&gt;Poster presented at the Society for Music Perception and Cognition, 2017&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Validating the Goldsmiths Musical Sophistication Index in a Sample of American Participants</title>
-      <link>https://davidjohnbaker.rbind.io/talk/smpc-gold-2017/</link>
+      <link>/talk/smpc-gold-2017/</link>
       <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/talk/smpc-gold-2017/</guid>
+      <guid>/talk/smpc-gold-2017/</guid>
       <description>&lt;p&gt;Poster presented at the Society for Music Perception and Cognition, 2017&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>A Relational Network Approach to Rock Music Syntax</title>
-      <link>https://davidjohnbaker.rbind.io/talk/smpc-rock-2017/</link>
+      <link>/talk/smpc-rock-2017/</link>
       <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/talk/smpc-rock-2017/</guid>
+      <guid>/talk/smpc-rock-2017/</guid>
       <description>&lt;p&gt;Poster presented at the Society for Music Perception and Cognition, 2017&lt;/p&gt;
 </description>
     </item>

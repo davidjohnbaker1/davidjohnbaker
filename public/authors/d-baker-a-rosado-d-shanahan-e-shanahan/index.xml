@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>D Baker, A Rosado, D Shanahan, E Shanahan | David John Baker</title>
-    <link>https://davidjohnbaker.rbind.io/authors/d-baker-a-rosado-d-shanahan-e-shanahan/</link>
-      <atom:link href="https://davidjohnbaker.rbind.io/authors/d-baker-a-rosado-d-shanahan-e-shanahan/index.xml" rel="self" type="application/rss+xml" />
+    <link>/authors/d-baker-a-rosado-d-shanahan-e-shanahan/</link>
+      <atom:link href="/authors/d-baker-a-rosado-d-shanahan-e-shanahan/index.xml" rel="self" type="application/rss+xml" />
     <description>D Baker, A Rosado, D Shanahan, E Shanahan</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Mon, 01 Aug 2016 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>D Baker, A Rosado, D Shanahan, E Shanahan</title>
-      <link>https://davidjohnbaker.rbind.io/authors/d-baker-a-rosado-d-shanahan-e-shanahan/</link>
+      <link>/authors/d-baker-a-rosado-d-shanahan-e-shanahan/</link>
     </image>
     
     <item>
       <title>The Role of Idiomaticism and Affordances in Bebop Improvisation</title>
-      <link>https://davidjohnbaker.rbind.io/publication/bebop-proceedings/</link>
+      <link>/publication/bebop-proceedings/</link>
       <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/publication/bebop-proceedings/</guid>
+      <guid>/publication/bebop-proceedings/</guid>
       <description></description>
     </item>
     
