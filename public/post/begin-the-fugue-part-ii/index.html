@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="For the most part, Twitter is full of garbage. But I’m an optimist and a firm believer in Sturgeon’s Law so by that logic there must be some good on it.">
+  <meta name="description" content="Vocationtional Vicissitudes After existing in this bootcamp space for the past few months, I feel like I am walking away with a very fresh take on what it means to teach in a vocational, rather than a liberal arts setting.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/post/looking-for-musicologists-on-twitter/">
+  <link rel="alternate" hreflang="en-us" href="/post/begin-the-fugue-part-ii/">
 
   
 
@@ -251,7 +251,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="/post/looking-for-musicologists-on-twitter/">
+  <link rel="canonical" href="/post/begin-the-fugue-part-ii/">
 
   
   
@@ -268,15 +268,15 @@
   <meta property="twitter:creator" content="@DavidJohnBaker">
   
   <meta property="og:site_name" content="David John Baker">
-  <meta property="og:url" content="/post/looking-for-musicologists-on-twitter/">
-  <meta property="og:title" content="Looking For Musicologists on Twitter | David John Baker">
-  <meta property="og:description" content="For the most part, Twitter is full of garbage. But I’m an optimist and a firm believer in Sturgeon’s Law so by that logic there must be some good on it."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
+  <meta property="og:url" content="/post/begin-the-fugue-part-ii/">
+  <meta property="og:title" content="Begin the Fugue, Part II | David John Baker">
+  <meta property="og:description" content="Vocationtional Vicissitudes After existing in this bootcamp space for the past few months, I feel like I am walking away with a very fresh take on what it means to teach in a vocational, rather than a liberal arts setting."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
   <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2017-11-20T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2020-06-29T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2017-11-20T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2020-06-29T10:00:24&#43;01:00">
   
 
   
@@ -300,12 +300,12 @@
   "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "/post/looking-for-musicologists-on-twitter/"
+    "@id": "/post/begin-the-fugue-part-ii/"
   },
-  "headline": "Looking For Musicologists on Twitter",
+  "headline": "Begin the Fugue, Part II",
   
-  "datePublished": "2017-11-20T00:00:00Z",
-  "dateModified": "2017-11-20T00:00:00Z",
+  "datePublished": "2020-06-29T00:00:00Z",
+  "dateModified": "2020-06-29T10:00:24+01:00",
   
   "author": {
     "@type": "Person",
@@ -320,7 +320,7 @@
       "url": "/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "For the most part, Twitter is full of garbage. But I’m an optimist and a firm believer in Sturgeon’s Law so by that logic there must be some good on it."
+  "description": "Vocationtional Vicissitudes After existing in this bootcamp space for the past few months, I feel like I am walking away with a very fresh take on what it means to teach in a vocational, rather than a liberal arts setting."
 }
 </script>
 
@@ -338,7 +338,7 @@
 
 
 
-  <title>Looking For Musicologists on Twitter | David John Baker</title>
+  <title>Begin the Fugue, Part II | David John Baker</title>
 
 </head>
 
@@ -563,7 +563,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Looking For Musicologists on Twitter</h1>
+  <h1>Begin the Fugue, Part II</h1>
 
   
 
@@ -581,8 +581,10 @@
     
     
       
+          Last updated on
+      
     
-    Nov 20, 2017
+    Jun 29, 2020
   </span>
   
 
@@ -591,7 +593,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    4 min read
+    7 min read
   </span>
   
 
@@ -600,10 +602,6 @@
   
 
   
-  
-  <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/categories/r/">R</a></span>
   
 
 </div>
@@ -634,66 +632,54 @@
       
 
 
-<p>For the most part, Twitter is full of garbage.
-But I’m an optimist and a firm believer in <a href="https://en.wikipedia.org/wiki/Sturgeon%27s_law">Sturgeon’s Law</a> so by that logic there must be some good on it.
-That good is academic twitter.</p>
-<p>While this isn’t a post advocating for academic Twitter, I did want to<br />
-1. see if I could figure out how to write a post with some R code in it and
-2. share how I scraped Twitter to find active users in the Musicology and Music Theory community</p>
-<p>So here it goes…</p>
-<p>The first thing that you have to do is get some tweets.
-Luckily some packages exist in the #rstats world that can help with this.
-For this project I used the <a href="https://cran.r-project.org/web/packages/twitteR/twitteR.pdf">twitteR</a> package which lets you log into Twitter’s API via R and and search it.
-There are already some instructions on how to get started with it that you can find <a href="https://davetang.org/muse/2013/04/06/using-the-r_twitter-package/">here</a>, so I won’t go into tons of detail about setting it up.
-(Also please note you can’t just copy and paste my code verbatim since it requires credentials from <em>your</em> own Twitter account)</p>
-<p>Let’s first load the two packages we’ll need.</p>
-<pre class="r"><code>library(data.table)
-library(twitteR)</code></pre>
-<p>Next up, we need to access Twitter’s API by entering in the details from the link above.
-I find it’s easiest to copy and paste each of my keys and tokens into a nice little character string, assign those to an object, then call those objects in the last command in this block.</p>
-<pre class="r"><code>consumer_key &lt;- &#39;YOUR CONSUMER KEY HERE&#39;
-consumer_secret &lt;- &#39;COPY AND PASTE YOUR CONSUMER SECRET HERE&#39;
-access_token &lt;- &#39;THEN PUT YOUR ACCESS TOKEN HERE&#39;
-access_secret &lt;- &#39;AND YOUR ACCESS SECRET HERE&#39;
-setup_twitter_oauth(consumer_key, consumer_secret, access_token=NULL, access_secret=NULL)</code></pre>
-<p>Running that last line in the chunk should then direct you to your default browser.
-This will log you into your Twitter account and R will ask for Twitter’s permission to enter through the back door.</p>
-<p>The next bit of code won’t run the way I have it set up because Twitter doesn’t let you download tweets older than a week old.
-So if you want to play with tweets from a conference’s hashtag or some event, make sure to think ahead to download them!!</p>
-<pre class="r"><code>amsTwitter &lt;- searchTwitter(&quot;#smt2017&quot;, n = 700)
-amsTwitter &lt;- searchTwitter(&quot;#amsroc17&quot;, n = 1600)</code></pre>
-<p>This line above searches Twitter for anything matching the conference hashtags and saves the output of it in a list.
-You can also include an argument asking for a certain number of tweets, which I’ve also done.
-Luckily the twitteR package has a function that will take this list and convert it to a data frame.</p>
-<pre class="r"><code>amsTwitter.df &lt;- twListToDF(amsTwitter)
-smtTwitter.df &lt;- twListToDF(smtTwitter)</code></pre>
-<p>With these nice data frames, we’ll soon be able to join them together and count up some tweets!
-In order to do this we can take advantage of the
-<a href="https://cran.r-project.org/web/packages/data.table/vignettes/datatable-intro.html">data.table</a> package to join our two tables together.
-Of course there are other ways, but Ben over at <a href="https://gormanalysis.com/">Gorm Analytics</a> sold me on data.table this past summer and since then I have really been loving its easy syntax.</p>
-<pre class="r"><code>amsTwitter.dt &lt;- data.table(amsTwitter.df)
-smtTwitter.dt &lt;- data.table(smtTwitter.df)
-amstweets &lt;- amsTwitter.dt[, .(amsTweets = .N), by=screenName][order(-amsTweets)]
-smttweets &lt;- smtTwitter.dt[, .(smtTweets = .N), by=screenName][order(-smtTweets)]
-totalTweets &lt;- merge(smttweets,amstweets, on =&quot;screenName&quot;, all = TRUE)</code></pre>
-<p>The first thing the above code does is swap our data frames over to data.tables.
-Once they are in the data.table format, we can count up the tweets by screen name, then list them from biggest to smallest all in the same line.
-From there we merge the two together via the shared column, making sure to grab every instance in each table since not every Tweeter tweeted with both hashtags.</p>
-<p>We then need to clean up some of the NAs (which as a data.table are characters!) in our bigger dataset with R’s ifelse() function that basically works exactly like an ifelse statement would in Microsoft Excel.
-It looks over a column in your dataset, checks if a value is an NA, if it is then it gives it a 0, if not, it puts in the value that was there in the first place.
-After replacing NAs, I then make a new variable that adds together both columns then run our final line that prints out our final dataset from top to bottom.</p>
-<pre class="r"><code>totalTweets$smtTweets &lt;- ifelse(test = is.na(totalTweets$smtTweets),
-                                yes = 0,
-                                no = totalTweets$smtTweets) 
-totalTweets$amsTweets &lt;- ifelse(test = is.na(totalTweets$amsTweets),
-                                yes = 0,
-                                no = totalTweets$amsTweets) 
-
-totalTweets[, TotalTweets := smtTweets + amsTweets]
-totalTweets[order(-TotalTweets)]</code></pre>
-<p>From here it was simply a matter of using an <a href="http://www.convertcsv.com/csv-to-html.htm">online converter</a> to turn it our final table an html file and then ssh it up to our <a href="http://musiccog.lsu.edu/">Music Cognition at LSU</a> server!
-Since then I’ve also added both the 2017 <a href="https://musiccog.lsu.edu/davidjohnbaker/data/amsmt17twitterdata/AmtTwitterData.csv">AMS</a> and <a href="https://musiccog.lsu.edu/davidjohnbaker/data/amsmt17twitterdata/SmtTwitterData.csv">SMT</a> datasets that I used to generate the counts in case you want to try this for yourself.</p>
-<p>If anyone has any questions on this, please <a href="https://twitter.com/DavidJohnBaker">tweet me</a>!</p>
+<div id="vocationtional-vicissitudes" class="section level2">
+<h2>Vocationtional Vicissitudes</h2>
+<p>After existing in this bootcamp space for the past few months, I feel like I am walking away with a very fresh take on what it means to teach in a vocational, rather than a liberal arts setting.
+When the goal of the teaching is unabashedly “be useful in a neoliberal vocation” context, there’s a lot less theory (of course something I personally wasn’t the biggest fan of for hopefully obvious reasons) and much more honesty about what this specific type of student wanted out of their education: new opportunities for employment.</p>
+<p>I want to be very clear that I do not think that this approach should be the default goal of education (even though that is the new constant pressure), but now having experienced living in this bizarro world where success is defined solely by employment I now have a lot more opinions about the “value/values” demarcation in education.
+In many ways, I very much agree with many goals of Flatiron in that there is a huge hole in the way things are set up now for vocational job training that doesn’t fit the traditional guild/apprentice model (electrician, plumber) and there should be more opportunities for people to accomplish this if they want.
+This is especially true if it will lead to a marked difference in quality of life when it comes to their income.
+It makes me very happy to have worked for a company that has allocated <a href="https://flatironschool.com/access/">scholarship money for those that are underrepresented in tech</a> and to have been able to pass on those opportunities to people I know personally.</p>
+<p>Of course the idealist in me would go so far as to try to steer the next part of this conversation away from idea of social mobility (why don’t we just pay people all more than living wages and avoid classist ideas that value white collar above blue collar work) but the realist in me knows that this structure is entrenched in Western society right now so if there is a way to open the door to making more money and better quality of life for people through work, then people who can open that door need to open it as wide as humanly possible.</p>
+<p>Reflecting on the vocational versus liberal arts really has me thinking about that and what the future of what higher education will be.
+Many of my academic colleagues know the pressure of being asked to demonstrate “transferable skills” in their curricula.
+Students rightly want to be able to make a living for themselves when they graduate.</p>
+<p>But if we just follow the job market and placements as our only metric for success, I feel as though we really betray the entire goal of education.
+<a href="https://en.wikipedia.org/wiki/Bullshit_Jobs">If you do think that, you need to get yourself a copy of David Graeber’s Bullshit Jobs immedietly</a>.
+Now I don’t want to fall prey to Rule Number 2 of grad school (“Be on the lookout for false dichotomies”) thinking we can’t have both, but as more pressure is put on higher education to use employment as a <a href="https://www.google.com/search?q=kpi&amp;oq=kpi&amp;aqs=chrome..69i57j0l6j46.664j0j4&amp;sourceid=chrome&amp;ie=UTF-8">KPI</a> (a new term I learned this year) there is a lot higher ed can and should take from the vocational/bootcamp model.
+If so much can be accomplished in so little time that can lead to better chances at employment, I am sure there is time during a four year undergraduate degree to equip them with what they need for employment (if they want to do this) that is not just a few resume review sessions.</p>
+<p>I know this might not be as big of a deal for some of my STEM colleagues or students, but I do think about what this would look like if there was some sort of vocational option for music students.
+The irony is also not lost on me that when I talk about music students, I understand the historical links to a music conservatory, which again is all about going on to “work” as a professional musician (having lived that life myself).
+But the reality that every one of my conservatory friends found post-graduation is that it is really, really hard to have a “normal life” as a performing musician.
+You can gig a lot and do a fair bit of teaching, but you often find that many of your colleagues are bank rolled by their wealthy spouses or parents.
+And on top of that, the hours don’t align with the “working day” (which I know not everyone wants anyway).
+Or you can go on tour and basically give up your “normal life”.</p>
+<p>If you do this, you can be in the position to make a living, but it’s not exactly normal.
+I know things are a bit different for Music Ed, but I’m more thinking about the many jobs that people with really fantastic music educations could do, but either don’t know exist or have zero job preparation to get themselves that role.
+For example, the graduate student in musicology who has their finger on the pulse of the fantastic ideas in academic music study now, but would never have anything in their curricula about putting theory into practice at something like an arts organisation.</p>
+<p>I could easily imagine what a summer intensive might look like for music students (especially grad students) looking to pick up the skills they would need to go alt.
+I am sure there are tons of major orchestras or larger arts organizations that would benefit tremendously from music students who are like what I just described, but lack the mental model as to what power tools they need to be effective.
+Just learning basic data literacy, enough programming to wrangle data and make convincing visualizations for the board, and tools for thinking to not make rookie inferential mistakes could all be learned in a setting like this.
+Of course how I am thinking about it takes much more of a quant focus than what would traditionally not be offered in a music school setting, but that’s kind of the point in that you’d be able to do both.
+I can’t emphasize enough how much computer and research/data literacy (not even mastery) can add value to your organization when you couple it with the pre-existing expertise you have of your domain.</p>
+<p>I am sure a small group of students who just wanted to learn these in-demand vocational skills over the summer or an alt-semester, they’d be ripe and ready by the end of it to go on and help arts organizations or work somewhere else.
+Maybe even set it up to lead to internships or something?
+The new skill set would give them comfort in knowing all their eggs are not in the one basket that is music performance or the “academic job market” while not losing the culture of total immersion in music.
+Just a little bizarro world like the one I have been living in for the past year for them to enter for a few months to give them something different.<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></p>
+<p>Of course I don’t know who is going to pay for that or if students would be interested, but it’s got my mind ticking after seeing what can be done in three months when you just stare into vocationalism.</p>
+<p>The whole experience teaching in this context thing really felt like if you’ve had the chance to learn a second language (non-natively) like being a white kid learning Spanish in secondary school and even though you’re learning Spanish, you’re also learning more about English because you had no idea what you took for granted about your own language.
+I will definitely be re-doing many parts of my teaching statement after the past nine months here.</p>
+<p>I won’t be able to implement these zany ideas anytime soon, but I did want to put them out there now since I think this push for vocational skills within the liberal arts will only become stronger as funding continues to drop for higher education and students withdraw from enrolling until they can go back on campus.</p>
+<p>I’ll just end this section again here with repeating that I do not think that this emphasis on jobs should be the new standard for higher ed, but rather stealing ideas from the bootcamp model, annexing it as something separate for students who are interested, and then actually pulling this idea that liberal arts degrees need to be about employability out of the curricula so we can focus on deeper issues than just getting jobs.</p>
+<p>Now knowing I won’t be doing this next, what might I be?</p>
+<p>This takes me to <a href="https://davidjohnbaker.rbind.io/post/begin-the-future-part-iii">Part III of this series</a> of me having a lot of time to think the past month, but no ability whatsoever to concentrate on my professional research.</p>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>I can already hear the response of “There is no room for this in the curricula! We barely can let go of Set Theory!” Maybe one day it can be a fun Twitter conversation.<a href="#fnref1" class="footnote-back">↩</a></p></li>
+</ol>
+</div>
 
     </div>
 
@@ -702,16 +688,6 @@ Since then I’ve also added both the 2017 <a href="https://musiccog.lsu.edu/dav
 
 
 
-
-<div class="article-tags">
-  
-  <a class="badge badge-light" href="/tags/twitter/">Twitter</a>
-  
-  <a class="badge badge-light" href="/tags/r/">R</a>
-  
-  <a class="badge badge-light" href="/tags/data-mining/">Data Mining</a>
-  
-</div>
 
 
 
@@ -726,7 +702,7 @@ Since then I’ve also added both the 2017 <a href="https://musiccog.lsu.edu/dav
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/post/looking-for-musicologists-on-twitter/&amp;text=Looking%20For%20Musicologists%20on%20Twitter" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/post/begin-the-fugue-part-ii/&amp;text=Begin%20the%20Fugue,%20Part%20II" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -739,7 +715,7 @@ Since then I’ve also added both the 2017 <a href="https://musiccog.lsu.edu/dav
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/post/looking-for-musicologists-on-twitter/&amp;t=Looking%20For%20Musicologists%20on%20Twitter" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/post/begin-the-fugue-part-ii/&amp;t=Begin%20the%20Fugue,%20Part%20II" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -752,7 +728,7 @@ Since then I’ve also added both the 2017 <a href="https://musiccog.lsu.edu/dav
       
       
       <li>
-        <a href="mailto:?subject=Looking%20For%20Musicologists%20on%20Twitter&amp;body=/post/looking-for-musicologists-on-twitter/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Begin%20the%20Fugue,%20Part%20II&amp;body=/post/begin-the-fugue-part-ii/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -765,7 +741,7 @@ Since then I’ve also added both the 2017 <a href="https://musiccog.lsu.edu/dav
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/post/looking-for-musicologists-on-twitter/&amp;title=Looking%20For%20Musicologists%20on%20Twitter" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/post/begin-the-fugue-part-ii/&amp;title=Begin%20the%20Fugue,%20Part%20II" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -778,7 +754,7 @@ Since then I’ve also added both the 2017 <a href="https://musiccog.lsu.edu/dav
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Looking%20For%20Musicologists%20on%20Twitter%20/post/looking-for-musicologists-on-twitter/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Begin%20the%20Fugue,%20Part%20II%20/post/begin-the-fugue-part-ii/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -791,7 +767,7 @@ Since then I’ve also added both the 2017 <a href="https://musiccog.lsu.edu/dav
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/post/looking-for-musicologists-on-twitter/&amp;title=Looking%20For%20Musicologists%20on%20Twitter" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/post/begin-the-fugue-part-ii/&amp;title=Begin%20the%20Fugue,%20Part%20II" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -932,21 +908,6 @@ Since then I’ve also added both the 2017 <a href="https://musiccog.lsu.edu/dav
 
 
   
-  
-  <div class="article-widget content-widget-hr">
-    <h3>Related</h3>
-    <ul>
-      
-      <li><a href="/post/calculating-imultisets-in-r/">Calculating iMultisets in R</a></li>
-      
-      <li><a href="/my-projects/cognition/">Advanced R Markdown</a></li>
-      
-      <li><a href="/my-projects/mmd/">Advanced R Markdown</a></li>
-      
-      <li><a href="/my-projects/brainwaves/">brainwaves</a></li>
-      
-    </ul>
-  </div>
   
 
 

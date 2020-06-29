@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="For the most part, Twitter is full of garbage. But I’m an optimist and a firm believer in Sturgeon’s Law so by that logic there must be some good on it.">
+  <meta name="description" content="The past few months have been pretty exhausting. On top of all things lockdown and the global pandemic, a little over a month ago I was told that my job was “at risk” of redundancy.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/post/looking-for-musicologists-on-twitter/">
+  <link rel="alternate" hreflang="en-us" href="/post/begin-the-fugue-part-i/">
 
   
 
@@ -251,7 +251,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="/post/looking-for-musicologists-on-twitter/">
+  <link rel="canonical" href="/post/begin-the-fugue-part-i/">
 
   
   
@@ -268,15 +268,15 @@
   <meta property="twitter:creator" content="@DavidJohnBaker">
   
   <meta property="og:site_name" content="David John Baker">
-  <meta property="og:url" content="/post/looking-for-musicologists-on-twitter/">
-  <meta property="og:title" content="Looking For Musicologists on Twitter | David John Baker">
-  <meta property="og:description" content="For the most part, Twitter is full of garbage. But I’m an optimist and a firm believer in Sturgeon’s Law so by that logic there must be some good on it."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
+  <meta property="og:url" content="/post/begin-the-fugue-part-i/">
+  <meta property="og:title" content="Begin the Fugue, Part I | David John Baker">
+  <meta property="og:description" content="The past few months have been pretty exhausting. On top of all things lockdown and the global pandemic, a little over a month ago I was told that my job was “at risk” of redundancy."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
   <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2017-11-20T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2020-06-29T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2017-11-20T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2020-06-29T09:48:55&#43;01:00">
   
 
   
@@ -300,12 +300,12 @@
   "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "/post/looking-for-musicologists-on-twitter/"
+    "@id": "/post/begin-the-fugue-part-i/"
   },
-  "headline": "Looking For Musicologists on Twitter",
+  "headline": "Begin the Fugue, Part I",
   
-  "datePublished": "2017-11-20T00:00:00Z",
-  "dateModified": "2017-11-20T00:00:00Z",
+  "datePublished": "2020-06-29T00:00:00Z",
+  "dateModified": "2020-06-29T09:48:55+01:00",
   
   "author": {
     "@type": "Person",
@@ -320,7 +320,7 @@
       "url": "/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "For the most part, Twitter is full of garbage. But I’m an optimist and a firm believer in Sturgeon’s Law so by that logic there must be some good on it."
+  "description": "The past few months have been pretty exhausting. On top of all things lockdown and the global pandemic, a little over a month ago I was told that my job was “at risk” of redundancy."
 }
 </script>
 
@@ -338,7 +338,7 @@
 
 
 
-  <title>Looking For Musicologists on Twitter | David John Baker</title>
+  <title>Begin the Fugue, Part I | David John Baker</title>
 
 </head>
 
@@ -563,7 +563,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Looking For Musicologists on Twitter</h1>
+  <h1>Begin the Fugue, Part I</h1>
 
   
 
@@ -581,8 +581,10 @@
     
     
       
+          Last updated on
+      
     
-    Nov 20, 2017
+    Jun 29, 2020
   </span>
   
 
@@ -591,7 +593,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    4 min read
+    7 min read
   </span>
   
 
@@ -600,10 +602,6 @@
   
 
   
-  
-  <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/categories/r/">R</a></span>
   
 
 </div>
@@ -634,66 +632,69 @@
       
 
 
-<p>For the most part, Twitter is full of garbage.
-But I’m an optimist and a firm believer in <a href="https://en.wikipedia.org/wiki/Sturgeon%27s_law">Sturgeon’s Law</a> so by that logic there must be some good on it.
-That good is academic twitter.</p>
-<p>While this isn’t a post advocating for academic Twitter, I did want to<br />
-1. see if I could figure out how to write a post with some R code in it and
-2. share how I scraped Twitter to find active users in the Musicology and Music Theory community</p>
-<p>So here it goes…</p>
-<p>The first thing that you have to do is get some tweets.
-Luckily some packages exist in the #rstats world that can help with this.
-For this project I used the <a href="https://cran.r-project.org/web/packages/twitteR/twitteR.pdf">twitteR</a> package which lets you log into Twitter’s API via R and and search it.
-There are already some instructions on how to get started with it that you can find <a href="https://davetang.org/muse/2013/04/06/using-the-r_twitter-package/">here</a>, so I won’t go into tons of detail about setting it up.
-(Also please note you can’t just copy and paste my code verbatim since it requires credentials from <em>your</em> own Twitter account)</p>
-<p>Let’s first load the two packages we’ll need.</p>
-<pre class="r"><code>library(data.table)
-library(twitteR)</code></pre>
-<p>Next up, we need to access Twitter’s API by entering in the details from the link above.
-I find it’s easiest to copy and paste each of my keys and tokens into a nice little character string, assign those to an object, then call those objects in the last command in this block.</p>
-<pre class="r"><code>consumer_key &lt;- &#39;YOUR CONSUMER KEY HERE&#39;
-consumer_secret &lt;- &#39;COPY AND PASTE YOUR CONSUMER SECRET HERE&#39;
-access_token &lt;- &#39;THEN PUT YOUR ACCESS TOKEN HERE&#39;
-access_secret &lt;- &#39;AND YOUR ACCESS SECRET HERE&#39;
-setup_twitter_oauth(consumer_key, consumer_secret, access_token=NULL, access_secret=NULL)</code></pre>
-<p>Running that last line in the chunk should then direct you to your default browser.
-This will log you into your Twitter account and R will ask for Twitter’s permission to enter through the back door.</p>
-<p>The next bit of code won’t run the way I have it set up because Twitter doesn’t let you download tweets older than a week old.
-So if you want to play with tweets from a conference’s hashtag or some event, make sure to think ahead to download them!!</p>
-<pre class="r"><code>amsTwitter &lt;- searchTwitter(&quot;#smt2017&quot;, n = 700)
-amsTwitter &lt;- searchTwitter(&quot;#amsroc17&quot;, n = 1600)</code></pre>
-<p>This line above searches Twitter for anything matching the conference hashtags and saves the output of it in a list.
-You can also include an argument asking for a certain number of tweets, which I’ve also done.
-Luckily the twitteR package has a function that will take this list and convert it to a data frame.</p>
-<pre class="r"><code>amsTwitter.df &lt;- twListToDF(amsTwitter)
-smtTwitter.df &lt;- twListToDF(smtTwitter)</code></pre>
-<p>With these nice data frames, we’ll soon be able to join them together and count up some tweets!
-In order to do this we can take advantage of the
-<a href="https://cran.r-project.org/web/packages/data.table/vignettes/datatable-intro.html">data.table</a> package to join our two tables together.
-Of course there are other ways, but Ben over at <a href="https://gormanalysis.com/">Gorm Analytics</a> sold me on data.table this past summer and since then I have really been loving its easy syntax.</p>
-<pre class="r"><code>amsTwitter.dt &lt;- data.table(amsTwitter.df)
-smtTwitter.dt &lt;- data.table(smtTwitter.df)
-amstweets &lt;- amsTwitter.dt[, .(amsTweets = .N), by=screenName][order(-amsTweets)]
-smttweets &lt;- smtTwitter.dt[, .(smtTweets = .N), by=screenName][order(-smtTweets)]
-totalTweets &lt;- merge(smttweets,amstweets, on =&quot;screenName&quot;, all = TRUE)</code></pre>
-<p>The first thing the above code does is swap our data frames over to data.tables.
-Once they are in the data.table format, we can count up the tweets by screen name, then list them from biggest to smallest all in the same line.
-From there we merge the two together via the shared column, making sure to grab every instance in each table since not every Tweeter tweeted with both hashtags.</p>
-<p>We then need to clean up some of the NAs (which as a data.table are characters!) in our bigger dataset with R’s ifelse() function that basically works exactly like an ifelse statement would in Microsoft Excel.
-It looks over a column in your dataset, checks if a value is an NA, if it is then it gives it a 0, if not, it puts in the value that was there in the first place.
-After replacing NAs, I then make a new variable that adds together both columns then run our final line that prints out our final dataset from top to bottom.</p>
-<pre class="r"><code>totalTweets$smtTweets &lt;- ifelse(test = is.na(totalTweets$smtTweets),
-                                yes = 0,
-                                no = totalTweets$smtTweets) 
-totalTweets$amsTweets &lt;- ifelse(test = is.na(totalTweets$amsTweets),
-                                yes = 0,
-                                no = totalTweets$amsTweets) 
-
-totalTweets[, TotalTweets := smtTweets + amsTweets]
-totalTweets[order(-TotalTweets)]</code></pre>
-<p>From here it was simply a matter of using an <a href="http://www.convertcsv.com/csv-to-html.htm">online converter</a> to turn it our final table an html file and then ssh it up to our <a href="http://musiccog.lsu.edu/">Music Cognition at LSU</a> server!
-Since then I’ve also added both the 2017 <a href="https://musiccog.lsu.edu/davidjohnbaker/data/amsmt17twitterdata/AmtTwitterData.csv">AMS</a> and <a href="https://musiccog.lsu.edu/davidjohnbaker/data/amsmt17twitterdata/SmtTwitterData.csv">SMT</a> datasets that I used to generate the counts in case you want to try this for yourself.</p>
-<p>If anyone has any questions on this, please <a href="https://twitter.com/DavidJohnBaker">tweet me</a>!</p>
+<p>The past few months have been pretty exhausting.
+On top of all things lockdown and the global pandemic, a little over a month ago I was told that my job was “at risk” of redundancy.
+After going through the full collective consultation period, today is my last official day working as an employee of Flatiron School.
+While this has been a bit of a shock, I’ve been thinking about my time at Flatiron these past few weeks and as my first prelude comes to its final <a href="https://en.wikipedia.org/wiki/Cadence#:~:text=In%20a%20perfect%20authentic%20cadence,found%20at%20structurally%20defining%20moments.">PAC</a> and brace for the subsequent fugue<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>, I always find that writing about what is on my mind really helps me see the bigger picture.</p>
+<p>Looking over everything I did mull over, it’s quite long so I’ve broken it up into three parts:</p>
+<ul>
+<li>What Did I Just Do?: A prosaic setting of my resume</li>
+<li>Vocationtional Vicissitudes: My thoughts on why vocationalism versus the liberal arts helps me understand higher education</li>
+<li>My Dream AD (Applicant’s Description): Things I Might Want to do Next with My Job</li>
+</ul>
+<p>As always, thanks for caring about me and reading my blog posts.</p>
+<div id="what-did-i-just-do" class="section level2">
+<h2>What Did I Just Do?</h2>
+<p>For the past nine months I have been a Lead Instructor of Data Science at the London campus of the Flatiron School.
+During my time there, I’ve led four different cohorts of students through an intensive fifteen week program where students with not much experience in coding or statistics or machine learning immerse themselves in order to learn as much as they possibly can from their instructors, the written curricula, as well as their peers.</p>
+<p>The bootcamp approach to learning is extremely different from that of traditional, liberal arts, higher-ed and while it can get a bad reputation for not being as exhaustive as spending four years doing something (duh), there are many things that bootcamps really excel at such as having so many learners concentrated into one space, all at about the same level of understanding, with near constant access to instructors to help guide a herd of overly eager learners.</p>
+<p>At Flatiron School, I was mainly responsible for delivering material for the first two modules they took which were “Python for Data Science” and “Probability and Statistics” and was supported by a team of four wonderful people.</p>
+<p>Many of us are now also on the job market now and if you are reading this and want to pick up the scraps of a fantastic team, go add these people on LinkedIn. All you have to do is click the links below. They’re all fantastic educators and even better data scientists.</p>
+<ul>
+<li><a href="https://www.linkedin.com/in/wachirandaiga/">Wachira Ndagia</a></li>
+<li><a href="https://www.linkedin.com/in/danielsanzbecerril/">Dan Sanz Becerril</a></li>
+<li><a href="https://www.linkedin.com/in/javier-f-s/">Javi Fernandez Suarez</a></li>
+<li><a href="https://www.linkedin.com/in/ioanapr/">Ioana P</a></li>
+</ul>
+<p>I also lectured a bit on other topics that I personally like a lot such as clustering, principal components analysis, and was always the one to give my obligatory Introduction to R and the Tidyverse workshop. We taught mostly Python, so I wouldn’t have been able to sleep at night without introducing them to R.</p>
+<p>As of today, we’ve graduated a sizeable batch of students and have placed many of them in jobs.<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>
+We’re not at 100% yet like our <a href="https://hi.flatironschool.com/rs/072-UWY-209/images/Flatiron%20School%20Jobs%20Report.pdf?_ga=2.75036818.1013998130.1593420746-1423311562.1570117877">Software Engineering program was able to do</a>, but I get messages from students when they eventually get jobs and it’s always the best part of my day.
+Our students have gone on to work from companies ranging from start-ups, to educational programs like Flatiron School, to more high visibility brands like Nielson and the Bank of England.</p>
+<p>In addition to all things teaching, I also got my first taste of being part of senior management, so I got to be on the hiring side of things for once.
+I now understand what people mean when they say <a href="https://jobs.telegraph.co.uk/article/does-your-cv-pass-the-30-second-test-/#:~:text=Research%20shows%20that%20most%20employers,CV%20was%20just%206.25%20seconds.">people will only look at your resume less than a minute</a>.
+Being on the other side of the interviewing power-dynamic was surprisingly one of the most valuable experiences I will remember going forward.
+I’ve also felt how the volatility of a business’ performance directly affects one’s work since our parent company was WeWork.
+There were definitely ups and downs.</p>
+<p>Near the end of my time, I also got to help out with a bit of the curriculum development (I got to write some of the R materials for our graduate’s continuing education) that you can check out on the newly minted <a href="https://davidjohnbaker.rbind.io/teaching/">Teaching</a> section of my website.</p>
+<p>It was a lot of work a lot of the time (especially at the start of the role and then again when we had to jump online) and it was 180 degrees in the direction of what I was doing before (writing my dissertation alone in my flat).
+And although it wasn’t what I thought I would be doing straight after my PhD, I learned a ton from the work and found many aspects of the job very enjoyable.</p>
+</div>
+<div id="the-good" class="section level2">
+<h2>The Good</h2>
+<p>By far, the best part of the job was working with the bootcamp students.
+This group of students was by far the most engaged collective of learners I have ever worked with.
+To contextualise this, prior to teaching data science at Flatiron, the students from the two areas subjects in higher education I had experience with were both music theory and aural skills (a subset of music notorious for having undergraduates historically question the content area’s utility) as well as statistics for doctoral level psychologists (where a majority of the class was clinical psychologists who, for good reason, question both the quantification, reficication, and reductionism of quantitative methods).</p>
+<p>In contrast to undergraduate music majors and clinical psychologists<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a>, none of the students at Flatiron were in my classes because they were “required to for graduation” and instead most of them had quit their jobs hoping to change the entire trajectory of their career.
+You fork out a lot of cash to do programs like this and that’s not something they took lightly as students and thus it was not something we took lightly as instructors.</p>
+<p>As a result of this large time and financial investment, the students would absolutely rinse myself and the other instructors for questions every day to the point that by 6:00PM I was totally exhausted from so much face-to-face work.
+This constant engaging with instructors and asking as many questions as possible is actually one of the big appeals of this kind of flavor of bootcamp; there are not many other educational settings where students have so much direct access to instructors and peers who are all on the same page.</p>
+<p>While we did our best to set boundaries with students it was hard not to engage with people who were so eager to learn.
+The real trick that I eventually learned was to try to get the students to essentially bootstrap each other’s learning and move away from the sage-on-the-stage approach and move over towards as much group and active learning as possible.
+I learned a lot about giving up control in the classroom and what you get when you start to acknowledge the fact that when you have adult learners, they bring with them far more life experience than those fresh out of school.</p>
+<p>As a result of all this rapid learning, the last major thing that I loved about this job was getting to see so many students grow so quickly during their time as a bootcamp student.
+Of course it’s true that you’re never going to learn everything in a bootcamp, but these environments are designed to get someone from near zero to competence so they can get in their own self-directed learning feedback loops where they can start critically thinking rather than adopting a pumping them full of knowledge approach.</p>
+<p>Now teaching in a bootcamp setting was not like anything I had taught in before.
+The goal wasn’t to teach people this history of science or competing philosophies of science throughout the 20th century (though I did weave a lot of that in my lectures, not gonna lie); it was straight up about getting people the tools they need to get a job.</p>
+<p>For this reason, I’ve now spent a lot of time thinking about the idea of vocationalism versus liberal arts education which I elaborate on in <a href="https://davidjohnbaker.rbind.io/post/begin-the-fugue-part-ii/">Part II</a>.</p>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>In keeping with the metaphor I used when I wrote about joining Flatiron<a href="#fnref1" class="footnote-back">↩</a></p></li>
+<li id="fn2"><p>I don’t want to go into the numbers I keep here since that probably counts as sensative information to post publicly, but the students are doing well. We’ll have to wait for our next third part audit for the official numbers.<a href="#fnref2" class="footnote-back">↩</a></p></li>
+<li id="fn3"><p>Obviously there were some in each group that were really into each class, I don’t mean to portray this as apathy<a href="#fnref3" class="footnote-back">↩</a></p></li>
+</ol>
+</div>
 
     </div>
 
@@ -702,16 +703,6 @@ Since then I’ve also added both the 2017 <a href="https://musiccog.lsu.edu/dav
 
 
 
-
-<div class="article-tags">
-  
-  <a class="badge badge-light" href="/tags/twitter/">Twitter</a>
-  
-  <a class="badge badge-light" href="/tags/r/">R</a>
-  
-  <a class="badge badge-light" href="/tags/data-mining/">Data Mining</a>
-  
-</div>
 
 
 
@@ -726,7 +717,7 @@ Since then I’ve also added both the 2017 <a href="https://musiccog.lsu.edu/dav
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/post/looking-for-musicologists-on-twitter/&amp;text=Looking%20For%20Musicologists%20on%20Twitter" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/post/begin-the-fugue-part-i/&amp;text=Begin%20the%20Fugue,%20Part%20I" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -739,7 +730,7 @@ Since then I’ve also added both the 2017 <a href="https://musiccog.lsu.edu/dav
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/post/looking-for-musicologists-on-twitter/&amp;t=Looking%20For%20Musicologists%20on%20Twitter" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/post/begin-the-fugue-part-i/&amp;t=Begin%20the%20Fugue,%20Part%20I" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -752,7 +743,7 @@ Since then I’ve also added both the 2017 <a href="https://musiccog.lsu.edu/dav
       
       
       <li>
-        <a href="mailto:?subject=Looking%20For%20Musicologists%20on%20Twitter&amp;body=/post/looking-for-musicologists-on-twitter/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Begin%20the%20Fugue,%20Part%20I&amp;body=/post/begin-the-fugue-part-i/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -765,7 +756,7 @@ Since then I’ve also added both the 2017 <a href="https://musiccog.lsu.edu/dav
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/post/looking-for-musicologists-on-twitter/&amp;title=Looking%20For%20Musicologists%20on%20Twitter" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/post/begin-the-fugue-part-i/&amp;title=Begin%20the%20Fugue,%20Part%20I" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -778,7 +769,7 @@ Since then I’ve also added both the 2017 <a href="https://musiccog.lsu.edu/dav
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Looking%20For%20Musicologists%20on%20Twitter%20/post/looking-for-musicologists-on-twitter/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Begin%20the%20Fugue,%20Part%20I%20/post/begin-the-fugue-part-i/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -791,7 +782,7 @@ Since then I’ve also added both the 2017 <a href="https://musiccog.lsu.edu/dav
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/post/looking-for-musicologists-on-twitter/&amp;title=Looking%20For%20Musicologists%20on%20Twitter" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/post/begin-the-fugue-part-i/&amp;title=Begin%20the%20Fugue,%20Part%20I" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -932,21 +923,6 @@ Since then I’ve also added both the 2017 <a href="https://musiccog.lsu.edu/dav
 
 
   
-  
-  <div class="article-widget content-widget-hr">
-    <h3>Related</h3>
-    <ul>
-      
-      <li><a href="/post/calculating-imultisets-in-r/">Calculating iMultisets in R</a></li>
-      
-      <li><a href="/my-projects/cognition/">Advanced R Markdown</a></li>
-      
-      <li><a href="/my-projects/mmd/">Advanced R Markdown</a></li>
-      
-      <li><a href="/my-projects/brainwaves/">brainwaves</a></li>
-      
-    </ul>
-  </div>
   
 
 

@@ -1,0 +1,83 @@
+---
+title: Begin the Fugue, Part III
+author: ~
+date: '2020-06-29'
+slug: begin-the-fugue-part-iii
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-06-29T10:01:03+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+## What's Next
+
+Having coached many people to apply and get their first jobs in the world of data science, I have now seen A LOT of job postings and understand that a JD (job description) is more of a wish list of an ideal candidate rather than a required listing of skills.
+On top of all of that, the characteristics you want out of your future colleagues (like all of the patience and kindness required to sit with a student as you explain how git works, a skill that our instructors seemed to have infinite amounts of, again add ,[Wachira Ndagia](https://www.linkedin.com/in/wachirandaiga/), [Dan Sanz Becerril](https://www.linkedin.com/in/danielsanzbecerril/), [Javi Fernandez Suarez](https://www.linkedin.com/in/javier-f-s/) or [Ioana P](https://www.linkedin.com/in/ioanapr/) on LinkedIn if you want this, you don't even have to send a message) do not show up on resumes. 
+
+So in that spirit, I want to end this post with posting my own description of what I’d like in my own work, maybe I can think of it as an AD (applicant’s dream!).
+
+I know I won’t hit everything that I’ll list here for my next line of work, but I have a way better idea of what I want out of my next employment having worked in my past role.
+
+## Applicants Dream (AD) 
+
+The first, and probably most important, aspect I want of my next job is one where I am challenged in a way that leads to daily personal growth.
+I found my work at Flatiron School to be challenging, but doing the same fifteen week loop over and over again so quickly made it feel more like I was getting better at some insane Shaun T HIIT work-out in terms of my teaching endurance rather than doing some sort of brain bulk (I hope my next employer likes colorful metaphors).
+
+The second thing I really want is to be around people who are obsessed with what they do. 
+As soon as I was told that my job was “at risk” of being redundant, my first thought was thinking about applying for some sort of academic jobs.
+Rationally, this is probably not the greatest idea considering the incoming COVID Higher Ed crisis, but I still felt this pull.
+
+Why?
+
+Well, I spent a lot of time reflecting and thinking about this very irrational thought and after sitting with it for a couple of days I think that the main reason I feel this pull is because I know that academia selects for people who like and value the same weird stuff that I do.
+
+At this point in life I feel OK telling people that I have extremely nerdy and niche interests compared to many people. 
+In conversations with many of my friends, I know that I like to dive much deeper into my interests and am the kind of person who reads textbooks for fun. (#iamverysmart^[This is ironic for people who are not on the internet as much as I am.])
+I want to be around other people who are like that. 
+
+Of course this has its serious downsides, I find it really, really difficult to have hobbies that don’t turn into obsessions and projects, but at least I am aware of that and OK with that now.
+That is kind of what academia is and it’s nice to know that I am going to have traits like that in common with my future colleagues from Day One if I were to work in that setting, but I have learnt (in more of a feeling, rather than intellectual way) that academia is not the only place that this type of personality exists.
+Again, this is very much like the learning Spanish analogy from before having worked somewhere where I didn't think I would have. 
+
+Now I think it’s becoming a lot more common for many academics to work in industry after coming to this realisation.
+At this juncture in life (and considering the future of the academic “job market”), it seems a bit wiser to still keep an eye open to whatever opportunities come up that are close to what I find meaningful, rather than getting too parochial too soon. 
+
+So right now, what I really want to do next is keep investing in my technical skills, ideally in the area of where my domain expertise is which is music.
+At Flatiron School, every so often when students would ask me a question where I didn’t know the answer right away,  I had to remind them that the knowledge that I have about the world of data science is really only a by-product of wanting to answer questions that I have found personally meaningful in my own work.
+
+At the end of the day, I didn’t learn all this coding and stats stuff so I could just teach it (never in 100 years would I have thought I’d be doing that in my first year of my PhD); I learned it so I could ask really obscure questions about the the hierarchical structure of western tonal music in a subset of a WEIRD population known as Western conservatory musicians who are learning solfege. 
+That’s what I currently really like.^[I love teaching too, don't get me wrong, but I'm hoping my pendulum swings a bit more near towards the research side next.]
+
+Is there market value in knowing that? Can I make the “business case” for that? 
+At this point, I’m sure I could spin it so there was something, but I’m OK with it standing on its own.
+
+But I know that no one will pay me to do that (unless I can maybe secure some postdoc funding in that?) but I’m planning on using a lot of my time in the future to devote to my WEIRD interests. 
+
+Then lastly, going forward to my next line of work it would be really nice to have a manager who was as kind as my old manager. 
+I remember being totally dumbfounded at the idea of “onboarding” coming from an academic background (hello baptism by fire with  hidden curricula abound!).
+The amount of support and questions and effort my manager went through to get to know me as I was starting was something I will take with me if I am ever in that position. 
+
+Then lastly, it would be nice, but obviously not necessary to have all the perks of working in industry like having a salary that allows you to be more generous with your money, no obligation to work off the clock, free coffee and beer (that will probably never happen again), and remote work options.
+
+## Conclusions
+
+Now a lot of this sounds like maybe the next step here is to maybe do a postdoc or try to secure a job doing music industry, but I would not be so bold with the amount of uncertainty that everyone is facing right now to say I know exactly what is next.
+Even though I might know what I want, I'm fully aware that I need temper my expectations. 
+
+And if I can't land something right away, I have a lot of personal research projects I want to attend to in the near future and the fact that I want to spend my free time working on these probably is a big hint of what I should look at next.
+I also have three fat textbooks I want to read this summer and have plans to brush the dirt off a lot of my programming.
+
+Lastly, I’d just like to end by saying that I had a great experience in something that I didn’t anticipate and just wanted to say that out loud for anyone else that reads this and might be in a similar position.
+It felt like such a commitment signing my contract here, like I’d given up on what I wanted to do.
+But here I am again, thinking about weird research in a much more stable position, using my free time to write papers and submit to conferences I find interesting. 
+
+Though I guess the real end of this should be if anyone knows of any gigs or jobs, either in teaching or research, please get in touch.
+I’m cleared to work both in the United Kingdom and the United States.
