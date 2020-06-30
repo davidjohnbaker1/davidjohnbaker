@@ -20,7 +20,7 @@ projects: []
 ## What's Next
 
 Having coached many people to apply and get their first jobs in the world of data science, I have now seen A LOT of job postings and understand that a JD (job description) is more of a wish list of an ideal candidate rather than a required listing of skills.
-On top of all of that, the characteristics you want out of your future colleagues (like all of the patience and kindness required to sit with a student as you explain how git works, a skill that our instructors seemed to have infinite amounts of, again add ,[Wachira Ndagia](https://www.linkedin.com/in/wachirandaiga/), [Dan Sanz Becerril](https://www.linkedin.com/in/danielsanzbecerril/), [Javi Fernandez Suarez](https://www.linkedin.com/in/javier-f-s/) or [Ioana P](https://www.linkedin.com/in/ioanapr/) on LinkedIn if you want this, you don't even have to send a message) do not show up on resumes. 
+On top of all of that, the characteristics you want out of your future colleagues (like all of the patience and kindness required to sit with a student as you explain how git works, a skill that our instructors seemed to have infinite amounts of, again add ,[Wachira Ndaiga](https://www.linkedin.com/in/wachirandaiga/), [Dan Sanz Becerril](https://www.linkedin.com/in/danielsanzbecerril/), [Javi Fernandez Suarez](https://www.linkedin.com/in/javier-f-s/) or [Ioana P](https://www.linkedin.com/in/ioanapr/) on LinkedIn if you want this, you don't even have to send a message) do not show up on resumes. 
 
 So in that spirit, I want to end this post with posting my own description of what I’d like in my own work, maybe I can think of it as an AD (applicant’s dream!).
 
