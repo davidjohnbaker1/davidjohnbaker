@@ -10,12 +10,12 @@ authors:
 superuser: true
 
 # Role/position
-role: Lead Instructor, Data Science
+role: Independent Researcher
 
 # Organizations/Affiliations
 organizations:
-- name: Flatiron School
-  url: "https://flatironschool.com/campuses/london"
+- name: Independent Researcher
+  url: "https://davidjohnbaker.rbind.io"
 
 # Short bio (displayed in user profile at end of posts)
 bio: Music, Theory, Sciences.
@@ -72,7 +72,7 @@ user_groups:
 David John Baker is a music researcher and educator passionate about questions at the intersection of music and science. 
 His research looks to understand how computational musicology and cognitive psychology can explore how music be can used to learn about how people think. 
 
-In his current role, he combines his love of teaching and research as [Lead Instructor of Data Science](https://www.linkedin.com/in/david-john-baker-phd/) at Flatiron School in London, England.
-Previously he has worked both on music industry projects as a data scientist and has volunteered in the charity sector.
+He formerly worked as [Lead Instructor of Data Science](https://www.linkedin.com/in/david-john-baker-phd/) at Flatiron School in London, England.
+Prior to working at Flatiron, he worked both on music industry projects as a data scientist and has volunteered in the charity sector.
 
 > This website is currently being migrated to a new version, so please excuse any mess you find while I update!

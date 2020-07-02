@@ -91,7 +91,7 @@ date_format = "Jan 2006"
 +++
 
 My name is David John Baker, I'm an interdisciplinary researcher and educator.
-Currently, I work as a Lead Instructor of Data Science at [Flatiron School](https://flatironschool.com/) in London, England where I combine my love of research, programming, and teaching to help students succeed as they learn the skills they need in order to begin a new career.
+I just finished up working as a Lead Instructor of Data Science at [Flatiron School](https://flatironschool.com/) in London, England where I combined my love of research, programming, and teaching to help students succeed as they learn the skills they need in order to begin a new career.
 
 <img src="students.jpg" class="center-block"><figcaption>Our First London Data Science cohort</figcaption>
 
