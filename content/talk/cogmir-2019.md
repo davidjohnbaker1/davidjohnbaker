@@ -13,7 +13,7 @@ math = true
 
 url_pdf = ""
 url_slides = ""
-url_video = ""
+url_video = "https://www.youtube.com/watch?v=T6G4m6_xFrc"
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
@@ -22,4 +22,4 @@ caption = ""
 
 +++
 
-
+{{< youtube T6G4m6_xFrc >}}
