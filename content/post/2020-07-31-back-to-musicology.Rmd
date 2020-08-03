@@ -19,7 +19,7 @@ projects: []
 
 ## Sound the TROMPA
 
-After a few weeks looking for work, I'm excited to announce that come September I will be starting as Senior Research Associate on the [TROMPA](https://trompamusic.eu/) project.
+After a few weeks looking for work, in September I will be starting as Senior Research Associate on the [TROMPA](https://trompamusic.eu/) project!
 The project is a collaboration between a few different universities, but I will be working out of Goldsmiths, University of London.
 The job is a ten month position (so I will again be back looking for work next spring), but in exchange for the short term nature of the work comes what I was looking for in my next line of work^[[as I detailed in my last post](https://davidjohnbaker.rbind.io/post/begin-the-fugue-part-iii/)]: working in music research.
 
