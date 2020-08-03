@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="November is pretty much the worst month for people in higher education. There are too many deadlines and if you’re still in coursework (like myself) you have essays to write, presentations to make, and a backlog of homework assignments to grade.">
+  <meta name="description" content="After a few weeks looking for work, I’m excited to announce that come September I will be starting as Senior Research Associate on the TROMPA project based at Goldsmiths, University of London.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/post/calculating-imultisets-in-r/">
+  <link rel="alternate" hreflang="en-us" href="/post/back-to-musicology/">
 
   
 
@@ -251,7 +251,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="/post/calculating-imultisets-in-r/">
+  <link rel="canonical" href="/post/back-to-musicology/">
 
   
   
@@ -268,15 +268,15 @@
   <meta property="twitter:creator" content="@DavidJohnBaker">
   
   <meta property="og:site_name" content="David John Baker">
-  <meta property="og:url" content="/post/calculating-imultisets-in-r/">
-  <meta property="og:title" content="Calculating iMultisets in R | David John Baker">
-  <meta property="og:description" content="November is pretty much the worst month for people in higher education. There are too many deadlines and if you’re still in coursework (like myself) you have essays to write, presentations to make, and a backlog of homework assignments to grade."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
+  <meta property="og:url" content="/post/back-to-musicology/">
+  <meta property="og:title" content="Back to Musicology | David John Baker">
+  <meta property="og:description" content="After a few weeks looking for work, I’m excited to announce that come September I will be starting as Senior Research Associate on the TROMPA project based at Goldsmiths, University of London."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
   <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2017-11-19T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2020-08-03T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2017-11-19T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2020-07-31T12:21:43&#43;01:00">
   
 
   
@@ -300,12 +300,12 @@
   "@type": "BlogPosting",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "/post/calculating-imultisets-in-r/"
+    "@id": "/post/back-to-musicology/"
   },
-  "headline": "Calculating iMultisets in R",
+  "headline": "Back to Musicology",
   
-  "datePublished": "2017-11-19T00:00:00Z",
-  "dateModified": "2017-11-19T00:00:00Z",
+  "datePublished": "2020-08-03T00:00:00Z",
+  "dateModified": "2020-07-31T12:21:43+01:00",
   
   "author": {
     "@type": "Person",
@@ -320,7 +320,7 @@
       "url": "/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "November is pretty much the worst month for people in higher education. There are too many deadlines and if you’re still in coursework (like myself) you have essays to write, presentations to make, and a backlog of homework assignments to grade."
+  "description": "After a few weeks looking for work, I’m excited to announce that come September I will be starting as Senior Research Associate on the TROMPA project based at Goldsmiths, University of London."
 }
 </script>
 
@@ -338,7 +338,7 @@
 
 
 
-  <title>Calculating iMultisets in R | David John Baker</title>
+  <title>Back to Musicology | David John Baker</title>
 
 </head>
 
@@ -563,7 +563,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Calculating iMultisets in R</h1>
+  <h1>Back to Musicology</h1>
 
   
 
@@ -581,8 +581,10 @@
     
     
       
+          Last updated on
+      
     
-    Nov 19, 2017
+    Jul 31, 2020
   </span>
   
 
@@ -600,10 +602,6 @@
   
 
   
-  
-  <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/categories/r/">R</a>, <a href="/categories/music-theory/">Music Theory</a></span>
   
 
 </div>
@@ -634,78 +632,34 @@
       
 
 
-<p>November is pretty much the worst month for people in higher education.
-There are too many deadlines and if you’re still in coursework (like myself) you have essays to write, presentations to make, and a backlog of homework assignments to grade.
-So if you can save time here or there, it’s usually a good choice.</p>
-<p>This weekend I was working a homework assignment for my Transformational Theory seminar where we were given a number of pairs of pitch class sets and had to calculate the imultiset for each following Joseph Straus’ 2014 article on <a href="http://www.mtosmt.org/issues/mto.14.20.2/mto.14.20.2.straus.html">Total Voice Leading</a>.</p>
-<p>As I looked at the top of the assignment (pictured below) and started to crank out the first one by hand, I realized that the next 30 minutes of my life were going to be doing the same thing over and over again.</p>
-<p><img src="/img/calculating-imultisets/imultiset.png" /></p>
-<p>Usually if I get that feeling my next thought is “Can I make a computer do this?” and after thinking about it for two minutes I realized the answer was yes.</p>
-<p>So instead of doing all of these by hand, I wrote an R script and with the time saved figured I’d write a quick post about it.</p>
-<div id="the-problem" class="section level2">
-<h2>The Problem</h2>
-<p>In order to calculate the imultiset you need two pitch class sets, in this case X and Y.
-Each set can have any number of pitch classes in them and what you need to do is calculate the distance in <a href="http://openmusictheory.com/mod12.html">Modulo 12 space</a> between every possible combination of pitch classes from one set to the other.
-So for example, you could move from 4 (E in Mod 12 for you non-music theory readers) to 7, 11, 2, or 5 (G, B, D, or F) resulting in four intervals: {3,7,10,1}.
-These four numbers in the {curly braces} are what you get when you subtract each number in the second set from the note E in Mod 12 space.
-This action then needs to be completed for every pair.</p>
-<p>When you need to account for every pairing you need to do a <a href="https://www.w3resource.com/sql/joins/cross-join.php">cross join</a>. A cross join connects each member of one set to each member of another set.
-This creates the sets of pairs seen below.</p>
-<p><img src="/img/calculating-imultisets/imultisetcj.png" /></p>
-<p>Then all you need to do is subtract one from the other to get the distance.
-The only problem is that these subtractions need to happen in Mod 12 space so in any case where you are subtracting a bigger number from a smaller number you will get a negative result!
-This is easily fixed by just adding 12 to that number in order to get what we <em>should</em> have been our answer if we were doing Mod 12 arithmetic.</p>
-<p>After fixing the Mod 12 problem, you’ll have a nice list of intervals that just have to be sorted from top to bottom to have your imultiset.
-So let’s see how you would do this line by line.</p>
-</div>
-<div id="r-code" class="section level2">
-<h2>R Code</h2>
-<p>First, let’s get two pitch class sets.
-In this case we have a C major triad and a G7 chord.</p>
-<p>X = {0,4,7} and Y = {7,11,2,5}</p>
-<p>Let’s first assign each chord to an object.</p>
-<pre class="r"><code>X &lt;- c(0,4,7)
-Y &lt;- c(7,11,2,5)</code></pre>
-<p>Next we need to do that cross join, which we can accomplish with R’s merge() function.
-This makes us a data frame with every combination from set X and set Y.
-Below we see the function’s output.</p>
-<pre class="r"><code>Example &lt;- merge(X,Y,all=TRUE)
-Example</code></pre>
-<pre><code>##    x  y
-## 1  0  7
-## 2  4  7
-## 3  7  7
-## 4  0 11
-## 5  4 11
-## 6  7 11
-## 7  0  2
-## 8  4  2
-## 9  7  2
-## 10 0  5
-## 11 4  5
-## 12 7  5</code></pre>
-<p>Once having each combination, we then subtract one set from the other.
-Since I don’t know how to put R into Music Theory Mode where it only operates in Mod 12, we can fix the problem of the negative numbers by just indexing through our answer with in ifelse() statement to replace any negative values with the answer we actually want by adding 12 to it.</p>
-<pre class="r"><code>Example$diff &lt;- Example$y - Example$x
-Example$diff</code></pre>
-<pre><code>##  [1]  7  3  0 11  7  4  2 -2 -5  5  1 -2</code></pre>
-<pre class="r"><code>Example$mod12 &lt;- ifelse(test = Example$diff &lt; 0 , 
-                        yes = Example$diff + 12, 
-                        no = Example$diff)
-Example$mod12</code></pre>
-<pre><code>##  [1]  7  3  0 11  7  4  2 10  7  5  1 10</code></pre>
-<p>With our numbers then in Mod 12 space, we just sort them and we get our imultiset.</p>
-<pre class="r"><code>sort(Example$mod12)</code></pre>
-<pre><code>##  [1]  0  1  2  3  4  5  7  7  7 10 10 11</code></pre>
-<p>Of course you are not going to want to write this out every time you want to calculate an imultiset, so best to just write a function that does what we just did.</p>
-<pre class="r"><code>calculate.multiset &lt;- function(x,y){
-  array.1 &lt;- x 
-  array.2 &lt;- y
-  cross.join &lt;- merge(array.1,array.2, all = TRUE)
-  cross.join$diff &lt;- cross.join$y - cross.join$x
-  cross.join$mod12 &lt;- ifelse(cross.join$diff &lt; 0, cross.join$diff + 12, cross.join$diff)
-  sort(cross.join$mod12)
-}</code></pre>
+<p>After a few weeks looking for work, I’m excited to announce that come September I will be starting as Senior Research Associate on the <a href="https://trompamusic.eu/">TROMPA</a> project based at Goldsmiths, University of London.
+The job is only a ten month position (so I will again be back looking for work next spring), but in exchange for the short term nature of the work comes what I was looking for in my next line of work<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> which was working in music, rather data science (unless it had to do with music).
+In another world where this position didn’t come up, I would have probably stayed in data science.
+In fact, I can’t imagine not returning at some point.
+Though for now I need to get my nerd on and work with some digital musical scores.</p>
+<p>I want to especially thank those who reached out to help when I posted about my last day at Flatiron School.
+It was just too tempting to not take a job that is going to be 100% about research in a position where I can get paid to do computational musicology.</p>
+<p><img src="/img/backtomusicology/trompa1.png" /></p>
+<p>That said, the past year or so I have started to get to know the data science community and don’t want to let those connections fade away.
+So while I hope to keep up on some things data science here or there through the <a href="https://www.meetup.com/L3-Data-Science-A-Space-to-Learn-and-Grow/">L3 Data Science</a> community, I know I can’t have my cake and eat it too in terms of living in both worlds.</p>
+<p>In order to try to at least keep one or two fingers in the proverbial pie chart of data science, I am going to try to keep up on the blogging as it pertains to my new role (there will be a lot of work that looks like data science) but really try to use my data science connections as a way to talk about how data science, academic research, and education intersect.
+I will also be trying to provide as much help as I can for anyone who has yet to secure work in data science.</p>
+<p>For me, this entails two things:</p>
+<p>The first is that I am going to try to use what I have learned and who I have met to help those who are so close to getting work in data science to their first jobs, but just need a bit more help.
+It really makes me happy to see people break into the world of data science if that’s their goal.</p>
+<p>If you are more of a business/data science/tech person reading this and want to know great people to hire for your work (especially if you are committed to diversity in your organisation!), there’s a sea of former students that I’d be more than happy to recommend for work.
+Please get in touch if that’s the case.</p>
+<p>The second thing that I want to offer is to help any current graduate students that are looking for advice on the academic to industry transition.
+This is especially true if any psychology or music students that feel that they would benefit from a perspective of someone whose job it was to help people get data science jobs.</p>
+<p>I’m currently in the process of developing materials for a workshop I will be doing at the <a href="https://sites.google.com/york.ac.uk/sysmus2020/programme/workshops">SysMus</a> conference on September 14th to supplement the writing that I have already did for <a href="https://sites.google.com/view/sysmus/blog#h.p_1a7GZpeLXPSt">their blog</a>, but if you want to just chat, get advice, have someone look over your resume, ask about how to get started with data science, please send me an email.</p>
+<p>Finally, I’ve also committed to much shorter blog posts for the foreseeable future, so I’ll try to shut up here.
+Actually, I will shut up for a the next few weeks as I am hoping to honor a promise to myself before starting this new work and will be taking a break from the internet and “work” between now and my new job since there will be some social media-ing required in my new post.</p>
+<p>When I return there will be hopefully news to share about some cool projects that are in the review pipeline right now, some teaching I’m excited about this winter in the music and science world, the work we’re up to on the SMPC anti-racism committee, and everything new that comes from work on the TROMPA project.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p><a href="https://davidjohnbaker.rbind.io/post/begin-the-fugue-part-iii/">as I detailed in my last post</a><a href="#fnref1" class="footnote-back">↩</a></p></li>
+</ol>
 </div>
 
     </div>
@@ -715,16 +669,6 @@ Example$mod12</code></pre>
 
 
 
-
-<div class="article-tags">
-  
-  <a class="badge badge-light" href="/tags/r/">R</a>
-  
-  <a class="badge badge-light" href="/tags/music-theory/">Music Theory</a>
-  
-  <a class="badge badge-light" href="/tags/transformational-theory/">Transformational Theory</a>
-  
-</div>
 
 
 
@@ -739,7 +683,7 @@ Example$mod12</code></pre>
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/post/calculating-imultisets-in-r/&amp;text=Calculating%20iMultisets%20in%20R" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/post/back-to-musicology/&amp;text=Back%20to%20Musicology" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -752,7 +696,7 @@ Example$mod12</code></pre>
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/post/calculating-imultisets-in-r/&amp;t=Calculating%20iMultisets%20in%20R" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/post/back-to-musicology/&amp;t=Back%20to%20Musicology" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -765,7 +709,7 @@ Example$mod12</code></pre>
       
       
       <li>
-        <a href="mailto:?subject=Calculating%20iMultisets%20in%20R&amp;body=/post/calculating-imultisets-in-r/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Back%20to%20Musicology&amp;body=/post/back-to-musicology/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -778,7 +722,7 @@ Example$mod12</code></pre>
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/post/calculating-imultisets-in-r/&amp;title=Calculating%20iMultisets%20in%20R" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/post/back-to-musicology/&amp;title=Back%20to%20Musicology" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -791,7 +735,7 @@ Example$mod12</code></pre>
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Calculating%20iMultisets%20in%20R%20/post/calculating-imultisets-in-r/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Back%20to%20Musicology%20/post/back-to-musicology/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -804,7 +748,7 @@ Example$mod12</code></pre>
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/post/calculating-imultisets-in-r/&amp;title=Calculating%20iMultisets%20in%20R" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/post/back-to-musicology/&amp;title=Back%20to%20Musicology" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -945,19 +889,6 @@ Example$mod12</code></pre>
 
 
   
-  
-  <div class="article-widget content-widget-hr">
-    <h3>Related</h3>
-    <ul>
-      
-      <li><a href="/my-projects/mmd/">Advanced R Markdown</a></li>
-      
-      <li><a href="/my-projects/cognition/">Advanced R Markdown</a></li>
-      
-      <li><a href="/my-projects/brainwaves/">brainwaves</a></li>
-      
-    </ul>
-  </div>
   
 
 
