@@ -689,12 +689,17 @@ A very appropriate name for an author of an aural skills book.</p>
 They go beyond the fact that the data is 783 melodies made up of 49,730 analyzable tokens (basically notes and rests) and starts to look at sub-groups of interest.
 From the figures we can see that there happen to be more melodies in major rather than minor, what keys you can expect to find, and how long (measured in number of notes) the melodies are.</p>
 <p>We can also see from the bottom right corner of Figure 2 that my little corpus of 783 melodies is about 1/10th the size of the <em>Essen</em> I was talking about before.
-This is important to point out because one thing I am interested in as a researcher is how big your dataset actually has to be before you can start getting anything helpful out of it.</p>
+This is important to point out because one thing I am interested in as a researcher is how big your dataset actually has to be before you can start getting anything helpful out of it.
+In Figure 3 I also ran the FANTASTIC toolbox over all the corpora to show the distribution of these abstracted features.</p>
 <blockquote>
 <p>FIGURE 3</p>
 </blockquote>
 <p><img src="/img/melosol/Figure_3.png" /></p>
-<p>The third figure plots another aspect that might not be of immediate interest to non-music-psychology readers which is the contour or shape of a melody.</p>
+<p>The fourth figure plots another aspect that might not be of immediate interest to non-music-psychology readers which is the contour or shape of a melody.</p>
+<blockquote>
+<p>FIGURE 4</p>
+</blockquote>
+<p><img src="/img/melosol/Figure_4.png" /></p>
 <p>Contour is not really something most people think or talk about when it comes to picking vocabulary to describe why they like certain melodies (unless you’re working your way through <a href="https://www.youtube.com/watch?v=VlvUmS5GUxg">Dr. Jacob Gran’s counterpoint vidoes</a>), but contour plays a very big role in the melody literature.</p>
 <p>I won’t get into that here, but through this Figure I just wanted to show the high level similarity between my little <em>MeloSol</em> corpus and some of the other corpora that are also single line melodies.
 We have the <em>Essen</em> collection (split between geographic region since there is an Asian subset of it) as well as some <em>Densmore</em> melodies.</p>
@@ -703,10 +708,10 @@ We have the <em>Essen</em> collection (split between geographic region since the
 </div>
 <div id="comparing-corpora" class="section level2">
 <h2>Comparing Corpora</h2>
-<p>This gets a little more complicated, but not beyond the grasp of most people who have found this post.</p>
-<p>Figure 4 was an attempt to start to answer the question how similar these two corpora are.</p>
+<p>This gets a little more complicated, but not beyond the grasp of most people who have found this post.
+Figure 5 was an attempt to start to answer the question how similar these two corpora are.</p>
 <blockquote>
-<p>FIGURE 4</p>
+<p>FIGURE 5</p>
 </blockquote>
 <p><img src="/img/melosol/Figure_5.png" /></p>
 <p>It’s kind of a difficult question because you need to come up with a way to operationalize similarity<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a>, but it’s an important question because when working with music data it is MUCH harder to get more data if you want it.</p>
@@ -715,7 +720,7 @@ Unlike trying to find the “true” average number of times a cat meows the lon
 <p>So instead of getting multiple datasets to keep testing ideas (like how the frequentists think about probability in the long run with many samples trying to model P(D|H)), we could try to Bayes it out (P(H|D)), but another approach that is a bit more brute force is this thing called bootstrapping your sample.</p>
 <p>There’s a great video here on it <a href="https://www.youtube.com/watch?v=655X9eZGxls">here</a>, but the TLDR is that you just pretend that the data that is in front of you is the theoretical population you never really get to know the “true” values of and just take lots of combinations of data to see how stable the relationships are in your dataset.</p>
 <p>This is basically what I wanted to do with these two corpora.</p>
-<p>The analysis in Figure 4 does this on the musical intervals that are present in the corpora.
+<p>The analysis in Figure 5 does this on the musical intervals that are present in the corpora.
 For those without a music reading background, a musical interval is the distance between two notes.
 So if you think of the first two notes of “Here comes the bride!”, instead of describing this as one being played (“Here”) then jumping up and repeating three times (&quot;comes the bride!), we just call that musical moment by the distance jumped.</p>
 <p>If you think of a melody as just a bunch of intervals, and then these strings of intervals (melodies) as belonging to a bigger collection (the corpus) we can then have two big pools of data to compare to one another.
@@ -724,12 +729,12 @@ The idea being that if you just grabbed random collections from each pool, could
 <p>If you couldn’t tell, you’d probably assume the corpora were very similar, but if it was kind of obvious, you’d consider them to be different.
 And don’t just do this a few times, but like 100,000 times.
 How often to certain intervals emerge from your sample?</p>
-<p>So what Figure 4 shows you is basically that thought experiment run on both of the corpora.
+<p>So what Figure 5 shows you is basically that thought experiment run on both of the corpora.
 The little dots from each color representing each corpora appear very close to one another suggesting that the intervals are drawn from our big pool with similar proportions, suggesting superficial similarities between the two.</p>
 <p>Now some more “musically” minded people might be like, yeah, no duh they are similar since they come from Western music (remember, that’s the point I am trying to make) but surely this task would be easier if you got to pull out strings that were longer than just one interval.</p>
-<p>That’s what Figure 5 tries to quantify.</p>
+<p>That’s what Figure 6 tries to quantify.</p>
 <blockquote>
-<p>FIGURE 5</p>
+<p>FIGURE 6</p>
 </blockquote>
 <p><img src="/img/melosol/Figure_6.png" /></p>
 <p>This figure shows what happens when you try to count up all the unique strings of various length and compare how similar they are using a rank order correlation.

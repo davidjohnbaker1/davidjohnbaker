@@ -100,12 +100,17 @@ From the figures we can see that there happen to be more melodies in major rathe
 
 We can also see from the bottom right corner of Figure 2 that my little corpus of 783 melodies is about 1/10th the size of the _Essen_ I was talking about before.
 This is important to point out because one thing I am interested in as a researcher is how big your dataset actually has to be before you can start getting anything helpful out of it.
+In Figure 3 I also ran the FANTASTIC toolbox over all the corpora to show the distribution of these abstracted features.
 
 > FIGURE 3
 
 ![](/img/melosol/Figure_3.png)
 
-The third figure plots another aspect that might not be of immediate interest to non-music-psychology readers which is the contour or shape of a melody.
+The fourth figure plots another aspect that might not be of immediate interest to non-music-psychology readers which is the contour or shape of a melody.
+
+> FIGURE 4
+
+![](/img/melosol/Figure_4.png)
 
 Contour is not really something most people think or talk about when it comes to picking vocabulary to describe why they like certain melodies (unless you're working your way through [Dr. Jacob Gran's counterpoint vidoes](https://www.youtube.com/watch?v=VlvUmS5GUxg)), but contour plays a very big role in the melody literature.
 
@@ -119,13 +124,11 @@ We dive into that comparison in the next two figures.
 ## Comparing Corpora 
 
 This gets a little more complicated, but not beyond the grasp of most people who have found this post.
+Figure 5 was an attempt to start to answer the question how similar these two corpora are.
 
-Figure 4 was an attempt to start to answer the question how similar these two corpora are.
-
-> FIGURE 4
+> FIGURE 5
 
 ![](/img/melosol/Figure_5.png)
-
 
 It's kind of a difficult question because you need to come up with a way to operationalize similarity^[woof], but it's an important question because when working with music data it is MUCH harder to get more data if you want it.
 
@@ -138,7 +141,7 @@ There's a great video here on it [here](https://www.youtube.com/watch?v=655X9eZG
 
 This is basically what I wanted to do with these two corpora.
 
-The analysis in Figure 4 does this on the musical intervals that are present in the corpora.
+The analysis in Figure 5 does this on the musical intervals that are present in the corpora.
 For those without a music reading background, a musical interval is the distance between two notes.
 So if you think of the first two notes of "Here comes the bride!", instead of describing this as one being played ("Here") then jumping up and repeating three times ("comes the bride!), we just call that musical moment by the distance jumped.
 
@@ -150,14 +153,14 @@ If you couldn't tell, you'd probably assume the corpora were very similar, but i
 And don't just do this a few times, but like 100,000 times.
 How often to certain intervals emerge from your sample?
 
-So what Figure 4 shows you is basically that thought experiment run on both of the corpora.
+So what Figure 5 shows you is basically that thought experiment run on both of the corpora.
 The little dots from each color representing each corpora appear very close to one another suggesting that the intervals are drawn from our big pool with similar proportions, suggesting superficial similarities between the two. 
 
 Now some more "musically" minded people might be like, yeah, no duh they are similar since they come from Western music (remember, that's the point I am trying to make) but surely this task would be easier if you got to pull out strings that were longer than just one interval.
 
-That's what Figure 5 tries to quantify.
+That's what Figure 6 tries to quantify.
 
-> FIGURE 5
+> FIGURE 6
 
 ![](/img/melosol/Figure_6.png)
 
