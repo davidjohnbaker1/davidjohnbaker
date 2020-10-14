@@ -17,37 +17,51 @@ image:
 projects: []
 ---
 
-After a few weeks looking for work, I'm excited to announce that come September I will be starting as Senior Research Associate on the [TROMPA](https://trompamusic.eu/) project based at Goldsmiths, University of London.
-The job is only a ten month position (so I will again be back looking for work next spring), but in exchange for the short term nature of the work comes what I was looking for in my next line of work^[[as I detailed in my last post](https://davidjohnbaker.rbind.io/post/begin-the-fugue-part-iii/)] which was working in music, rather data science (unless it had to do with music).
+## Sound the TROMPA
+
+After a few weeks looking for work, in September I will be starting as Senior Research Associate on the [TROMPA](https://trompamusic.eu/) project!
+The project is a collaboration between a few different universities, but I will be working out of Goldsmiths, University of London.
+The job is a ten month position (so I will again be back looking for work next spring), but in exchange for the short term nature of the work comes what I was looking for in my next line of work^[[as I detailed in my last post](https://davidjohnbaker.rbind.io/post/begin-the-fugue-part-iii/)]: working in music research.
+
 In another world where this position didn't come up, I would have probably stayed in data science.
 In fact, I can't imagine not returning at some point.
-Though for now I need to get my nerd on and work with some digital musical scores.
+Though for now I need to get my nerd on and work with some digital musical scores and finally hang out with the [ISMIR](https://ismir.net/) crowd.
 
-I want to especially thank those who reached out to help when I posted about my last day at Flatiron School.
-It was just too tempting to not take a job that is going to be 100% about research in a position where I can get paid to do computational musicology.
+I want to especially thank those of you who reached out to help me find new work when I posted about my last day at Flatiron School.
+I totally lucked out finding a position that is literally a short cycle from my place, is remote (until we can meet in person), and is 100% about computational musicology research.
 
 ![](/img/backtomusicology/trompa1.png)
 
-That said, the past year or so I have started to get to know the data science community and don't want to let those connections fade away.
+## A Data Science Break
+
+That said, the past year or so I have started to get to know the data science community and don't want to let those connections fade away as I start this new job.
 So while I hope to keep up on some things data science here or there through the [L3 Data Science](https://www.meetup.com/L3-Data-Science-A-Space-to-Learn-and-Grow/) community, I know I can't have my cake and eat it too in terms of living in both worlds.
 
-In order to try to at least keep one or two fingers in the proverbial pie chart of data science, I am going to try to keep up on the blogging as it pertains to my new role (there will be a lot of work that looks like data science) but really try to use my data science connections as a way to talk about how data science,  academic research, and education intersect.
-I will also be trying to provide as much help as I can for anyone who has yet to secure work in data science.
+In order to try to at least keep one or two fingers in the proverbial pie chart of data science, I am going to try to keep up on the blogging as it pertains to research, data science, and higher education.
+There's also a fair bit of this role that is basically data science (what isn't these days?) and hopefully that'll lead to some sharing of ideas.
+
+I'll also be trying to provide as much help as I can for anyone who has yet to secure work in data science.
 
 For me, this entails two things:
 
-The first is that I am going to try to use what I have learned and who I have met to help those who are so close to getting work in data science to their first jobs, but just need a bit more help.
-It really makes me happy to see people break into the world of data science if that's their goal. 
+The first is that I am going to try to use what I have learned and who I have met to help those who are so close to getting work in data science, but just need a bit more help.
+It really makes me happy to see people break into the world of data science if that's their goal and would really like to help out those who do need help.
 
-If you are more of a business/data science/tech person reading this and want to know great people to hire for your work (especially if you are committed to diversity in your organisation!), there's a sea of former students that I'd be more than happy to recommend for work.
+If you are more of a business/data science/tech person reading this and want to know great people to hire for your work (especially if you are committed to diversity in your organisation!), there's a sea of former students and many junior academics (like myself) looking to work and I'd be more than happy to connect you with people.
+
 Please get in touch if that's the case.
 
 The second thing that I want to offer is to help any current graduate students that are looking for advice on the academic to industry transition.
 This is especially true if any psychology or music students that feel that they would benefit from a perspective of someone whose job it was to help people get data science jobs.
+For better or worse, I think that with the coming years there's going to be a lot of academic/industry bridge crossing (which also includes the world of music theory!) and we should make provisions for like, now.
 
-I'm currently in the process of developing materials for a workshop I will be doing at the [SysMus](https://sites.google.com/york.ac.uk/sysmus2020/programme/workshops) conference on September 14th to supplement the writing that I have already did for [their blog](https://sites.google.com/view/sysmus/blog#h.p_1a7GZpeLXPSt), but if you want to just chat, get advice, have someone look over your resume, ask about how to get started with data science, please send me an email. 
+I'm currently in the process of developing materials for a workshop I will be doing at the [SysMus](https://sites.google.com/york.ac.uk/sysmus2020/programme/workshops) conference on September 14th to supplement the writing that I have already did for [their blog](https://sites.google.com/view/sysmus/blog#h.p_1a7GZpeLXPSt) to make some more "materials" for people looking to learn about this.
+Make sure to follow the [SysMus Twitter account](https://twitter.com/CommitteeSysmus) for updates on how to register for that.
+
+Though if you're a grad student and and are beyond the point of googling "how to be data scientist" or "what can i do with music theory phd" and think you'd benefit from a chat to get advice, or have someone look over your resume, or ask about how to get started with data science in more of a personal way, please send me an email.
 
 Finally, I've also committed to much shorter blog posts for the foreseeable future, so I'll try to shut up here.
-Actually, I will shut up for a  the next few weeks as I am hoping to honor a promise to myself before starting this new work and will  be taking a break from the internet and "work" between now and my new job since there will be some social media-ing required in my new post.
+Actually, I will shut up for a  the next few weeks as I am hoping to honor a promise to myself before starting this new work and will be taking a break from the internet and "work" between now and my new job.
+Everyone deserves a break ever year and I'll be taking mine this month.
 
-When I return there will be hopefully news to share about some cool projects that are in the review pipeline right now, some teaching I'm excited about this winter in the music and science world, the work we're up to on the SMPC anti-racism committee, and everything new that comes from work on the TROMPA project. 
+When I return there will be hopefully news to share about some cool projects that are in the review pipeline right now, some teaching I'm excited about this winter in the music and science world, that SysMus workshop on alt-ac careers, the work we're up to on the SMPC anti-racism committee, and everything new that comes from work on the TROMPA project.
