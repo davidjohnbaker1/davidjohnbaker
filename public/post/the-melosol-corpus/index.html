@@ -1,0 +1,1160 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="David John Baker">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Earlier this month I learned some of the research from my dissertation was accepted for publication! Publications are always reason to celebrate, but this one is especially deserving because of the amount of work that went into this project.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/post/the-melosol-corpus/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109897649-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-109897649-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="/post/the-melosol-corpus/">
+
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@DavidJohnBaker">
+  <meta property="twitter:creator" content="@DavidJohnBaker">
+  
+  <meta property="og:site_name" content="David John Baker">
+  <meta property="og:url" content="/post/the-melosol-corpus/">
+  <meta property="og:title" content="The MeloSol Corpus | David John Baker">
+  <meta property="og:description" content="Earlier this month I learned some of the research from my dissertation was accepted for publication! Publications are always reason to celebrate, but this one is especially deserving because of the amount of work that went into this project."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
+  <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2020-10-06T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2020-10-06T13:30:33&#43;01:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/post/the-melosol-corpus/"
+  },
+  "headline": "The MeloSol Corpus",
+  
+  "datePublished": "2020-10-06T00:00:00Z",
+  "dateModified": "2020-10-06T13:30:33+01:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "David John Baker"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "David John Baker",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "Earlier this month I learned some of the research from my dissertation was accepted for publication! Publications are always reason to celebrate, but this one is especially deserving because of the amount of work that went into this project."
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>The MeloSol Corpus | David John Baker</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">David John Baker</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">David John Baker</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/experience"><span>Experience</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/post"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/teaching"><span>Teaching</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-palette" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>The MeloSol Corpus</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Oct 6, 2020
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    12 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      
+
+
+<p>Earlier this month I learned some of the research from my dissertation was accepted for publication!
+Publications are always reason to celebrate, but this one is especially deserving because of the amount of work that went into this project.
+I love sharing what I have been up to so of course I am going to write a post about it for those that are interested.</p>
+<p>You can find the <a href="https://psyarxiv.com/cmwr6">pre-print here</a>.</p>
+<div id="need-4-data" class="section level2">
+<h2>Need 4 Data</h2>
+<p>Let me begin by making a gross generalization: the harder data is to get, the more useful it is going to be.</p>
+<p>Of course that’s not a hard and fast rule, but it is easy to imagine a one dimensional continuum with large randomized clinical trials on one end and taking a tally of your friend’s opinion on the outcome of the next presidential election on the other.
+Aspects of randomization and large sample sizes in experimental designs that are set up to answer a specific question regarding the efficacy of some treatment will, in theory, but much more reliable than the convenience, collider conditioned sample of something notoriously as difficult to predict as an election.
+Most data probably exists somewhere between these extremes.</p>
+<p>I would bet that many fields of research have their own version of this continuum and I know my area of expertise in computational musicology is no different.
+Yes, we have a lot of data sets out there that you can use, but the thing is that if you study something as big and amorphous as “music”, you’re rarely going to be able to find what you want in terms of a usable data set if you have a very specific question you want to answer.</p>
+<p>There are <a href="http://www.ismir.net/resources/datasets/">tons of great music datasets</a> from the <a href="https://musicinformationretrieval.com/">music information retrevial</a> world, but many of these data sets tend to deal with audio data (like the waveform playing music to your headphones) rather than something that looks like sheet music.</p>
+<p>There’s tons of cool stuff that can be done with audio data (recommendation systems, the Shazam algorithm, dynamic time warping), but it’s very difficult to work with “the notes” (as a music theorist) with this kind of data.
+You need a digitized version of the score to be able to do this.</p>
+<p>There are a lot of ways to do get your data into one of the many helpful formats like <a href="https://en.wikipedia.org/wiki/MIDI">MIDI</a>, <a href="https://music-encoding.org/">MEI</a>, and <a href="http://kern.ccarh.org/">kern</a>, each with their own advantages and disadvantages, but the problem is just getting a paper score into these formats.</p>
+<p>More often than not, especially with MEI and kern, you need to have this data entered manually.
+Someone, somewhere needs to sit down and plop in each note into an application like <a href="https://musescore.org/en">MuseScore</a>.</p>
+<p>This process is unbelievably boring.
+It’s so boring that one of the <a href="https://www.humdrum.org/index.html">software toolboxes for manipulating kern</a> files is literally called <a href="https://www.google.com/search?q=define+humdrum&amp;oq=define+humdrum&amp;aqs=chrome..69i57j0l7.2757j1j4&amp;sourceid=chrome&amp;ie=UTF-8">humdrum</a>.</p>
+<p>So if you want to ask a new musical question, you pretty much have two choices.</p>
+<p>You can head over to something like <a href="http://kern.ccarh.org/">kern scores</a> and see what is there, with odds being that you’re not going to find exactly what you need OR you can make a new dataset.
+Seeing that grad school is all about contributing something new and helpful to the research community at large, I saw it as a worthwhile investment in myself and my community to do the latter.</p>
+<p>Specifically, what I am interested in is how people learn<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> melodies (both explicitly and implicitly).
+For my Ph.D., I wanted a dataset that I could use that had melodies that are used when people learn melodies.</p>
+<p>There of course was no ready-to-go dataset called “Learnable Melodies” and the closet thing to this was this giant dataset that has been around since the mid 1990s (a dataset older than many undergrads right now) that has thousands of folk song melodies called the <a href="http://kern.ccarh.org/browse?l=essen">Essen Folk Song Collection</a> which has over 6,000 monophonic (meaning a single line) melodies.
+It’s kind of close to what I wanted, but not exactly.</p>
+<p>In being interested in how people learn melodies also comes with this idea in the music and science literature that sort of assumes that if you have this big database of all these melodic patterns, you can use these patterns to help find meaningful correlates to human responses to music.</p>
+<p>This was an idea got a lot of attention first from this great book by Leonard Meyer called <a href="https://books.google.co.uk/books/about/Emotion_and_Meaning_in_Music.html?id=HuWCVGKhwy0C">Emotion and Meaning in Music</a> that linked the musical structure to how people hear music, but as of recently if you really want to dig into this area the canonical citation is David Huron’s <a href="https://books.google.co.uk/books?hl=en&amp;lr=&amp;id=sgr-DwAAQBAJ&amp;oi=fnd&amp;pg=PR5&amp;dq=david+huron+sweet+anticipation&amp;ots=0b1Cy0UQSZ&amp;sig=YP6ndavb5wcjKogsdZ8SOQb04Lw#v=onepage&amp;q=david%20huron%20sweet%20anticipation&amp;f=false">Sweet Anticipation</a>.</p>
+<p>In this book, Huron does some really neat stuff following up on Meyer’s ideas and this book continues to be the gateway drug to computational musicology for many people.</p>
+<p>I remember being really inspired reading this book before and during grad school and then getting even more into these ideas reading about some of the <a href="https://pubmed.ncbi.nlm.nih.gov/29749625/">computational models of auditory cognition</a> via the work of Marcus Pearce’s IDyOM model and the <a href="https://www.tandfonline.com/doi/abs/10.1080/09298219508570672">multiple viewpoints</a> paper that inspired this work.</p>
+<p>Both the work of Huron and Pearce have used corpora like the Essen collection extensively and it acts as the training data for many of these statistical models of music cognition.
+To relate this work to things in popular culture, the <a href="https://www.google.com/doodles/celebrating-johann-sebastian-bach">Google Doodle</a> that <a href="https://davidjohnbaker.rbind.io/post/digital-representations/">I wrote about a while ago</a> was trained using similar data that the multiple viewpoints paper was trained on.</p>
+<p>So I figured if I wanted to be a part of this conversation at the academic table, I should start by contributing something that might be helpful.</p>
+<p>So as a psychological fail safe, during my Ph.D. I digitized 783 melodies from a sight-singing book.<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a></p>
+<p>This meant entering over 36,000 notes by hand into MuseScore over the however many months I was writing my dissertation.
+It was not fun, but I am glad that I did it because now there’s a new dataset on the block called the <em>MeloSol</em> corpus!
+I ended up calling it the <em>MeloSol</em> corpus since it’s <em>Mel</em> odic data and the name of the first author of the book is someone named <em>Sol</em>.
+A very appropriate name for an author of an aural skills book.</p>
+</div>
+<div id="so-what" class="section level2">
+<h2>So What?</h2>
+<p>So now that it’s been digitized, what can you do with it?</p>
+<p>Well if you’re part of this very niche world of computational musicology, you can just read the <a href="https://psyarxiv.com/cmwr6">pre-print</a>, but if this is your first time even realizing computational musicology is a thing<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a> let me take you through a walk through of what’s here using the data visualizations I made as a guide.</p>
+<p>Let’s start with the first two figures (panels of four images each).</p>
+<blockquote>
+<p>FIGURE 1</p>
+</blockquote>
+<p><img src="/img/melosol/Figure_1.png" /></p>
+<blockquote>
+<p>FIGURE 2</p>
+</blockquote>
+<p><img src="/img/melosol/Figure_2.png" /></p>
+<p>These first two images are pretty much what an exploratory data analysis (EDA) look like if you’re a computational musicologist.
+They go beyond the fact that the data is 783 melodies made up of 49,730 analyzable tokens (basically notes and rests) and starts to look at sub-groups of interest.
+From the figures we can see that there happen to be more melodies in major rather than minor, what keys you can expect to find, and how long (measured in number of notes) the melodies are.</p>
+<p>We can also see from the bottom right corner of Figure 2 that my little corpus of 783 melodies is about 1/10th the size of the <em>Essen</em> I was talking about before.
+This is important to point out because one thing I am interested in as a researcher is how big your dataset actually has to be before you can start getting anything helpful out of it.</p>
+<blockquote>
+<p>FIGURE 3</p>
+</blockquote>
+<p><img src="/img/melosol/Figure_3.png" /></p>
+<p>The third figure plots another aspect that might not be of immediate interest to non-music-psychology readers which is the contour or shape of a melody.</p>
+<p>Contour is not really something most people think or talk about when it comes to picking vocabulary to describe why they like certain melodies (unless you’re working your way through <a href="https://www.youtube.com/watch?v=VlvUmS5GUxg">Dr. Jacob Gran’s counterpoint vidoes</a>), but contour plays a very big role in the melody literature.</p>
+<p>I won’t get into that here, but through this Figure I just wanted to show the high level similarity between my little <em>MeloSol</em> corpus and some of the other corpora that are also single line melodies.
+We have the <em>Essen</em> collection (split between geographic region since there is an Asian subset of it) as well as some <em>Densmore</em> melodies.</p>
+<p>Up until this point, these are pretty much summary features of a melody answering questions you can measure either directly (what is the range, length) or indirectly (tonalness via a toolbox that approximates a measurement for it), but really what I would like as an end goal with this corpus is to have people start using the <em>MeloSol</em> in tandem with the <em>Essen</em> in exploring these claims I mentioned above about our latent understanding being mapped to corpora, so I went a bit deeper in comparing the <em>MeloSol</em> and the <em>Essen</em>.</p>
+<p>We dive into that comparison in the next two figures.</p>
+</div>
+<div id="comparing-corpora" class="section level2">
+<h2>Comparing Corpora</h2>
+<p>This gets a little more complicated, but not beyond the grasp of most people who have found this post.</p>
+<p>Figure 4 was an attempt to start to answer the question how similar these two corpora are.</p>
+<blockquote>
+<p>FIGURE 4</p>
+</blockquote>
+<p><img src="/img/melosol/Figure_5.png" /></p>
+<p>It’s kind of a difficult question because you need to come up with a way to operationalize similarity<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a>, but it’s an important question because when working with music data it is MUCH harder to get more data if you want it.</p>
+<p>Setting aside the annoying process of encoding it, most of our historical musical data comes from a finite population (borrowing the actual statistics definition here).
+Unlike trying to find the “true” average number of times a cat meows the longer you go without remembering to feed them– a task you can accomplish by just running lots of experiments on lots of cats in many conditions– you can’t really get more Bach or Davis if you had lots of hypotheses you want to test.<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a></p>
+<p>So instead of getting multiple datasets to keep testing ideas (like how the frequentists think about probability in the long run with many samples trying to model P(D|H)), we could try to Bayes it out (P(H|D)), but another approach that is a bit more brute force is this thing called bootstrapping your sample.</p>
+<p>There’s a great video here on it <a href="https://www.youtube.com/watch?v=655X9eZGxls">here</a>, but the TLDR is that you just pretend that the data that is in front of you is the theoretical population you never really get to know the “true” values of and just take lots of combinations of data to see how stable the relationships are in your dataset.</p>
+<p>This is basically what I wanted to do with these two corpora.</p>
+<p>The analysis in Figure 4 does this on the musical intervals that are present in the corpora.
+For those without a music reading background, a musical interval is the distance between two notes.
+So if you think of the first two notes of “Here comes the bride!”, instead of describing this as one being played (“Here”) then jumping up and repeating three times (&quot;comes the bride!), we just call that musical moment by the distance jumped.</p>
+<p>If you think of a melody as just a bunch of intervals, and then these strings of intervals (melodies) as belonging to a bigger collection (the corpus) we can then have two big pools of data to compare to one another.
+One is a big pool of all the intervals that come from the <em>MeloSol</em> corpus and the other the <em>Essen</em>.
+The idea being that if you just grabbed random collections from each pool, could you know what pool you were pulling out of if you all you had to look at was the intervals you were seeing?</p>
+<p>If you couldn’t tell, you’d probably assume the corpora were very similar, but if it was kind of obvious, you’d consider them to be different.
+And don’t just do this a few times, but like 100,000 times.
+How often to certain intervals emerge from your sample?</p>
+<p>So what Figure 4 shows you is basically that thought experiment run on both of the corpora.
+The little dots from each color representing each corpora appear very close to one another suggesting that the intervals are drawn from our big pool with similar proportions, suggesting superficial similarities between the two.</p>
+<p>Now some more “musically” minded people might be like, yeah, no duh they are similar since they come from Western music (remember, that’s the point I am trying to make) but surely this task would be easier if you got to pull out strings that were longer than just one interval.</p>
+<p>That’s what Figure 5 tries to quantify.</p>
+<blockquote>
+<p>FIGURE 5</p>
+</blockquote>
+<p><img src="/img/melosol/Figure_6.png" /></p>
+<p>This figure shows what happens when you try to count up all the unique strings of various length and compare how similar they are using a rank order correlation.
+As you might expect, when you have shorter strings, the two pools are very closely related (having a correlation coefficient near 1), and the more unique intervals you plop on, the more dissimilar they get.</p>
+<p>Now this is quite a rough way to talk about similarity on the large level, and if this interests you but not like on this coarse level, there’s more of an applied theoretical link to this in the latest MTO with <a href="https://mtosmt.org/issues/mto.20.26.3/mto.20.26.3.miller.html">Brian Miller talking about this</a> with Leonard Meyer’s theory of style.</p>
+<p>This whole analysis is all to just hopefully show that there is a new corpus on the block with similar properties to the one we all have been using that is smaller and a bit more manageable and probably actually is closer to what we mean when we talk about the expectations of Western tonal music than all these European folk songs.</p>
+<p>So will people use it?
+Who knows, but I know I have.
+I’ve used it with great success for a new project that will get its own post when it comes out.</p>
+<p>If you have questions about this or computational musicology in general, please get in touch!</p>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>Not about to split hairs on the definition of learning here<a href="#fnref1" class="footnote-back">↩</a></p></li>
+<li id="fn2"><p>For the uninitiated, sight-singing is a skill most undergraduates majoring in music need to learn that allows you to look at a piece of music and know how it sounds without playing it on an instrument.<a href="#fnref2" class="footnote-back">↩</a></p></li>
+<li id="fn3"><p>Hello LinkedIn reader who thought they were about to read about data science<a href="#fnref3" class="footnote-back">↩</a></p></li>
+<li id="fn4"><p>woof<a href="#fnref4" class="footnote-back">↩</a></p></li>
+<li id="fn5"><p>I will take an aside here to point out how ridiculous this is to even assert that something like a p value would be meaningful in this context given the finite sample…<a href="#fnref5" class="footnote-back">↩</a></p></li>
+</ol>
+</div>
+
+    </div>
+
+    
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=/post/the-melosol-corpus/&amp;text=The%20MeloSol%20Corpus" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=/post/the-melosol-corpus/&amp;t=The%20MeloSol%20Corpus" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=The%20MeloSol%20Corpus&amp;body=/post/the-melosol-corpus/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=/post/the-melosol-corpus/&amp;title=The%20MeloSol%20Corpus" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=The%20MeloSol%20Corpus%20/post/the-melosol-corpus/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=/post/the-melosol-corpus/&amp;title=The%20MeloSol%20Corpus" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu77191bed7170c7385b69814b1296e379_610137_270x270_fill_lanczos_center_2.png" alt="David John Baker">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/">David John Baker</a></h5>
+      <h6 class="card-subtitle">Senior Research Associate</h6>
+      <p class="card-text">Music, Theory, Sciences.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:davidjohnbaker1@gmail.com" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/DavidJohnBaker" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.co.uk/citations?user=tigU2AkAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/davidjohnbaker1" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/files/DJB_long_cv_march_26_2020.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.37431be2d92d7fb0160054761ab79602.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+  <p class="powered-by">
+    
+      <a href="/privacy/">Privacy Policy</a>
+    
+    
+       &middot; 
+      <a href="/terms/">Terms</a>
+    
+  </p>
+  
+
+  <p class="powered-by">
+    © 2020 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

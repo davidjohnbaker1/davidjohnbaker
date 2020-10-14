@@ -10,11 +10,11 @@ authors:
 superuser: true
 
 # Role/position
-role: Independent Researcher
+role: Senior Research Associate
 
 # Organizations/Affiliations
 organizations:
-- name: Independent Researcher
+- name: TROMPA, Department of Computing, Goldsmiths
   url: "https://davidjohnbaker.rbind.io"
 
 # Short bio (displayed in user profile at end of posts)
