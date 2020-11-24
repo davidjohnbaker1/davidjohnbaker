@@ -22,9 +22,9 @@ bio: Music, Theory, Sciences.
 
 interests:
 - Musical Cognition
-- Pedagogy
+- Working Memory 
 - Computational Musicology
-- Data Science in Music Industry
+- Open Science
 
 education:
   courses:
@@ -57,7 +57,7 @@ social:
   link: https://github.com/davidjohnbaker1
 - icon: cv
   icon_pack: ai
-  link: files/DJB_long_cv_march_26_2020.pdf
+  link: files/djb_nov_2020.pdf
   
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -70,9 +70,7 @@ user_groups:
 ---
 
 David John Baker is a music researcher and educator passionate about questions at the intersection of music and science. 
-His research looks to understand how computational musicology and cognitive psychology can explore how music be can used to learn about how people think. 
+His research research focuses on how tools from cognitive psychology and computational musicology can help understand cognition in ways only possible with music. 
 
-He formerly worked as [Lead Instructor of Data Science](https://www.linkedin.com/in/david-john-baker-phd/) at Flatiron School in London, England.
-Prior to working at Flatiron, he worked both on music industry projects as a data scientist and has volunteered in the charity sector.
-
-> This website is currently being migrated to a new version, so please excuse any mess you find while I update!
+He currently works in the Computing Department at Goldsmiths, University of London as a Senior Research Associate on the TROMPA project. 
+Prior to this role he has worked in data science education, on music industry projects, and has volunteered in the charity sector.
