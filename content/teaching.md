@@ -12,7 +12,7 @@ This page is a record of all the classes I have taught, materials I have produce
 
 I've taught several classes at the undergraduate level as both instructor of record and as a teaching assistant. 
 I also spent a year as Lead Instructor of Data Science at London [Flatiron School]()'s now defunct campus.
-For more details, please see my [CV](). 
+For more details, please see my [CV](https://davidjohnbaker.rbind.io/content/ref/DJB_Long_CV_20210515.pdf/). 
 
 Recent classes I have taught or designed include:
 
@@ -28,7 +28,7 @@ Recent classes I have taught or designed include:
 ## Workshop Teaching 
 
 I have also developed and delivered several workshops.
-Some were given as my time as Lead Instructor at Flatiron, some are from a weekend coursed I developed for smaller companies like [Minerva]() in London, and some are academic workshops.
+Some were given as my time as Lead Instructor at Flatiron, some are from a weekend coursed I developed for smaller companies like [Minerva](https://minervastatisticalconsulting.co.uk/) in London, and some are academic workshops.
 
 I'm also an [RStudio Certified](https://education.rstudio.com/trainers/) tidyverse instructor! 
 
@@ -36,14 +36,23 @@ Here are some examples of from my teaching:
 
 #### Materials Created 
 
-* [Issues with Music and Sciences (30 hours)]()
-* [Weekend Workshop to Learn Basics of Tidyverse in a Weekend (8 hours)]()
-* [Slide Deck on Alt Ac for Grad Students (4 hours)]()
+* [Issues with Music and Sciences (30 hours)](https://github.com/davidjohnbaker1/issues_with_music_and_sciences)
+* [Weekend Workshop to Learn Basics of Tidyverse in a Weekend (8 hours)](https://github.com/davidjohnbaker1/r_for_python_crash)
+* [Slide Deck on Alt Ac for Grad Students (4 hours)](https://drive.google.com/drive/folders/15hVmkgOBJajCWRUo8jR_eK-CIvCtD0rN?usp=sharing)
 
 #### Lecturing 
 
-* [The Science of Netflix: General Audience]()
-* [Crash Course on Clustering]()
+The Science of Netflix
+
+{{<youtube xkMqgWHn36w>}}
+
+R, RStudio, and Tidyverse for Pythonistas 
+
+{{<youtube OLbBwr6yono>}}
+
+Clustering Algorithms Crash Course 
+
+{{<youtube EKTVTfAXVIo>}}
 
 If you'd like to hire me for a workshop or develop specific materials for you on a topic, [please send me an email](mailto:davidjohnbaker1@gmail.com?subject=[Workshop]).
 I have experience delivering work online and in person.
