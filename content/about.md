@@ -9,7 +9,7 @@ Hello!
 I'm Dave Baker and I'm interested in music, theory, and the sciences.
 I currently work at Goldsmiths, University of London in the [Department of Computing](https://www.gold.ac.uk/computing/) as part of [TROMPA](https://trompamusic.eu/).
 
-As an **[academic researcher](https://www.davidjohnbaker.rbind.io/academic/)**, I investigate how tools from cognitive psychology and computational musicology can help understand cognition in ways only possible with music. I have a Ph.D. from Louisiana State University in Music Theory and did my graduate minor in Cognitive and Brain Sciences.
+As an **[academic researcher](https://davidjohnbaker.rbind.io/academic/)**, I investigate how tools from cognitive psychology and computational musicology can help understand cognition in ways only possible with music. I have a Ph.D. from Louisiana State University in Music Theory and did my graduate minor in Cognitive and Brain Sciences.
 
 As a **[data scientist](https://davidjohnbaker.rbind.io/industry/)**, I solve problems for clients who need someone who can both ask meaningful musicological questions as well as use the right technical tools to answer them. 
 
