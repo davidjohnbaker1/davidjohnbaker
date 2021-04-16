@@ -1,0 +1,89 @@
+---
+title: Examining Musical Sophistication
+author: ~
+date: '2018-11-14'
+slug: examining-musical-sophistication
+categories: []
+tags: []
+---
+
+## Replication
+
+[Replication](https://davidjohnbaker.rbind.io/post/examining-musical-sophistication/).
+Is it popular and important for research in psychology? 
+Yes.
+Will reading a replication paper get you all fired up about research?
+Probably not.
+That's OK though, research really shouldn't be all about new and flashy findings.
+Every so often we should stop and think about what we are doing.
+
+Today our lab has a new publication "Examining Musical Sophistication: A replication and theoretical commentary on the Goldsmiths Musical Sophistication Index" that’s [accessible online](https://journals.sagepub.com/eprint/qwVM6dhD6ipcWM4XAacv/full) that replicates the [Goldsmiths Musical Sophistication Index](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0089642).
+The “just-tell-me-if-I-can-keep-using-it” verdict of the paper is: “Yes, knock yourself out”. 
+Scroll to the bottom of the page, grab the APA citation and cite us as Baker, Ventura, Calamia, Shanahan, and Elliott (2018).
+
+If you're keen on psychometrics and are interested in a few of the points we make in the paper, then read on. 
+
+To give the very short version of the paper in plain English (not abstract-ese) the paper generally goes like this.
+Over the past century the world of music science has struggled to quantify what it means to be musical.
+We clearly need some measure of it if we want to make claims about how much engaging with music relates to other constructs, but every time you try to pin down what you think being musical is, you realize you forgot something.
+
+## Measuring Musicality
+
+A lot of people have tried to get around this problem a few different ways, but in this paper we decided to focus on the [Goldsmiths Musical Sophistication Index](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0089642) since it’s a tool that has getting very popular, very quickly within the music science world and had previously been shown to be valid and reliable in a large UK sample.
+
+The inspiration for the paper came from a lab meeting one day at LSU where we were discussing open science and our own research practices, and how we wanted to participate in this important movement. 
+Given the resources we had at the time, we decided it would be a good idea to investigate the replicability of the Gold-MSI. 
+
+We had a couple of specific reasons for this as well:
+
+* Most researchers are not going to be using samples like that in the original paper (N= 147,000+) and will probably just use it on their [WEIRD](https://www.ncbi.nlm.nih.gov/pubmed/20550733) subject pool, therefore we should investigate if there are any “weird” things that happen when you use it like this.
+* Some researchers break off a part of the Gold-MSI and use just one of the sub scales; is that a good idea?
+* An independent replication of the Gold-MSI would be a valuable contribution and it’d be good to write a paper that might be helpful for others to read and cite.
+
+We had also just read this great paper on [Process Overlap Theory](https://www.tandfonline.com/doi/abs/10.1080/1047840X.2016.1153946) and saw a lot of parallels between what Kovacs and Conway had to say when arguing against the idea of _g_ and the idea of measuring anything musical with a latent variable.
+
+So we went ahead, grabbed us some data, and spent a lot of time reading Alex Beaujean’s [Latent Variable Analysis with R](https://www.amazon.co.uk/Latent-Variable-Modeling-Using-R/dp/1848726996) book to dive deep into the world of latent variable modeling.
+So what did we find?
+
+## Practice
+
+In general, the Gold-MSI pretty much behaved as you would expect it to.
+Using a WEIRD sample, we had a bit of a skewed distribution that people should look out for, but the sub-scale scores pretty much lined up with the means and standard deviations that were originally reported.
+
+![Overall Skew](/img/examining-gmsi/Figure1_GMSIREP.png)
+
+![Similar Descriptive Statistics](/img/examining-gmsi/Figure2_GMSIREP.png)
+
+That said, we did look at the item level data and found anything but normal distributions.
+
+![Item Level Distributions](/img/examining-gmsi/Figure3_GMSIREP.png)
+
+This is not the biggest deal in the world due to the estimators you can use with the [lavaan package](http://lavaan.ugent.be/) that were used in the original paper, but if you are going to break off a scale to use just a part of the Gold-MSI, it’s worth keeping in mind. 
+We noted the biggest problems with this using the Emotion sub-scale.
+
+We also show have **a lot** of tables in the paper that go over everything from descriptive statistics to model fits.
+
+## Theory
+
+Given our generally successful replication, is there anything else researchers should know?
+We we zoomed out a bit (from painfully up close to the Gold-MSI) and expanded outwards in our discussion.
+In the paper we highlighted that the Gold-MSI uses latent variables, which basically relies on the same math as calculating [_g_](https://en.wikipedia.org/wiki/G_factor_(psychometrics)).
+The construct _g_ is calculated using a bunch of objective tests that correlate with one another, but you still use factor analytic techniques to derive the larger constructs, in this case the General Sophistication score and its sub scales (actually it is even fancier than that since they use  [a bifactor solution](https://link.springer.com/article/10.1007/BF02289209)). 
+
+After pointing this out we draw upon a few arguments made by Kovacs and Conway and argued that even though someone might score highly on some of the Gold-MSI scales, it doesn’t mean that they are using their “musical sophistication” to actually carry out musical tasks.
+Just like you wouldn’t say you used your general intelligence to solve a mental rotation puzzle, you wouldn’t say you used your musical sophistication to do a melodic memory task. 
+We note that this is great for descriptive theories, but we just want to remind people that they shouldn’t confuse a statistical abstraction for any sort of process that is actually happening.
+
+We get a lot more fanciful with the language in the article, but hopefully you’ll give it a read if you’ve gotten this far in the blog post.
+The paper ends saying that people should of course keep using the Gold-MSI as we desperately need more consistency in measurements, but as a community we need to think about what our models are actually telling us.
+This is especially true in that we are now coming up on the 100 year anniversary of Seashore’s Measures of Musical Talents and it’s a perfect time to stop and reflect on the tools we are using and the questions we are trying to ask. 
+
+If this sounds up your alley, give the paper a read.
+You can access it [here](https://journals.sagepub.com/eprint/qwVM6dhD6ipcWM4XAacv/full), and if you'd like to cite us, just copy and paste below!
+
+We're big proponents of collaborating, sharing data, and being transparent, so if anyone wants to get their hands on our data and analysis, please get in touch and check out our lab's [OSF page](https://osf.io/cdqm5/)! 
+
+Also a big thanks to our reviewers! 
+The paper was of much higher quality after the suggestions!
+
+> Baker, D. J., Ventura, J., Calamia, M., Shanahan, D., & Elliott, E. M. (2018). Examining musical sophistication: A replication and theoretical commentary on the Goldsmiths Musical Sophistication Index. Musicae Scientiae. https://doi.org/10.1177/1029864918811879

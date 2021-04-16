@@ -1,16 +1,236 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags | David John Baker</title>
-    <link>/tags/</link>
-      <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
-    <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Tue, 30 Jun 2020 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>Tags</title>
-      <link>/tags/</link>
-    </image>
+    <title>Tags on David John Baker</title>
+    <link>https://example.com/tags/</link>
+    <description>Recent content in Tags on David John Baker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>personal</title>
+      <link>https://example.com/tags/personal/</link>
+      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/personal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>corpus</title>
+      <link>https://example.com/tags/corpus/</link>
+      <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/corpus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>preprint</title>
+      <link>https://example.com/tags/preprint/</link>
+      <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/preprint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>career</title>
+      <link>https://example.com/tags/career/</link>
+      <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/career/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>musicology</title>
+      <link>https://example.com/tags/musicology/</link>
+      <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/musicology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Science</title>
+      <link>https://example.com/tags/data-science/</link>
+      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/data-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>education</title>
+      <link>https://example.com/tags/education/</link>
+      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/education/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>career diversity</title>
+      <link>https://example.com/tags/career-diversity/</link>
+      <pubDate>Wed, 12 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/career-diversity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>diary</title>
+      <link>https://example.com/tags/diary/</link>
+      <pubDate>Wed, 12 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/diary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>review</title>
+      <link>https://example.com/tags/review/</link>
+      <pubDate>Thu, 28 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/review/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>memory</title>
+      <link>https://example.com/tags/memory/</link>
+      <pubDate>Fri, 21 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/memory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>music</title>
+      <link>https://example.com/tags/music/</link>
+      <pubDate>Fri, 21 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/music/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>playlists</title>
+      <link>https://example.com/tags/playlists/</link>
+      <pubDate>Fri, 21 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/playlists/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>10 Minute Reads</title>
+      <link>https://example.com/tags/10-minute-reads/</link>
+      <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/10-minute-reads/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>grad school</title>
+      <link>https://example.com/tags/grad-school/</link>
+      <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/grad-school/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pomodoro</title>
+      <link>https://example.com/tags/pomodoro/</link>
+      <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/pomodoro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>productivity</title>
+      <link>https://example.com/tags/productivity/</link>
+      <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/productivity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vim</title>
+      <link>https://example.com/tags/vim/</link>
+      <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/vim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beer</title>
+      <link>https://example.com/tags/beer/</link>
+      <pubDate>Mon, 29 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/beer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>https://example.com/tags/r/</link>
+      <pubDate>Mon, 29 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>5 Minute Reads</title>
+      <link>https://example.com/tags/5-minute-reads/</link>
+      <pubDate>Sat, 13 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/5-minute-reads/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Mining</title>
+      <link>https://example.com/tags/data-mining/</link>
+      <pubDate>Mon, 20 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/data-mining/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Twitter</title>
+      <link>https://example.com/tags/twitter/</link>
+      <pubDate>Mon, 20 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/twitter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>music theory</title>
+      <link>https://example.com/tags/music-theory/</link>
+      <pubDate>Sun, 19 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/music-theory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>transformational theory</title>
+      <link>https://example.com/tags/transformational-theory/</link>
+      <pubDate>Sun, 19 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/tags/transformational-theory/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

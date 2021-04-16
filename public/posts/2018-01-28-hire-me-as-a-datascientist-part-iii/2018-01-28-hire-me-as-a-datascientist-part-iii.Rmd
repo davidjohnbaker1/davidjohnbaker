@@ -1,0 +1,117 @@
+---
+title: Hire Me (as a Data Scientist!), Part III
+author: ~
+date: '2018-01-28'
+slug: hire-me-as-a-datascientist-part-iii
+categories: [R, 10 Minute Reads]
+tags: [R, data science, beer]
+---
+
+Two questions down, two to go!
+For the third post I'll explore the question:
+
+> Which of the factors (aroma, taste, appearance, palate) are most important in determining the overall quality of a beer?
+
+Whereas the posts before were questions on sorting data, this is our first attempt to make some statistical models.
+In this case, we're going to be doing a bit of regression modeling. 
+
+There are a couple of ways to tackle this problem.
+We could run some basic linear regression models and spend the whole post talking beta coefficients and what assumptions we violated.
+We could do a linear mixed effects model, then realize that doing so would be a terrible choice (I tried it for the fun of it, bad idea).
+Or we do a fun non-parametric, machine learning model that is on the easier-to-interpret side. 
+Since machine learning is so hot right now, let's stick with that. 
+
+## Machine Learning and Non-Parametric Models 
+
+Non-parametric models make no assumptions about the data.
+The models do not assume that our points come from beautiful, normally distributed ideal populations; they just seek to find some way to give us a good rule of thumb about what is happening under the hood.
+
+In this case, we need to make a model to predict the quality of beer (our dependent variable, ```review_overall```) based on four different independent variables (```review_aroma```, ```review_taste```, ```review_appearance```, ```review_palate```).
+
+After discussing the pros and cons of certain methods for tackling this problem, my friend [Tabi](https://www.linkedin.com/in/tabitha-trahan-172471b4/), the data scientist over at [Soundout](https://www.soundout.com/), suggested that an easy way to get the answer I was looking for was to use a random forest model.
+Some great explanations about how these models work can be found [here](http://trevorstephens.com/kaggle-titanic-tutorial/getting-started-with-r/) and [here](http://www-bcf.usc.edu/~gareth/ISL/), and [here](https://gormanalysis.com/random-forest-from-top-to-bottom/) and since this isn't a post about how random forest models work, I'll just note that basically the idea is that it is an algorithm that partitions your dataset into dimensions that help us either classify or predict observations in our dataset based on the variables you feed it. 
+Relevant to our question: the ways in which the algorithm splits our dataset is going to help us figure out what are the important variables. 
+
+Before running this model though, we need to talk about a small dependence problem in our dataset.
+In my earlier post, I talked about how we probably should not just run a model on the data _as is_.
+Last time we found there were tons of NAs in our dataset, that not all beers were equally represented, and that not all reviewers were making even amounts of reviews.
+In addition to these problems, there was also the problem that some reviewers might rate generally higher or lower _all the time_.
+Since we know things like this exist, we wanted to account for them. 
+
+The simplest plan of action would be to try and make each of the points we want to model independent by averaging ratings across all beers so we don't have cases where one person's influence is spread across multiple beers.
+We also make sure to only use beers that have over 30 ratings as a quality check.
+Let's index out the data we need!
+
+```{r}
+library(ggplot2)
+library(data.table)
+beer <- fread("data/beer_reviews.csv") 
+```
+
+```{r}
+# Make READABLE unique beer ID
+beer[, beer_name_unique := paste(brewery_name,beer_name, beer_style)]
+
+# Only beers with over 30 reviews 
+reliable.beers <- beer[, .(ReviewsBeerHas = .N), by = beer_name_unique][order(-ReviewsBeerHas)][ReviewsBeerHas > 30]
+
+# Merge with Inner Join 
+beer.reliable <- reliable.beers[beer, on = "beer_name_unique", nomatch=0]
+
+# Make independent ratings 
+prediction.data <- beer.reliable[, .(AvgOverall = mean(review_overall),
+         AvgAroma = mean(review_aroma),
+         AvgTaste = mean(review_taste),
+         AvgApp = mean(review_appearance),
+         AvgPal = mean(review_palate)), by = beer_name_unique]
+```
+
+
+Now that we have some better data, let's fit a random forest model.
+We are now attempting to predict the average overall rating from our four others measures.
+We'll use the ```randomForest``` package and make sure to ask it to include a measure of variable importance. 
+
+```{r}
+library(randomForest)
+set.seed(666) 
+random.forrest.fit <- randomForest(AvgOverall ~ AvgAroma + AvgTaste + AvgApp + AvgPal, data = prediction.data, importance = TRUE)
+random.forrest.fit$importance
+```
+
+The randomForest object gives us two different measures when it comes to variable importance.
+The first one, ```%IncMSE```, is a measure that tells us how much our model's Mean Square Error (MSE) would change if we were to take that variable out of our model.
+Average taste here is trouncing the other variables in terms of importance. 
+The second variable, ```IncNodePurity``` gives us a measure of node purity from all of the trees that were used in creating our model. 
+Here Taste again leads in terms of importance, but our Palate variable seems to be close behind.
+We see this visually below.
+
+```{r}
+varImpPlot(random.forrest.fit, main = "Variable Importance Metrics")
+```
+
+The result that Taste seems to be taking the cake here is to be expected.
+Using some of the more basic tools of statistics and data science, we can look at the correlation between our taste variable and our overall, and it's quite high.
+Actually looking at our average ratings, all of the correlations are really high! 
+
+```{r}
+cor(prediction.data[,-1])
+```
+
+Doing the analysis with this data presents some strange issues of collinearity.
+Having an _r_ = .951 for our Overall and Taste variables is obnoxiously high.
+An _r_ = .974 for Palette and Taste is also strangely large. 
+If you come from more of a psychology background, you would almost never see correlations this high in the wild; it would be an immediate sign for concern.
+
+The correlations go down a bit if you end up looking at the non-aggregated sets too (see below), but again remember that these values have those dependence and outlier issues with them.
+Still, ```review_taste``` and ```review_overall``` are the highest correlated variables.
+
+```{r}
+cor(beer[, .(review_overall,review_aroma,review_appearance,review_palate,review_taste)])
+```
+
+This effect is probably due to the fact that higher quality beers tend to score higher on everything. 
+It would be pretty strange in practice to give a beer a 5/5 overall, but then think it's deserving of a 2/5 in Taste.
+If I were on a team at Beer Advocate, I might suggest incorporating either a larger range of ratings (maybe a seven point scale) or maybe thinking about different dimensions to ask people to rate like ‘hoppiness’ or bang-for-your-buck.
+Variables like these would allow us to learn more about the beers since they would have less collinearity issues. 
+
+So the take-home here is that the taste variable is the most important variable for determining the overall rating and again we're reminded about how messy this data is!

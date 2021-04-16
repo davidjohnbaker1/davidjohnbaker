@@ -1,0 +1,79 @@
+baseURL: https://davidjohnbaker.rbind.io
+languageCode: en-us
+title: David John Baker
+theme: hugo-theme-noteworthy
+enableRobotsTXT: yes
+paginate: 4
+summaryLength: 10
+googleAnalytics: ''
+disqusShortname: ''
+taxonomies:
+  tag: tags
+author:
+  name: kimcc
+markup:
+  goldmark:
+    renderer:
+      unsafe: yes
+params:
+  description: Music, Theory, Sciences
+  email: 'davidjohnbaker1@gmail.com'
+  enableKofi: no
+  github: 'www.github.com/davidjohnbaker1'
+  googlescholar: 'https://scholar.google.com/citations?user=tigU2AkAAAAJ&hl=en'
+  linkedin: 'www.linkedin.com/david-john-baker-phd'
+  math: yes
+  orcid: 'https://orcid.org/0000-0003-3921-7517'
+  showReadMore: no
+  twitter: 'www.twitter.com/davidjohnbaker'
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 1
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 7
+    - identifier: archives
+      name: Blog 
+      url: /archives/
+      weight: 2
+    - identifier: academic 
+      name: Academic 
+      url: /academic/
+      weight: 3
+    - identifier: industry 
+      name: Industry 
+      url: /industry/
+      weight: 4
+    - identifier: teaching 
+      name: Teaching 
+      url: /teaching/
+      weight: 5
+    - identifier: service 
+      name: Service 
+      url: /service/
+      weight: 6
+privacy:
+  disqus:
+    disable: no
+  googleAnalytics:
+    anonymizeIP: yes
+    disable: no
+    respectDoNotTrack: no
+    useSessionStorage: no
+  instagram:
+    disable: no
+    simple: no
+  twitter:
+    disable: no
+    enableDNT: no
+    simple: no
+  vimeo:
+    disable: no
+    simple: no
+  youtube:
+    disable: no
+    privacyEnhanced: yes

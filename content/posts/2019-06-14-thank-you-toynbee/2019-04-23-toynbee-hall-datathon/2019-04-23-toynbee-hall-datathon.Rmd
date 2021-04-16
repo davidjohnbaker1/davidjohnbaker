@@ -1,0 +1,76 @@
+---
+title: Toynbee Hall Datathon
+author: Dave
+date: '2019-04-23'
+slug: toynbee-hall-datathon
+categories: [charity, rstats]
+tags: []
+header:
+  caption: ''
+  image: ''
+highlight: yes
+math: yes
+---
+
+## Background
+
+Not everyone might be aware, but in addition to living that dissertation life this past year, I have also been volunteering  at [Toynbee Hall](http://www.toynbeehall.org.uk/) as part of their newly re-started Residential Volunteer Worker program. 
+The program started WAY back in the late 1890s. 
+The idea was that all the bougie people from Oxbridge would come and live on-site in East London in order to do charity work and help out a bit before they were to go on to do other things like be elected to Parliament and then pass laws and help those that were not as well off. 
+I probably will not be elected to Parliament anytime soon, but will hopefully go on to be a helpful member of society in other ways. 
+Toynbee Hall restarted this program this past year and I was lucky enough to have my application accepted for the position. 
+Since then, I have been helping out as part of the research team.
+
+I’ve helped out with a few smaller projects here or there (basically crunching the datasets they have and putting my other research skills to use doing interviews and what not), but before my year was up, I wanted to try and do my own mini-project which will be the focus of this post: a #data4good datathon at Toynbee Hall. 
+
+[Check out the event and sign up here!!](https://www.eventbrite.co.uk/e/datathon-at-toynbee-hall-tickets-59760759039) 
+
+## History of Helping
+
+You can read my glitzy description of the event in the link above, but if you’re reading my personal blog, as opposed to the event page, I assume this readership would want a bit more context on the Datathon and the ideas behind it. 
+To give a bit of background, Toynbee Hall is a very, very old charity based in East London. 
+It has a long history and was a touch point for a lot of important people in London back in the day who were interested in charity work (non-profit for all my North American readers). 
+
+Ages ago, some of the people here at Toynbee Hall helped out [Charles Booth](https://booth.lse.ac.uk/) in his creation of the [London maps of poverty](https://booth.lse.ac.uk/map/14/-0.1174/51.5064/100/0) that essentially created the first data visualizations in what might be considered a #data4good cause. 
+Fast forward over 100 years and instead of going door to door and trying to use colors to highlight different levels of wealth on a map needing several panels, we can instead download publicly available data from something like the [Open Data Institute](https://theodi.org/) or [The London Datastore](https://data.london.gov.uk/) and make data visualizations with the same goals in mind. 
+
+Given Toynbee Hall’s history and current research interests that engage the community by bringing different people together, it almost seemed like a no-brainer to try to put together something where we could try to combine all of these into one coherent event.
+
+## Goals
+
+Knowing that there are community issues in need of addressing in [Tower Hamlets](https://en.wikipedia.org/wiki/London_Borough_of_Tower_Hamlets), as well as community members who know the area, we wanted to continue in the tradition of bringing people together to answer a question.
+Because my background has a bit of #rstats and data science (because of my work in music science), what seemed like the logical move here was to combine the history that Toynbee Hall has on data visualization and the local community using the data community. 
+
+So what were our goals in trying to do this event? 
+
+Well the **first** goal of this was to see what goes into organizing this kind of event. 
+I don’t really have too much of an event planning background and wanted to know what I would have to get in order to front load most of the data work for everyone. 
+This means gathering all the data to start with, figuring out how to best host it, and setting everyone up for success the afternoon of the event. 
+This data curation is most of what I do anyway, and I figured if this process did not prove too hard, then maybe I could help out remotely on events like this after I leave Toynbee in order to still be helpful. 
+
+The **second** goal is the most important one: 
+
+> to have the event result in the creation of meaningful material that Toynbee hall can use in their upcoming advocacy campaigns.
+
+The research team is planning on looking at issues of both Youth Homelessness and Safety in Tower Hamlets this summer. 
+Any data that we could find and could include in future reports could really help provide evidence that could eventually be used in a policy campaign. 
+In order to do this we are using data that [Centrepoint](https://www.yhdatabank.com/) has given us, publicly available data on crime in London, and maybe one more source that I am putting together today.
+
+The **third**, a by-product of having this event both locally and on Twitter, is to hopefully create some visibility to these issues. 
+Just having people tweeting their data visualizations and maybe having some be caught by the community at large would be great for making people aware of these issues. 
+It would also help us connect people who are interested in #data4good with charities or non-profits that they can help. 
+
+**Lastly**, in line with solving problems long term, I am also hoping to build up a network of people that Toynbee Hall can turn to after I leave. 
+The program that I am on is just one year long and I will go on to other work after this. 
+After my time here is up, I want to have linkd up the research team at Toynbee Hall with a network of people that could help in the future. 
+One way that we are hoping to accomplish this is take everyone that participates in our event and link them up with organizations like [DataKindUK](https://www.datakind.org/chapters/datakind-uk) and hopefully foster new relationships. 
+
+I have a thousand other things I want to say about this event, but instead of editing more content that I originally drafted  few weeks ago, I need to instead get all the content ready for us to go tomorrow. 
+I am sure I’ll be talking a lot more about this in the future when things calm down (still also on the come down from my dissertation submission last week…) but I invite you to join us tomorrow either at Toynbee (in the beautiful [Ashbee Hall](http://www.toynbeehall.org.uk/events/)!) or online on Twitter with #data4toynbee and download the data from our [Github](https://github.com/research-at-toynbee-hall/datathons) and help us out! 
+If you do download the data and something does not make sense, please @ me so I can fix it.
+
+Feel free to try it out now as I put on the finishing touches!
+
+Please get in touch if you want to chat more! 
+Either ping me on Twitter or send me an email!
+

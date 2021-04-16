@@ -1,38 +1,23 @@
-# Website 
+# Website
 
-Minor Change
+This is the readme for my website. 
 
-## To Do
+I am still in the process of updating content from the migration. 
 
-* [ ] Link New CV
-* [ ] Link new Resume 
+# Migration 
 
-### Future Blogs 
+* [ ] Spell Check It all 
+* [ ] Insert Missing Links on Icons  
+* [ ] Load In All PDFs Pubs to Host 
+* [X] Migrate Old Materials 
+* [ ] Clean Old Tags 
+* [ ] Find All Old Images 
+* [ ] Launch on New Server
 
-* [ ] SysMus Blog for AltAc 
-* [ ] RStudio Instructor Post 
-* [ ] FIS Reflection Post 
+# Future Posts 
 
-### Teaching 
+* [ ] Aural Skills Chapter
+* [ ] Pre-Dominant Paper in Music Perception 
+* [ ] GTD
+* [ ] Oxford Chapter 
 
-* [ ] Link in Workshop Examples
-* [ ] Link Data Science Lesson Plans 
-	- Capstone Template Materials
-	- Statistics Slides
-	- PCA
-	- Bayes 
-	- Tidyverse
-* [ ] Add links to vidoes of me teaching 
-* [ ] Link to University Course Materials
-* [ ] Create Teaching Effectiveness Materials
-* [ ] Add Diversity Statement Links
-
-## Projects 
-
-* [ ] Resolve `projects` vs `project` problem
-* [ ] Push old projects up 
-
-## Experience
-
-* [ ] Remove contact info on teaching 
-* [ ] Tags to blog site 

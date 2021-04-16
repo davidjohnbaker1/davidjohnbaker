@@ -1,86 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Twitter | David John Baker</title>
-    <link>/tags/twitter/</link>
-      <atom:link href="/tags/twitter/index.xml" rel="self" type="application/rss+xml" />
-    <description>Twitter</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Mon, 20 Nov 2017 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>Twitter</title>
-      <link>/tags/twitter/</link>
-    </image>
-    
+    <title>Twitter on David John Baker</title>
+    <link>https://example.com/tags/twitter/</link>
+    <description>Recent content in Twitter on David John Baker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Nov 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/twitter/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Looking For Musicologists on Twitter</title>
-      <link>/post/looking-for-musicologists-on-twitter/</link>
+      <link>https://example.com/posts/2017-11-16-looking-for-musicologists-on-twitter/looking-for-musicologists-on-twitter/</link>
       <pubDate>Mon, 20 Nov 2017 00:00:00 +0000</pubDate>
-      <guid>/post/looking-for-musicologists-on-twitter/</guid>
-      <description>
-
-
-&lt;p&gt;For the most part, Twitter is full of garbage.
-But I’m an optimist and a firm believer in &lt;a href=&#34;https://en.wikipedia.org/wiki/Sturgeon%27s_law&#34;&gt;Sturgeon’s Law&lt;/a&gt; so by that logic there must be some good on it.
-That good is academic twitter.&lt;/p&gt;
-&lt;p&gt;While this isn’t a post advocating for academic Twitter, I did want to&lt;br /&gt;
-1. see if I could figure out how to write a post with some R code in it and
-2. share how I scraped Twitter to find active users in the Musicology and Music Theory community&lt;/p&gt;
-&lt;p&gt;So here it goes…&lt;/p&gt;
-&lt;p&gt;The first thing that you have to do is get some tweets.
-Luckily some packages exist in the #rstats world that can help with this.
-For this project I used the &lt;a href=&#34;https://cran.r-project.org/web/packages/twitteR/twitteR.pdf&#34;&gt;twitteR&lt;/a&gt; package which lets you log into Twitter’s API via R and and search it.
-There are already some instructions on how to get started with it that you can find &lt;a href=&#34;https://davetang.org/muse/2013/04/06/using-the-r_twitter-package/&#34;&gt;here&lt;/a&gt;, so I won’t go into tons of detail about setting it up.
-(Also please note you can’t just copy and paste my code verbatim since it requires credentials from &lt;em&gt;your&lt;/em&gt; own Twitter account)&lt;/p&gt;
-&lt;p&gt;Let’s first load the two packages we’ll need.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(data.table)
-library(twitteR)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Next up, we need to access Twitter’s API by entering in the details from the link above.
-I find it’s easiest to copy and paste each of my keys and tokens into a nice little character string, assign those to an object, then call those objects in the last command in this block.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;consumer_key &amp;lt;- &amp;#39;YOUR CONSUMER KEY HERE&amp;#39;
-consumer_secret &amp;lt;- &amp;#39;COPY AND PASTE YOUR CONSUMER SECRET HERE&amp;#39;
-access_token &amp;lt;- &amp;#39;THEN PUT YOUR ACCESS TOKEN HERE&amp;#39;
-access_secret &amp;lt;- &amp;#39;AND YOUR ACCESS SECRET HERE&amp;#39;
-setup_twitter_oauth(consumer_key, consumer_secret, access_token=NULL, access_secret=NULL)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Running that last line in the chunk should then direct you to your default browser.
-This will log you into your Twitter account and R will ask for Twitter’s permission to enter through the back door.&lt;/p&gt;
-&lt;p&gt;The next bit of code won’t run the way I have it set up because Twitter doesn’t let you download tweets older than a week old.
-So if you want to play with tweets from a conference’s hashtag or some event, make sure to think ahead to download them!!&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;amsTwitter &amp;lt;- searchTwitter(&amp;quot;#smt2017&amp;quot;, n = 700)
-amsTwitter &amp;lt;- searchTwitter(&amp;quot;#amsroc17&amp;quot;, n = 1600)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;This line above searches Twitter for anything matching the conference hashtags and saves the output of it in a list.
-You can also include an argument asking for a certain number of tweets, which I’ve also done.
-Luckily the twitteR package has a function that will take this list and convert it to a data frame.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;amsTwitter.df &amp;lt;- twListToDF(amsTwitter)
-smtTwitter.df &amp;lt;- twListToDF(smtTwitter)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;With these nice data frames, we’ll soon be able to join them together and count up some tweets!
-In order to do this we can take advantage of the
-&lt;a href=&#34;https://cran.r-project.org/web/packages/data.table/vignettes/datatable-intro.html&#34;&gt;data.table&lt;/a&gt; package to join our two tables together.
-Of course there are other ways, but Ben over at &lt;a href=&#34;https://gormanalysis.com/&#34;&gt;Gorm Analytics&lt;/a&gt; sold me on data.table this past summer and since then I have really been loving its easy syntax.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;amsTwitter.dt &amp;lt;- data.table(amsTwitter.df)
-smtTwitter.dt &amp;lt;- data.table(smtTwitter.df)
-amstweets &amp;lt;- amsTwitter.dt[, .(amsTweets = .N), by=screenName][order(-amsTweets)]
-smttweets &amp;lt;- smtTwitter.dt[, .(smtTweets = .N), by=screenName][order(-smtTweets)]
-totalTweets &amp;lt;- merge(smttweets,amstweets, on =&amp;quot;screenName&amp;quot;, all = TRUE)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The first thing the above code does is swap our data frames over to data.tables.
-Once they are in the data.table format, we can count up the tweets by screen name, then list them from biggest to smallest all in the same line.
-From there we merge the two together via the shared column, making sure to grab every instance in each table since not every Tweeter tweeted with both hashtags.&lt;/p&gt;
-&lt;p&gt;We then need to clean up some of the NAs (which as a data.table are characters!) in our bigger dataset with R’s ifelse() function that basically works exactly like an ifelse statement would in Microsoft Excel.
-It looks over a column in your dataset, checks if a value is an NA, if it is then it gives it a 0, if not, it puts in the value that was there in the first place.
-After replacing NAs, I then make a new variable that adds together both columns then run our final line that prints out our final dataset from top to bottom.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;totalTweets$smtTweets &amp;lt;- ifelse(test = is.na(totalTweets$smtTweets),
-                                yes = 0,
-                                no = totalTweets$smtTweets) 
-totalTweets$amsTweets &amp;lt;- ifelse(test = is.na(totalTweets$amsTweets),
-                                yes = 0,
-                                no = totalTweets$amsTweets) 
-
-totalTweets[, TotalTweets := smtTweets + amsTweets]
-totalTweets[order(-TotalTweets)]&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;From here it was simply a matter of using an &lt;a href=&#34;http://www.convertcsv.com/csv-to-html.htm&#34;&gt;online converter&lt;/a&gt; to turn it our final table an html file and then ssh it up to our &lt;a href=&#34;http://musiccog.lsu.edu/&#34;&gt;Music Cognition at LSU&lt;/a&gt; server!
-Since then I’ve also added both the 2017 &lt;a href=&#34;https://musiccog.lsu.edu/davidjohnbaker/data/amsmt17twitterdata/AmtTwitterData.csv&#34;&gt;AMS&lt;/a&gt; and &lt;a href=&#34;https://musiccog.lsu.edu/davidjohnbaker/data/amsmt17twitterdata/SmtTwitterData.csv&#34;&gt;SMT&lt;/a&gt; datasets that I used to generate the counts in case you want to try this for yourself.&lt;/p&gt;
-&lt;p&gt;If anyone has any questions on this, please &lt;a href=&#34;https://twitter.com/DavidJohnBaker&#34;&gt;tweet me&lt;/a&gt;!&lt;/p&gt;
-</description>
+      
+      <guid>https://example.com/posts/2017-11-16-looking-for-musicologists-on-twitter/looking-for-musicologists-on-twitter/</guid>
+      <description>For the most part, Twitter is full of garbage. But I’m an optimist and a firm believer in Sturgeon’s Law so by that logic there must be some good on it.</description>
     </item>
     
   </channel>

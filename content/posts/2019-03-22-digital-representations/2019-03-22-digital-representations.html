@@ -1,0 +1,77 @@
+---
+title: Digital Representations
+author: ~
+date: '2019-03-22'
+slug: digital-representations
+categories: []
+tags: []
+header:
+  caption: ''
+  image: ''
+highlight: yes
+math: no
+---
+
+
+
+<p>I obviously could not resist writing a blog post about yesterday’s <a href="https://www.google.com/doodles/celebrating-johann-sebastian-bach">Google Doodle</a> twitter buzz.
+I’m not going to try to talk about some of the smaller issues that came up.
+And tons of people have already said <a href="https://medium.com/@tompkinsguitar/googles-bach-ai-a-machine-learning-scientist-with-a-phd-in-music-theory-reacts-68d055f2461d?fbclid=IwAR1CuMvjwoAC1o0EPfBU5pa2mglRKp5BLcHpydh82HxHNktosxA3Ns7QgAg">interesting things</a>, but instead I’m hoping to ride the buzz so I can talk about something very relevant to the discussion: encoding and digital representation.</p>
+<p>Using <a href="https://twitter.com/imanimosley">Imani Mosley</a>’s <a href="http://www.imanimosley.com/humanistmachines/2019/3/21/breaking-the-doodle">blog post</a> as a jumping off point, she makes many great points about what Musicology twitter was interested in.
+One thing that I was most struck by were claims the reason for the snark was the tired Bach-as-machine trope to explain why scientists gravitate to Bach.
+In this post, I want to provide an alternative possibility of why researchers gravitate to Bach.
+Researchers like Bach because it’s already encoded.</p>
+<p>As Imani points out in her post, the dataset is made up from 308 compositions that the model was trained on.
+You can read more about the model <a href="https://magenta.tensorflow.org/coconet">here</a>, but each Chorale has many more musical events/data points.
+Navigating to where the Bach chorales live on my computer and running the <code>census -k *.krn</code> humdrum command on the first 308 of the Bach Chorales (just to ballpark) that were edited by Craig Sapp results in 72,030 note heads that can be analyzed with tools that can interpret <code>kern</code> data.
+This is a subset of 120,528 humdrum tokens.</p>
+<p><img src="/img/digrep/kern1.png" /></p>
+<p>I bring this up not to start debates about how much data is needed to train a model, but rather to point out that each little bit of data here had to be entered by hand for it to be used in any model.
+And there is no way that you could get a model to even come close to output that would be interesting without very clean data.</p>
+<p>As a researcher looking to tackle problems in this domain, having something like a complete set of Bach’s chorales in a digital format is a fantastic resource.
+But one of the problems in <a href="https://en.wikipedia.org/wiki/Computational_musicology">computational musicology</a> is not the depth of data used to try to make a machine part-write in style of Bach, but rather the breadth of representation researchers can chose from when they pick which data to model.
+How is it possible to make generalizable claims if you only look at a very small subset of music?</p>
+<p>In general, I work a lot with music and often use computers as a tool in that research.
+Unlike the Bach problem here, I am interested in melodies, but the types of data and tools to analyze this data are similar.
+One of the major problems I face in my work is that in order to make robust claims about music, you need to be able to show similar phenomena happen with new data.
+But where does this new data come from?</p>
+<p>If you’re a data scientist, you might get this from scraping a website or a government database.
+If you’re a music psychologist, you often get data from experiments.
+If you’re a computational musicologist, new data is not nearly as accessible.
+Most likely, you need to either find some or create a digitized version of that data yourself.</p>
+<p>If you take the former option, you first inclination might be to go to somewhere like <a href="http://kern.ccarh.org/">kern scores</a> or see what something like the <a href="https://simssa.ca/">SIMSSA project</a> curates and to see what is available.
+If you pop on over there for a second, you see a sample of what you can select from.
+For the most part, it’s like a worse version of the old dead white dude problem that is being faced in both curricula and the performance world right now.
+That said, there is still tons of data there.
+Based on what is current there, the kern scores page has 7,866,496 notes from 108,703 files.
+In addition to a lot of dead men, we also get a lot of folk songs, primarily with Hurons’s digitizing of Schaffrath’s work with the Essen collection.<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>
+You’ll notice that there are not a lot of complete sets of lieder, full-on symphonies, or much new music (copyright and public domain are obviously also an issue).</p>
+<p>If you take the latter option, you have to do encode these melodies yourself and digitizing music is not fun at all.
+Over the past year, I encoded 778 monophonic melodies using the <a href="https://musescore.org/en">MuseScore</a> platform.
+These 778 melodies resulted in 36,387 notes, a vast majority of which I did personally.<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>
+It sucked.
+I hated having this giant encoding project living over my head throughout the dissertation writing process.
+And since I am fresh out of it and still in peak bitter stage, thinking about this whole thing feels very much like <a href="https://en.wikipedia.org/wiki/The_Little_Red_Hen">a little red hen situation</a>.</p>
+<p>In the future, this kind of work could remain to be resigned to the individual.
+Encoding a corpus could follow the lonely scholar in the ivory tower model where digitizing so much music is a sort of rite of passage.
+But I don’t think that’s the best way forward for anyone involved.
+I think encoding needs to be much more of a community effort and we can look to fields like psychology of how we as music-types might remedy this problem.</p>
+<p>For example, in psychology, undergrad students taking psych courses in the USA are generally required to take part in experiments which generate the data for the papers that the field of psychology generally reads.
+Using such restricted samples leads to problems in that this data is basically <a href="https://slate.com/technology/2013/05/weird-psychology-social-science-researchers-rely-too-much-on-western-college-students.html">WEIRD</a>, but I think you could argue it’s better than not collecting any data.
+In music, we don’t really have this problem as much because our research is not this-kind-of-data driven, nor should it in many topics.
+But in cases like the one I’m describing here, we have our own litte weird problem.</p>
+<p>To remedy this, I imagine a world where in teaching music theory– where often competence in a computer notation is a learning objective– we spend a bit of time talking about this problem of (digital) representation in music.<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a>
+If every classroom were encodes some pop melodies (also a transcription exercise!), encode a Shostakovitch Fugue (a project I have been putting off for years now), or even encode one part of a symphony, all of this data would slowly start to accumulate for anyone to model.
+Doing this would lead to a deluge of new data for researchers to use, allow for Meyerian comparisons between styles, and teach students about serious pressing problems in research while having them learn about notational software.
+This also will expose them to the field of computational musicology, something that I didn’t even know existed until half-way through my Masters in <em>psychology</em>.
+Additionally, once compositions cross into the public domain, we as a research community can work towards having more music, more accessible to more people in the form of open scores.</p>
+<p>So it could be that there is this tired trope of Bach-as-machine (which certainly plays into it), but I’d be interested to know how much of what we do is just by-products of the means we have to answer those questions.
+Either way, as noted by <a href="https://twitter.com/Komaniecki_R/status/1108825660653473792">Robert Komaniecki</a>, hats off to the Google team for getting people to get so fired up about part-writing.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>Schaffrath, H. (1995). The Essen Folksong Collection in Kern Format. [computer database]. D. Huron (ed.). Menlo Park, CA: Center for Computer Assisted Research in the Humanities, 1995.<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p>A couple of my LSU colleagues helped out on some of them.<a href="#fnref2" class="footnote-back">↩︎</a></p></li>
+<li id="fn3"><p>Also a great place to talk about human biases in algorithms, the need to be ethical in research…<a href="#fnref3" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>

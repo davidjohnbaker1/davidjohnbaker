@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>personal on David John Baker</title>
+    <link>https://example.com/tags/personal/</link>
+    <description>Recent content in personal on David John Baker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/personal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Website Makeover</title>
+      <link>https://example.com/posts/2021-04-11-website-makeover/</link>
+      <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/posts/2021-04-11-website-makeover/</guid>
+      <description>After a few months of not blogging, I’m hoping to return to writing with a bit more regularity.</description>
+    </item>
+    
+  </channel>
+</rss>

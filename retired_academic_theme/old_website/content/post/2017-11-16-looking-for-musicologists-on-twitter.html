@@ -1,0 +1,71 @@
+---
+title: Looking For Musicologists on Twitter
+author: Dave
+date: '2017-11-20'
+slug: looking-for-musicologists-on-twitter
+categories: [R]
+tags: [Twitter, R, Data Mining]
+---
+
+
+
+<p>For the most part, Twitter is full of garbage.
+But I’m an optimist and a firm believer in <a href="https://en.wikipedia.org/wiki/Sturgeon%27s_law">Sturgeon’s Law</a> so by that logic there must be some good on it.
+That good is academic twitter.</p>
+<p>While this isn’t a post advocating for academic Twitter, I did want to<br />
+1. see if I could figure out how to write a post with some R code in it and
+2. share how I scraped Twitter to find active users in the Musicology and Music Theory community</p>
+<p>So here it goes…</p>
+<p>The first thing that you have to do is get some tweets.
+Luckily some packages exist in the #rstats world that can help with this.
+For this project I used the <a href="https://cran.r-project.org/web/packages/twitteR/twitteR.pdf">twitteR</a> package which lets you log into Twitter’s API via R and and search it.
+There are already some instructions on how to get started with it that you can find <a href="https://davetang.org/muse/2013/04/06/using-the-r_twitter-package/">here</a>, so I won’t go into tons of detail about setting it up.
+(Also please note you can’t just copy and paste my code verbatim since it requires credentials from <em>your</em> own Twitter account)</p>
+<p>Let’s first load the two packages we’ll need.</p>
+<pre class="r"><code>library(data.table)
+library(twitteR)</code></pre>
+<p>Next up, we need to access Twitter’s API by entering in the details from the link above.
+I find it’s easiest to copy and paste each of my keys and tokens into a nice little character string, assign those to an object, then call those objects in the last command in this block.</p>
+<pre class="r"><code>consumer_key &lt;- &#39;YOUR CONSUMER KEY HERE&#39;
+consumer_secret &lt;- &#39;COPY AND PASTE YOUR CONSUMER SECRET HERE&#39;
+access_token &lt;- &#39;THEN PUT YOUR ACCESS TOKEN HERE&#39;
+access_secret &lt;- &#39;AND YOUR ACCESS SECRET HERE&#39;
+setup_twitter_oauth(consumer_key, consumer_secret, access_token=NULL, access_secret=NULL)</code></pre>
+<p>Running that last line in the chunk should then direct you to your default browser.
+This will log you into your Twitter account and R will ask for Twitter’s permission to enter through the back door.</p>
+<p>The next bit of code won’t run the way I have it set up because Twitter doesn’t let you download tweets older than a week old.
+So if you want to play with tweets from a conference’s hashtag or some event, make sure to think ahead to download them!!</p>
+<pre class="r"><code>amsTwitter &lt;- searchTwitter(&quot;#smt2017&quot;, n = 700)
+amsTwitter &lt;- searchTwitter(&quot;#amsroc17&quot;, n = 1600)</code></pre>
+<p>This line above searches Twitter for anything matching the conference hashtags and saves the output of it in a list.
+You can also include an argument asking for a certain number of tweets, which I’ve also done.
+Luckily the twitteR package has a function that will take this list and convert it to a data frame.</p>
+<pre class="r"><code>amsTwitter.df &lt;- twListToDF(amsTwitter)
+smtTwitter.df &lt;- twListToDF(smtTwitter)</code></pre>
+<p>With these nice data frames, we’ll soon be able to join them together and count up some tweets!
+In order to do this we can take advantage of the
+<a href="https://cran.r-project.org/web/packages/data.table/vignettes/datatable-intro.html">data.table</a> package to join our two tables together.
+Of course there are other ways, but Ben over at <a href="https://gormanalysis.com/">Gorm Analytics</a> sold me on data.table this past summer and since then I have really been loving its easy syntax.</p>
+<pre class="r"><code>amsTwitter.dt &lt;- data.table(amsTwitter.df)
+smtTwitter.dt &lt;- data.table(smtTwitter.df)
+amstweets &lt;- amsTwitter.dt[, .(amsTweets = .N), by=screenName][order(-amsTweets)]
+smttweets &lt;- smtTwitter.dt[, .(smtTweets = .N), by=screenName][order(-smtTweets)]
+totalTweets &lt;- merge(smttweets,amstweets, on =&quot;screenName&quot;, all = TRUE)</code></pre>
+<p>The first thing the above code does is swap our data frames over to data.tables.
+Once they are in the data.table format, we can count up the tweets by screen name, then list them from biggest to smallest all in the same line.
+From there we merge the two together via the shared column, making sure to grab every instance in each table since not every Tweeter tweeted with both hashtags.</p>
+<p>We then need to clean up some of the NAs (which as a data.table are characters!) in our bigger dataset with R’s ifelse() function that basically works exactly like an ifelse statement would in Microsoft Excel.
+It looks over a column in your dataset, checks if a value is an NA, if it is then it gives it a 0, if not, it puts in the value that was there in the first place.
+After replacing NAs, I then make a new variable that adds together both columns then run our final line that prints out our final dataset from top to bottom.</p>
+<pre class="r"><code>totalTweets$smtTweets &lt;- ifelse(test = is.na(totalTweets$smtTweets),
+                                yes = 0,
+                                no = totalTweets$smtTweets) 
+totalTweets$amsTweets &lt;- ifelse(test = is.na(totalTweets$amsTweets),
+                                yes = 0,
+                                no = totalTweets$amsTweets) 
+
+totalTweets[, TotalTweets := smtTweets + amsTweets]
+totalTweets[order(-TotalTweets)]</code></pre>
+<p>From here it was simply a matter of using an <a href="http://www.convertcsv.com/csv-to-html.htm">online converter</a> to turn it our final table an html file and then ssh it up to our <a href="http://musiccog.lsu.edu/">Music Cognition at LSU</a> server!
+Since then I’ve also added both the 2017 <a href="https://musiccog.lsu.edu/davidjohnbaker/data/amsmt17twitterdata/AmtTwitterData.csv">AMS</a> and <a href="https://musiccog.lsu.edu/davidjohnbaker/data/amsmt17twitterdata/SmtTwitterData.csv">SMT</a> datasets that I used to generate the counts in case you want to try this for yourself.</p>
+<p>If anyone has any questions on this, please <a href="https://twitter.com/DavidJohnBaker">tweet me</a>!</p>
