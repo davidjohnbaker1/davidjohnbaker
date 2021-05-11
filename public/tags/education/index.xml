@@ -2,35 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>education on David John Baker</title>
-    <link>https://example.com/tags/education/</link>
+    <link>https://davidjohnbaker.rbind.io/tags/education/</link>
     <description>Recent content in education on David John Baker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/education/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://davidjohnbaker.rbind.io/tags/education/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Begin the Fugue, Part I</title>
-      <link>https://example.com/posts/2020-06-29-begin-the-fugue-part-i/begin-the-fugue-part-i/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2020-06-29-begin-the-fugue-part-i/begin-the-fugue-part-i/</link>
       <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/posts/2020-06-29-begin-the-fugue-part-i/begin-the-fugue-part-i/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2020-06-29-begin-the-fugue-part-i/begin-the-fugue-part-i/</guid>
       <description>The past few months have been pretty exhausting. On top of all things lockdown and the global pandemic, a little over a month ago I was told that my job was “at risk” of redundancy.</description>
     </item>
     
     <item>
       <title>Begin the Fugue, Part II</title>
-      <link>https://example.com/posts/2020-06-29-begin-the-fugue-part-ii/begin-the-fugue-part-ii/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2020-06-29-begin-the-fugue-part-ii/begin-the-fugue-part-ii/</link>
       <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/posts/2020-06-29-begin-the-fugue-part-ii/begin-the-fugue-part-ii/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2020-06-29-begin-the-fugue-part-ii/begin-the-fugue-part-ii/</guid>
       <description>Vocationtional Vicissitudes After existing in this bootcamp space for the past few months, I feel like I am walking away with a very fresh take on what it means to teach in a vocational, rather than a liberal arts setting.</description>
     </item>
     
     <item>
       <title>Begin the Fugue, Part III</title>
-      <link>https://example.com/posts/2020-06-29-begin-the-fugue-part-iii/begin-the-fugue-part-iii/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2020-06-29-begin-the-fugue-part-iii/begin-the-fugue-part-iii/</link>
       <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/posts/2020-06-29-begin-the-fugue-part-iii/begin-the-fugue-part-iii/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2020-06-29-begin-the-fugue-part-iii/begin-the-fugue-part-iii/</guid>
       <description>What’s Next Having coached many people to apply and get their first jobs in the world of data science, I have now seen A LOT of job postings and understand that a JD (job description) is more of a wish list of an ideal candidate rather than a required listing of skills.</description>
     </item>
     

@@ -2,17 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>preprint on David John Baker</title>
-    <link>https://example.com/tags/preprint/</link>
+    <link>https://davidjohnbaker.rbind.io/tags/preprint/</link>
     <description>Recent content in preprint on David John Baker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/preprint/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://davidjohnbaker.rbind.io/tags/preprint/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>The MeloSol Corpus</title>
-      <link>https://example.com/posts/the-melosol-corpus/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/the-melosol-corpus/</link>
       <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/posts/the-melosol-corpus/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/the-melosol-corpus/</guid>
       <description>Earlier this month I learned some of the research from my dissertation was accepted for publication!</description>
     </item>
     

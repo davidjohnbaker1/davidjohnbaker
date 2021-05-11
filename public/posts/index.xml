@@ -2,278 +2,264 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on David John Baker</title>
-    <link>https://example.com/posts/</link>
+    <link>https://davidjohnbaker.rbind.io/posts/</link>
     <description>Recent content in Posts on David John Baker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Apr 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://davidjohnbaker.rbind.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Website Makeover</title>
-      <link>https://example.com/posts/2021-04-11-website-makeover/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2021-04-11-website-makeover/</link>
       <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/posts/2021-04-11-website-makeover/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2021-04-11-website-makeover/</guid>
       <description>After a few months of not blogging, I’m hoping to return to writing with a bit more regularity.</description>
     </item>
     
     <item>
       <title>The MeloSol Corpus</title>
-      <link>https://example.com/posts/the-melosol-corpus/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/the-melosol-corpus/</link>
       <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/posts/the-melosol-corpus/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/the-melosol-corpus/</guid>
       <description>Earlier this month I learned some of the research from my dissertation was accepted for publication!</description>
     </item>
     
     <item>
       <title>Back to Musicology</title>
-      <link>https://example.com/posts/2020-07-31-back-to-musicology/back-to-musicology/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/back-to-musicology/</link>
       <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/posts/2020-07-31-back-to-musicology/back-to-musicology/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/back-to-musicology/</guid>
       <description>Sound the TROMPA After a few weeks looking for work, in September I will be starting as Senior Research Associate on the TROMPA project!</description>
     </item>
     
     <item>
       <title>Begin the Fugue, Part I</title>
-      <link>https://example.com/posts/2020-06-29-begin-the-fugue-part-i/begin-the-fugue-part-i/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2020-06-29-begin-the-fugue-part-i/begin-the-fugue-part-i/</link>
       <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/posts/2020-06-29-begin-the-fugue-part-i/begin-the-fugue-part-i/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2020-06-29-begin-the-fugue-part-i/begin-the-fugue-part-i/</guid>
       <description>The past few months have been pretty exhausting. On top of all things lockdown and the global pandemic, a little over a month ago I was told that my job was “at risk” of redundancy.</description>
     </item>
     
     <item>
       <title>Begin the Fugue, Part II</title>
-      <link>https://example.com/posts/2020-06-29-begin-the-fugue-part-ii/begin-the-fugue-part-ii/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2020-06-29-begin-the-fugue-part-ii/begin-the-fugue-part-ii/</link>
       <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/posts/2020-06-29-begin-the-fugue-part-ii/begin-the-fugue-part-ii/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2020-06-29-begin-the-fugue-part-ii/begin-the-fugue-part-ii/</guid>
       <description>Vocationtional Vicissitudes After existing in this bootcamp space for the past few months, I feel like I am walking away with a very fresh take on what it means to teach in a vocational, rather than a liberal arts setting.</description>
     </item>
     
     <item>
       <title>Begin the Fugue, Part III</title>
-      <link>https://example.com/posts/2020-06-29-begin-the-fugue-part-iii/begin-the-fugue-part-iii/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2020-06-29-begin-the-fugue-part-iii/begin-the-fugue-part-iii/</link>
       <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/posts/2020-06-29-begin-the-fugue-part-iii/begin-the-fugue-part-iii/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2020-06-29-begin-the-fugue-part-iii/begin-the-fugue-part-iii/</guid>
       <description>What’s Next Having coached many people to apply and get their first jobs in the world of data science, I have now seen A LOT of job postings and understand that a JD (job description) is more of a wish list of an ideal candidate rather than a required listing of skills.</description>
     </item>
     
     <item>
       <title>Life after a PhD in Systematic Musicology: How You Might Prepare for Industry?</title>
-      <link>https://example.com/posts/2020-06-09-life-after-a-phd-in-systematic-musicology-how-you-might-prepare-for-industry/life-after-a-phd-in-systematic-musicology-how-you-might-prepare-for-industry/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2020-06-09-life-after-a-phd-in-systematic-musicology-how-you-might-prepare-for-industry/life-after-a-phd-in-systematic-musicology-how-you-might-prepare-for-industry/</link>
       <pubDate>Tue, 09 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/posts/2020-06-09-life-after-a-phd-in-systematic-musicology-how-you-might-prepare-for-industry/life-after-a-phd-in-systematic-musicology-how-you-might-prepare-for-industry/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2020-06-09-life-after-a-phd-in-systematic-musicology-how-you-might-prepare-for-industry/life-after-a-phd-in-systematic-musicology-how-you-might-prepare-for-industry/</guid>
       <description>This post originally appeared on the SysMus blog on June 9th, 2020.</description>
     </item>
     
     <item>
       <title>Regression Modeling Strategies 2020 Review</title>
-      <link>https://example.com/posts/2020-05-29-regression-modeling-strategies-review/regression-modeling-strategies-review/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2020-05-29-regression-modeling-strategies-review/regression-modeling-strategies-review/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/posts/2020-05-29-regression-modeling-strategies-review/regression-modeling-strategies-review/</guid>
-      <description>A couple of weeks ago I attended Dr. Frank Harrell’s Regression Modeling Strategies course.</description>
+      <guid>https://davidjohnbaker.rbind.io/posts/2020-05-29-regression-modeling-strategies-review/regression-modeling-strategies-review/</guid>
+      <description>A couple of weeks ago I attended Dr. Frank Harrell’s Regression Modeling Strategies course.</description>
     </item>
     
     <item>
       <title>RStudio Instructor Certification Thoughts</title>
-      <link>https://example.com/posts/2020-05-06-rstudio-instructor-certification-thoughts/rstudio-instructor-certification-thoughts/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/rstudio-instructor-certification-thoughts/</link>
       <pubDate>Mon, 11 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/posts/2020-05-06-rstudio-instructor-certification-thoughts/rstudio-instructor-certification-thoughts/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/rstudio-instructor-certification-thoughts/</guid>
       <description>I have always tried to live by the adage that if you are going to do something, you should try to do it well.</description>
     </item>
     
     <item>
       <title>Blog on (Data Science) Blogs</title>
-      <link>https://example.com/posts/2020-02-06-blog-on-blogs/blog-on-blogs/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2020-02-06-blog-on-blogs/blog-on-blogs/</link>
       <pubDate>Fri, 07 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/posts/2020-02-06-blog-on-blogs/blog-on-blogs/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2020-02-06-blog-on-blogs/blog-on-blogs/</guid>
       <description>We’re nearing the point of saturation when it comes to data science blogs.</description>
     </item>
     
     <item>
       <title>Math Typesetting</title>
-      <link>https://example.com/posts/math-typesetting/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/math-typesetting/</link>
       <pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/posts/math-typesetting/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/math-typesetting/</guid>
       <description>Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.</description>
     </item>
     
     <item>
       <title>Prelude to a Career</title>
-      <link>https://example.com/posts/2019-09-24-prelude-to-a-career/prelude-to-a-career/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/prelude-to-a-career/</link>
       <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/posts/2019-09-24-prelude-to-a-career/prelude-to-a-career/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/prelude-to-a-career/</guid>
       <description>It’s been two months since I’ve last blogged! In the time since SMPC, I’ve done a fair bit of traveling and officially closed the graduate student chapter in my life.</description>
     </item>
     
     <item>
       <title>SMPC for Students</title>
-      <link>https://example.com/posts/2019-07-31-smpc-for-students/smpc-for-students/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2019-07-31-smpc-for-students/smpc-for-students/</link>
       <pubDate>Wed, 31 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/posts/2019-07-31-smpc-for-students/smpc-for-students/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2019-07-31-smpc-for-students/smpc-for-students/</guid>
       <description>Next week is SMPC!!! I’m super excited for it (as always), but this year I’m justifiably a bit more excited because this will be my first experience going to a conference as a member of the Executive Board representing the student members of the Society for Music Perception and Cognition.</description>
     </item>
     
     <item>
       <title>Thoughts on Doing a Master&#39;s Degree in Music Science</title>
-      <link>https://example.com/posts/2019-06-27-thoughts-on-doing-a-master-s-degree-in-music-science/thoughts-on-doing-a-master-s-degree-in-music-science/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2019-06-27-thoughts-on-doing-a-master-s-degree-in-music-science/thoughts-on-doing-a-master-s-degree-in-music-science/</link>
       <pubDate>Mon, 08 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/posts/2019-06-27-thoughts-on-doing-a-master-s-degree-in-music-science/thoughts-on-doing-a-master-s-degree-in-music-science/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2019-06-27-thoughts-on-doing-a-master-s-degree-in-music-science/thoughts-on-doing-a-master-s-degree-in-music-science/</guid>
       <description>I read somewhere on the internet that if more than three people email you with the same question, it’s worth writing your answer up in a blog post.</description>
     </item>
     
     <item>
       <title>Thank You, Toynbee</title>
-      <link>https://example.com/posts/2019-06-14-thank-you-toynbee/thank-you-toynbee/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2019-06-14-thank-you-toynbee/thank-you-toynbee/</link>
       <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/posts/2019-06-14-thank-you-toynbee/thank-you-toynbee/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2019-06-14-thank-you-toynbee/thank-you-toynbee/</guid>
       <description>After a year, my time is now up as a Residential Volunteer Worker at Toynbee Hall.</description>
     </item>
     
     <item>
       <title>Embracing Career Diversity</title>
-      <link>https://example.com/posts/2019-06-12-embracing-career-diversity/embracing-career-diversity/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2019-06-12-embracing-career-diversity/embracing-career-diversity/</link>
       <pubDate>Wed, 12 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/posts/2019-06-12-embracing-career-diversity/embracing-career-diversity/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2019-06-12-embracing-career-diversity/embracing-career-diversity/</guid>
       <description>Things Are Different Now Hello, first-blog-post-since-I-defended-my-Ph.D! It’s wild to think that after five or so years (between starting the the MSc.</description>
     </item>
     
     <item>
       <title>Toynbee Hall Datathon</title>
-      <link>https://example.com/posts/2019-04-23-toynbee-hall-datathon/toynbee-hall-datathon/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2019-06-14-thank-you-toynbee/2019-04-23-toynbee-hall-datathon/toynbee-hall-datathon/</link>
       <pubDate>Tue, 23 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/posts/2019-04-23-toynbee-hall-datathon/toynbee-hall-datathon/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2019-06-14-thank-you-toynbee/2019-04-23-toynbee-hall-datathon/toynbee-hall-datathon/</guid>
       <description>Background Not everyone might be aware, but in addition to living that dissertation life this past year, I have also been volunteering at Toynbee Hall as part of their newly re-started Residential Volunteer Worker program.</description>
     </item>
     
     <item>
       <title>Sempre Grad Conference, 2019</title>
-      <link>https://example.com/posts/2019-03-27-sempre-grad-conference-2019/sempre-grad-conference-2019/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2019-03-27-sempre-grad-conference-2019/sempre-grad-conference-2019/</link>
       <pubDate>Thu, 28 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/posts/2019-03-27-sempre-grad-conference-2019/sempre-grad-conference-2019/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2019-03-27-sempre-grad-conference-2019/sempre-grad-conference-2019/</guid>
       <description>Since I am planning on spending the whole day today writing, I figured: What better way to warm up to some writing than with some writing?</description>
     </item>
     
     <item>
       <title>Digital Representations</title>
-      <link>https://example.com/posts/2019-03-22-digital-representations/digital-representations/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2019-03-22-digital-representations/digital-representations/</link>
       <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/posts/2019-03-22-digital-representations/digital-representations/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2019-03-22-digital-representations/digital-representations/</guid>
       <description>I obviously could not resist writing a blog post about yesterday’s Google Doodle twitter buzz.</description>
     </item>
     
     <item>
       <title>#wikiwednesday</title>
-      <link>https://example.com/posts/2019-03-13-wikiwednesday/wikiwednesday/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2019-03-13-wikiwednesday/wikiwednesday/</link>
       <pubDate>Wed, 13 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/posts/2019-03-13-wikiwednesday/wikiwednesday/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2019-03-13-wikiwednesday/wikiwednesday/</guid>
       <description>One of the biggest issues that I lament about regarding Twitter is how there is so much great information just falling through my feed, never to be recovered again.</description>
     </item>
     
     <item>
       <title>Cataloging Memories with Music</title>
-      <link>https://example.com/posts/2018-12-20-cataloging-memories-with-music/cataloging-memories-with-music/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2018-12-20-cataloging-memories-with-music/cataloging-memories-with-music/</link>
       <pubDate>Fri, 21 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/posts/2018-12-20-cataloging-memories-with-music/cataloging-memories-with-music/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2018-12-20-cataloging-memories-with-music/cataloging-memories-with-music/</guid>
       <description>The past few times that I have sat down to work on my dissertation I have run into a writer’s block.</description>
     </item>
     
     <item>
       <title>Examining Musical Sophistication</title>
-      <link>https://example.com/posts/2018-11-14-examining-musical-sophistication/examining-musical-sophistication/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/examining-musical-sophistication/</link>
       <pubDate>Wed, 14 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/posts/2018-11-14-examining-musical-sophistication/examining-musical-sophistication/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/examining-musical-sophistication/</guid>
       <description>Replication Replication. Is it popular and important for research in psychology?</description>
     </item>
     
     <item>
       <title>Project Management with git and R</title>
-      <link>https://example.com/posts/2018-05-08-project-management-with-git-and-r/project-management-with-git-and-r/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/project-management-with-git-and-r/</link>
       <pubDate>Tue, 08 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/posts/2018-05-08-project-management-with-git-and-r/project-management-with-git-and-r/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/project-management-with-git-and-r/</guid>
       <description>Staying Organized The semester is finally over meaning it’s time to put some serious dents into my research projects.</description>
     </item>
     
     <item>
       <title>To-Dos and Boundaries</title>
-      <link>https://example.com/posts/2018-04-09-to-dos-and-boundaries/to-dos-and-boundaries/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2018-04-09-to-dos-and-boundaries/to-dos-and-boundaries/</link>
       <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/posts/2018-04-09-to-dos-and-boundaries/to-dos-and-boundaries/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2018-04-09-to-dos-and-boundaries/to-dos-and-boundaries/</guid>
       <description>As I write this sentence I know exactly how much time until my next break (45 minutes and 39 seconds if you’re interested).</description>
     </item>
     
     <item>
       <title>Hire Me (as a Data Scientist!), Part IV</title>
-      <link>https://example.com/posts/2018-01-29-hire-me-as-a-data-scientist-part-iv/hire-me-as-a-data-scientist-part-iv/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2018-01-29-hire-me-as-a-data-scientist-part-iv/hire-me-as-a-data-scientist-part-iv/</link>
       <pubDate>Mon, 29 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/posts/2018-01-29-hire-me-as-a-data-scientist-part-iv/hire-me-as-a-data-scientist-part-iv/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2018-01-29-hire-me-as-a-data-scientist-part-iv/hire-me-as-a-data-scientist-part-iv/</guid>
       <description>Since this is my last post in the beer review series, I’ll keep this short and sweet in terms of analysis.</description>
     </item>
     
     <item>
       <title>Hire Me (as a Data Scientist!), Part III</title>
-      <link>https://example.com/posts/2018-01-28-hire-me-as-a-datascientist-part-iii/hire-me-as-a-datascientist-part-iii/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2018-01-28-hire-me-as-a-datascientist-part-iii/hire-me-as-a-datascientist-part-iii/</link>
       <pubDate>Sun, 28 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/posts/2018-01-28-hire-me-as-a-datascientist-part-iii/hire-me-as-a-datascientist-part-iii/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2018-01-28-hire-me-as-a-datascientist-part-iii/hire-me-as-a-datascientist-part-iii/</guid>
       <description>Two questions down, two to go! For the third post I’ll explore the question:</description>
     </item>
     
     <item>
-      <title>Hire Me (as a Data Scientist!), Part II</title>
-      <link>https://example.com/posts/2018-01-14-hire-me-as-a-data-scientist-part-ii/hire-me-as-a-data-scientist-part-ii/</link>
-      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/posts/2018-01-14-hire-me-as-a-data-scientist-part-ii/hire-me-as-a-data-scientist-part-ii/</guid>
-      <description>Continuing on from my earlier post, I’m now looking to tackle the question:</description>
-    </item>
-    
-    <item>
-      <title>Hire Me (as a Data Scientist!), Part I</title>
-      <link>https://example.com/posts/2018-01-14-hire-me-as-a-data-scientist-part-i/hire-me-as-a-data-scientist-part-i/</link>
-      <pubDate>Sat, 13 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/posts/2018-01-14-hire-me-as-a-data-scientist-part-i/hire-me-as-a-data-scientist-part-i/</guid>
-      <description>Background I read Medium blog posts on “How to Become a Data Scientist” more often than I care to admit.</description>
-    </item>
-    
-    <item>
       <title>Looking For Musicologists on Twitter</title>
-      <link>https://example.com/posts/2017-11-16-looking-for-musicologists-on-twitter/looking-for-musicologists-on-twitter/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2017-11-16-looking-for-musicologists-on-twitter/looking-for-musicologists-on-twitter/</link>
       <pubDate>Mon, 20 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/posts/2017-11-16-looking-for-musicologists-on-twitter/looking-for-musicologists-on-twitter/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2017-11-16-looking-for-musicologists-on-twitter/looking-for-musicologists-on-twitter/</guid>
       <description>For the most part, Twitter is full of garbage. But I’m an optimist and a firm believer in Sturgeon’s Law so by that logic there must be some good on it.</description>
     </item>
     
     <item>
       <title>Calculating iMultisets in R</title>
-      <link>https://example.com/posts/2017-11-18-calculating-imultisets-in-r/calculating-imultisets-in-r/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/calculating-imultisets-in-r/</link>
       <pubDate>Sun, 19 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/posts/2017-11-18-calculating-imultisets-in-r/calculating-imultisets-in-r/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/calculating-imultisets-in-r/</guid>
       <description>November is pretty much the worst month for people in higher education.</description>
     </item>
     

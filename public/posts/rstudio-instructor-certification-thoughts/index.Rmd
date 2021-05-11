@@ -1,0 +1,213 @@
+---
+title: RStudio Instructor Certification Thoughts
+author: ~
+date: '2020-05-11'
+slug: rstudio-instructor-certification-thoughts
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-05-06T12:24:50+01:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+
+I have always tried to live by the adage that if you are going to _do_ something, you should try to _do_ it well. 
+For the past eight or so months at [Flatiron School](www.flatironschool.com), what I have been _doing_ is teaching. 
+In fact, like many trained academics, what actually “pays the bills” at the end of the day and what you spent a sizeable amount of your time _doing_ is teaching, not research (especially in the United States).
+
+You wouldn’t think that was the case if you looked at what is required of most of us with academic backgrounds. 
+The emphasis with academics is often to gain subject matter expertise in something where you become the expert. 
+You take classes, read really thick books, take obscure examinations, and synthesize them all in order to come up with new ideas. 
+Eventually you know _so much_ about something that it’s sort of assumed you’re saturated with all the information you’ve soaked up like a sponge. 
+All it takes to share that information is one good squeeze and all the information comes gushing out.
+
+And we’ve all witnessed this. 
+We’ve sat in a classrooms where someone who “really know their stuff” gets up in front of a group of people and the information that’s inside of them just comes out every which way and you as the student are spending most of your effort trying to put all the pieces together to make sense of what is happening rather than absorbing the material yourself.
+
+You might think to yourself, “I know this teacher really knows their stuff, why do I not just _get it_? 
+What’s wrong with me?” 
+Well the answer is that the skills that get you in a position of power to teach something very complex are often not the skills that make you a good teacher. 
+
+> The skills that get you in a position of power to teach something very complex are often not the skills that make you a good teacher!
+
+This is true in academia and over the past few months I’ve also found it’s also true in the world of data science and software engineering (and literally any other discipline in my opinion, anyone that's taken music lessons from a fantastic player knows that their playing ability doesn’t always translate to teaching ability).
+
+But why is this the case? 
+Well in my experience, a huge part of this is that academics have never really been taught how to be an effective teacher to the extent they have for research.
+Literally five years as a graduate student and only in one semester did I take a class on teaching which was mostly designed to teach professional musicians who had to teach a music theory class so they can explain what an [augmented sixth chord](https://en.wikipedia.org/wiki/Augmented_sixth_chord) is. 
+
+The rest of my education on teaching comes from being on the receiving end of teaching.
+It consisted of making a big list of things I like and don’t like that my teachers did with the latter list being much longer than the former. 
+
+I know the above is a bit heavy on the autobiographical side, but I'd bet many people who are reading this can relate.^[I am also just dying to write anything and everything being in lockdown... so sorry if this gets rambly]
+Many people find themselves in a position of having (probably wanting!) to teach, but not having nearly as many resources to help you be a great teacher as there are to be a great researcher.
+And if you're going to teach, you should _do_ it well.
+So what can you do?
+
+Well one thing that you could try to do, like anything else you want to get better at, is to get external training on becoming a better teacher. 
+
+## R Studio Instructor Certification
+
+In this post I want to reflect on my experience of completing the [RStudio Instructor Certification](https://education.rstudio.com/trainers/) program and just think out loud regarding the process for anyone else who also finds themselves in the boat of wanting to become a better teacher (especially those working in the world of technology!), but not really knowing an efficient way to go about this. 
+I'm also not the only one who has written about this, if you want to see what other's have said check out what [Ted](https://laderast.github.io/2019/11/15/my-experience-with-rstudio-instructor-training/), [Ari](https://arilamstein.com/blog/2019/08/20/notes-on-becoming-an-rstudio-certified-trainer/), [Omayma](https://www.onceupondata.com/2020/04/14/teaching-rstudio/) or [this interview](https://tcbanalytics.com/2020/04/08/rstudio-certification-program-insights-interview-with-greg-wilson/) have to say.
+
+![It's Me!](trainers.png){width=100%}
+
+## Certification 
+
+I first heard about the RStudio instructor certification back in August from [Josiah Perry](https://twitter.com/JosiahParry) who mentioned it to me since at the time since he knew I was doing a few workshops in around London for [Minerva Statistical Consulting](https://minervastatisticalconsulting.co.uk/) and trying to grow that side hustle as I looked for full time employment. 
+
+![He Was Right](josiah.png){width=100%}
+
+My initial reason for signing up for this course was on the RStudio website there is a [big list](https://education.rstudio.com/trainers/) of teachers that RStudio points people to who are looking to hire a trainer. 
+They note the demand for teaching R is growing fast, so why not try to get on that list to say I’m ready and willing! 
+
+So how do you get on that list? 
+Well it’s a multi-step process that you can read about on the [website here](https://education.rstudio.com/trainers/#info) but the summary is that you need to...
+
+- Sign up for the class (there’s often a bit of a waiting period) 
+- Attend an ~8 hour course via Zoom
+- Take a 90 minute teaching exam
+- Take a 90 minute subject area exam in the tidyverse (you can do Shiny too!)
+
+The course costs $500, which is pretty pricy and unfortunatly I couldn't get my employer to cover it for reason that might soon be clear, but they do waivers if needed! 
+
+But many people reading this probably knew that and instead want to read more about the experience so they know what it’s like and if it’s for them. 
+So let me reflect on each step in turn. 
+Some will get more attention than others. 
+
+## Step One 
+
+As for step one, I want to mention that I first reached out to [Greg Wilson](https://twitter.com/gvwilson) about the course in August, tried to sign up for a course in December, but because life happens I was not able to attend the remote sessions that are offered until March. 
+I mention this only to note that as of now, the course is quite popular and if you are interested in participating, I suggest you sign on sooner rather than later.
+This of course might be different depending on when you read this, but did want to mention it.
+
+## Step Two 
+
+The first part of the certification requires an about eight hour course on evidence based teaching methods. 
+As can be found on the slides for the course that are open sourced, [the pitch of the whole course](https://drive.google.com/drive/folders/13ohFt3D0EJ5PDbMaWTxnHH-hwA7G0IvY) is to treat the attendees as if they were educational front line workers who need to know best practices for when you are in front of students, rather than take a more academic review of all things education research. 
+
+The vast majority of the course content comes from Greg Wilson’s [Teaching Tech Together](http://teachtogether.tech/). 
+The book is free to read online, but as a compulsive book buyer (and back in the day when I had 45 minutes on my commute I liked to sit down and read the actual book) I bought a copy to read in preparation for the course.^[Though if you do teach in the world of technology/coding/data science, this is an excellent read!!]
+You don’t have to read the book to take the course, but I wanted to get most out of the course and it’s a long wait between sign-up and the course, so why not best prepare?
+
+The course is not just a rehash of the book, most of the content comes from the [slides I linked to earlier](https://drive.google.com/drive/folders/13ohFt3D0EJ5PDbMaWTxnHH-hwA7G0IvY). Now instead of just rehashing the course, I want to talk about **some ideas** I found valuable from the course to give you a taste of what you might dive deeper into if you do sign up.
+
+### Learning Personas 
+
+The first meaningful thing from the course came in the first lecture which was the idea of a [learner persona](http://teachtogether.tech/#s:process-personas). 
+The main idea here is to get you to realise first and foremost that *you are not your students*.
+Writing a learner personal reminds you that you are going to teach real people who want to know real things, not just listen to how much you know.
+
+A lot of the time this is sort of done for us as teachers.
+We are assigned to teach course ABC202 with this material XYZ and can assume that students have taken pre-reqs ABC-101, 102, and maybe 104, but in the Wild West of weekend workshops, this cannot always be assumed.^[Or anyone trying to get into data science] 
+By realising you are not your students, the idea is that you are able to better scope the content of your materials and meet your learners where they are in order to give them what they want in the limited time you have with them.
+
+### Concept Maps 
+
+The second thing I really liked about the course was the idea of the [concept map](http://teachtogether.tech/#s:memory-concept-maps) to help talk about learner's different mental models. 
+The idea here is to write down your thoughts on paper in a non-linear way because the order that you think of things (for reasons of expertise discussed in the course) is not always the best way to deliver that material to people who don’t know about it. 
+You subsequently learn how to take these concept maps and turn them into lesson plans. 
+
+I really got a lot out of this idea and have been using them in my own work.  In addition to using this for lesson plans, you can see the drafts below of what I sketched out for the [Science of Netflix](https://www.youtube.com/watch?v=xkMqgWHn36w) event I did back in March.
+I have also started to use it for organising some of the academic papers I am still writing! 
+
+
+![One of My Drafts](net1.jpg){width=100%}
+
+What I found particularly helpful about concept maps is how there is not one “true” concept map for any topic and that the configuration of the ideas in your map really is in the eye of the beholder. 
+The examples in the slides that I have taken directly from the training shown below offer two views of the organisation of a library: one from the vantage point of a patron and another the director.
+
+These are two different perspectives on the same thing and you’d also imagine that these maps would differ based on two levels of expertise of a subject.
+A kid might have different bubbles and arrows compared to an eldery person explaining how a library works.
+
+![Patron View](patron.png){width=100%}
+
+![Director View](director.png){width=100%}
+
+Of all the things in the course, concept maps are what I have thought about most in the weeks following.
+
+I’ve really spent a lot of time thinking about the idea that the metal model that you use to think about an idea does not have to be “exactly” how something does work .
+It sort of is related to Greg’s Rule  of teaching Number 6 that it's ok to [sacrifice truth for clarity](http://teachtogether.tech/#the-rules).
+
+This really got me thinking about all things statistics and data science education.
+For example, how does sacrificing truth for clarity come into play when I teach _p_ values?
+Part of me feels like the students need to understand _everything_ I know or else I am doing them a disservice and part of me knows that hitting them over the head with all that at once is not going to be an effective teaching strategy in the long run.
+
+My original draft of this had a giant detour on this, so maybe better to save this for another time...
+
+Regardless, I really feel the idea of concept maps in tandem with considering the state of a student's mental model has been very helpful in explaining concepts to students the past month or so.
+
+### Reproducible Lesson Planning 
+
+The third major item I want to note that I found valuable cropped up across many of the sessions and that was the idea of how to do efficient, reproducible lesson planning. 
+This is something that myself and the data science team at Flatiron in London have been thinking a lot about as many of us are teaching the same materials, all with our own idiosyncrasies, and all having to reinvent the wheel in order to make a lesson. 
+
+Prior to a few months ago, there were not stock lessons that any data science teacher could just grab, spend a few minutes reading, and be ready to deliver the materials. 
+It was always a matter of piecing together someone else’s scraps of a lesson then gluing their pieces together with your own understanding before putting the material in front of students.
+
+In the past few months, we’ve gotten a bit better at this. For example some of our lessons are  getting carved out to have everything people would want to just get up and teach it which includes:
+
+* Observable Learning Objectives 
+* A Lesson Outline with Time Points
+* Slides
+* An interactive notebook with questions for various ability levels for skill differentiation
+* List of questions for instructors to ask built into the deck that are formative in order to check for understanding 
+* An objective exit ticket at the end to check for summative understanding 
+* Lesson notes for other teachers who are picking up the lesson cold 
+
+Though the amount of effort to make a lesson with all of this is above and beyond some of the other resources I currently use that are probably good lessons, like this one here on [this thing](https://github.com/learn-co-students/linear-regression-coef-lab-london-ds), you wouldn’t be able to tell from the materials alone because most of what is important about this is in my head (where it’s only of use to me at this point).
+It'll be a bit more work to get that all cleand up and ready for someone else to use, but once that is done, I'll probably save someone else a ton of time.
+
+The last bonus thing I wanted to mention was some lateral learning I picked up on while participating in Greg’s Zoom sessions. 
+The sessions themselves were masterclasses in online teaching. 
+Throughout the two days I felt engaged and that if I tuned out, my lack of presence would be noticed.
+I felt like I was part of the learning experience.
+
+I've really tried to emulate this in my own online classes recently. 
+If you find yourself online teaching (or will in Autumn) and want suggestions that work well, check out this [recording](https://rstudio.com/resources/webinars/teaching-online-at-short-notice/) and [follow up](https://education.rstudio.com/blog/2020/03/online-teaching-qa/)  that were posted around the time we all moved online two months ago.
+
+So all in all, I learned a ton from this course. 
+Of course I’m not so naive to think that an eight hour course has totally transformed my teaching and made me a master teacher, but I have been able to use much of what I learned right away and it’s made both mine and my student’s lives easier. 
+
+## Testing 
+
+After taking the course, you are then asked to complete your two exams within three months of the course. 
+Scheduling your exams was super easy and will next reflect on those experiences.
+
+The first exam you need to take is the **teaching exam**. 
+If you have taught prior to this course and were paying attention and actively participating in the class, all that is really required of you here  is to make sure you put in the time to prepare your materials well (just like a regular class).
+If you don't have lots of experience doing this, I'd say just make sure to not have the first time you deliver your materials be at the exam... 
+
+You need to prepare a 15 minute lesson that demonstrates you understand the material from the course and can apply it, then you spend the rest of your 90 minutes on unprepared material that reflects your understanding of other aspects of the course. 
+
+If you’d like, you can check out some of the materials I prepared [here](https://github.com/davidjohnbaker1/rstudio_certification_training) but don’t take that as any sort of benchmark for good or bad. 
+I just feel proud of what I did create and wanted to share it with others. 
+My only tip here is that whatever you decide to teach on, remember you only have 15 minutes so make sure to not be too ambitious in your materials and practice it in front of your friends a few times even if you are comfortable teaching. 
+
+I know that for as much as I do teach (and perform!) I _still_ get super nervous when I know there is a pass/fail competent to what I am about to do. 
+Though if doing a degree in music taught me anything it’s that if you’re nervous it’s often because you actually care about what you’re doing. 
+
+The **tidyverse exam** is separate from the teaching exam, needs to be scheduled at a separate time, and also is capped at 90 minutes. 
+Of course I can’t say what is on the exam without compromising the integrity of the current test, but if you have a bit of psychometrician in you, you know that one aspect of any good test is that multiple versions of the same test should yield  similar results. 
+With that in mind, my big piece of advice here would just be to try an [old version of the test](https://education.rstudio.com/blog/2020/02/instructor-certification-exams/) and see how you do in 90 minutes.
+
+The test is also totally open internet, you just can’t ask any friends for help. 
+If you’re nervous about this, what I’d also say is in your practice test and actual test, just practice googling even stuff that you know. 
+Even as someone that does tidyverse stuff all the time, I found that  just committing myself to opening up [R for Data Science](https://r4ds.had.co.nz/) or googling any problem I didn’t know like the back of my hand alleviated a lot of the burden of choice I know I would have in a test taking environment. 
+Remember, if you’re nervous it just means that you care about it.
+
+If you didn’t do as well as you’d like to have on your homemade practice test, then just slowly start to make your way through [R for Data Science](https://r4ds.had.co.nz/) and stay active with all things [Tidy Tuesday](https://github.com/rfordatascience/tidytuesday) (you know you’re gonna do some ggplotting).  
+
+## What’s Next
+
+So with both the course and the tests under my belt, what’s next? 
+Well it’s been about a month since I finished and the first thing on my plate has been trying to take all of our London materials and get it to the point so that others within Flatiron can pick up my lesson plans. I’ve also started to try to share a lot of what I have been learning  with my colleagues. 
+On a meta-level post, which you’ll probably see a  lot  more of on my Twitter feed, I  don’t know exactly  what is next for me in terms of education in tech, but am really hoping to apply everything that I have learned in future teaching!
