@@ -5,7 +5,7 @@ date: '2021-05-11'
 slug: []
 categories: [preprint, publication, aural skills, book chapter]
 tags: [preprint, publication, aural skills, book chapter]
-draft: yes
+draft: no
 ---
 
 Last month I received a copy of [The Routledge Companion to Aural Skills Pedagogy](https://www.routledge.com/The-Routledge-Companion-to-Aural-Skills-Pedagogy-Before-In-and-Beyond/Cleland-Fleet/p/book/9780367226893) featuring a chapter titled "Understanding Melodic Dictation via Experimental Methods" by yours truly!
