@@ -5,7 +5,6 @@ date: '2021-05-11'
 slug: []
 categories: [new job, postdoc, audio branding]
 tags: [new job, postdoc, audio branding]
-draft: yes
 ---
 
 Today's an exciting day as I signed a contract for my next year-ish of employment.
