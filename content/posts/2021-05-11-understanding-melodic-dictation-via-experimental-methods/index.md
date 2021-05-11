@@ -1,7 +1,7 @@
 ---
 title: Understanding Melodic Dictation via Experimental Methods
 author: ''
-date: '2021-05-11'
+date: '2021-05-15'
 slug: []
 categories: [preprint, publication, aural skills, book chapter]
 tags: [preprint, publication, aural skills, book chapter]
