@@ -16,7 +16,7 @@ Our final question to answer is:
 
 This is a pretty broad question and should be able to be answered without many pitfalls, so let's get started. 
 
-```{r}
+```{r, eval=FALSE}
 library(ggplot2)
 library(data.table)
 beer <- fread("data/beer_reviews.csv") 

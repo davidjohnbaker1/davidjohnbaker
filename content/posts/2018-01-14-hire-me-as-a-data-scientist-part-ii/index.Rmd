@@ -26,7 +26,7 @@ Here's how I went about tackling this question.
 
 ## Popular with Super Users
 
-```{r }
+```{r , eval=FALSE}
 #=====================================================================================#
 # Following suit of the last post... 
 #=====================================================================================#

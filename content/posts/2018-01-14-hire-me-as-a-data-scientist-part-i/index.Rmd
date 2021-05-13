@@ -34,7 +34,7 @@ I'd love some feedback!
  
 The first thing I did was to grab this dataset which you can get [here](https://s3.amazonaws.com/demo-datasets/beer_reviews.tar.gz?lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3BDqDjqRycTlq5seB4xN3ocA%3D%3D) and then I set up my R script with a few of my favorite packages (again, big love to Ben at [GormAnalysis](https://gormanalysis.com/) for helping me learn [data.table](https://cran.r-project.org/web/packages/data.table/vignettes/datatable-intro.html)).
 
-```{r}
+```{r , knitr::opts_chunk$set(eval = FALSE)}
 #=====================================================================================#
 # Beer Script
 #=====================================================================================#
@@ -43,7 +43,7 @@ library(ggplot2)
 library(data.table)
 library(stringr)
 #=====================================================================================#
-beer <- fread("data/beer_reviews.csv")
+#beer <- fread("data/beer_reviews.csv")
 #=====================================================================================#
 
 ```
@@ -51,7 +51,7 @@ beer <- fread("data/beer_reviews.csv")
 The dataset has about 1.5 million observations across 14 different observations, so don't try to open it in LibreOffice.
 The reviews come from a variety of different users that have rated the beers based on five different attributes (Appearance, Palate, Aroma, Taste, Overall) and then each beer has a few other variables listed such as its ABV, the brewery it comes from, the beer's name (duh), and what kind of beer it is.
 
-```{r}
+```{r, eval=FALSE}
 names(beer)
 
 beer[, .(Number = unique(beer$brewery_name))]
