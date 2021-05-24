@@ -5,7 +5,7 @@ date: '2021-05-24'
 slug: []
 categories: [preprint, publication, article, harmony,predominant]
 tags: [preprint, publication, article, harmony,predominant]
-draft: yes
+draft: no
 ---
 
 Earlier this year a collaboration paper I worked on was accepted at [_Music Perception_](https://online.ucpress.edu/mp).
