@@ -12,7 +12,7 @@ I also blog about things I am thinking about to keep up my practice of writing r
 I've tried to group these by my major research interests, but I find the **[tag system](https://davidjohnbaker.rbind.io/tags/)** is much better for browsing. 
 If you are looking for a specific paper, please check out the [preprint](https://davidjohnbaker.rbind.io/tags/preprint/) tag.
 
-Here I also list my current **[CV](https://davidjohnbaker.rbind.io/content/ref/DJB_Long_CV_20210415.pdf)** or **[resume](https://davidjohnbaker.rbind.io/content/ref/DJB_Resume_20210501.pdf)** and **[Google Scholar](https://scholar.google.com/citations?user=tigU2AkAAAAJ&hl=en)**.
+Here I also list my current **[CV](https://davidjohnbaker.rbind.io/academic/baker_cv_20210616.pdf)** or **[resume](https://davidjohnbaker.rbind.io/academic/baker_resume_20210616.pdf)** and **[Google Scholar](https://scholar.google.com/citations?user=tigU2AkAAAAJ&hl=en)**.
 
 ## Melodic Memory   
 
