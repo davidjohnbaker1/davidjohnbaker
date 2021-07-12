@@ -26,7 +26,7 @@ But I feel that way about pretty much all things, so I get why this may have not
 Having seen all that was involved in TROMPA got my digital humanities wheels turning, thinking about how I might introduce all the neat stuff in this domain in a pedagogical context to help expose others to this type of work.
 It feels like yet another course could be designed around the deeply humanistic questions of categorization that have clear social implications once they are formalized and put out in the wild (that I know are hot topics of research right now among many of both my humanities and science colleagues).
 
-If you want to get a taste of the sliver of the project that I worked on, you can read this [proceedings paper](https://davidjohnbaker.rbind.io/academic/papers/weigl_etal_notesonmusic_2021.pdf) I co-authored looking at the techncial side of what goes into these types of questions.
+If you want to get a taste of the sliver of the project that I worked on, you can read this [proceedings paper](https://davidjohnbaker.rbind.io/academic/papers/weigl_dlfm_2021.pdf) I co-authored looking at the techncial side of what goes into these types of questions.
 This will be presented at the upcoming [Digital Libraries for Musicology Conference](https://dlfm.web.ox.ac.uk/2021-programme).
 There's also some work forthcoming stemming from a few other projects that I will write about once they come out. 
 
