@@ -5,7 +5,7 @@ date: '2021-08-28'
 slug: []
 categories: []
 tags: []
-draft: yes
+draft: no
 ---
 
 I spent the last month trying my best to avoid the scrolling apps. 
