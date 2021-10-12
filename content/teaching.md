@@ -14,16 +14,15 @@ I've taught several classes at the undergraduate level as both instructor of rec
 I also spent a year as Lead Instructor of Data Science at London [Flatiron School]()'s now defunct campus.
 For more details, please see my [CV](https://davidjohnbaker.rbind.io/content/ref/DJB_Long_CV_20210515.pdf/). 
 
-Recent classes I have taught or designed include:
-
 | School | Area | Class | Role |
 | ------ | ------|--------|-----|
-| Humboldt University of Berlin | Music | [Issues with Music and Sciences](https://github.com/davidjohnbaker1/issues_with_music_and_sciences) | Lead | 
-| Flatiron School | Data Science | 16 Week Data Science Bootcamp | Lead |        
-| Louisiana State University | Psychology | Multivariate Statistics | GTA |        
-|  | | Intermediate Statistics | GTA |        
-|  | Music | Aural Skills III, IV| Lead |        
-|  | | Music Theory III, IV| GTA |        
+| University of Cambridge  | Music | Music and Science  | Co-Teaching and Supervision | 
+| Humboldt University of Berlin | Music | [Issues with Music and Sciences](https://github.com/davidjohnbaker1/issues_with_music_and_sciences) | Instructor of Record | 
+| Flatiron School | Data Science | 16 Week Data Science Bootcamp | Lead Instructor |        
+| Louisiana State University | Psychology | Multivariate Statistics | Assistant |        
+|  | | Intermediate Statistics | Assistant |        
+|  | Music | Aural Skills III, IV| Instructor of Record |        
+|  | | Music Theory III, IV| Assistant |        
 
 ## Workshop Teaching 
 
