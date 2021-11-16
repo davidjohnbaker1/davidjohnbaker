@@ -8,7 +8,7 @@ tags: [music, science, humanities, STEM]
 draft: no
 ---
 
-At the end of last week [Ted Gioia](https://twitter.com/tedgioia/status/1459193464445415429) shared a [blog post](https://tedgioia.substack.com/p/have-non-musicians-taken-over-music) that "reminded him of the STEM-ification of musicology and how we desperately we need more interdisciplinary dialogue about music".
+At the end of last week [Ted Gioia](https://twitter.com/tedgioia/status/1459193464445415429) shared a [blog post](https://tedgioia.substack.com/p/have-non-musicians-taken-over-music) that reminded him of "the STEM-ification of musicology and how desperately we need more interdisciplinary dialogue about music".
 In the post, Gioia makes the point that people with STEM backgrounds are, to use his word, "encroaching" on music studies. 
 This inevitable encroachment is made even more harrowing by his chosen key quote which reads:
 
@@ -74,17 +74,17 @@ This presumably is attributed to the fact that a neuroscientist might not have r
 This to me feels like a strawman. 
 
 Any 'overreaching' when it comes to the (neuro)science literature is usually some journalist trying to cajole some scientist into packaging their finding into a punchy headline to fulfill their impact requirements.
-Scientists are almost pathologically avoid making any substantial claims about what their findings do and do not imply.
+Scientists almost pathologically avoid making any substantial claims about what their findings do and do not imply.
 
 It's interesting that the meme page references two news articles covering the two academic articles and not the actual articles themselves.
 And also suggested another blog post that seems to do the same thing (reference a journalist's version of the article rather than read the author at their words).
 
 You can read that article [here](https://musicologynow.org/big-bad-data/).
 
-The thing is, claims of being too 'reductionist' when it comes to science more broadly always, to me at least, feel like it's more the critic finding an novel way to show off  how little they know about what is needed to do in order to run a well-designed experiment than providing the searing take down they think it is.
+The thing is, claims of being too 'reductionist' when it comes to science more broadly, to me at least, feel like it's more the critic finding an novel way to show off  how little they know about what is needed to do in order to run a well-designed experiment than providing the searing take down they think it is.
 <u>Science is almost by definition reductionist</u>. 
 The world is very, very complicated and it needs to be made simple if you hope to gain even modicum of understanding of the part you are trying to tack down.
-Also, confusing the small world of statistical models the "real" world is something you [learn early on in many science classes](https://www.youtube.com/watch?v=4WVelCswXo4).
+Also, confusing the small world of statistical models with the "real" world is something you [learn early on in many science classes](https://www.youtube.com/watch?v=4WVelCswXo4).
 
 Even stranger is the belief that introducing someone with a (historical?) musicology background will be able to join a team of neuroscientists, look at their experimental design and statistical analysis, and then tell them a better way interpret their results.
 Usually what happens in these types of collaborations is that those without any scientific training will, yes of course, suggest things that might make it more ecologically valid or realistic, but with those changes also always comes the possibility of more confounding.
@@ -136,7 +136,7 @@ It should be also noted that not all musicologist's questions of interest are ev
 Having science tacked on to an argument in many ways detracts from the larger point being made.
 
 Then lastly, before I try to summerise things neatly, I also want to return to this idea of if the study of music can be excised out and neatly partitioned.
-One of my first thoughts when looking at the list above was actually wondering what this argument would look like if someone said that most of the new and interesting findings about music were actually coming from disciplines outside of music, but then listed areas such as Queer, Black, Indigenous, or Gender studies?
+One of my first thoughts when looking at the list above was actually wondering what this argument would look like if someone said that most of the new and interesting findings about music were actually coming from disciplines outside of music, but then listed areas such as queer, race , Indigenous, or gender studies?
 
 Are those subjects not music?
 Some cranky old men would probably say so.
