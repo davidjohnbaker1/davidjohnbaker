@@ -136,12 +136,12 @@ It should be also noted that not all musicologist's questions of interest are ev
 Having science tacked on to an argument in many ways detracts from the larger point being made.
 
 Then lastly, before I try to summerise things neatly, I also want to return to this idea of if the study of music can be excised out and neatly partitioned.
-One of my first thoughts when looking at the list above was actually wondering what this argument would look like if someone said that most of the new and interesting findings about music were actually coming from disciplines outside of music, but then listed areas such as queer, race , Indigenous, or gender studies?
+One of my first thoughts when looking at the list above was actually wondering what this argument would look like if someone said that most of the new and interesting findings about music were actually coming from disciplines outside of music, but then listed areas such as queer, colonial, Indigenous, or gender studies?
 
 Are those subjects not music?
 Some cranky old men would probably say so.
 It almost feels like there is a shadow version of that blog post that could be written that takes that point of view. 
-And were we to not allow ideas from gender studies, neuroscience, biology, queer studies, psychology , mythology , Indigenous studies, sociology, anthropology, race studies and cultural theory into music study, what would be left with?
+And were we to not allow ideas from gender studies, neuroscience, biology, queer studies, psychology , mythology , Indigenous studies, sociology, anthropology, colonial studies and cultural theory to inform how we think about music, what would be left with?
 
 So what are my major points now that I have thought out loud about this?
 
