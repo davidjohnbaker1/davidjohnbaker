@@ -5,7 +5,7 @@ date: '2022-03-23'
 slug: []
 categories: [productivity]
 tags: [productivity]
-draft: yes
+draft: no
 ---
 
 It's important to invest in yourself, regardless of your employment situation.
@@ -13,7 +13,7 @@ This is especially true if you work in a sector or field like research.
 And it's even more true if you're at the trainee stage of your career (e.g. PhD students, postdocs).
 
 And for the longest time, I feel like I really struggled with this, often because as an interdisciplinary researcher, there is just to much to learn and do.
-You both want to knowledgable about all things music, but you also need to be able to use the tools of the sciences in a way that actually warrents their use and are not just stamping a half baked idea with a significance test. 
+You both want to knowledgeable about all things music, but you also need to be able to use the tools of the sciences in a way that actually warrants their use and are not just stamping a half baked idea with a significance test. 
 
 At several points over the last few years, the feeling that I wasn't actually "on track" (self imposed) to be learning what I knew I wanted to learn was very disheartening.
 Weeks or months (or years...) felt like they would go by and I still had made no progress on something I knew would be helpful to know or do, but just hadn't made a priority.
@@ -25,11 +25,11 @@ Unfortunatly, I am a self-taught programmer for the most part.
 This means that my teacher was me, who didn't know much about where I should be spending my time and energy while learning.
 What guided my progress was having to exectue a specific task or analysis, often with a very real due date and responsibility to other people, which just added to the stress of having to learn some skill. 
 
-In practice, what this looked like (with R being my first langauge) was starting out thinking that programming was akin to typing out the point-and-click ritual of something that you'd do in something like SPSS, with the eventual end goal of just being able to do more and more complex analyses.
-Maybe borrowing or getting inpiration from other people's code, eventually absorbing bood and bad practice, almost hapharzardly. 
+In practice, what this looked like (with R being my first langauage) was starting out thinking that programming was akin to typing out the point-and-click ritual of something that you'd do in something like SPSS, with the eventual end goal of just being able to do more and more complex analyses.
+Maybe borrowing or getting inpiration from other people's code, eventually absorbing good and bad practice, almost haphazardly. 
 
 The times in which I would find something better, the experience was always transformative.
-I specifically remember the feelign of relief early on in my R programming of copying and pasting some `do.call()` to get a bunch of `csv`s to merge or re-factoring some repeated code into a set of functions that I could use and just reference in another file. 
+I specifically remember the feeling of relief early on in my R programming of copying and pasting some `do.call()` to get a bunch of `csv`s to merge or re-factoring some repeated code into a set of functions that I could use and just reference in another file. 
 
 Knowing how helpful each of these little experiences were in the moment, it makes sense that if I have to work for the next thirty or so years, that there must be other "things" that I can learn that are going to make my life a lot easier in the long run.
 In the case of programming, this is by far the clearest example.
@@ -40,33 +40,26 @@ And until recently, I never felt like I really was actually on top of it, or at 
 That is until recently, when I sort of had two ideas collide.
 
 The first was the result of listening to a lot of audio books (something I actually do a lot of since getting an Audible subscription, found it's great for going about my daily life in London). 
-Every so often I read a "productivty book" (Getting Things Done, Deep Work, things your tech bro colleauges make their personality for a few months) and a few months ago this was [Atomic Habits]().
+Every so often I read a "productivty book" (Getting Things Done, Deep Work, things your tech bro colleauges make their personality for a few months) and a few months ago this was [Atomic Habits](https://www.goodreads.com/book/show/40121378-atomic-habits).
 
-My honest opinion of the book is that it [could have been a pamphlet](), but the ideas in the book were generally pretty good and were a nice condensation of thoughts on how to actually build habits.
-(Think, an entire book in the realm of that Jerry Seinfeld X things).
+My honest opinion of the book is that it [could have been a pamphlet](https://s3.amazonaws.com/jamesclear/Atomic+Habits/Habits+Cheat+Sheet.pdf), but the ideas in the book were generally pretty good and were a nice condensation of thoughts on how to actually build habits.
 
-But one small anecdote that really stood out to me whas where the author talked compounding interest in the context of building habits.
+But one small anecdote that really stood out to me was where the author talked compounding interest in the context of building habits.
 The idea (though confounded in many ways) was that a 1% decrease in your ability is always going to take more out of your ability than a 1% increase.
 
-Maybe imagine you gain skills in life similar to a video game player, and you're working on your programming abilities.
-If you start out with 10 experience points, then make a 1% increase of that, you are now at XX%.
-If, in this strange world, were you not to do the activity that results in you increasing, you decrease, but also at 1%, that would mean one day of not doing would drop you down from 11XP to XX XP.
-The take home message being that it's better to just do a little than get a 0 or a reduction in your ability level. 
-
 As a computational model, I don't think this makes any sense (in this form).
-But it did resonate with my expereience of the pain of having many days go by in which I did not at least somewhat engage with something I wanted to do.
+But it did resonate with my experience of the pain of having many days go by in which I did not at least somewhat engage with something I wanted to do.
 
-The second point came from reading [Getting Things Done]() last year and now being on a quest to slowly intergrate that methodology more in my life.
+The second point came from reading [Getting Things Done](https://gettingthingsdone.com/) last year and now being on a quest to slowly intergrate that methodology more in my life.
 A big key to GTD is having a weekly review (for several reasons).
-But specific to this whole situation I have been talking about, the weekly review allows you to take a pro-active look at all the things that you are choosing not to prioritise at the moment, rather than having some lurking idea or project spring itself on you when you are arleady feeling down on yourself. 
+But specific to this whole situation I have been talking about, the weekly review allows you to take a pro-active look at all the things that you are choosing not to prioritise at the moment, rather than having some lurking idea or project spring itself on you when you are already feeling down on yourself. 
 
-This may sem minor, but is actually very important to not have that pang of guilt hit you when you STILL have not started project X, Y, or Z for however many weeks, months, or years after it's been hiding out of sight, out of mind. 
+This may seem minor, but is actually very important to not have that pang of guilt hit you when you STILL have not started project X, Y, or Z for however many weeks, months, or years after it's been hiding out of sight, out of mind. 
 
-So these two ideas have come together in using this [Habits App]() that you can get on the app store.
+So these two ideas have come together in using this [Habits App](https://play.google.com/store/apps/details?id=org.isoron.uhabits) that you can get on the app store.
 The TLDR of this post is that I just now use this app and really, really like it.
 
-The way it works is you set up a few habits that you just want to keep an eye on, then just literally set up the least ambitious version of the habit, setting the rate that you want to attend to it (always lowballing what you can actually do).
-
+The way it works is you set up a few habits that you just want to keep an eye on, then just literally set up the least ambitious version of the habit, setting the rate that you want to attend to it (always low balling what you can actually do).
 
 So, for example, I have been using Duolingo to help me learn Dutch phrases and volcabulary.
 With this, the question then becomes, what is the smallest unit of learning Dutch I could do?
@@ -84,8 +77,8 @@ On a good week, I'd play (remember, literally just sit down and play through one
 But the thing is, most days I want to keep going once I actually am in front of the piano.
 Sometimes it's just ten minutes, but often I will just keep on going much longer than that.
 
-And some of this list have been langishing, such as playing piano or lifting weights regularly.
-But that's O.
+And some of this list have been languishing, such as playing piano or lifting weights regularly.
+But that's OK.
 Sometimes I don't have access to a place where I can make a lot of noise or am around weights I can lift.
 But the point of seeing it with the other habits is that it links back to GTD of meeting it first and knowing you will make it a priority when you can and you want to, not it just flashing in your mind when you need to find more things to beat yourself up about. 
 
@@ -96,5 +89,5 @@ It's very true that how you spend your days is how you spend your life, so havin
 But the biggest win I have had basically doing this (and thinking about this recently), is that I have not had any of those "Ah, why haven't I started learning X, Y, or Z" in the past few months.
 It feels like I have more control or maybe agency in how I spend my day to day. 
 
-The reason I am now thinking out loud about this is because I am now again working with Masters and PhD students and want to also pass on what I find to be helpful in cultivating skills in sucha unstructured enviroment where the amount that you have to do in the future often seems insurmountable.
+The reason I am now thinking out loud about this is because I am now again working with Masters and PhD students and want to also pass on what I find to be helpful in cultivating skills in such unstructured environment where the amount that you have to do in the future often seems insurmountable.
 So more posts like this to come in the future. 
