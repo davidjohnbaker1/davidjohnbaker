@@ -20,3 +20,10 @@ The actual talk was also recorded and will link it here when it's made public.
 {{<youtube 9gzxzpP6Xm8>}}
 
 [Link to YouTube](https://youtu.be/9gzxzpP6Xm8).
+
+
+There is also a link to the live talk, though please excuse the amount of times I say "umm" as I gave it at 8AM and my coffee had not hit the bloodstream yet. 
+
+{{<youtube mlG6zm-YZIw>}}
+
+[Link to YouTube](https://www.youtube.com/watch?v=mlG6zm-YZIw)
