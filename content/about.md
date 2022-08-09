@@ -1,5 +1,5 @@
 ---
-date: "2021-04-05"
+date: "2022-08-09"
 title: About
 type: section
 ---
@@ -17,7 +17,7 @@ I provide both data consultancy and educational services which are run through m
 As an **[educator](https://davidjohnbaker.rbind.io/teaching/)**, I have taught classes at the university level, have worked as a lead instructor at a data science bootcamp, received certification as an [RStudio tidyverse](https://github.com/davidjohnbaker1/rstudio_certification_training) instructor, and also give one-on-one support to anyone who might need help.
 
 I also try to **[give back](https://davidjohnbaker.rbind.io/service/)** to the communities that helped me get where I am today.
-I currently serve as the interim chair of the [Society for Music Perception and Cognition's Anti-Racism and Equity committee](https://musicperception.org/smpc-arec.html), participate as a part of the WiMIR mentoring program, and serve as the Proceedings chair for the [2022 Digital Libraries for Musicology](https://dlfm.web.ox.ac.uk/) conference. 
+I currently serve as chair of the [Society for Music Perception and Cognition's Anti-Racism and Equity committee](https://musicperception.org/smpc-arec.html). 
 
 If you want to see what I'm up to or currently thinking, please check out my **[blog](https://davidjohnbaker.rbind.io/archives/)**.
 
