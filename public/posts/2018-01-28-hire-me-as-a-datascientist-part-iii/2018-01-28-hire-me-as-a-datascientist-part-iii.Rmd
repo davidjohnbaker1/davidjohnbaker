@@ -42,7 +42,7 @@ The simplest plan of action would be to try and make each of the points we want 
 We also make sure to only use beers that have over 30 ratings as a quality check.
 Let's index out the data we need!
 
-```{r}
+```{r, eval=FALSE}
 library(ggplot2)
 library(data.table)
 beer <- fread("data/beer_reviews.csv") 
