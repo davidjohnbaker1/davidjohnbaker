@@ -5,7 +5,7 @@ date: '2022-08-15'
 slug: []
 categories: [email-faq]
 tags: [email-faq]
-draft: yes
+draft: no
 ---
 
 Last week at [SMPC 2022](http://www.musicperception.org/about-smpc.html) I participated on a panel that tried to dole out as much advice as possible to graduate students in the field of music science / music cognition as what they might want to do after grad school.
