@@ -75,6 +75,10 @@ Here are a list of funding sources that I have heard people get recently within 
 * [Leverhulme Early Career Fellowship](https://www.leverhulme.ac.uk/early-career-fellowships)
 * [British Academy](https://www.thebritishacademy.ac.uk/funding/postdoctoral-fellowships/)
 * [Fulbright Fellowship](https://www.benefits.gov/benefit/5914)
+* [Cambridge Junior Research Fellowships](https://www.careers.cam.ac.uk/junior-research-fellowships-jrfs) (and a [general article that covers both Cambridge and Oxford's](https://info.lse.ac.uk/current-students/careers/information-and-resources/phd-resources/articles/oxbridge-college-fellowships))
+
+I would also check out many of the programs getting funded by the [EU Horizons Project](https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en#:~:text=Horizon%20Europe%20is%20the%20EU's,the%20EU's%20competitiveness%20and%20growth.) which was how [TROMPA](https://trompamusic.eu/index.php/nl/node/10) (a project I was on) was funded.
+Have a peek at who the universities were that were involved, send an email to the PIs of the groups that were funded. 
 
 I also know that the Oxbridge groups sometimes have money set aside for PhDs, maybe some post-doc work, but it's really a matter of having a pretty clear idea of what *you* might want to do ahead of time, what *they* do, then getting in touch with someone like the director of the [Centre for Music and Science](https://cms.mus.cam.ac.uk/staff/dr-peter-harrison) very early and articulating why this might be good fit for a future collaboration after reading about what they are interested in. 
 
@@ -99,6 +103,9 @@ That further subdivide into:
 * [Neurocognition of Music and Language](https://www.aesthetics.mpg.de/en/research/research-group-neurocognition-of-music-and-language.html)
 * [Neural Circuits, Consciousness, and Cognition](https://www.aesthetics.mpg.de/en/research/research-group-neural-circuits-consciousness-and-cognition.html)
 
+This group also works a fair bit with the [Max Planck Institute for Human Cognitive and Brain Sciences](https://maxplanckneuroscience.org/institute/mpi-human-cognitive-brain-sciences/) as well, but the collaborations that [I was aware of at time of writing in summer of 2022 might not be around in a few years](https://maxplanckneuroscience.org/duets-on-the-brain/).
+Such is the way of research funding. 
+
 I'd check out each group, their recent publications, and get in touch with the group leaders if what they are working on interests you. 
 
 * [RITMO](https://www.uio.no/ritmo/english/)
@@ -116,6 +123,34 @@ I wrote the draft of this post on an overnight flight back to Europe and most ce
 ## TLDR
 
 The long story short is there are places to fund work after your PhD in Europe (and a lot of this advice is similar if you are looking for a PhD), but the the best way to be lucky enough to get said funding is to do a lot of prep work both in terms of knowing what is out there in terms of funding and how that aligns with what you want to do.
+
+## Addendum: Writing Advice if English is not your first language
+
+> Note: I have had the privlidge of not only having English as my first language, but also never having had to work in another langauge, so consider this when reading my advice on this! 
+
+Lastly, I would be remiss not to mention that when applying for these types of funding schemes/grants, they are incredibly competitive.
+What that means from a practical point of view (and was inspired by the person who inspired me to write this post instead of send a long email that will never see the light of day) is that it is extremely important that the writing, grammar, spelling, and formatting of these applications is of the highest quality.
+Whether it is "good" or not, people looking to select a winning application (job, grant?) will often find dumb reasons to cut some applications out of the running, sometimes that ends up being bad formatting, grammar, and spelling issues.
+
+It's very important to get many sets of eyes on your work (maybe have a shared Google Doc where you give people comment rights?) so technical writing errors are caught early and often.
+Find a few people you trust to do this type of proofreading for you and make sure to give them tons of time as well-- when asked to do this type of work at the last second, it's often quite stressful as the proofreader and as a result you can never do your best work either.
+
+In my experience working with students whose first language is not English, I always try to take a moment and make three points very clear when we start writing things together:
+
+1. Academic writing is difficult even for native speakers (reviewers have asked if I am a native speaker before!) so regardless of someone's background, part of the joint-writing process is about making sure the tone is right and all authors on a document should feel free to comment on how something is said.
+2. That said, when I do suggest a change in wording/phrasing in a joint-document, in addition to changing the text, I **always** try to provide an explanation of why this was changed. If you do not do this as a native speaker, this is not at all helpful for whoever wrote the first draft and completely neglects the responsibility and privlidge you have in an educational setting that presumes mastery of academic English! It takes a lot of time and effort to do this, but at the end of the day, we all work in higher *education* and learning to write is part of this. 
+3. It its perfectly OK to use something like Grammarly to help write, but please your colleagues know if you are doing this so they know if a change that is made is because of the author or a bot. 
+
+The best advice I could give on any of this probably comes from my Dad who always insists on writing anything and everything down. 
+It's not real until you write it down.
+
+It's OK for it not to be good at first when you write it down, but what is not OK is thinking you have to get it perfect before you send it to other people.
+As long as you can read what you have written out loud (actually do this!) and it basically "feels" right, then it's OK to get someone else's eyes on it. 
+Not everyone will agree with me on that (I try not to do this with peers, more when the power dynamic is a junior person asking a more senior person to read something!) but to each their own when it comes to how to navigate this. 
+
+In some ways (not to start on an entirely different blog post here) but it could even be a good exercise in letting go by sending readable, but very unpolished work to someone to get feedback on (maybe just a very fleshed out outline?).
+Many small iterations and passes are always better than spending months writing a document, only to get it torn to pieces by an adviser in one spirit crushing sitting. 
+
 
 
 
