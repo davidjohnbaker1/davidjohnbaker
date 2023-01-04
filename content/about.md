@@ -26,4 +26,4 @@ If you need help with something that you think I might be able to assist with, p
 If you want to see what I'm up to or currently thinking, please check out my **[blog](https://davidjohnbaker.rbind.io/archives/)**.
 
 If you'd like to get in touch, please [email me](mailto:davidjohnbaker1@gmail.com).
-I normally am very active on on [twitter](www.twitter.com/davidjohnbaker), but have been taking a bit of a break there for my mental health.
+I normally am very active on [twitter](www.twitter.com/davidjohnbaker), but have been taking a bit of a break there for my mental health.
