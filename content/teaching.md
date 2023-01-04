@@ -4,9 +4,9 @@ type: section
 ---
 
 A major part of my professional identity is being an educator.
-Most of what I teach either has to do with music or science.
+Most of what I teach either has to do with music or (data) science.
 
-A listing of my university level classroom teaching can be found on my **[current academic CV]()**.
+A listing of my university level classroom teaching can be found on my **[current academic CV](www.davidjohnbaker.rbind.io/Baker-CV-2023-01-04.pdf)**.
 
 I have also given several workshops on topics ranging from R Programming, to clustering algorithms, to recommendation systems.
 Examples of this type of teaching can be seen below. 

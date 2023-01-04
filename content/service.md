@@ -5,12 +5,10 @@ type: section
 
 It's important to give back to the communities that helped me get where I am today. 
 
-## Current 
+## Prior Service 
 
-I currently serve as the chair of the [Society for Music Perception and Cognition's](https://www.musicperception.org/) [Anti-Racism and Equity Committee](https://musicperception.org/smpc-arec.html).
-
-## Prior Services Committments 
-
+* Chair of the [Society for Music Perception and Cognition's](https://www.musicperception.org/) [Anti-Racism and Equity Committee](https://musicperception.org/smpc-arec.html).
+* Organizing 
 * [Proceedings Chair for Digitial Libraries for Musicology Conference 2022](https://dlfm.web.ox.ac.uk/9th-international-conference-on-digital-libraries-for-musicology)
 * [Mentor on WiMIR Mentoring Program](https://wimir.wordpress.com/mentoring-program/)
 * [Member of Society for Music Perception and Cognition's Anti-Racism Committee](https://www.musicperception.org/)
