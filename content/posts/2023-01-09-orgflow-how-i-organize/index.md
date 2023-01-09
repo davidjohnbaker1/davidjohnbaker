@@ -1,5 +1,5 @@
 ---
-title: 'Orgflow: How I Organize'
+title: 'Orgflow: How I Work'
 author: Package Build
 date: '2023-01-09'
 slug: []
