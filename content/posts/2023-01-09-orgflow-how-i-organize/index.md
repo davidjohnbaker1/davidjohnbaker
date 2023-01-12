@@ -13,7 +13,11 @@ At some point this year, I'd like to share the system that I use.
 Not because it's particularly more productive than anyone else's, but because since adopting it, my mental health has improved ten-fold.
 A combination of adopting these principles plus a lot of soul searching and self-reflection has reconfigured my relationship with "work".
 The goal of writing this is not to make you more productive, it is to change how it feels to sit down and work.
-I will inevitably also do a bit of sharing about my personal relationship with work.  
+I will inevitably also do a bit of sharing about my personal relationship with work.
+
+I am also taking my approach to organizing a bit more seriously in the new year here as I had a few moments last year where I could have done a much better job at handling some of my communication responsibilities.
+I don't mind telling people that I need more time to respond, but I do feel horrible when I forget to respond to people and what could have been an easy "Sorry, just not now" email turns into me realizing several weeks later I have left someone hanging.
+While I am aware this happens to everyone, it's just another thing I want to practice and improve on.
 
 I call my system `orgflow` since it is a combination of using [Emacs Org-mode](https://orgmode.org/) and my general work flow.
 The actual system is 100% inspired by [Getting Things Done](https://gettingthingsdone.com/what-is-gtd/) and I cannot recommend getting a copy of this book enough if this kind of thing interests you.
@@ -29,6 +33,7 @@ Over the holidays I sketched out what I think the series of blog posts that I wo
 4. Actionable Items (the basic unit of work)
 5. Building TODOs (capturing without doing) 
 6. Notes on Minutes and Communications (forcing actionable items on your colleagues)
+7. Building the Reference Archive (a work in progress)
 
 Now it's not like what I do is some perfect system that has clear boundaries.
 As discussed in GTD, learning to work this way is not about quick fixes.
@@ -50,4 +55,4 @@ You _could_ use a system like this for that, and I totally get that, it's really
 But I think the long term solution is using a system like this as a means to first improve your quality of life.
 Then once you have a better grip on your relationship with work, you can decide if you want to put your foot back on the accelerator. 
 
-`CLOCK: [2023-01-09 Mon 11:23]--[2023-01-09 Mon 12:01] =>  0:38`
+> [Comment on this post on Twitter]()
