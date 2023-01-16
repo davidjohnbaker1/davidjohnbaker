@@ -55,4 +55,4 @@ You _could_ use a system like this for that, and I totally get that, it's really
 But I think the long term solution is using a system like this as a means to first improve your quality of life.
 Then once you have a better grip on your relationship with work, you can decide if you want to put your foot back on the accelerator. 
 
-> [Comment on this post on Twitter]()
+> [Comment on this post on Twitter](https://twitter.com/DavidJohnBaker/status/1615007997595643904)
