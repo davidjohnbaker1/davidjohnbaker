@@ -5,7 +5,7 @@ date: '2023-01-23'
 slug: []
 categories: [writing, science, gradschool, living-post, tips, reference, faq, eamil-faq]
 tags: [writing, science, gradschool, living-post, tips, reference, faq, email-faq]
-draft: yes
+draft: no
 ---
 
 At the moment, I am providing a lot of feedback on graduate student writing and it feels like I see the same types of errors that I (and I know many others) made when they started  scientific/academic writing. 
