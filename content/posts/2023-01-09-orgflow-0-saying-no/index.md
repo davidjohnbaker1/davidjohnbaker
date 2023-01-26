@@ -104,4 +104,4 @@ A strange benefit of this is that you can look at your absolutely massive TODO l
 
 Ok, lots of scattered No-related thoughts here, next up is introducing the actual system. 
 
-> [Comment on this post on Twitter]() 
+> [Comment on this post on Twitter](https://twitter.com/DavidJohnBaker/status/1618314924140417025) 

@@ -267,4 +267,4 @@ When writing scientifically, there are a lot of different people from different 
 
 Have a piece of advice you this others would benefit from reading? 
 
-[Comment on this Post on Twitter]()
+[Comment on this Post on Twitter](https://twitter.com/DavidJohnBaker/status/1618314853403492361)
