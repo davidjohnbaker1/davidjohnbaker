@@ -2,10 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://davidjohnbaker.rbind.io/tags/aural-skills/</loc>
-    <lastmod>2023-01-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://davidjohnbaker.rbind.io/</loc>
+    <lastmod>2023-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://davidjohnbaker.rbind.io/tags/email-faq/</loc>
+    <lastmod>2023-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://davidjohnbaker.rbind.io/tags/faq/</loc>
+    <lastmod>2023-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://davidjohnbaker.rbind.io/tags/gradschool/</loc>
+    <lastmod>2023-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://davidjohnbaker.rbind.io/tags/living-post/</loc>
+    <lastmod>2023-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://davidjohnbaker.rbind.io/posts/</loc>
+    <lastmod>2023-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://davidjohnbaker.rbind.io/tags/reference/</loc>
+    <lastmod>2023-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://davidjohnbaker.rbind.io/tags/science/</loc>
+    <lastmod>2023-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://davidjohnbaker.rbind.io/tags/</loc>
+    <lastmod>2023-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://davidjohnbaker.rbind.io/tags/tips/</loc>
+    <lastmod>2023-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://davidjohnbaker.rbind.io/posts/2023-01-23-tips-on-scientific-writing/</loc>
+    <lastmod>2023-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://davidjohnbaker.rbind.io/tags/writing/</loc>
+    <lastmod>2023-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://davidjohnbaker.rbind.io/tags/aural-skills/</loc>
     <lastmod>2023-01-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/literature/</loc>
@@ -20,13 +53,7 @@
     <loc>https://davidjohnbaker.rbind.io/tags/music-theory/</loc>
     <lastmod>2023-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/</loc>
-    <lastmod>2023-01-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/reading/</loc>
-    <lastmod>2023-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://davidjohnbaker.rbind.io/tags/</loc>
     <lastmod>2023-01-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/timbre/</loc>
@@ -64,9 +91,6 @@
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/posts/2022-09-17-summer-consortiums-and-workshops-2022/</loc>
     <lastmod>2022-09-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://davidjohnbaker.rbind.io/tags/email-faq/</loc>
-    <lastmod>2022-08-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/posts/2022-08-15-some-uk-and-european-resources-for-north-american-music-scientists/</loc>
     <lastmod>2022-08-15T00:00:00+00:00</lastmod>
@@ -120,9 +144,6 @@
     <lastmod>2021-11-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/music/</loc>
-    <lastmod>2021-11-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://davidjohnbaker.rbind.io/tags/science/</loc>
     <lastmod>2021-11-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/stem/</loc>
