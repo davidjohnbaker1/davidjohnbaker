@@ -7,7 +7,7 @@ type: section
 Hello! 
 
 I'm Dave Baker and I'm interested in music, theory, and the sciences.
-I currently work as a postdoctoral with the [Music Cognition Group](https://www.mcg.uva.nl/) at the [Institute for Logic, Language, and Computation](https://www.illc.uva.nl/) at the [University of Amsterdam](https://www.uva.nl/).
+I currently work as a postdoc with the [Music Cognition Group](https://www.mcg.uva.nl/) at the [Institute for Logic, Language, and Computation](https://www.illc.uva.nl/) at the [University of Amsterdam](https://www.uva.nl/).
 
 As an **[academic researcher](https://davidjohnbaker.rbind.io/academic/)**, I enjoy asking questions that try to answer how humans are able to perceive and make music.
 This typically requires designing experiments, trying to build computer models of what I am trying to better understand, and reading about what it means to use the tools of the sciences on something that at the end of the day is culturally defined.
