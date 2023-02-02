@@ -39,4 +39,4 @@ The instability has also made life harder than it should for several personal re
 
 That said, being exposed to so many perspectives and intimidatingly smart colleagues has shaped much of my current outlook on music, theory, and the sciences. 
 
-[Comment on this post on Twitter]()
+[Comment on this post on Twitter](https://twitter.com/DavidJohnBaker/status/1621062159110135808)
