@@ -26,7 +26,7 @@ In practice, this meant there was a lot of very ambitious, big thinking.
 In due time there will be some more academic output as a result from all these discussions, but that will have to wait.
 
 
-{{< resize-image src="ascona1.jpg" alt="" >}}
+{{< resize-image src="ascona1.jpeg" alt="" >}}
 
 {{< resize-image src="mv_group_1.jpeg" alt="" >}}
 
