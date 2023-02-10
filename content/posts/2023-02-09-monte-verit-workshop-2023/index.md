@@ -30,3 +30,4 @@ In due time there will be some more academic output as a result from all these d
 
 {{< resize-image src="mv_group_1.jpeg" alt="" >}}
 
+{{< resize-image src="singing.jpg" alt="" >}}
