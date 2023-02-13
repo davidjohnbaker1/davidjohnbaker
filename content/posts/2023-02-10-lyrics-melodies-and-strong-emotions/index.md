@@ -5,7 +5,7 @@ date: '2023-02-10'
 slug: []
 categories: [article, replication, music science, peer review, publication]
 tags: [article, replication, music science, peer review, publication]
-draft: yes
+draft: no
 ---
 
 Last week a [paper](https://journals.sagepub.com/doi/abs/10.1177/10298649221149109) that [Mitty Ma](https://twitter.com/Zaubermt), [Emily Elliott](https://twitter.com/LSUemily) and some of my former LSU colleagues worked on was published at Musicae Scientae.
