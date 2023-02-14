@@ -6,13 +6,58 @@
     <description>Recent content in Tags on David John Baker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://davidjohnbaker.rbind.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://davidjohnbaker.rbind.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>computation</title>
+      <link>https://davidjohnbaker.rbind.io/tags/computation/</link>
+      <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidjohnbaker.rbind.io/tags/computation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>impulse talk</title>
+      <link>https://davidjohnbaker.rbind.io/tags/impulse-talk/</link>
+      <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidjohnbaker.rbind.io/tags/impulse-talk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>music science</title>
+      <link>https://davidjohnbaker.rbind.io/tags/music-science/</link>
+      <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidjohnbaker.rbind.io/tags/music-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pedagogy</title>
+      <link>https://davidjohnbaker.rbind.io/tags/pedagogy/</link>
+      <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidjohnbaker.rbind.io/tags/pedagogy/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>academia</title>
       <link>https://davidjohnbaker.rbind.io/tags/academia/</link>
       <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>https://davidjohnbaker.rbind.io/tags/academia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>article</title>
+      <link>https://davidjohnbaker.rbind.io/tags/article/</link>
+      <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidjohnbaker.rbind.io/tags/article/</guid>
       <description></description>
     </item>
     
@@ -35,20 +80,38 @@
     </item>
     
     <item>
-      <title>music science</title>
-      <link>https://davidjohnbaker.rbind.io/tags/music-science/</link>
-      <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/music-science/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>music theory</title>
       <link>https://davidjohnbaker.rbind.io/tags/music-theory/</link>
       <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>https://davidjohnbaker.rbind.io/tags/music-theory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>peer review</title>
+      <link>https://davidjohnbaker.rbind.io/tags/peer-review/</link>
+      <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidjohnbaker.rbind.io/tags/peer-review/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>publication</title>
+      <link>https://davidjohnbaker.rbind.io/tags/publication/</link>
+      <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidjohnbaker.rbind.io/tags/publication/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>replication</title>
+      <link>https://davidjohnbaker.rbind.io/tags/replication/</link>
+      <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidjohnbaker.rbind.io/tags/replication/</guid>
       <description></description>
     </item>
     
@@ -341,29 +404,11 @@
     </item>
     
     <item>
-      <title>peer review</title>
-      <link>https://davidjohnbaker.rbind.io/tags/peer-review/</link>
-      <pubDate>Tue, 08 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/peer-review/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>sysmus</title>
       <link>https://davidjohnbaker.rbind.io/tags/sysmus/</link>
       <pubDate>Tue, 08 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://davidjohnbaker.rbind.io/tags/sysmus/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>article</title>
-      <link>https://davidjohnbaker.rbind.io/tags/article/</link>
-      <pubDate>Mon, 24 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/article/</guid>
       <description></description>
     </item>
     
@@ -391,15 +436,6 @@
       <pubDate>Mon, 24 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://davidjohnbaker.rbind.io/tags/preprint/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>publication</title>
-      <link>https://davidjohnbaker.rbind.io/tags/publication/</link>
-      <pubDate>Mon, 24 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/publication/</guid>
       <description></description>
     </item>
     

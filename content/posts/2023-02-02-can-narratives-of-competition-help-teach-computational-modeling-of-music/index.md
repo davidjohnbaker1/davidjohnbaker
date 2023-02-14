@@ -8,6 +8,8 @@ tags: []
 draft: yes
 ---
 
+> Sketch of impluse talk I planned to deliver at [Monte Verita Workshop]()
+
 One axis to conceptualize teaching is on a continuum from the procedural to the abstract. 
 When I refer to procedural teaching, I am referring to teaching someone how to _do something_.
 For example, how to run an experimental procedure with a participant, how make a scatter plot in R, how to program an experiment in Python, or how to analyse a specific type of experimental design.
