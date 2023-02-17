@@ -36,4 +36,4 @@ Instead of pointing them to a paper, instead maybe we point them to a competitio
 
 In addition to having a more tangible point of entry as to what computational modelers of music, _do_, having a resource would like this would allow for students to see how different questions have historically been addressed by researchers with the field.
 
-This of course means centralizing resources and questions that are asked, pooling more resources and dealing with the evergreen problems of agreeing on data formats, but wer we to have this, I think it would be a sign of maturing field. 
+This of course means centralizing resources and questions that are asked, pooling more resources and dealing with the evergreen problems of agreeing on data formats, but were we to have this, I think it would be a sign of maturing field. 
