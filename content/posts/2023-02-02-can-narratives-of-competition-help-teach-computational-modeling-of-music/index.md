@@ -32,7 +32,7 @@ One problem I feel we have is that its sometimes difficult to link these more pr
 One possible solution to better link these is to focus on showing students what we as as scientists _do_.
 This doesn't mean writing a paper that is ultimately published in a journal, but having a more surface level activity that we can point them to.
 
-Instead of pointing them to a paper, instead maybe we point them to a competition-- something like [Kaggle](), the [Netflix Prize](), or the [MIREX tasks]()-- that very directly shows how a group of researchers attempts to solve a clearly established problem. 
+Instead of pointing them to a paper, instead maybe we point them to a competition-- something like [Kaggle](https://www.kaggle.com/), the [Netflix Prize](https://en.wikipedia.org/wiki/Netflix_Prize), or the [MIREX tasks](https://www.music-ir.org/mirex/wiki/MIREX_HOME)-- that very directly shows how a group of researchers attempts to solve a clearly established problem. 
 
 In addition to having a more tangible point of entry as to what computational modelers of music, _do_, having a resource would like this would allow for students to see how different questions have historically been addressed by researchers with the field.
 
