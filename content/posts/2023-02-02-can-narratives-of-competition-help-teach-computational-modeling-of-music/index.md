@@ -1,18 +1,18 @@
 ---
 title: Can narratives of competition help teach computational modeling of music?
 author: Package Build
-date: '2023-02-02'
+date: '2023-02-16'
 slug: []
-categories: []
-tags: []
-draft: yes
+categories: [impulse talk, music science, computation, pedagogy]
+tags: [impulse talk, music science, computation, pedagogy]
+draft: no
 ---
 
-> Sketch of impluse talk I planned to deliver at [Monte Verita Workshop]()
+> Sketch of impluse talk I planned to deliver at [Monte Verita Workshop](https://davidjohnbaker.rbind.io/posts/2023-02-09-monte-verit-workshop-2023/)
 
 One axis to conceptualize teaching is on a continuum from the procedural to the abstract. 
 When I refer to procedural teaching, I am referring to teaching someone how to _do something_.
-For example, how to run an experimental procedure with a participant, how make a scatter plot in R, how to program an experiment in Python, or how to analyse a specific type of experimental design.
+For example, how to run an experimental procedure with a participant, how make a scatter plot, how to program an experiment in Python, how to make a call to the Spotify API, or how to analyse a specific type of experimental design.
 With procedural learning, the learning objective or outcome, I find, is typically much clearer.
 You either were able to produce the scatter plot, or not.
 The experiment runs, or not. 
@@ -25,27 +25,15 @@ How can we better understand music perception via computational models?
 
 I think we can try to come up with clear learning objectives of what it means to do _good science_, but in some ways that does a disservice our students.
 When doing science, we don't always know exactly how it will turn out. 
-We don't know what the clear goal to check off is.
+It's not always clear what it means to make progress on a specific subject of study.
 
-The question is: how do we check for understanding that student grasps the many moving parts needed for computational modeling of music?
+One problem I feel we have is that its sometimes difficult to link these more procedural learning goals with our more abstract ones when it comes to the computational modeling of music.
 
-Ideally we want to show what we as as scientists _do_.
-We can take the form of reading papers where model is tested against data, but students often wonder why.
-We have a lot of assumptions to even get to this point.
+One possible solution to better link these is to focus on showing students what we as as scientists _do_.
+This doesn't mean writing a paper that is ultimately published in a journal, but having a more surface level activity that we can point them to.
 
-This is not helped by  always begin explicitly clear as we work our way from theory down to testable assertion of the world (hypothesis).
-We need a better point of entry to show students WHAT we do, and WHY we do it.
-Then when in this place, they find themselves in larger narrative. 
+Instead of pointing them to a paper, instead maybe we point them to a competition-- something like [Kaggle](), the [Netflix Prize](), or the [MIREX tasks]()-- that very directly shows how a group of researchers attempts to solve a clearly established problem. 
 
-What is this narrative?
-We might take our cue from the world of competition. 
-I think this is a good idea because even outside of academia, nerds are familiar with things like The Netflix prize, Kaggle where there is an explicit goal: make a model that does X, it is judged by Y.
+In addition to having a more tangible point of entry as to what computational modelers of music, _do_, having a resource would like this would allow for students to see how different questions have historically been addressed by researchers with the field.
 
-The field of MIR has this with MIREX.
-It allows us to point to the state of the art in models.
-There are winners, losers, progress, and **history** here.
-It also gives us a narrative that tethers model to theories.
-
-This of course means deciding on the questions we think should be asked.
-Pooling resources for common format.
-I think this would show a sign of maturing field. 
+This of course means centralizing resources and questions that are asked, pooling more resources and dealing with the evergreen problems of agreeing on data formats, but wer we to have this, I think it would be a sign of maturing field. 
