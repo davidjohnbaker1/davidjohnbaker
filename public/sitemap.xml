@@ -2,28 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://davidjohnbaker.rbind.io/tags/computation/</loc>
-    <lastmod>2023-02-14T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://davidjohnbaker.rbind.io/</loc>
-    <lastmod>2023-02-14T00:00:00+00:00</lastmod>
+    <lastmod>2023-03-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/tags/impulse-talk/</loc>
-    <lastmod>2023-02-14T00:00:00+00:00</lastmod>
+    <loc>https://davidjohnbaker.rbind.io/tags/education/</loc>
+    <lastmod>2023-03-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://davidjohnbaker.rbind.io/tags/music/</loc>
+    <lastmod>2023-03-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/music-science/</loc>
-    <lastmod>2023-02-14T00:00:00+00:00</lastmod>
+    <lastmod>2023-03-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/tags/pedagogy/</loc>
-    <lastmod>2023-02-14T00:00:00+00:00</lastmod>
+    <loc>https://davidjohnbaker.rbind.io/tags/music-theory/</loc>
+    <lastmod>2023-03-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/posts/</loc>
-    <lastmod>2023-02-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2023-02-02-purposefully-re-inventing-the-wheel-teaching-computational-models-through-shared-open-examples/</loc>
-    <lastmod>2023-02-14T00:00:00+00:00</lastmod>
+    <lastmod>2023-03-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/</loc>
+    <lastmod>2023-03-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://davidjohnbaker.rbind.io/posts/2023-03-13-thoughts-from-teaching-timbre-in-2023/</loc>
+    <lastmod>2023-03-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://davidjohnbaker.rbind.io/tags/timbre/</loc>
+    <lastmod>2023-03-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://davidjohnbaker.rbind.io/posts/2023-02-02-can-narratives-of-competition-help-teach-computational-modeling-of-music/</loc>
+    <lastmod>2023-02-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://davidjohnbaker.rbind.io/tags/computation/</loc>
+    <lastmod>2023-02-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://davidjohnbaker.rbind.io/tags/impulse-talk/</loc>
+    <lastmod>2023-02-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://davidjohnbaker.rbind.io/tags/pedagogy/</loc>
+    <lastmod>2023-02-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://davidjohnbaker.rbind.io/posts/2023-02-02-purposefully-re-inventing-the-wheel-teaching-computational-models-through-shared-open-examples/</loc>
     <lastmod>2023-02-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/academia/</loc>
@@ -44,9 +62,6 @@
     <loc>https://davidjohnbaker.rbind.io/tags/music-cognition/</loc>
     <lastmod>2023-02-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/tags/music-theory/</loc>
-    <lastmod>2023-02-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/peer-review/</loc>
     <lastmod>2023-02-10T00:00:00+00:00</lastmod>
   </url><url>
@@ -62,13 +77,7 @@
     <loc>https://davidjohnbaker.rbind.io/posts/2023-01-26-a-peculiar-anniversary/</loc>
     <lastmod>2023-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2023-02-02-can-narratives-of-competition-help-teach-computational-modeling-of-music/</loc>
-    <lastmod>2023-02-02T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/career/</loc>
-    <lastmod>2023-02-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://davidjohnbaker.rbind.io/tags/education/</loc>
     <lastmod>2023-02-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/personal/</loc>
@@ -111,9 +120,6 @@
     <lastmod>2023-01-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/reading/</loc>
-    <lastmod>2023-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://davidjohnbaker.rbind.io/tags/timbre/</loc>
     <lastmod>2023-01-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/academic-life/</loc>
@@ -192,9 +198,6 @@
     <lastmod>2021-11-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/posts/2021-11-15-invasion-of-the-non-musicians/</loc>
-    <lastmod>2021-11-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://davidjohnbaker.rbind.io/tags/music/</loc>
     <lastmod>2021-11-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/stem/</loc>
