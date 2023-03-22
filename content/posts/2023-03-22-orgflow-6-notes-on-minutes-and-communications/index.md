@@ -20,7 +20,7 @@ There are a few things that I do in order to organize meetings that I think shar
 In particular, I am thinking about several of the graduate students that I work with, as learning to be more efficient in this realm is a great skill to learn during grad school.
 These ideas align with many of the [orgflow](https://davidjohnbaker.rbind.io/posts/2023-01-09-orgflow-how-i-organize/) and [GTD](https://en.wikipedia.org/wiki/Getting_Things_Done) principles that I use, so everything here should be read in context of that. 
 
-## A common locaiton for all projects 
+## A common location for all projects 
 
 The first piece of advice that I have found invaluable is for each project or committee , there needs to be a single place that holds both **capture** and **actionable** items for any stakeholders on the project. 
 
