@@ -5,7 +5,7 @@ date: '2023-03-22'
 slug: []
 categories: [academia, gtd,orgflow, productivity, tips]
 tags: [academia, gtd,orgflow, productivity, tips]
-draft: yes
+draft: no
 ---
 
 Being good at organization is a blessing and a curse.
