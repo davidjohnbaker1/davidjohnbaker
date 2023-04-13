@@ -2,10 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://davidjohnbaker.rbind.io/tags/academia/</loc>
-    <lastmod>2023-03-22T00:00:00+00:00</lastmod>
+    <loc>https://davidjohnbaker.rbind.io/tags/anti-racism/</loc>
+    <lastmod>2023-04-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://davidjohnbaker.rbind.io/tags/article/</loc>
+    <lastmod>2023-04-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/</loc>
+    <lastmod>2023-04-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://davidjohnbaker.rbind.io/posts/2023-04-13-how-can-music-science-be-more-socially-just/</loc>
+    <lastmod>2023-04-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://davidjohnbaker.rbind.io/tags/music-science/</loc>
+    <lastmod>2023-04-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://davidjohnbaker.rbind.io/tags/peer-review/</loc>
+    <lastmod>2023-04-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://davidjohnbaker.rbind.io/posts/</loc>
+    <lastmod>2023-04-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://davidjohnbaker.rbind.io/tags/publication/</loc>
+    <lastmod>2023-04-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://davidjohnbaker.rbind.io/tags/smpc/</loc>
+    <lastmod>2023-04-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://davidjohnbaker.rbind.io/tags/</loc>
+    <lastmod>2023-04-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://davidjohnbaker.rbind.io/tags/academia/</loc>
     <lastmod>2023-03-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/gtd/</loc>
@@ -17,13 +44,7 @@
     <loc>https://davidjohnbaker.rbind.io/posts/2023-03-22-orgflow-6-notes-on-minutes-and-communications/</loc>
     <lastmod>2023-03-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/</loc>
-    <lastmod>2023-03-22T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/productivity/</loc>
-    <lastmod>2023-03-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://davidjohnbaker.rbind.io/tags/</loc>
     <lastmod>2023-03-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/tips/</loc>
@@ -33,9 +54,6 @@
     <lastmod>2023-03-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/music/</loc>
-    <lastmod>2023-03-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://davidjohnbaker.rbind.io/tags/music-science/</loc>
     <lastmod>2023-03-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/music-theory/</loc>
@@ -62,9 +80,6 @@
     <loc>https://davidjohnbaker.rbind.io/posts/2023-02-02-purposefully-re-inventing-the-wheel-teaching-computational-models-through-shared-open-examples/</loc>
     <lastmod>2023-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/tags/article/</loc>
-    <lastmod>2023-02-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/conference/</loc>
     <lastmod>2023-02-10T00:00:00+00:00</lastmod>
   </url><url>
@@ -75,12 +90,6 @@
     <lastmod>2023-02-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/music-cognition/</loc>
-    <lastmod>2023-02-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://davidjohnbaker.rbind.io/tags/peer-review/</loc>
-    <lastmod>2023-02-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://davidjohnbaker.rbind.io/tags/publication/</loc>
     <lastmod>2023-02-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/replication/</loc>
