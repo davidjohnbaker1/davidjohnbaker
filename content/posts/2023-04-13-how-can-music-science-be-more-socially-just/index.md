@@ -27,11 +27,5 @@ This came up several times in the planning of this panel and one thing that we w
 
 If you know of someone who might be interested in this, please send me an email as we are starting to look for creators who might be interested in this.
 
-
-
-
-
-
-
-
+[Comment on this post on Twitter](https://twitter.com/DavidJohnBaker/status/1646830210912755712)
 
