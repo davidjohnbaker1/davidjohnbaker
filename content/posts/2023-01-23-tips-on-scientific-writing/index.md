@@ -194,6 +194,12 @@ Below I list a few that I have read and some notes about them.
 
 ### Potpourri  
 
+#### David Huron Writing Advice
+
+This [link here](https://shanahdt.github.io/mus-345-445/emp_methods_workshop/paper.html#writing-an-empirical-paper) is a list of advice on writing empirical papers in music and science from David Huron.
+
+(contributed and hosted by [Daniel Shanahan](https://www.music.northwestern.edu/faculty/profile/daniel-shanahan))
+
 #### Commmiting to signposting 
 
 It's OK, important, and makes it easier for your reader if commit to some sort of signposting.
@@ -264,6 +270,7 @@ When writing scientifically, there are a lot of different people from different 
 #### Post History 
 
 * `Initially Published: 2023-01-23`
+* `Added Huron Link: 2023-05-08`
 
 Have a piece of advice you this others would benefit from reading? 
 
