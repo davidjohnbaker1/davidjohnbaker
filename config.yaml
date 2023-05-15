@@ -5,7 +5,7 @@ theme: hugo-theme-noteworthy
 enableRobotsTXT: yes
 paginate: 4
 summaryLength: 10
-googleAnalytics: ''
+googleAnalytics: 'UA-109897649-1'
 disqusShortname: ''
 taxonomies:
   tag: tags
