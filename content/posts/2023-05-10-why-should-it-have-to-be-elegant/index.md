@@ -36,4 +36,4 @@ I have of course many other [strong opinions](https://davidjohnbaker.rbind.io/po
 I'm not trying to extinguish a preference for simple solutions, just say that I think I need to start to more seriously consider the other side of the complexity solution spectrum.
 In not doing this, I think I've limited my thinking, especially if I want to honor a commitment to _anything goes_ and intellectual growth.
 
-[Comment on this post on Twitter]()
+[Comment on this post on Twitter](https://twitter.com/DavidJohnBaker/status/1658474378710102018)
