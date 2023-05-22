@@ -42,4 +42,4 @@ I think Brian was just starting a PhD at Yale at the time (?) and went on to wri
 If anyone has a link to the conference program that weekend, I would love to see a copy of it.
 I know there several other people I met that weekend have since become colleagues or friends in some capacity. 
 
-[Comment on this post on Twitter]()
+[Comment on this post on Twitter](https://twitter.com/DavidJohnBaker/status/1660587870850109440)
