@@ -37,9 +37,14 @@ That week and every interaction I have had with music and science people is also
 {{< resize-image src="dave_brian_amy.jpeg" alt="" >}}
 
 This is a picture of myself,  [Amy](https://twitter.com/amy_belfi), and [Brian Miller](https://twitter.com/bmill42).
-I think Brian was just starting a PhD at Yale at the time (?) and went on to write a [really fantastic dissertation on Leonard Meyer](https://bmill42.github.io/research/) and has written several very great articles as a result of that work.
+Brian was a Masters student at the time (the first version of this post said he was already at Yale) and went on to write a [really fantastic dissertation on Leonard Meyer](https://bmill42.github.io/research/) and has written several very great articles as a result of that work.
 
 If anyone has a link to the conference program that weekend, I would love to see a copy of it.
 I know there several other people I met that weekend have since become colleagues or friends in some capacity. 
+
+> Updates 
+
+* `2023-05-22` Dan Shanahan of course had [a pdf of the original program](https://davidjohnbaker.rbind.io/ref/mmcosu.pdf).
+
 
 [Comment on this post on Twitter](https://twitter.com/DavidJohnBaker/status/1660587870850109440)
