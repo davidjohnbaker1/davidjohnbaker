@@ -27,3 +27,5 @@ Scientific papers should enable further work via synthesis and critical discussi
 
 The [reading group](https://musicreadinggroup.wordpress.com/) will be off for the next two months, but will return again in September 2023. 
 
+
+* [Comment on this post on Twitter](https://twitter.com/DavidJohnBaker/status/1666039508788297734)
