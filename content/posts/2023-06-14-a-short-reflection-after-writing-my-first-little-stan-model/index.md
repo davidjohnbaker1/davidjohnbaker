@@ -16,14 +16,14 @@ I think we discussed at least half of the book and did all the corresponding pro
 Fast forward a few years, I am now working somewhere where my one of my colleagues writes all his models in [Stan](https://mc-stan.org/users/documentation/).
 Obviously a good reason to try to jump in the deep end. 
 
-This morning I spent a few hours writing out a simple between groups comparison (~ a t-test ~) using data from a paper from my PhD that is currently under review. 
+This morning I spent a few hours writing out a simple between groups comparison (~ a t-test ~) using data from a paper from my time in Louisiana that is currently under review. 
 The paper has been under review for longer than I care to admit publicly, but I know this data and our [NHST analysis](https://en.wikipedia.org/wiki/Statistical_hypothesis_testing) of it pretty well.
 
 My idea in doing this was to simply ask the same research questions that I did in our current analysis, but do so in a Bayesian way.
 
 After completing my first pass of this, boy, do I have some thoughts.
 
-The most salient thought (feeling?) I had was I feel as though I now have a better understand why some Bayesians are so anti-YES/NO metrics at any point of the statistical modeling pipeline.
+The most salient thought (feeling?) I had was I feel as though I now have a better understanding as to why some Bayesians are so anti-YES/NO metrics at any point of the statistical modeling pipeline.
 I get advantage of p-values, I've reported many myself, I have also seen them used as a substitute for critical thinking on many occasions. 
 
 Coding up what was essentially a t-test in Stan of course makes you have to critically consider every element of your model.
@@ -45,4 +45,4 @@ Just like when I jumped from SPSS to using R and thought "Wow, I can't believe h
 
 Excited to see where this goes. 
 
-* [Comment on this post on Twitter]()
+* [Comment on this post on Twitter](https://twitter.com/DavidJohnBaker/status/1668965657117859841)
