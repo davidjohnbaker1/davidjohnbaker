@@ -5,7 +5,7 @@ date: '2023-06-14'
 slug: []
 categories: [computation, stan, R, stats, Bayes, postdoc]
 tags: [computation, stan, R, stats, Bayes, postdoc]
-draft: yes
+draft: no
 ---
 
 During my postdoc, I've resolved to better understand Bayesian statistics.
@@ -44,3 +44,5 @@ Really, I could not have asked for a better set of training wheels going into th
 Just like when I jumped from SPSS to using R and thought "Wow, I can't believe how much statistical software can sweep under the rug!", I am re-living that feeling again jumping from R to Stan/Rstan. 
 
 Excited to see where this goes. 
+
+* [Comment on this post on Twitter]()
