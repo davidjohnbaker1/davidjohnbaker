@@ -6,7 +6,71 @@
     <description>Recent content on David John Baker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://davidjohnbaker.rbind.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://davidjohnbaker.rbind.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Standing Call for Songs to Sing at Music Conferences</title>
+      <link>https://davidjohnbaker.rbind.io/posts/2023-07-06-a-standing-call-for-songs-to-sing-at-music-conferences/</link>
+      <pubDate>Thu, 06 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidjohnbaker.rbind.io/posts/2023-07-06-a-standing-call-for-songs-to-sing-at-music-conferences/</guid>
+      <description>I have always wanted to assemble a small book of easy enough to sight-sing songs for academic music conferences.</description>
+    </item>
+    
+    <item>
+      <title>A short reflection after writing my first, little Stan model</title>
+      <link>https://davidjohnbaker.rbind.io/posts/2023-06-14-a-short-reflection-after-writing-my-first-little-stan-model/</link>
+      <pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidjohnbaker.rbind.io/posts/2023-06-14-a-short-reflection-after-writing-my-first-little-stan-model/</guid>
+      <description>During my postdoc, I&amp;rsquo;ve resolved to better understand Bayesian statistics. This started a few years ago, when I organized a group of colleagues to painstakingly make our way through Statistical Rethinking.</description>
+    </item>
+    
+    <item>
+      <title>MCG Reading: Dynamic models for musical rhythm perception and coordination</title>
+      <link>https://davidjohnbaker.rbind.io/posts/2023-06-06-mcg-reading-dynamic-models-for-musical-rhythm-perception-and-coordination/</link>
+      <pubDate>Tue, 06 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidjohnbaker.rbind.io/posts/2023-06-06-mcg-reading-dynamic-models-for-musical-rhythm-perception-and-coordination/</guid>
+      <description>We ended the academic year reading Dynamic models for musical rhythm perception and coordination.</description>
+    </item>
+    
+    <item>
+      <title>Receiving a Letter of Recommendation</title>
+      <link>https://davidjohnbaker.rbind.io/posts/2023-05-22-receiving-a-letter-of-recommendation/</link>
+      <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidjohnbaker.rbind.io/posts/2023-05-22-receiving-a-letter-of-recommendation/</guid>
+      <description>If you are reading this, you are either thinking about or have asked me to write you a letter of recommendation.</description>
+    </item>
+    
+    <item>
+      <title>A Decade of Music and Science</title>
+      <link>https://davidjohnbaker.rbind.io/posts/2023-05-21-a-decade-of-music-and-science/</link>
+      <pubDate>Sun, 21 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidjohnbaker.rbind.io/posts/2023-05-21-a-decade-of-music-and-science/</guid>
+      <description>A few days ago Amy Belfi pointed out it&amp;rsquo;s been ten years since we met.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://davidjohnbaker.rbind.io/about/</link>
+      <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidjohnbaker.rbind.io/about/</guid>
+      <description>Hello!
+I&amp;rsquo;m Dave Baker and I&amp;rsquo;m interested in music, theory, and the sciences.</description>
+    </item>
+    
+    <item>
+      <title>Why should it have to be elegant?</title>
+      <link>https://davidjohnbaker.rbind.io/posts/2023-05-10-why-should-it-have-to-be-elegant/</link>
+      <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidjohnbaker.rbind.io/posts/2023-05-10-why-should-it-have-to-be-elegant/</guid>
+      <description>One of the best questions to ask yourself (and others) is:</description>
+    </item>
+    
     <item>
       <title>How Can Music Science Be More Socially Just?</title>
       <link>https://davidjohnbaker.rbind.io/posts/2023-04-13-how-can-music-science-be-more-socially-just/</link>
@@ -113,16 +177,6 @@
       
       <guid>https://davidjohnbaker.rbind.io/posts/2023-01-09-orgflow-how-i-organize/</guid>
       <description>We have introduced a new monthly standing meeting at the Music Cognition Group where the focus is meant to be on how to work.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://davidjohnbaker.rbind.io/about/</link>
-      <pubDate>Wed, 04 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/about/</guid>
-      <description>Hello!
-I&amp;rsquo;m Dave Baker and I&amp;rsquo;m interested in music, theory, and the sciences.</description>
     </item>
     
     <item>
@@ -545,7 +599,7 @@ I&amp;rsquo;m Dave Baker and I&amp;rsquo;m interested in music, theory, and the 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://davidjohnbaker.rbind.io/industry/</guid>
-      <description>Outside of my academic work I am sometimes involved in projects related to data science education and consultancy in audio branding.</description>
+      <description>I like to keep a finger on the pulse of all things data education, audio branding, and data science.</description>
     </item>
     
     <item>
