@@ -11,7 +11,7 @@ draft: no
 
 After reading this article in [The Atlantic](https://www.theatlantic.com/technology/archive/2023/05/elon-musk-ron-desantis-2024-twitter/674149/) I think it's time to jump ship on Twitter.
 
-I don't want to be associated with a platform where the owner openly entertains the consipiracy theories that are radicalizing the older generation.
+I don't want to be associated with a platform where the owner openly entertains the conspiracy theories that are radicalizing the older generation.
 I don't want to be associated with a platform where an openly anti-queer, anti-education candidate decides to announces his run for president.
 If it's not good enough for [NPR it's not good enough for me](https://www.npr.org/2023/04/12/1169269161/npr-leaves-twitter-government-funded-media-label). 
 
