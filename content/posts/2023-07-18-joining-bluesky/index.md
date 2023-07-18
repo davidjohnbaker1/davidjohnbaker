@@ -28,3 +28,5 @@ Over the next few months, I will check in on Twitter here or there, but I am hop
 For those in the #musicscience community, I think I will exclusively post about [ICMPC17](https://jsmpc.org/ICMPC17/) and all things research over there.
 I really enjoy Twitter-style apps for seeing new publications, watching conferences go by, seeing discussions on various topic, and providing a way for new people to join the community.
 I am pretty sure I can have all of that on a platform that is not Twitter.
+
+* [Comment on this post on BlueSky](https://bsky.app/profile/davidjohnbaker.bsky.social/post/3k2s7uwjvrj2o)
