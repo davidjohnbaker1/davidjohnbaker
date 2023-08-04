@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bluesky on David John Baker</title>
+    <link>https://davidjohnbaker.rbind.io/tags/bluesky/</link>
+    <description>Recent content in bluesky on David John Baker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 04 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://davidjohnbaker.rbind.io/tags/bluesky/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>#musicscience on BlueSky</title>
+      <link>https://davidjohnbaker.rbind.io/posts/2023-08-04-musicscience-on-bluesky/</link>
+      <pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidjohnbaker.rbind.io/posts/2023-08-04-musicscience-on-bluesky/</guid>
+      <description>During my lunch breaks this week, I figured out how to set up a #musicscience feed on Bluesky.</description>
+    </item>
+    
+  </channel>
+</rss>

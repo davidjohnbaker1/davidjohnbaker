@@ -2,10 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://davidjohnbaker.rbind.io/tags/conference/</loc>
-    <lastmod>2023-07-18T00:00:00+00:00</lastmod>
+    <loc>https://davidjohnbaker.rbind.io/posts/2023-08-04-musicscience-on-bluesky/</loc>
+    <lastmod>2023-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://davidjohnbaker.rbind.io/tags/bluesky/</loc>
+    <lastmod>2023-08-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/</loc>
+    <lastmod>2023-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://davidjohnbaker.rbind.io/tags/icmpc17/</loc>
+    <lastmod>2023-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://davidjohnbaker.rbind.io/tags/music/</loc>
+    <lastmod>2023-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://davidjohnbaker.rbind.io/tags/musicscience/</loc>
+    <lastmod>2023-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://davidjohnbaker.rbind.io/posts/</loc>
+    <lastmod>2023-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://davidjohnbaker.rbind.io/tags/science/</loc>
+    <lastmod>2023-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://davidjohnbaker.rbind.io/tags/</loc>
+    <lastmod>2023-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://davidjohnbaker.rbind.io/tags/conference/</loc>
     <lastmod>2023-07-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/posts/2023-07-18-joining-bluesky/</loc>
@@ -14,13 +38,7 @@
     <loc>https://davidjohnbaker.rbind.io/tags/music-science/</loc>
     <lastmod>2023-07-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/</loc>
-    <lastmod>2023-07-18T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/quality-of-life/</loc>
-    <lastmod>2023-07-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://davidjohnbaker.rbind.io/tags/</loc>
     <lastmod>2023-07-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/twitter/</loc>
@@ -30,9 +48,6 @@
     <lastmod>2023-07-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/academia/</loc>
-    <lastmod>2023-07-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://davidjohnbaker.rbind.io/tags/music/</loc>
     <lastmod>2023-07-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/posts/2023-06-14-a-short-reflection-after-writing-my-first-little-stan-model/</loc>
@@ -102,9 +117,6 @@
     <lastmod>2023-05-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/humanities/</loc>
-    <lastmod>2023-05-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://davidjohnbaker.rbind.io/tags/science/</loc>
     <lastmod>2023-05-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/short/</loc>

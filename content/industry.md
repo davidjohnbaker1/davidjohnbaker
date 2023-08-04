@@ -35,6 +35,7 @@ Clients that I have worked with include MassiveMusic, CitizenM Hotels, Bose, Sou
 
 * [Testing What Works Audio Branding Workshop](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tigU2AkAAAAJ&citation_for_view=tigU2AkAAAAJ:YFjsv_pBGBYC)
 
+* [Audio Expert for 2023 EU Panasonic Re-Branding (to be added Autum 2023)]()
 
 ## Learning for Students
 
