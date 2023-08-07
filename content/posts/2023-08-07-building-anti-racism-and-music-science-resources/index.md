@@ -34,4 +34,4 @@ You start with something small, and just see where it takes you.
 
 If the new SMPC AREC committee doesn't take this up as one of their projects and you're interested in chatting more about this after summer holidays, please [get in touch](mailto:davidjohnbaker1@gmail.com).
 
-* [Comment on this post on BlueSky]()
+* [Comment on this post on BlueSky](https://bsky.app/profile/davidjohnbaker.bsky.social/post/3k4ei7y3pvx2k)
