@@ -5,7 +5,7 @@ date: '2023-08-07'
 slug: []
 categories: [anti-racism, article,music science, science, STEM]
 tags: [anti-racism, article,music science, science, STEM]
-draft: yes
+draft: no
 ---
 
 Last week [the panel discussion from last year's SMPC was published in Auditory Perception and Cognition](https://www.tandfonline.com/doi/full/10.1080/25742442.2023.2236540).
