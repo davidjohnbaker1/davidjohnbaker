@@ -25,7 +25,7 @@ params:
   math: yes
   orcid: 'https://orcid.org/0000-0003-3921-7517'
   showReadMore: no
-  twitter: 'www.twitter.com/davidjohnbaker'
+  twitter: 'https://bsky.app/profile/davidjohnbaker.bsky.social'
 menu:
   main:
     - identifier: about
