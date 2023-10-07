@@ -30,3 +30,5 @@ I really enjoy Twitter-style apps for seeing new publications, watching conferen
 I am pretty sure I can have all of that on a platform that is not Twitter.
 
 * [Comment on this post on BlueSky](https://bsky.app/profile/davidjohnbaker.bsky.social/post/3k2s7uwjvrj2o)
+
+* [Great on why to leave Twitter added a few months later](https://throwawayopinions.io/the-paradox-of-intolerance.html)
