@@ -6,7 +6,25 @@
     <description>Recent content on David John Baker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://davidjohnbaker.rbind.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://davidjohnbaker.rbind.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://davidjohnbaker.rbind.io/about/</link>
+      <pubDate>Thu, 09 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidjohnbaker.rbind.io/about/</guid>
+      <description>I&amp;rsquo;m a postdoc at the Music Cognition Group at the University of Amsterdam.</description>
+    </item>
+    
+    <item>
+      <title>Musical Memory Experiments for Everyone (Including Experts!)</title>
+      <link>https://davidjohnbaker.rbind.io/posts/2023-10-18-musical-memory-experiments-for-everyone-including-experts/</link>
+      <pubDate>Wed, 18 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidjohnbaker.rbind.io/posts/2023-10-18-musical-memory-experiments-for-everyone-including-experts/</guid>
+      <description>Yesterday I had the pleasure of giving a talk as part of the Centre for Music and Science seminar series at the University of Cambridge.</description>
+    </item>
+    
     <item>
       <title>BlueSky for Music Science 101</title>
       <link>https://davidjohnbaker.rbind.io/posts/2023-09-13-bluesky-for-music-science-101/</link>
@@ -95,16 +113,6 @@
       
       <guid>https://davidjohnbaker.rbind.io/posts/2023-05-21-a-decade-of-music-and-science/</guid>
       <description>A few days ago Amy Belfi pointed out it&amp;rsquo;s been ten years since we met.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://davidjohnbaker.rbind.io/about/</link>
-      <pubDate>Thu, 18 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/about/</guid>
-      <description>Hello!
-I&amp;rsquo;m Dave Baker and I&amp;rsquo;m interested in music, theory, and the sciences.</description>
     </item>
     
     <item>
@@ -635,7 +643,7 @@ I&amp;rsquo;m Dave Baker and I&amp;rsquo;m interested in music, theory, and the 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://davidjohnbaker.rbind.io/academic/</guid>
-      <description>As a researcher, most of the projects I work on result in either prose, a software repository, or a talk.</description>
+      <description>For a list of my publications, see my Google Scholar.</description>
     </item>
     
     <item>
@@ -644,7 +652,7 @@ I&amp;rsquo;m Dave Baker and I&amp;rsquo;m interested in music, theory, and the 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://davidjohnbaker.rbind.io/industry/</guid>
-      <description>I like to keep a finger on the pulse of all things data education, audio branding, and data science.</description>
+      <description>I also am involved on project related to data education, audio branding, and data science.</description>
     </item>
     
     <item>

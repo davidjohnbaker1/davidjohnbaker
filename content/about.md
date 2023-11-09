@@ -1,32 +1,19 @@
 ---
-date: "2023-05-18"
+date: "2023-11-09"
 title: About
 type: section
 ---
 
-Hello! 
+I'm a postdoc at the [Music Cognition Group](https://www.mcg.uva.nl/) at the [University of Amsterdam](https://www.uva.nl/).
 
-I'm Dave Baker and I'm interested in music, theory, and the sciences.
-I currently work as a postdoc with the [Music Cognition Group](https://www.mcg.uva.nl/) at the [Institute for Logic, Language, and Computation](https://www.illc.uva.nl/) at the [University of Amsterdam](https://www.uva.nl/).
+I'm interested in music, theory, and the sciences.
 
-As an **[academic researcher](https://davidjohnbaker.rbind.io/academic/)**, I enjoy asking questions that try to answer how humans are able to perceive and make music.
-This typically requires designing experiments, trying to build computer models of what I am trying to better understand, and reading about what it means to use the tools of the sciences on something that at the end of the day is culturally defined.
-I have a Ph.D. from Louisiana State University. 
+If you want ...
 
-I've worked on several **[industry projects](https://davidjohnbaker.rbind.io/industry/)** as a data scientist, usually in the audio branding space.
-I provide both data consultancy and educational services through my private, limited company. 
-Please contact me via email if you would like to hire me for work or teaching. 
-
-As an **[educator](https://davidjohnbaker.rbind.io/teaching/)**, I have taught classes at the university level, have worked as a lead instructor at a data science boot camp, received certification as a [Posit tidyverse](https://github.com/davidjohnbaker1/rstudio_certification_training) instructor, and advise graduate students.
-I also act as an end point assessor for level seven research scientist apprenticeships in the UK.
-
-I also try to **[give back](https://davidjohnbaker.rbind.io/service/)** to the communities that helped me get where I am today.
-For the past three years, I served on the [Society for Music Perception and Cognition's Anti-Racism and Equity committee](https://musicperception.org/smpc-arec.html), one of which I was chair.
-If you need help with something that you think I might be able to assist with, please email me. 
-
-If you want to see what I'm up to or currently thinking, please check out my **[blog](https://davidjohnbaker.rbind.io/archives/)**.
-
-If you'd like to get in touch, please [email me](mailto:davidjohnbaker1@gmail.com).
-Sometimes I am active on [twitter](www.twitter.com/davidjohnbaker), but it's just not the same as it used to be.
+* to see what I'm up to, check out my **[blog](https://davidjohnbaker.rbind.io/archives/)**
+* learn more about me, have a look around this website or download my 
+  - [CV](https://davidjohnbaker.rbind.io/ref/baker_resume_20231109.pdf) 
+  - [resume](https://davidjohnbaker.rbind.io/ref/baker_resume_20231109.pdf)
+* help with something, please [send me an email](mailto:davidjohnbaker1@gmail.com).
 
 :wq

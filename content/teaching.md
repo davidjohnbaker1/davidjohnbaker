@@ -4,14 +4,9 @@ type: section
 ---
 
 A major part of my professional identity is being an educator.
-Most of what I teach either has to do with music or (data) science.
+Below is a collection of materials related to my teaching. 
 
-A listing of my university level classroom teaching can be found on my **[current academic CV](https://davidjohnbaker.rbind.io//ref/DJB_Long_CV_20230805.pdf)**.
-
-I have also given several workshops on topics ranging from R Programming, to clustering algorithms, to recommendation systems.
-Examples of this type of teaching can be seen below. 
-
-If you'd like to hire me for a workshop or develop specific materials for you on a topic, [please send me an email](mailto:davidjohnbaker1@gmail.com?subject=[Workshop]).
+If you'd like to hire me for a workshop [please send me an email](mailto:davidjohnbaker1@gmail.com?subject=[Workshop]).
 
 ## Materials Created 
 

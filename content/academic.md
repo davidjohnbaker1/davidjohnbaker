@@ -3,13 +3,15 @@ title: Academic
 type: section
 ---
 
-As a researcher, most of the projects I work on result in either prose, a software repository, or a talk. 
-There should be a corresponding blog post for many of my completed projects.
+For a list of my publications, see my **[Google Scholar](https://scholar.google.com/citations?user=tigU2AkAAAAJ&hl=en)**.
 
-I've tried to group these by my major research interests, but I find the **[tag system](https://davidjohnbaker.rbind.io/tags/)** is much better for browsing. 
-If you are looking for a specific paper, please check out the [preprint](https://davidjohnbaker.rbind.io/tags/preprint/) tag or send me an email. 
+If a working paper or pre-print interests you that is listed on my [CV](https://davidjohnbaker.rbind.io/ref/baker_resume_20231109.pdf), please get in touch and I will be happy to send you whatever materials I can. 
 
-My **[Google Scholar](https://scholar.google.com/citations?user=tigU2AkAAAAJ&hl=en)** page is here. 
+Over the next few weeks, I will be centralizing resources related to my academic work below. 
 
-Here is a link to my [academic CV as of 5th August 2023](https://davidjohnbaker.rbind.io/ref/DJB_Long_CV_20230805.pdf). 
-You can access each open access publication by clicking a the link to it on the CV. 
+## Projects 
+
+* Measuring the Eurovision Song Contest: A Living Dataset for Real-World MIR 
+  + [paper](https://archives.ismir.net/ismir2023/paper/000097.pdf), [code](https://github.com/Amsterdam-Music-Lab/mirovision#measuring-the-eurovision-song-contest-a-living-dataset-for-real-world-mir), [data](https://github.com/Spijkervet/eurovision-dataset)
+  
+  
