@@ -13,5 +13,7 @@ Over the next few weeks, I will be centralizing resources related to my academic
 
 * Measuring the Eurovision Song Contest: A Living Dataset for Real-World MIR 
   + [paper](https://archives.ismir.net/ismir2023/paper/000097.pdf), [code](https://github.com/Amsterdam-Music-Lab/mirovision#measuring-the-eurovision-song-contest-a-living-dataset-for-real-world-mir), [data](https://github.com/Spijkervet/eurovision-dataset)
+* Notes from a genome: what Beethoven's DNA teaches us about genetics
+  + [pre-reg](https://aspredicted.org/fj2cu.pdf)
   
   
