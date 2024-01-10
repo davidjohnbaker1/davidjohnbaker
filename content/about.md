@@ -12,7 +12,7 @@ If you want ...
 
 * to see what I'm up to, check out my **[blog](https://davidjohnbaker.rbind.io/archives/)**,
 * learn more about me, have a look around this website or download my 
-  - [CV](https://davidjohnbaker.rbind.io/ref/baker_cv_20231109.pdf) 
+  - [CV](https://davidjohnbaker.rbind.io/ref/DJB_CV_20240110.pdf) 
   - [resume](https://davidjohnbaker.rbind.io/ref/baker_resume_20231109.pdf)
 * help with something, please [send me an email](mailto:davidjohnbaker1@gmail.com).
 
