@@ -18,3 +18,7 @@ As you might imagine, there's a lot on my plate at the moment, so I won't go int
 The general idea is to return to Milwaukee for several weeks, take a bit of a breather, then Evelyn and I will head out to the East Coast (where we've always wanted to end up).
 
 I'll be stepping back from a lot of my other responsibilities and communication channels once I am off my full-time contract so I can properly re-charge for whatever is next.
+
+If you'd like to help me out, [please write a nice reccomendation for me on my LinkedIn](https://www.linkedin.com/in/david-john-baker-phd/).
+I imagine that'll be quite helpful when it comes time to apply for work.
+Always happy to return the favor as well. 
