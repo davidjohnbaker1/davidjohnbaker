@@ -1,38 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>quality of life on David John Baker</title>
-    <link>https://davidjohnbaker.rbind.io/tags/quality-of-life/</link>
-    <description>Recent content in quality of life on David John Baker</description>
+    <title>Quality of Life on David John Baker</title>
+    <link>http://localhost:4321/tags/quality-of-life/</link>
+    <description>Recent content in Quality of Life on David John Baker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://davidjohnbaker.rbind.io/tags/quality-of-life/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:4321/tags/quality-of-life/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Summer Break 2023 Reflections</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2023-08-22-summer-break-2023-reflections/</link>
+      <link>http://localhost:4321/posts/2023-08-22-summer-break-2023-reflections/</link>
       <pubDate>Tue, 22 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/posts/2023-08-22-summer-break-2023-reflections/</guid>
+      <guid>http://localhost:4321/posts/2023-08-22-summer-break-2023-reflections/</guid>
       <description>Today marks the end of my summer holidays (for the most part).</description>
     </item>
-    
     <item>
       <title>Joining BlueSky</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2023-07-18-joining-bluesky/</link>
+      <link>http://localhost:4321/posts/2023-07-18-joining-bluesky/</link>
       <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/posts/2023-07-18-joining-bluesky/</guid>
+      <guid>http://localhost:4321/posts/2023-07-18-joining-bluesky/</guid>
       <description>After reading this article in The Atlantic I think it&amp;rsquo;s time to jump ship on Twitter.</description>
     </item>
-    
     <item>
       <title>A Standing Call for Songs to Sing at Music Conferences</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2023-07-06-a-standing-call-for-songs-to-sing-at-music-conferences/</link>
+      <link>http://localhost:4321/posts/2023-07-06-a-standing-call-for-songs-to-sing-at-music-conferences/</link>
       <pubDate>Thu, 06 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/posts/2023-07-06-a-standing-call-for-songs-to-sing-at-music-conferences/</guid>
+      <guid>http://localhost:4321/posts/2023-07-06-a-standing-call-for-songs-to-sing-at-music-conferences/</guid>
       <description>I have always wanted to assemble a small book of easy enough to sight-sing songs for academic music conferences.</description>
     </item>
-    
+    <item>
+      <title>Orgflow: 1. The Orgflow Theory</title>
+      <link>http://localhost:4321/posts/2023-01-27-orgflow-1-the-orgflow-theory/</link>
+      <pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/posts/2023-01-27-orgflow-1-the-orgflow-theory/</guid>
+      <description>If I had to describe my orgflow system in a single pass, I think it would be this:</description>
+    </item>
   </channel>
 </rss>

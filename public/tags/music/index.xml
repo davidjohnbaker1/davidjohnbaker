@@ -1,65 +1,61 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>music on David John Baker</title>
-    <link>https://davidjohnbaker.rbind.io/tags/music/</link>
-    <description>Recent content in music on David John Baker</description>
+    <title>Music on David John Baker</title>
+    <link>http://localhost:4321/tags/music/</link>
+    <description>Recent content in Music on David John Baker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://davidjohnbaker.rbind.io/tags/music/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:4321/tags/music/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Guest Blogging for Duolingo</title>
+      <link>http://localhost:4321/posts/2024-02-16-guest-blogging-for-duolingo/</link>
+      <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/posts/2024-02-16-guest-blogging-for-duolingo/</guid>
+      <description>At the end of last month, a short piece I wrote for Duolingo was published on their blog.</description>
+    </item>
     <item>
       <title>BlueSky for Music Science 101</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2023-09-13-bluesky-for-music-science-101/</link>
+      <link>http://localhost:4321/posts/2023-09-13-bluesky-for-music-science-101/</link>
       <pubDate>Wed, 13 Sep 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/posts/2023-09-13-bluesky-for-music-science-101/</guid>
+      <guid>http://localhost:4321/posts/2023-09-13-bluesky-for-music-science-101/</guid>
       <description>This post is a brief description and concise argument concerning BlueSky and the #musicscience community.</description>
     </item>
-    
     <item>
       <title>#musicscience on BlueSky</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2023-08-04-musicscience-on-bluesky/</link>
+      <link>http://localhost:4321/posts/2023-08-04-musicscience-on-bluesky/</link>
       <pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/posts/2023-08-04-musicscience-on-bluesky/</guid>
+      <guid>http://localhost:4321/posts/2023-08-04-musicscience-on-bluesky/</guid>
       <description>During my lunch breaks this week, I figured out how to set up a #musicscience feed on Bluesky.</description>
     </item>
-    
     <item>
       <title>A Standing Call for Songs to Sing at Music Conferences</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2023-07-06-a-standing-call-for-songs-to-sing-at-music-conferences/</link>
+      <link>http://localhost:4321/posts/2023-07-06-a-standing-call-for-songs-to-sing-at-music-conferences/</link>
       <pubDate>Thu, 06 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/posts/2023-07-06-a-standing-call-for-songs-to-sing-at-music-conferences/</guid>
+      <guid>http://localhost:4321/posts/2023-07-06-a-standing-call-for-songs-to-sing-at-music-conferences/</guid>
       <description>I have always wanted to assemble a small book of easy enough to sight-sing songs for academic music conferences.</description>
     </item>
-    
     <item>
       <title>Thoughts from Teaching Timbre in 2023</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2023-03-13-thoughts-from-teaching-timbre-in-2023/</link>
+      <link>http://localhost:4321/posts/2023-03-13-thoughts-from-teaching-timbre-in-2023/</link>
       <pubDate>Mon, 13 Mar 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/posts/2023-03-13-thoughts-from-teaching-timbre-in-2023/</guid>
+      <guid>http://localhost:4321/posts/2023-03-13-thoughts-from-teaching-timbre-in-2023/</guid>
       <description>I spent the second half of last week in the UK, doing an in-depth dive on spectrograms at both Goldsmiths and Cambridge.</description>
     </item>
-    
     <item>
       <title>Invasion of the &#39;Non-Musicians&#39;</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2021-11-15-invasion-of-the-non-musicians/</link>
+      <link>http://localhost:4321/posts/2021-11-15-invasion-of-the-non-musicians/</link>
       <pubDate>Mon, 15 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/posts/2021-11-15-invasion-of-the-non-musicians/</guid>
+      <guid>http://localhost:4321/posts/2021-11-15-invasion-of-the-non-musicians/</guid>
       <description>At the end of last week Ted Gioia shared a blog post that reminded him of &amp;ldquo;the STEM-ification of musicology and how desperately we need more interdisciplinary dialogue about music&amp;rdquo;.</description>
     </item>
-    
     <item>
       <title>Cataloging Memories with Music</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2018-12-20-cataloging-memories-with-music/cataloging-memories-with-music/</link>
+      <link>http://localhost:4321/posts/2018-12-20-cataloging-memories-with-music/cataloging-memories-with-music/</link>
       <pubDate>Fri, 21 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/posts/2018-12-20-cataloging-memories-with-music/cataloging-memories-with-music/</guid>
+      <guid>http://localhost:4321/posts/2018-12-20-cataloging-memories-with-music/cataloging-memories-with-music/</guid>
       <description>The past few times that I have sat down to work on my dissertation I have run into a writer’s block.</description>
     </item>
-    
   </channel>
 </rss>

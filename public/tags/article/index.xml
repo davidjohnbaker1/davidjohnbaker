@@ -1,47 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>article on David John Baker</title>
-    <link>https://davidjohnbaker.rbind.io/tags/article/</link>
-    <description>Recent content in article on David John Baker</description>
+    <title>Article on David John Baker</title>
+    <link>http://localhost:4321/tags/article/</link>
+    <description>Recent content in Article on David John Baker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://davidjohnbaker.rbind.io/tags/article/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:4321/tags/article/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Building Anti-Racism and Music Science Resources</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2023-08-07-building-anti-racism-and-music-science-resources/</link>
+      <link>http://localhost:4321/posts/2023-08-07-building-anti-racism-and-music-science-resources/</link>
       <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/posts/2023-08-07-building-anti-racism-and-music-science-resources/</guid>
+      <guid>http://localhost:4321/posts/2023-08-07-building-anti-racism-and-music-science-resources/</guid>
       <description>Last week the panel discussion from last year&amp;rsquo;s SMPC was published in Auditory Perception and Cognition.</description>
     </item>
-    
     <item>
       <title>How Can Music Science Be More Socially Just?</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2023-04-13-how-can-music-science-be-more-socially-just/</link>
+      <link>http://localhost:4321/posts/2023-04-13-how-can-music-science-be-more-socially-just/</link>
       <pubDate>Thu, 13 Apr 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/posts/2023-04-13-how-can-music-science-be-more-socially-just/</guid>
+      <guid>http://localhost:4321/posts/2023-04-13-how-can-music-science-be-more-socially-just/</guid>
       <description>Today we submitted the transcript of the panel that the Society for Music and Perception&amp;rsquo;s Anti Racism and Equity Committee organized at last summer&amp;rsquo;s conference in Portland, Oregon.</description>
     </item>
-    
     <item>
       <title>Lyrics, Melodies, and Strong Emotions</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2023-02-10-lyrics-melodies-and-strong-emotions/</link>
+      <link>http://localhost:4321/posts/2023-02-10-lyrics-melodies-and-strong-emotions/</link>
       <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/posts/2023-02-10-lyrics-melodies-and-strong-emotions/</guid>
+      <guid>http://localhost:4321/posts/2023-02-10-lyrics-melodies-and-strong-emotions/</guid>
       <description>Last week a paper that Mitty Ma, Emily Elliott and some of my former LSU colleagues worked on was published at Musicae Scientae.</description>
     </item>
-    
     <item>
       <title>The Perceptual Attraction of Pre-Dominant Chords</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2021-05-13-pre-dom-preprint/</link>
+      <link>http://localhost:4321/posts/2021-05-13-pre-dom-preprint/</link>
       <pubDate>Mon, 24 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/posts/2021-05-13-pre-dom-preprint/</guid>
+      <guid>http://localhost:4321/posts/2021-05-13-pre-dom-preprint/</guid>
       <description>Earlier this year a collaboration paper I worked on was accepted at Music Perception.</description>
     </item>
-    
   </channel>
 </rss>

@@ -2,721 +2,606 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on David John Baker</title>
-    <link>https://davidjohnbaker.rbind.io/tags/</link>
+    <link>http://localhost:4321/tags/</link>
     <description>Recent content in Tags on David John Baker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://davidjohnbaker.rbind.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:4321/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>musical memory</title>
-      <link>https://davidjohnbaker.rbind.io/tags/musical-memory/</link>
+      <title>Blog</title>
+      <link>http://localhost:4321/tags/blog/</link>
+      <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/blog/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Guest Blog</title>
+      <link>http://localhost:4321/tags/guest-blog/</link>
+      <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/guest-blog/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Music</title>
+      <link>http://localhost:4321/tags/music/</link>
+      <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/music/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scicomm</title>
+      <link>http://localhost:4321/tags/scicomm/</link>
+      <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/scicomm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Science</title>
+      <link>http://localhost:4321/tags/science/</link>
+      <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/science/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Universality</title>
+      <link>http://localhost:4321/tags/universality/</link>
+      <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/universality/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Emacs</title>
+      <link>http://localhost:4321/tags/emacs/</link>
+      <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/emacs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gtd</title>
+      <link>http://localhost:4321/tags/gtd/</link>
+      <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/gtd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Orgflow</title>
+      <link>http://localhost:4321/tags/orgflow/</link>
+      <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/orgflow/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Productivity</title>
+      <link>http://localhost:4321/tags/productivity/</link>
+      <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/productivity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vim</title>
+      <link>http://localhost:4321/tags/vim/</link>
+      <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/vim/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Musical Memory</title>
+      <link>http://localhost:4321/tags/musical-memory/</link>
       <pubDate>Wed, 18 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/musical-memory/</guid>
+      <guid>http://localhost:4321/tags/musical-memory/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>talk</title>
-      <link>https://davidjohnbaker.rbind.io/tags/talk/</link>
+      <title>Talk</title>
+      <link>http://localhost:4321/tags/talk/</link>
       <pubDate>Wed, 18 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/talk/</guid>
+      <guid>http://localhost:4321/tags/talk/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>uva</title>
-      <link>https://davidjohnbaker.rbind.io/tags/uva/</link>
+      <title>Uva</title>
+      <link>http://localhost:4321/tags/uva/</link>
       <pubDate>Wed, 18 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/uva/</guid>
+      <guid>http://localhost:4321/tags/uva/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>academia</title>
-      <link>https://davidjohnbaker.rbind.io/tags/academia/</link>
+      <title>Academia</title>
+      <link>http://localhost:4321/tags/academia/</link>
       <pubDate>Wed, 13 Sep 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/academia/</guid>
+      <guid>http://localhost:4321/tags/academia/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>bluesky</title>
-      <link>https://davidjohnbaker.rbind.io/tags/bluesky/</link>
+      <title>Bluesky</title>
+      <link>http://localhost:4321/tags/bluesky/</link>
       <pubDate>Wed, 13 Sep 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/bluesky/</guid>
+      <guid>http://localhost:4321/tags/bluesky/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>faq</title>
-      <link>https://davidjohnbaker.rbind.io/tags/faq/</link>
+      <title>Faq</title>
+      <link>http://localhost:4321/tags/faq/</link>
       <pubDate>Wed, 13 Sep 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/faq/</guid>
+      <guid>http://localhost:4321/tags/faq/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>music</title>
-      <link>https://davidjohnbaker.rbind.io/tags/music/</link>
+      <title>Musicscience</title>
+      <link>http://localhost:4321/tags/musicscience/</link>
       <pubDate>Wed, 13 Sep 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/music/</guid>
+      <guid>http://localhost:4321/tags/musicscience/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>musicscience</title>
-      <link>https://davidjohnbaker.rbind.io/tags/musicscience/</link>
-      <pubDate>Wed, 13 Sep 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/musicscience/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>personal</title>
-      <link>https://davidjohnbaker.rbind.io/tags/personal/</link>
+      <title>Personal</title>
+      <link>http://localhost:4321/tags/personal/</link>
       <pubDate>Tue, 22 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/personal/</guid>
+      <guid>http://localhost:4321/tags/personal/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>quality of life</title>
-      <link>https://davidjohnbaker.rbind.io/tags/quality-of-life/</link>
+      <title>Quality of Life</title>
+      <link>http://localhost:4321/tags/quality-of-life/</link>
       <pubDate>Tue, 22 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/quality-of-life/</guid>
+      <guid>http://localhost:4321/tags/quality-of-life/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>anti-racism</title>
-      <link>https://davidjohnbaker.rbind.io/tags/anti-racism/</link>
+      <title>Anti-Racism</title>
+      <link>http://localhost:4321/tags/anti-racism/</link>
       <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/anti-racism/</guid>
+      <guid>http://localhost:4321/tags/anti-racism/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>article</title>
-      <link>https://davidjohnbaker.rbind.io/tags/article/</link>
+      <title>Article</title>
+      <link>http://localhost:4321/tags/article/</link>
       <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/article/</guid>
+      <guid>http://localhost:4321/tags/article/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>music science</title>
-      <link>https://davidjohnbaker.rbind.io/tags/music-science/</link>
+      <title>Music Science</title>
+      <link>http://localhost:4321/tags/music-science/</link>
       <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/music-science/</guid>
+      <guid>http://localhost:4321/tags/music-science/</guid>
       <description></description>
     </item>
-    
-    <item>
-      <title>science</title>
-      <link>https://davidjohnbaker.rbind.io/tags/science/</link>
-      <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/science/</guid>
-      <description></description>
-    </item>
-    
     <item>
       <title>STEM</title>
-      <link>https://davidjohnbaker.rbind.io/tags/stem/</link>
+      <link>http://localhost:4321/tags/stem/</link>
       <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/stem/</guid>
+      <guid>http://localhost:4321/tags/stem/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>icmpc17</title>
-      <link>https://davidjohnbaker.rbind.io/tags/icmpc17/</link>
+      <title>Icmpc17</title>
+      <link>http://localhost:4321/tags/icmpc17/</link>
       <pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/icmpc17/</guid>
+      <guid>http://localhost:4321/tags/icmpc17/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>conference</title>
-      <link>https://davidjohnbaker.rbind.io/tags/conference/</link>
+      <title>Conference</title>
+      <link>http://localhost:4321/tags/conference/</link>
       <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/conference/</guid>
+      <guid>http://localhost:4321/tags/conference/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Twitter</title>
-      <link>https://davidjohnbaker.rbind.io/tags/twitter/</link>
+      <link>http://localhost:4321/tags/twitter/</link>
       <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/twitter/</guid>
+      <guid>http://localhost:4321/tags/twitter/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Bayes</title>
-      <link>https://davidjohnbaker.rbind.io/tags/bayes/</link>
+      <link>http://localhost:4321/tags/bayes/</link>
       <pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/bayes/</guid>
+      <guid>http://localhost:4321/tags/bayes/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>computation</title>
-      <link>https://davidjohnbaker.rbind.io/tags/computation/</link>
+      <title>Computation</title>
+      <link>http://localhost:4321/tags/computation/</link>
       <pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/computation/</guid>
+      <guid>http://localhost:4321/tags/computation/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>postdoc</title>
-      <link>https://davidjohnbaker.rbind.io/tags/postdoc/</link>
+      <title>Postdoc</title>
+      <link>http://localhost:4321/tags/postdoc/</link>
       <pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/postdoc/</guid>
+      <guid>http://localhost:4321/tags/postdoc/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>R</title>
-      <link>https://davidjohnbaker.rbind.io/tags/r/</link>
+      <link>http://localhost:4321/tags/r/</link>
       <pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/r/</guid>
+      <guid>http://localhost:4321/tags/r/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>stan</title>
-      <link>https://davidjohnbaker.rbind.io/tags/stan/</link>
+      <title>Stan</title>
+      <link>http://localhost:4321/tags/stan/</link>
       <pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/stan/</guid>
+      <guid>http://localhost:4321/tags/stan/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>stats</title>
-      <link>https://davidjohnbaker.rbind.io/tags/stats/</link>
+      <title>Stats</title>
+      <link>http://localhost:4321/tags/stats/</link>
       <pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/stats/</guid>
+      <guid>http://localhost:4321/tags/stats/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>literature</title>
-      <link>https://davidjohnbaker.rbind.io/tags/literature/</link>
+      <title>Literature</title>
+      <link>http://localhost:4321/tags/literature/</link>
       <pubDate>Tue, 06 Jun 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/literature/</guid>
+      <guid>http://localhost:4321/tags/literature/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>music cognition</title>
-      <link>https://davidjohnbaker.rbind.io/tags/music-cognition/</link>
+      <title>Music Cognition</title>
+      <link>http://localhost:4321/tags/music-cognition/</link>
       <pubDate>Tue, 06 Jun 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/music-cognition/</guid>
+      <guid>http://localhost:4321/tags/music-cognition/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>music theory</title>
-      <link>https://davidjohnbaker.rbind.io/tags/music-theory/</link>
+      <title>Music Theory</title>
+      <link>http://localhost:4321/tags/music-theory/</link>
       <pubDate>Tue, 06 Jun 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/music-theory/</guid>
+      <guid>http://localhost:4321/tags/music-theory/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>reading</title>
-      <link>https://davidjohnbaker.rbind.io/tags/reading/</link>
+      <title>Reading</title>
+      <link>http://localhost:4321/tags/reading/</link>
       <pubDate>Tue, 06 Jun 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/reading/</guid>
+      <guid>http://localhost:4321/tags/reading/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>career advice</title>
-      <link>https://davidjohnbaker.rbind.io/tags/career-advice/</link>
+      <title>Career Advice</title>
+      <link>http://localhost:4321/tags/career-advice/</link>
       <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/career-advice/</guid>
+      <guid>http://localhost:4321/tags/career-advice/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>education</title>
-      <link>https://davidjohnbaker.rbind.io/tags/education/</link>
+      <title>Education</title>
+      <link>http://localhost:4321/tags/education/</link>
       <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/education/</guid>
+      <guid>http://localhost:4321/tags/education/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>reference</title>
-      <link>https://davidjohnbaker.rbind.io/tags/reference/</link>
+      <title>Reference</title>
+      <link>http://localhost:4321/tags/reference/</link>
       <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/reference/</guid>
+      <guid>http://localhost:4321/tags/reference/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>career</title>
-      <link>https://davidjohnbaker.rbind.io/tags/career/</link>
+      <title>Career</title>
+      <link>http://localhost:4321/tags/career/</link>
       <pubDate>Sun, 21 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/career/</guid>
+      <guid>http://localhost:4321/tags/career/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>diary</title>
-      <link>https://davidjohnbaker.rbind.io/tags/diary/</link>
+      <title>Diary</title>
+      <link>http://localhost:4321/tags/diary/</link>
       <pubDate>Sun, 21 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/diary/</guid>
+      <guid>http://localhost:4321/tags/diary/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>humanities</title>
-      <link>https://davidjohnbaker.rbind.io/tags/humanities/</link>
+      <title>Humanities</title>
+      <link>http://localhost:4321/tags/humanities/</link>
       <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/humanities/</guid>
+      <guid>http://localhost:4321/tags/humanities/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>short</title>
-      <link>https://davidjohnbaker.rbind.io/tags/short/</link>
+      <title>Short</title>
+      <link>http://localhost:4321/tags/short/</link>
       <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/short/</guid>
+      <guid>http://localhost:4321/tags/short/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>peer review</title>
-      <link>https://davidjohnbaker.rbind.io/tags/peer-review/</link>
+      <title>Peer Review</title>
+      <link>http://localhost:4321/tags/peer-review/</link>
       <pubDate>Thu, 13 Apr 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/peer-review/</guid>
+      <guid>http://localhost:4321/tags/peer-review/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>publication</title>
-      <link>https://davidjohnbaker.rbind.io/tags/publication/</link>
+      <title>Publication</title>
+      <link>http://localhost:4321/tags/publication/</link>
       <pubDate>Thu, 13 Apr 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/publication/</guid>
+      <guid>http://localhost:4321/tags/publication/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>smpc</title>
-      <link>https://davidjohnbaker.rbind.io/tags/smpc/</link>
+      <title>Smpc</title>
+      <link>http://localhost:4321/tags/smpc/</link>
       <pubDate>Thu, 13 Apr 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/smpc/</guid>
+      <guid>http://localhost:4321/tags/smpc/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>gtd</title>
-      <link>https://davidjohnbaker.rbind.io/tags/gtd/</link>
+      <title>Tips</title>
+      <link>http://localhost:4321/tags/tips/</link>
       <pubDate>Wed, 22 Mar 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/gtd/</guid>
+      <guid>http://localhost:4321/tags/tips/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>orgflow</title>
-      <link>https://davidjohnbaker.rbind.io/tags/orgflow/</link>
-      <pubDate>Wed, 22 Mar 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/orgflow/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>productivity</title>
-      <link>https://davidjohnbaker.rbind.io/tags/productivity/</link>
-      <pubDate>Wed, 22 Mar 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/productivity/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tips</title>
-      <link>https://davidjohnbaker.rbind.io/tags/tips/</link>
-      <pubDate>Wed, 22 Mar 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/tips/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>timbre</title>
-      <link>https://davidjohnbaker.rbind.io/tags/timbre/</link>
+      <title>Timbre</title>
+      <link>http://localhost:4321/tags/timbre/</link>
       <pubDate>Mon, 13 Mar 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/timbre/</guid>
+      <guid>http://localhost:4321/tags/timbre/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>impulse talk</title>
-      <link>https://davidjohnbaker.rbind.io/tags/impulse-talk/</link>
+      <title>Impulse Talk</title>
+      <link>http://localhost:4321/tags/impulse-talk/</link>
       <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/impulse-talk/</guid>
+      <guid>http://localhost:4321/tags/impulse-talk/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>pedagogy</title>
-      <link>https://davidjohnbaker.rbind.io/tags/pedagogy/</link>
+      <title>Pedagogy</title>
+      <link>http://localhost:4321/tags/pedagogy/</link>
       <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/pedagogy/</guid>
+      <guid>http://localhost:4321/tags/pedagogy/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>replication</title>
-      <link>https://davidjohnbaker.rbind.io/tags/replication/</link>
+      <title>Replication</title>
+      <link>http://localhost:4321/tags/replication/</link>
       <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/replication/</guid>
+      <guid>http://localhost:4321/tags/replication/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>workshop</title>
-      <link>https://davidjohnbaker.rbind.io/tags/workshop/</link>
+      <title>Workshop</title>
+      <link>http://localhost:4321/tags/workshop/</link>
       <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/workshop/</guid>
+      <guid>http://localhost:4321/tags/workshop/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>email-faq</title>
-      <link>https://davidjohnbaker.rbind.io/tags/email-faq/</link>
+      <title>Orgmode</title>
+      <link>http://localhost:4321/tags/orgmode/</link>
+      <pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/orgmode/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Worklife Balance</title>
+      <link>http://localhost:4321/tags/worklife-balance/</link>
+      <pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/tags/worklife-balance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Email-Faq</title>
+      <link>http://localhost:4321/tags/email-faq/</link>
       <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/email-faq/</guid>
+      <guid>http://localhost:4321/tags/email-faq/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>gradschool</title>
-      <link>https://davidjohnbaker.rbind.io/tags/gradschool/</link>
+      <title>Gradschool</title>
+      <link>http://localhost:4321/tags/gradschool/</link>
       <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/gradschool/</guid>
+      <guid>http://localhost:4321/tags/gradschool/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>living-post</title>
-      <link>https://davidjohnbaker.rbind.io/tags/living-post/</link>
+      <title>Living-Post</title>
+      <link>http://localhost:4321/tags/living-post/</link>
       <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/living-post/</guid>
+      <guid>http://localhost:4321/tags/living-post/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>writing</title>
-      <link>https://davidjohnbaker.rbind.io/tags/writing/</link>
+      <title>Writing</title>
+      <link>http://localhost:4321/tags/writing/</link>
       <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/writing/</guid>
+      <guid>http://localhost:4321/tags/writing/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>aural skills</title>
-      <link>https://davidjohnbaker.rbind.io/tags/aural-skills/</link>
+      <title>Aural Skills</title>
+      <link>http://localhost:4321/tags/aural-skills/</link>
       <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/aural-skills/</guid>
+      <guid>http://localhost:4321/tags/aural-skills/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>academic-life</title>
-      <link>https://davidjohnbaker.rbind.io/tags/academic-life/</link>
+      <title>Academic-Life</title>
+      <link>http://localhost:4321/tags/academic-life/</link>
       <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/academic-life/</guid>
+      <guid>http://localhost:4321/tags/academic-life/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>emacs</title>
-      <link>https://davidjohnbaker.rbind.io/tags/emacs/</link>
-      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/emacs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>vim</title>
-      <link>https://davidjohnbaker.rbind.io/tags/vim/</link>
-      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/vim/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>altac</title>
-      <link>https://davidjohnbaker.rbind.io/tags/altac/</link>
+      <title>Altac</title>
+      <link>http://localhost:4321/tags/altac/</link>
       <pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/altac/</guid>
+      <guid>http://localhost:4321/tags/altac/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Data Science</title>
-      <link>https://davidjohnbaker.rbind.io/tags/data-science/</link>
+      <link>http://localhost:4321/tags/data-science/</link>
       <pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/data-science/</guid>
+      <guid>http://localhost:4321/tags/data-science/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>post academia</title>
-      <link>https://davidjohnbaker.rbind.io/tags/post-academia/</link>
+      <title>Post Academia</title>
+      <link>http://localhost:4321/tags/post-academia/</link>
       <pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/post-academia/</guid>
+      <guid>http://localhost:4321/tags/post-academia/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>advising</title>
-      <link>https://davidjohnbaker.rbind.io/tags/advising/</link>
+      <title>Advising</title>
+      <link>http://localhost:4321/tags/advising/</link>
       <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/advising/</guid>
+      <guid>http://localhost:4321/tags/advising/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>books</title>
-      <link>https://davidjohnbaker.rbind.io/tags/books/</link>
+      <title>Books</title>
+      <link>http://localhost:4321/tags/books/</link>
       <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/books/</guid>
+      <guid>http://localhost:4321/tags/books/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>grad school</title>
-      <link>https://davidjohnbaker.rbind.io/tags/grad-school/</link>
+      <title>Grad School</title>
+      <link>http://localhost:4321/tags/grad-school/</link>
       <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/grad-school/</guid>
+      <guid>http://localhost:4321/tags/grad-school/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>sysmus</title>
-      <link>https://davidjohnbaker.rbind.io/tags/sysmus/</link>
+      <title>Sysmus</title>
+      <link>http://localhost:4321/tags/sysmus/</link>
       <pubDate>Tue, 08 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/sysmus/</guid>
+      <guid>http://localhost:4321/tags/sysmus/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>harmony</title>
-      <link>https://davidjohnbaker.rbind.io/tags/harmony/</link>
+      <title>Harmony</title>
+      <link>http://localhost:4321/tags/harmony/</link>
       <pubDate>Mon, 24 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/harmony/</guid>
+      <guid>http://localhost:4321/tags/harmony/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>predominant</title>
-      <link>https://davidjohnbaker.rbind.io/tags/predominant/</link>
+      <title>Predominant</title>
+      <link>http://localhost:4321/tags/predominant/</link>
       <pubDate>Mon, 24 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/predominant/</guid>
+      <guid>http://localhost:4321/tags/predominant/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>preprint</title>
-      <link>https://davidjohnbaker.rbind.io/tags/preprint/</link>
+      <title>Preprint</title>
+      <link>http://localhost:4321/tags/preprint/</link>
       <pubDate>Mon, 24 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/preprint/</guid>
+      <guid>http://localhost:4321/tags/preprint/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>book chapter</title>
-      <link>https://davidjohnbaker.rbind.io/tags/book-chapter/</link>
+      <title>Book Chapter</title>
+      <link>http://localhost:4321/tags/book-chapter/</link>
       <pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/book-chapter/</guid>
+      <guid>http://localhost:4321/tags/book-chapter/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>audio branding</title>
-      <link>https://davidjohnbaker.rbind.io/tags/audio-branding/</link>
+      <title>Audio Branding</title>
+      <link>http://localhost:4321/tags/audio-branding/</link>
       <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/audio-branding/</guid>
+      <guid>http://localhost:4321/tags/audio-branding/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>new job</title>
-      <link>https://davidjohnbaker.rbind.io/tags/new-job/</link>
+      <title>New Job</title>
+      <link>http://localhost:4321/tags/new-job/</link>
       <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/new-job/</guid>
+      <guid>http://localhost:4321/tags/new-job/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>corpus</title>
-      <link>https://davidjohnbaker.rbind.io/tags/corpus/</link>
+      <title>Corpus</title>
+      <link>http://localhost:4321/tags/corpus/</link>
       <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/corpus/</guid>
+      <guid>http://localhost:4321/tags/corpus/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>musicology</title>
-      <link>https://davidjohnbaker.rbind.io/tags/musicology/</link>
+      <title>Musicology</title>
+      <link>http://localhost:4321/tags/musicology/</link>
       <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/musicology/</guid>
+      <guid>http://localhost:4321/tags/musicology/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>career diversity</title>
-      <link>https://davidjohnbaker.rbind.io/tags/career-diversity/</link>
+      <title>Career Diversity</title>
+      <link>http://localhost:4321/tags/career-diversity/</link>
       <pubDate>Wed, 12 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/career-diversity/</guid>
+      <guid>http://localhost:4321/tags/career-diversity/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>review</title>
-      <link>https://davidjohnbaker.rbind.io/tags/review/</link>
+      <title>Review</title>
+      <link>http://localhost:4321/tags/review/</link>
       <pubDate>Thu, 28 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/review/</guid>
+      <guid>http://localhost:4321/tags/review/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>memory</title>
-      <link>https://davidjohnbaker.rbind.io/tags/memory/</link>
+      <title>Memory</title>
+      <link>http://localhost:4321/tags/memory/</link>
       <pubDate>Fri, 21 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/memory/</guid>
+      <guid>http://localhost:4321/tags/memory/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>playlists</title>
-      <link>https://davidjohnbaker.rbind.io/tags/playlists/</link>
+      <title>Playlists</title>
+      <link>http://localhost:4321/tags/playlists/</link>
       <pubDate>Fri, 21 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/playlists/</guid>
+      <guid>http://localhost:4321/tags/playlists/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>10 Minute Reads</title>
-      <link>https://davidjohnbaker.rbind.io/tags/10-minute-reads/</link>
+      <link>http://localhost:4321/tags/10-minute-reads/</link>
       <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/10-minute-reads/</guid>
+      <guid>http://localhost:4321/tags/10-minute-reads/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>pomodoro</title>
-      <link>https://davidjohnbaker.rbind.io/tags/pomodoro/</link>
+      <title>Pomodoro</title>
+      <link>http://localhost:4321/tags/pomodoro/</link>
       <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/pomodoro/</guid>
+      <guid>http://localhost:4321/tags/pomodoro/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Beer</title>
-      <link>https://davidjohnbaker.rbind.io/tags/beer/</link>
+      <link>http://localhost:4321/tags/beer/</link>
       <pubDate>Mon, 29 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/beer/</guid>
+      <guid>http://localhost:4321/tags/beer/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Data Mining</title>
-      <link>https://davidjohnbaker.rbind.io/tags/data-mining/</link>
+      <link>http://localhost:4321/tags/data-mining/</link>
       <pubDate>Mon, 20 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/data-mining/</guid>
+      <guid>http://localhost:4321/tags/data-mining/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>transformational theory</title>
-      <link>https://davidjohnbaker.rbind.io/tags/transformational-theory/</link>
+      <title>Transformational Theory</title>
+      <link>http://localhost:4321/tags/transformational-theory/</link>
       <pubDate>Sun, 19 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/tags/transformational-theory/</guid>
+      <guid>http://localhost:4321/tags/transformational-theory/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

@@ -1,47 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>personal on David John Baker</title>
-    <link>https://davidjohnbaker.rbind.io/tags/personal/</link>
-    <description>Recent content in personal on David John Baker</description>
+    <title>Personal on David John Baker</title>
+    <link>http://localhost:4321/tags/personal/</link>
+    <description>Recent content in Personal on David John Baker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://davidjohnbaker.rbind.io/tags/personal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:4321/tags/personal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Summer Break 2023 Reflections</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2023-08-22-summer-break-2023-reflections/</link>
+      <link>http://localhost:4321/posts/2023-08-22-summer-break-2023-reflections/</link>
       <pubDate>Tue, 22 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/posts/2023-08-22-summer-break-2023-reflections/</guid>
+      <guid>http://localhost:4321/posts/2023-08-22-summer-break-2023-reflections/</guid>
       <description>Today marks the end of my summer holidays (for the most part).</description>
     </item>
-    
     <item>
       <title>A Decade of Music and Science</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2023-05-21-a-decade-of-music-and-science/</link>
+      <link>http://localhost:4321/posts/2023-05-21-a-decade-of-music-and-science/</link>
       <pubDate>Sun, 21 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/posts/2023-05-21-a-decade-of-music-and-science/</guid>
+      <guid>http://localhost:4321/posts/2023-05-21-a-decade-of-music-and-science/</guid>
       <description>A few days ago Amy Belfi pointed out it&amp;rsquo;s been ten years since we met.</description>
     </item>
-    
     <item>
       <title>A Peculiar Anniversary</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2023-01-26-a-peculiar-anniversary/</link>
+      <link>http://localhost:4321/posts/2023-01-26-a-peculiar-anniversary/</link>
       <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/posts/2023-01-26-a-peculiar-anniversary/</guid>
+      <guid>http://localhost:4321/posts/2023-01-26-a-peculiar-anniversary/</guid>
       <description>Today marks a peculiar anniversary. As of the 2nd of February, for the first time in my life, I have been at the same job for more than a year.</description>
     </item>
-    
     <item>
       <title>Website Makeover</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2021-04-11-website-makeover/</link>
+      <link>http://localhost:4321/posts/2021-04-11-website-makeover/</link>
       <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://davidjohnbaker.rbind.io/posts/2021-04-11-website-makeover/</guid>
+      <guid>http://localhost:4321/posts/2021-04-11-website-makeover/</guid>
       <description>After a few months of not blogging, I’m hoping to return to writing with a bit more regularity.</description>
     </item>
-    
   </channel>
 </rss>
