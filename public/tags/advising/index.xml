@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Advising on David John Baker</title>
-    <link>http://localhost:4321/tags/advising/</link>
+    <link>https://davidjohnbaker.rbind.io/tags/advising/</link>
     <description>Recent content in Advising on David John Baker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 12 Apr 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:4321/tags/advising/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://davidjohnbaker.rbind.io/tags/advising/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Five Books for Your 1st Year as a PhD student in Music and Science</title>
-      <link>http://localhost:4321/posts/2022-03-30-five-books-for-your-1st-year-as-a-phd-student-in-music-and-science/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2022-03-30-five-books-for-your-1st-year-as-a-phd-student-in-music-and-science/</link>
       <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2022-03-30-five-books-for-your-1st-year-as-a-phd-student-in-music-and-science/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2022-03-30-five-books-for-your-1st-year-as-a-phd-student-in-music-and-science/</guid>
       <description>When you first dive into the field of music and science as a graduate student, you might be tempted to dive straight into your niche and start reading anything and everything related to your thesis topic.</description>
     </item>
   </channel>

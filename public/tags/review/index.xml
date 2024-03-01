@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Review on David John Baker</title>
-    <link>http://localhost:4321/tags/review/</link>
+    <link>https://davidjohnbaker.rbind.io/tags/review/</link>
     <description>Recent content in Review on David John Baker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 28 Mar 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:4321/tags/review/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://davidjohnbaker.rbind.io/tags/review/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sempre Grad Conference, 2019</title>
-      <link>http://localhost:4321/posts/2019-03-27-sempre-grad-conference-2019/sempre-grad-conference-2019/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2019-03-27-sempre-grad-conference-2019/sempre-grad-conference-2019/</link>
       <pubDate>Thu, 28 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2019-03-27-sempre-grad-conference-2019/sempre-grad-conference-2019/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2019-03-27-sempre-grad-conference-2019/sempre-grad-conference-2019/</guid>
       <description>Since I am planning on spending the whole day today writing, I figured: What better way to warm up to some writing than with some writing?</description>
     </item>
   </channel>

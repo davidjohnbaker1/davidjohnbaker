@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Aural Skills on David John Baker</title>
-    <link>http://localhost:4321/tags/aural-skills/</link>
+    <link>https://davidjohnbaker.rbind.io/tags/aural-skills/</link>
     <description>Recent content in Aural Skills on David John Baker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 20 Jan 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:4321/tags/aural-skills/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://davidjohnbaker.rbind.io/tags/aural-skills/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MCG Reading: McPherson &amp; McDermott 2023</title>
-      <link>http://localhost:4321/posts/2023-01-20-mcg-reading-mcpherson-mcdermot-2023/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2023-01-20-mcg-reading-mcpherson-mcdermot-2023/</link>
       <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2023-01-20-mcg-reading-mcpherson-mcdermot-2023/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2023-01-20-mcg-reading-mcpherson-mcdermot-2023/</guid>
       <description>This week for the Music Cognition Reading Group we read Relative pitch representations and invariance to timbre by Malinda McPherson and Josh McDermott.</description>
     </item>
     <item>
       <title>Understanding Melodic Dictation via Experimental Methods</title>
-      <link>http://localhost:4321/posts/2021-05-11-understanding-melodic-dictation-via-experimental-methods/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2021-05-11-understanding-melodic-dictation-via-experimental-methods/</link>
       <pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2021-05-11-understanding-melodic-dictation-via-experimental-methods/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2021-05-11-understanding-melodic-dictation-via-experimental-methods/</guid>
       <description>Last month I received a copy of The Routledge Companion to Aural Skills Pedagogy featuring a chapter titled &amp;ldquo;Understanding Melodic Dictation via Experimental Methods&amp;rdquo; by yours truly!</description>
     </item>
   </channel>
