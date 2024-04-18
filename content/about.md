@@ -1,12 +1,14 @@
 ---
-date: "2023-11-09"
+date: "2024-04-15"
 title: About
 type: section
 ---
 
-I'm a postdoc at the [Music Cognition Group](https://www.mcg.uva.nl/) at the [University of Amsterdam](https://www.uva.nl/).
+I'm in a transition period of my career.
+I spent the last six years working as an academic in the UK and Europe. 
+In May of 2024 I will be moving to Maine and looking for work.
 
-I'm interested in music, theory, and the sciences.
+I will be updating my CV and resume in the coming weeks.
 
 If you want ...
 
