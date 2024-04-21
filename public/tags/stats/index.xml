@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Stats on David John Baker</title>
-    <link>https://davidjohnbaker.rbind.io/tags/stats/</link>
+    <link>http://localhost:4321/tags/stats/</link>
     <description>Recent content in Stats on David John Baker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 14 Jun 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://davidjohnbaker.rbind.io/tags/stats/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:4321/tags/stats/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A short reflection after writing my first, little Stan model</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2023-06-14-a-short-reflection-after-writing-my-first-little-stan-model/</link>
+      <link>http://localhost:4321/posts/2023-06-14-a-short-reflection-after-writing-my-first-little-stan-model/</link>
       <pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/posts/2023-06-14-a-short-reflection-after-writing-my-first-little-stan-model/</guid>
+      <guid>http://localhost:4321/posts/2023-06-14-a-short-reflection-after-writing-my-first-little-stan-model/</guid>
       <description>During my postdoc, I&amp;rsquo;ve resolved to better understand Bayesian statistics. This started a few years ago, when I organized a group of colleagues to painstakingly make our way through Statistical Rethinking.</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Universality on David John Baker</title>
-    <link>https://davidjohnbaker.rbind.io/tags/universality/</link>
+    <link>http://localhost:4321/tags/universality/</link>
     <description>Recent content in Universality on David John Baker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 16 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://davidjohnbaker.rbind.io/tags/universality/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:4321/tags/universality/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Guest Blogging for Duolingo</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2024-02-16-guest-blogging-for-duolingo/</link>
+      <link>http://localhost:4321/posts/2024-02-16-guest-blogging-for-duolingo/</link>
       <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/posts/2024-02-16-guest-blogging-for-duolingo/</guid>
+      <guid>http://localhost:4321/posts/2024-02-16-guest-blogging-for-duolingo/</guid>
       <description>At the end of last month, a short piece I wrote for Duolingo was published on their blog.</description>
     </item>
   </channel>

@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Science on David John Baker</title>
-    <link>https://davidjohnbaker.rbind.io/tags/science/</link>
+    <link>http://localhost:4321/tags/science/</link>
     <description>Recent content in Science on David John Baker</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 01 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://davidjohnbaker.rbind.io/tags/science/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:4321/tags/science/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Addressing hot takes about scientific research done on music</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2024-03-01-a-quick-rant-on-hot-takes-from-music-scholars-who-don-t-work-in-the-sciences/</link>
+      <link>http://localhost:4321/posts/2024-03-01-a-quick-rant-on-hot-takes-from-music-scholars-who-don-t-work-in-the-sciences/</link>
       <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/posts/2024-03-01-a-quick-rant-on-hot-takes-from-music-scholars-who-don-t-work-in-the-sciences/</guid>
+      <guid>http://localhost:4321/posts/2024-03-01-a-quick-rant-on-hot-takes-from-music-scholars-who-don-t-work-in-the-sciences/</guid>
       <description>I&amp;rsquo;m always interested in &amp;lsquo;hot takes&amp;rsquo; on micro-blogging platforms that take issues with scientific research done on music.</description>
     </item>
     <item>
       <title>Guest Blogging for Duolingo</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2024-02-16-guest-blogging-for-duolingo/</link>
+      <link>http://localhost:4321/posts/2024-02-16-guest-blogging-for-duolingo/</link>
       <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/posts/2024-02-16-guest-blogging-for-duolingo/</guid>
+      <guid>http://localhost:4321/posts/2024-02-16-guest-blogging-for-duolingo/</guid>
       <description>At the end of last month, a short piece I wrote for Duolingo was published on their blog.</description>
     </item>
     <item>
       <title>Building Anti-Racism and Music Science Resources</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2023-08-07-building-anti-racism-and-music-science-resources/</link>
+      <link>http://localhost:4321/posts/2023-08-07-building-anti-racism-and-music-science-resources/</link>
       <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/posts/2023-08-07-building-anti-racism-and-music-science-resources/</guid>
+      <guid>http://localhost:4321/posts/2023-08-07-building-anti-racism-and-music-science-resources/</guid>
       <description>Last week the panel discussion from last year&amp;rsquo;s SMPC was published in Auditory Perception and Cognition.</description>
     </item>
     <item>
       <title>#musicscience on BlueSky</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2023-08-04-musicscience-on-bluesky/</link>
+      <link>http://localhost:4321/posts/2023-08-04-musicscience-on-bluesky/</link>
       <pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/posts/2023-08-04-musicscience-on-bluesky/</guid>
+      <guid>http://localhost:4321/posts/2023-08-04-musicscience-on-bluesky/</guid>
       <description>During my lunch breaks this week, I figured out how to set up a #musicscience feed on Bluesky.</description>
     </item>
     <item>
       <title>Why should it have to be elegant?</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2023-05-10-why-should-it-have-to-be-elegant/</link>
+      <link>http://localhost:4321/posts/2023-05-10-why-should-it-have-to-be-elegant/</link>
       <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/posts/2023-05-10-why-should-it-have-to-be-elegant/</guid>
+      <guid>http://localhost:4321/posts/2023-05-10-why-should-it-have-to-be-elegant/</guid>
       <description>One of the best questions to ask yourself (and others) is:</description>
     </item>
     <item>
       <title>Tips on Scientific Writing</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2023-01-23-tips-on-scientific-writing/</link>
+      <link>http://localhost:4321/posts/2023-01-23-tips-on-scientific-writing/</link>
       <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/posts/2023-01-23-tips-on-scientific-writing/</guid>
+      <guid>http://localhost:4321/posts/2023-01-23-tips-on-scientific-writing/</guid>
       <description>At the moment, I am providing a lot of feedback on graduate student writing and it feels like I see the same types of errors that I (and I know many others) made when they started scientific/academic writing.</description>
     </item>
     <item>
       <title>Invasion of the &#39;Non-Musicians&#39;</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2021-11-15-invasion-of-the-non-musicians/</link>
+      <link>http://localhost:4321/posts/2021-11-15-invasion-of-the-non-musicians/</link>
       <pubDate>Mon, 15 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/posts/2021-11-15-invasion-of-the-non-musicians/</guid>
+      <guid>http://localhost:4321/posts/2021-11-15-invasion-of-the-non-musicians/</guid>
       <description>At the end of last week Ted Gioia shared a blog post that reminded him of &amp;ldquo;the STEM-ification of musicology and how desperately we need more interdisciplinary dialogue about music&amp;rdquo;.</description>
     </item>
   </channel>
