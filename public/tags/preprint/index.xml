@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Preprint on David John Baker</title>
-    <link>https://davidjohnbaker.rbind.io/tags/preprint/</link>
+    <link>http://localhost:4321/tags/preprint/</link>
     <description>Recent content in Preprint on David John Baker</description>
     <generator>Hugo 0.125.2</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 24 May 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://davidjohnbaker.rbind.io/tags/preprint/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:4321/tags/preprint/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Perceptual Attraction of Pre-Dominant Chords</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2021-05-13-pre-dom-preprint/</link>
+      <link>http://localhost:4321/posts/2021-05-13-pre-dom-preprint/</link>
       <pubDate>Mon, 24 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/posts/2021-05-13-pre-dom-preprint/</guid>
+      <guid>http://localhost:4321/posts/2021-05-13-pre-dom-preprint/</guid>
       <description>Earlier this year a collaboration paper I worked on was accepted at Music Perception.</description>
     </item>
     <item>
       <title>Understanding Melodic Dictation via Experimental Methods</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2021-05-11-understanding-melodic-dictation-via-experimental-methods/</link>
+      <link>http://localhost:4321/posts/2021-05-11-understanding-melodic-dictation-via-experimental-methods/</link>
       <pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/posts/2021-05-11-understanding-melodic-dictation-via-experimental-methods/</guid>
+      <guid>http://localhost:4321/posts/2021-05-11-understanding-melodic-dictation-via-experimental-methods/</guid>
       <description>Last month I received a copy of The Routledge Companion to Aural Skills Pedagogy featuring a chapter titled &amp;ldquo;Understanding Melodic Dictation via Experimental Methods&amp;rdquo; by yours truly!</description>
     </item>
     <item>
       <title>The MeloSol Corpus</title>
-      <link>https://davidjohnbaker.rbind.io/posts/the-melosol-corpus/</link>
+      <link>http://localhost:4321/posts/the-melosol-corpus/</link>
       <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/posts/the-melosol-corpus/</guid>
+      <guid>http://localhost:4321/posts/the-melosol-corpus/</guid>
       <description>Earlier this month I learned some of the research from my dissertation was accepted for publication!</description>
     </item>
   </channel>

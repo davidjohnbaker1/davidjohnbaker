@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data Science on David John Baker</title>
-    <link>https://davidjohnbaker.rbind.io/tags/data-science/</link>
+    <link>http://localhost:4321/tags/data-science/</link>
     <description>Recent content in Data Science on David John Baker</description>
     <generator>Hugo 0.125.2</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 05 May 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://davidjohnbaker.rbind.io/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:4321/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Considering Plan D: Data Science After Academia</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2022-05-05-considering-plan-d-data-science-after-academia/</link>
+      <link>http://localhost:4321/posts/2022-05-05-considering-plan-d-data-science-after-academia/</link>
       <pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/posts/2022-05-05-considering-plan-d-data-science-after-academia/</guid>
+      <guid>http://localhost:4321/posts/2022-05-05-considering-plan-d-data-science-after-academia/</guid>
       <description>This week I gave an invited talk as a part of the Australian Music and Psychology Society&amp;rsquo;s Amplify Your Research speaker series.</description>
     </item>
     <item>
       <title>Begin the Fugue, Part I</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2020-06-29-begin-the-fugue-part-i/begin-the-fugue-part-i/</link>
+      <link>http://localhost:4321/posts/2020-06-29-begin-the-fugue-part-i/begin-the-fugue-part-i/</link>
       <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/posts/2020-06-29-begin-the-fugue-part-i/begin-the-fugue-part-i/</guid>
+      <guid>http://localhost:4321/posts/2020-06-29-begin-the-fugue-part-i/begin-the-fugue-part-i/</guid>
       <description>The past few months have been pretty exhausting. On top of all things lockdown and the global pandemic, a little over a month ago I was told that my job was “at risk” of redundancy.</description>
     </item>
     <item>
       <title>Begin the Fugue, Part II</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2020-06-29-begin-the-fugue-part-ii/begin-the-fugue-part-ii/</link>
+      <link>http://localhost:4321/posts/2020-06-29-begin-the-fugue-part-ii/begin-the-fugue-part-ii/</link>
       <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/posts/2020-06-29-begin-the-fugue-part-ii/begin-the-fugue-part-ii/</guid>
+      <guid>http://localhost:4321/posts/2020-06-29-begin-the-fugue-part-ii/begin-the-fugue-part-ii/</guid>
       <description>Vocationtional Vicissitudes After existing in this bootcamp space for the past few months, I feel like I am walking away with a very fresh take on what it means to teach in a vocational, rather than a liberal arts setting.</description>
     </item>
     <item>
       <title>Begin the Fugue, Part III</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2020-06-29-begin-the-fugue-part-iii/begin-the-fugue-part-iii/</link>
+      <link>http://localhost:4321/posts/2020-06-29-begin-the-fugue-part-iii/begin-the-fugue-part-iii/</link>
       <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/posts/2020-06-29-begin-the-fugue-part-iii/begin-the-fugue-part-iii/</guid>
+      <guid>http://localhost:4321/posts/2020-06-29-begin-the-fugue-part-iii/begin-the-fugue-part-iii/</guid>
       <description>What’s Next Having coached many people to apply and get their first jobs in the world of data science, I have now seen A LOT of job postings and understand that a JD (job description) is more of a wish list of an ideal candidate rather than a required listing of skills.</description>
     </item>
     <item>
       <title>Hire Me (as a Data Scientist!), Part IV</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2018-01-29-hire-me-as-a-data-scientist-part-iv/hire-me-as-a-data-scientist-part-iv/</link>
+      <link>http://localhost:4321/posts/2018-01-29-hire-me-as-a-data-scientist-part-iv/hire-me-as-a-data-scientist-part-iv/</link>
       <pubDate>Mon, 29 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/posts/2018-01-29-hire-me-as-a-data-scientist-part-iv/hire-me-as-a-data-scientist-part-iv/</guid>
+      <guid>http://localhost:4321/posts/2018-01-29-hire-me-as-a-data-scientist-part-iv/hire-me-as-a-data-scientist-part-iv/</guid>
       <description>Since this is my last post in the beer review series, I’ll keep this short and sweet in terms of analysis.</description>
     </item>
     <item>
       <title>Hire Me (as a Data Scientist!), Part III</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2018-01-28-hire-me-as-a-datascientist-part-iii/hire-me-as-a-datascientist-part-iii/</link>
+      <link>http://localhost:4321/posts/2018-01-28-hire-me-as-a-datascientist-part-iii/hire-me-as-a-datascientist-part-iii/</link>
       <pubDate>Sun, 28 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/posts/2018-01-28-hire-me-as-a-datascientist-part-iii/hire-me-as-a-datascientist-part-iii/</guid>
+      <guid>http://localhost:4321/posts/2018-01-28-hire-me-as-a-datascientist-part-iii/hire-me-as-a-datascientist-part-iii/</guid>
       <description>Two questions down, two to go! For the third post I’ll explore the question:</description>
     </item>
   </channel>

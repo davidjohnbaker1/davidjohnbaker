@@ -2,45 +2,87 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vim on David John Baker</title>
-    <link>https://davidjohnbaker.rbind.io/tags/vim/</link>
+    <link>http://localhost:4321/tags/vim/</link>
     <description>Recent content in Vim on David John Baker</description>
     <generator>Hugo 0.125.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 Dec 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://davidjohnbaker.rbind.io/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:4321/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Orgflow: Reflections in 2023</title>
+      <link>http://localhost:4321/posts/2023-12-05-orgflow-reflections-in-2023/</link>
+      <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/posts/2023-12-05-orgflow-reflections-in-2023/</guid>
+      <description>TODO</description>
+    </item>
+    <item>
+      <title>Orgflow: The Minimal Set-Up</title>
+      <link>http://localhost:4321/posts/2023-12-05-orgflow-the-minimal-set-up/</link>
+      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/posts/2023-12-05-orgflow-the-minimal-set-up/</guid>
+      <description>TODO&#xA;have basic software and keystrokes&#xA;talk through a friday</description>
+    </item>
+    <item>
+      <title>Orgflow: The Library</title>
+      <link>http://localhost:4321/posts/2023-12-05-orgflow-the-library/</link>
+      <pubDate>Sun, 10 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/posts/2023-12-05-orgflow-the-library/</guid>
+      <description>Sort of overlooked as good thing in GTD, but you can save everything in GTD.</description>
+    </item>
+    <item>
+      <title>Orgflow: Regular Review</title>
+      <link>http://localhost:4321/posts/2023-12-05-orgflow-regular-review/</link>
+      <pubDate>Sat, 09 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/posts/2023-12-05-orgflow-regular-review/</guid>
+      <description>Again, many levels to have reguarly sheduled things, all in org mode.</description>
+    </item>
+    <item>
+      <title>Orgflow: Actionable Items</title>
+      <link>http://localhost:4321/posts/2023-12-05-orgflow-actionable-items/</link>
+      <pubDate>Fri, 08 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/posts/2023-12-05-orgflow-actionable-items/</guid>
+      <description>During clarify, you turn stuff into actionable item. This is the fundamental unit of work.</description>
+    </item>
+    <item>
+      <title>Orgflow: Restrict Context Switching</title>
+      <link>http://localhost:4321/posts/2023-12-05-orgflow-restrict-context-switching/</link>
+      <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/posts/2023-12-05-orgflow-restrict-context-switching/</guid>
+      <description>Above practice is pretty standard. Where it starts to get more GTD is that there key and essential distiction between what it means to get somethign done.</description>
+    </item>
     <item>
       <title>Orgflow: System and Tools</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2023-12-05-orgflow-system-and-tools/</link>
+      <link>http://localhost:4321/posts/2023-12-05-orgflow-system-and-tools/</link>
       <pubDate>Wed, 06 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/posts/2023-12-05-orgflow-system-and-tools/</guid>
+      <guid>http://localhost:4321/posts/2023-12-05-orgflow-system-and-tools/</guid>
       <description>There are several cornerstones of this system.&#xA;These include:&#xA;Separate, dedicated locations for each area of responsibility; Separate process for collecting what you have to do, to deciding what this stuff means, to actually doing it; Actionable items that have been indexed by priority, location, urgency; Regular-ish planning of your life at many scales; A disgustingly large reference system for junk.</description>
     </item>
     <item>
       <title>Orgflow: Theory</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2023-12-05-orgflow-theory/</link>
+      <link>http://localhost:4321/posts/2023-12-05-orgflow-theory/</link>
       <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/posts/2023-12-05-orgflow-theory/</guid>
+      <guid>http://localhost:4321/posts/2023-12-05-orgflow-theory/</guid>
       <description>Many people&amp;rsquo;s interest in organizational systems is directly proportional to how over-committed they are in the moment.</description>
     </item>
     <item>
       <title>Orgflow: 0. Saying No</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2023-01-09-orgflow-0-saying-no/</link>
+      <link>http://localhost:4321/posts/2023-01-09-orgflow-0-saying-no/</link>
       <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/posts/2023-01-09-orgflow-0-saying-no/</guid>
+      <guid>http://localhost:4321/posts/2023-01-09-orgflow-0-saying-no/</guid>
       <description>As foreshadowed in the introductory post in this series, the orgflow system is not meant to make you more productive.</description>
     </item>
     <item>
       <title>Orgflow: How I Work</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2023-01-09-orgflow-how-i-organize/</link>
+      <link>http://localhost:4321/posts/2023-01-09-orgflow-how-i-organize/</link>
       <pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/posts/2023-01-09-orgflow-how-i-organize/</guid>
+      <guid>http://localhost:4321/posts/2023-01-09-orgflow-how-i-organize/</guid>
       <description>We have introduced a new monthly standing meeting at the Music Cognition Group where the focus is meant to be on how to work.</description>
     </item>
     <item>
       <title>To-Dos and Boundaries</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2018-04-09-to-dos-and-boundaries/to-dos-and-boundaries/</link>
+      <link>http://localhost:4321/posts/2018-04-09-to-dos-and-boundaries/to-dos-and-boundaries/</link>
       <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/posts/2018-04-09-to-dos-and-boundaries/to-dos-and-boundaries/</guid>
+      <guid>http://localhost:4321/posts/2018-04-09-to-dos-and-boundaries/to-dos-and-boundaries/</guid>
       <description>As I write this sentence I know exactly how much time until my next break (45 minutes and 39 seconds if you’re interested).</description>
     </item>
   </channel>

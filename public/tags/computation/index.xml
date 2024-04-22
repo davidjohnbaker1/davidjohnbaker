@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Computation on David John Baker</title>
-    <link>https://davidjohnbaker.rbind.io/tags/computation/</link>
+    <link>http://localhost:4321/tags/computation/</link>
     <description>Recent content in Computation on David John Baker</description>
     <generator>Hugo 0.125.2</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 01 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://davidjohnbaker.rbind.io/tags/computation/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:4321/tags/computation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Addressing hot takes about scientific research done on music</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2024-03-01-a-quick-rant-on-hot-takes-from-music-scholars-who-don-t-work-in-the-sciences/</link>
+      <link>http://localhost:4321/posts/2024-03-01-a-quick-rant-on-hot-takes-from-music-scholars-who-don-t-work-in-the-sciences/</link>
       <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/posts/2024-03-01-a-quick-rant-on-hot-takes-from-music-scholars-who-don-t-work-in-the-sciences/</guid>
+      <guid>http://localhost:4321/posts/2024-03-01-a-quick-rant-on-hot-takes-from-music-scholars-who-don-t-work-in-the-sciences/</guid>
       <description>I&amp;rsquo;m always interested in &amp;lsquo;hot takes&amp;rsquo; on micro-blogging platforms that take issues with scientific research done on music.</description>
     </item>
     <item>
       <title>A short reflection after writing my first, little Stan model</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2023-06-14-a-short-reflection-after-writing-my-first-little-stan-model/</link>
+      <link>http://localhost:4321/posts/2023-06-14-a-short-reflection-after-writing-my-first-little-stan-model/</link>
       <pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/posts/2023-06-14-a-short-reflection-after-writing-my-first-little-stan-model/</guid>
+      <guid>http://localhost:4321/posts/2023-06-14-a-short-reflection-after-writing-my-first-little-stan-model/</guid>
       <description>During my postdoc, I&amp;rsquo;ve resolved to better understand Bayesian statistics. This started a few years ago, when I organized a group of colleagues to painstakingly make our way through Statistical Rethinking.</description>
     </item>
     <item>
       <title>Can narratives of competition help teach computational modeling of music?</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2023-02-02-can-narratives-of-competition-help-teach-computational-modeling-of-music/</link>
+      <link>http://localhost:4321/posts/2023-02-02-can-narratives-of-competition-help-teach-computational-modeling-of-music/</link>
       <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/posts/2023-02-02-can-narratives-of-competition-help-teach-computational-modeling-of-music/</guid>
+      <guid>http://localhost:4321/posts/2023-02-02-can-narratives-of-competition-help-teach-computational-modeling-of-music/</guid>
       <description>Sketch of impluse talk I planned to deliver at Monte Verita Workshop</description>
     </item>
     <item>
       <title>Purposefully re-inventing the wheel: teaching computational models through shared, open examples</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2023-02-02-purposefully-re-inventing-the-wheel-teaching-computational-models-through-shared-open-examples/</link>
+      <link>http://localhost:4321/posts/2023-02-02-purposefully-re-inventing-the-wheel-teaching-computational-models-through-shared-open-examples/</link>
       <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/posts/2023-02-02-purposefully-re-inventing-the-wheel-teaching-computational-models-through-shared-open-examples/</guid>
+      <guid>http://localhost:4321/posts/2023-02-02-purposefully-re-inventing-the-wheel-teaching-computational-models-through-shared-open-examples/</guid>
       <description>Sketch of impulse talk I planned to deliver at Monte Verita Workshop</description>
     </item>
   </channel>

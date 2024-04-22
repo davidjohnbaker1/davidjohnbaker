@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Career on David John Baker</title>
-    <link>https://davidjohnbaker.rbind.io/tags/career/</link>
+    <link>http://localhost:4321/tags/career/</link>
     <description>Recent content in Career on David John Baker</description>
     <generator>Hugo 0.125.2</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 21 May 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://davidjohnbaker.rbind.io/tags/career/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:4321/tags/career/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Decade of Music and Science</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2023-05-21-a-decade-of-music-and-science/</link>
+      <link>http://localhost:4321/posts/2023-05-21-a-decade-of-music-and-science/</link>
       <pubDate>Sun, 21 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/posts/2023-05-21-a-decade-of-music-and-science/</guid>
+      <guid>http://localhost:4321/posts/2023-05-21-a-decade-of-music-and-science/</guid>
       <description>A few days ago Amy Belfi pointed out it&amp;rsquo;s been ten years since we met.</description>
     </item>
     <item>
       <title>A Peculiar Anniversary</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2023-01-26-a-peculiar-anniversary/</link>
+      <link>http://localhost:4321/posts/2023-01-26-a-peculiar-anniversary/</link>
       <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/posts/2023-01-26-a-peculiar-anniversary/</guid>
+      <guid>http://localhost:4321/posts/2023-01-26-a-peculiar-anniversary/</guid>
       <description>Today marks a peculiar anniversary. As of the 2nd of February, for the first time in my life, I have been at the same job for more than a year.</description>
     </item>
     <item>
       <title>Ta ta, Goldsmiths; Hallo, Amsterdam</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2022-01-27-ta-ta-goldsmiths-hallo-amsterdam/</link>
+      <link>http://localhost:4321/posts/2022-01-27-ta-ta-goldsmiths-hallo-amsterdam/</link>
       <pubDate>Fri, 28 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/posts/2022-01-27-ta-ta-goldsmiths-hallo-amsterdam/</guid>
+      <guid>http://localhost:4321/posts/2022-01-27-ta-ta-goldsmiths-hallo-amsterdam/</guid>
       <description>Today is my last day working as a Postdoc in the Department of Psychology at Goldsmiths, University of London.</description>
     </item>
     <item>
       <title>Back to Musicology</title>
-      <link>https://davidjohnbaker.rbind.io/posts/back-to-musicology/</link>
+      <link>http://localhost:4321/posts/back-to-musicology/</link>
       <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/posts/back-to-musicology/</guid>
+      <guid>http://localhost:4321/posts/back-to-musicology/</guid>
       <description>Sound the TROMPA After a few weeks looking for work, in September I will be starting as Senior Research Associate on the TROMPA project!</description>
     </item>
   </channel>

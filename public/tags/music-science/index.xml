@@ -2,94 +2,94 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Music Science on David John Baker</title>
-    <link>https://davidjohnbaker.rbind.io/tags/music-science/</link>
+    <link>http://localhost:4321/tags/music-science/</link>
     <description>Recent content in Music Science on David John Baker</description>
     <generator>Hugo 0.125.2</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 01 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://davidjohnbaker.rbind.io/tags/music-science/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:4321/tags/music-science/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Addressing hot takes about scientific research done on music</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2024-03-01-a-quick-rant-on-hot-takes-from-music-scholars-who-don-t-work-in-the-sciences/</link>
+      <link>http://localhost:4321/posts/2024-03-01-a-quick-rant-on-hot-takes-from-music-scholars-who-don-t-work-in-the-sciences/</link>
       <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/posts/2024-03-01-a-quick-rant-on-hot-takes-from-music-scholars-who-don-t-work-in-the-sciences/</guid>
+      <guid>http://localhost:4321/posts/2024-03-01-a-quick-rant-on-hot-takes-from-music-scholars-who-don-t-work-in-the-sciences/</guid>
       <description>I&amp;rsquo;m always interested in &amp;lsquo;hot takes&amp;rsquo; on micro-blogging platforms that take issues with scientific research done on music.</description>
     </item>
     <item>
       <title>Building Anti-Racism and Music Science Resources</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2023-08-07-building-anti-racism-and-music-science-resources/</link>
+      <link>http://localhost:4321/posts/2023-08-07-building-anti-racism-and-music-science-resources/</link>
       <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/posts/2023-08-07-building-anti-racism-and-music-science-resources/</guid>
+      <guid>http://localhost:4321/posts/2023-08-07-building-anti-racism-and-music-science-resources/</guid>
       <description>Last week the panel discussion from last year&amp;rsquo;s SMPC was published in Auditory Perception and Cognition.</description>
     </item>
     <item>
       <title>Joining BlueSky</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2023-07-18-joining-bluesky/</link>
+      <link>http://localhost:4321/posts/2023-07-18-joining-bluesky/</link>
       <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/posts/2023-07-18-joining-bluesky/</guid>
+      <guid>http://localhost:4321/posts/2023-07-18-joining-bluesky/</guid>
       <description>After reading this article in The Atlantic I think it&amp;rsquo;s time to jump ship on Twitter.</description>
     </item>
     <item>
       <title>A Decade of Music and Science</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2023-05-21-a-decade-of-music-and-science/</link>
+      <link>http://localhost:4321/posts/2023-05-21-a-decade-of-music-and-science/</link>
       <pubDate>Sun, 21 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/posts/2023-05-21-a-decade-of-music-and-science/</guid>
+      <guid>http://localhost:4321/posts/2023-05-21-a-decade-of-music-and-science/</guid>
       <description>A few days ago Amy Belfi pointed out it&amp;rsquo;s been ten years since we met.</description>
     </item>
     <item>
       <title>Why should it have to be elegant?</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2023-05-10-why-should-it-have-to-be-elegant/</link>
+      <link>http://localhost:4321/posts/2023-05-10-why-should-it-have-to-be-elegant/</link>
       <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/posts/2023-05-10-why-should-it-have-to-be-elegant/</guid>
+      <guid>http://localhost:4321/posts/2023-05-10-why-should-it-have-to-be-elegant/</guid>
       <description>One of the best questions to ask yourself (and others) is:</description>
     </item>
     <item>
       <title>How Can Music Science Be More Socially Just?</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2023-04-13-how-can-music-science-be-more-socially-just/</link>
+      <link>http://localhost:4321/posts/2023-04-13-how-can-music-science-be-more-socially-just/</link>
       <pubDate>Thu, 13 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/posts/2023-04-13-how-can-music-science-be-more-socially-just/</guid>
+      <guid>http://localhost:4321/posts/2023-04-13-how-can-music-science-be-more-socially-just/</guid>
       <description>Today we submitted the transcript of the panel that the Society for Music and Perception&amp;rsquo;s Anti Racism and Equity Committee organized at last summer&amp;rsquo;s conference in Portland, Oregon.</description>
     </item>
     <item>
       <title>Thoughts from Teaching Timbre in 2023</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2023-03-13-thoughts-from-teaching-timbre-in-2023/</link>
+      <link>http://localhost:4321/posts/2023-03-13-thoughts-from-teaching-timbre-in-2023/</link>
       <pubDate>Mon, 13 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/posts/2023-03-13-thoughts-from-teaching-timbre-in-2023/</guid>
+      <guid>http://localhost:4321/posts/2023-03-13-thoughts-from-teaching-timbre-in-2023/</guid>
       <description>I spent the second half of last week in the UK, doing an in-depth dive on spectrograms at both Goldsmiths and Cambridge.</description>
     </item>
     <item>
       <title>Can narratives of competition help teach computational modeling of music?</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2023-02-02-can-narratives-of-competition-help-teach-computational-modeling-of-music/</link>
+      <link>http://localhost:4321/posts/2023-02-02-can-narratives-of-competition-help-teach-computational-modeling-of-music/</link>
       <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/posts/2023-02-02-can-narratives-of-competition-help-teach-computational-modeling-of-music/</guid>
+      <guid>http://localhost:4321/posts/2023-02-02-can-narratives-of-competition-help-teach-computational-modeling-of-music/</guid>
       <description>Sketch of impluse talk I planned to deliver at Monte Verita Workshop</description>
     </item>
     <item>
       <title>Purposefully re-inventing the wheel: teaching computational models through shared, open examples</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2023-02-02-purposefully-re-inventing-the-wheel-teaching-computational-models-through-shared-open-examples/</link>
+      <link>http://localhost:4321/posts/2023-02-02-purposefully-re-inventing-the-wheel-teaching-computational-models-through-shared-open-examples/</link>
       <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/posts/2023-02-02-purposefully-re-inventing-the-wheel-teaching-computational-models-through-shared-open-examples/</guid>
+      <guid>http://localhost:4321/posts/2023-02-02-purposefully-re-inventing-the-wheel-teaching-computational-models-through-shared-open-examples/</guid>
       <description>Sketch of impulse talk I planned to deliver at Monte Verita Workshop</description>
     </item>
     <item>
       <title>Lyrics, Melodies, and Strong Emotions</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2023-02-10-lyrics-melodies-and-strong-emotions/</link>
+      <link>http://localhost:4321/posts/2023-02-10-lyrics-melodies-and-strong-emotions/</link>
       <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/posts/2023-02-10-lyrics-melodies-and-strong-emotions/</guid>
+      <guid>http://localhost:4321/posts/2023-02-10-lyrics-melodies-and-strong-emotions/</guid>
       <description>Last week a paper that Mitty Ma, Emily Elliott and some of my former LSU colleagues worked on was published at Musicae Scientae.</description>
     </item>
     <item>
       <title>Monte Verità Workshop 2023</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2023-02-09-monte-verit-workshop-2023/</link>
+      <link>http://localhost:4321/posts/2023-02-09-monte-verit-workshop-2023/</link>
       <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/posts/2023-02-09-monte-verit-workshop-2023/</guid>
+      <guid>http://localhost:4321/posts/2023-02-09-monte-verit-workshop-2023/</guid>
       <description>I was fortunate to spend this last week at Monte Verità in Switzerland, attending a workshop on decoding musical structure.</description>
     </item>
     <item>
       <title>Reviewing for SysMus 2021</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2021-06-08-reviewing-for-sysmus-2021/</link>
+      <link>http://localhost:4321/posts/2021-06-08-reviewing-for-sysmus-2021/</link>
       <pubDate>Tue, 08 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/posts/2021-06-08-reviewing-for-sysmus-2021/</guid>
+      <guid>http://localhost:4321/posts/2021-06-08-reviewing-for-sysmus-2021/</guid>
       <description>Having just completed a few abstract reviews for SysMus 21, I have a two thoughts I think are worth sharing.</description>
     </item>
   </channel>

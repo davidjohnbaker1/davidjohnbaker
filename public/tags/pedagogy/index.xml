@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pedagogy on David John Baker</title>
-    <link>https://davidjohnbaker.rbind.io/tags/pedagogy/</link>
+    <link>http://localhost:4321/tags/pedagogy/</link>
     <description>Recent content in Pedagogy on David John Baker</description>
     <generator>Hugo 0.125.2</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 16 Feb 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://davidjohnbaker.rbind.io/tags/pedagogy/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:4321/tags/pedagogy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Can narratives of competition help teach computational modeling of music?</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2023-02-02-can-narratives-of-competition-help-teach-computational-modeling-of-music/</link>
+      <link>http://localhost:4321/posts/2023-02-02-can-narratives-of-competition-help-teach-computational-modeling-of-music/</link>
       <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/posts/2023-02-02-can-narratives-of-competition-help-teach-computational-modeling-of-music/</guid>
+      <guid>http://localhost:4321/posts/2023-02-02-can-narratives-of-competition-help-teach-computational-modeling-of-music/</guid>
       <description>Sketch of impluse talk I planned to deliver at Monte Verita Workshop</description>
     </item>
     <item>
       <title>Purposefully re-inventing the wheel: teaching computational models through shared, open examples</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2023-02-02-purposefully-re-inventing-the-wheel-teaching-computational-models-through-shared-open-examples/</link>
+      <link>http://localhost:4321/posts/2023-02-02-purposefully-re-inventing-the-wheel-teaching-computational-models-through-shared-open-examples/</link>
       <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/posts/2023-02-02-purposefully-re-inventing-the-wheel-teaching-computational-models-through-shared-open-examples/</guid>
+      <guid>http://localhost:4321/posts/2023-02-02-purposefully-re-inventing-the-wheel-teaching-computational-models-through-shared-open-examples/</guid>
       <description>Sketch of impulse talk I planned to deliver at Monte Verita Workshop</description>
     </item>
   </channel>

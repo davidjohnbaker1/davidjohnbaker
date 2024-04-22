@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Reference on David John Baker</title>
-    <link>https://davidjohnbaker.rbind.io/tags/reference/</link>
+    <link>http://localhost:4321/tags/reference/</link>
     <description>Recent content in Reference on David John Baker</description>
     <generator>Hugo 0.125.2</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 22 May 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://davidjohnbaker.rbind.io/tags/reference/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:4321/tags/reference/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Receiving a Letter of Recommendation</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2023-05-22-receiving-a-letter-of-recommendation/</link>
+      <link>http://localhost:4321/posts/2023-05-22-receiving-a-letter-of-recommendation/</link>
       <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/posts/2023-05-22-receiving-a-letter-of-recommendation/</guid>
+      <guid>http://localhost:4321/posts/2023-05-22-receiving-a-letter-of-recommendation/</guid>
       <description>If you are reading this, you are either thinking about or have asked me to write you a letter of recommendation.</description>
     </item>
     <item>
       <title>Tips on Scientific Writing</title>
-      <link>https://davidjohnbaker.rbind.io/posts/2023-01-23-tips-on-scientific-writing/</link>
+      <link>http://localhost:4321/posts/2023-01-23-tips-on-scientific-writing/</link>
       <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/posts/2023-01-23-tips-on-scientific-writing/</guid>
+      <guid>http://localhost:4321/posts/2023-01-23-tips-on-scientific-writing/</guid>
       <description>At the moment, I am providing a lot of feedback on graduate student writing and it feels like I see the same types of errors that I (and I know many others) made when they started scientific/academic writing.</description>
     </item>
   </channel>
