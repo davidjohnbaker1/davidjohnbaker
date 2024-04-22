@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Conference on David John Baker</title>
-    <link>http://localhost:4321/tags/conference/</link>
+    <link>https://davidjohnbaker.rbind.io/tags/conference/</link>
     <description>Recent content in Conference on David John Baker</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo 0.125.2</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 18 Jul 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:4321/tags/conference/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://davidjohnbaker.rbind.io/tags/conference/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Joining BlueSky</title>
-      <link>http://localhost:4321/posts/2023-07-18-joining-bluesky/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2023-07-18-joining-bluesky/</link>
       <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2023-07-18-joining-bluesky/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2023-07-18-joining-bluesky/</guid>
       <description>After reading this article in The Atlantic I think it&amp;rsquo;s time to jump ship on Twitter.</description>
     </item>
     <item>
       <title>A Standing Call for Songs to Sing at Music Conferences</title>
-      <link>http://localhost:4321/posts/2023-07-06-a-standing-call-for-songs-to-sing-at-music-conferences/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2023-07-06-a-standing-call-for-songs-to-sing-at-music-conferences/</link>
       <pubDate>Thu, 06 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2023-07-06-a-standing-call-for-songs-to-sing-at-music-conferences/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2023-07-06-a-standing-call-for-songs-to-sing-at-music-conferences/</guid>
       <description>I have always wanted to assemble a small book of easy enough to sight-sing songs for academic music conferences.</description>
     </item>
     <item>
       <title>Monte Verità Workshop 2023</title>
-      <link>http://localhost:4321/posts/2023-02-09-monte-verit-workshop-2023/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2023-02-09-monte-verit-workshop-2023/</link>
       <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2023-02-09-monte-verit-workshop-2023/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2023-02-09-monte-verit-workshop-2023/</guid>
       <description>I was fortunate to spend this last week at Monte Verità in Switzerland, attending a workshop on decoding musical structure.</description>
     </item>
   </channel>

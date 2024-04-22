@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Academia on David John Baker</title>
-    <link>http://localhost:4321/tags/academia/</link>
+    <link>https://davidjohnbaker.rbind.io/tags/academia/</link>
     <description>Recent content in Academia on David John Baker</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo 0.125.2</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 13 Sep 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:4321/tags/academia/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://davidjohnbaker.rbind.io/tags/academia/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>BlueSky for Music Science 101</title>
-      <link>http://localhost:4321/posts/2023-09-13-bluesky-for-music-science-101/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2023-09-13-bluesky-for-music-science-101/</link>
       <pubDate>Wed, 13 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2023-09-13-bluesky-for-music-science-101/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2023-09-13-bluesky-for-music-science-101/</guid>
       <description>This post is a brief description and concise argument concerning BlueSky and the #musicscience community.</description>
     </item>
     <item>
       <title>A Standing Call for Songs to Sing at Music Conferences</title>
-      <link>http://localhost:4321/posts/2023-07-06-a-standing-call-for-songs-to-sing-at-music-conferences/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2023-07-06-a-standing-call-for-songs-to-sing-at-music-conferences/</link>
       <pubDate>Thu, 06 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2023-07-06-a-standing-call-for-songs-to-sing-at-music-conferences/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2023-07-06-a-standing-call-for-songs-to-sing-at-music-conferences/</guid>
       <description>I have always wanted to assemble a small book of easy enough to sight-sing songs for academic music conferences.</description>
     </item>
     <item>
       <title>Receiving a Letter of Recommendation</title>
-      <link>http://localhost:4321/posts/2023-05-22-receiving-a-letter-of-recommendation/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2023-05-22-receiving-a-letter-of-recommendation/</link>
       <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2023-05-22-receiving-a-letter-of-recommendation/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2023-05-22-receiving-a-letter-of-recommendation/</guid>
       <description>If you are reading this, you are either thinking about or have asked me to write you a letter of recommendation.</description>
     </item>
     <item>
       <title>Orgflow 6: Notes on Minutes and Communications</title>
-      <link>http://localhost:4321/posts/2023-03-22-orgflow-6-notes-on-minutes-and-communications/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2023-03-22-orgflow-6-notes-on-minutes-and-communications/</link>
       <pubDate>Wed, 22 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2023-03-22-orgflow-6-notes-on-minutes-and-communications/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2023-03-22-orgflow-6-notes-on-minutes-and-communications/</guid>
       <description>Being good at organization is a blessing and a curse. It&amp;rsquo;s a blessing as it allows you to feel more in control of what is coming on the horizon.</description>
     </item>
     <item>
       <title>Monte Verità Workshop 2023</title>
-      <link>http://localhost:4321/posts/2023-02-09-monte-verit-workshop-2023/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2023-02-09-monte-verit-workshop-2023/</link>
       <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2023-02-09-monte-verit-workshop-2023/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2023-02-09-monte-verit-workshop-2023/</guid>
       <description>I was fortunate to spend this last week at Monte Verità in Switzerland, attending a workshop on decoding musical structure.</description>
     </item>
     <item>
       <title>A Peculiar Anniversary</title>
-      <link>http://localhost:4321/posts/2023-01-26-a-peculiar-anniversary/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2023-01-26-a-peculiar-anniversary/</link>
       <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2023-01-26-a-peculiar-anniversary/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2023-01-26-a-peculiar-anniversary/</guid>
       <description>Today marks a peculiar anniversary. As of the 2nd of February, for the first time in my life, I have been at the same job for more than a year.</description>
     </item>
     <item>
       <title>Ta ta, Goldsmiths; Hallo, Amsterdam</title>
-      <link>http://localhost:4321/posts/2022-01-27-ta-ta-goldsmiths-hallo-amsterdam/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2022-01-27-ta-ta-goldsmiths-hallo-amsterdam/</link>
       <pubDate>Fri, 28 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2022-01-27-ta-ta-goldsmiths-hallo-amsterdam/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2022-01-27-ta-ta-goldsmiths-hallo-amsterdam/</guid>
       <description>Today is my last day working as a Postdoc in the Department of Psychology at Goldsmiths, University of London.</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Harmony on David John Baker</title>
-    <link>http://localhost:4321/tags/harmony/</link>
+    <link>https://davidjohnbaker.rbind.io/tags/harmony/</link>
     <description>Recent content in Harmony on David John Baker</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo 0.125.2</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 24 May 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:4321/tags/harmony/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://davidjohnbaker.rbind.io/tags/harmony/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Perceptual Attraction of Pre-Dominant Chords</title>
-      <link>http://localhost:4321/posts/2021-05-13-pre-dom-preprint/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2021-05-13-pre-dom-preprint/</link>
       <pubDate>Mon, 24 May 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2021-05-13-pre-dom-preprint/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2021-05-13-pre-dom-preprint/</guid>
       <description>Earlier this year a collaboration paper I worked on was accepted at Music Perception.</description>
     </item>
   </channel>

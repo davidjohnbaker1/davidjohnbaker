@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Beer on David John Baker</title>
-    <link>http://localhost:4321/tags/beer/</link>
+    <link>https://davidjohnbaker.rbind.io/tags/beer/</link>
     <description>Recent content in Beer on David John Baker</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo 0.125.2</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 29 Jan 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:4321/tags/beer/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://davidjohnbaker.rbind.io/tags/beer/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hire Me (as a Data Scientist!), Part IV</title>
-      <link>http://localhost:4321/posts/2018-01-29-hire-me-as-a-data-scientist-part-iv/hire-me-as-a-data-scientist-part-iv/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2018-01-29-hire-me-as-a-data-scientist-part-iv/hire-me-as-a-data-scientist-part-iv/</link>
       <pubDate>Mon, 29 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2018-01-29-hire-me-as-a-data-scientist-part-iv/hire-me-as-a-data-scientist-part-iv/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2018-01-29-hire-me-as-a-data-scientist-part-iv/hire-me-as-a-data-scientist-part-iv/</guid>
       <description>Since this is my last post in the beer review series, I’ll keep this short and sweet in terms of analysis.</description>
     </item>
     <item>
       <title>Hire Me (as a Data Scientist!), Part III</title>
-      <link>http://localhost:4321/posts/2018-01-28-hire-me-as-a-datascientist-part-iii/hire-me-as-a-datascientist-part-iii/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2018-01-28-hire-me-as-a-datascientist-part-iii/hire-me-as-a-datascientist-part-iii/</link>
       <pubDate>Sun, 28 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2018-01-28-hire-me-as-a-datascientist-part-iii/hire-me-as-a-datascientist-part-iii/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2018-01-28-hire-me-as-a-datascientist-part-iii/hire-me-as-a-datascientist-part-iii/</guid>
       <description>Two questions down, two to go! For the third post I’ll explore the question:</description>
     </item>
   </channel>

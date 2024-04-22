@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Musicology on David John Baker</title>
-    <link>http://localhost:4321/tags/musicology/</link>
+    <link>https://davidjohnbaker.rbind.io/tags/musicology/</link>
     <description>Recent content in Musicology on David John Baker</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo 0.125.2</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 31 Jul 2020 12:21:43 +0100</lastBuildDate>
-    <atom:link href="http://localhost:4321/tags/musicology/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://davidjohnbaker.rbind.io/tags/musicology/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Back to Musicology</title>
-      <link>http://localhost:4321/posts/back-to-musicology/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/back-to-musicology/</link>
       <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/back-to-musicology/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/back-to-musicology/</guid>
       <description>Sound the TROMPA After a few weeks looking for work, in September I will be starting as Senior Research Associate on the TROMPA project!</description>
     </item>
   </channel>
