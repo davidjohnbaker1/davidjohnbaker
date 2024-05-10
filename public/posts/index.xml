@@ -2,577 +2,528 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on David John Baker</title>
-    <link>http://localhost:4321/posts/</link>
+    <link>https://davidjohnbaker.rbind.io/posts/</link>
     <description>Recent content in Posts on David John Baker</description>
     <generator>Hugo 0.125.2</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 01 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:4321/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://davidjohnbaker.rbind.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Addressing hot takes about scientific research done on music</title>
-      <link>http://localhost:4321/posts/2024-03-01-a-quick-rant-on-hot-takes-from-music-scholars-who-don-t-work-in-the-sciences/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2024-03-01-a-quick-rant-on-hot-takes-from-music-scholars-who-don-t-work-in-the-sciences/</link>
       <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2024-03-01-a-quick-rant-on-hot-takes-from-music-scholars-who-don-t-work-in-the-sciences/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2024-03-01-a-quick-rant-on-hot-takes-from-music-scholars-who-don-t-work-in-the-sciences/</guid>
       <description>I&amp;rsquo;m always interested in &amp;lsquo;hot takes&amp;rsquo; on micro-blogging platforms that take issues with scientific research done on music.</description>
     </item>
     <item>
       <title>Guest Blogging for Duolingo</title>
-      <link>http://localhost:4321/posts/2024-02-16-guest-blogging-for-duolingo/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2024-02-16-guest-blogging-for-duolingo/</link>
       <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2024-02-16-guest-blogging-for-duolingo/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2024-02-16-guest-blogging-for-duolingo/</guid>
       <description>At the end of last month, a short piece I wrote for Duolingo was published on their blog.</description>
     </item>
     <item>
       <title>A Brief Summary of My Career in the UK and Europe</title>
-      <link>http://localhost:4321/posts/2024-02-09-a-brief-summary-of-my-career-in-the-uk-and-europe/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2024-02-09-a-brief-summary-of-my-career-in-the-uk-and-europe/</link>
       <pubDate>Fri, 09 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2024-02-09-a-brief-summary-of-my-career-in-the-uk-and-europe/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2024-02-09-a-brief-summary-of-my-career-in-the-uk-and-europe/</guid>
       <description>I spent the last six years (mostly) working as an academic in the UK and Europe researching questions at the overlap of music and science.</description>
     </item>
     <item>
       <title>Final Weeks in Europe</title>
-      <link>http://localhost:4321/posts/2024-02-09-final-weeks-in-europe/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2024-02-09-final-weeks-in-europe/</link>
       <pubDate>Fri, 09 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2024-02-09-final-weeks-in-europe/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2024-02-09-final-weeks-in-europe/</guid>
       <description>For those who have yet to hear the news, in the next few weeks I will be moving back to the USA.</description>
     </item>
     <item>
-      <title>Orgflow: Reflections in 2023</title>
-      <link>http://localhost:4321/posts/2023-12-05-orgflow-reflections-in-2023/</link>
-      <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2023-12-05-orgflow-reflections-in-2023/</guid>
-      <description>TODO</description>
-    </item>
-    <item>
-      <title>Orgflow: The Minimal Set-Up</title>
-      <link>http://localhost:4321/posts/2023-12-05-orgflow-the-minimal-set-up/</link>
-      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2023-12-05-orgflow-the-minimal-set-up/</guid>
-      <description>TODO&#xA;have basic software and keystrokes&#xA;talk through a friday</description>
-    </item>
-    <item>
-      <title>Orgflow: The Library</title>
-      <link>http://localhost:4321/posts/2023-12-05-orgflow-the-library/</link>
-      <pubDate>Sun, 10 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2023-12-05-orgflow-the-library/</guid>
-      <description>Sort of overlooked as good thing in GTD, but you can save everything in GTD.</description>
-    </item>
-    <item>
-      <title>Orgflow: Regular Review</title>
-      <link>http://localhost:4321/posts/2023-12-05-orgflow-regular-review/</link>
-      <pubDate>Sat, 09 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2023-12-05-orgflow-regular-review/</guid>
-      <description>Again, many levels to have reguarly sheduled things, all in org mode.</description>
-    </item>
-    <item>
-      <title>Orgflow: Actionable Items</title>
-      <link>http://localhost:4321/posts/2023-12-05-orgflow-actionable-items/</link>
-      <pubDate>Fri, 08 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2023-12-05-orgflow-actionable-items/</guid>
-      <description>During clarify, you turn stuff into actionable item. This is the fundamental unit of work.</description>
-    </item>
-    <item>
-      <title>Orgflow: Restrict Context Switching</title>
-      <link>http://localhost:4321/posts/2023-12-05-orgflow-restrict-context-switching/</link>
-      <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2023-12-05-orgflow-restrict-context-switching/</guid>
-      <description>Above practice is pretty standard. Where it starts to get more GTD is that there key and essential distiction between what it means to get somethign done.</description>
-    </item>
-    <item>
       <title>Orgflow: System and Tools</title>
-      <link>http://localhost:4321/posts/2023-12-05-orgflow-system-and-tools/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2023-12-05-orgflow-system-and-tools/</link>
       <pubDate>Wed, 06 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2023-12-05-orgflow-system-and-tools/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2023-12-05-orgflow-system-and-tools/</guid>
       <description>There are several cornerstones of this system.&#xA;These include:&#xA;Separate, dedicated locations for each area of responsibility; Separate process for collecting what you have to do, to deciding what this stuff means, to actually doing it; Actionable items that have been indexed by priority, location, urgency; Regular-ish planning of your life at many scales; A disgustingly large reference system for junk.</description>
     </item>
     <item>
       <title>Orgflow: Theory</title>
-      <link>http://localhost:4321/posts/2023-12-05-orgflow-theory/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2023-12-05-orgflow-theory/</link>
       <pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2023-12-05-orgflow-theory/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2023-12-05-orgflow-theory/</guid>
       <description>Many people&amp;rsquo;s interest in organizational systems is directly proportional to how over-committed they are in the moment.</description>
     </item>
     <item>
       <title>Musical Memory Experiments for Everyone (Including Experts!)</title>
-      <link>http://localhost:4321/posts/2023-10-18-musical-memory-experiments-for-everyone-including-experts/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2023-10-18-musical-memory-experiments-for-everyone-including-experts/</link>
       <pubDate>Wed, 18 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2023-10-18-musical-memory-experiments-for-everyone-including-experts/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2023-10-18-musical-memory-experiments-for-everyone-including-experts/</guid>
       <description>Yesterday I had the pleasure of giving a talk as part of the Centre for Music and Science seminar series at the University of Cambridge.</description>
     </item>
     <item>
       <title>BlueSky for Music Science 101</title>
-      <link>http://localhost:4321/posts/2023-09-13-bluesky-for-music-science-101/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2023-09-13-bluesky-for-music-science-101/</link>
       <pubDate>Wed, 13 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2023-09-13-bluesky-for-music-science-101/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2023-09-13-bluesky-for-music-science-101/</guid>
       <description>This post is a brief description and concise argument concerning BlueSky and the #musicscience community.</description>
     </item>
     <item>
       <title>Summer Break 2023 Reflections</title>
-      <link>http://localhost:4321/posts/2023-08-22-summer-break-2023-reflections/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2023-08-22-summer-break-2023-reflections/</link>
       <pubDate>Tue, 22 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2023-08-22-summer-break-2023-reflections/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2023-08-22-summer-break-2023-reflections/</guid>
       <description>Today marks the end of my summer holidays (for the most part).</description>
     </item>
     <item>
       <title>Building Anti-Racism and Music Science Resources</title>
-      <link>http://localhost:4321/posts/2023-08-07-building-anti-racism-and-music-science-resources/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2023-08-07-building-anti-racism-and-music-science-resources/</link>
       <pubDate>Mon, 07 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2023-08-07-building-anti-racism-and-music-science-resources/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2023-08-07-building-anti-racism-and-music-science-resources/</guid>
       <description>Last week the panel discussion from last year&amp;rsquo;s SMPC was published in Auditory Perception and Cognition.</description>
     </item>
     <item>
       <title>#musicscience on BlueSky</title>
-      <link>http://localhost:4321/posts/2023-08-04-musicscience-on-bluesky/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2023-08-04-musicscience-on-bluesky/</link>
       <pubDate>Fri, 04 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2023-08-04-musicscience-on-bluesky/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2023-08-04-musicscience-on-bluesky/</guid>
       <description>During my lunch breaks this week, I figured out how to set up a #musicscience feed on Bluesky.</description>
     </item>
     <item>
       <title>Joining BlueSky</title>
-      <link>http://localhost:4321/posts/2023-07-18-joining-bluesky/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2023-07-18-joining-bluesky/</link>
       <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2023-07-18-joining-bluesky/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2023-07-18-joining-bluesky/</guid>
       <description>After reading this article in The Atlantic I think it&amp;rsquo;s time to jump ship on Twitter.</description>
     </item>
     <item>
       <title>A Standing Call for Songs to Sing at Music Conferences</title>
-      <link>http://localhost:4321/posts/2023-07-06-a-standing-call-for-songs-to-sing-at-music-conferences/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2023-07-06-a-standing-call-for-songs-to-sing-at-music-conferences/</link>
       <pubDate>Thu, 06 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2023-07-06-a-standing-call-for-songs-to-sing-at-music-conferences/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2023-07-06-a-standing-call-for-songs-to-sing-at-music-conferences/</guid>
       <description>I have always wanted to assemble a small book of easy enough to sight-sing songs for academic music conferences.</description>
     </item>
     <item>
       <title>A short reflection after writing my first, little Stan model</title>
-      <link>http://localhost:4321/posts/2023-06-14-a-short-reflection-after-writing-my-first-little-stan-model/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2023-06-14-a-short-reflection-after-writing-my-first-little-stan-model/</link>
       <pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2023-06-14-a-short-reflection-after-writing-my-first-little-stan-model/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2023-06-14-a-short-reflection-after-writing-my-first-little-stan-model/</guid>
       <description>During my postdoc, I&amp;rsquo;ve resolved to better understand Bayesian statistics. This started a few years ago, when I organized a group of colleagues to painstakingly make our way through Statistical Rethinking.</description>
     </item>
     <item>
       <title>MCG Reading: Dynamic models for musical rhythm perception and coordination</title>
-      <link>http://localhost:4321/posts/2023-06-06-mcg-reading-dynamic-models-for-musical-rhythm-perception-and-coordination/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2023-06-06-mcg-reading-dynamic-models-for-musical-rhythm-perception-and-coordination/</link>
       <pubDate>Tue, 06 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2023-06-06-mcg-reading-dynamic-models-for-musical-rhythm-perception-and-coordination/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2023-06-06-mcg-reading-dynamic-models-for-musical-rhythm-perception-and-coordination/</guid>
       <description>We ended the academic year reading Dynamic models for musical rhythm perception and coordination.</description>
     </item>
     <item>
       <title>Receiving a Letter of Recommendation</title>
-      <link>http://localhost:4321/posts/2023-05-22-receiving-a-letter-of-recommendation/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2023-05-22-receiving-a-letter-of-recommendation/</link>
       <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2023-05-22-receiving-a-letter-of-recommendation/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2023-05-22-receiving-a-letter-of-recommendation/</guid>
       <description>If you are reading this, you are either thinking about or have asked me to write you a letter of recommendation.</description>
     </item>
     <item>
       <title>A Decade of Music and Science</title>
-      <link>http://localhost:4321/posts/2023-05-21-a-decade-of-music-and-science/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2023-05-21-a-decade-of-music-and-science/</link>
       <pubDate>Sun, 21 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2023-05-21-a-decade-of-music-and-science/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2023-05-21-a-decade-of-music-and-science/</guid>
       <description>A few days ago Amy Belfi pointed out it&amp;rsquo;s been ten years since we met.</description>
     </item>
     <item>
       <title>Why should it have to be elegant?</title>
-      <link>http://localhost:4321/posts/2023-05-10-why-should-it-have-to-be-elegant/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2023-05-10-why-should-it-have-to-be-elegant/</link>
       <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2023-05-10-why-should-it-have-to-be-elegant/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2023-05-10-why-should-it-have-to-be-elegant/</guid>
       <description>One of the best questions to ask yourself (and others) is:</description>
     </item>
     <item>
       <title>How Can Music Science Be More Socially Just?</title>
-      <link>http://localhost:4321/posts/2023-04-13-how-can-music-science-be-more-socially-just/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2023-04-13-how-can-music-science-be-more-socially-just/</link>
       <pubDate>Thu, 13 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2023-04-13-how-can-music-science-be-more-socially-just/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2023-04-13-how-can-music-science-be-more-socially-just/</guid>
       <description>Today we submitted the transcript of the panel that the Society for Music and Perception&amp;rsquo;s Anti Racism and Equity Committee organized at last summer&amp;rsquo;s conference in Portland, Oregon.</description>
     </item>
     <item>
       <title>Orgflow 6: Notes on Minutes and Communications</title>
-      <link>http://localhost:4321/posts/2023-03-22-orgflow-6-notes-on-minutes-and-communications/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2023-03-22-orgflow-6-notes-on-minutes-and-communications/</link>
       <pubDate>Wed, 22 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2023-03-22-orgflow-6-notes-on-minutes-and-communications/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2023-03-22-orgflow-6-notes-on-minutes-and-communications/</guid>
       <description>Being good at organization is a blessing and a curse. It&amp;rsquo;s a blessing as it allows you to feel more in control of what is coming on the horizon.</description>
     </item>
     <item>
       <title>Thoughts from Teaching Timbre in 2023</title>
-      <link>http://localhost:4321/posts/2023-03-13-thoughts-from-teaching-timbre-in-2023/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2023-03-13-thoughts-from-teaching-timbre-in-2023/</link>
       <pubDate>Mon, 13 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2023-03-13-thoughts-from-teaching-timbre-in-2023/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2023-03-13-thoughts-from-teaching-timbre-in-2023/</guid>
       <description>I spent the second half of last week in the UK, doing an in-depth dive on spectrograms at both Goldsmiths and Cambridge.</description>
     </item>
     <item>
       <title>Can narratives of competition help teach computational modeling of music?</title>
-      <link>http://localhost:4321/posts/2023-02-02-can-narratives-of-competition-help-teach-computational-modeling-of-music/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2023-02-02-can-narratives-of-competition-help-teach-computational-modeling-of-music/</link>
       <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2023-02-02-can-narratives-of-competition-help-teach-computational-modeling-of-music/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2023-02-02-can-narratives-of-competition-help-teach-computational-modeling-of-music/</guid>
       <description>Sketch of impluse talk I planned to deliver at Monte Verita Workshop</description>
     </item>
     <item>
       <title>Purposefully re-inventing the wheel: teaching computational models through shared, open examples</title>
-      <link>http://localhost:4321/posts/2023-02-02-purposefully-re-inventing-the-wheel-teaching-computational-models-through-shared-open-examples/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2023-02-02-purposefully-re-inventing-the-wheel-teaching-computational-models-through-shared-open-examples/</link>
       <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2023-02-02-purposefully-re-inventing-the-wheel-teaching-computational-models-through-shared-open-examples/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2023-02-02-purposefully-re-inventing-the-wheel-teaching-computational-models-through-shared-open-examples/</guid>
       <description>Sketch of impulse talk I planned to deliver at Monte Verita Workshop</description>
     </item>
     <item>
       <title>Lyrics, Melodies, and Strong Emotions</title>
-      <link>http://localhost:4321/posts/2023-02-10-lyrics-melodies-and-strong-emotions/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2023-02-10-lyrics-melodies-and-strong-emotions/</link>
       <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2023-02-10-lyrics-melodies-and-strong-emotions/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2023-02-10-lyrics-melodies-and-strong-emotions/</guid>
       <description>Last week a paper that Mitty Ma, Emily Elliott and some of my former LSU colleagues worked on was published at Musicae Scientae.</description>
     </item>
     <item>
       <title>Monte Verità Workshop 2023</title>
-      <link>http://localhost:4321/posts/2023-02-09-monte-verit-workshop-2023/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2023-02-09-monte-verit-workshop-2023/</link>
       <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2023-02-09-monte-verit-workshop-2023/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2023-02-09-monte-verit-workshop-2023/</guid>
       <description>I was fortunate to spend this last week at Monte Verità in Switzerland, attending a workshop on decoding musical structure.</description>
     </item>
     <item>
-      <title>Orgflow: 1. The Orgflow Theory</title>
-      <link>http://localhost:4321/posts/2023-01-27-orgflow-1-the-orgflow-theory/</link>
-      <pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2023-01-27-orgflow-1-the-orgflow-theory/</guid>
-      <description>If I had to describe my orgflow system in a single pass, I think it would be this:</description>
-    </item>
-    <item>
       <title>A Peculiar Anniversary</title>
-      <link>http://localhost:4321/posts/2023-01-26-a-peculiar-anniversary/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2023-01-26-a-peculiar-anniversary/</link>
       <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2023-01-26-a-peculiar-anniversary/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2023-01-26-a-peculiar-anniversary/</guid>
       <description>Today marks a peculiar anniversary. As of the 2nd of February, for the first time in my life, I have been at the same job for more than a year.</description>
     </item>
     <item>
       <title>Tips on Scientific Writing</title>
-      <link>http://localhost:4321/posts/2023-01-23-tips-on-scientific-writing/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2023-01-23-tips-on-scientific-writing/</link>
       <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2023-01-23-tips-on-scientific-writing/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2023-01-23-tips-on-scientific-writing/</guid>
       <description>At the moment, I am providing a lot of feedback on graduate student writing and it feels like I see the same types of errors that I (and I know many others) made when they started scientific/academic writing.</description>
     </item>
     <item>
       <title>MCG Reading: McPherson &amp; McDermott 2023</title>
-      <link>http://localhost:4321/posts/2023-01-20-mcg-reading-mcpherson-mcdermot-2023/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2023-01-20-mcg-reading-mcpherson-mcdermot-2023/</link>
       <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2023-01-20-mcg-reading-mcpherson-mcdermot-2023/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2023-01-20-mcg-reading-mcpherson-mcdermot-2023/</guid>
       <description>This week for the Music Cognition Reading Group we read Relative pitch representations and invariance to timbre by Malinda McPherson and Josh McDermott.</description>
     </item>
     <item>
       <title>Orgflow: 0. Saying No</title>
-      <link>http://localhost:4321/posts/2023-01-09-orgflow-0-saying-no/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2023-01-09-orgflow-0-saying-no/</link>
       <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2023-01-09-orgflow-0-saying-no/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2023-01-09-orgflow-0-saying-no/</guid>
       <description>As foreshadowed in the introductory post in this series, the orgflow system is not meant to make you more productive.</description>
     </item>
     <item>
       <title>Orgflow: How I Work</title>
-      <link>http://localhost:4321/posts/2023-01-09-orgflow-how-i-organize/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2023-01-09-orgflow-how-i-organize/</link>
       <pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2023-01-09-orgflow-how-i-organize/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2023-01-09-orgflow-how-i-organize/</guid>
       <description>We have introduced a new monthly standing meeting at the Music Cognition Group where the focus is meant to be on how to work.</description>
     </item>
     <item>
       <title>SMPC Anti-Racism Call for First Equity Officer</title>
-      <link>http://localhost:4321/posts/2022-09-19-smpc-anti-racism-call-for-first-equity-officer/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2022-09-19-smpc-anti-racism-call-for-first-equity-officer/</link>
       <pubDate>Mon, 19 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2022-09-19-smpc-anti-racism-call-for-first-equity-officer/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2022-09-19-smpc-anti-racism-call-for-first-equity-officer/</guid>
       <description>Last week members of SMPC got an email for several board positions, one of which is the new Equity Officer (a recently converted member at large).</description>
     </item>
     <item>
       <title>Summer Consortiums and Workshops 2022</title>
-      <link>http://localhost:4321/posts/2022-09-17-summer-consortiums-and-workshops-2022/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2022-09-17-summer-consortiums-and-workshops-2022/</link>
       <pubDate>Sat, 17 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2022-09-17-summer-consortiums-and-workshops-2022/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2022-09-17-summer-consortiums-and-workshops-2022/</guid>
       <description>I&amp;rsquo;ve have the pleasure of spending the last two weeks traveling for work.</description>
     </item>
     <item>
       <title>Some UK and European Resources for North American Music Science Graduate Students</title>
-      <link>http://localhost:4321/posts/2022-08-15-some-uk-and-european-resources-for-north-american-music-scientists/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2022-08-15-some-uk-and-european-resources-for-north-american-music-scientists/</link>
       <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2022-08-15-some-uk-and-european-resources-for-north-american-music-scientists/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2022-08-15-some-uk-and-european-resources-for-north-american-music-scientists/</guid>
       <description>Last week at SMPC 2022 I participated on a panel that tried to dole out as much advice as possible to graduate students in the field of music science / music cognition as what they might want to do after grad school.</description>
     </item>
     <item>
       <title>Personal GTD Categories for Navigating the Day to Day</title>
-      <link>http://localhost:4321/posts/2022-07-08-personal-gtd-categories-for-navigating-the-day-to-day/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2022-07-08-personal-gtd-categories-for-navigating-the-day-to-day/</link>
       <pubDate>Fri, 08 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2022-07-08-personal-gtd-categories-for-navigating-the-day-to-day/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2022-07-08-personal-gtd-categories-for-navigating-the-day-to-day/</guid>
       <description>After asking Twitter which categories they used to basically &amp;ldquo;group&amp;rdquo; together the many &amp;ldquo;things&amp;rdquo; in which they have to do, I was mostly met with people (in private) being like &amp;ldquo;I have no idea even what you are asking&amp;rdquo;.</description>
     </item>
     <item>
       <title>Considering Plan D: Data Science After Academia</title>
-      <link>http://localhost:4321/posts/2022-05-05-considering-plan-d-data-science-after-academia/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2022-05-05-considering-plan-d-data-science-after-academia/</link>
       <pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2022-05-05-considering-plan-d-data-science-after-academia/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2022-05-05-considering-plan-d-data-science-after-academia/</guid>
       <description>This week I gave an invited talk as a part of the Australian Music and Psychology Society&amp;rsquo;s Amplify Your Research speaker series.</description>
     </item>
     <item>
       <title>Five Books for Your 1st Year as a PhD student in Music and Science</title>
-      <link>http://localhost:4321/posts/2022-03-30-five-books-for-your-1st-year-as-a-phd-student-in-music-and-science/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2022-03-30-five-books-for-your-1st-year-as-a-phd-student-in-music-and-science/</link>
       <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2022-03-30-five-books-for-your-1st-year-as-a-phd-student-in-music-and-science/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2022-03-30-five-books-for-your-1st-year-as-a-phd-student-in-music-and-science/</guid>
       <description>When you first dive into the field of music and science as a graduate student, you might be tempted to dive straight into your niche and start reading anything and everything related to your thesis topic.</description>
     </item>
     <item>
       <title>Habit Tracking Success</title>
-      <link>http://localhost:4321/posts/2022-03-23-habit-tracking-success/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2022-03-23-habit-tracking-success/</link>
       <pubDate>Wed, 23 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2022-03-23-habit-tracking-success/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2022-03-23-habit-tracking-success/</guid>
       <description>It&amp;rsquo;s important to invest in yourself, regardless of your employment situation.</description>
     </item>
     <item>
       <title>Ta ta, Goldsmiths; Hallo, Amsterdam</title>
-      <link>http://localhost:4321/posts/2022-01-27-ta-ta-goldsmiths-hallo-amsterdam/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2022-01-27-ta-ta-goldsmiths-hallo-amsterdam/</link>
       <pubDate>Fri, 28 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2022-01-27-ta-ta-goldsmiths-hallo-amsterdam/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2022-01-27-ta-ta-goldsmiths-hallo-amsterdam/</guid>
       <description>Today is my last day working as a Postdoc in the Department of Psychology at Goldsmiths, University of London.</description>
     </item>
     <item>
       <title>Invasion of the &#39;Non-Musicians&#39;</title>
-      <link>http://localhost:4321/posts/2021-11-15-invasion-of-the-non-musicians/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2021-11-15-invasion-of-the-non-musicians/</link>
       <pubDate>Mon, 15 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2021-11-15-invasion-of-the-non-musicians/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2021-11-15-invasion-of-the-non-musicians/</guid>
       <description>At the end of last week Ted Gioia shared a blog post that reminded him of &amp;ldquo;the STEM-ification of musicology and how desperately we need more interdisciplinary dialogue about music&amp;rdquo;.</description>
     </item>
     <item>
       <title>October Updates</title>
-      <link>http://localhost:4321/posts/2021-11-04-october-updates/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2021-11-04-october-updates/</link>
       <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2021-11-04-october-updates/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2021-11-04-october-updates/</guid>
       <description>What&amp;rsquo;s new this past month? I&amp;rsquo;ve gone from under-employed to working what seems to be like full time, which is a welcome change of pace.</description>
     </item>
     <item>
       <title>Part Time September</title>
-      <link>http://localhost:4321/posts/2021-09-30-part-time-september/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2021-09-30-part-time-september/</link>
       <pubDate>Thu, 30 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2021-09-30-part-time-september/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2021-09-30-part-time-september/</guid>
       <description>I think I am finally settled into the groove of working part-time.</description>
     </item>
     <item>
       <title>App-less August</title>
-      <link>http://localhost:4321/posts/2021-08-28-app-less-august/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2021-08-28-app-less-august/</link>
       <pubDate>Sat, 28 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2021-08-28-app-less-august/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2021-08-28-app-less-august/</guid>
       <description>I spent the last month trying my best to avoid the scrolling apps.</description>
     </item>
     <item>
       <title>The End of TROMPA</title>
-      <link>http://localhost:4321/posts/2021-06-16-the-end-of-trompa/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2021-06-16-the-end-of-trompa/</link>
       <pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2021-06-16-the-end-of-trompa/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2021-06-16-the-end-of-trompa/</guid>
       <description>Last Month TROMPA had its 36th month meaning the project is &amp;ldquo;technically&amp;rdquo; over.</description>
     </item>
     <item>
       <title>Reviewing for SysMus 2021</title>
-      <link>http://localhost:4321/posts/2021-06-08-reviewing-for-sysmus-2021/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2021-06-08-reviewing-for-sysmus-2021/</link>
       <pubDate>Tue, 08 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2021-06-08-reviewing-for-sysmus-2021/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2021-06-08-reviewing-for-sysmus-2021/</guid>
       <description>Having just completed a few abstract reviews for SysMus 21, I have a two thoughts I think are worth sharing.</description>
     </item>
     <item>
       <title>The Perceptual Attraction of Pre-Dominant Chords</title>
-      <link>http://localhost:4321/posts/2021-05-13-pre-dom-preprint/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2021-05-13-pre-dom-preprint/</link>
       <pubDate>Mon, 24 May 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2021-05-13-pre-dom-preprint/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2021-05-13-pre-dom-preprint/</guid>
       <description>Earlier this year a collaboration paper I worked on was accepted at Music Perception.</description>
     </item>
     <item>
       <title>Understanding Melodic Dictation via Experimental Methods</title>
-      <link>http://localhost:4321/posts/2021-05-11-understanding-melodic-dictation-via-experimental-methods/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2021-05-11-understanding-melodic-dictation-via-experimental-methods/</link>
       <pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2021-05-11-understanding-melodic-dictation-via-experimental-methods/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2021-05-11-understanding-melodic-dictation-via-experimental-methods/</guid>
       <description>Last month I received a copy of The Routledge Companion to Aural Skills Pedagogy featuring a chapter titled &amp;ldquo;Understanding Melodic Dictation via Experimental Methods&amp;rdquo; by yours truly!</description>
     </item>
     <item>
       <title>Goldsmiths x Soundout Postdoc</title>
-      <link>http://localhost:4321/posts/2021-05-11-goldsmiths-x-soundout-postdoc/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2021-05-11-goldsmiths-x-soundout-postdoc/</link>
       <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2021-05-11-goldsmiths-x-soundout-postdoc/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2021-05-11-goldsmiths-x-soundout-postdoc/</guid>
       <description>Today&amp;rsquo;s an exciting day as I signed a contract for my next year-ish of employment.</description>
     </item>
     <item>
       <title>Website Makeover</title>
-      <link>http://localhost:4321/posts/2021-04-11-website-makeover/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2021-04-11-website-makeover/</link>
       <pubDate>Sun, 11 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2021-04-11-website-makeover/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2021-04-11-website-makeover/</guid>
       <description>After a few months of not blogging, I’m hoping to return to writing with a bit more regularity.</description>
     </item>
     <item>
       <title>The MeloSol Corpus</title>
-      <link>http://localhost:4321/posts/the-melosol-corpus/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/the-melosol-corpus/</link>
       <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/the-melosol-corpus/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/the-melosol-corpus/</guid>
       <description>Earlier this month I learned some of the research from my dissertation was accepted for publication!</description>
     </item>
     <item>
       <title>Back to Musicology</title>
-      <link>http://localhost:4321/posts/back-to-musicology/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/back-to-musicology/</link>
       <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/back-to-musicology/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/back-to-musicology/</guid>
       <description>Sound the TROMPA After a few weeks looking for work, in September I will be starting as Senior Research Associate on the TROMPA project!</description>
     </item>
     <item>
       <title>Begin the Fugue, Part I</title>
-      <link>http://localhost:4321/posts/2020-06-29-begin-the-fugue-part-i/begin-the-fugue-part-i/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2020-06-29-begin-the-fugue-part-i/begin-the-fugue-part-i/</link>
       <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2020-06-29-begin-the-fugue-part-i/begin-the-fugue-part-i/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2020-06-29-begin-the-fugue-part-i/begin-the-fugue-part-i/</guid>
       <description>The past few months have been pretty exhausting. On top of all things lockdown and the global pandemic, a little over a month ago I was told that my job was “at risk” of redundancy.</description>
     </item>
     <item>
       <title>Begin the Fugue, Part II</title>
-      <link>http://localhost:4321/posts/2020-06-29-begin-the-fugue-part-ii/begin-the-fugue-part-ii/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2020-06-29-begin-the-fugue-part-ii/begin-the-fugue-part-ii/</link>
       <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2020-06-29-begin-the-fugue-part-ii/begin-the-fugue-part-ii/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2020-06-29-begin-the-fugue-part-ii/begin-the-fugue-part-ii/</guid>
       <description>Vocationtional Vicissitudes After existing in this bootcamp space for the past few months, I feel like I am walking away with a very fresh take on what it means to teach in a vocational, rather than a liberal arts setting.</description>
     </item>
     <item>
       <title>Begin the Fugue, Part III</title>
-      <link>http://localhost:4321/posts/2020-06-29-begin-the-fugue-part-iii/begin-the-fugue-part-iii/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2020-06-29-begin-the-fugue-part-iii/begin-the-fugue-part-iii/</link>
       <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2020-06-29-begin-the-fugue-part-iii/begin-the-fugue-part-iii/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2020-06-29-begin-the-fugue-part-iii/begin-the-fugue-part-iii/</guid>
       <description>What’s Next Having coached many people to apply and get their first jobs in the world of data science, I have now seen A LOT of job postings and understand that a JD (job description) is more of a wish list of an ideal candidate rather than a required listing of skills.</description>
     </item>
     <item>
       <title>Life after a PhD in Systematic Musicology: How You Might Prepare for Industry?</title>
-      <link>http://localhost:4321/posts/2020-06-09-life-after-a-phd-in-systematic-musicology-how-you-might-prepare-for-industry/life-after-a-phd-in-systematic-musicology-how-you-might-prepare-for-industry/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2020-06-09-life-after-a-phd-in-systematic-musicology-how-you-might-prepare-for-industry/life-after-a-phd-in-systematic-musicology-how-you-might-prepare-for-industry/</link>
       <pubDate>Tue, 09 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2020-06-09-life-after-a-phd-in-systematic-musicology-how-you-might-prepare-for-industry/life-after-a-phd-in-systematic-musicology-how-you-might-prepare-for-industry/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2020-06-09-life-after-a-phd-in-systematic-musicology-how-you-might-prepare-for-industry/life-after-a-phd-in-systematic-musicology-how-you-might-prepare-for-industry/</guid>
       <description>This post originally appeared on the SysMus blog on June 9th, 2020.</description>
     </item>
     <item>
       <title>Regression Modeling Strategies 2020 Review</title>
-      <link>http://localhost:4321/posts/2020-05-29-regression-modeling-strategies-review/regression-modeling-strategies-review/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2020-05-29-regression-modeling-strategies-review/regression-modeling-strategies-review/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2020-05-29-regression-modeling-strategies-review/regression-modeling-strategies-review/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2020-05-29-regression-modeling-strategies-review/regression-modeling-strategies-review/</guid>
       <description>A couple of weeks ago I attended Dr. Frank Harrell’s Regression Modeling Strategies course.</description>
     </item>
     <item>
       <title>RStudio Instructor Certification Thoughts</title>
-      <link>http://localhost:4321/posts/rstudio-instructor-certification-thoughts/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/rstudio-instructor-certification-thoughts/</link>
       <pubDate>Mon, 11 May 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/rstudio-instructor-certification-thoughts/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/rstudio-instructor-certification-thoughts/</guid>
       <description>I have always tried to live by the adage that if you are going to do something, you should try to do it well.</description>
     </item>
     <item>
       <title>Blog on (Data Science) Blogs</title>
-      <link>http://localhost:4321/posts/2020-02-06-blog-on-blogs/blog-on-blogs/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2020-02-06-blog-on-blogs/blog-on-blogs/</link>
       <pubDate>Fri, 07 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2020-02-06-blog-on-blogs/blog-on-blogs/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2020-02-06-blog-on-blogs/blog-on-blogs/</guid>
       <description>We’re nearing the point of saturation when it comes to data science blogs.</description>
     </item>
     <item>
       <title>Prelude to a Career</title>
-      <link>http://localhost:4321/posts/prelude-to-a-career/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/prelude-to-a-career/</link>
       <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/prelude-to-a-career/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/prelude-to-a-career/</guid>
       <description>It’s been two months since I’ve last blogged! In the time since SMPC, I’ve done a fair bit of traveling and officially closed the graduate student chapter in my life.</description>
     </item>
     <item>
       <title>SMPC for Students</title>
-      <link>http://localhost:4321/posts/2019-07-31-smpc-for-students/smpc-for-students/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2019-07-31-smpc-for-students/smpc-for-students/</link>
       <pubDate>Wed, 31 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2019-07-31-smpc-for-students/smpc-for-students/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2019-07-31-smpc-for-students/smpc-for-students/</guid>
       <description>Next week is SMPC!!! I’m super excited for it (as always), but this year I’m justifiably a bit more excited because this will be my first experience going to a conference as a member of the Executive Board representing the student members of the Society for Music Perception and Cognition.</description>
     </item>
     <item>
       <title>Thoughts on Doing a Master&#39;s Degree in Music Science</title>
-      <link>http://localhost:4321/posts/2019-06-27-thoughts-on-doing-a-master-s-degree-in-music-science/thoughts-on-doing-a-master-s-degree-in-music-science/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2019-06-27-thoughts-on-doing-a-master-s-degree-in-music-science/thoughts-on-doing-a-master-s-degree-in-music-science/</link>
       <pubDate>Mon, 08 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2019-06-27-thoughts-on-doing-a-master-s-degree-in-music-science/thoughts-on-doing-a-master-s-degree-in-music-science/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2019-06-27-thoughts-on-doing-a-master-s-degree-in-music-science/thoughts-on-doing-a-master-s-degree-in-music-science/</guid>
       <description>I read somewhere on the internet that if more than three people email you with the same question, it’s worth writing your answer up in a blog post.</description>
     </item>
     <item>
       <title>Thank You, Toynbee</title>
-      <link>http://localhost:4321/posts/2019-06-14-thank-you-toynbee/thank-you-toynbee/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2019-06-14-thank-you-toynbee/thank-you-toynbee/</link>
       <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2019-06-14-thank-you-toynbee/thank-you-toynbee/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2019-06-14-thank-you-toynbee/thank-you-toynbee/</guid>
       <description>After a year, my time is now up as a Residential Volunteer Worker at Toynbee Hall.</description>
     </item>
     <item>
       <title>Embracing Career Diversity</title>
-      <link>http://localhost:4321/posts/2019-06-12-embracing-career-diversity/embracing-career-diversity/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2019-06-12-embracing-career-diversity/embracing-career-diversity/</link>
       <pubDate>Wed, 12 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2019-06-12-embracing-career-diversity/embracing-career-diversity/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2019-06-12-embracing-career-diversity/embracing-career-diversity/</guid>
       <description>Things Are Different Now Hello, first-blog-post-since-I-defended-my-Ph.D! It’s wild to think that after five or so years (between starting the the MSc.</description>
     </item>
     <item>
       <title>Toynbee Hall Datathon</title>
-      <link>http://localhost:4321/posts/2019-06-14-thank-you-toynbee/2019-04-23-toynbee-hall-datathon/toynbee-hall-datathon/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2019-06-14-thank-you-toynbee/2019-04-23-toynbee-hall-datathon/toynbee-hall-datathon/</link>
       <pubDate>Tue, 23 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2019-06-14-thank-you-toynbee/2019-04-23-toynbee-hall-datathon/toynbee-hall-datathon/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2019-06-14-thank-you-toynbee/2019-04-23-toynbee-hall-datathon/toynbee-hall-datathon/</guid>
       <description>Background Not everyone might be aware, but in addition to living that dissertation life this past year, I have also been volunteering at Toynbee Hall as part of their newly re-started Residential Volunteer Worker program.</description>
     </item>
     <item>
       <title>Sempre Grad Conference, 2019</title>
-      <link>http://localhost:4321/posts/2019-03-27-sempre-grad-conference-2019/sempre-grad-conference-2019/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2019-03-27-sempre-grad-conference-2019/sempre-grad-conference-2019/</link>
       <pubDate>Thu, 28 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2019-03-27-sempre-grad-conference-2019/sempre-grad-conference-2019/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2019-03-27-sempre-grad-conference-2019/sempre-grad-conference-2019/</guid>
       <description>Since I am planning on spending the whole day today writing, I figured: What better way to warm up to some writing than with some writing?</description>
     </item>
     <item>
       <title>Digital Representations</title>
-      <link>http://localhost:4321/posts/2019-03-22-digital-representations/digital-representations/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2019-03-22-digital-representations/digital-representations/</link>
       <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2019-03-22-digital-representations/digital-representations/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2019-03-22-digital-representations/digital-representations/</guid>
       <description>I obviously could not resist writing a blog post about yesterday’s Google Doodle twitter buzz.</description>
     </item>
     <item>
       <title>#wikiwednesday</title>
-      <link>http://localhost:4321/posts/2019-03-13-wikiwednesday/wikiwednesday/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2019-03-13-wikiwednesday/wikiwednesday/</link>
       <pubDate>Wed, 13 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2019-03-13-wikiwednesday/wikiwednesday/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2019-03-13-wikiwednesday/wikiwednesday/</guid>
       <description>One of the biggest issues that I lament about regarding Twitter is how there is so much great information just falling through my feed, never to be recovered again.</description>
     </item>
     <item>
       <title>Cataloging Memories with Music</title>
-      <link>http://localhost:4321/posts/2018-12-20-cataloging-memories-with-music/cataloging-memories-with-music/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2018-12-20-cataloging-memories-with-music/cataloging-memories-with-music/</link>
       <pubDate>Fri, 21 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2018-12-20-cataloging-memories-with-music/cataloging-memories-with-music/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2018-12-20-cataloging-memories-with-music/cataloging-memories-with-music/</guid>
       <description>The past few times that I have sat down to work on my dissertation I have run into a writer’s block.</description>
     </item>
     <item>
       <title>Examining Musical Sophistication</title>
-      <link>http://localhost:4321/posts/examining-musical-sophistication/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/examining-musical-sophistication/</link>
       <pubDate>Wed, 14 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/examining-musical-sophistication/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/examining-musical-sophistication/</guid>
       <description>Replication Replication. Is it popular and important for research in psychology?</description>
     </item>
     <item>
       <title>Project Management with git and R</title>
-      <link>http://localhost:4321/posts/project-management-with-git-and-r/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/project-management-with-git-and-r/</link>
       <pubDate>Tue, 08 May 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/project-management-with-git-and-r/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/project-management-with-git-and-r/</guid>
       <description>Staying Organized The semester is finally over meaning it’s time to put some serious dents into my research projects.</description>
     </item>
     <item>
       <title>To-Dos and Boundaries</title>
-      <link>http://localhost:4321/posts/2018-04-09-to-dos-and-boundaries/to-dos-and-boundaries/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2018-04-09-to-dos-and-boundaries/to-dos-and-boundaries/</link>
       <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2018-04-09-to-dos-and-boundaries/to-dos-and-boundaries/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2018-04-09-to-dos-and-boundaries/to-dos-and-boundaries/</guid>
       <description>As I write this sentence I know exactly how much time until my next break (45 minutes and 39 seconds if you’re interested).</description>
     </item>
     <item>
       <title>Hire Me (as a Data Scientist!), Part IV</title>
-      <link>http://localhost:4321/posts/2018-01-29-hire-me-as-a-data-scientist-part-iv/hire-me-as-a-data-scientist-part-iv/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2018-01-29-hire-me-as-a-data-scientist-part-iv/hire-me-as-a-data-scientist-part-iv/</link>
       <pubDate>Mon, 29 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2018-01-29-hire-me-as-a-data-scientist-part-iv/hire-me-as-a-data-scientist-part-iv/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2018-01-29-hire-me-as-a-data-scientist-part-iv/hire-me-as-a-data-scientist-part-iv/</guid>
       <description>Since this is my last post in the beer review series, I’ll keep this short and sweet in terms of analysis.</description>
     </item>
     <item>
       <title>Hire Me (as a Data Scientist!), Part III</title>
-      <link>http://localhost:4321/posts/2018-01-28-hire-me-as-a-datascientist-part-iii/hire-me-as-a-datascientist-part-iii/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2018-01-28-hire-me-as-a-datascientist-part-iii/hire-me-as-a-datascientist-part-iii/</link>
       <pubDate>Sun, 28 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2018-01-28-hire-me-as-a-datascientist-part-iii/hire-me-as-a-datascientist-part-iii/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2018-01-28-hire-me-as-a-datascientist-part-iii/hire-me-as-a-datascientist-part-iii/</guid>
       <description>Two questions down, two to go! For the third post I’ll explore the question:</description>
     </item>
     <item>
       <title>Looking For Musicologists on Twitter</title>
-      <link>http://localhost:4321/posts/2017-11-16-looking-for-musicologists-on-twitter/looking-for-musicologists-on-twitter/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2017-11-16-looking-for-musicologists-on-twitter/looking-for-musicologists-on-twitter/</link>
       <pubDate>Mon, 20 Nov 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2017-11-16-looking-for-musicologists-on-twitter/looking-for-musicologists-on-twitter/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2017-11-16-looking-for-musicologists-on-twitter/looking-for-musicologists-on-twitter/</guid>
       <description>For the most part, Twitter is full of garbage. But I’m an optimist and a firm believer in Sturgeon’s Law so by that logic there must be some good on it.</description>
     </item>
     <item>
       <title>Calculating iMultisets in R</title>
-      <link>http://localhost:4321/posts/calculating-imultisets-in-r/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/calculating-imultisets-in-r/</link>
       <pubDate>Sun, 19 Nov 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/calculating-imultisets-in-r/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/calculating-imultisets-in-r/</guid>
       <description>November is pretty much the worst month for people in higher education.</description>
     </item>
   </channel>

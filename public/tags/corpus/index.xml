@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Corpus on David John Baker</title>
-    <link>http://localhost:4321/tags/corpus/</link>
+    <link>https://davidjohnbaker.rbind.io/tags/corpus/</link>
     <description>Recent content in Corpus on David John Baker</description>
     <generator>Hugo 0.125.2</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 06 Oct 2020 13:30:33 +0100</lastBuildDate>
-    <atom:link href="http://localhost:4321/tags/corpus/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://davidjohnbaker.rbind.io/tags/corpus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The MeloSol Corpus</title>
-      <link>http://localhost:4321/posts/the-melosol-corpus/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/the-melosol-corpus/</link>
       <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/the-melosol-corpus/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/the-melosol-corpus/</guid>
       <description>Earlier this month I learned some of the research from my dissertation was accepted for publication!</description>
     </item>
   </channel>

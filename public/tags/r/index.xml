@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R on David John Baker</title>
-    <link>http://localhost:4321/tags/r/</link>
+    <link>https://davidjohnbaker.rbind.io/tags/r/</link>
     <description>Recent content in R on David John Baker</description>
     <generator>Hugo 0.125.2</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 14 Jun 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:4321/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://davidjohnbaker.rbind.io/tags/r/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A short reflection after writing my first, little Stan model</title>
-      <link>http://localhost:4321/posts/2023-06-14-a-short-reflection-after-writing-my-first-little-stan-model/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2023-06-14-a-short-reflection-after-writing-my-first-little-stan-model/</link>
       <pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2023-06-14-a-short-reflection-after-writing-my-first-little-stan-model/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2023-06-14-a-short-reflection-after-writing-my-first-little-stan-model/</guid>
       <description>During my postdoc, I&amp;rsquo;ve resolved to better understand Bayesian statistics. This started a few years ago, when I organized a group of colleagues to painstakingly make our way through Statistical Rethinking.</description>
     </item>
     <item>
       <title>Hire Me (as a Data Scientist!), Part IV</title>
-      <link>http://localhost:4321/posts/2018-01-29-hire-me-as-a-data-scientist-part-iv/hire-me-as-a-data-scientist-part-iv/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2018-01-29-hire-me-as-a-data-scientist-part-iv/hire-me-as-a-data-scientist-part-iv/</link>
       <pubDate>Mon, 29 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2018-01-29-hire-me-as-a-data-scientist-part-iv/hire-me-as-a-data-scientist-part-iv/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2018-01-29-hire-me-as-a-data-scientist-part-iv/hire-me-as-a-data-scientist-part-iv/</guid>
       <description>Since this is my last post in the beer review series, I’ll keep this short and sweet in terms of analysis.</description>
     </item>
     <item>
       <title>Hire Me (as a Data Scientist!), Part III</title>
-      <link>http://localhost:4321/posts/2018-01-28-hire-me-as-a-datascientist-part-iii/hire-me-as-a-datascientist-part-iii/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2018-01-28-hire-me-as-a-datascientist-part-iii/hire-me-as-a-datascientist-part-iii/</link>
       <pubDate>Sun, 28 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2018-01-28-hire-me-as-a-datascientist-part-iii/hire-me-as-a-datascientist-part-iii/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2018-01-28-hire-me-as-a-datascientist-part-iii/hire-me-as-a-datascientist-part-iii/</guid>
       <description>Two questions down, two to go! For the third post I’ll explore the question:</description>
     </item>
     <item>
       <title>Looking For Musicologists on Twitter</title>
-      <link>http://localhost:4321/posts/2017-11-16-looking-for-musicologists-on-twitter/looking-for-musicologists-on-twitter/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2017-11-16-looking-for-musicologists-on-twitter/looking-for-musicologists-on-twitter/</link>
       <pubDate>Mon, 20 Nov 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2017-11-16-looking-for-musicologists-on-twitter/looking-for-musicologists-on-twitter/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2017-11-16-looking-for-musicologists-on-twitter/looking-for-musicologists-on-twitter/</guid>
       <description>For the most part, Twitter is full of garbage. But I’m an optimist and a firm believer in Sturgeon’s Law so by that logic there must be some good on it.</description>
     </item>
     <item>
       <title>Calculating iMultisets in R</title>
-      <link>http://localhost:4321/posts/calculating-imultisets-in-r/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/calculating-imultisets-in-r/</link>
       <pubDate>Sun, 19 Nov 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/calculating-imultisets-in-r/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/calculating-imultisets-in-r/</guid>
       <description>November is pretty much the worst month for people in higher education.</description>
     </item>
   </channel>

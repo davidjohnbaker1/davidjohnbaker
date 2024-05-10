@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Talk on David John Baker</title>
-    <link>http://localhost:4321/tags/talk/</link>
+    <link>https://davidjohnbaker.rbind.io/tags/talk/</link>
     <description>Recent content in Talk on David John Baker</description>
     <generator>Hugo 0.125.2</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 18 Oct 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:4321/tags/talk/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://davidjohnbaker.rbind.io/tags/talk/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Musical Memory Experiments for Everyone (Including Experts!)</title>
-      <link>http://localhost:4321/posts/2023-10-18-musical-memory-experiments-for-everyone-including-experts/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2023-10-18-musical-memory-experiments-for-everyone-including-experts/</link>
       <pubDate>Wed, 18 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2023-10-18-musical-memory-experiments-for-everyone-including-experts/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2023-10-18-musical-memory-experiments-for-everyone-including-experts/</guid>
       <description>Yesterday I had the pleasure of giving a talk as part of the Centre for Music and Science seminar series at the University of Cambridge.</description>
     </item>
   </channel>

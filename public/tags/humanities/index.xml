@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Humanities on David John Baker</title>
-    <link>http://localhost:4321/tags/humanities/</link>
+    <link>https://davidjohnbaker.rbind.io/tags/humanities/</link>
     <description>Recent content in Humanities on David John Baker</description>
     <generator>Hugo 0.125.2</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 10 May 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:4321/tags/humanities/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://davidjohnbaker.rbind.io/tags/humanities/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why should it have to be elegant?</title>
-      <link>http://localhost:4321/posts/2023-05-10-why-should-it-have-to-be-elegant/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2023-05-10-why-should-it-have-to-be-elegant/</link>
       <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2023-05-10-why-should-it-have-to-be-elegant/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2023-05-10-why-should-it-have-to-be-elegant/</guid>
       <description>One of the best questions to ask yourself (and others) is:</description>
     </item>
     <item>
       <title>Invasion of the &#39;Non-Musicians&#39;</title>
-      <link>http://localhost:4321/posts/2021-11-15-invasion-of-the-non-musicians/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2021-11-15-invasion-of-the-non-musicians/</link>
       <pubDate>Mon, 15 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2021-11-15-invasion-of-the-non-musicians/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2021-11-15-invasion-of-the-non-musicians/</guid>
       <description>At the end of last week Ted Gioia shared a blog post that reminded him of &amp;ldquo;the STEM-ification of musicology and how desperately we need more interdisciplinary dialogue about music&amp;rdquo;.</description>
     </item>
   </channel>

@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Email-Faq on David John Baker</title>
-    <link>http://localhost:4321/tags/email-faq/</link>
+    <link>https://davidjohnbaker.rbind.io/tags/email-faq/</link>
     <description>Recent content in Email-Faq on David John Baker</description>
     <generator>Hugo 0.125.2</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 23 Jan 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:4321/tags/email-faq/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://davidjohnbaker.rbind.io/tags/email-faq/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tips on Scientific Writing</title>
-      <link>http://localhost:4321/posts/2023-01-23-tips-on-scientific-writing/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2023-01-23-tips-on-scientific-writing/</link>
       <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2023-01-23-tips-on-scientific-writing/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2023-01-23-tips-on-scientific-writing/</guid>
       <description>At the moment, I am providing a lot of feedback on graduate student writing and it feels like I see the same types of errors that I (and I know many others) made when they started scientific/academic writing.</description>
     </item>
     <item>
       <title>Some UK and European Resources for North American Music Science Graduate Students</title>
-      <link>http://localhost:4321/posts/2022-08-15-some-uk-and-european-resources-for-north-american-music-scientists/</link>
+      <link>https://davidjohnbaker.rbind.io/posts/2022-08-15-some-uk-and-european-resources-for-north-american-music-scientists/</link>
       <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/posts/2022-08-15-some-uk-and-european-resources-for-north-american-music-scientists/</guid>
+      <guid>https://davidjohnbaker.rbind.io/posts/2022-08-15-some-uk-and-european-resources-for-north-american-music-scientists/</guid>
       <description>Last week at SMPC 2022 I participated on a panel that tried to dole out as much advice as possible to graduate students in the field of music science / music cognition as what they might want to do after grad school.</description>
     </item>
   </channel>
