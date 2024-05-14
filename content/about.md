@@ -19,6 +19,6 @@ If you want ...
 * learn more about me, have a look around this website or download my 
   - [CV](https://davidjohnbaker.rbind.io/ref/DJB_CV_20240110.pdf) 
   - [resume](https://davidjohnbaker.rbind.io/ref/baker_resume_20240510.pdf)
-* help with something, please [send me an email](mailto:davidjohnbaker1@gmail.com).
+* help with something, please [send me an email](mailto:davidjohnbaker1@gmail.com) or [book a time to talk with me](https://calendly.com/davidjohnbaker/office-hours)
 
 :wq
