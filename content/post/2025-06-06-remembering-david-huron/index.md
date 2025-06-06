@@ -38,7 +38,7 @@ It's just strange (so strange?) to think that DH spoke with some 22 year old on 
 I think I tried to explain this to him one time at a conference, but he very much tried to down play his own role in all this.
 I am sure he knew many other factors played into what my career ended up being, but without this call, I know none of this would have happened.
 
-**I recount this story because it’s such a clear reminder of the impact that a teacher can have the life of a student. It's why I always respond at length to any email from a student asking me about getting involved in music cognition.**
+**I recount this story because it’s such a clear reminder of the impact that a teacher can have the life of a student.**
 
 He wasn’t even my teacher. I was never his student. 
 
