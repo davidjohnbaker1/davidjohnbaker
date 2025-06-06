@@ -5,7 +5,7 @@ date: '2025-06-06'
 slug: []
 categories: []
 tags: []
-draft: yes
+draft: no
 ---
 
 [Two years ago](https://davidjohnbaker.rbind.io/posts/2023-05-21-a-decade-of-music-and-science/), I referenced a 90 minute phone call I had with David Huron as being a post for another time. Today is the day for that. 
