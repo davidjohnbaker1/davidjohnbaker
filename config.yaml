@@ -1,7 +1,7 @@
 baseURL: https://davidjohnbaker.rbind.io
 languageCode: en-us
 title: David John Baker
-theme: hugo-theme-noteworthy
+theme: noteworthy
 enableRobotsTXT: yes
 paginate: 4
 summaryLength: 10
