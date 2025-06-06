@@ -11,7 +11,7 @@ draft: yes
 [Two years ago](https://davidjohnbaker.rbind.io/posts/2023-05-21-a-decade-of-music-and-science/), I referenced a 90 minute phone call I had with David Huron as being a post for another time. Today is the day for that. 
 
 I am sure there will be other posts from people who knew him better, but despite the fact I never worked with him, he had a tremendous impact on my life. 
-The least I can do is spend an hour this morning sharing what I can for others that are grieving. 
+The least I can do is spend the same 90 minutes this morning sharing what I can for others that are grieving. 
 
 For context: After I finished my undergraduate degree, I felt directionless. 
 I had just spent the past four years only playing trumpet (very hard to overstate this if you are not familiar with conservatory education) and I was afraid that maybe putting all my eggs in this basket was a mistake. 
