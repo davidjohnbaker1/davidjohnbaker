@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://davidjohnbaker.rbind.io/</loc>
+    <lastmod>2025-06-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://davidjohnbaker.rbind.io/post/</loc>
+    <lastmod>2025-06-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://davidjohnbaker.rbind.io/about/</loc>
     <lastmod>2024-05-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/</loc>
-    <lastmod>2024-05-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2024-03-01-a-quick-rant-on-hot-takes-from-music-scholars-who-don-t-work-in-the-sciences/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2024-03-01-a-quick-rant-on-hot-takes-from-music-scholars-who-don-t-work-in-the-sciences/</loc>
     <lastmod>2024-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/bluesky/</loc>
@@ -18,9 +21,6 @@
     <lastmod>2024-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/music-science/</loc>
-    <lastmod>2024-03-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/</loc>
     <lastmod>2024-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/science/</loc>
@@ -35,7 +35,7 @@
     <loc>https://davidjohnbaker.rbind.io/tags/guest-blog/</loc>
     <lastmod>2024-02-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2024-02-16-guest-blogging-for-duolingo/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2024-02-16-guest-blogging-for-duolingo/</loc>
     <lastmod>2024-02-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/music/</loc>
@@ -47,13 +47,13 @@
     <loc>https://davidjohnbaker.rbind.io/tags/universality/</loc>
     <lastmod>2024-02-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2024-02-09-a-brief-summary-of-my-career-in-the-uk-and-europe/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2024-02-09-a-brief-summary-of-my-career-in-the-uk-and-europe/</loc>
     <lastmod>2024-02-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/diary/</loc>
     <lastmod>2024-02-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2024-02-09-final-weeks-in-europe/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2024-02-09-final-weeks-in-europe/</loc>
     <lastmod>2024-02-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/personal/</loc>
@@ -68,7 +68,7 @@
     <loc>https://davidjohnbaker.rbind.io/tags/orgflow/</loc>
     <lastmod>2023-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2023-12-05-orgflow-system-and-tools/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2023-12-05-orgflow-system-and-tools/</loc>
     <lastmod>2023-12-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/productivity/</loc>
@@ -77,13 +77,13 @@
     <loc>https://davidjohnbaker.rbind.io/tags/vim/</loc>
     <lastmod>2023-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2023-12-05-orgflow-theory/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2023-12-05-orgflow-theory/</loc>
     <lastmod>2023-12-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/musical-memory/</loc>
     <lastmod>2023-10-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2023-10-18-musical-memory-experiments-for-everyone-including-experts/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2023-10-18-musical-memory-experiments-for-everyone-including-experts/</loc>
     <lastmod>2023-10-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/talk/</loc>
@@ -95,7 +95,7 @@
     <loc>https://davidjohnbaker.rbind.io/tags/academia/</loc>
     <lastmod>2023-09-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2023-09-13-bluesky-for-music-science-101/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2023-09-13-bluesky-for-music-science-101/</loc>
     <lastmod>2023-09-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/faq/</loc>
@@ -107,7 +107,7 @@
     <loc>https://davidjohnbaker.rbind.io/tags/quality-of-life/</loc>
     <lastmod>2023-08-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2023-08-22-summer-break-2023-reflections/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2023-08-22-summer-break-2023-reflections/</loc>
     <lastmod>2023-08-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/anti-racism/</loc>
@@ -116,13 +116,13 @@
     <loc>https://davidjohnbaker.rbind.io/tags/article/</loc>
     <lastmod>2023-08-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2023-08-07-building-anti-racism-and-music-science-resources/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2023-08-07-building-anti-racism-and-music-science-resources/</loc>
     <lastmod>2023-08-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/stem/</loc>
     <lastmod>2023-08-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2023-08-04-musicscience-on-bluesky/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2023-08-04-musicscience-on-bluesky/</loc>
     <lastmod>2023-08-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/icmpc17/</loc>
@@ -131,16 +131,16 @@
     <loc>https://davidjohnbaker.rbind.io/tags/conference/</loc>
     <lastmod>2023-07-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2023-07-18-joining-bluesky/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2023-07-18-joining-bluesky/</loc>
     <lastmod>2023-07-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/twitter/</loc>
     <lastmod>2023-07-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2023-07-06-a-standing-call-for-songs-to-sing-at-music-conferences/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2023-07-06-a-standing-call-for-songs-to-sing-at-music-conferences/</loc>
     <lastmod>2023-07-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2023-06-14-a-short-reflection-after-writing-my-first-little-stan-model/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2023-06-14-a-short-reflection-after-writing-my-first-little-stan-model/</loc>
     <lastmod>2023-06-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/bayes/</loc>
@@ -161,7 +161,7 @@
     <loc>https://davidjohnbaker.rbind.io/tags/literature/</loc>
     <lastmod>2023-06-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2023-06-06-mcg-reading-dynamic-models-for-musical-rhythm-perception-and-coordination/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2023-06-06-mcg-reading-dynamic-models-for-musical-rhythm-perception-and-coordination/</loc>
     <lastmod>2023-06-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/music-cognition/</loc>
@@ -179,13 +179,13 @@
     <loc>https://davidjohnbaker.rbind.io/tags/education/</loc>
     <lastmod>2023-05-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2023-05-22-receiving-a-letter-of-recommendation/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2023-05-22-receiving-a-letter-of-recommendation/</loc>
     <lastmod>2023-05-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/reference/</loc>
     <lastmod>2023-05-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2023-05-21-a-decade-of-music-and-science/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2023-05-21-a-decade-of-music-and-science/</loc>
     <lastmod>2023-05-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/career/</loc>
@@ -197,10 +197,10 @@
     <loc>https://davidjohnbaker.rbind.io/tags/short/</loc>
     <lastmod>2023-05-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2023-05-10-why-should-it-have-to-be-elegant/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2023-05-10-why-should-it-have-to-be-elegant/</loc>
     <lastmod>2023-05-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2023-04-13-how-can-music-science-be-more-socially-just/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2023-04-13-how-can-music-science-be-more-socially-just/</loc>
     <lastmod>2023-04-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/peer-review/</loc>
@@ -212,19 +212,19 @@
     <loc>https://davidjohnbaker.rbind.io/tags/smpc/</loc>
     <lastmod>2023-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2023-03-22-orgflow-6-notes-on-minutes-and-communications/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2023-03-22-orgflow-6-notes-on-minutes-and-communications/</loc>
     <lastmod>2023-03-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/tips/</loc>
     <lastmod>2023-03-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2023-03-13-thoughts-from-teaching-timbre-in-2023/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2023-03-13-thoughts-from-teaching-timbre-in-2023/</loc>
     <lastmod>2023-03-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/timbre/</loc>
     <lastmod>2023-03-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2023-02-02-can-narratives-of-competition-help-teach-computational-modeling-of-music/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2023-02-02-can-narratives-of-competition-help-teach-computational-modeling-of-music/</loc>
     <lastmod>2023-02-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/impulse-talk/</loc>
@@ -233,13 +233,13 @@
     <loc>https://davidjohnbaker.rbind.io/tags/pedagogy/</loc>
     <lastmod>2023-02-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2023-02-02-purposefully-re-inventing-the-wheel-teaching-computational-models-through-shared-open-examples/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2023-02-02-purposefully-re-inventing-the-wheel-teaching-computational-models-through-shared-open-examples/</loc>
     <lastmod>2023-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2023-02-10-lyrics-melodies-and-strong-emotions/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2023-02-10-lyrics-melodies-and-strong-emotions/</loc>
     <lastmod>2023-02-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2023-02-09-monte-verit-workshop-2023/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2023-02-09-monte-verit-workshop-2023/</loc>
     <lastmod>2023-02-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/replication/</loc>
@@ -248,7 +248,7 @@
     <loc>https://davidjohnbaker.rbind.io/tags/workshop/</loc>
     <lastmod>2023-02-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2023-01-26-a-peculiar-anniversary/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2023-01-26-a-peculiar-anniversary/</loc>
     <lastmod>2023-02-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/email-faq/</loc>
@@ -260,7 +260,7 @@
     <loc>https://davidjohnbaker.rbind.io/tags/living-post/</loc>
     <lastmod>2023-01-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2023-01-23-tips-on-scientific-writing/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2023-01-23-tips-on-scientific-writing/</loc>
     <lastmod>2023-01-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/writing/</loc>
@@ -269,34 +269,34 @@
     <loc>https://davidjohnbaker.rbind.io/tags/aural-skills/</loc>
     <lastmod>2023-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2023-01-20-mcg-reading-mcpherson-mcdermot-2023/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2023-01-20-mcg-reading-mcpherson-mcdermot-2023/</loc>
     <lastmod>2023-01-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/academic-life/</loc>
     <lastmod>2023-01-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2023-01-09-orgflow-0-saying-no/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2023-01-09-orgflow-0-saying-no/</loc>
     <lastmod>2023-01-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2023-01-09-orgflow-how-i-organize/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2023-01-09-orgflow-how-i-organize/</loc>
     <lastmod>2023-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2022-09-19-smpc-anti-racism-call-for-first-equity-officer/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2022-09-19-smpc-anti-racism-call-for-first-equity-officer/</loc>
     <lastmod>2022-09-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2022-09-17-summer-consortiums-and-workshops-2022/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2022-09-17-summer-consortiums-and-workshops-2022/</loc>
     <lastmod>2022-09-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2022-08-15-some-uk-and-european-resources-for-north-american-music-scientists/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2022-08-15-some-uk-and-european-resources-for-north-american-music-scientists/</loc>
     <lastmod>2022-08-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2022-07-08-personal-gtd-categories-for-navigating-the-day-to-day/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2022-07-08-personal-gtd-categories-for-navigating-the-day-to-day/</loc>
     <lastmod>2022-07-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/altac/</loc>
     <lastmod>2022-05-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2022-05-05-considering-plan-d-data-science-after-academia/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2022-05-05-considering-plan-d-data-science-after-academia/</loc>
     <lastmod>2022-05-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/data-science/</loc>
@@ -311,34 +311,34 @@
     <loc>https://davidjohnbaker.rbind.io/tags/books/</loc>
     <lastmod>2022-04-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2022-03-30-five-books-for-your-1st-year-as-a-phd-student-in-music-and-science/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2022-03-30-five-books-for-your-1st-year-as-a-phd-student-in-music-and-science/</loc>
     <lastmod>2022-04-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/grad-school/</loc>
     <lastmod>2022-04-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2022-03-23-habit-tracking-success/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2022-03-23-habit-tracking-success/</loc>
     <lastmod>2022-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2022-01-27-ta-ta-goldsmiths-hallo-amsterdam/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2022-01-27-ta-ta-goldsmiths-hallo-amsterdam/</loc>
     <lastmod>2022-01-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2021-11-15-invasion-of-the-non-musicians/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2021-11-15-invasion-of-the-non-musicians/</loc>
     <lastmod>2021-11-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2021-11-04-october-updates/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2021-11-04-october-updates/</loc>
     <lastmod>2021-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2021-09-30-part-time-september/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2021-09-30-part-time-september/</loc>
     <lastmod>2021-09-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2021-08-28-app-less-august/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2021-08-28-app-less-august/</loc>
     <lastmod>2021-08-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2021-06-16-the-end-of-trompa/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2021-06-16-the-end-of-trompa/</loc>
     <lastmod>2021-06-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2021-06-08-reviewing-for-sysmus-2021/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2021-06-08-reviewing-for-sysmus-2021/</loc>
     <lastmod>2021-06-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/sysmus/</loc>
@@ -353,97 +353,97 @@
     <loc>https://davidjohnbaker.rbind.io/tags/preprint/</loc>
     <lastmod>2021-05-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2021-05-13-pre-dom-preprint/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2021-05-13-pre-dom-preprint/</loc>
     <lastmod>2021-05-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/book-chapter/</loc>
     <lastmod>2021-05-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2021-05-11-understanding-melodic-dictation-via-experimental-methods/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2021-05-11-understanding-melodic-dictation-via-experimental-methods/</loc>
     <lastmod>2021-05-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/audio-branding/</loc>
     <lastmod>2021-05-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2021-05-11-goldsmiths-x-soundout-postdoc/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2021-05-11-goldsmiths-x-soundout-postdoc/</loc>
     <lastmod>2021-05-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/new-job/</loc>
     <lastmod>2021-05-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2021-04-11-website-makeover/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2021-04-11-website-makeover/</loc>
     <lastmod>2021-04-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/corpus/</loc>
     <lastmod>2020-10-06T13:30:33+01:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/the-melosol-corpus/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/the-melosol-corpus/</loc>
     <lastmod>2020-10-06T13:30:33+01:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/back-to-musicology/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/back-to-musicology/</loc>
     <lastmod>2020-07-31T12:21:43+01:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/musicology/</loc>
     <lastmod>2020-07-31T12:21:43+01:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2020-06-29-begin-the-fugue-part-i/begin-the-fugue-part-i/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2020-06-29-begin-the-fugue-part-i/begin-the-fugue-part-i/</loc>
     <lastmod>2020-06-29T09:48:55+01:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2020-06-29-begin-the-fugue-part-ii/begin-the-fugue-part-ii/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2020-06-29-begin-the-fugue-part-ii/begin-the-fugue-part-ii/</loc>
     <lastmod>2020-06-29T10:00:24+01:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2020-06-29-begin-the-fugue-part-iii/begin-the-fugue-part-iii/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2020-06-29-begin-the-fugue-part-iii/begin-the-fugue-part-iii/</loc>
     <lastmod>2020-06-29T10:01:03+01:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2020-06-09-life-after-a-phd-in-systematic-musicology-how-you-might-prepare-for-industry/life-after-a-phd-in-systematic-musicology-how-you-might-prepare-for-industry/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2020-06-09-life-after-a-phd-in-systematic-musicology-how-you-might-prepare-for-industry/life-after-a-phd-in-systematic-musicology-how-you-might-prepare-for-industry/</loc>
     <lastmod>2020-06-09T09:29:51+01:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2020-05-29-regression-modeling-strategies-review/regression-modeling-strategies-review/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2020-05-29-regression-modeling-strategies-review/regression-modeling-strategies-review/</loc>
     <lastmod>2020-05-29T13:41:24+01:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/rstudio-instructor-certification-thoughts/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/rstudio-instructor-certification-thoughts/</loc>
     <lastmod>2020-05-06T12:24:50+01:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2020-02-06-blog-on-blogs/blog-on-blogs/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2020-02-06-blog-on-blogs/blog-on-blogs/</loc>
     <lastmod>2020-02-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/prelude-to-a-career/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/prelude-to-a-career/</loc>
     <lastmod>2019-09-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2019-07-31-smpc-for-students/smpc-for-students/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2019-07-31-smpc-for-students/smpc-for-students/</loc>
     <lastmod>2019-07-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2019-06-27-thoughts-on-doing-a-master-s-degree-in-music-science/thoughts-on-doing-a-master-s-degree-in-music-science/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2019-06-27-thoughts-on-doing-a-master-s-degree-in-music-science/thoughts-on-doing-a-master-s-degree-in-music-science/</loc>
     <lastmod>2019-07-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2019-06-14-thank-you-toynbee/thank-you-toynbee/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2019-06-14-thank-you-toynbee/thank-you-toynbee/</loc>
     <lastmod>2019-06-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/career-diversity/</loc>
     <lastmod>2019-06-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2019-06-12-embracing-career-diversity/embracing-career-diversity/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2019-06-12-embracing-career-diversity/embracing-career-diversity/</loc>
     <lastmod>2019-06-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2019-06-14-thank-you-toynbee/2019-04-23-toynbee-hall-datathon/toynbee-hall-datathon/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2019-06-14-thank-you-toynbee/2019-04-23-toynbee-hall-datathon/toynbee-hall-datathon/</loc>
     <lastmod>2019-04-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/review/</loc>
     <lastmod>2019-03-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2019-03-27-sempre-grad-conference-2019/sempre-grad-conference-2019/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2019-03-27-sempre-grad-conference-2019/sempre-grad-conference-2019/</loc>
     <lastmod>2019-03-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2019-03-22-digital-representations/digital-representations/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2019-03-22-digital-representations/digital-representations/</loc>
     <lastmod>2019-03-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2019-03-13-wikiwednesday/wikiwednesday/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2019-03-13-wikiwednesday/wikiwednesday/</loc>
     <lastmod>2019-03-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2018-12-20-cataloging-memories-with-music/cataloging-memories-with-music/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2018-12-20-cataloging-memories-with-music/cataloging-memories-with-music/</loc>
     <lastmod>2018-12-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/memory/</loc>
@@ -452,10 +452,10 @@
     <loc>https://davidjohnbaker.rbind.io/tags/playlists/</loc>
     <lastmod>2018-12-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/examining-musical-sophistication/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/examining-musical-sophistication/</loc>
     <lastmod>2018-11-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/project-management-with-git-and-r/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/project-management-with-git-and-r/</loc>
     <lastmod>2018-05-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/10-minute-reads/</loc>
@@ -464,25 +464,25 @@
     <loc>https://davidjohnbaker.rbind.io/tags/pomodoro/</loc>
     <lastmod>2018-04-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2018-04-09-to-dos-and-boundaries/to-dos-and-boundaries/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2018-04-09-to-dos-and-boundaries/to-dos-and-boundaries/</loc>
     <lastmod>2018-04-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/beer/</loc>
     <lastmod>2018-01-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2018-01-29-hire-me-as-a-data-scientist-part-iv/hire-me-as-a-data-scientist-part-iv/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2018-01-29-hire-me-as-a-data-scientist-part-iv/hire-me-as-a-data-scientist-part-iv/</loc>
     <lastmod>2018-01-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2018-01-28-hire-me-as-a-datascientist-part-iii/hire-me-as-a-datascientist-part-iii/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2018-01-28-hire-me-as-a-datascientist-part-iii/hire-me-as-a-datascientist-part-iii/</loc>
     <lastmod>2018-01-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/data-mining/</loc>
     <lastmod>2017-11-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/2017-11-16-looking-for-musicologists-on-twitter/looking-for-musicologists-on-twitter/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/2017-11-16-looking-for-musicologists-on-twitter/looking-for-musicologists-on-twitter/</loc>
     <lastmod>2017-11-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidjohnbaker.rbind.io/posts/calculating-imultisets-in-r/</loc>
+    <loc>https://davidjohnbaker.rbind.io/post/calculating-imultisets-in-r/</loc>
     <lastmod>2017-11-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidjohnbaker.rbind.io/tags/transformational-theory/</loc>

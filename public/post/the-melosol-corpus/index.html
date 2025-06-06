@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no"/>
+
+    <title>The MeloSol Corpus | David John Baker</title>
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#FF3DB4">
+    <meta name="theme-color" content="#ffffff">
+
+    
+    
+    
+    <link rel="stylesheet" href="https://davidjohnbaker.rbind.io/css/main.min.4a6d18db377d1d1aab55ca19487041a65503ff3aab6cba87566b4ac2f0185bec.css"/>
+
+    
+    
+    
+
+    
+    
+ 
+    
+  
+    
+      
+    
+  
+
+</head>
+
+    <body>
+        
+<nav>
+  <header>
+    <div class="site-title">
+        <a href="/">David John Baker</a>
+    </div>  
+</header>
+
+  <div class="nav-menu">
+  
+    <a class="color-link nav-link" href="/about/">About</a>
+  
+    <a class="color-link nav-link" href="/archives/">Blog</a>
+  
+    <a class="color-link nav-link" href="/academic/">Academic</a>
+  
+    <a class="color-link nav-link" href="/industry/">Industry</a>
+  
+    <a class="color-link nav-link" href="/teaching/">Teaching</a>
+  
+    <a class="color-link nav-link" href="/service/">Service</a>
+  
+    <a class="color-link nav-link" href="/tags/">Tags</a>
+  
+  <a class="color-link nav-link" href="https://davidjohnbaker.rbind.io/index.xml" target="_blank" rel="noopener" type="application/rss+xml">RSS</a>
+</div>
+<footer class="footer">
+	<div class="social-icons">
+        
+    <a class="social-icon" href="davidjohnbaker1@gmail.com" target="_blank" rel="noopener" title="Email">
+        <svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" fill="#ABABAB" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
+            <path d="M25.2794292,5.59128519 L14,16.8707144 L2.72057081,5.59128519 C3.06733103,5.30237414 3.51336915,5.12857603 4,5.12857603 L24,5.12857603 C24.4866308,5.12857603 24.932669,5.30237414 25.2794292,5.59128519 Z M25.9956978,6.99633695 C25.998551,7.04004843 26,7.08414302 26,7.12857603 L26,20.871424 C26,21.0798433 25.9681197,21.2808166 25.9089697,21.4697335 L18.7156355,14.2763993 L25.9956978,6.99633695 Z M24.9498374,22.6319215 C24.6672737,22.7846939 24.3437653,22.871424 24,22.871424 L4,22.871424 C3.5268522,22.871424 3.09207889,22.7071233 2.74962118,22.432463 L10.0950247,15.0870594 L13.9848068,18.9768415 L14.1878486,18.7737996 L14.2030419,18.7889929 L17.6549753,15.3370594 L24.9498374,22.6319215 Z M2.00810114,21.0526627 C2.00273908,20.9929669 2,20.9325153 2,20.871424 L2,7.12857603 C2,7.08414302 2.00144896,7.04004843 2.00430222,6.99633695 L9.03436454,14.0263993 L2.00810114,21.0526627 Z"></path>
+        </svg>
+    </a>
+    
+
+    
+
+    
+    <a class="social-icon" href="https://bsky.app/profile/davidjohnbaker.bsky.social" target="_blank" rel="noopener" title="Twitter">
+        <svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" fill="#ABABAB" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
+            <path d="M8.991284,24.971612 C19.180436,24.971612 24.752372,16.530224 24.752372,9.210524 C24.752372,8.970656 24.747512,8.731868 24.736496,8.494376 C25.818008,7.712564 26.758256,6.737 27.5,5.62622 C26.507372,6.067076 25.439252,6.364292 24.318752,6.498212 C25.462472,5.812628 26.340512,4.727444 26.754584,3.434036 C25.684088,4.068536 24.499004,4.53002 23.23724,4.778528 C22.226468,3.701876 20.786828,3.028388 19.193828,3.028388 C16.134404,3.028388 13.653536,5.509256 13.653536,8.567492 C13.653536,9.0023 13.702244,9.424904 13.797176,9.830552 C9.19346,9.599108 5.11106,7.39472 2.3792,4.04294 C1.903028,4.861364 1.629032,5.812628 1.629032,6.827072 C1.629032,8.74904 2.606972,10.445612 4.094024,11.438132 C3.185528,11.41016 2.331788,11.160464 1.585184,10.745096 C1.583888,10.768208 1.583888,10.791428 1.583888,10.815728 C1.583888,13.49888 3.493652,15.738584 6.028088,16.246508 C5.562932,16.373084 5.07326,16.44134 4.56782,16.44134 C4.210988,16.44134 3.863876,16.406024 3.526484,16.34144 C4.231724,18.542264 6.276596,20.143796 8.701412,20.18894 C6.805148,21.674696 4.416836,22.56008 1.821488,22.56008 C1.374476,22.56008 0.93362,22.534592 0.5,22.4834 C2.951708,24.054476 5.862524,24.971612 8.991284,24.971612"></path>
+        </svg>
+    </a>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <a class="social-icon" href="www.linkedin.com/david-john-baker-phd" target="_blank" rel="noopener" title="LinkedIn">
+        <svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" fill="#ABABAB" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
+            <path d="M2,3.654102 C2,2.69908141 2.79442509,1.92397846 3.77383592,1.92397846 L24.2261641,1.92397846 C25.2058917,1.92397846 26,2.69908141 26,3.654102 L26,24.3462148 C26,25.3015521 25.2058917,26.0760215 24.2261641,26.0760215 L3.77383592,26.0760215 C2.79442509,26.0760215 2,25.3015521 2,24.3465315 L2,3.65378524 L2,3.654102 Z M9.27526132,22.1415901 L9.27526132,11.2356668 L5.65030092,11.2356668 L5.65030092,22.1415901 L9.27557808,22.1415901 L9.27526132,22.1415901 Z M7.46341463,9.74691162 C8.72727273,9.74691162 9.51409566,8.90940767 9.51409566,7.86284447 C9.49033893,6.79252455 8.72727273,5.97846056 7.48748812,5.97846056 C6.24675325,5.97846056 5.43649034,6.79252455 5.43649034,7.86284447 C5.43649034,8.90940767 6.22299652,9.74691162 7.4396579,9.74691162 L7.46309788,9.74691162 L7.46341463,9.74691162 Z M11.2815965,22.1415901 L14.9062401,22.1415901 L14.9062401,16.0519481 C14.9062401,15.7263225 14.9299968,15.4000634 15.0256573,15.1675641 C15.2876148,14.5159962 15.8840672,13.8416218 16.8856509,13.8416218 C18.1970225,13.8416218 18.7218879,14.8416218 18.7218879,16.3078872 L18.7218879,22.1415901 L22.3465315,22.1415901 L22.3465315,15.8885017 C22.3465315,12.5388027 20.5584416,10.9800443 18.1735825,10.9800443 C16.2182452,10.9800443 15.3595185,12.072854 14.8824834,12.8172315 L14.9065569,12.8172315 L14.9065569,11.2359835 L11.2819132,11.2359835 C11.3291099,12.2591067 11.2815965,22.1419069 11.2815965,22.1419069 L11.2815965,22.1415901 Z"></path>
+        </svg>
+    </a>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+    
+    <a class="social-icon" href="www.github.com/davidjohnbaker1" target="_blank" rel="noopener" title="GitHub">
+        <svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" fill="#ABABAB" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
+            <path d="M13.9988029,1.32087331 C6.82105037,1.32087331 1,7.14112562 1,14.3212723 C1,20.0649109 4.72454649,24.9370678 9.89038951,26.6560892 C10.5408085,26.7757983 10.7778323,26.374374 10.7778323,26.0296121 C10.7778323,25.7215609 10.7666595,24.9035493 10.760275,23.8189856 C7.14426471,24.6042767 6.38131925,22.0760223 6.38131925,22.0760223 C5.78995672,20.5740732 4.93762853,20.1742451 4.93762853,20.1742451 C3.75729765,19.3682044 5.02701126,19.3841656 5.02701126,19.3841656 C6.33183953,19.4759425 7.01817121,20.7241085 7.01817121,20.7241085 C8.17775254,22.7104801 10.0611744,22.1366749 10.8017741,21.8038838 C10.919887,20.9643246 11.2558703,20.3913175 11.6269683,20.066507 C8.74038491,19.7385043 5.70536235,18.6228163 5.70536235,13.6413251 C5.70536235,12.2223743 6.21213051,11.0611968 7.04370914,10.1530044 C6.90963504,9.82420367 6.46351945,8.50181809 7.17139875,6.71256734 C7.17139875,6.71256734 8.26234691,6.36301702 10.7459099,8.04532771 C11.78259,7.75642995 12.8950858,7.61277914 14.000399,7.60719272 C15.1049142,7.61277914 16.2166119,7.75642995 17.2548881,8.04532771 C19.736855,6.36301702 20.8262071,6.71256734 20.8262071,6.71256734 C21.5356825,8.50181809 21.0895669,9.82420367 20.9562909,10.1530044 C21.7894656,11.0611968 22.2922435,12.2223743 22.2922435,13.6413251 C22.2922435,18.6355852 19.2524325,19.734514 16.3570705,20.0561322 C16.8231376,20.4575564 17.2389269,21.2508282 17.2389269,22.4638795 C17.2389269,24.2012564 17.2229657,25.603448 17.2229657,26.0296121 C17.2229657,26.3775663 17.4575954,26.7821827 18.116793,26.6552912 C23.2786458,24.9322794 27,20.0633148 27,14.3212723 C27,7.14112562 21.1789496,1.32087331 13.9988029,1.32087331"></path>
+        </svg>
+    </a>
+    
+
+    
+    
+    
+
+    
+
+    
+    <a class="social-icon" href="https://scholar.google.com/citations?user=tigU2AkAAAAJ&amp;hl=en" target="_blank" rel="noopener" title="Google Scholar">
+        <svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" fill="#ABABAB" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
+             <path d="M15.7399177,5.48151786 C15.149924,4.82272859 14.4663239,4.49480724 13.6933878,4.49480724 C12.8185607,4.49480724 12.1471312,4.80966127 11.6791845,5.43796013 C11.2112379,6.06433732 10.9771365,6.82326666 10.9771365,7.71483354 C10.9771365,8.47423262 11.1052474,9.24733956 11.3616402,10.035649 C11.6170934,10.8236168 12.0350768,11.5270314 12.6210136,12.1470458 C13.2049434,12.7685974 13.8844439,13.0787968 14.6564833,13.0787968 C15.5171327,13.0787968 16.189459,12.7903763 16.671626,12.2137916 C17.1517432,11.6379755 17.3927199,10.9111166 17.3927199,10.035649 C17.3927199,9.29000051 17.2655484,8.50924961 17.0102233,7.69296927 C16.7561365,6.87562134 16.3319184,6.13812924 15.739875,5.48156056 L15.7399177,5.48151786 Z M24.3072528,4.96950105 L24.3072528,13.3462071 C24.3072528,13.7339989 23.9898792,14.0515006 23.6019592,14.0515006 L23.3422783,14.0515006 C22.9543156,14.0515006 22.6369848,13.7341271 22.6369848,13.3462071 L22.6369848,4.96950105 C22.6369848,4.62513879 22.5869788,4.33765779 23.068249,4.27714671 L23.068249,3.16262405 L19.3634081,6.20120253 C19.4061972,6.28058863 19.446851,6.33132057 19.4854124,6.39789556 C19.8110278,6.97418137 19.9768461,7.69087679 19.9768461,8.56681414 C19.9768461,9.23824368 19.8649625,9.84134739 19.638078,10.3740328 C19.4122611,10.9065473 19.1375912,11.3415267 18.817143,11.6765369 C18.496652,12.0127855 18.1752643,12.3201237 17.8538766,12.5967152 C17.5324462,12.8739047 17.2577763,13.162923 17.0328135,13.4629589 C16.8060571,13.7620125 16.6932767,14.0712297 16.6932767,14.3917206 C16.6932767,14.7126813 16.8397076,15.0387237 17.1317151,15.3673283 C17.4226551,15.6968724 17.7805972,16.0162103 18.2038758,16.3317049 C18.6279231,16.6450216 19.0510736,16.9928002 19.4743522,17.3712399 C19.8985703,17.74921 20.2545052,18.2354765 20.5454452,18.8259399 C20.8385631,19.4186239 20.9848231,20.071093 20.9848231,20.7882582 C20.9848231,21.7343577 20.7435475,22.5887297 20.2626616,23.3491963 C19.7802812,24.1064175 19.1518542,24.7106315 18.3796867,25.1537246 C17.6054695,25.599807 16.777531,25.9355858 15.8945476,26.1623422 C15.0097279,26.3870488 14.1317408,26.5 13.2548639,26.5 C12.7014246,26.5 12.1429889,26.4573818 11.5814359,26.3697112 C11.0178757,26.2822114 10.4532907,26.1276668 9.8847343,25.9098782 C9.31502485,25.6906377 8.81052389,25.4214338 8.37319577,25.0981672 C7.93475736,24.778146 7.58181166,24.3652016 7.3111559,23.862238 C7.04054285,23.3591036 6.90615445,22.7936645 6.90615445,22.1655364 C6.90615445,21.4203577 7.1136515,20.7291563 7.52975591,20.0847582 C7.94586031,19.4451002 8.49707907,18.9108775 9.18272893,18.487727 C10.3789864,17.7434877 12.2558547,17.2836547 14.8102164,17.1098936 C14.2262867,16.3799173 13.9333396,15.6928582 13.9333396,15.0498693 C13.9333396,14.6841125 14.0289531,14.2920503 14.218173,13.8687717 C13.9130554,13.9113899 13.5987992,13.9355175 13.2781801,13.9355175 C11.9059836,13.9355175 10.7472627,13.4894351 9.80628769,12.5911638 C8.86535538,11.6944724 8.39535897,10.5719642 8.39535897,9.21488479 C8.39535897,9.07298054 8.39941581,8.94802965 8.40970739,8.8095417 L2.83316537,8.8095417 L11.2417283,1.5 L25.1668346,1.5 L23.87996,2.50451805 L23.87996,4.27748834 C24.3577712,4.3388962 24.3072955,4.62607827 24.3072955,4.96950105 L24.3072528,4.96950105 Z M15.8172967,17.9839947 C15.6566455,17.9549562 15.430914,17.9386434 15.1399313,17.9386434 C14.512273,17.9386434 13.8947782,17.9941154 13.2885571,18.1048887 C12.6822934,18.2126727 12.084186,18.3947184 11.4941496,18.6515809 C10.9019353,18.906906 10.423996,19.2823566 10.0597766,19.7787865 C9.69355004,20.274576 9.51150436,20.858463 9.51150436,21.5303623 C9.51150436,22.1706609 9.67215551,22.7419077 9.99371402,23.2394479 C10.3142049,23.7338281 10.7373127,24.1208513 11.2632509,24.3980408 C11.7891891,24.6756999 12.3405787,24.8854176 12.916224,25.0231795 C13.4929795,25.1600875 14.0799412,25.2311463 14.6780913,25.2311463 C15.8610679,25.2311463 16.8794647,24.9647609 17.7338794,24.4320756 C18.5863724,23.899561 19.0135798,23.0772595 19.0135798,21.9672634 C19.0135798,21.7338025 18.9810823,21.5040141 18.916856,21.2796064 C18.8498112,21.0527219 18.7835352,20.8585057 18.7185829,20.6972567 C18.6534171,20.5389543 18.529363,20.3483679 18.3462498,20.1286576 C18.1642041,19.9083067 18.0248194,19.7455631 17.9310848,19.6372239 C17.8354714,19.5253403 17.6565431,19.3656714 17.3929761,19.1545445 C17.131587,18.9425209 16.9647012,18.8103104 16.8904822,18.7614574 C16.8172027,18.7100422 16.6270434,18.5711699 16.3207728,18.3458227 C16.0147157,18.1186393 15.8468903,17.9981723 15.8173394,17.983952 L15.8172967,17.9839947 Z"></path>
+        </svg>
+    </a>
+    
+
+    
+
+    
+    <a class="social-icon" href="https://orcid.org/0000-0003-3921-7517" target="_blank" rel="noopener" title="Orcid">
+        <svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" fill="#ABABAB" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
+            <path d="M27,14 C27,21.1804687 21.1804687,27 14,27 C6.81953125,27 1,21.1804687 1,14 C1,6.81953125 6.81953125,1 14,1 C21.1804687,1 27,6.81953125 27,14 Z M9.76484375,19.9109375 L9.76484375,13.9492188 L9.76484375,9.03359375 L8.20078125,9.03359375 L8.20078125,19.9109375 L9.76484375,19.9109375 Z M12.0601563,9.03359375 L12.0601563,19.9210938 L16.3054688,19.9210938 C19.890625,19.9210938 22.0742188,17.2703125 22.0742188,14.4773437 C22.0742188,11.9078125 20.3070313,9.03359375 16.2851563,9.03359375 L12.0601563,9.03359375 Z M13.6242188,18.509375 L13.6242188,10.4453125 L16.03125,10.4453125 C19.078125,10.4453125 20.4695313,12.29375 20.4695313,14.4773437 C20.4695313,15.8179688 19.6570313,18.509375 16.1125,18.509375 L13.6242188,18.509375 Z M10.0085938,6.76875 C10.0085938,6.21015625 9.5515625,5.74296875 8.9828125,5.74296875 C8.4140625,5.74296875 7.95703125,6.2 7.95703125,6.76875 C7.95703125,7.32734375 8.4140625,7.79453125 8.9828125,7.79453125 C9.5515625,7.79453125 10.0085938,7.32734375 10.0085938,6.76875 Z"></path>
+        </svg>
+    </a>
+    
+
+    
+
+</div>
+
+
+
+
+	<p><a href="https://github.com/kimcc/hugo-theme-noteworthy" target="_blank" rel="noopener">Noteworthy theme</a></p>
+	<p><a href="https://gohugo.io" target="_blank" rel="noopener">Built with Hugo</a></p>
+
+	<script src="https://davidjohnbaker.rbind.io/js/main.min.a7205ef73b078c8daed6fe1b0826e8ba229ffabbb69d299d9446cf41f2c7d8aa.js" integrity="sha256-pyBe9zsHjI2u1v4bCCbouiKf+ru2nSmdlEbPQfLH2Ko=" crossorigin="anonymous"></script>
+</footer>
+</nav>
+
+        <div id="content" class="content-container">
+        
+
+<h1 class="post-title">The MeloSol Corpus</h1>
+    
+    <time>October 6, 2020</time>
+    
+    <div>
+        <p>
+        
+
+
+<p>Earlier this month I learned some of the research from my dissertation was accepted for publication!
+Publications are always reason to celebrate, but this one is especially deserving because of the amount of work that went into this project.
+I love sharing what I have been up to so of course I am going to write a post about it for those that are interested.</p>
+<p>You can find the <a href="https://psyarxiv.com/cmwr6">pre-print here</a>.</p>
+<div id="need-4-data" class="section level2">
+<h2>Need 4 Data</h2>
+<p>Let me begin by making a gross generalization: the harder data is to get, the more useful it is going to be.</p>
+<p>Of course that’s not a hard and fast rule, but it is easy to imagine a one dimensional continuum with large randomized clinical trials on one end and taking a tally of your friend’s opinion on the outcome of the next presidential election on the other.
+Aspects of randomization and large sample sizes in experimental designs that are set up to answer a specific question regarding the efficacy of some treatment will, in theory, but much more reliable than the convenience, collider conditioned sample of something notoriously as difficult to predict as an election.
+Most data probably exists somewhere between these extremes.</p>
+<p>I would bet that many fields of research have their own version of this continuum and I know my area of expertise in computational musicology is no different.
+Yes, we have a lot of data sets out there that you can use, but the thing is that if you study something as big and amorphous as “music”, you’re rarely going to be able to find what you want in terms of a usable data set if you have a very specific question you want to answer.</p>
+<p>There are <a href="http://www.ismir.net/resources/datasets/">tons of great music datasets</a> from the <a href="https://musicinformationretrieval.com/">music information retrevial</a> world, but many of these data sets tend to deal with audio data (like the waveform playing music to your headphones) rather than something that looks like sheet music.</p>
+<p>There’s tons of cool stuff that can be done with audio data (recommendation systems, the Shazam algorithm, dynamic time warping), but it’s very difficult to work with “the notes” (as a music theorist) with this kind of data.
+You need a digitized version of the score to be able to do this.</p>
+<p>There are a lot of ways to do get your data into one of the many helpful formats like <a href="https://en.wikipedia.org/wiki/MIDI">MIDI</a>, <a href="https://music-encoding.org/">MEI</a>, and <a href="http://kern.ccarh.org/">kern</a>, each with their own advantages and disadvantages, but the problem is just getting a paper score into these formats.</p>
+<p>More often than not, especially with MEI and kern, you need to have this data entered manually.
+Someone, somewhere needs to sit down and plop in each note into an application like <a href="https://musescore.org/en">MuseScore</a>.</p>
+<p>This process is unbelievably boring.
+It’s so boring that one of the <a href="https://www.humdrum.org/index.html">software toolboxes for manipulating kern</a> files is literally called <a href="https://www.google.com/search?q=define+humdrum&amp;oq=define+humdrum&amp;aqs=chrome..69i57j0l7.2757j1j4&amp;sourceid=chrome&amp;ie=UTF-8">humdrum</a>.</p>
+<p>So if you want to ask a new musical question, you pretty much have two choices.</p>
+<p>You can head over to something like <a href="http://kern.ccarh.org/">kern scores</a> and see what is there, with odds being that you’re not going to find exactly what you need OR you can make a new dataset.
+Seeing that grad school is all about contributing something new and helpful to the research community at large, I saw it as a worthwhile investment in myself and my community to do the latter.</p>
+<p>Specifically, what I am interested in is how people learn<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> melodies (both explicitly and implicitly).
+For my Ph.D., I wanted a dataset that I could use that had melodies that are used when people learn melodies.</p>
+<p>There of course was no ready-to-go dataset called “Learnable Melodies” and the closet thing to this was this giant dataset that has been around since the mid 1990s (a dataset older than many undergrads right now) that has thousands of folk song melodies called the <a href="http://kern.ccarh.org/browse?l=essen">Essen Folk Song Collection</a> which has over 6,000 monophonic (meaning a single line) melodies.
+It’s kind of close to what I wanted, but not exactly.</p>
+<p>In being interested in how people learn melodies also comes with this idea in the music and science literature that sort of assumes that if you have this big database of all these melodic patterns, you can use these patterns to help find meaningful correlates to human responses to music.</p>
+<p>This was an idea got a lot of attention first from this great book by Leonard Meyer called <a href="https://books.google.co.uk/books/about/Emotion_and_Meaning_in_Music.html?id=HuWCVGKhwy0C">Emotion and Meaning in Music</a> that linked the musical structure to how people hear music, but as of recently if you really want to dig into this area the canonical citation is David Huron’s <a href="https://books.google.co.uk/books?hl=en&amp;lr=&amp;id=sgr-DwAAQBAJ&amp;oi=fnd&amp;pg=PR5&amp;dq=david+huron+sweet+anticipation&amp;ots=0b1Cy0UQSZ&amp;sig=YP6ndavb5wcjKogsdZ8SOQb04Lw#v=onepage&amp;q=david%20huron%20sweet%20anticipation&amp;f=false">Sweet Anticipation</a>.</p>
+<p>In this book, Huron does some really neat stuff following up on Meyer’s ideas and this book continues to be the gateway drug to computational musicology for many people.</p>
+<p>I remember being really inspired reading this book before and during grad school and then getting even more into these ideas reading about some of the <a href="https://pubmed.ncbi.nlm.nih.gov/29749625/">computational models of auditory cognition</a> via the work of Marcus Pearce’s IDyOM model and the <a href="https://www.tandfonline.com/doi/abs/10.1080/09298219508570672">multiple viewpoints</a> paper that inspired this work.</p>
+<p>Both the work of Huron and Pearce have used corpora like the Essen collection extensively and it acts as the training data for many of these statistical models of music cognition.
+To relate this work to things in popular culture, the <a href="https://www.google.com/doodles/celebrating-johann-sebastian-bach">Google Doodle</a> that <a href="https://davidjohnbaker.rbind.io/post/digital-representations/">I wrote about a while ago</a> was trained using similar data that the multiple viewpoints paper was trained on.</p>
+<p>So I figured if I wanted to be a part of this conversation at the academic table, I should start by contributing something that might be helpful.</p>
+<p>So as a psychological fail safe, during my Ph.D. I digitized 783 melodies from a sight-singing book.<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a></p>
+<p>This meant entering over 36,000 notes by hand into MuseScore over the however many months I was writing my dissertation.
+It was not fun, but I am glad that I did it because now there’s a new dataset on the block called the <em>MeloSol</em> corpus!
+I ended up calling it the <em>MeloSol</em> corpus since it’s <em>Mel</em> odic data and the name of the first author of the book is someone named <em>Sol</em>.
+A very appropriate name for an author of an aural skills book.</p>
+</div>
+<div id="so-what" class="section level2">
+<h2>So What?</h2>
+<p>So now that it’s been digitized, what can you do with it?</p>
+<p>Well if you’re part of this very niche world of computational musicology, you can just read the <a href="https://psyarxiv.com/cmwr6">pre-print</a>, but if this is your first time even realizing computational musicology is a thing<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a> let me take you through a walk through of what’s here using the data visualizations I made as a guide.</p>
+<p>Let’s start with the first two figures (panels of four images each).</p>
+<blockquote>
+<p>FIGURE 1</p>
+</blockquote>
+<p><img src="Figure_1.png" style="width:100.0%" /></p>
+<blockquote>
+<p>FIGURE 2</p>
+</blockquote>
+<p><img src="Figure_2.png" style="width:100.0%" /></p>
+<p>These first two images are pretty much what an exploratory data analysis (EDA) look like if you’re a computational musicologist.
+They go beyond the fact that the data is 783 melodies made up of 49,730 analyzable tokens (basically notes and rests) and starts to look at sub-groups of interest.
+From the figures we can see that there happen to be more melodies in major rather than minor, what keys you can expect to find, and how long (measured in number of notes) the melodies are.</p>
+<p>We can also see from the bottom right corner of Figure 2 that my little corpus of 783 melodies is about 1/10th the size of the <em>Essen</em> I was talking about before.
+This is important to point out because one thing I am interested in as a researcher is how big your dataset actually has to be before you can start getting anything helpful out of it.
+In Figure 3 I also ran the FANTASTIC toolbox over all the corpora to show the distribution of these abstracted features.</p>
+<blockquote>
+<p>FIGURE 3</p>
+</blockquote>
+<p><img src="Figure_3.png" style="width:100.0%" /></p>
+<p>The fourth figure plots another aspect that might not be of immediate interest to non-music-psychology readers which is the contour or shape of a melody.</p>
+<blockquote>
+<p>FIGURE 4</p>
+</blockquote>
+<p><img src="Figure_4.png" style="width:100.0%" /></p>
+<p>Contour is not really something most people think or talk about when it comes to picking vocabulary to describe why they like certain melodies (unless you’re working your way through <a href="https://www.youtube.com/watch?v=VlvUmS5GUxg">Dr. Jacob Gran’s counterpoint vidoes</a>), but contour plays a very big role in the melody literature.</p>
+<p>I won’t get into that here, but through this Figure I just wanted to show the high level similarity between my little <em>MeloSol</em> corpus and some of the other corpora that are also single line melodies.
+We have the <em>Essen</em> collection (split between geographic region since there is an Asian subset of it) as well as some <em>Densmore</em> melodies.</p>
+<p>Up until this point, these are pretty much summary features of a melody answering questions you can measure either directly (what is the range, length) or indirectly (tonalness via a toolbox that approximates a measurement for it), but really what I would like as an end goal with this corpus is to have people start using the <em>MeloSol</em> in tandem with the <em>Essen</em> in exploring these claims I mentioned above about our latent understanding being mapped to corpora, so I went a bit deeper in comparing the <em>MeloSol</em> and the <em>Essen</em>.</p>
+<p>We dive into that comparison in the next two figures.</p>
+</div>
+<div id="comparing-corpora" class="section level2">
+<h2>Comparing Corpora</h2>
+<p>This gets a little more complicated, but not beyond the grasp of most people who have found this post.
+Figure 5 was an attempt to start to answer the question how similar these two corpora are.</p>
+<blockquote>
+<p>FIGURE 5</p>
+</blockquote>
+<p><img src="Figure_5.png" style="width:100.0%" /></p>
+<p>It’s kind of a difficult question because you need to come up with a way to operationalize similarity<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a>, but it’s an important question because when working with music data it is MUCH harder to get more data if you want it.</p>
+<p>Setting aside the annoying process of encoding it, most of our historical musical data comes from a finite population (borrowing the actual statistics definition here).
+Unlike trying to find the “true” average number of times a cat meows the longer you go without remembering to feed them– a task you can accomplish by just running lots of experiments on lots of cats in many conditions– you can’t really get more Bach or Davis if you had lots of hypotheses you want to test.<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a></p>
+<p>So instead of getting multiple datasets to keep testing ideas (like how the frequentists think about probability in the long run with many samples trying to model P(D|H)), we could try to Bayes it out (P(H|D)), but another approach that is a bit more brute force is this thing called bootstrapping your sample.</p>
+<p>There’s a great video here on it <a href="https://www.youtube.com/watch?v=655X9eZGxls">here</a>, but the TLDR is that you just pretend that the data that is in front of you is the theoretical population you never really get to know the “true” values of and just take lots of combinations of data to see how stable the relationships are in your dataset.</p>
+<p>This is basically what I wanted to do with these two corpora.</p>
+<p>The analysis in Figure 5 does this on the musical intervals that are present in the corpora.
+For those without a music reading background, a musical interval is the distance between two notes.
+So if you think of the first two notes of “Here comes the bride!”, instead of describing this as one being played (“Here”) then jumping up and repeating three times ("comes the bride!), we just call that musical moment by the distance jumped.</p>
+<p>If you think of a melody as just a bunch of intervals, and then these strings of intervals (melodies) as belonging to a bigger collection (the corpus) we can then have two big pools of data to compare to one another.
+One is a big pool of all the intervals that come from the <em>MeloSol</em> corpus and the other the <em>Essen</em>.
+The idea being that if you just grabbed random collections from each pool, could you know what pool you were pulling out of if you all you had to look at was the intervals you were seeing?</p>
+<p>If you couldn’t tell, you’d probably assume the corpora were very similar, but if it was kind of obvious, you’d consider them to be different.
+And don’t just do this a few times, but like 100,000 times.
+How often to certain intervals emerge from your sample?</p>
+<p>So what Figure 5 shows you is basically that thought experiment run on both of the corpora.
+The little dots from each color representing each corpora appear very close to one another suggesting that the intervals are drawn from our big pool with similar proportions, suggesting superficial similarities between the two.</p>
+<p>Now some more “musically” minded people might be like, yeah, no duh they are similar since they come from Western music (remember, that’s the point I am trying to make) but surely this task would be easier if you got to pull out strings that were longer than just one interval.</p>
+<p>That’s what Figure 6 tries to quantify.</p>
+<blockquote>
+<p>FIGURE 6</p>
+</blockquote>
+<p><img src="Figure_6.png" style="width:100.0%" /></p>
+<p>This figure shows what happens when you try to count up all the unique strings of various length and compare how similar they are using a rank order correlation.
+As you might expect, when you have shorter strings, the two pools are very closely related (having a correlation coefficient near 1), and the more unique intervals you plop on, the more dissimilar they get.</p>
+<p>Now this is quite a rough way to talk about similarity on the large level, and if this interests you but not like on this coarse level, there’s more of an applied theoretical link to this in the latest MTO with <a href="https://mtosmt.org/issues/mto.20.26.3/mto.20.26.3.miller.html">Brian Miller talking about this</a> with Leonard Meyer’s theory of style.</p>
+<p>This whole analysis is all to just hopefully show that there is a new corpus on the block with similar properties to the one we all have been using that is smaller and a bit more manageable and probably actually is closer to what we mean when we talk about the expectations of Western tonal music than all these European folk songs.</p>
+<p>So will people use it?
+Who knows, but I know I have.
+I’ve used it with great success for a new project that will get its own post when it comes out.</p>
+<p>If you have questions about this or computational musicology in general, please get in touch!</p>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>Not about to split hairs on the definition of learning here<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p>For the uninitiated, sight-singing is a skill most undergraduates majoring in music need to learn that allows you to look at a piece of music and know how it sounds without playing it on an instrument.<a href="#fnref2" class="footnote-back">↩︎</a></p></li>
+<li id="fn3"><p>Hello LinkedIn reader who thought they were about to read about data science<a href="#fnref3" class="footnote-back">↩︎</a></p></li>
+<li id="fn4"><p>woof<a href="#fnref4" class="footnote-back">↩︎</a></p></li>
+<li id="fn5"><p>I will take an aside here to point out how ridiculous this is to even assert that something like a p value would be meaningful in this context given the finite sample…<a href="#fnref5" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
+
+        </p>
+    </div>
+    
+
+    
+
+    <div class="page-footer">
+        
+        <hr class="footer-divider">
+        
+            <a class="tag" href="/tags/preprint">#preprint</a>
+        
+            <a class="tag" href="/tags/corpus">#corpus</a>
+        
+      
+    </div>
+
+
+        
+
+<link rel="stylesheet" type="text/css" href="/css/katex.min.css" crossorigin="anonymous">
+<script type="text/javascript" src="/js/katex.min.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/js/auto-render.min.js"onload="renderMathInElement(document.body);" crossorigin="anonymous"></script>
+
+        </div>
+        <footer class="footer-mobile">
+	<div class="social-icons">
+        
+    <a class="social-icon" href="davidjohnbaker1@gmail.com" target="_blank" rel="noopener" title="Email">
+        <svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" fill="#ABABAB" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
+            <path d="M25.2794292,5.59128519 L14,16.8707144 L2.72057081,5.59128519 C3.06733103,5.30237414 3.51336915,5.12857603 4,5.12857603 L24,5.12857603 C24.4866308,5.12857603 24.932669,5.30237414 25.2794292,5.59128519 Z M25.9956978,6.99633695 C25.998551,7.04004843 26,7.08414302 26,7.12857603 L26,20.871424 C26,21.0798433 25.9681197,21.2808166 25.9089697,21.4697335 L18.7156355,14.2763993 L25.9956978,6.99633695 Z M24.9498374,22.6319215 C24.6672737,22.7846939 24.3437653,22.871424 24,22.871424 L4,22.871424 C3.5268522,22.871424 3.09207889,22.7071233 2.74962118,22.432463 L10.0950247,15.0870594 L13.9848068,18.9768415 L14.1878486,18.7737996 L14.2030419,18.7889929 L17.6549753,15.3370594 L24.9498374,22.6319215 Z M2.00810114,21.0526627 C2.00273908,20.9929669 2,20.9325153 2,20.871424 L2,7.12857603 C2,7.08414302 2.00144896,7.04004843 2.00430222,6.99633695 L9.03436454,14.0263993 L2.00810114,21.0526627 Z"></path>
+        </svg>
+    </a>
+    
+
+    
+
+    
+    <a class="social-icon" href="https://bsky.app/profile/davidjohnbaker.bsky.social" target="_blank" rel="noopener" title="Twitter">
+        <svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" fill="#ABABAB" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
+            <path d="M8.991284,24.971612 C19.180436,24.971612 24.752372,16.530224 24.752372,9.210524 C24.752372,8.970656 24.747512,8.731868 24.736496,8.494376 C25.818008,7.712564 26.758256,6.737 27.5,5.62622 C26.507372,6.067076 25.439252,6.364292 24.318752,6.498212 C25.462472,5.812628 26.340512,4.727444 26.754584,3.434036 C25.684088,4.068536 24.499004,4.53002 23.23724,4.778528 C22.226468,3.701876 20.786828,3.028388 19.193828,3.028388 C16.134404,3.028388 13.653536,5.509256 13.653536,8.567492 C13.653536,9.0023 13.702244,9.424904 13.797176,9.830552 C9.19346,9.599108 5.11106,7.39472 2.3792,4.04294 C1.903028,4.861364 1.629032,5.812628 1.629032,6.827072 C1.629032,8.74904 2.606972,10.445612 4.094024,11.438132 C3.185528,11.41016 2.331788,11.160464 1.585184,10.745096 C1.583888,10.768208 1.583888,10.791428 1.583888,10.815728 C1.583888,13.49888 3.493652,15.738584 6.028088,16.246508 C5.562932,16.373084 5.07326,16.44134 4.56782,16.44134 C4.210988,16.44134 3.863876,16.406024 3.526484,16.34144 C4.231724,18.542264 6.276596,20.143796 8.701412,20.18894 C6.805148,21.674696 4.416836,22.56008 1.821488,22.56008 C1.374476,22.56008 0.93362,22.534592 0.5,22.4834 C2.951708,24.054476 5.862524,24.971612 8.991284,24.971612"></path>
+        </svg>
+    </a>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <a class="social-icon" href="www.linkedin.com/david-john-baker-phd" target="_blank" rel="noopener" title="LinkedIn">
+        <svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" fill="#ABABAB" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
+            <path d="M2,3.654102 C2,2.69908141 2.79442509,1.92397846 3.77383592,1.92397846 L24.2261641,1.92397846 C25.2058917,1.92397846 26,2.69908141 26,3.654102 L26,24.3462148 C26,25.3015521 25.2058917,26.0760215 24.2261641,26.0760215 L3.77383592,26.0760215 C2.79442509,26.0760215 2,25.3015521 2,24.3465315 L2,3.65378524 L2,3.654102 Z M9.27526132,22.1415901 L9.27526132,11.2356668 L5.65030092,11.2356668 L5.65030092,22.1415901 L9.27557808,22.1415901 L9.27526132,22.1415901 Z M7.46341463,9.74691162 C8.72727273,9.74691162 9.51409566,8.90940767 9.51409566,7.86284447 C9.49033893,6.79252455 8.72727273,5.97846056 7.48748812,5.97846056 C6.24675325,5.97846056 5.43649034,6.79252455 5.43649034,7.86284447 C5.43649034,8.90940767 6.22299652,9.74691162 7.4396579,9.74691162 L7.46309788,9.74691162 L7.46341463,9.74691162 Z M11.2815965,22.1415901 L14.9062401,22.1415901 L14.9062401,16.0519481 C14.9062401,15.7263225 14.9299968,15.4000634 15.0256573,15.1675641 C15.2876148,14.5159962 15.8840672,13.8416218 16.8856509,13.8416218 C18.1970225,13.8416218 18.7218879,14.8416218 18.7218879,16.3078872 L18.7218879,22.1415901 L22.3465315,22.1415901 L22.3465315,15.8885017 C22.3465315,12.5388027 20.5584416,10.9800443 18.1735825,10.9800443 C16.2182452,10.9800443 15.3595185,12.072854 14.8824834,12.8172315 L14.9065569,12.8172315 L14.9065569,11.2359835 L11.2819132,11.2359835 C11.3291099,12.2591067 11.2815965,22.1419069 11.2815965,22.1419069 L11.2815965,22.1415901 Z"></path>
+        </svg>
+    </a>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+    
+    <a class="social-icon" href="www.github.com/davidjohnbaker1" target="_blank" rel="noopener" title="GitHub">
+        <svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" fill="#ABABAB" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
+            <path d="M13.9988029,1.32087331 C6.82105037,1.32087331 1,7.14112562 1,14.3212723 C1,20.0649109 4.72454649,24.9370678 9.89038951,26.6560892 C10.5408085,26.7757983 10.7778323,26.374374 10.7778323,26.0296121 C10.7778323,25.7215609 10.7666595,24.9035493 10.760275,23.8189856 C7.14426471,24.6042767 6.38131925,22.0760223 6.38131925,22.0760223 C5.78995672,20.5740732 4.93762853,20.1742451 4.93762853,20.1742451 C3.75729765,19.3682044 5.02701126,19.3841656 5.02701126,19.3841656 C6.33183953,19.4759425 7.01817121,20.7241085 7.01817121,20.7241085 C8.17775254,22.7104801 10.0611744,22.1366749 10.8017741,21.8038838 C10.919887,20.9643246 11.2558703,20.3913175 11.6269683,20.066507 C8.74038491,19.7385043 5.70536235,18.6228163 5.70536235,13.6413251 C5.70536235,12.2223743 6.21213051,11.0611968 7.04370914,10.1530044 C6.90963504,9.82420367 6.46351945,8.50181809 7.17139875,6.71256734 C7.17139875,6.71256734 8.26234691,6.36301702 10.7459099,8.04532771 C11.78259,7.75642995 12.8950858,7.61277914 14.000399,7.60719272 C15.1049142,7.61277914 16.2166119,7.75642995 17.2548881,8.04532771 C19.736855,6.36301702 20.8262071,6.71256734 20.8262071,6.71256734 C21.5356825,8.50181809 21.0895669,9.82420367 20.9562909,10.1530044 C21.7894656,11.0611968 22.2922435,12.2223743 22.2922435,13.6413251 C22.2922435,18.6355852 19.2524325,19.734514 16.3570705,20.0561322 C16.8231376,20.4575564 17.2389269,21.2508282 17.2389269,22.4638795 C17.2389269,24.2012564 17.2229657,25.603448 17.2229657,26.0296121 C17.2229657,26.3775663 17.4575954,26.7821827 18.116793,26.6552912 C23.2786458,24.9322794 27,20.0633148 27,14.3212723 C27,7.14112562 21.1789496,1.32087331 13.9988029,1.32087331"></path>
+        </svg>
+    </a>
+    
+
+    
+    
+    
+
+    
+
+    
+    <a class="social-icon" href="https://scholar.google.com/citations?user=tigU2AkAAAAJ&amp;hl=en" target="_blank" rel="noopener" title="Google Scholar">
+        <svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" fill="#ABABAB" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
+             <path d="M15.7399177,5.48151786 C15.149924,4.82272859 14.4663239,4.49480724 13.6933878,4.49480724 C12.8185607,4.49480724 12.1471312,4.80966127 11.6791845,5.43796013 C11.2112379,6.06433732 10.9771365,6.82326666 10.9771365,7.71483354 C10.9771365,8.47423262 11.1052474,9.24733956 11.3616402,10.035649 C11.6170934,10.8236168 12.0350768,11.5270314 12.6210136,12.1470458 C13.2049434,12.7685974 13.8844439,13.0787968 14.6564833,13.0787968 C15.5171327,13.0787968 16.189459,12.7903763 16.671626,12.2137916 C17.1517432,11.6379755 17.3927199,10.9111166 17.3927199,10.035649 C17.3927199,9.29000051 17.2655484,8.50924961 17.0102233,7.69296927 C16.7561365,6.87562134 16.3319184,6.13812924 15.739875,5.48156056 L15.7399177,5.48151786 Z M24.3072528,4.96950105 L24.3072528,13.3462071 C24.3072528,13.7339989 23.9898792,14.0515006 23.6019592,14.0515006 L23.3422783,14.0515006 C22.9543156,14.0515006 22.6369848,13.7341271 22.6369848,13.3462071 L22.6369848,4.96950105 C22.6369848,4.62513879 22.5869788,4.33765779 23.068249,4.27714671 L23.068249,3.16262405 L19.3634081,6.20120253 C19.4061972,6.28058863 19.446851,6.33132057 19.4854124,6.39789556 C19.8110278,6.97418137 19.9768461,7.69087679 19.9768461,8.56681414 C19.9768461,9.23824368 19.8649625,9.84134739 19.638078,10.3740328 C19.4122611,10.9065473 19.1375912,11.3415267 18.817143,11.6765369 C18.496652,12.0127855 18.1752643,12.3201237 17.8538766,12.5967152 C17.5324462,12.8739047 17.2577763,13.162923 17.0328135,13.4629589 C16.8060571,13.7620125 16.6932767,14.0712297 16.6932767,14.3917206 C16.6932767,14.7126813 16.8397076,15.0387237 17.1317151,15.3673283 C17.4226551,15.6968724 17.7805972,16.0162103 18.2038758,16.3317049 C18.6279231,16.6450216 19.0510736,16.9928002 19.4743522,17.3712399 C19.8985703,17.74921 20.2545052,18.2354765 20.5454452,18.8259399 C20.8385631,19.4186239 20.9848231,20.071093 20.9848231,20.7882582 C20.9848231,21.7343577 20.7435475,22.5887297 20.2626616,23.3491963 C19.7802812,24.1064175 19.1518542,24.7106315 18.3796867,25.1537246 C17.6054695,25.599807 16.777531,25.9355858 15.8945476,26.1623422 C15.0097279,26.3870488 14.1317408,26.5 13.2548639,26.5 C12.7014246,26.5 12.1429889,26.4573818 11.5814359,26.3697112 C11.0178757,26.2822114 10.4532907,26.1276668 9.8847343,25.9098782 C9.31502485,25.6906377 8.81052389,25.4214338 8.37319577,25.0981672 C7.93475736,24.778146 7.58181166,24.3652016 7.3111559,23.862238 C7.04054285,23.3591036 6.90615445,22.7936645 6.90615445,22.1655364 C6.90615445,21.4203577 7.1136515,20.7291563 7.52975591,20.0847582 C7.94586031,19.4451002 8.49707907,18.9108775 9.18272893,18.487727 C10.3789864,17.7434877 12.2558547,17.2836547 14.8102164,17.1098936 C14.2262867,16.3799173 13.9333396,15.6928582 13.9333396,15.0498693 C13.9333396,14.6841125 14.0289531,14.2920503 14.218173,13.8687717 C13.9130554,13.9113899 13.5987992,13.9355175 13.2781801,13.9355175 C11.9059836,13.9355175 10.7472627,13.4894351 9.80628769,12.5911638 C8.86535538,11.6944724 8.39535897,10.5719642 8.39535897,9.21488479 C8.39535897,9.07298054 8.39941581,8.94802965 8.40970739,8.8095417 L2.83316537,8.8095417 L11.2417283,1.5 L25.1668346,1.5 L23.87996,2.50451805 L23.87996,4.27748834 C24.3577712,4.3388962 24.3072955,4.62607827 24.3072955,4.96950105 L24.3072528,4.96950105 Z M15.8172967,17.9839947 C15.6566455,17.9549562 15.430914,17.9386434 15.1399313,17.9386434 C14.512273,17.9386434 13.8947782,17.9941154 13.2885571,18.1048887 C12.6822934,18.2126727 12.084186,18.3947184 11.4941496,18.6515809 C10.9019353,18.906906 10.423996,19.2823566 10.0597766,19.7787865 C9.69355004,20.274576 9.51150436,20.858463 9.51150436,21.5303623 C9.51150436,22.1706609 9.67215551,22.7419077 9.99371402,23.2394479 C10.3142049,23.7338281 10.7373127,24.1208513 11.2632509,24.3980408 C11.7891891,24.6756999 12.3405787,24.8854176 12.916224,25.0231795 C13.4929795,25.1600875 14.0799412,25.2311463 14.6780913,25.2311463 C15.8610679,25.2311463 16.8794647,24.9647609 17.7338794,24.4320756 C18.5863724,23.899561 19.0135798,23.0772595 19.0135798,21.9672634 C19.0135798,21.7338025 18.9810823,21.5040141 18.916856,21.2796064 C18.8498112,21.0527219 18.7835352,20.8585057 18.7185829,20.6972567 C18.6534171,20.5389543 18.529363,20.3483679 18.3462498,20.1286576 C18.1642041,19.9083067 18.0248194,19.7455631 17.9310848,19.6372239 C17.8354714,19.5253403 17.6565431,19.3656714 17.3929761,19.1545445 C17.131587,18.9425209 16.9647012,18.8103104 16.8904822,18.7614574 C16.8172027,18.7100422 16.6270434,18.5711699 16.3207728,18.3458227 C16.0147157,18.1186393 15.8468903,17.9981723 15.8173394,17.983952 L15.8172967,17.9839947 Z"></path>
+        </svg>
+    </a>
+    
+
+    
+
+    
+    <a class="social-icon" href="https://orcid.org/0000-0003-3921-7517" target="_blank" rel="noopener" title="Orcid">
+        <svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" fill="#ABABAB" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
+            <path d="M27,14 C27,21.1804687 21.1804687,27 14,27 C6.81953125,27 1,21.1804687 1,14 C1,6.81953125 6.81953125,1 14,1 C21.1804687,1 27,6.81953125 27,14 Z M9.76484375,19.9109375 L9.76484375,13.9492188 L9.76484375,9.03359375 L8.20078125,9.03359375 L8.20078125,19.9109375 L9.76484375,19.9109375 Z M12.0601563,9.03359375 L12.0601563,19.9210938 L16.3054688,19.9210938 C19.890625,19.9210938 22.0742188,17.2703125 22.0742188,14.4773437 C22.0742188,11.9078125 20.3070313,9.03359375 16.2851563,9.03359375 L12.0601563,9.03359375 Z M13.6242188,18.509375 L13.6242188,10.4453125 L16.03125,10.4453125 C19.078125,10.4453125 20.4695313,12.29375 20.4695313,14.4773437 C20.4695313,15.8179688 19.6570313,18.509375 16.1125,18.509375 L13.6242188,18.509375 Z M10.0085938,6.76875 C10.0085938,6.21015625 9.5515625,5.74296875 8.9828125,5.74296875 C8.4140625,5.74296875 7.95703125,6.2 7.95703125,6.76875 C7.95703125,7.32734375 8.4140625,7.79453125 8.9828125,7.79453125 C9.5515625,7.79453125 10.0085938,7.32734375 10.0085938,6.76875 Z"></path>
+        </svg>
+    </a>
+    
+
+    
+
+</div>
+
+
+
+
+	<div class="footer-mobile-links">
+		<p><a href="https://github.com/kimcc/hugo-theme-noteworthy" target="_blank" rel="noopener">Noteworthy theme</a></p>
+		<span class="divider-bar">|</span>
+		<p><a href="https://gohugo.io" target="_blank" rel="noopener">Built with Hugo</a></p>
+	</div>
+
+	<script src="https://davidjohnbaker.rbind.io/js/main.min.a7205ef73b078c8daed6fe1b0826e8ba229ffabbb69d299d9446cf41f2c7d8aa.js" integrity="sha256-pyBe9zsHjI2u1v4bCCbouiKf+ru2nSmdlEbPQfLH2Ko=" crossorigin="anonymous"></script>
+</footer>
+    </body>
+</html>

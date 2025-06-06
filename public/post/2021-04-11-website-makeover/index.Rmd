@@ -1,0 +1,20 @@
+---
+title: Website Makeover
+author: davidjohnbaker
+date: '2021-04-11'
+slug: []
+categories: ["personal"]
+tags: ["personal"]
+---
+
+After a few months of not blogging, I'm hoping to return to writing with a bit more regularity.
+I think the trick to this will be trying to write shorter posts, more frequently.
+
+I've also gutted my old design and opted for a more minimal theme. 
+I liked everything about the old [academic theme](https://wowchemy.com/templates/), but it just felt like too much to maintain and a bit too overstated.
+
+Lots of new things I wanted to post about in the near future, so either keep an eye on the site or my [twitter feed](https://twitter.com/DavidJohnBaker) if you're interested in hearing about it. 
+
+<center>
+![](park-in-fh.jpg){width=50%}
+</center>

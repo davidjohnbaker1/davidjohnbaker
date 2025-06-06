@@ -10,9 +10,9 @@
     <atom:link href="https://davidjohnbaker.rbind.io/tags/transformational-theory/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Calculating iMultisets in R</title>
-      <link>https://davidjohnbaker.rbind.io/posts/calculating-imultisets-in-r/</link>
+      <link>https://davidjohnbaker.rbind.io/post/calculating-imultisets-in-r/</link>
       <pubDate>Sun, 19 Nov 2017 00:00:00 +0000</pubDate>
-      <guid>https://davidjohnbaker.rbind.io/posts/calculating-imultisets-in-r/</guid>
+      <guid>https://davidjohnbaker.rbind.io/post/calculating-imultisets-in-r/</guid>
       <description>November is pretty much the worst month for people in higher education.</description>
     </item>
   </channel>
